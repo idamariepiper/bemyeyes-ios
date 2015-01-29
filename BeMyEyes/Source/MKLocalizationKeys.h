@@ -136,6 +136,11 @@ static NSString * const PostCallLocalizationTable = @"PostCallLocalizationTable"
 static NSString * const DemoCallLocalizationTable = @"DemoCallLocalizationTable";
 
 /*!
+ * HelperWelcomeLocalizationTable strings file 
+ */
+static NSString * const HelperWelcomeLocalizationTable = @"HelperWelcomeLocalizationTable";
+
+/*!
  * InfoPlist strings file 
  */
 static NSString * const InfoPlist = @"InfoPlist";
@@ -21667,6 +21672,50 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_WELCOME_TITLE'
+/*!
+ * "Welcome %@"
+
+ * All translations:
+
+ * @b en@: "Welcome %@"
+
+ */
+static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_WELCOME_DESCRIPTION'
+/*!
+ * "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * All translations:
+
+ * @b en@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ */
+static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DESCRIPTION";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_DEMO_CALL_TITLE'
+/*!
+ * "Make a test call"
+
+ * All translations:
+
+ * @b en@: "Make a test call"
+
+ */
+static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITLE";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_DONE_TITLE'
+/*!
+ * "Ok, got it"
+
+ * All translations:
+
+ * @b en@: "Ok, got it"
+
+ */
+static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
 
 #warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER'
 /*!

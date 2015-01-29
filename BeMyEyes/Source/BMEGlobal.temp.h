@@ -54,4 +54,6 @@
 #define BMEInitiateCallIfPossibleNotification @"BMEInitateCallIfPossibleNotification"
 #define BMEDidAnswerDemoCallNotification @"BMEDidAnswerDemoCallNotification"
 
+#define BMEDidLogInNotificationDisplayHelperWelcomeKey @"BMEDidLogInNotificationDisplayHelperWelcomeKey"
+
 #endif

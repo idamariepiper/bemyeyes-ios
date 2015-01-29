@@ -160,6 +160,10 @@ static NSString *const videoSegueIdentifier = @"Video";
 
 - (IBAction)testCallButtonPressed:(id)sender {
 	DemoCallViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:BMEDemoCallViewController];
+    controller.callCompletion = ^(UIViewController *completion) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    };
+    
 	[self presentViewController:controller animated:YES completion:nil];
 }
 

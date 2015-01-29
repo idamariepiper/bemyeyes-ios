@@ -9,6 +9,8 @@
 #import "BMEFrontPageViewController.h"
 #import "BMEPointLabel.h"
 #import "BMECommunityStats.h"
+#import "BMEBlindIntroViewController.h"
+#import "BeMyEyes-Swift.h"
 
 @interface BMEFrontPageViewController ()
 @property (weak, nonatomic) IBOutlet UIView *logoContainer;
@@ -111,6 +113,15 @@ static NSString *const BMELoginSegue = @"Login";
     [self performSegueWithIdentifier:BMELoginSegue sender:self];
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:BMEHelperSegue]) {
+        OnboardingVideoViewController *controller = (OnboardingVideoViewController *)segue.destinationViewController;
+        [controller setHelperRole];
+    } else if ([segue.identifier isEqualToString:BMEBlindSegue]) {
+        BMEBlindIntroViewController *controller = (BMEBlindIntroViewController *)segue.destinationViewController;
+        controller.role = BMERoleBlind;
+    }
+}
 
 #pragma mark - Private
 

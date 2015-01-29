@@ -17,6 +17,8 @@ class DemoCallViewController: BMEBaseViewController {
 	@IBOutlet weak var cancelButton: UIButton!
 	@IBOutlet weak var step1Label: UILabel!
 	@IBOutlet weak var step2Label: UILabel!
+    
+    internal var callCompletion: ((UIViewController) -> ())?
 	
 	// MARK: - Lifecycle
 	
@@ -89,4 +91,11 @@ class DemoCallViewController: BMEBaseViewController {
 			NSNotificationCenter.defaultCenter().removeObserver(self, name: UIApplicationWillEnterForegroundNotification, object: nil)
 		}
 	}
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == DemoVideoSegue {
+            let controller = segue.destinationViewController as DemoCallVideoViewController
+            controller.completion = callCompletion
+        }
+    }
 }
