@@ -10,7 +10,7 @@ import UIKit
 
 class OnboardingVideoViewController: IntroVideoViewController {
 
-    let videoToIntroHelperSegue = "VideoToIntroHelper"
+    let videoToSignUpSegue = "VideoToSignUp"
     
     var role: BMERole?
 	
@@ -27,11 +27,11 @@ class OnboardingVideoViewController: IntroVideoViewController {
     override func finishedPlaying() {
         super.finishedPlaying()
         
-        self.performSegueWithIdentifier(videoToIntroHelperSegue, sender: self)
+        self.performSegueWithIdentifier(videoToSignUpSegue, sender: self)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == videoToIntroHelperSegue {
+        if segue.identifier == videoToSignUpSegue {
             if let signup = segue.destinationViewController as? BMESignUpViewController {
                 if let role = role {
                     signup.role = role

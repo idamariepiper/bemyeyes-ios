@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pPv-pk-tQL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pPv-pk-tQL">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -25,7 +25,7 @@
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmg-sQ-kOY" userLabel="Community Stats View">
-                                <rect key="frame" x="15" y="0.0" width="290" height="71.5"/>
+                                <rect key="frame" x="15" y="0.0" width="290" height="72"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Be My Eyes Network" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlY-08-fhH">
                                         <rect key="frame" x="0.0" y="5" width="290" height="17"/>
@@ -33,18 +33,18 @@
                                             <bool key="isElement" value="NO"/>
                                         </accessibility>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSi-hN-xg4" userLabel="Separator 1">
-                                        <rect key="frame" x="0.0" y="47" width="30.5" height="5"/>
+                                        <rect key="frame" x="0.0" y="47" width="31" height="5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="uK0-gp-LuM"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="voN-tL-YkH" userLabel="Sighted">
-                                        <rect key="frame" x="30" y="27" width="66" height="44.5"/>
+                                        <rect key="frame" x="30" y="27" width="66" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="421k" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz3-fb-tJr" userLabel="42k" customClass="BMEPointLabel">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="36"/>
@@ -56,12 +56,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sighted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEj-r0-eEf" userLabel="Sighted">
-                                                <rect key="frame" x="0.0" y="31" width="66" height="13.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="66" height="14"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -77,14 +77,14 @@
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7dM-tL-aO5" userLabel="Separator 2">
-                                        <rect key="frame" x="96" y="47" width="15.5" height="5"/>
+                                        <rect key="frame" x="96" y="47" width="16" height="5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="BTs-jS-oJY"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BS6-su-hfO" userLabel="Blind">
-                                        <rect key="frame" x="112" y="27" width="66" height="44.5"/>
+                                        <rect key="frame" x="112" y="27" width="66" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="512" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzD-R4-9bG" customClass="BMEPointLabel">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="36"/>
@@ -96,12 +96,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wih-2Q-gty">
-                                                <rect key="frame" x="0.0" y="31" width="66" height="13.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="66" height="14"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -117,14 +117,14 @@
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwn-Xz-knj" userLabel="Separator 3">
-                                        <rect key="frame" x="178" y="47" width="15.5" height="5"/>
+                                        <rect key="frame" x="178" y="47" width="16" height="5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="hXF-Ha-TBC"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rz-TP-5dg" userLabel="Helped">
-                                        <rect key="frame" x="193" y="27" width="66" height="44.5"/>
+                                        <rect key="frame" x="193" y="27" width="66" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXJ-n1-HIU" customClass="BMEPointLabel">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="36"/>
@@ -136,12 +136,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helped" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRX-sl-5ha">
-                                                <rect key="frame" x="0.0" y="31" width="66" height="13.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="66" height="14"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -157,7 +157,7 @@
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-iZ-zHC" userLabel="Separator 4">
-                                        <rect key="frame" x="259" y="47" width="30.5" height="5"/>
+                                        <rect key="frame" x="259" y="47" width="31" height="5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="48O-jL-A8R"/>
@@ -249,9 +249,9 @@
                                 </connections>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your role?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHE-NR-WpR">
-                                <rect key="frame" x="15" y="297" width="290" height="19.5"/>
+                                <rect key="frame" x="15" y="297" width="290" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kV5-ME-fhW" userLabel="I am sighted" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
@@ -375,11 +375,11 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                 <state key="normal" title="Done" image="NextButton">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hG3-jw-vqP" kind="push" identifier="VideoToIntroHelper" id="A7j-PL-awY"/>
+                                    <segue destination="rmT-tx-lgV" kind="push" identifier="VideoToSignUp" id="z55-42-yOb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -398,160 +398,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CeR-IK-Up2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="358" y="-230"/>
-        </scene>
-        <!--Helper Intro View Controller-->
-        <scene sceneID="zB6-mI-jFV">
-            <objects>
-                <viewController id="hG3-jw-vqP" customClass="BMEHelperIntroViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XQC-4S-8pI"/>
-                        <viewControllerLayoutGuide type="bottom" id="Hrt-37-M7c"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iYo-eM-Yi3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N0b-PS-XxZ" customClass="GradientView" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meS-rG-ru3">
-                                <rect key="frame" x="0.0" y="20" width="70" height="61"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <inset key="contentEdgeInsets" minX="15" minY="15" maxX="0.0" maxY="15"/>
-                                <state key="normal" title="Back" image="BackButton">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="backButtonPressed:" destination="hG3-jw-vqP" eventType="touchUpInside" id="OhN-6a-tql"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BDu-yu-g9L">
-                                <rect key="frame" x="0.0" y="81" width="320" height="338"/>
-                                <subviews>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVx-JZ-Jwn" userLabel="Separator 1">
-                                        <rect key="frame" x="155" y="0.0" width="10" height="54"/>
-                                        <color key="backgroundColor" red="0.45882352939999999" green="0.7725490196" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="10" id="r3G-nY-V5m"/>
-                                        </constraints>
-                                    </view>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="Helping is easy!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyU-Xz-NIz">
-                                        <rect key="frame" x="15" y="54" width="290" height="35"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="29"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IUC-Ih-Y0N" userLabel="Seperator 2">
-                                        <rect key="frame" x="155" y="97" width="10" height="27"/>
-                                        <color key="backgroundColor" red="0.45882352939999999" green="0.7725490196" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="10" id="WeK-UP-3DR"/>
-                                        </constraints>
-                                    </view>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="Help whenever you want, wherever you want." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r46-QU-kdt">
-                                        <rect key="frame" x="15" y="124" width="290" height="55"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ta-bD-L2K" userLabel="Seperator 3">
-                                        <rect key="frame" x="155" y="179" width="10" height="27"/>
-                                        <color key="backgroundColor" red="0.45882352939999999" green="0.7725490196" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="10" id="OwE-MB-gjO"/>
-                                        </constraints>
-                                    </view>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="Your phone is open for calls from people who need help when you are signed in." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAg-cR-b9G">
-                                        <rect key="frame" x="15" y="206" width="290" height="78"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Q5-wh-Isf" userLabel="Seperator 4">
-                                        <rect key="frame" x="155" y="284" width="10" height="54"/>
-                                        <color key="backgroundColor" red="0.45882352939999999" green="0.7725490196" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="10" id="2Lq-ZA-3UF"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="r46-QU-kdt" firstAttribute="top" secondItem="IUC-Ih-Y0N" secondAttribute="bottom" id="2tm-ui-Sbu"/>
-                                    <constraint firstAttribute="centerX" secondItem="r46-QU-kdt" secondAttribute="centerX" id="5TY-ba-2TD"/>
-                                    <constraint firstAttribute="bottom" secondItem="9Q5-wh-Isf" secondAttribute="bottom" id="9vV-7h-nvK"/>
-                                    <constraint firstItem="iVx-JZ-Jwn" firstAttribute="height" secondItem="1ta-bD-L2K" secondAttribute="height" multiplier="2" id="Fme-0h-0UZ"/>
-                                    <constraint firstItem="iVx-JZ-Jwn" firstAttribute="top" secondItem="BDu-yu-g9L" secondAttribute="top" id="GI6-h8-naa"/>
-                                    <constraint firstAttribute="trailing" secondItem="yyU-Xz-NIz" secondAttribute="trailing" constant="15" id="Hdl-rv-xuc"/>
-                                    <constraint firstItem="9Q5-wh-Isf" firstAttribute="top" secondItem="pAg-cR-b9G" secondAttribute="bottom" id="Jvx-pF-yXN"/>
-                                    <constraint firstAttribute="centerX" secondItem="iVx-JZ-Jwn" secondAttribute="centerX" id="KoU-B5-MJp"/>
-                                    <constraint firstItem="iVx-JZ-Jwn" firstAttribute="height" secondItem="IUC-Ih-Y0N" secondAttribute="height" multiplier="2" id="L8Z-wl-o5E"/>
-                                    <constraint firstItem="yyU-Xz-NIz" firstAttribute="top" secondItem="iVx-JZ-Jwn" secondAttribute="bottom" id="M5L-qm-cbM"/>
-                                    <constraint firstAttribute="trailing" secondItem="pAg-cR-b9G" secondAttribute="trailing" constant="15" id="OAN-dE-oAE"/>
-                                    <constraint firstItem="yyU-Xz-NIz" firstAttribute="leading" secondItem="BDu-yu-g9L" secondAttribute="leading" constant="15" id="QpM-89-1JD"/>
-                                    <constraint firstItem="iVx-JZ-Jwn" firstAttribute="height" secondItem="9Q5-wh-Isf" secondAttribute="height" id="Zxm-3c-3Ox"/>
-                                    <constraint firstItem="1ta-bD-L2K" firstAttribute="top" secondItem="r46-QU-kdt" secondAttribute="bottom" id="eeB-Yh-L7K"/>
-                                    <constraint firstItem="pAg-cR-b9G" firstAttribute="leading" secondItem="BDu-yu-g9L" secondAttribute="leading" constant="15" id="feK-RH-atU"/>
-                                    <constraint firstAttribute="centerX" secondItem="IUC-Ih-Y0N" secondAttribute="centerX" id="hFT-82-la8"/>
-                                    <constraint firstAttribute="centerX" secondItem="9Q5-wh-Isf" secondAttribute="centerX" id="kPL-Xa-x6Q"/>
-                                    <constraint firstAttribute="centerX" secondItem="1ta-bD-L2K" secondAttribute="centerX" id="mfF-jl-wAE"/>
-                                    <constraint firstItem="r46-QU-kdt" firstAttribute="leading" secondItem="BDu-yu-g9L" secondAttribute="leading" constant="15" id="qaj-ok-jxI"/>
-                                    <constraint firstItem="pAg-cR-b9G" firstAttribute="top" secondItem="1ta-bD-L2K" secondAttribute="bottom" id="tck-76-KW5"/>
-                                    <constraint firstAttribute="trailing" secondItem="r46-QU-kdt" secondAttribute="trailing" constant="15" id="thE-zl-OkB"/>
-                                    <constraint firstItem="IUC-Ih-Y0N" firstAttribute="top" secondItem="yyU-Xz-NIz" secondAttribute="bottom" constant="8" id="xfK-dP-oaE"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqf-te-yzQ" customClass="BMEButtonImageToRight">
-                                <rect key="frame" x="206" y="419" width="114" height="61"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
-                                <state key="normal" title="Continue" image="NextButton">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="rmT-tx-lgV" kind="push" identifier="SignUpMethod" id="kdn-ps-MZv"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="N0b-PS-XxZ" firstAttribute="top" secondItem="iYo-eM-Yi3" secondAttribute="top" id="4by-qQ-eNM"/>
-                            <constraint firstItem="meS-rG-ru3" firstAttribute="top" secondItem="XQC-4S-8pI" secondAttribute="bottom" id="6a5-Zd-law"/>
-                            <constraint firstItem="BDu-yu-g9L" firstAttribute="top" secondItem="meS-rG-ru3" secondAttribute="bottom" id="G5s-2F-gb5"/>
-                            <constraint firstAttribute="trailing" secondItem="Jqf-te-yzQ" secondAttribute="trailing" id="KXz-Jd-GrM"/>
-                            <constraint firstItem="Hrt-37-M7c" firstAttribute="top" secondItem="Jqf-te-yzQ" secondAttribute="bottom" id="QXM-SI-okI"/>
-                            <constraint firstAttribute="trailing" secondItem="N0b-PS-XxZ" secondAttribute="trailing" id="TPf-8J-Im4"/>
-                            <constraint firstItem="Jqf-te-yzQ" firstAttribute="top" secondItem="BDu-yu-g9L" secondAttribute="bottom" id="b6i-cC-LEG"/>
-                            <constraint firstItem="Hrt-37-M7c" firstAttribute="top" secondItem="N0b-PS-XxZ" secondAttribute="bottom" id="njn-4M-HYf"/>
-                            <constraint firstAttribute="trailing" secondItem="BDu-yu-g9L" secondAttribute="trailing" id="qcU-4i-sKK"/>
-                            <constraint firstItem="BDu-yu-g9L" firstAttribute="leading" secondItem="iYo-eM-Yi3" secondAttribute="leading" id="qym-zd-7kf"/>
-                            <constraint firstItem="meS-rG-ru3" firstAttribute="leading" secondItem="iYo-eM-Yi3" secondAttribute="leading" id="tU9-Xu-eBT"/>
-                            <constraint firstItem="N0b-PS-XxZ" firstAttribute="leading" secondItem="iYo-eM-Yi3" secondAttribute="leading" id="yEf-Hr-mq3"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="Khn-pj-PxL"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <connections>
-                        <outlet property="backButton" destination="meS-rG-ru3" id="0WG-kh-IJl"/>
-                        <outlet property="continueButton" destination="Jqf-te-yzQ" id="bsj-kG-5ZI"/>
-                        <outlet property="headlineLabel" destination="yyU-Xz-NIz" id="DH3-WF-vNl"/>
-                        <outlet property="longDescriptionLabel" destination="pAg-cR-b9G" id="oay-4o-5nH"/>
-                        <outlet property="shortDescriptionLabel" destination="r46-QU-kdt" id="HMw-a2-CaP"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yI4-gL-cCV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="794" y="-230"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Olh-l6-fc2">
@@ -585,7 +431,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <state key="highlighted">
-                                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="backButtonPressed:" destination="ihY-sp-kva" eventType="touchUpInside" id="mY6-SE-dWT"/>
@@ -705,7 +551,7 @@
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                                 <state key="normal" title="Forgot password">
-                                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -803,7 +649,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <state key="highlighted">
-                                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="backButtonPressed:" destination="wCM-Kk-HVA" eventType="touchUpInside" id="Xxa-nG-iIg"/>
@@ -812,7 +658,7 @@
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your e-mail and we'll send you a new password." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bl7-si-Ugu">
                                                 <rect key="frame" x="15" y="86" width="290" height="41"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pte-jz-YRe" userLabel="Email View">
@@ -961,7 +807,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="backButtonPressed:" destination="du8-BL-rDz" eventType="touchUpInside" id="Icd-cq-nS8"/>
@@ -980,7 +826,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="rmT-tx-lgV" kind="push" identifier="SignUpMethod" id="46J-Mt-BiQ"/>
@@ -1021,7 +867,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUd-10-1IW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="588" y="458"/>
+            <point key="canvasLocation" x="358" y="424"/>
         </scene>
         <!--Sign Up Method View Controller-->
         <scene sceneID="n7M-7j-dg5">
@@ -1049,7 +895,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="backButtonPressed:" destination="rmT-tx-lgV" eventType="touchUpInside" id="CeZ-qI-5eR"/>
@@ -1101,7 +947,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Terms and Agreements" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvx-U1-YpW">
@@ -1134,7 +980,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Privacy Policy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cud-rC-Tmf">
@@ -1219,7 +1065,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h6C-aM-2p2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1230" y="155"/>
+            <point key="canvasLocation" x="1074" y="74"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="Xdi-fl-Ovl">
@@ -1293,7 +1139,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                             <bool key="isElement" value="NO"/>
                                         </accessibility>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fra-zQ-yBq" userLabel="Separator 1">
@@ -1321,7 +1167,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1361,7 +1207,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1401,7 +1247,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1508,7 +1354,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <inset key="scrollIndicatorInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
-                                <color key="separatorColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="separatorColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="dWi-WX-fkY" userLabel="Header View">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="340"/>
@@ -1541,7 +1387,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1578,7 +1424,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1609,12 +1455,12 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Helper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDk-Fp-G2F">
                                                     <rect key="frame" x="28" y="-2" width="76" height="17"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eye" translatesAutoresizingMaskIntoConstraints="NO" id="SOn-zA-LeD">
                                                     <rect key="frame" x="0.0" y="0.0" width="23" height="14"/>
-                                                    <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="tintColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1668,19 +1514,19 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" text="Helped one person" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-5i-7OK">
                                                     <rect key="frame" x="15" y="8" width="139" height="20"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+50 points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hrm-bE-OmT">
                                                     <rect key="frame" x="226" y="8" width="79" height="20"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yesterday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yx2-YA-dhW">
                                                     <rect key="frame" x="15" y="28" width="51" height="13"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1937,7 +1783,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <state key="highlighted">
-                                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="backButtonPressed:" destination="rmT-tx-lgV" eventType="touchUpInside" id="OlK-ik-bdR"/>
@@ -2143,7 +1989,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAb-yu-tHx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1664" y="155"/>
+            <point key="canvasLocation" x="1508" y="74"/>
         </scene>
         <!--Terms View Controller-->
         <scene sceneID="cO8-SD-QcU">
@@ -2181,7 +2027,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
-                                            <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="backButtonPressed:" destination="4E4-en-CHX" eventType="touchUpInside" id="XVK-bd-SF8"/>
@@ -2219,7 +2065,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gmt-7Z-itp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1421" y="854"/>
+            <point key="canvasLocation" x="1265" y="773"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="28i-Ah-CML">
@@ -2306,7 +2152,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English, Danish" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyH-yG-Xzl">
                                 <rect key="frame" x="120" y="212" width="185" height="44"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0d-zV-1XX">
@@ -2322,7 +2168,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZO-6I-4RC" userLabel="Separator Account Info">
                                 <rect key="frame" x="15" y="300" width="290" height="1"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="9cq-AB-QGA"/>
                                 </constraints>
@@ -2428,7 +2274,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Paul" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IH7-YW-7ZL">
                                 <rect key="frame" x="120" y="80" width="185" height="44"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
                                 <userDefinedRuntimeAttributes>
@@ -2443,7 +2289,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="McCartney" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="24Y-Oq-jej">
                                 <rect key="frame" x="120" y="124" width="185" height="44"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
                                 <userDefinedRuntimeAttributes>
@@ -2458,7 +2304,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="demomail@bemyeyes.org" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fEL-aF-32C">
                                 <rect key="frame" x="120" y="168" width="185" height="44"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
                                 <userDefinedRuntimeAttributes>
@@ -2474,7 +2320,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.2 (43)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ub2-Qn-2Ma">
                                 <rect key="frame" x="218" y="442" width="87" height="16"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvF-nc-9Hj" userLabel="Back Button">
@@ -2599,7 +2445,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                 <state key="normal" title="Done">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -2641,7 +2487,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -2835,7 +2681,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please wait..." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIz-JI-R6d" userLabel="Status Label">
                                 <rect key="frame" x="15" y="268" width="290" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="fIa-UM-cZL">
@@ -2913,7 +2759,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks for the help!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHg-MV-rQf">
                                 <rect key="frame" x="15" y="20" width="290" height="220"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r4O-VG-VGH" userLabel="OK Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
@@ -2957,7 +2803,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <state key="normal" title="Report abuse?">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -3030,7 +2876,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a reason" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="j0k-QX-J5o">
                                                 <rect key="frame" x="15" y="63" width="290" height="17"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2y-gv-9Y5">
@@ -3038,7 +2884,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19s-Lx-UkH" userLabel="Top Separator">
                                                         <rect key="frame" x="15" y="0.0" width="290" height="1"/>
-                                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="5yb-zW-eKz"/>
                                                         </constraints>
@@ -3071,7 +2917,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qSL-w9-ptJ" userLabel="Separator 1">
                                                         <rect key="frame" x="15" y="70" width="290" height="1"/>
-                                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="I4a-qF-n0x"/>
                                                         </constraints>
@@ -3104,7 +2950,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xq-OI-ekn" userLabel="Separator 2">
                                                         <rect key="frame" x="15" y="140" width="290" height="1"/>
-                                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="mDH-SG-wH7"/>
                                                         </constraints>
@@ -3137,7 +2983,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="685-xm-B2U" userLabel="Bottom Separator">
                                                         <rect key="frame" x="15" y="209" width="290" height="1"/>
-                                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="GYP-92-unD"/>
                                                         </constraints>
@@ -3365,7 +3211,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
-                                            <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="backButtonPressed:" destination="DP6-hh-C0u" eventType="touchUpInside" id="AtL-kk-im7"/>
@@ -3403,7 +3249,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UXf-lv-Byk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1029" y="854"/>
+            <point key="canvasLocation" x="873" y="773"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SjL-ii-72Q">
@@ -3448,7 +3294,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cancelButtonPressed:" destination="kcj-LN-zSv" eventType="touchUpInside" id="9cc-g5-zp7"/>
@@ -3617,23 +3463,6 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
             </objects>
             <point key="canvasLocation" x="873" y="4585"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="kT2-RP-xRP">
-            <objects>
-                <viewController id="Brv-W8-xSF" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sxk-3d-hBd"/>
-                        <viewControllerLayoutGuide type="bottom" id="lqm-bh-b0F"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="IHh-4s-bFv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LXn-5l-D0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="BackButton" width="18" height="31"/>
@@ -3655,7 +3484,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="kdn-ps-MZv"/>
+        <segue reference="z55-42-yOb"/>
         <segue reference="THh-yj-HlV"/>
         <segue reference="tPL-wK-r0M"/>
     </inferredMetricsTieBreakers>

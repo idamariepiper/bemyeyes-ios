@@ -40,6 +40,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.backButtonPopsToRootViewController = YES;
+    
     [MKLocalization registerForLocalization:self];}
 
 - (void)shouldLocalize {
@@ -68,7 +70,6 @@
     [self.navigationController popViewControllerAnimated:NO];
     return YES;
 }
-
 
 #pragma mark -
 #pragma mark Private Methods
