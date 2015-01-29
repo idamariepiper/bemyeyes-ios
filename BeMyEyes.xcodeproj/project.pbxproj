@@ -2120,6 +2120,7 @@
 				4EE157CB1A6B06EF00178F9F /* vi */,
 			);
 			name = PostCallLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		4E6544841A010BEC00B71C1C /* BMEInterfaceLocalizationTable.strings */ = {
@@ -2159,6 +2160,7 @@
 				4EE157D61A6B06F000178F9F /* vi */,
 			);
 			name = BMEInterfaceLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		4EB46C4619F080FE008405B8 /* BMEAccessLocalization.strings */ = {
@@ -2198,6 +2200,7 @@
 				4EE157CD1A6B06F000178F9F /* vi */,
 			);
 			name = BMEAccessLocalization.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		4EDCE9411A01E069006C7A4A /* LaunchScreen.storyboard */ = {
@@ -2238,6 +2241,7 @@
 				4EE157CC1A6B06EF00178F9F /* vi */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		720D4D11194A1FAC00060D7F /* BMEReportAbuseLocalizationTable.strings */ = {
@@ -2277,6 +2281,7 @@
 				4EE157C21A6B06EF00178F9F /* vi */,
 			);
 			name = BMEReportAbuseLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		7216AD9D1A717D50009657F8 /* DemoCallLocalizationTable.strings */ = {
@@ -2286,6 +2291,7 @@
 				7216ADA01A717D74009657F8 /* da */,
 			);
 			name = DemoCallLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		7220D0EA1A7A55C1005DF4F0 /* HelperWelcomeLocalizationTable.strings */ = {
@@ -2294,6 +2300,7 @@
 				7220D0EB1A7A55C1005DF4F0 /* en */,
 			);
 			name = HelperWelcomeLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		7236E00618B8A87B00F622AA /* InfoPlist.strings */ = {
@@ -2302,6 +2309,7 @@
 				7236E00718B8A87B00F622AA /* en */,
 			);
 			name = InfoPlist.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		7236E00F18B8A87B00F622AA /* Main.storyboard */ = {
@@ -2310,6 +2318,7 @@
 				7236E01018B8A87B00F622AA /* Base */,
 			);
 			name = Main.storyboard;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72414AF8196AAD5C00A2C5F4 /* BMELanguagesLocalizationTable.strings */ = {
@@ -2349,6 +2358,7 @@
 				4EE157D71A6B06F000178F9F /* vi */,
 			);
 			name = BMELanguagesLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72414AFB196AB16A00A2C5F4 /* BMEMainLocalizationTable.strings */ = {
@@ -2388,6 +2398,7 @@
 				4EE157D91A6B06F000178F9F /* vi */,
 			);
 			name = BMEMainLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		727E13EA194B3189002EDA7E /* BMEForgotPasswordLocalizationTable.strings */ = {
@@ -2427,6 +2438,7 @@
 				4EE157D21A6B06F000178F9F /* vi */,
 			);
 			name = BMEForgotPasswordLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72856DDE19AF608B0027AFF5 /* BMEFrontPageLocalizationTable.strings */ = {
@@ -2466,6 +2478,7 @@
 				4EE157D31A6B06F000178F9F /* vi */,
 			);
 			name = BMEFrontPageLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72856DEA19AF66A20027AFF5 /* BMEBlindIntroLocalizationTable.strings */ = {
@@ -2505,6 +2518,7 @@
 				4EE157CF1A6B06F000178F9F /* vi */,
 			);
 			name = BMEBlindIntroLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72856DED19AF71CB0027AFF5 /* BMESecretSettingsLocalizationTable.strings */ = {
@@ -2544,6 +2558,7 @@
 				4EE157C31A6B06EF00178F9F /* vi */,
 			);
 			name = BMESecretSettingsLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72856DF019AF75420027AFF5 /* BMETermsLocalizationTable.strings */ = {
@@ -2583,6 +2598,7 @@
 				4EE157C81A6B06EF00178F9F /* vi */,
 			);
 			name = BMETermsLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72856DF319AF761F0027AFF5 /* BMEPrivacyPolicyLocalizationTable.strings */ = {
@@ -2622,6 +2638,7 @@
 				4EE157DA1A6B06F000178F9F /* vi */,
 			);
 			name = BMEPrivacyPolicyLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72856DF619AF789E0027AFF5 /* BMERegisteredLocalizationTable.strings */ = {
@@ -2661,6 +2678,7 @@
 				4EE157DB1A6B06F100178F9F /* vi */,
 			);
 			name = BMERegisteredLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		729656A618CC9D5F00E1A9EE /* BMESettingsLocalizationTable.strings */ = {
@@ -2700,6 +2718,7 @@
 				4EE157C41A6B06EF00178F9F /* vi */,
 			);
 			name = BMESettingsLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72A7676D1902A5C4003121C4 /* BMEHelperMainLocalizationTable.strings */ = {
@@ -2739,6 +2758,7 @@
 				4EE157D51A6B06F000178F9F /* vi */,
 			);
 			name = BMEHelperMainLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72A767701902A5F4003121C4 /* BMESnoozeRelativeDateLocalizationTable.strings */ = {
@@ -2778,6 +2798,7 @@
 				4EE157C71A6B06EF00178F9F /* vi */,
 			);
 			name = BMESnoozeRelativeDateLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72B1493818DF686600E9A8A9 /* BMECallLocalizationTable.strings */ = {
@@ -2817,6 +2838,7 @@
 				4EE157D11A6B06F000178F9F /* vi */,
 			);
 			name = BMECallLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72B3C4C61987E22100A56D49 /* BMEVideoLocalizationTable.strings */ = {
@@ -2856,6 +2878,7 @@
 				4EE157C91A6B06EF00178F9F /* vi */,
 			);
 			name = BMEVideoLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72DA826C18D4699F001F3312 /* BMEBlindMainLocalizationTable.strings */ = {
@@ -2895,6 +2918,7 @@
 				4EE157D01A6B06F000178F9F /* vi */,
 			);
 			name = BMEBlindMainLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72DA826F18D46C6A001F3312 /* BMEAppDelegateLocalizationTable.strings */ = {
@@ -2934,6 +2958,7 @@
 				4EE157CE1A6B06F000178F9F /* vi */,
 			);
 			name = BMEAppDelegateLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72DA827518D4716A001F3312 /* Localizable.strings */ = {
@@ -2973,6 +2998,7 @@
 				4EE157CA1A6B06EF00178F9F /* vi */,
 			);
 			name = Localizable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72E65F9C18BA7A35002FB2E0 /* BMESignUpLocalizationTable.strings */ = {
@@ -3012,6 +3038,7 @@
 				4EE157C51A6B06EF00178F9F /* vi */,
 			);
 			name = BMESignUpLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72E65F9F18BA7A4E002FB2E0 /* BMELoginLocalizationTable.strings */ = {
@@ -3051,6 +3078,7 @@
 				4EE157D81A6B06F000178F9F /* vi */,
 			);
 			name = BMELoginLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		72E65FA818BA81BB002FB2E0 /* BMESignUpMethodLocalizationTable.strings */ = {
@@ -3090,6 +3118,7 @@
 				4EE157C61A6B06EF00178F9F /* vi */,
 			);
 			name = BMESignUpMethodLocalizationTable.strings;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
