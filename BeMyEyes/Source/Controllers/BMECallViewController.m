@@ -53,6 +53,7 @@ static NSString *BMECallPostSegue = @"PostCall";
     [MKLocalization registerForLocalization:self];
     
     self.statusLabel.text = MKLocalizedFromTable(BME_CALL_STATUS_PLEASE_WAIT, BMECallLocalizationTable);
+    self.activityIndicatorView.isAccessibilityElement = NO;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
