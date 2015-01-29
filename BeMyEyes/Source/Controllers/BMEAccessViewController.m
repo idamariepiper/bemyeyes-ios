@@ -171,26 +171,6 @@
 
 #pragma mark - 
 
-- (UIView *)newSpacerBetweenView:(UIView *)v1 :(UIView *)v2
-{
-    UIView *spacer = [self newSpacer];
-    spacer.keepTopOffsetTo(v1).equal =
-    spacer.keepBottomOffsetTo(v2).equal = 0;
-    return spacer;
-}
-
-- (UIView *)newSpacer
-{
-    UIView *spacer = [UIView new];
-    spacer.backgroundColor = [UIColor greenColor];
-    spacer.keepWidth.equal = 5;
-    [self.view addSubview:spacer];
-    return spacer;
-}
-
-
-#pragma mark - 
-
 - (void)touchUpInsideNotificationsView
 {
     if (self.accessNotificationsView.selected) {

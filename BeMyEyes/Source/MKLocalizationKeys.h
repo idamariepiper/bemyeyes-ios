@@ -1153,7 +1153,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE = @"BME_APP_DE
 static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL";
 
 /*!
- * "You must give the application permission to use your microphone in the system settings."
+ * "You must give the application permission to use your microphone in system settings."
 
  * All translations:
 
@@ -1167,7 +1167,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
 
  * @b el@: "Πρέπει να δώσετε στην εφαρμογή άδεια να χρησιμοποιήσει το μικρόφωνό σας στις ρυθμίσεις συστήματος."
 
- * @b en@: "You must give the application permission to use your microphone in the system settings."
+ * @b en@: "You must give the application permission to use your microphone in system settings."
 
  * @b es@: "Debes dar permiso a la aplicación para utilizar el micrófono en la configuración del sistema."
 
@@ -1297,7 +1297,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE = @"B
 static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE";
 
 /*!
- * "You must give the application permission to use your camera in the system settings."
+ * "You must give the application permission to use your camera in system settings."
 
  * All translations:
 
@@ -1311,7 +1311,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * @b el@: "Πρέπει να δώσετε στην εφαρμογή άδεια να χρησιμοποιήσει την κάμερα σας στις ρυθμίσεις συστήματος."
 
- * @b en@: "You must give the application permission to use your camera in the system settings."
+ * @b en@: "You must give the application permission to use your camera in system settings."
 
  * @b es@: "Debes dar permiso a la aplicación para utilizar la cámara en la configuración del sistema."
 
@@ -21955,6 +21955,28 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
 
  */
 static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE'
+/*!
+ * "You must give the application permission to use push notifications in system settings."
+
+ * All translations:
+
+ * @b en@: "You must give the application permission to use push notifications in system settings."
+
+ */
+static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE'
+/*!
+ * "Push notifications not enabled"
+
+ * All translations:
+
+ * @b en@: "Push notifications not enabled"
+
+ */
+static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE";
 
 #warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK'
 /*!
