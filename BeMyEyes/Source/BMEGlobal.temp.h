@@ -9,9 +9,9 @@
 #ifndef BMEGlobal_h
 #define BMEGlobal_h
 
-#define BMEAPIDevelopmentBaseUrl @"https://devapi.bemyeyes.org"
-#define BMEAPIStagingBaseUrl @"https://stagingapi.bemyeyes.org"
 #define BMEAPIPublicBaseUrl @"https://api.bemyeyes.org"
+#define BMEAPIStagingBaseUrl @"https://stagingapi.bemyeyes.org"
+#define BMEAPIDevelopmentBaseUrl @"https://devapi.bemyeyes.org"
 
 #define BMEBundleIdProduction @"org.bemyeyes.BeMyEyes"
 #define BMEBundleIdStaging @"org.bemyeyes.BeMyEyes.staging"
@@ -45,6 +45,7 @@
 #define BMECallControllerIdentifier @"Call"
 #define BMESecretSettingsControllerIdentifier @"SecretSettings"
 #define BMEDemoCallViewController @"DemoCall"
+#define BMEHelperWelcomeViewController @"BMEHelperWelcomeViewController"
 
 #define BMEDidLogInNotification @"BMEDidLogInNotification"
 #define BMEDidLogOutNotification @"BMEDidLogOutNotification"
@@ -53,5 +54,7 @@
 #define BMEGoToLoginIfPossibleNotification @"BMEGoToLoginIfPossibleNotification"
 #define BMEInitiateCallIfPossibleNotification @"BMEInitateCallIfPossibleNotification"
 #define BMEDidAnswerDemoCallNotification @"BMEDidAnswerDemoCallNotification"
+
+#define BMEDidLogInNotificationDisplayHelperWelcomeKey @"BMEDidLogInNotificationDisplayHelperWelcomeKey"
 
 #endif
