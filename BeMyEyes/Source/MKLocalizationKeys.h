@@ -21573,7 +21573,6 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
  */
 static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE'
 /*!
  * "You must give the application permission to use push notifications in system settings."
 
@@ -21584,7 +21583,6 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NO
  */
 static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE'
 /*!
  * "Push notifications not enabled"
 
@@ -21595,7 +21593,6 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP
  */
 static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_NO_LANGS_SELECTED'
 /*!
  * "You have no languages selected"
 
