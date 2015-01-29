@@ -16,12 +16,13 @@ class PostCallViewController: BMEBaseViewController, MKLocalizable {
     
 	@IBOutlet weak var shareButton: Button!
     @IBOutlet weak var okButton: Button!
-    @IBOutlet weak var reportAbuseButton: UIButton!
+    @IBOutlet weak var reportAbuseButton: Button!
     @IBOutlet weak var messageLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        reportAbuseButton.mainStyle = .Border
         MKLocalization.registerForLocalization(self)
     }
     
@@ -51,7 +52,7 @@ class PostCallViewController: BMEBaseViewController, MKLocalizable {
 			shareButton.title = MKLocalizedFromTable(shareButtonKey, "PostCallLocalizationTable")
         }
         
-        reportAbuseButton.setTitle(MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE", "PostCallLocalizationTable"), forState: .Normal)
+        reportAbuseButton.title = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE", "PostCallLocalizationTable")
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
