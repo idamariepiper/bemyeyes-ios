@@ -411,8 +411,16 @@
 - (void)didLogIn:(NSNotification *)notification {
     [self showLoggedInMainView];
     [self resetBadgeIcon];
+    
+    NSLog(@"DID LOG IN");
+    NSLog(@"%@", notification.userInfo);
+    
+    NSNumber *displayHelperWelcome = [notification.userInfo objectForKey:BMEDidLogInNotificationDisplayHelperWelcomeKey];
+    if (displayHelperWelcome && [displayHelperWelcome boolValue]) {
+        NSLog(@"Show helper welcome");
+        [self showHelperWelcomeView];
+    }
 }
-
 
 - (void)showFrontPage {
     if ([self.window.rootViewController.restorationIdentifier isEqualToString:BMEFrontPageNavigationControllerIdentifier]) {
@@ -431,6 +439,11 @@
         return;
     }
     [self setTopViewController:[self.storyboard instantiateViewControllerWithIdentifier:BMEMainNavigationControllerIdentifier]];
+}
+
+- (void)showHelperWelcomeView {
+    UIViewController *controller = [self.window.rootViewController.storyboard instantiateViewControllerWithIdentifier:BMEHelperWelcomeViewController];
+    [self.window.rootViewController presentViewController:controller animated:YES completion:nil];
 }
 
 - (void)setTopViewController:(UIViewController *)viewController {

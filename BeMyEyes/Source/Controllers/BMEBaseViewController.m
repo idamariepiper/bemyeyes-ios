@@ -41,7 +41,11 @@
 #pragma mark Private Methods
 
 - (IBAction)backButtonPressed:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    if (self.backButtonPopsToRootViewController) {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    } else {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 @end

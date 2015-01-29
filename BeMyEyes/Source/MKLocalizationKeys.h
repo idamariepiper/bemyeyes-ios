@@ -41,11 +41,6 @@ static NSString * const BMEForgotPasswordLocalizationTable = @"BMEForgotPassword
 static NSString * const BMEFrontPageLocalizationTable = @"BMEFrontPageLocalizationTable";
 
 /*!
- * BMEHelperIntroLocalizationTable strings file 
- */
-static NSString * const BMEHelperIntroLocalizationTable = @"BMEHelperIntroLocalizationTable";
-
-/*!
  * BMEHelperMainLocalizationTable strings file 
  */
 static NSString * const BMEHelperMainLocalizationTable = @"BMEHelperMainLocalizationTable";
@@ -139,6 +134,11 @@ static NSString * const PostCallLocalizationTable = @"PostCallLocalizationTable"
  * DemoCallLocalizationTable strings file 
  */
 static NSString * const DemoCallLocalizationTable = @"DemoCallLocalizationTable";
+
+/*!
+ * HelperWelcomeLocalizationTable strings file 
+ */
+static NSString * const HelperWelcomeLocalizationTable = @"HelperWelcomeLocalizationTable";
 
 /*!
  * InfoPlist strings file 
@@ -6116,366 +6116,6 @@ static NSString * const BME_FRONT_PAGE_BLIND_ROLE = @"BME_FRONT_PAGE_BLIND_ROLE"
 
  */
 static NSString * const BME_FRONT_PAGE_ALREADY_REGISTERED = @"BME_FRONT_PAGE_ALREADY_REGISTERED";
-
-/*!
- * "Back"
-
- * All translations:
-
- * @b ar@: "رجوع"
-
- * @b cs@: "Zpět"
-
- * @b da@: "Tilbage"
-
- * @b de@: "Zurück"
-
- * @b el@: "Πίσω"
-
- * @b en@: "Back"
-
- * @b es@: "Atrás"
-
- * @b fi@: "Takaisin"
-
- * @b fr@: "Retour"
-
- * @b he@: "חזור"
-
- * @b hi@: "वापस जाएं"
-
- * @b hr@: "Natrag"
-
- * @b hu@: "Vissza"
-
- * @b it@: "Indietro"
-
- * @b ja@: "もどる"
-
- * @b ko@: "뒤로"
-
- * @b nb@: "Tilbake"
-
- * @b nl@: "Terug"
-
- * @b pl@: "Powrót"
-
- * @b pt-BR@: "Voltar"
-
- * @b pt@: "Voltar"
-
- * @b ro@: "Înapoi"
-
- * @b ru@: "Назад"
-
- * @b sk@: "Naspäť"
-
- * @b sr@: "Назад"
-
- * @b sv@: "Tillbaka"
-
- * @b tr@: "Geri"
-
- * @b uk@: "Назад"
-
- * @b ur@: "ی"
-
- * @b vi@: "Quay lại"
-
- * @b zh-Hans@: "返回"
-
- * @b zh-Hant@: "返回"
-
- */
-static NSString * const BME_HELPER_INTRO_BACK = @"BME_HELPER_INTRO_BACK";
-
-/*!
- * "Continue"
-
- * All translations:
-
- * @b ar@: "استمرار"
-
- * @b cs@: "Pokračovat"
-
- * @b da@: "Fortsæt"
-
- * @b de@: "Fortsetzen"
-
- * @b el@: "Επόμενο"
-
- * @b en@: "Continue"
-
- * @b es@: "Siguiente"
-
- * @b fi@: "Jatka"
-
- * @b fr@: "Continuer"
-
- * @b he@: "המשך"
-
- * @b hi@: "जारी रखिये"
-
- * @b hr@: "Nastavak"
-
- * @b hu@: "Tovább"
-
- * @b it@: "Continua"
-
- * @b ja@: "続行"
-
- * @b ko@: "계속"
-
- * @b nb@: "Fortsett"
-
- * @b nl@: "Verder gaan"
-
- * @b pl@: "Dalej"
-
- * @b pt-BR@: "Continuar"
-
- * @b pt@: "Continuar"
-
- * @b ro@: "Continuați"
-
- * @b ru@: "Продолжить"
-
- * @b sk@: "Pokračovať"
-
- * @b sr@: "Настави"
-
- * @b sv@: "Fortsätt"
-
- * @b tr@: "Devam"
-
- * @b uk@: "Продовжити"
-
- * @b ur@: "جاری رکھیں"
-
- * @b vi@: "Tiếp tục"
-
- * @b zh-Hans@: "繼續"
-
- * @b zh-Hant@: "继续"
-
- */
-static NSString * const BME_HELPER_INTRO_CONTINUE = @"BME_HELPER_INTRO_CONTINUE";
-
-/*!
- * "Helping is easy!"
-
- * All translations:
-
- * @b ar@: "المساعدة سهلة!"
-
- * @b cs@: "Pomáhat je snadné!"
-
- * @b da@: "Det er nemt at hjælpe!"
-
- * @b de@: "Helfen ist ganz einfach!"
-
- * @b el@: "Είναι εύκολο να βοηθάς!"
-
- * @b en@: "Helping is easy!"
-
- * @b es@: "¡Ayudar es fácil!"
-
- * @b fi@: "Auttaminen on helppoa!"
-
- * @b fr@: "C'est facile d'aider quelqu'un !"
-
- * @b he@: "קל להעניק עזרה!"
-
- * @b hi@: "मदद करना आसान है!"
-
- * @b hr@: "Pomaganje je lagano!"
-
- * @b hu@: "Könnyű segíteni!"
-
- * @b it@: "Aiutare è semplice!"
-
- * @b ja@: "支援は簡単です！"
-
- * @b ko@: "도움은 쉽습니다!"
-
- * @b nb@: "Det er lett å hjelpe!"
-
- * @b nl@: "Helpen is smakkelijk!"
-
- * @b pl@: "Łatwo jest pomagać!"
-
- * @b pt-BR@: "Ajudar é fácil!"
-
- * @b pt@: "Apoiar é fácil!"
-
- * @b ro@: "Este ușor să ajuți!"
-
- * @b ru@: "Помогать легко!"
-
- * @b sk@: "Pomáhať je jednoduché!"
-
- * @b sr@: "Помоћ пружате једноставно!"
-
- * @b sv@: "Det är lätt att hjälpa till!"
-
- * @b tr@: "Yardım etmek çok kolay!"
-
- * @b uk@: "Допомагати нескладно!"
-
- * @b ur@: "مدد کرنا آسان ہے!"
-
- * @b vi@: "Giúp đỡ thật dễ dàng!"
-
- * @b zh-Hans@: "助人很容易！"
-
- * @b zh-Hant@: "助人为乐很简单！"
-
- */
-static NSString * const BME_HELPER_INTRO_HEADLINE = @"BME_HELPER_INTRO_HEADLINE";
-
-/*!
- * "Help whenever you want, wherever you are."
-
- * All translations:
-
- * @b ar@: "ساعِد متى أردت ذلك، وأينما كنت."
-
- * @b cs@: "Pomáhejte, kdykoli budete chtít, ať se nacházíte kdekoliv."
-
- * @b da@: "Hjælp når du vil, uanset hvor du er."
-
- * @b de@: "Hilf egal wann du willst oder wo du bist."
-
- * @b el@: "Βοηθήστε οπότε επιθυμείτε, όπου και αν είστε."
-
- * @b en@: "Help whenever you want, wherever you are."
-
- * @b es@: "Ayuda cuando quieras, donde quiera que estés."
-
- * @b fi@: "Auta milloin haluat ja missä tahansa olet."
-
- * @b fr@: "Aidez quand vous voulez, où que vous soyez."
-
- * @b he@: "תוכלו לעזור מתי שתרצו, בכל מקום בו תהיו."
-
- * @b hi@: "आप जहां कहीं भी चाहें, आप जहां कहीं भी हों, मदद करें।"
-
- * @b hr@: "Pomozite kada god želite, gdje god se nalazili."
-
- * @b hu@: "Segítsen bármikor, bárhonnan."
-
- * @b it@: "Aiuta ogni volta che vuoi, ovunque ti trovi."
-
- * @b ja@: "どこにいても、いつでも好きなときに支援できます。"
-
- * @b ko@: "언제든 어디서든 도와주세요."
-
- * @b nb@: "Hjelp når du vil, uansett hvor du er."
-
- * @b nl@: "Help wanneer u maar wil, waar u ook bent."
-
- * @b pl@: "Pomóż gdziekolwiek chcesz, gdziekolwiek jesteś."
-
- * @b pt-BR@: "Ajuda quando você quiser, quem você seja."
-
- * @b pt@: "Você pode apoiar quando você quiser e onde estiver."
-
- * @b ro@: "Ajuți ori de câte ori dorești, oriunde te-ai afla."
-
- * @b ru@: "Помогайте где вам удобно и когда вам удобно."
-
- * @b sk@: "Pomáhajte kedykoľvek budete chcieť, nech ste kdekoľvek."
-
- * @b sr@: "Помозите кад год желите, где год да се налазите."
-
- * @b sv@: "Hjälp till när du kan och vill, var du än är."
-
- * @b tr@: "Ne zaman isterseniz, nerede olursanız olun yardım edebilirsiniz."
-
- * @b uk@: "Допомогай завжди та усюди."
-
- * @b ur@: "مدد کریں جہاں بھی آپ چاہیں، جہاں بھی آپ ہوں۔"
-
- * @b vi@: "Giúp đỡ bất cứ khi nào bạn muốn, bất cứ nơi đâu."
-
- * @b zh-Hans@: "隨時隨地都可助人。"
-
- * @b zh-Hant@: "随时随地帮助他人。"
-
- */
-static NSString * const BME_HELPER_INTRO_SHORT_DESCRIPTION = @"BME_HELPER_INTRO_SHORT_DESCRIPTION";
-
-/*!
- * "Your phone is open for calls from people who need help when you are signed in."
-
- * All translations:
-
- * @b ar@: "سيكون هاتفك مفتوحا للمكالمات من أشخاص يحتاجون المساعدة عندما تكون مسجّلا الدخول."
-
- * @b cs@: "Váš telefon je k dispozici pro hovory od lidí, kteří potřebují pomoc, když jste přihlášen."
-
- * @b da@: "Din telefon er åben for opkald fra folk, der har brug for hjælp, når du er logget på."
-
- * @b de@: "Dein Telefon ist für Hilfesuchende erreichbar, sobald du angemeldet bist."
-
- * @b el@: "Το τηλέφωνό σας είναι διαθέσιμο για κλήσεις από ανθρώπους που χρειάζονται βοήθεια όταν είστε συνδεδεμένοι."
-
- * @b en@: "Your phone is open for calls from people who need help when you are signed in."
-
- * @b es@: "Tú teléfono está disponible para recibir llamadas de personas que necesitan ayuda  cuando hayas iniciado sesión."
-
- * @b fi@: "Puhelimesi on auki avuntarvitsijoille, kun olet kirjautunut sisälle."
-
- * @b fr@: "En vous connectant, vous pouvez être appelé par des personnes qui ont besoin d'aide sur votre téléphone."
-
- * @b he@: "הטלפון שלכם פתוח לשיחות מצד אנשים שצריכים עזרה כשאתם רשומים."
-
- * @b hi@: "जब आप साइन इन करते हैं, आपका फ़ोन उन लोगों की कॉलों के लिए खुला होता है जिनको आपकी जरूरत है।"
-
- * @b hr@: "Vaš mobitel je otvoren prema pozivima ljudi kojima treba pomoć dok ste vi prijavljeni."
-
- * @b hu@: "Amikor be van lépve hívásokat fogadhat olyan emberektől akiknek segítségre van szüksége."
-
- * @b it@: "Il telefono è aperto alle richieste di persone che hanno bisogno di aiuto quando sei autenticato."
-
- * @b ja@: "お使いの携帯電話は、ログインしているとき、支援を必要とする人々からの呼び出しにオープンの状態です。"
-
- * @b ko@: "로그인이 되어 있으면 필요한 사람들이 언제든 당신에게 도움을 요청할 수 있습니다."
-
- * @b nb@: "Telefonen din er åpen for samtaler fra personer som trenger hjelp når du er logget inn."
-
- * @b nl@: "Wanneer u bent aangemeld is uw telefoon klaar voor oproepen van mensen die uw hulp nodig hebben."
-
- * @b pl@: "Po zalogowaniu Twój telefon będzie mógł otrzymywać połączenia od osób potrzebujących pomocy."
-
- * @b pt-BR@: "Seu celular é aberto para ligações de pessoas que necessitam de ajuda quando você está conectado."
-
- * @b pt@: "Seu dispositivo fica habilitado a receber chamadas com solicitação de apoio quando você estiver conectado."
-
- * @b ro@: "Telefonul tău este deschis pentru apeluri de la persoanele care au nevoie de ajutor, când ești autentificat."
-
- * @b ru@: "Ваш телефон доступен для звонков от людей, которым нужна помощь, после входа в систему."
-
- * @b sk@: "Váš telefón je k dispozícii pre ľudí, ktorí potrebujú pomoc, keď ste prihásený. "
-
- * @b sr@: "Када се пријавите, ваш телефон је слободан за позиве људи којима је потребна ваша помоћ."
-
- * @b sv@: "Din mobil är tillgänglig för samtal från människor som behöver hjälp när du är inloggad."
-
- * @b tr@: "Giriş yaptığınızda, telefonunuz yardıma ihtiyacı olanlar tarafından gelen çağrılara açıktır."
-
- * @b uk@: "Ваш телефон відкритий для дзвінків, коли ви увійшли до системи."
-
- * @b ur@: "جب آپ سائن ان کرتے ہیں تو آپ کا فون ان لوگوں کی فون کال کے لیے کھلا ہوتا ہے جنھیں مدد کی ضرورت ہوتی ہے،"
-
- * @b vi@: "Điện thoại của bạn được mở cho các cuộc gọi từ những người cần giúp đỡ khi bạn đăng nhập."
-
- * @b zh-Hans@: "當你登錄時，你的手機會開放給需要幫助的人來聯繫。"
-
- * @b zh-Hant@: "登录后，您的手机可接收来自需要帮助之人的召唤。"
-
- */
-static NSString * const BME_HELPER_INTRO_LONG_DESCRIPTION = @"BME_HELPER_INTRO_LONG_DESCRIPTION";
 
 /*!
  * "Snooze"
@@ -21978,6 +21618,50 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP
  */
 static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE";
 
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_NO_LANGS_SELECTED'
+/*!
+ * "You have no languages selected"
+
+ * All translations:
+
+ * @b en@: "You have no languages selected"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_PROCEED_QUESTION'
+/*!
+ * "Are you sure you want to proceed?"
+
+ * All translations:
+
+ * @b en@: "Are you sure you want to proceed?"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES'
+/*!
+ * "Yes"
+
+ * All translations:
+
+ * @b en@: "Yes"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO'
+/*!
+ * "No"
+
+ * All translations:
+
+ * @b en@: "No"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO";
+
 #warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK'
 /*!
  * "OK"
@@ -22010,6 +21694,50 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_WELCOME_TITLE'
+/*!
+ * "Welcome %@"
+
+ * All translations:
+
+ * @b en@: "Welcome %@"
+
+ */
+static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_WELCOME_DESCRIPTION'
+/*!
+ * "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * All translations:
+
+ * @b en@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ */
+static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DESCRIPTION";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_DEMO_CALL_TITLE'
+/*!
+ * "Make a test call"
+
+ * All translations:
+
+ * @b en@: "Make a test call"
+
+ */
+static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITLE";
+
+#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_DONE_TITLE'
+/*!
+ * "Ok, got it"
+
+ * All translations:
+
+ * @b en@: "Ok, got it"
+
+ */
+static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
 
 #warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER'
 /*!
