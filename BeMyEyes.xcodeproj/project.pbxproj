@@ -75,6 +75,8 @@
 		7216AD9F1A717D50009657F8 /* DemoCallLocalizationTable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7216AD9D1A717D50009657F8 /* DemoCallLocalizationTable.strings */; };
 		72177FE71A718642008E3257 /* DemoCallVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72177FE61A718642008E3257 /* DemoCallVideoViewController.swift */; };
 		721C3958193BA03400637F88 /* BMEEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 721C3957193BA03400637F88 /* BMEEmailValidator.m */; };
+		7220D0E91A7A45B8005DF4F0 /* HelperWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220D0E81A7A45B8005DF4F0 /* HelperWelcomeViewController.swift */; };
+		7220D0EC1A7A55C1005DF4F0 /* HelperWelcomeLocalizationTable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7220D0EA1A7A55C1005DF4F0 /* HelperWelcomeLocalizationTable.strings */; };
 		7236DFFE18B8A87B00F622AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7236DFFD18B8A87B00F622AA /* Foundation.framework */; };
 		7236E00018B8A87B00F622AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7236DFFF18B8A87B00F622AA /* CoreGraphics.framework */; };
 		7236E00218B8A87B00F622AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7236E00118B8A87B00F622AA /* UIKit.framework */; };
@@ -1054,6 +1056,8 @@
 		72177FE61A718642008E3257 /* DemoCallVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCallVideoViewController.swift; sourceTree = "<group>"; };
 		721C3956193BA03400637F88 /* BMEEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEEmailValidator.h; sourceTree = "<group>"; };
 		721C3957193BA03400637F88 /* BMEEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMEEmailValidator.m; sourceTree = "<group>"; };
+		7220D0E81A7A45B8005DF4F0 /* HelperWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperWelcomeViewController.swift; sourceTree = "<group>"; };
+		7220D0EB1A7A55C1005DF4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelperWelcomeLocalizationTable.strings; sourceTree = "<group>"; };
 		7236DFFA18B8A87B00F622AA /* BeMyEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeMyEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7236DFFD18B8A87B00F622AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7236DFFF18B8A87B00F622AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1519,6 +1523,7 @@
 				4E8E21F419E8C03C00316AD8 /* VideoViewController.swift */,
 				72C06A051A7159CE00CD8608 /* DemoCallViewController.swift */,
 				72177FE61A718642008E3257 /* DemoCallVideoViewController.swift */,
+				7220D0E81A7A45B8005DF4F0 /* HelperWelcomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1611,6 +1616,7 @@
 				72DA827518D4716A001F3312 /* Localizable.strings */,
 				4E6544741A00279000B71C1C /* PostCallLocalizationTable.strings */,
 				7216AD9D1A717D50009657F8 /* DemoCallLocalizationTable.strings */,
+				7220D0EA1A7A55C1005DF4F0 /* HelperWelcomeLocalizationTable.strings */,
 			);
 			name = Localizable;
 			sourceTree = "<group>";
@@ -1860,6 +1866,7 @@
 				72E65FAA18BA81BB002FB2E0 /* BMESignUpMethodLocalizationTable.strings in Resources */,
 				4E8ABED319F7F4300005F6E8 /* intro.mp4 in Resources */,
 				7216AD9F1A717D50009657F8 /* DemoCallLocalizationTable.strings in Resources */,
+				7220D0EC1A7A55C1005DF4F0 /* HelperWelcomeLocalizationTable.strings in Resources */,
 				72856DF819AF789E0027AFF5 /* BMERegisteredLocalizationTable.strings in Resources */,
 				72A7676F1902A5C4003121C4 /* BMEHelperMainLocalizationTable.strings in Resources */,
 				72856DF519AF761F0027AFF5 /* BMEPrivacyPolicyLocalizationTable.strings in Resources */,
@@ -2025,6 +2032,7 @@
 				4EB6AD2219E1F4F400141615 /* BMEPointsTableViewCell.m in Sources */,
 				4EB6AD1F19E1F4D700141615 /* BMECommunityStats.m in Sources */,
 				4EB6A1E219E5725F00C72A02 /* Button.swift in Sources */,
+				7220D0E91A7A45B8005DF4F0 /* HelperWelcomeViewController.swift in Sources */,
 				72DEF73218B90A6D0048FA90 /* NSData+CommonCrypto.m in Sources */,
 				4E6544881A0136F700B71C1C /* BMEScrollViewTextFieldHelper.m in Sources */,
 				720A68DF192FD92F0036CB1E /* BMEWebViewViewController.m in Sources */,
@@ -2278,6 +2286,14 @@
 				7216ADA01A717D74009657F8 /* da */,
 			);
 			name = DemoCallLocalizationTable.strings;
+			sourceTree = "<group>";
+		};
+		7220D0EA1A7A55C1005DF4F0 /* HelperWelcomeLocalizationTable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7220D0EB1A7A55C1005DF4F0 /* en */,
+			);
+			name = HelperWelcomeLocalizationTable.strings;
 			sourceTree = "<group>";
 		};
 		7236E00618B8A87B00F622AA /* InfoPlist.strings */ = {

@@ -158,7 +158,12 @@
     [[BMEClient sharedClient] updateUserInfoWithUTCOffset:nil];
     [[BMEClient sharedClient] upsertDeviceWithNewToken:nil production:[GVUserDefaults standardUserDefaults].isRelease completion:nil];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:BMEDidLogInNotification object:nil];
+    NSDictionary *userInfo = nil;
+    if (self.role == BMERoleHelper) {
+        userInfo = @{ BMEDidLogInNotificationDisplayHelperWelcomeKey : @(YES) };
+    }
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:BMEDidLogInNotification object:userInfo];
 }
 
 #pragma mark -

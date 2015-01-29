@@ -11,7 +11,6 @@ import UIKit
 class OnboardingVideoViewController: IntroVideoViewController {
 
     let videoToSignUpSegue = "VideoToSignUp"
-    
     var role: BMERole?
 	
 	override func viewDidLoad() {
@@ -32,11 +31,20 @@ class OnboardingVideoViewController: IntroVideoViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == videoToSignUpSegue {
-            if let signup = segue.destinationViewController as? BMESignUpViewController {
+            if let signup = segue.destinationViewController as? BMESignUpMethodViewController {
                 if let role = role {
                     signup.role = role
                 }
             }
         }
     }
+    
+    @objc internal func setHelperRole() {
+        role = .Helper
+    }
+    
+    @objc internal func setBlindRole() {
+        role = .Blind
+    }
+    
 }
