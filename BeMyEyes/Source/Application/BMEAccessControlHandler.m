@@ -75,6 +75,8 @@
         [BMEAccessControlHandler hasNotificationsEnabled:^(BOOL isEnabled, BOOL validToken) {
             if (!isEnabled) {
                 [BMEAccessControlHandler showNotificationsAlert];
+            } else if (!validToken) {
+                [BMEAccessControlHandler showNotificationsAlertInvalidToken];
             }
             if (self.notificationsCompletion) {
                 self.notificationsCompletion(isEnabled, validToken);
@@ -253,6 +255,12 @@
 
 
 + (void)showNotificationsAlert
+{
+    [self showAlertWithTitle:MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE, BMEAppDelegateLocalizationTable)
+                     message:MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE, BMEAppDelegateLocalizationTable)];
+}
+
++ (void)showNotificationsAlertInvalidToken
 {
     [self showAlertWithTitle:MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE, BMEAppDelegateLocalizationTable)
                      message:MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE, BMEAppDelegateLocalizationTable)];
