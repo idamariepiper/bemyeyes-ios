@@ -145,7 +145,6 @@ static NSString * const HelperWelcomeLocalizationTable = @"HelperWelcomeLocaliza
  */
 static NSString * const InfoPlist = @"InfoPlist";
 
-#warning Missing languages he for key 'BME_ACCESS_INTRO_MESSAGE'
 /*!
  * "Please enable the following to fully join the Be My Eyes network"
 
@@ -4896,7 +4895,6 @@ static NSString * const BME_FORGOT_PASSWORD_BACK = @"BME_FORGOT_PASSWORD_BACK";
  */
 static NSString * const BME_FORGOT_PASSWORD_DESCRIPTION = @"BME_FORGOT_PASSWORD_DESCRIPTION";
 
-#warning Missing languages he for key 'BME_FORGOT_PASSWORD_EMAIL_PLACEHOLDER'
 /*!
  * "E-mail"
 
@@ -5111,7 +5109,6 @@ static NSString * const BME_FORGOT_PASSWORD_SEND_PASSWORD = @"BME_FORGOT_PASSWOR
  */
 static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_CANCEL";
 
-#warning Missing languages he for key 'BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_MESSAGE'
 /*!
  * "The entered e-mail is not valid. Please change the email and try again."
 
@@ -5182,7 +5179,6 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME
  */
 static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_MESSAGE";
 
-#warning Missing languages he for key 'BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_TITLE'
 /*!
  * "Email is not valid"
 
@@ -7197,7 +7193,6 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESC
  */
 static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION = @"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION";
 
-#warning Missing languages hu, it, uk for key 'BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION'
 /*!
  * "5 high fives in week"
 
@@ -7696,7 +7691,6 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION = @"B
  */
 static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION";
 
-#warning Missing languages ru for key 'BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION'
 /*!
  * "The Be My Eyes Network"
 
@@ -8847,7 +8841,6 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
  */
 static NSString * const BME_LOGIN_BACK = @"BME_LOGIN_BACK";
 
-#warning Missing languages he for key 'BME_LOGIN_EMAIL_PLACEHOLDER'
 /*!
  * "E-mail"
 
@@ -10862,7 +10855,6 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE = @"BME
  */
 static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_CANCEL = @"BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_CANCEL";
 
-#warning Missing languages fr for key 'BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_MESSAGE'
 /*!
  * "Could not register for remote notifications. This is required for the Be My Eyes application. Please ensure that you have remote notifications enabled in your system settings and try again."
 
@@ -14749,7 +14741,6 @@ static NSString * const BME_SETTINGS_FIRST_NAME = @"BME_SETTINGS_FIRST_NAME";
  */
 static NSString * const BME_SETTINGS_LAST_NAME = @"BME_SETTINGS_LAST_NAME";
 
-#warning Missing languages he for key 'BME_SETTINGS_EMAIL'
 /*!
  * "E-mail"
 
@@ -16044,7 +16035,6 @@ static NSString * const BME_SIGN_UP_FIRST_NAME_PLACEHOLDER = @"BME_SIGN_UP_FIRST
  */
 static NSString * const BME_SIGN_UP_LAST_NAME_PLACEHOLDER = @"BME_SIGN_UP_LAST_NAME_PLACEHOLDER";
 
-#warning Missing languages he for key 'BME_SIGN_UP_EMAIL_PLACEHOLDER'
 /*!
  * "E-mail"
 
@@ -16331,7 +16321,6 @@ static NSString * const BME_SIGN_UP_REGISTER = @"BME_SIGN_UP_REGISTER";
  */
 static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL = @"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL";
 
-#warning Missing languages he for key 'BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE'
 /*!
  * "An account with the entered e-mail address already exists."
 
@@ -16402,7 +16391,6 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL = @"BM
  */
 static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE = @"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE";
 
-#warning Missing languages he for key 'BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE'
 /*!
  * "E-mail already registered"
 
@@ -16617,7 +16605,6 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME_SIGN_UP
  */
 static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE";
 
-#warning Missing languages he for key 'BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE'
 /*!
  * "E-mail is invalid"
 
@@ -17912,7 +17899,6 @@ static NSString * const BME_SIGN_UP_METHOD_HEADLINE = @"BME_SIGN_UP_METHOD_HEADL
  */
 static NSString * const BME_SIGN_UP_METHOD_FACEBOOK = @"BME_SIGN_UP_METHOD_FACEBOOK";
 
-#warning Missing languages he for key 'BME_SIGN_UP_METHOD_EMAIL'
 /*!
  * "Sign up with e-mail"
 
@@ -18343,7 +18329,6 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM = @"BME_SIGN_UP
  */
 static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL = @"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL";
 
-#warning Missing languages he for key 'BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE'
 /*!
  * "An account with the e-mail address of the Facebook user has already been registered."
 
@@ -18414,7 +18399,6 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
  */
 static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE = @"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE";
 
-#warning Missing languages he for key 'BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE'
 /*!
  * "E-mail already registered"
 
@@ -21509,7 +21493,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE = @"POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE";
 
-#warning Missing languages ar, cs, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_TITLE'
 /*!
  * "Test Call"
 
@@ -21522,7 +21505,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE = @"POST_CALL_VIE
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTROLLER_TITLE";
 
-#warning Missing languages ar, cs, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_CANCEL'
 /*!
  * "Cancel"
 
@@ -21535,7 +21517,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTR
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONTROLLER_CANCEL";
 
-#warning Missing languages ar, cs, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_STEP_1'
 /*!
  * "Press the home button and wait a second to receive a notification."
 
@@ -21548,7 +21529,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
 
-#warning Missing languages ar, cs, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_STEP_2'
 /*!
  * "Tap the notification."
 
@@ -21561,7 +21541,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
 
-#warning Missing languages ar, cs, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_BLIND_NAME'
 /*!
  * "Someone"
 
@@ -21574,7 +21553,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_CONTROLLER_BLIND_NAME";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_ACCESS_NOTIFICATION_ACTION_ANSWER'
 /*!
  * "Answer"
 
@@ -21585,7 +21563,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
  */
 static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOTIFICATION_ACTION_ANSWER";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_ACCESS_NOTIFICATION_ACTION_DISMISS'
 /*!
  * "Not right now"
 
@@ -21596,7 +21573,6 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
  */
 static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_NO_LANGS_SELECTED'
 /*!
  * "You have no languages selected"
 
@@ -21607,7 +21583,6 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NO
  */
 static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_PROCEED_QUESTION'
 /*!
  * "Are you sure you want to proceed?"
 
@@ -21618,7 +21593,6 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
  */
 static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES'
 /*!
  * "Yes"
 
@@ -21629,7 +21603,6 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
  */
 static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO'
 /*!
  * "No"
 
@@ -21640,7 +21613,6 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_
  */
 static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK'
 /*!
  * "OK"
 
@@ -21651,7 +21623,6 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_L
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE'
 /*!
  * "You have to enable access to you Facebook account in system settings."
 
@@ -21662,7 +21633,6 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE'
 /*!
  * "Access not allowed"
 
@@ -21673,7 +21643,6 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_WELCOME_TITLE'
 /*!
  * "Welcome %@"
 
@@ -21684,7 +21653,6 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOG
  */
 static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_WELCOME_DESCRIPTION'
 /*!
  * "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
@@ -21695,7 +21663,6 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
  */
 static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DESCRIPTION";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_DEMO_CALL_TITLE'
 /*!
  * "Make a test call"
 
@@ -21706,7 +21673,6 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
  */
 static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITLE";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'BME_HELPER_DONE_TITLE'
 /*!
  * "Ok, got it"
 
@@ -21717,7 +21683,6 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
  */
 static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER'
 /*!
  * "Share your experience"
 
@@ -21728,7 +21693,6 @@ static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND'
 /*!
  * "Share your experience"
 
@@ -21739,7 +21703,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER'
 /*!
  * "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
@@ -21750,7 +21713,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND'
 /*!
  * "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
@@ -21761,7 +21723,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER'
 /*!
  * "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
@@ -21772,7 +21733,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND'
 /*!
  * "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
@@ -21783,7 +21743,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER'
 /*!
  * "I just helped a blind person see with the Be My Eyes app"
 
@@ -21794,7 +21753,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER";
 
-#warning Missing languages ar, cs, da, de, el, es, fi, fr, he, hi, hr, hu, it, ja, ko, nb, nl, pl, pt-BR, pt, ro, ru, sk, sr, sv, tr, uk, ur, vi, zh-Hans, zh-Hant for key 'POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND'
 /*!
  * "Someone just helped me see with the Be My Eyes app"
 
