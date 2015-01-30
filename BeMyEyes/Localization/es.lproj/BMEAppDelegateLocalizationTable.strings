@@ -4,10 +4,10 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* MEssage in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Las notificaciones push son una parte central de Be My Eyes y por tanto debes habilitarlas para registrarse.";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Las notificaciones son una parte central de Be My Eyes y por tanto debes habilitarlas para registrarse.";
 
 /* Title in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Las notificaciones push no están habilitadas";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Las notificaciones no están habilitadas";
 
 /* Default name used in alert view shown when a call is received while the app was active. The name is only used if no name is provided in localizable arguments. */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "Anónimo";
@@ -64,5 +64,5 @@
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "No se ha podido registrar";
 
 /* Message in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "El dispositivo no estaba registrado para recibir notificaciones push. Esto podría significar que la aplicación ha sido iniciada incorrectamente.";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "El dispositivo no estaba registrado para recibir notificaciones. Esto podría significar que la aplicación ha sido iniciada incorrectamente.";
 

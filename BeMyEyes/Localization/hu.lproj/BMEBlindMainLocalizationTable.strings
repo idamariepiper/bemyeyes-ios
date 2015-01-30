@@ -5,7 +5,7 @@
 "BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "OK";
 
 /* Message in alert showed when failed creating request */
-"BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "A kérés nem hozható létre. Kérjük, próbálja meg újra.";
+"BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "A kérés nem hozható létre. Kérjük, próbáld újra.";
 
 /* Title in alert showed when failed creating request */
 "BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Hiba a kérés létrehozása közben";

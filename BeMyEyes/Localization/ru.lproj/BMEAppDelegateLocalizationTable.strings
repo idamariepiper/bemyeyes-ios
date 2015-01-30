@@ -46,7 +46,7 @@
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "Запрос помощи уже был принят другим помощником либо отменен незрячим, но мы благодарим вас за готовность помочь!";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "Запрос уже отвечен, либо отменен";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "Запрос уже обработан, либо отменен";
 
 /* Title of cancel button in alert view shown when the app icon shows a badge but the pending rcould not be loaded */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL" = "ОК";

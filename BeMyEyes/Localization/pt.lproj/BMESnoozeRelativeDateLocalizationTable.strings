@@ -4,7 +4,7 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* No comment provided by engineer. */
-"BME_SNOOZE_RELATIVE_DATE_DAY" = "Dia";
+"BME_SNOOZE_RELATIVE_DATE_DAY" = "dia";
 
 /* No comment provided by engineer. */
 "BME_SNOOZE_RELATIVE_DATE_DAYS" = "%.0f dias";

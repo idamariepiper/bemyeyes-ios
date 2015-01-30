@@ -8,10 +8,10 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL" = "Não";
 
 /* Title of confirm button in alert view shown when asking the blind if he knows more BME_MAIN_langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Sim, eu faço";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Sim, concordo";
 
 /* Message in alert view shown when asking the blind if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Se você sabe outro idioma você pode selecioná-lo, selecionar vários idiomas faz com que a resposta a sua solicitação seja mais rápida.";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Se você sabe outro idioma você pode selecioná-lo e ser associado à um auxiliar que também o sabe e assim ser atendido de maneira mais rápida.";
 
 /* Title in alert view shown when asking the blind if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Você conhece mais idiomas?";
@@ -20,10 +20,10 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "Não";
 
 /* Title of confirm button in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Sim, eu faço";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Sim, concordo";
 
 /* Message in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Se você conhece outros idiomas você pode selecioná-los para que pessoas com deficiência visual em outros idiomas possam solicitar seu apoio.";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Se você conhece outros idiomas você pode selecioná-los e ser associado a invisuais que precisam de auxilio nesses idiomas.";
 
 /* Title in alert view shown when asking the helper if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Você conhece mais idiomas?";
@@ -35,13 +35,13 @@
 "BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "Notificações";
 
 /* Title of cancel button in alert view */
-"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Alguma coisa deu errado e você não poderá receber solicitações";
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Alguma coisa deu errado e você não poderá receber notificações";
 
 /* Title of cancel button in alert view */
 "BME_MAIN_ALERT_CANCEL" = "OK";
 
 /* Title of alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Erro de Log";
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Erro ao entrar";
 
 /* Message in alert view when user is forced to logout */
 "BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Devido a um erro você não será registrado.";

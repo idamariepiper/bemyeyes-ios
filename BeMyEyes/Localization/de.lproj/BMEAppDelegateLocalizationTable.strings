@@ -7,7 +7,7 @@
 "BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Push-Mitteilungen sind ein zentraler Bestandteil der „Be My Eyes“-App und müssen zur Anmeldung eingeschaltet sein.";
 
 /* Title in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Push-Mitteilungen nicht aktiv";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Push-Mitteilungen nicht eingeschaltet";
 
 /* Default name used in alert view shown when a call is received while the app was active. The name is only used if no name is provided in localizable arguments. */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "Jemand";
@@ -58,7 +58,7 @@
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE" = "Anfrage nicht geladen";
 
 /* Title in overlay displayed while loading pending request */
-"BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE" = "Laden …";
+"BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE" = "Laden...";
 
 /* Title in alert shown when the device could not register for remote notifications */
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "Registrierung fehlgeschlagen";

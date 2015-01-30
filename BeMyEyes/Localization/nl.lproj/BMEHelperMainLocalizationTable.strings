@@ -23,7 +23,7 @@
 "BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Expert Helper";
 
 /* Level master helper */
-"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Meesterlijke Helper";
+"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Master Helper";
 
 /* Level points to next level description */
 "BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d punten tot de volgende level";
@@ -41,7 +41,7 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Blinde persoon geholpen";
 
 /* Points finish 10 helping requests in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "10 in een week geholpen";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Hielp 10 in een week";
 
 /* Points finish 5 high fives in a week description */
 "BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 High fives in een week";
@@ -85,11 +85,3 @@
 /* Snooze status text when not snoozing */
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "U bent momenteel actief";
 
-/* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
-
-/* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
-
-/* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";

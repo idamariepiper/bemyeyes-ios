@@ -2,10 +2,10 @@
 "BME_SETTINGS_HEADLINE" = "Ayarlar";
 
 /* First name title */
-"BME_SETTINGS_FIRST_NAME" = "Ad";
+"BME_SETTINGS_FIRST_NAME" = "Adınız";
 
 /* Last name title */
-"BME_SETTINGS_LAST_NAME" = "Soyad";
+"BME_SETTINGS_LAST_NAME" = "Soyadınız";
 
 /* E-mail title */
 "BME_SETTINGS_EMAIL" = "E-posta";

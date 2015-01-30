@@ -1,0 +1,15 @@
+/* Title of back button */
+"BME_HELPER_INTRO_BACK" = "Terug";
+
+/* Title of continue button */
+"BME_HELPER_INTRO_CONTINUE" = "Gaan Voort";
+
+/* Headline */
+"BME_HELPER_INTRO_HEADLINE" = "Om te help is maklik!";
+
+/* Short description */
+"BME_HELPER_INTRO_SHORT_DESCRIPTION" = "Help wanneer jy ookal kan, waar jy ookal is.";
+
+/* Long description */
+"BME_HELPER_INTRO_LONG_DESCRIPTION" = "Jou foon is oop vir oproepe vanaf mense wat hulp nodig het wanneer jy ingeteken is.";
+

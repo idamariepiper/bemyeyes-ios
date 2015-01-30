@@ -2,10 +2,10 @@
 "BME_HELPER_MAIN_SNOOZE_HEADLINE" = "Szundi";
 
 /* Format for snooze status text. %@ is replaced with the snooze amount. */
-"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "Ön szunyókál a következő %@";
+"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "Szundizza a következő %@ kérést";
 
 /* Point description */
-"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Emberek Segítettek";
+"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Kisegítettek";
 
 /* Point total description */
 "BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Összes pont";
@@ -29,22 +29,22 @@
 "BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d pont a következő szintig";
 
 /* Points signup description */
-"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Sikeres regisztrálás";
+"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Sikeres regisztráció";
 
 /* Points answer push message description */
-"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Próbált segíteni";
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Segíteni próbáltál";
 
 /* Points answer push message techinal error description */
-"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "Próbált segíteni";
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "Segíteni próbáltál";
 
 /* Points finish helping request description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Segített egy vak emberen";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Segítettél egy látássérültnek";
 
 /* Points finish 10 helping requests in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Segített 10-en egy hét alatt";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Segített 10-szer egy hét alatt";
 
 /* Points finish 5 high fives in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 \"csapj bele\" a héten";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 pacsi a héten";
 
 /* Points share on twitter description */
 "BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTION" = "Twitter-en megosztva";
@@ -53,13 +53,13 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTION" = "Facebook-on megosztva";
 
 /* Points watch video description */
-"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Megtekintett videó";
+"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Videó megtekintve";
 
 /* Task share on twitter description */
-"BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Twitter-en megosztva";
+"BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Megosztás Twitter-en";
 
 /* Task share on facebook description */
-"BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION" = "Facebook-on megosztva";
+"BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION" = "Megosztás Facebook-on";
 
 /* Task watch video description */
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Videó megnézése";
@@ -68,13 +68,13 @@
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "A Be My Eyes Hálózat";
 
 /* Community network sighted description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Látott";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Látók";
 
 /* Community network blind description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Vak";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Látássérültek";
 
 /* Community network helped description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "Segített";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "Segítségnyújtások";
 
 /* Message shown when the point could not be loaded */
 "BME_HELPER_MAIN_LOADING_POINT_FAILED" = "Nem sikerült betölteni a pontot";
@@ -83,13 +83,5 @@
 "BME_HELPER_MAIN_RETRY_LOADING_POINT" = "Újra";
 
 /* Snooze status text when not snoozing */
-"BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Ön jelenleg aktív";
+"BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Jelenleg aktív vagy";
 
-/* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
-
-/* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
-
-/* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";

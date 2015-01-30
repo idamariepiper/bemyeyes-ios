@@ -8,10 +8,10 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL" = "Não";
 
 /* Title of confirm button in alert view shown when asking the blind if he knows more BME_MAIN_langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Sim, eu faço";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Sim, eu confirmo";
 
 /* Message in alert view shown when asking the blind if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Se você sabe mais idiomas, você pode selecionar aqueles que você sabe e ser correspondido com um voluntário que também saiba a linguagem, assim, você receberá ajuda mais rápido.";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Se você sabe mais idiomas, você pode selecioná-los e ser compatível com um voluntário que também saiba os mesmos idiomas, assim você receberá ajuda mais rápido.";
 
 /* Title in alert view shown when asking the blind if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Você sabe mais idiomas?";
@@ -20,10 +20,10 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "Não";
 
 /* Title of confirm button in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Sim, eu faço";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Sim, eu confirmo";
 
 /* Message in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Se você conhece outros idiomas você pode selecioná-los para que pessoas com deficiência visual de outros idiomas possam solicitar seu apoio.";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Se você conhece outros idiomas você pode selecioná-los e você será conectado com cegos para ajudá-los nesses idiomas.";
 
 /* Title in alert view shown when asking the helper if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Você sabe mais idiomas?";
@@ -35,17 +35,17 @@
 "BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "Notificações";
 
 /* Title of cancel button in alert view */
-"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Alguma coisa deu errado e você poderá não receber notificações";
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Algo deu errado e pode ser que vc não receba notificações";
 
 /* Title of cancel button in alert view */
 "BME_MAIN_ALERT_CANCEL" = "Ok";
 
 /* Title of alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Log in falhou";
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Erro ao entrar";
 
 /* Message in alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Devido a um erro técnico você não será desconectado.";
+"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Devido um problema técnico você será desconectado.";
 
 /* Ok button in alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "Fazer login";
+"BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "Entrar";
 

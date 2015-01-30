@@ -2,14 +2,14 @@
 "BME_FRONT_PAGE_APP_NAME" = "Be My Eyes";
 
 /* Asking the user to choose if he is sighted or blind */
-"BME_FRONT_PAGE_ASK_FOR_ROLE" = "Mi az Ön szerepe?";
+"BME_FRONT_PAGE_ASK_FOR_ROLE" = "Melyik vagy?";
 
 /* Title for choosing sighted role */
-"BME_FRONT_PAGE_SIGHTED_ROLE" = "Látok";
+"BME_FRONT_PAGE_SIGHTED_ROLE" = "Látó vagyok";
 
 /* Title for choosing blind role */
-"BME_FRONT_PAGE_BLIND_ROLE" = "Vak vagyok";
+"BME_FRONT_PAGE_BLIND_ROLE" = "Látássérült vagyok";
 
 /* Log in button, if the user is already registered */
-"BME_FRONT_PAGE_ALREADY_REGISTERED" = "Már regisztrált? Lépjen be!";
+"BME_FRONT_PAGE_ALREADY_REGISTERED" = "Már regisztráltál? Lépj be!";
 

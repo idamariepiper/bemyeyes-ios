@@ -1,0 +1,78 @@
+/* Title of back button */
+"BME_SIGN_UP_BACK" = "Terug";
+
+/* Placeholder in first name field */
+"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "Noemnaam";
+
+/* Placeholder in last name field */
+"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "Van";
+
+/* Placeholder in e-mail field */
+"BME_SIGN_UP_EMAIL_PLACEHOLDER" = "E-pos";
+
+/* Placeholder in password field */
+"BME_SIGN_UP_PASSWORD_PLACEHOLDER" = "Wagwoord";
+
+/* Title of register button */
+"BME_SIGN_UP_REGISTER" = "Registreer";
+
+/* Title of cancel button in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL" = "Reg";
+
+/* Message in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE" = "'n Rekening met die ingevoerde e-pos adres bestaan alreeds.";
+
+/* Title in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE" = "E-pos alreeds geregistreer";
+
+/* Title of cancel button in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL" = "Reg";
+
+/* Message in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE" = "Die ingevoerde e-pos adres is nie geldig nie.";
+
+/* Title in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE" = "E-pos is ongeldig";
+
+/* Title of cancel button in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL" = "Reg";
+
+/* Message in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "Vul asseblief al die inligting in voor jy aanbeweeg.";
+
+/* Title in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE" = "Leë velde";
+
+/* Title of cancel button in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL" = "Reg";
+
+/* Message in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE" = "Die ingevoerde wagwoord is te kort.";
+
+/* Title in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE" = "Wagwoord is te kort";
+
+/* Title of cancel button in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL" = "Reg";
+
+/* Message in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE" = "Die ingevoerde wagwoorde stem nie ooreen nie.";
+
+/* Title in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE" = "Wagwoorde stem nie ooreen nie";
+
+/* Title of cancel button in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL" = "Reg";
+
+/* Message in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Jou rekening kon nie geskep word nie. Maak asseblief seker dat jy 'n aktiewe internet konneksie het en probeer weer.";
+
+/* Title in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "Kon nie rekening skep nie";
+
+/* Title in overlay displayed when logging in */
+"BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "Besig om in te teken...";
+
+/* Title in overlay displayed when registering */
+"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Besig om te registreer...";
+

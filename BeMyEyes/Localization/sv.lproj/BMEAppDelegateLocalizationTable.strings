@@ -10,7 +10,7 @@
 "BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Notiser inte aktiverade";
 
 /* Default name used in alert view shown when a call is received while the app was active. The name is only used if no name is provided in localizable arguments. */
-"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "Okänd";
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "Någon";
 
 /* Title in alert view shown when a call is received while the app was active */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE" = "Din hjälp behövs!";
