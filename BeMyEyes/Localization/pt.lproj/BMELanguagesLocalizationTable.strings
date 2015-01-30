@@ -1,11 +1,11 @@
 /* Title */
-"BME_LANGUAGES_TITLE" = "Sua Língua";
+"BME_LANGUAGES_TITLE" = "Seus idiomas";
 
 /* Title of cancel button in alert view shown when the languages could not be saved */
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "OK";
 
 /* MEssage in alert view shown when the languages could not be saved */
-"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Sua língua não pôde ser carregada. Por favor, tente novamente mas tarde.";
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Seus idiomas não puderam ser carregados. Por favor, tente novamente mais tarde.";
 
 /* Title in alert view shown when the languages could not be saved */
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Não conseguimos salvar";

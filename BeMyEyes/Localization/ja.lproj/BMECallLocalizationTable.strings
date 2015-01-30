@@ -5,16 +5,16 @@
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL" = "OK";
 
 /* Message in alert view shown when failed answering request because the request has already been answered */
-"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "リクエストは既に応答されました。 ご協力ありがとうございます！";
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "リクエストはすでに応答されました。 ご協力ありがとうございます！";
 
 /* Title in alert view shown when failed answering request because the request has already been answered */
-"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "リクエストは既に応答されました";
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "リクエストはすでに応答されました";
 
 /* Title of cancel button in alert view shown when failed answering request because the request has been stopped */
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL" = "OK";
 
 /* Message in alert view shown when failed answering request because the request has been stopped */
-"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE" = "視覚障害者はリクエストをキャンセルしました。ご協力ありがとうございます！";
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE" = "視覚障がい者はリクエストをキャンセルしました。ご協力ありがとうございます！";
 
 /* Title in alert view shown when failed answering request because the request has been stopped */
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE" = "リクエストはキャンセルされました";
@@ -41,13 +41,13 @@
 "BME_CALL_STATUS_ANSWERING_REQUEST" = "リクエストに応答しています...";
 
 /* Message in alert view shown when failed answering request for an unknown reason */
-"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "リクエストは、現時点では応答できませんでした。ご協力ありがとうございます！";
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "現時点でリクエストには応答できませんでした。ご協力ありがとうございます！";
 
 /* Status when creating request */
 "BME_CALL_STATUS_CREATING_REQUEST" = "リクエストを作成しています...";
 
 /* Status when connecting */
-"BME_CALL_STATUS_CONNECTING" = "サーバに接続しています...";
+"BME_CALL_STATUS_CONNECTING" = "サーバーに接続しています...";
 
 /* Status when connection is established */
 "BME_CALL_STATUS_CONNECTION_ESTABLISHED" = "相手を待っています...";
@@ -56,7 +56,7 @@
 "BME_CALL_STATUS_SESSION_FAILED" = "接続に失敗しました";
 
 /* Status when failed publishing */
-"BME_CALL_STATUS_FAILED_PUBLISHING" = "オーディオおよびビデオの公開に失敗しました";
+"BME_CALL_STATUS_FAILED_PUBLISHING" = "音声およびビデオの公開に失敗しました";
 
 /* Speech when connected to other part */
 "BME_CALL_SPEECH_DID_SUBSCRIBE" = "相手に接続しました";
@@ -71,7 +71,7 @@
 "BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL" = "OK";
 
 /* Message in alert shown when other part has disconnected */
-"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE" = "相手が切断し、セッションは終了しました。";
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE" = "相手が接続を切ったため、セッションは終了しました。";
 
 /* Title in alert shown when other part has disconnected */
 "BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE" = "セッションは終了しました";

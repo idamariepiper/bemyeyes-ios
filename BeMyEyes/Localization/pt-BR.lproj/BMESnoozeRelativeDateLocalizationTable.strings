@@ -16,7 +16,7 @@
 "BME_SNOOZE_RELATIVE_DATE_HOURS" = "%.0f horas";
 
 /* No comment provided by engineer. */
-"BME_SNOOZE_RELATIVE_DATE_MINUTE" = "Minuto";
+"BME_SNOOZE_RELATIVE_DATE_MINUTE" = "minuto";
 
 /* No comment provided by engineer. */
 "BME_SNOOZE_RELATIVE_DATE_MINUTES" = "%.0f minutos";

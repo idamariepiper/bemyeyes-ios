@@ -65,7 +65,7 @@
 "BME_CALL_STATUS_FAILED_SUBSCRIBING" = "Η σύνδεση απέτυχε";
 
 /* Status when disconnecting */
-"BME_CALL_STATUS_DISCONNECTING" = "Αποσύνδεση...";
+"BME_CALL_STATUS_DISCONNECTING" = "Αποσυνδέεται...";
 
 /* Title of cancel button in alert shown when other part has disconnected */
 "BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL" = "ΟΚ";

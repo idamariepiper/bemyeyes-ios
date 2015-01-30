@@ -32,7 +32,7 @@
 "BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL" = "ОК";
 
 /* Message in alert view shown when reporting failed */
-"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "Не удалось отправить отчет. Пожалуйста, убедитесь, что у вас есть доступ в Интернет, и повторите попытку.";
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "Не удалось отправить отчет. Пожалуйста, убедитесь, что Интернет подключен, и повторите попытку.";
 
 /* Title in alert view shown when reporting failed */
 "BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE" = "Не удалось сообщить о нарушении";
@@ -47,7 +47,7 @@
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM" = "Подтвердить";
 
 /* Message in alert view shown when asking the user to confirm that he wants to report abuse */
-"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Все случаи злоупотреблений внимательно расследуются. Вы уверены, что хотите пожаловаться на собеседника?";
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Все случаи злоупотреблений внимательно расследуются. Вы уверены, что хотите пожаловаться на партёра?";
 
 /* Title in alert view shown when asking the user to confirm that he wants to report abuse */
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "Сообщить о нарушении";

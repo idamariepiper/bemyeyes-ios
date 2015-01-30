@@ -14,7 +14,7 @@
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL" = "OK";
 
 /* Message in alert view shown when failed answering request because the request has been stopped */
-"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE" = "Nevidiacich zrušil požiadavku. Vďaka za Vašu pomoc!";
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE" = "Nevidiaci zrušil požiadavku. Vďaka za Vašu pomoc!";
 
 /* Title in alert view shown when failed answering request because the request has been stopped */
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE" = "Požiadavka zrušená";
@@ -26,7 +26,7 @@
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "OK";
 
 /* Message in alert showed when failed creating request */
-"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "Žiadosť sa nevytvorila. Prosím skúste to znova.";
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "Žiadosť sa nepodarilo vytvoriť. Prosím skúste to znova.";
 
 /* Title in alert showed when failed creating request */
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Nepodarilo sa vytvoriť žiadosť";

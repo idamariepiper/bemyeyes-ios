@@ -64,5 +64,5 @@
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "ההרשמה לא הצליחה";
 
 /* Message in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "מכשיר זה לא נרשם לקבלת הודעות דחיפה. ייתכן שהרשאות האפליקצייה לא מבחרו באופן נכון.";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "מכשיר זה לא נרשם לקבלת הודעות דחיפה. ייתכן שהרשאות האפליקצייה לא הוגדרו כראוי.";
 

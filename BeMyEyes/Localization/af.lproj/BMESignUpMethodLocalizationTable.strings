@@ -1,0 +1,78 @@
+/* Title of back button */
+"BME_SIGN_UP_METHOD_BACK" = "Terug";
+
+/* Headline */
+"BME_SIGN_UP_METHOD_HEADLINE" = "Word deel van die netwerk";
+
+/* Tiel of Facebook sign up button */
+"BME_SIGN_UP_METHOD_FACEBOOK" = "Teken aan via Facebook";
+
+/* Sign up with e-mail button */
+"BME_SIGN_UP_METHOD_EMAIL" = "Teken aan via e-pos";
+
+/* Top part of button for viewing terms and conditions */
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "Deur voort te gaan aanvaar jy die";
+
+/* Bottom part of button for viewing terms and conditions */
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "Terme en Oreenkomste";
+
+/* Top part of button for viewing privacy policy */
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "sowel as die";
+
+/* Bottom part of button for viewing privacy policy */
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "Privaatheidsbeleid";
+
+/* Title of cancel button in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL" = "Reg";
+
+/* Message in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE" = "'n Rekening met die e-pos adres van die Facebook gebruiker is alreeds geregistreer.";
+
+/* Title in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE" = "E-pos alreeds geregistreer";
+
+/* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_CANCEL" = "Reg";
+
+/* Message in alert view shown when a network error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_MESSAGE" = "Maak asseblief seker dat jy 'n aktiewe internet konneksie het en probeer weer.";
+
+/* Title in alert view shown when a TITLEnetwork error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_TITLE" = "'n Fout het voorgekom";
+
+/* Title of cancel button in alert view shown when log in to Facebook failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL" = "Reg";
+
+/* Message in alert view shown when logging into Facebook but it failed because authentication failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE" = "Kon nie met Facebook verifieer nie.";
+
+/* Title in alert view shown when log in to Facebook failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE" = "Verifikasie het misluk";
+
+/* Title in overlay displayed when logging in */
+"BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "Besig om in te teken...";
+
+/* Title in overlay displayed when registering */
+"BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE" = "Besig om te registreer...";
+
+/* Title of cancel button in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "Reg";
+
+/* Message in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Geen Facebook rekeninge is gevind op die toestel nie. Voeg asseblief jou rekening by in die stelsel verstellings.";
+
+/* Title in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Geen rekening gevind nie";
+
+/* Accessibility hint for privacy policy button */
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT" = "Privaatheidsbeleid";
+
+/* Accessibility label for privacy policy button */
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL" = " ";
+
+/* Accessibility hint for terms and agreements button */
+"BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_HINT" = "Terme en oreenkomste";
+
+/* Accessibility label for terms and agreements button */
+"BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_LABEL" = " ";
+

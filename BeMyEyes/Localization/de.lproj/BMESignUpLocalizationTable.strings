@@ -38,7 +38,7 @@
 "BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL" = "OK";
 
 /* Message in alert view shown when one or more fields are empty. */
-"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "Bitte füllen Sie alle Angaben aus, bevor Sie fortfahren.";
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "Bitte fülle alle Angaben aus, bevor du fortfährst.";
 
 /* Title in alert view shown when one or more fields are empty. */
 "BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE" = "Leere Felder";
@@ -65,7 +65,7 @@
 "BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL" = "OK";
 
 /* Message in alert view shown when a network error occurred. */
-"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Ihr Konto konnte nicht erstellt werden. Bitte prüfen Sie, ob Sie eine aktive Internetverbindung haben und versuchen Sie es erneut.";
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Dein Konto konnte nicht erstellt werden. Bitte prüfe ob du eine aktive Internetverbindung hast und versuche es erneut.";
 
 /* Title in alert view shown when a network error occurred. */
 "BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "Konto konnte nicht erstellt werden";
