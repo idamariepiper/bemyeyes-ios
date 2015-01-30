@@ -482,6 +482,7 @@ typedef NS_ENUM(NSInteger, BMESnoozeStep) {
                                 handler:^(PSTAlertAction *action) {
                                     UIImagePickerController *pickerController = [UIImagePickerController new];
                                     pickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
+                                    pickerController.cameraDevice=UIImagePickerControllerCameraDeviceFront;
                                     pickerController.delegate = self;
                                     [self presentViewController: pickerController
                                                        animated: YES
