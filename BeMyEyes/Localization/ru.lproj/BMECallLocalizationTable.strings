@@ -26,7 +26,7 @@
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "ОК";
 
 /* Message in alert showed when failed creating request */
-"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "Не удалось создать запрос. Пожалуйста, попробуйте еще раз.";
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "Запрос не может быть создан. Пожалуйста, попробуйте еще раз.";
 
 /* Title in alert showed when failed creating request */
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Не удалось создать запрос";

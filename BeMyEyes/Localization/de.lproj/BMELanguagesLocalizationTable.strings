@@ -5,8 +5,8 @@
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "OK";
 
 /* MEssage in alert view shown when the languages could not be saved */
-"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Die Sprachen konnten nicht gespeichert werden. Bitte versuchen Sie es später erneut.";
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Die Sprachen konnten nicht gespeichert werden. Bitte versuch es später erneut.";
 
 /* Title in alert view shown when the languages could not be saved */
-"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Konnte nicht gespeichert werden";
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Speichern fehlgeschlagen";
 

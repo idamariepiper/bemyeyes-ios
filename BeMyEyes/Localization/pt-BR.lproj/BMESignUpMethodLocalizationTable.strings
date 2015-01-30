@@ -2,7 +2,7 @@
 "BME_SIGN_UP_METHOD_BACK" = "Voltar";
 
 /* Headline */
-"BME_SIGN_UP_METHOD_HEADLINE" = "Torne-se uma parte da rede";
+"BME_SIGN_UP_METHOD_HEADLINE" = "Faça parte da rede";
 
 /* Tiel of Facebook sign up button */
 "BME_SIGN_UP_METHOD_FACEBOOK" = "Cadastre-se via Facebook";
@@ -11,7 +11,7 @@
 "BME_SIGN_UP_METHOD_EMAIL" = "Cadastre-se com e-mail";
 
 /* Top part of button for viewing terms and conditions */
-"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "Ao continuar você aceita a";
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "Ao continuar você concorda com a";
 
 /* Bottom part of button for viewing terms and conditions */
 "BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "Termos e acordos";
@@ -35,7 +35,7 @@
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_CANCEL" = "Ok";
 
 /* Message in alert view shown when a network error occurred during Facebook log in. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_MESSAGE" = "Por favor verifique que você tenha uma internet conectada e tente novamente.";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_MESSAGE" = "Por favor verifique que tenha uma conexão de internet ativa e tente novamente.";
 
 /* Title in alert view shown when a TITLEnetwork error occurred during Facebook log in. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_TITLE" = "Um erro ocorreu";
@@ -50,7 +50,7 @@
 "BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE" = "Falha na autenticação";
 
 /* Title in overlay displayed when logging in */
-"BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "Logando...";
+"BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "Entrando...";
 
 /* Title in overlay displayed when registering */
 "BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE" = "Registrando...";
@@ -59,7 +59,7 @@
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "Ok";
 
 /* Message in alert view shown when no Facebook account was found. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Nenhuma conta do Facebook encontrada nesse dispositivo. Por favor adicione uma conta nas configurações de sistema.";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Nenhuma conta do Facebook foi encontrada nesse dispositivo. Por favor adicione uma conta nas configurações de sistema.";
 
 /* Title in alert view shown when no Facebook account was found. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Nenhuma conta encontrada";

@@ -1,14 +1,14 @@
 /* Title of back button */
-"BME_SIGN_UP_METHOD_BACK" = "もどる";
+"BME_SIGN_UP_METHOD_BACK" = "戻る";
 
 /* Headline */
-"BME_SIGN_UP_METHOD_HEADLINE" = "ネットワークに参加する";
+"BME_SIGN_UP_METHOD_HEADLINE" = "ネットワークに参加します";
 
 /* Tiel of Facebook sign up button */
 "BME_SIGN_UP_METHOD_FACEBOOK" = "Facebookで登録";
 
 /* Sign up with e-mail button */
-"BME_SIGN_UP_METHOD_EMAIL" = "電子メールで登録";
+"BME_SIGN_UP_METHOD_EMAIL" = "メールアドレスで登録";
 
 /* Top part of button for viewing terms and conditions */
 "BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "続行することにより";
@@ -20,22 +20,22 @@
 "BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "および";
 
 /* Bottom part of button for viewing privacy policy */
-"BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "個人情報保護方針に同意するものとします";
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "プライバシー ポリシー";
 
 /* Title of cancel button in alert view shown when e-mail is already registered. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL" = "OK";
 
 /* Message in alert view shown when e-mail is already registered. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE" = "Facebookユーザーの電子メールアドレスのアカウントは既に登録されています。";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE" = "Facebookユーザーのメールアドレスはすでに登録されています。";
 
 /* Title in alert view shown when e-mail is already registered. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE" = "電子メールはすでに登録されています";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE" = "メールアドレスはすでに登録されています";
 
 /* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_CANCEL" = "OK";
 
 /* Message in alert view shown when a network error occurred during Facebook log in. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_MESSAGE" = "お使いのコンピューターがインターネットに接続されていることを確認し、もう一度お試しください。";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_MESSAGE" = "インターネットに接続されていることを確認し、もう一度試してください。";
 
 /* Title in alert view shown when a TITLEnetwork error occurred during Facebook log in. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_TITLE" = "エラーが発生しました";
@@ -59,13 +59,13 @@
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "OK";
 
 /* Message in alert view shown when no Facebook account was found. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Facebookアカウントはデバイス上に見つかりませんでした。 システム設定でアカウントを追加してください。";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "お使いのディバイスでFacebookのアカウントが見つかりませんでした。 システム設定でアカウントを追加してください。";
 
 /* Title in alert view shown when no Facebook account was found. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "アカウントが見つかりませんでした";
 
 /* Accessibility hint for privacy policy button */
-"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT" = "個人情報保護方針に同意するものとします";
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT" = "プライバシー ポリシー";
 
 /* Accessibility label for privacy policy button */
 "BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL" = " ";

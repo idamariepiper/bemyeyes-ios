@@ -5,7 +5,7 @@
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL" = "OK";
 
 /* Message in alert view shown when failed answering request because the request has already been answered */
-"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "Die Anfrage wurde bereits beantwortet. Vielen Dank für Ihre Hilfe!";
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "Die Anfrage wurde bereits beantwortet. Vielen Dank für deine Hilfe!";
 
 /* Title in alert view shown when failed answering request because the request has already been answered */
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "Die Anfrage wurde bereits beantwortet";

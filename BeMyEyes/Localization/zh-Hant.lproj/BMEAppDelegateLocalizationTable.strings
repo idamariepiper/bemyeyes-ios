@@ -7,7 +7,7 @@
 "BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "推送通知是此应用的核心部分，所以在注册之前请打开推送功能。";
 
 /* Title in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "未开启消息通知";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "消息通知未开启";
 
 /* Default name used in alert view shown when a call is received while the app was active. The name is only used if no name is provided in localizable arguments. */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "热心志愿者";
@@ -28,7 +28,7 @@
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "请在系统设置里打开相机权限。";
 
 /* Title in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "未开启相机";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "相机权限未开启";
 
 /* Title of dismiss button in alert view shown when access is disabled */
 "BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL" = "好的";

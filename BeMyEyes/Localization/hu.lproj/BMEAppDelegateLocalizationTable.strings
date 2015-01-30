@@ -43,10 +43,10 @@
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL" = "OK";
 
 /* Message in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "A függőben lévő kérést megválaszolták vagy megszakította a hívó, de köszönjük a segítséget!";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "A függőben lévő kérést megválaszolták vagy a látássérült megszakította, de köszönjük a segítséget!";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "A kérést megválaszolták vagy megszakították";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "A kérést már megválaszolták vagy törölték";
 
 /* Title of cancel button in alert view shown when the app icon shows a badge but the pending rcould not be loaded */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL" = "OK";

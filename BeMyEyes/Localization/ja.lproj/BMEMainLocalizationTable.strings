@@ -11,7 +11,7 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "はい";
 
 /* Message in alert view shown when asking the blind if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "あなたが他の言語を知っている場合、それらを選択することができ、その言語を知っているヘルパーにマッチすることにより、より速く援助を受けることができます。";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "他の言語を知っている場合、追加で選択することができます。その言語を知っているヘルパーと合わせることにより、より早く援助を得られます。";
 
 /* Title in alert view shown when asking the blind if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "他の言語を知っていますか？";
@@ -23,7 +23,7 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "はい";
 
 /* Message in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "あなたが他の言語を知っている場合、それらを選択することができ、その言語で援助が必要な視覚障害者にマッチすることができます。";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "他の言語を知っている場合、追加で選択することができます。その言語で援助を必要としている視覚障がい者に合わせることができます。";
 
 /* Title in alert view shown when asking the helper if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "他の言語を知っていますか？";
@@ -35,7 +35,7 @@
 "BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "通知";
 
 /* Title of cancel button in alert view */
-"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "何かのエラーで、通知を受信しない可能性があります";
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "何らかのエラーが発生したため、通知を受信できない可能性があります";
 
 /* Title of cancel button in alert view */
 "BME_MAIN_ALERT_CANCEL" = "OK";
@@ -44,7 +44,7 @@
 "BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "ログインエラー";
 
 /* Message in alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "技術的なエラーによりログアウトされます。";
+"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "技術的なエラーにより、ログアウトされます。";
 
 /* Ok button in alert view when user is forced to logout */
 "BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "ログイン";

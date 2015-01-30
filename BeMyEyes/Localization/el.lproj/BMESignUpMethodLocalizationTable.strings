@@ -20,7 +20,7 @@
 "BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "καθώς και τους";
 
 /* Bottom part of button for viewing privacy policy */
-"BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "Πολιτική Προστασίας Προσωπικών";
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "Πολιτική Προστασίας Προσωπικών Δεδομένων";
 
 /* Title of cancel button in alert view shown when e-mail is already registered. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL" = "ΟΚ";
@@ -65,7 +65,7 @@
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Δεν βρέθηκε κανένας λογαριασμός";
 
 /* Accessibility hint for privacy policy button */
-"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT" = "Πολιτική Προστασίας Προσωπικών";
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT" = "Πολιτική Προστασίας Προσωπικών Δεδομένων";
 
 /* Accessibility label for privacy policy button */
 "BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL" = " ";

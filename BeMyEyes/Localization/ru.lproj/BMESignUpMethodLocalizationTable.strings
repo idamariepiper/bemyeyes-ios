@@ -5,19 +5,19 @@
 "BME_SIGN_UP_METHOD_HEADLINE" = "Станьте частью сети";
 
 /* Tiel of Facebook sign up button */
-"BME_SIGN_UP_METHOD_FACEBOOK" = "Войти через Facebook";
+"BME_SIGN_UP_METHOD_FACEBOOK" = "Зарегистрироваться через Facebook";
 
 /* Sign up with e-mail button */
-"BME_SIGN_UP_METHOD_EMAIL" = "Войти с адресом электронной почты";
+"BME_SIGN_UP_METHOD_EMAIL" = "Зарегистрироваться по адресу электронной почты";
 
 /* Top part of button for viewing terms and conditions */
 "BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "Продолжая, вы соглашаетесь с";
 
 /* Bottom part of button for viewing terms and conditions */
-"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "Условиями пользовательского соглашения";
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "Пользовательское соглашение";
 
 /* Top part of button for viewing privacy policy */
-"BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "а так же";
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "так же как";
 
 /* Bottom part of button for viewing privacy policy */
 "BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "Политика конфиденциальности";

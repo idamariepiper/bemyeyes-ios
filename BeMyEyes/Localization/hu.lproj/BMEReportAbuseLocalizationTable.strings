@@ -2,7 +2,7 @@
 "BME_REPORT_ABUSE_HEADLINE" = "Visszaélés jelentése";
 
 /* Text telling user to choose a reason */
-"BME_REPORT_ABUSE_CHOOSE_REASON" = "Válasszon egy okot";
+"BME_REPORT_ABUSE_CHOOSE_REASON" = "Válassz egy okot";
 
 /* Title of report button */
 "BME_REPORT_ABUSE_REPORT" = "Visszaélés jelentése";
@@ -32,13 +32,13 @@
 "BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL" = "OK";
 
 /* Message in alert view shown when reporting failed */
-"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "Az új jelszó kérelmet nem sikerült elküldeni. Győződjön meg róla, hogy aktív internet kapcsolattal rendelkezik, majd próbálkozzon újra.";
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "A jelentést nem sikerült elküldeni. Győződj meg róla, hogy aktív az internet kapcsolatod, majd próbálkozz újra.";
 
 /* Title in alert view shown when reporting failed */
-"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE" = "Nem sikerült a visszaélést jelenteni";
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE" = "Nem sikerült a jelenteni visszaélést";
 
 /* Title in overlay displayed when reporting abuse */
-"BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE" = "Jelentés...";
+"BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE" = "Küldés...";
 
 /* Title of cancel button in alert view shown when asking the user to confirm that he wants to report abuse */
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL" = "Mégsem";
@@ -47,25 +47,25 @@
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM" = "Jóváhagyás";
 
 /* Message in alert view shown when asking the user to confirm that he wants to report abuse */
-"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Minden visszaélést szigorúan veszünk és alaposan utána nézünk. Biztos benne, hogy az ügy másik részét is jelenteni szeretné?";
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Minden visszaélést szigorúan veszünk és alaposan utána nézünk. Biztos vagy benne, hogy be szeretnéd jelenteni a másik fél visszaélését?";
 
 /* Title in alert view shown when asking the user to confirm that he wants to report abuse */
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "Visszaélés Jelentése";
 
 /* Accesibility label for reason 1 when the reason is selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "Az érintett személy nem akart segíteni.";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "Az érintett személy nem akart segíteni (kiválasztva)";
 
 /* Accesibility label for reason 1 when the reason is not selected */
 "BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "Az érintett személy nem akart segíteni.";
 
 /* Accesibility label for reason 2 when the reason is selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "A segítő nem megfelelően járt el (Kiválasztva)";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "A segítő nem megfelelően járt el (kiválasztva)";
 
 /* Accesibility label for reason 2 when the reason is not selected */
 "BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2" = "A segítő nem megfelelően járt el.";
 
 /* Accesibility label for reason 3 when the reason is selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "Az ok nem szerepel (Kiválasztva).";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "Az ok nem szerepel (kiválasztva)";
 
 /* Accesibility label for reason 3 when the reason is not selected */
 "BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3" = "Az ok nem szerepel.";

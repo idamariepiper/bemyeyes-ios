@@ -20,7 +20,7 @@
 "BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND" = "El ayudante actuó de forma inadecuada.";
 
 /* Text 2 for reporting abuse as a helper. */
-"BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER" = "La persona no vidente actuó de forma inadecuada.";
+"BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER" = "La persona invidente actuó de forma inadecuada.";
 
 /* Text 3 for reporting abuse as a blind person. */
 "BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND" = "La razón no se encuentra en la lista.";

@@ -2,7 +2,7 @@
 "BME_REPORT_ABUSE_HEADLINE" = "Missbrauch melden";
 
 /* Text telling user to choose a reason */
-"BME_REPORT_ABUSE_CHOOSE_REASON" = "Wählen Sie einen Grund";
+"BME_REPORT_ABUSE_CHOOSE_REASON" = "Wähle einen Grund";
 
 /* Title of report button */
 "BME_REPORT_ABUSE_REPORT" = "Missbrauch melden";
@@ -11,7 +11,7 @@
 "BME_REPORT_ABUSE_SKIP" = "Überspringen";
 
 /* Text 1 for reporting abuse as a blind person. */
-"BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND" = "Der Mensch wollte nicht helfen.";
+"BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND" = "Die Person wollte nicht helfen.";
 
 /* Text 1 for reporting abuse as a helper. */
 "BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER" = "Die Person war nicht blind.";
@@ -47,16 +47,16 @@
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM" = "Bestätigen";
 
 /* Message in alert view shown when asking the user to confirm that he wants to report abuse */
-"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Alle Missbrauch-Fälle werden ernst genommen und überprüft. Sind Sie sicher, dass Sie diese Person für einen Missbrauch melden wollen?";
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Alle Missbrauchfälle werden ernst genommen und überprüft. Bist du sicher, dass du diese Person wegen eines Missbrauchs melden willst?";
 
 /* Title in alert view shown when asking the user to confirm that he wants to report abuse */
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "Missbrauch melden";
 
 /* Accesibility label for reason 1 when the reason is selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "Der Mensch wollte nicht helfen (Ausgewählt)";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "Die Person wollte nicht helfen (Ausgewählt)";
 
 /* Accesibility label for reason 1 when the reason is not selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "Der Mensch wollte nicht helfen.";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "Die Person wollte nicht helfen.";
 
 /* Accesibility label for reason 2 when the reason is selected */
 "BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "Der Helfende verhielt sich unangemessen (Ausgewählt)";

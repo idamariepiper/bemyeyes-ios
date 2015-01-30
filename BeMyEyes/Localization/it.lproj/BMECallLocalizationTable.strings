@@ -26,7 +26,7 @@
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "OK";
 
 /* Message in alert showed when failed creating request */
-"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "La richiesta non può essere creata. Prova di nuovo.";
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "La richiesta non può essere creata. Per favore riprova.";
 
 /* Title in alert showed when failed creating request */
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Impossibile creare la richiesta";
@@ -44,7 +44,7 @@
 "BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "La richiesta non poteva essere completata in questo momento. Grazie per il vostro aiuto!";
 
 /* Status when creating request */
-"BME_CALL_STATUS_CREATING_REQUEST" = "Creo la richiesta...";
+"BME_CALL_STATUS_CREATING_REQUEST" = "Creazione richiesta...";
 
 /* Status when connecting */
 "BME_CALL_STATUS_CONNECTING" = "Connessione al server...";

@@ -5,7 +5,7 @@
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "OK";
 
 /* MEssage in alert view shown when the languages could not be saved */
-"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "言語は保存できませんでした。後でもう一度お試しください。 ";
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "言語設定を保存できませんでした。あとでもう一度やり直してください。";
 
 /* Title in alert view shown when the languages could not be saved */
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "保存できませんでした";

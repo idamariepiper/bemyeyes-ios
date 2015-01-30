@@ -1,0 +1,15 @@
+/* Title of back button */
+"BME_HELPER_INTRO_BACK" = "Grįžti";
+
+/* Title of continue button */
+"BME_HELPER_INTRO_CONTINUE" = "Tęsti";
+
+/* Headline */
+"BME_HELPER_INTRO_HEADLINE" = "Padėti paprasta!";
+
+/* Short description */
+"BME_HELPER_INTRO_SHORT_DESCRIPTION" = "Padėkite bet kur, nesvarbu, kur esate.";
+
+/* Long description */
+"BME_HELPER_INTRO_LONG_DESCRIPTION" = "Jūsų telefonas yra atviras skambučiams iš žmonių kuriems reikia pagalbos, kai esate prisijungęs prie tinklo.";
+

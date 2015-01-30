@@ -5,13 +5,13 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* Motivational message to helper when call has ended */
-"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER" = "Köszönjük, hogy segített!";
+"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER" = "Köszönjük, hogy segítettél!";
 
 /* Motivational message to blind when call has ended */
-"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "Reméljük, hogy megkapta a megfelelő segítséget!";
+"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "Reméljük, hogy megkaptad a megfelelő segítséget!";
 
 /* Title of dismiss button to helper */
-"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Nem volt probléma";
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Szívesen!";
 
 /* Title of dismiss button to blind */
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "Kész";

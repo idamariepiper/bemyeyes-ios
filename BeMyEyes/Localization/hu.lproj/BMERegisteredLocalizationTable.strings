@@ -2,7 +2,7 @@
 "BME_REGISTERED_HEADLINE" = "Igen!";
 
 /* Description */
-"BME_REGISTERED_DESCRIPTION" = "Ön még nem regisztrált.";
+"BME_REGISTERED_DESCRIPTION" = "Most már regisztrálva vagy.";
 
 /* Title of log in button */
 "BME_REGISTERED_LOG_IN" = "Bejelentkezés";

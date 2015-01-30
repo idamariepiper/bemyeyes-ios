@@ -1,8 +1,8 @@
 /* Headline of snooze */
-"BME_HELPER_MAIN_SNOOZE_HEADLINE" = "Вздремните";
+"BME_HELPER_MAIN_SNOOZE_HEADLINE" = "Сделать перерыв";
 
 /* Format for snooze status text. %@ is replaced with the snooze amount. */
-"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "Проспали  %@";
+"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "Перерыв на последующие  %@";
 
 /* Point description */
 "BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Людям помогли";
@@ -29,7 +29,7 @@
 "BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d баллов до следующего уровня";
 
 /* Points signup description */
-"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Вход выполнен успешно";
+"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Регистрация выполнена успешно";
 
 /* Points answer push message description */
 "BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Пытались помочь";
@@ -41,10 +41,10 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Помогли незрячему человеку";
 
 /* Points finish 10 helping requests in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Помогли 10 человек за неделю";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Помогли 10 людям за неделю";
 
 /* Points finish 5 high fives in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 пятёрок за неделю";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 пятерней за неделю";
 
 /* Points share on twitter description */
 "BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTION" = "Опубликовано в Twitter";
@@ -62,10 +62,10 @@
 "BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION" = "Поделиться в Facebook";
 
 /* Task watch video description */
-"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Посмотреть видео";
+"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Смотреть видео";
 
 /* Community network description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Сеть \"Стань Моими Глазами\"";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Сеть Be My Eyes";
 
 /* Community network sighted description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Зрячий";
@@ -85,11 +85,3 @@
 /* Snooze status text when not snoozing */
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Сейчас вы доступны для оказания помощи";
 
-/* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
-
-/* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
-
-/* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";

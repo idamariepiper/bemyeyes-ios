@@ -11,10 +11,10 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Igen";
 
 /* Message in alert view shown when asking the blind if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Ha beszél több nyelven, válassza ki azokat is, mert így gyorsabban találhat olyan segítőt, akivel beszélnek közös nyelvet.";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Ha több nyelven beszélsz, válaszd ki azokat is, mert így gyorsabban találhatsz olyan segítőt, akivel közös nyelvet beszéltek.";
 
 /* Title in alert view shown when asking the blind if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Beszél más nyelveken?";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Beszélsz más nyelveken?";
 
 /* Title of cancel button in alert view shown when asking the helper if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "Nem";
@@ -23,10 +23,10 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Igen";
 
 /* Message in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Ha beszél több nyelven, válassza ki azokat is, mert így gyorsabban találhat magára egy vak ember, akivel beszélnek közös nyelvet.";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Ha több nyelven beszélsz, válaszd ki azokat is, mert így gyorsabban találhat rád olyan vak ember, akivel közös nyelvet beszéltek.";
 
 /* Title in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Beszél más nyelveken?";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Beszélsz más nyelveken?";
 
 /* Settings button accessibility label */
 "BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "Beállítások";
@@ -35,10 +35,10 @@
 "BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "Értesítések";
 
 /* Title of cancel button in alert view */
-"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Valami elromlott, és lehet, hogy nem kap értesítést";
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Valami hiba történt, és lehet, hogy nem kapsz értesítéseket";
 
 /* Title of cancel button in alert view */
-"BME_MAIN_ALERT_CANCEL" = "oké";
+"BME_MAIN_ALERT_CANCEL" = "OK";
 
 /* Title of alert view when user is forced to logout */
 "BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Bejelentkezési hiba";

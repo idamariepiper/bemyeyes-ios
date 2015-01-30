@@ -14,7 +14,7 @@
 "BME_SIGN_UP_PASSWORD_PLACEHOLDER" = "Senha";
 
 /* Title of register button */
-"BME_SIGN_UP_REGISTER" = "Registrar-se";
+"BME_SIGN_UP_REGISTER" = "Cadastrar";
 
 /* Title of cancel button in alert view shown when e-mail is already registered. */
 "BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL" = "Ok";
@@ -65,13 +65,13 @@
 "BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL" = "Ok";
 
 /* Message in alert view shown when a network error occurred. */
-"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Sua conta não pôde ser criada. Por favor, verifique que você tem uma conexão de internet ativa e tente novamente.";
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Sua conta não pode ser criada. Por favor, verifique que você tem uma conexão de internet ativa e tente novamente.";
 
 /* Title in alert view shown when a network error occurred. */
 "BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "Não foi possível criar conta";
 
 /* Title in overlay displayed when logging in */
-"BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "Logando...";
+"BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "Entrando...";
 
 /* Title in overlay displayed when registering */
 "BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Registrando...";
