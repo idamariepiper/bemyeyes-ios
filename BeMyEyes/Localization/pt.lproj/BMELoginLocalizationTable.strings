@@ -14,13 +14,13 @@
 "BME_LOGIN_FACEBOOK" = "Entrar com o Facebook";
 
 /* Title of forgot password button */
-"BME_LOGIN_FORGOT_PASSWORD" = "Esqueci a password";
+"BME_LOGIN_FORGOT_PASSWORD" = "Esqueci a senha";
 
 /* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
 "BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL" = "OK";
 
 /* Message in alert view shown when a network error occurred during Facebook log in. */
-"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE" = "Por favor verifique se tem uma ligação de internet ativa e tente novamente.";
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE" = "Por favor, certifique-se de que  tem uma ligação de internet ativa e tente novamente.";
 
 /* Title in alert view shown when a network error occurred during Facebook log in. */
 "BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_TITLE" = "Ocorreu um erro";
@@ -65,7 +65,7 @@
 "BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL" = "OK";
 
 /* Message in alert view shown when a network error occurred. */
-"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE" = "Por favor verifique se tem uma ligação de internet ativa e tente novamente.";
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE" = "Por favor, certifique-se de que  tem uma ligação de internet ativa e tente novamente.";
 
 /* Title in alert view shown when a network error occurred during e-mail log in. */
 "BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE" = "Ocorreu um erro";

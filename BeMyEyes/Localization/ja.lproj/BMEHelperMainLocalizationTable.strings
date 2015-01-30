@@ -2,10 +2,10 @@
 "BME_HELPER_MAIN_SNOOZE_HEADLINE" = "スヌーズ";
 
 /* Format for snooze status text. %@ is replaced with the snooze amount. */
-"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "次の%@スヌーズの状態です";
+"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "次の%@はスヌーズの状態です";
 
 /* Point description */
-"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "支援した人";
+"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "援助した人";
 
 /* Point total description */
 "BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "合計ポイント";
@@ -29,22 +29,22 @@
 "BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "次のレベルまで%dポイント";
 
 /* Points signup description */
-"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "サインアップ成功";
+"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "登録成功";
 
 /* Points answer push message description */
-"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "支援を試みました";
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "援助を試みました";
 
 /* Points answer push message techinal error description */
-"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "支援を試みました";
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "援助を試みました";
 
 /* Points finish helping request description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "視覚障害者を支援しました";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "視覚障がい者を援助しました";
 
 /* Points finish 10 helping requests in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "週に10支援しました";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "週に10回、援助しました";
 
 /* Points finish 5 high fives in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "週に5ハイタッチ";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "週に5回ハイタッチしました";
 
 /* Points share on twitter description */
 "BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTION" = "Twitterで共有";
@@ -53,7 +53,7 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTION" = "Facebookで共有";
 
 /* Points watch video description */
-"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "鑑賞した動画";
+"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "閲覧した動画";
 
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Twitterで共有";
@@ -65,19 +65,19 @@
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "動画を見る";
 
 /* Community network description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyesネットワーク";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyes ネットワーク";
 
 /* Community network sighted description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "晴眼者";
 
 /* Community network blind description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "視覚障害者";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "視覚障がい者";
 
 /* Community network helped description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "支援した";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "援助者";
 
 /* Message shown when the point could not be loaded */
-"BME_HELPER_MAIN_LOADING_POINT_FAILED" = "ポイントをロードできませんでした";
+"BME_HELPER_MAIN_LOADING_POINT_FAILED" = "ポイントを読み込めませんでした";
 
 /* Title of button for retrying loading point when failed */
 "BME_HELPER_MAIN_RETRY_LOADING_POINT" = "再試行";
@@ -85,11 +85,3 @@
 /* Snooze status text when not snoozing */
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "あなたは現在アクティブです";
 
-/* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
-
-/* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
-
-/* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";

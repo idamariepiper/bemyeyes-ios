@@ -1,5 +1,5 @@
 /* Title */
-"BME_LANGUAGES_TITLE" = "你的語言";
+"BME_LANGUAGES_TITLE" = "您的語言";
 
 /* Title of cancel button in alert view shown when the languages could not be saved */
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "確認";

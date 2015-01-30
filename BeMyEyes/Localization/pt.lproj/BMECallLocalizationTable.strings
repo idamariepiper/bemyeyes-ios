@@ -26,7 +26,7 @@
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "OK";
 
 /* Message in alert showed when failed creating request */
-"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "A solicitação não pode ser enviada. por favor, tente novamente.";
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "A solicitação não pode ser enviada. Por favor, tente novamente.";
 
 /* Title in alert showed when failed creating request */
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Não foi possível fazer a solicitação";
@@ -38,7 +38,7 @@
 "BME_CALL_STATUS_PLEASE_WAIT" = "Por favor, aguarde... ";
 
 /* Status when answering request */
-"BME_CALL_STATUS_ANSWERING_REQUEST" = "respondendo solicitação...";
+"BME_CALL_STATUS_ANSWERING_REQUEST" = "Respondendo solicitação...";
 
 /* Message in alert view shown when failed answering request for an unknown reason */
 "BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "A solicitação não pode ser respondida neste momento. Obrigado por seu apoio!";

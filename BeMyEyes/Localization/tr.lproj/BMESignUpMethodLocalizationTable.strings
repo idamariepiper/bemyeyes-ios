@@ -2,7 +2,7 @@
 "BME_SIGN_UP_METHOD_BACK" = "Geri";
 
 /* Headline */
-"BME_SIGN_UP_METHOD_HEADLINE" = "Ağa katıl";
+"BME_SIGN_UP_METHOD_HEADLINE" = "Bu ağın bir parçası ol";
 
 /* Tiel of Facebook sign up button */
 "BME_SIGN_UP_METHOD_FACEBOOK" = "Facebook ile üye ol";
@@ -53,7 +53,7 @@
 "BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "Oturum açılıyor...";
 
 /* Title in overlay displayed when registering */
-"BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE" = "Kaydolunuyor...";
+"BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE" = "Kaydediliyor...";
 
 /* Title of cancel button in alert view shown when no Facebook account was found. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "Tamam";

@@ -4,7 +4,7 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* MEssage in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "プッシュ通知は、Be My Eyesアプリに不可欠であり、サインアップするためにプッシュ通知を有効にする必要があります。";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "プッシュ通知はBe My Eyesアプリにとって不可欠です。登録するためにはプッシュ通知を有効にする必要があります。";
 
 /* Title in alert view shown if push notifications are not enabled */
 "BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "プッシュ通知が有効になっていません";
@@ -13,19 +13,19 @@
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "誰か";
 
 /* Title in alert view shown when a call is received while the app was active */
-"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE" = "あなたの支援が必要です！";
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE" = "あなたの援助が必要です！";
 
 /* Title of cancel button in alert view shown when a call is received while the app was active */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "キャンセル";
 
 /* Message in alert view shown when the microphone is disabled */
-"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "システム設定でマイクを使用するためアプリケーションにアクセス許可を与える必要があります。";
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "マイクを使用するためには、「設定」でこのアプリケーションにアクセス許可を与える必要があります。";
 
 /* Title in alert view shown when the microphone is disabled */
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "マイクが有効になっていません";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "システム設定でカメラを使用するためアプリケーションにアクセス許可を与える必要があります。";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "カメラを使用するためには、「設定」でこのアプリケーションにアクセス許可を与える必要があります。";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "カメラが有効になっていません";
@@ -37,22 +37,22 @@
 "BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL_CAN_GO_TO_SETTINGS" = "キャンセル";
 
 /* Title of ok button in alert view shown when the access is disabled, and app supports going to settings */
-"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_GO_TO_SETTINGS" = "オープン設定";
+"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_GO_TO_SETTINGS" = "設定を開く";
 
 /* Title of cancel button in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL" = "OK";
 
 /* Message in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "保留中のリクエストは応答されたか、視覚障害者によって取り消されましたが、支援ありがとうございます！";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "保留中のリクエストは応答されたか、または視覚障がい者によって取り消されましたが、ご協力ありがとうございます！";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "リクエストは既に応答またはキャンセルされました";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "リクエストはすでに応答またはキャンセルされました";
 
 /* Title of cancel button in alert view shown when the app icon shows a badge but the pending rcould not be loaded */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL" = "OK";
 
 /* Message in alert view shown when the app icon shows a badge but the pending request could not be loaded */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "保留中のリクエストを読み込めませんでした。 心配しないでください。他の誰かがリクエストに応答します。";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "保留中のリクエストを読み込めませんでしたが、心配しないでください。誰かがリクエストに応えてくれます。";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request could not be loaded */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE" = "リクエストは読み込まれていません";
@@ -64,5 +64,5 @@
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "登録できませんでした";
 
 /* Message in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "デバイスは、プッシュ通知が受信できるように登録されませんでした。アプリケーションが誤ってログインされている可能性があります。";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "プッシュ通知の受信は登録されませんでした。アプリケーションが誤ってログインされている可能性があります。";
 

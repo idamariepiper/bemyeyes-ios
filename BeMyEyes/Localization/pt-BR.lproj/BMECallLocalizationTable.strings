@@ -5,7 +5,7 @@
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL" = "Ok";
 
 /* Message in alert view shown when failed answering request because the request has already been answered */
-"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "A solicitação já foi respondida. Obrigado por seu apoio!";
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "A solicitação já foi respondida. Obrigado pelo seu apoio!";
 
 /* Title in alert view shown when failed answering request because the request has already been answered */
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "Solicitação já respondida";
@@ -41,7 +41,7 @@
 "BME_CALL_STATUS_ANSWERING_REQUEST" = "Atendendo solicitação...";
 
 /* Message in alert view shown when failed answering request for an unknown reason */
-"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "A solicitação não ode ser respondida neste momento. Obrigado pelo seu apoio!";
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "A solicitação não pode ser respondida neste momento. Obrigado pelo apoio!";
 
 /* Status when creating request */
 "BME_CALL_STATUS_CREATING_REQUEST" = "Criando solicitação...";
@@ -56,7 +56,7 @@
 "BME_CALL_STATUS_SESSION_FAILED" = "Conexão falhou";
 
 /* Status when failed publishing */
-"BME_CALL_STATUS_FAILED_PUBLISHING" = "Falha na publicação do áudio e vídeo";
+"BME_CALL_STATUS_FAILED_PUBLISHING" = "Falha ao publicar áudio e vídeo";
 
 /* Speech when connected to other part */
 "BME_CALL_SPEECH_DID_SUBSCRIBE" = "Conectado à outra parte";
@@ -71,7 +71,7 @@
 "BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL" = "Ok";
 
 /* Message in alert shown when other part has disconnected */
-"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE" = "A outra parte se desconectou e a sessão finalizou.";
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE" = "A outra parte se desconectou e a sessão foi encerrada.";
 
 /* Title in alert shown when other part has disconnected */
 "BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE" = "Sessão encerrada";

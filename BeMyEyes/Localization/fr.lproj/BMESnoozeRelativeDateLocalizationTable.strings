@@ -7,7 +7,7 @@
 "BME_SNOOZE_RELATIVE_DATE_DAY" = "jour";
 
 /* No comment provided by engineer. */
-"BME_SNOOZE_RELATIVE_DATE_DAYS" = "%.0f days";
+"BME_SNOOZE_RELATIVE_DATE_DAYS" = "%.0f jours";
 
 /* No comment provided by engineer. */
 "BME_SNOOZE_RELATIVE_DATE_HOUR" = "heure";

@@ -17,10 +17,10 @@
 "BME_ACCESS_MICROPHONE_TITLE" = "Mikrofón";
 
 /* Explanation for why the helper needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Byť schopný hovoriť  a sprevádzať nevidiace osoby";
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Aby ste boli schopný hovoriť  a sprevádzať nevidiace osoby";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Byť schopný vysvetliť problém pomocníkovi.";
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Aby ste boli schopný vysvetliť problém pomocníkovi.";
 
 /* Title for camera */
 "BME_ACCESS_CAMERA_TITLE" = "Kamera";
@@ -29,5 +29,5 @@
 "BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Nepošleme Vaše video osobe, ktorej pomáhate, ale je potrebné nadviazať spojenie.";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Byť schopný ukázať pomocníkovi s čím potrebujete pomôcť.";
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Aby ste boli schopný ukázať pomocníkovi, s čím potrebujete pomôcť.";
 
