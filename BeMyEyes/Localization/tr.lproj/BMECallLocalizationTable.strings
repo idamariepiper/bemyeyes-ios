@@ -8,7 +8,7 @@
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "İstek halihazırda yanıtlandı. Yardımınız için teşekkürler!";
 
 /* Title in alert view shown when failed answering request because the request has already been answered */
-"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "İstek halihazırda cevaplandı";
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "İstek zaten yanıtlanmış";
 
 /* Title of cancel button in alert view shown when failed answering request because the request has been stopped */
 "BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL" = "Tamam";

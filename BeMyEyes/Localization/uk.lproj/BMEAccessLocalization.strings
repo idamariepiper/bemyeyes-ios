@@ -26,7 +26,7 @@
 "BME_ACCESS_CAMERA_TITLE" = "Камера";
 
 /* Explanation for why the helper needs to enable camera access */
-"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Ми не покажемо ваше зображення особі, якій ви допомогаєте, але доступ до камери потрібен для встановлення зв'язку.";
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Ми не показуємо ваше зображення особі, якій ви допомогаєте, але доступ до камери потрібен для встановлення зв'язку.";
 
 /* Explanation for why the blind person needs to enable microphone access */
 "BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Для того, щоб показати помічнику, з чим вам потрібна допомога.";

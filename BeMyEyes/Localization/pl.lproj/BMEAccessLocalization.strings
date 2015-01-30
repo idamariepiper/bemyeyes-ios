@@ -29,5 +29,5 @@
 "BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Nie wysyłamy obrazu osobie której pomagasz, jednak jest to konieczne do nawiązania połączenia.";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Aby móc przekazać pomocnikowi w czym potrzebujesz pomocy.";
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Aby móc pokazać pomocnikowi w czym potrzebujesz pomocy.";
 

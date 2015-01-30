@@ -52,7 +52,7 @@
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL" = "ΟΚ";
 
 /* Message in alert view shown when the app icon shows a badge but the pending request could not be loaded */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "Το αίτημα σε εκκρεμότητα δεν μπορεί να φορτωθεί. Μην ανησυχείτε, κάποιος άλλος θα απαντήσει το αίτημα.";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "Η εκκρεμούσα αίτηση δεν μπορεί να φορτωθεί. Μην ανησυχείτε, κάποιος άλλος θα απαντήσει το αίτημα.";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request could not be loaded */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE" = "Το αίτημα δεν φορτώθηκε";
@@ -64,5 +64,5 @@
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "Δεν ήταν δυνατή η καταχώρηση";
 
 /* Message in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "Η συσκευή δεν έχει καταχωρηθεί για λήψη ειδοποιήσεων push. Αυτό μπορεί να σημαίνει ότι η σύνδεση στην εφαρμογή δεν έχει γίνει σωστά.";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "Η συσκευή δεν έχει καταχωρηθεί για λήψη ειδοποιήσεων push. Αυτό μπορεί να σημαίνει ότι η εφαρμογή δεν έχει συνδεθεί σωστά.";
 

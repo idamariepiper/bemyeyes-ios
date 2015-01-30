@@ -4,10 +4,10 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* MEssage in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Notificações push são uma parte central do aplicativo Be My Eyes e você deve mantê-las habilitadas para inscrever-se.";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Notificações são uma parte central do aplicativo Be My Eyes e você deve mantê-las habilitadas para inscrever-se.";
 
 /* Title in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Notificações push não habilitadas";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Notificações não habilitadas";
 
 /* Default name used in alert view shown when a call is received while the app was active. The name is only used if no name is provided in localizable arguments. */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "Alguém";
@@ -43,7 +43,7 @@
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL" = "Ok";
 
 /* Message in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "A solicitação pendente já foi atendida ou cancelada pelo cego mas obrigado pelo seu apoio!";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "A solicitação pendente já foi atendida ou cancelada, mas obrigado pelo seu apoio!";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "Solicitação já atendida ou cancelada";
@@ -64,5 +64,5 @@
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "Não foi possível registrar";
 
 /* Message in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "O dispositivo não foi registrado para receber notificações push. Isso pode significar que a assinatura foi feita de forma incorreta.";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "O dispositivo não foi registrado para receber notificações. Isso pode significar que a assinatura foi feita de forma incorreta.";
 

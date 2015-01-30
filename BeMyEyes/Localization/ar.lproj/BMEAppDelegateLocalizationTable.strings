@@ -61,7 +61,7 @@
 "BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE" = "جاري التحميل...";
 
 /* Title in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "لا يمكن التسجيل";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "تعذر التسجيل";
 
 /* Message in alert shown when the device could not register for remote notifications */
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "الجهاز غير مسجّل من أجل استلام الإشعارات. قد يعني هذا أنه تم التسجيل في التطبيق بالخطأ.";

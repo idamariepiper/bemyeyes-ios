@@ -77,7 +77,7 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "Ok";
 
 /* Message in alert view shown when no Facebook account was found. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Er is geen Facebook account gevonden op het apparaat. Voeg een account toe in de systeem instellingen.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Er is geen Facebookaccount gevonden op het apparaat. Voeg een account toe in de systeeminstellingen.";
 
 /* Title in alert view shown when no Facebook account was found. */
 "BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Geen account gevonden";

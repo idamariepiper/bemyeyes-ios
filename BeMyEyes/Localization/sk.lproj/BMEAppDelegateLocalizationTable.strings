@@ -4,7 +4,7 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* MEssage in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Push oznámenia sú hlavnou súčasťou Be My Eyes aplikácie a na prihlásenie ich musíťe mať povolené. ";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Push oznámenia sú hlavnou súčasťou Be My Eyes aplikácie a na prihlásenie ich musíte mať povolené. ";
 
 /* Title in alert view shown if push notifications are not enabled */
 "BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Oznámenia nie sú povolené";
@@ -25,7 +25,7 @@
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "Mikrofón nie je zapnutý";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "Použitie videokamery musíte povoliť v systémových nastaveniach. ";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "Použitie videokamery v aplikácii musíte povoliť v systémových nastaveniach.";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "Videokamera nie je zapnutá";
@@ -43,7 +43,7 @@
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL" = "OK";
 
 /* Message in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "Čakajúca žiadosť bola zodpovedaná alebo ju zrušená, ale ďakujeme Vám za pomoc!";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "Čakajúca žiadosť bola zodpovedaná alebo zrušená nevidiacou osobou, ale ďakujeme Vám za pomoc!";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "Žiadosť už bola zodpovedaná alebo zrušená";
@@ -52,7 +52,7 @@
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL" = "OK";
 
 /* Message in alert view shown when the app icon shows a badge but the pending request could not be loaded */
-"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "Čakajúca žiadosť sa nenačítala. Nebojte sa, niekto iný odpovie na žiadosť.";
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "Čakajúcu žiadosť sa nepodarilo načíťať. Nebojte sa, niekto iný na ňu odpovie.";
 
 /* Title in alert view shown when the app icon shows a badge but the pending request could not be loaded */
 "BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE" = "Žiadosť sa nenačítala";
@@ -64,5 +64,5 @@
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "Nepodarilo sa zaregistrovať";
 
 /* Message in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "Zariadenie nebolo zaregistrované na príjímanie push notifikácii. To by mohlo znamenať, že žiadost bola nesprávne odoslaná.";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "Zariadenie nebolo zaregistrované na prijímanie push notifikácii. To by mohlo znamenať, že žiadosť bola nesprávne odoslaná.";
 

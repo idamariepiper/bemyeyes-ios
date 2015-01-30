@@ -1,0 +1,9 @@
+/* Title of back button */
+"BME_BLIND_INTRO_BACK" = "Tornar";
+
+/* Title of continue button */
+"BME_BLIND_INTRO_CONTINUE" = "Continuar";
+
+/* Description */
+"BME_BLIND_INTRO_DESCRIPTION" = "L'app li posarà en contacte directe amb un ajudant vidents que remotament us ajudarà amb les tasques que requereix l'ajuda d'una persona vidents - a través d'una connexió de vídeo en directe l'ajudant li dirà el que ell o ella veu quan apunta alguna cosa amb el seu telèfon.\n\nEls ajudants de la xarxa de Be My Eyes són voluntaris i no podem garantir la qualitat de la seva ajuda ni ens responsabilitzem de qualsevol de les seves accions. D'altra banda perquè confiem en la gent real per ajudar-vos us demanem ser pacients quan es demana ajuda.  \n\nVostè en cap cas pot compartir qualsevol contingut nu, il·legal, odi o sexualment suggerent mitjançant el servei, i mai no hauria de mostrar qualsevol informació confidencial com ara targetes de crèdit, passaport o altres dades personals.";
+

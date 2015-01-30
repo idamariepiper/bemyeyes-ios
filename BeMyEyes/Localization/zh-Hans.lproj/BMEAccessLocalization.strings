@@ -26,7 +26,7 @@
 "BME_ACCESS_CAMERA_TITLE" = "相機";
 
 /* Explanation for why the helper needs to enable camera access */
-"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "我們不會發送您的視頻到其他人，但這需要用來建立連接。";
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "這需要視頻作為連接，但我們不會將您的視頻傳送給其他人。";
 
 /* Explanation for why the blind person needs to enable microphone access */
 "BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "讓義工知道你需要什麼幫助。";

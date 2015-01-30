@@ -1,0 +1,12 @@
+/* Title */
+"BME_LANGUAGES_TITLE" = "Llengües";
+
+/* Title of cancel button in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "D'acord";
+
+/* MEssage in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Les llengües no s'han pogut desar. Si us plau, intenta-ho més tard.";
+
+/* Title in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "No s'ha pogut desar";
+

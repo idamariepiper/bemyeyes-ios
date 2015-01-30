@@ -1,0 +1,51 @@
+/* 
+  BMEMainViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 07/07/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Title of cancel button in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL" = "No";
+
+/* Title of confirm button in alert view shown when asking the blind if he knows more BME_MAIN_langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Sí, ho he fet";
+
+/* Message in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Si vostè sap més idiomes, podeu seleccionar-los i seràs aparellat amb un ajudant que conegui aquest idioma i així rebrà ajuda més ràpid.";
+
+/* Title in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Sap més idiomes?";
+
+/* Title of cancel button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "No";
+
+/* Title of confirm button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Sí, ho he fet";
+
+/* Message in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Si vostè sap més idiomes, podeu seleccionar-los i seràs aparellat amb els invidents que necessitin ajuda en aquest idioma.";
+
+/* Title in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Sap més idiomes?";
+
+/* Settings button accessibility label */
+"BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "Configuració";
+
+/* Title of notifications error title in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "Notificacions";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Alguna cosa ha sorit malament i es possible que no rebeu notificacions";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_CANCEL" = "D'acord";
+
+/* Title of alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Error en l'accés";
+
+/* Message in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Degut a un error tècnic vostè ha estat desconnectat.";
+
+/* Ok button in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "Entra";
+

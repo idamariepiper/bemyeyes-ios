@@ -11,11 +11,11 @@
 "POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "Esperamos que você tenha recebido o apoio que pediu!";
 
 /* Title of dismiss button to helper */
-"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Sem problema";
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Tudo certo";
 
 /* Title of dismiss button to blind */
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "Feito";
 
 /* Title of report button */
-"POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "Reportar";
+"POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "Relatar";
 

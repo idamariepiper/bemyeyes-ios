@@ -1,0 +1,54 @@
+/* Headline */
+"BME_SETTINGS_HEADLINE" = "Nustatymai";
+
+/* First name title */
+"BME_SETTINGS_FIRST_NAME" = "Vardas";
+
+/* Last name title */
+"BME_SETTINGS_LAST_NAME" = "Pavardė";
+
+/* E-mail title */
+"BME_SETTINGS_EMAIL" = "El. paštas";
+
+/* Languages */
+"BME_SETTINGS_LANGUAGES" = "Kalbos";
+
+/* Select languages title */
+"BME_SETTINGS_ADD_LANGUAGES" = "Įtraukti kalbų";
+
+/* Feedback title */
+"BME_SETTINGS_FEEDBACK" = "Pasidalinkite savo nuomone apie aplikaciją";
+
+/* Log out title */
+"BME_SETTINGS_LOG_OUT" = "Atsijungti";
+
+/* Title of cancel button in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL" = "Gerai";
+
+/* Messaage in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Jūs neatsijungėte. Prašome įsitikinti, kad jūs esate prisijungę prie interneto ir pabandyti dar kartą.";
+
+/* Title in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE" = "Nepavyko atsijungti";
+
+/* Title in overlay shown when logging out */
+"BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE" = "Atsijungiama...";
+
+/* Version title */
+"BME_SETTINGS_VERSION_TITLE" = "Versija %@";
+
+/* Dismiss settings button accessibility label */
+"BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL" = "Grįžti";
+
+/* Points description task cell */
+"BME_SETTINGS_TASK_POINTS" = "+%d taškai";
+
+/* Points description task completed */
+"BME_SETTINGS_TASK_COMPLETED" = "✓";
+
+/* Points description task completed accessibility label */
+"BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL" = "Pabaigta";
+
+/* Share message for Facebook and Twitter */
+"BME_SETTINGS_TASK_SHARE_MESSAGE" = "Padėkite aklajam žmogui matyti su #BeMyEyes - aplikacija, kuri sujungia akluosius ir reginčiuosius pagalbininkus!";
+
