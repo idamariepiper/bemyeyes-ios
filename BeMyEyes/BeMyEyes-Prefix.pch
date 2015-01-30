@@ -22,6 +22,7 @@
     #import <MiawKit/MKFunctions.h>
     #import "MKLocalizationKeys.h"
     #import "BMEGlobal.h"
+    #import "BMEConstants.h"
     #import "BeMyEyes-Swift.h"
 
     static NSString *const NotificationCategoryReply = @"REPLY_ACTIONABLE";

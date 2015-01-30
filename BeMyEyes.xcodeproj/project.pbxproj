@@ -1223,6 +1223,7 @@
 		83014EEAF95A76A5B2F2EDF8 /* Pods-BeMyEyes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeMyEyes.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeMyEyes/Pods-BeMyEyes.release.xcconfig"; sourceTree = "<group>"; };
 		9FC41417CEAB56C7A64AE960 /* Pods-BeMyEyes Tests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeMyEyes Tests.releasestaging.xcconfig"; path = "Pods/Target Support Files/Pods-BeMyEyes Tests/Pods-BeMyEyes Tests.releasestaging.xcconfig"; sourceTree = "<group>"; };
 		CB483C0BCD31022AA3EAA288 /* Pods-BeMyEyes Tests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeMyEyes Tests.debugstaging.xcconfig"; path = "Pods/Target Support Files/Pods-BeMyEyes Tests/Pods-BeMyEyes Tests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		D31C0BD51A7C0B4E00FE0E0C /* BMEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMEConstants.h; sourceTree = "<group>"; };
 		DCA643E239063BDC20E69EDE /* Pods-BeMyEyes Tests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeMyEyes Tests.debugdev.xcconfig"; path = "Pods/Target Support Files/Pods-BeMyEyes Tests/Pods-BeMyEyes Tests.debugdev.xcconfig"; sourceTree = "<group>"; };
 		E3F3226DE27E77F610C3DCEB /* Pods.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.releasestaging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.releasestaging.xcconfig"; sourceTree = "<group>"; };
 		EF5261FEFCC6483B812A4095 /* Pods-BeMyEyes.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeMyEyes.debugstaging.xcconfig"; path = "Pods/Target Support Files/Pods-BeMyEyes/Pods-BeMyEyes.debugstaging.xcconfig"; sourceTree = "<group>"; };
@@ -1429,6 +1430,7 @@
 				72856DDD19AF4D490027AFF5 /* MKLocalizationKeys.h */,
 				72858FA918DF81CE0002D6E1 /* BMEGlobal.h */,
 				72DEF72218B908140048FA90 /* BMEGlobal.temp.h */,
+				D31C0BD51A7C0B4E00FE0E0C /* BMEConstants.h */,
 				72148B041A7022F0001F0F8C /* Extensions.swift */,
 				7236E03418B8A9EA00F622AA /* Application */,
 				7236E03718B8A9EA00F622AA /* Categories */,
