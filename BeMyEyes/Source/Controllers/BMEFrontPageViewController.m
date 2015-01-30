@@ -11,6 +11,7 @@
 #import "BMECommunityStats.h"
 #import "BMEBlindIntroViewController.h"
 #import "BeMyEyes-Swift.h"
+#import <PSTAlertController.h>
 
 @interface BMEFrontPageViewController ()
 @property (weak, nonatomic) IBOutlet UIView *logoContainer;
@@ -98,7 +99,24 @@ static NSString *const BMELoginSegue = @"Login";
 }
 
 - (IBAction)didTapBlind:(id)sender {
-    [self performBlindSegue];
+    
+    if (UIAccessibilityIsVoiceOverRunning()) {
+        [self performBlindSegue];
+    }else{
+        PSTAlertController *controller =
+        [PSTAlertController alertControllerWithTitle: MKLocalizedFromTable(BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE, BMEFrontPageLocalizationTable)
+                                             message: MKLocalizedFromTable(BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY, BMEFrontPageLocalizationTable)
+                                      preferredStyle: PSTAlertControllerStyleAlert];
+        
+        PSTAlertAction *okAction = [PSTAlertAction actionWithTitle: MKLocalizedFromTable(BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON, BMEFrontPageLocalizationTable) 
+                                                             style: PSTAlertActionStyleDefault
+                                                           handler: nil];
+        [controller addAction: okAction];
+        [controller showWithSender: nil
+                        controller: self
+                          animated: YES
+                        completion: nil];
+    }
 }
 
 - (void)performHelperSegue {
