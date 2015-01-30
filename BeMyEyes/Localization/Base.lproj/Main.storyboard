@@ -2070,7 +2070,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
         <!--Helper Welcome View Controller-->
         <scene sceneID="5fN-0s-BVT">
             <objects>
-                <viewController storyboardIdentifier="HelperWelcome" id="RSG-SW-ISv" customClass="HelperWelcomeViewController" customModule="BeMyEyes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BMEHelperWelcomeViewController" id="RSG-SW-ISv" customClass="HelperWelcomeViewController" customModule="BeMyEyes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2ij-MZ-reS"/>
                         <viewControllerLayoutGuide type="bottom" id="IB5-kn-QvV"/>
