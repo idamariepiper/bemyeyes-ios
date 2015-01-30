@@ -20,7 +20,7 @@
 "BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Para poder falar e guiar a pessoa cega";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Para poder explicar seu problema para o voluntário.";
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Para poder explicar seu problema ao voluntário.";
 
 /* Title for camera */
 "BME_ACCESS_CAMERA_TITLE" = "Câmera";
@@ -29,5 +29,5 @@
 "BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Nós não enviamos seu vídeo para a pessoa que você está ajudando, mas é necessário para estabelecer a conexão.";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Para mostrar ao voluntário o que você precisa de ajuda.";
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Para mostrar ao voluntário com o que você precisa de ajuda.";
 

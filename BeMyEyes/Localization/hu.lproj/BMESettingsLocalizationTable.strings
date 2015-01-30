@@ -17,7 +17,7 @@
 "BME_SETTINGS_ADD_LANGUAGES" = "Nyelv hozzáadása";
 
 /* Feedback title */
-"BME_SETTINGS_FEEDBACK" = "Küldjön app visszajelzést";
+"BME_SETTINGS_FEEDBACK" = "Visszajelzés küldése";
 
 /* Log out title */
 "BME_SETTINGS_LOG_OUT" = "Kijelentkezés";
@@ -26,10 +26,10 @@
 "BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL" = "OK";
 
 /* Messaage in alert view shown when log out failed */
-"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Az új jelszó kérelmet nem sikerült elküldeni. Győződjön meg róla, hogy aktív internet kapcsolattal rendelkezik, majd próbálkozzon újra.";
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Nem sikerült kijelentkezni. Győződj meg róla, hogy aktív-e az internet kapcsolatod, majd próbálkozz újra.";
 
 /* Title in alert view shown when log out failed */
-"BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE" = "Nem sikerült kijelentkeznie";
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE" = "Nem sikerült kijelentkezni";
 
 /* Title in overlay shown when logging out */
 "BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE" = "Kijelentkezés...";
@@ -47,8 +47,8 @@
 "BME_SETTINGS_TASK_COMPLETED" = "✓";
 
 /* Points description task completed accessibility label */
-"BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL" = "Befejezve";
+"BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL" = "Teljesítve";
 
 /* Share message for Facebook and Twitter */
-"BME_SETTINGS_TASK_SHARE_MESSAGE" = "Segítsen egy vak embernek látni a #BeMyEyes app segítségével - az app, amely összeköti a vak embereke a látni tudó segítőkkel!";
+"BME_SETTINGS_TASK_SHARE_MESSAGE" = "Segíts látni egy látássérültnek a #BeMyEyes alkalmazással - az app, amely összeköti a látássérülteket látó segítőkkel!";
 

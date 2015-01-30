@@ -2,10 +2,10 @@
 "BME_SIGN_UP_BACK" = "Geri";
 
 /* Placeholder in first name field */
-"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "Ad";
+"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "Adınız";
 
 /* Placeholder in last name field */
-"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "Soyad";
+"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "Soyadınız";
 
 /* Placeholder in e-mail field */
 "BME_SIGN_UP_EMAIL_PLACEHOLDER" = "E-posta";
@@ -74,5 +74,5 @@
 "BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "Oturum açılıyor...";
 
 /* Title in overlay displayed when registering */
-"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Kaydolunuyor...";
+"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Kaydediliyor...";
 

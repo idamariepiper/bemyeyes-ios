@@ -5,25 +5,25 @@
 "BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "Você vai dormir mais %@ minutos";
 
 /* Point description */
-"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Pessoas ajudaram";
+"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Pessoas assistidas";
 
 /* Point total description */
 "BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Total de pontos";
 
 /* Level new helper */
-"BME_HELPER_MAIN_LEVEL_NEW_HELPER" = "Novo ajudante";
+"BME_HELPER_MAIN_LEVEL_NEW_HELPER" = "Novo auxiliar";
 
 /* Level promising helper */
-"BME_HELPER_MAIN_LEVEL_PROMISING_HELPER" = "Possível Ajudante";
+"BME_HELPER_MAIN_LEVEL_PROMISING_HELPER" = "Auxiliar promissor";
 
 /* Level trusted helper */
-"BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER" = "Ajudante confiável";
+"BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER" = "Auxiliar confiável";
 
 /* Level expert helper */
-"BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Ajudante Expert";
+"BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Auxiliar Expert";
 
 /* Level master helper */
-"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Ajudante Mestre";
+"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Auxiliar Mestre";
 
 /* Level points to next level description */
 "BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d pontos até ao próximo nivel";
@@ -44,7 +44,7 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Ajudou 10 numa semana";
 
 /* Points finish 5 high fives in a week description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 high-fives em uma semana";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 curtidas em uma semana";
 
 /* Points share on twitter description */
 "BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTION" = "Partilhado no Twitter";
@@ -68,16 +68,16 @@
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "A rede Be My Eyes";
 
 /* Community network sighted description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Avistado";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Com visão";
 
 /* Community network blind description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Cego";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Invisual";
 
 /* Community network helped description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "Ajudou";
 
 /* Message shown when the point could not be loaded */
-"BME_HELPER_MAIN_LOADING_POINT_FAILED" = "Não foi possível carregar o ponto";
+"BME_HELPER_MAIN_LOADING_POINT_FAILED" = "Não foi possível carregar pontuação";
 
 /* Title of button for retrying loading point when failed */
 "BME_HELPER_MAIN_RETRY_LOADING_POINT" = "Tentar Novamente";
@@ -85,11 +85,3 @@
 /* Snooze status text when not snoozing */
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Você está atualmente ativo";
 
-/* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
-
-/* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
-
-/* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";

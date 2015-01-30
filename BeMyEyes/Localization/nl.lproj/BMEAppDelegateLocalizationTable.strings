@@ -4,7 +4,7 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* MEssage in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Push-Meldingen zijn een centraal onderdeel van de Be My Eyes app en je hebt dit nodig om  je aan te melden.";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Push meldingen zijn onmisbaar om de Be My Eyes App te laten functioneren en je moet ze ingeschakeld hebben om mee te doen.";
 
 /* Title in alert view shown if push notifications are not enabled */
 "BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Push-Meldingen zijn niet ingeschakeld";

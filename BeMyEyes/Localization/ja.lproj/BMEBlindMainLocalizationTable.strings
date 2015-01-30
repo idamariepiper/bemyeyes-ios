@@ -1,5 +1,5 @@
 /* Title of connect to community button */
-"BME_BLIND_MAIN_CONNECT_TO_COMMUNITY" = "最初に利用可能なヘルパーに接続";
+"BME_BLIND_MAIN_CONNECT_TO_COMMUNITY" = "利用可能な最初のヘルパーに接続";
 
 /* Cancel in alert showed when failed creating request */
 "BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "OK";

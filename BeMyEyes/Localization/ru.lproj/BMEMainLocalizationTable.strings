@@ -41,7 +41,7 @@
 "BME_MAIN_ALERT_CANCEL" = "ОК";
 
 /* Title of alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Ошибка при входе";
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Ошибка входа";
 
 /* Message in alert view when user is forced to logout */
 "BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Из-за технической ошибки вам придётся войти заново.";

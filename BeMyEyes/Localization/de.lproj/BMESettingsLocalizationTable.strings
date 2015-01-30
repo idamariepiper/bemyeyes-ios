@@ -26,7 +26,7 @@
 "BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL" = "OK";
 
 /* Messaage in alert view shown when log out failed */
-"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Sie wurden nicht ausgeloggt. Bitte stellen Sie sicher, dass Sie eine aktive Internetverbindung haben und versuchen Sie es erneut.";
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Du wurdest nicht abgemeldet. Bitte stelle sicher, dass du eine aktive Internetverbindung hast und versuch es erneut.";
 
 /* Title in alert view shown when log out failed */
 "BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE" = "Abmeldung fehlgeschlagen";

@@ -1,5 +1,5 @@
 /* App name. Please don't translate this. */
-"BME_FRONT_PAGE_APP_NAME" = "Be My Eyes　（私の目になる）";
+"BME_FRONT_PAGE_APP_NAME" = "Be My Eyes";
 
 /* Asking the user to choose if he is sighted or blind */
 "BME_FRONT_PAGE_ASK_FOR_ROLE" = "あなたの役割は何ですか？";
@@ -8,8 +8,8 @@
 "BME_FRONT_PAGE_SIGHTED_ROLE" = "晴眼者";
 
 /* Title for choosing blind role */
-"BME_FRONT_PAGE_BLIND_ROLE" = "視覚障害者";
+"BME_FRONT_PAGE_BLIND_ROLE" = "視覚障がい者";
 
 /* Log in button, if the user is already registered */
-"BME_FRONT_PAGE_ALREADY_REGISTERED" = "登録済の方はここからログイン。";
+"BME_FRONT_PAGE_ALREADY_REGISTERED" = "すでに登録している方はこちらからログイン";
 
