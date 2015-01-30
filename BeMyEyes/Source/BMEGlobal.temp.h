@@ -45,7 +45,7 @@
 #define BMECallControllerIdentifier @"Call"
 #define BMESecretSettingsControllerIdentifier @"SecretSettings"
 #define BMEDemoCallViewController @"DemoCall"
-#define BMEHelperWelcomeViewController @"BMEHelperWelcomeViewController"
+#define BMEHelperWelcomeViewController @"HelperWelcome"
 
 #define BMEDidLogInNotification @"BMEDidLogInNotification"
 #define BMEDidLogOutNotification @"BMEDidLogOutNotification"
