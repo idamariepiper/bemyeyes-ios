@@ -24113,11 +24113,11 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
 static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE";
 
 /*!
- * "Accessibility Voiceover must be turned on to register as a blind user. Go to settings > general > accessibility > voiceover"
+ * "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
  * All translations:
 
- * @b en@: "Accessibility Voiceover must be turned on to register as a blind user. Go to settings > general > accessibility > voiceover"
+ * @b en@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
  */
 static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY";
