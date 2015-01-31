@@ -1,0 +1,54 @@
+/* Headline */
+"BME_SETTINGS_HEADLINE" = "Profil";
+
+/* First name title */
+"BME_SETTINGS_FIRST_NAME" = "Prénom";
+
+/* Last name title */
+"BME_SETTINGS_LAST_NAME" = "Nom";
+
+/* E-mail title */
+"BME_SETTINGS_EMAIL" = "E-mail";
+
+/* Languages */
+"BME_SETTINGS_LANGUAGES" = "Langues";
+
+/* Select languages title */
+"BME_SETTINGS_ADD_LANGUAGES" = "Ajouter une langue";
+
+/* Feedback title */
+"BME_SETTINGS_FEEDBACK" = "Donner un feedback sur l'application";
+
+/* Log out title */
+"BME_SETTINGS_LOG_OUT" = "Se déconnecter";
+
+/* Title of cancel button in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL" = "OK";
+
+/* Messaage in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Vous n'avez pas été déconnecté. Veuillez vous assurer que vous disposez d'une connexion internet active et réessayez.";
+
+/* Title in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE" = "Impossible de déconnecter";
+
+/* Title in overlay shown when logging out */
+"BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE" = "Déconnexion...";
+
+/* Version title */
+"BME_SETTINGS_VERSION_TITLE" = "Version %@";
+
+/* Dismiss settings button accessibility label */
+"BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL" = "Retour";
+
+/* Points description task cell */
+"BME_SETTINGS_TASK_POINTS" = "+%d points";
+
+/* Points description task completed */
+"BME_SETTINGS_TASK_COMPLETED" = "✓";
+
+/* Points description task completed accessibility label */
+"BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL" = "Terminé";
+
+/* Share message for Facebook and Twitter */
+"BME_SETTINGS_TASK_SHARE_MESSAGE" = "Aidez une personne malvoyante à voir avec l'application #BeMyEyes - l'application qui met en relation des personnes malvoyantes avec des personnes voyantes pour les aider !";
+

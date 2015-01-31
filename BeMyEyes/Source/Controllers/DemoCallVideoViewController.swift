@@ -11,6 +11,7 @@ import UIKit
 class DemoCallVideoViewController: VideoViewController {
 	
 	@IBOutlet weak var cancelButton: Button!
+    internal var completion: ((UIViewController) -> ())?;
 	
 	// MARK: - Lifecycle
 	
@@ -50,6 +51,8 @@ class DemoCallVideoViewController: VideoViewController {
 	}
 	
 	private func dismiss() {
-		presentingViewController?.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
+        if let completion = completion {
+            completion(self)
+        }
 	}
 }

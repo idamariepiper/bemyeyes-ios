@@ -1,0 +1,9 @@
+/* Headline */
+"BME_REGISTERED_HEADLINE" = "Taip!";
+
+/* Description */
+"BME_REGISTERED_DESCRIPTION" = "Jūs esate užregistruoti.";
+
+/* Title of log in button */
+"BME_REGISTERED_LOG_IN" = "Prisijungti";
+

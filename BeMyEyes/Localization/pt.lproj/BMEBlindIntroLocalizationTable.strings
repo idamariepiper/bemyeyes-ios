@@ -1,0 +1,9 @@
+/* Title of back button */
+"BME_BLIND_INTRO_BACK" = "Voltar";
+
+/* Title of continue button */
+"BME_BLIND_INTRO_CONTINUE" = "Continuar";
+
+/* Description */
+"BME_BLIND_INTRO_DESCRIPTION" = "A aplicação irá colocá-lo em contato com um usuário dotado de visão que o irá auxiliar remotamente com as tarefas que dele necessitam - através de uma conexão de vídeo ao vivo, o auxiliar irá dizer-lhe o que vê quando aponta o seu dispositivo a algo.\n\nOs auxiliares na rede Be My Eyes são voluntários e não podemos garantir a qualidade da sua ajuda ou tomar responsabilidade por nenhuma das suas ações. Além disso, porque necessitamos de pessoas reais para o auxiliar, encorajamos que seja paciente quando pedir ajuda.\n\nNão pode em circunstância alguma partilhar conteúdo de nú, ilegal, de ódio ou de conotação sexual através do serviço. Nunca mostre informação denominada sensível como cartões de crédito, passaportes ou qualquer outra informação pessoal.";
+

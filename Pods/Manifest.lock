@@ -5,15 +5,15 @@ PODS:
   - DCKeyValueObjectMapping (1.4)
   - FBSnapshotTestCase (1.4)
   - FormatterKit (1.7.2):
-    - FormatterKit/AddressFormatter (= 1.7.2)
-    - FormatterKit/ArrayFormatter (= 1.7.2)
-    - FormatterKit/ColorFormatter (= 1.7.2)
-    - FormatterKit/LocationFormatter (= 1.7.2)
-    - FormatterKit/NameFormatter (= 1.7.2)
-    - FormatterKit/OrdinalNumberFormatter (= 1.7.2)
-    - FormatterKit/TimeIntervalFormatter (= 1.7.2)
-    - FormatterKit/UnitOfInformationFormatter (= 1.7.2)
-    - FormatterKit/URLRequestFormatter (= 1.7.2)
+    - FormatterKit/AddressFormatter
+    - FormatterKit/ArrayFormatter
+    - FormatterKit/ColorFormatter
+    - FormatterKit/LocationFormatter
+    - FormatterKit/NameFormatter
+    - FormatterKit/OrdinalNumberFormatter
+    - FormatterKit/TimeIntervalFormatter
+    - FormatterKit/UnitOfInformationFormatter
+    - FormatterKit/URLRequestFormatter
   - FormatterKit/AddressFormatter (1.7.2)
   - FormatterKit/ArrayFormatter (1.7.2)
   - FormatterKit/ColorFormatter (1.7.2)
@@ -29,12 +29,12 @@ PODS:
   - Masonry (0.5.3)
   - MiawKit (1.1)
   - MRProgress (0.8.0):
-    - MRProgress/ActivityIndicator (= 0.8.0)
-    - MRProgress/Blur (= 0.8.0)
-    - MRProgress/Circular (= 0.8.0)
-    - MRProgress/Icons (= 0.8.0)
-    - MRProgress/NavigationBarProgress (= 0.8.0)
-    - MRProgress/Overlay (= 0.8.0)
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Icons
+    - MRProgress/NavigationBarProgress
+    - MRProgress/Overlay
   - MRProgress/ActivityIndicator (0.8.0):
     - MRProgress/Stopable
   - MRProgress/Blur (0.8.0):
@@ -61,7 +61,7 @@ PODS:
   - PSTAlertController (1.1.0)
   - Reveal-iOS-SDK (1.0.6)
   - SDWebImage (3.7.1):
-    - SDWebImage/Core (= 3.7.1)
+    - SDWebImage/Core
   - SDWebImage/Core (3.7.1)
 
 DEPENDENCIES:
@@ -87,11 +87,6 @@ EXTERNAL SOURCES:
   KeepLayout:
     :git: https://github.com/iMartinKiss/KeepLayout.git
 
-CHECKOUT OPTIONS:
-  KeepLayout:
-    :commit: 9201857d11fb219217c056ba808f6981e8b3775d
-    :git: https://github.com/iMartinKiss/KeepLayout.git
-
 SPEC CHECKSUMS:
   AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
   Appirater: cbdb7f305562cfde585300bfff86da01ae559deb
@@ -111,4 +106,4 @@ SPEC CHECKSUMS:
   Reveal-iOS-SDK: 74a39b426dbc915962704ed24f43ee32ae7797f9
   SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
 
-COCOAPODS: 0.36.0.beta.1
+COCOAPODS: 0.34.4

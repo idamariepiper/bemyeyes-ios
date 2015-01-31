@@ -40,6 +40,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.backButtonPopsToRootViewController = YES;
+    
     [MKLocalization registerForLocalization:self];}
 
 - (void)shouldLocalize {
@@ -68,7 +70,6 @@
     [self.navigationController popViewControllerAnimated:NO];
     return YES;
 }
-
 
 #pragma mark -
 #pragma mark Private Methods
@@ -157,7 +158,12 @@
     [[BMEClient sharedClient] updateUserInfoWithUTCOffset:nil];
     [[BMEClient sharedClient] upsertDeviceWithNewToken:nil production:[GVUserDefaults standardUserDefaults].isRelease completion:nil];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:BMEDidLogInNotification object:nil];
+    NSDictionary *userInfo = nil;
+    if (self.role == BMERoleHelper) {
+        userInfo = @{ BMEDidLogInNotificationDisplayHelperWelcomeKey : @(YES) };
+    }
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:BMEDidLogInNotification object:userInfo];
 }
 
 #pragma mark -

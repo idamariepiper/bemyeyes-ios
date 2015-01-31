@@ -1,0 +1,33 @@
+/* 
+  BMEAccessLocalization.strings
+  BeMyEyes
+  Created by Tobias DM on 17/10/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Introductory message for access for notifications, microphone and camera */
+"BME_ACCESS_INTRO_MESSAGE" = "Prašome patvirtinti, kad galėtumėte pilnai prisijungti prie \"Be My Eyes\" tinklo";
+
+/* Title for notifications */
+"BME_ACCESS_NOTIFICATIONS_TITLE" = "Pranešimai";
+
+/* Explanation for why the helper needs to enable notifications */
+"BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Kai aklam žmogui reikia pagalbos, mes jums pranešame apie įeinantį skambutį.";
+
+/* Title for microphone */
+"BME_ACCESS_MICROPHONE_TITLE" = "Mikrofonas";
+
+/* Explanation for why the helper needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Kad galėtumėte kalbėtis ir padėti nematančiam žmogui";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Kad galėtumėte paaiškinti savo problemą pagalbininkui.";
+
+/* Title for camera */
+"BME_ACCESS_CAMERA_TITLE" = "Kamera";
+
+/* Explanation for why the helper needs to enable camera access */
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Nesiusime vaizdo signalo žmogui, kuriam padedate, tačiau prieigos prie vaizdo kameros reikia tam, kad sujungimas įvyktų.";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Kad galėtumėte parodyti pagalbininkui kokios pagalbos jums reikia.";
+

@@ -3,10 +3,14 @@
 //
 
 #import <Masonry/Masonry.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 #import "BMEBaseViewController.h"
 #import "BMEGlobal.h"
+#import "BMEConstants.h"
 #import "MKLocalization.h"
-#import "BMESignupViewController.h"
+#import "BMESignUpViewController.h"
+#import "BMESignUpMethodViewController.h"
 #import "KeepLayout.h"
 #import "BMECrashlyticsLoggingSwift.h"
 #import "BMEReportAbuseViewController.h"

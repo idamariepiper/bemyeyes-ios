@@ -1,0 +1,54 @@
+/* Headline */
+"BME_SETTINGS_HEADLINE" = "Verstellings";
+
+/* First name title */
+"BME_SETTINGS_FIRST_NAME" = "Noemnaam";
+
+/* Last name title */
+"BME_SETTINGS_LAST_NAME" = "Van";
+
+/* E-mail title */
+"BME_SETTINGS_EMAIL" = "E-pos";
+
+/* Languages */
+"BME_SETTINGS_LANGUAGES" = "Tale";
+
+/* Select languages title */
+"BME_SETTINGS_ADD_LANGUAGES" = "Voeg tale by";
+
+/* Feedback title */
+"BME_SETTINGS_FEEDBACK" = "Gee terugvoer op die toep";
+
+/* Log out title */
+"BME_SETTINGS_LOG_OUT" = "Teken uit";
+
+/* Title of cancel button in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL" = "Reg";
+
+/* Messaage in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Jy is nie uitgeteken nie.  Maak asseblief seker dat jy 'n aktiewe internet konneksie het en probeer weer.";
+
+/* Title in alert view shown when log out failed */
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE" = "Kon nie uitteken nie";
+
+/* Title in overlay shown when logging out */
+"BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE" = "Besig om uit te teken...";
+
+/* Version title */
+"BME_SETTINGS_VERSION_TITLE" = "Weergawe %@";
+
+/* Dismiss settings button accessibility label */
+"BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL" = "Terug";
+
+/* Points description task cell */
+"BME_SETTINGS_TASK_POINTS" = "+%d punte";
+
+/* Points description task completed */
+"BME_SETTINGS_TASK_COMPLETED" = "✓";
+
+/* Points description task completed accessibility label */
+"BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL" = "Voltooid";
+
+/* Share message for Facebook and Twitter */
+"BME_SETTINGS_TASK_SHARE_MESSAGE" = "Help 'n blinde persoon sien met die #BeMyEyes toep - die toep wat blinde mense verbind met siende helpers!";
+
