@@ -333,9 +333,9 @@
                         <outlet property="pointsCommunityHelpedLabel" destination="rXJ-n1-HIU" id="40A-DO-MWv"/>
                         <outlet property="pointsCommunitySightedLabel" destination="Kz3-fb-tJr" id="Nqg-nn-6Vf"/>
                         <outlet property="sightedRoleButton" destination="kV5-ME-fhW" id="dTS-ut-p3K"/>
-                        <segue destination="rRF-Ua-fxy" kind="push" identifier="Helper" id="z5a-7f-Ou4"/>
                         <segue destination="du8-BL-rDz" kind="push" identifier="Blind" id="dq6-Ez-jnR"/>
                         <segue destination="ihY-sp-kva" kind="push" identifier="Login" id="evd-2a-L42"/>
+                        <segue destination="rmT-tx-lgV" kind="push" identifier="Helper" id="Snp-ad-1TG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -356,48 +356,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBd-Zc-0Qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-532" y="117"/>
-        </scene>
-        <!--Onboarding Video View Controller-->
-        <scene sceneID="h5X-fl-V9X">
-            <objects>
-                <viewController id="rRF-Ua-fxy" customClass="OnboardingVideoViewController" customModule="BeMyEyes" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KWo-eH-683"/>
-                        <viewControllerLayoutGuide type="bottom" id="q1x-Kd-9UI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xaE-Bk-D52">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eni-M1-mvH" customClass="BMEButtonImageToRight">
-                                <rect key="frame" x="233" y="419" width="87" height="61"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
-                                <state key="normal" title="Done" image="NextButton">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="rmT-tx-lgV" kind="push" identifier="VideoToSignUp" id="z55-42-yOb"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="q1x-Kd-9UI" firstAttribute="bottom" secondItem="eni-M1-mvH" secondAttribute="bottom" id="cbP-Su-8oX"/>
-                            <constraint firstAttribute="trailing" secondItem="eni-M1-mvH" secondAttribute="trailing" id="yje-fa-JUe"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="ihW-vb-1Lm"/>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <connections>
-                        <outlet property="doneButton" destination="eni-M1-mvH" id="gIU-F6-afQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CeR-IK-Up2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="358" y="-230"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Olh-l6-fc2">
@@ -3583,7 +3541,7 @@ YXdheS4
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="46J-Mt-BiQ"/>
+        <segue reference="Snp-ad-1TG"/>
         <segue reference="THh-yj-HlV"/>
         <segue reference="tPL-wK-r0M"/>
     </inferredMetricsTieBreakers>
