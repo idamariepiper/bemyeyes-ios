@@ -165,39 +165,7 @@ def moveTranslations():
 		shutil.move(appStoreDescriptionsExtractPath(), appStoreDescriotionsCopyPath())
 	except IOError as e:
 		print("Error while moving AppStoreDescriptions: {0}".format(e.strerror))
-	
-	"""
-	#move Base.lproj out
-	try:
-		shutil.move(baseLprojPathCurrent(), baseLprojPathNew())
-	except IOError as e:
-		print("Error while moving Base.lproj: {0}".format(e.strerror))
-	
-	#remove the whole Localization folder
-	try:
-		shutil.rmtree(localizationDirPath())
-	except OSError as e:
-		print("Error while removing existing localizations: {0}".format(e.strerror))
-	
-	#move extracted languages to the right folder
-	try:
-		shutil.move(extractedLocalizationDirPath(), localizationDirPath())
-	except OSError as e:
-		print("Error while moving localizations: {0}".format(e.strerror))
-		
-	#move Base.lproj back
-	try:
-		shutil.move(baseLprojPathNew(), baseLprojPathCurrent())
-	except IOError as e:
-		print("Error while moving Base.lproj: {0}".format(e.strerror))
-		
-	
-	#move AppStoreDescriptions into the Localization folder
-	try:
-		shutil.move(appStoreDescriptionsExtractPath(), appStoreDescriotionsCopyPath())
-	except IOError as e:
-		print("Error while moving AppStoreDescriptions: {0}".format(e.strerror))
-	"""	
+
 
 def cleanUp(downloadedTranslationsFile):
 	"""
