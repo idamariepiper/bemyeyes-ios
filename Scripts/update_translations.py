@@ -14,9 +14,10 @@ LANG_STATUS_ENDPOINT = "https://api.crowdin.com/api/project/{projectID}/status?k
 FILENAME = "languages.zip"
 APP_STORE_DESCRIPTION = "AppStore.txt"
 APP_STORE_DESCRIPTIONS_DIR = "AppStoreDescriptions"
-EXTRACTION_DIR = "ExtractedLanguages"
-RENAME_RULES = {'zh-CN':'zh-Hant', 'zh-TW' : 'zh-Hans', 'ur-PK' : 'ur', 'es-ES' : 'es', 'sv-SE' : 'sv', 'pt-PT' : 'pt'}
-APP_LANGUAGES = {'af','ar','ca','cs','da','de','el','es','fi','fr','he','hi','hr','hu','it','ja','ko','it','nb','nl','no','pl','pt-BR','pt','ro','ru','sk','sr','sv','tr','uk','ur','vi','zh-Hans','zh-Hant'}
+EXTRACTION_DIR = "Localization"
+RENAME_RULES = {'zh-CN':'zh-Hant', 'zh-TW' : 'zh-Hans', 'ur-PK' : 'ur', 'es-ES' : 'es', 'sv-SE' : 'sv', 'pt-PT' : 'pt', 'no' : 'nb'}
+APP_LANGUAGES = ['af','ar','ca','cs','da','de','el','es-ES','fi','fr','he','hi','hr','hu', 'lt','ja','ko','it','nl','no', 'nb','pl','pt-BR','pt-PT','ro','ru','sk','sr','sv-SE','tr','uk','ur-PK','vi','zh-TW','zh-CN']
+
 
 def usage():
 	print(__doc__)
@@ -67,12 +68,11 @@ def renameAndRemoveDirectories(parentDir, renameRules, fullyTranslated):
 				dirName = dir + ".lproj"
 				if dir in renameRules:
 					dirName = renameRules[dir] + ".lproj"
-				print("{0} -> {1}".format(dir, dirName))
 				os.rename(os.path.join(extractedDir, dir), os.path.join(extractedDir, dirName))
 			else:
 				shutil.rmtree(os.path.join(extractedDir, dir))
 	except OSError as error:
-		print(error.strerror)
+		print("Error while raneming and removing: {0}".format(error.strerror))
 
 
 def moveAppStoreDescriptions(dirName):
@@ -81,7 +81,7 @@ def moveAppStoreDescriptions(dirName):
 	"""
 	descriptionsDir = ''
 	try:
-		descriptionsDir = os.path.join(os.getcwd(), APP_STORE_DESCRIPTIONS_DIR)
+		descriptionsDir = appStoreDescriptionsExtractPath()
 		os.mkdir(descriptionsDir)
 		
 		extractedDir = os.path.join(os.getcwd(), dirName)
@@ -115,23 +115,91 @@ def fetchLanguageStatus(projectKey):
 		print(e)
 	else:
 		for status in response:
-			progressString = status["translated_progress"]
-			progress = int(progressString)
-			if isAcceptable(progress):
-				fullyTranslated.append(status["code"])
+			languageCode = status["code"]
+			progress = int(status["translated_progress"])
+			langName = status["name"]
+			if isAcceptable(languageCode):
+				fullyTranslated.append(languageCode)
+			elif(isLanguageReady(progress)):
+				print("""{0} (code: {1}) is ready. Please add its code"""
+				""" to APP_LANGUAGES list at the top of this script.""".format(langName, languageCode))
 	return fullyTranslated
 
+def isLanguageReady(progress):
+	return (progress == 100)
 
-def isAcceptable(progress):
+def isAcceptable(languageCode):
 	"""
 	Function evaluating whether a translation is acceptable based
 	on its progress.
 	"""
-	if progress == 100:
+	if languageCode in APP_LANGUAGES:
 		return True
 	else:
 		return False
 
+
+def moveTranslations():
+	"""
+	Move translations to the right folder in the project.
+	"""
+	existingLocPath = localizationDirPath()
+	newLocPath = extractedLocalizationDirPath()
+	
+	try:
+		dirsList = [name for name in os.listdir(newLocPath)
+					            if os.path.isdir(os.path.join(newLocPath, name))]
+					
+		for dir in dirsList:
+			existingDirPath = os.path.join(existingLocPath, dir)
+			if os.path.exists(existingDirPath):
+				shutil.rmtree(existingDirPath)
+			shutil.move(os.path.join(newLocPath, dir), existingDirPath)
+	except IOError as e:
+		print("Error while moving {1}: {0}".format(e.strerror, e.filename))
+	
+	#move AppStoreDescriptions into the Localization folder
+	try:
+		if os.path.exists(appStoreDescriotionsCopyPath()):
+			shutil.rmtree(appStoreDescriotionsCopyPath())
+		shutil.move(appStoreDescriptionsExtractPath(), appStoreDescriotionsCopyPath())
+	except IOError as e:
+		print("Error while moving AppStoreDescriptions: {0}".format(e.strerror))
+
+
+def cleanUp(downloadedTranslationsFile):
+	"""
+	Remove redundant files
+	"""
+	try:
+		os.remove(os.path.join(os.getcwd(), downloadedTranslationsFile))
+		shutil.rmtree(extractedLocalizationDirPath())
+	except IOError as e:
+		print("Error while deleting the downloaded translations: {0}".format(e.strerror))
+	
+##### Paths #####
+
+def extractedLocalizationDirPath():
+	return os.path.join(os.getcwd(), EXTRACTION_DIR)
+
+def localizationDirPath():
+	parent = os.path.join(os.getcwd(), os.pardir)
+	return os.path.join(parent, "BeMyEyes", "Localization")
+	
+def baseLprojPathCurrent():
+	return os.path.join(localizationDirPath(), "Base.lproj")
+	
+def baseLprojPathNew():
+	parent = os.path.join(os.getcwd(), os.pardir)
+	return os.path.join(parent, "Base.lproj")
+	
+def appStoreDescriptionsExtractPath():
+	return os.path.join(os.getcwd(), APP_STORE_DESCRIPTIONS_DIR)
+	
+def appStoreDescriotionsCopyPath():
+	return os.path.join(localizationDirPath(), APP_STORE_DESCRIPTIONS_DIR)
+
+##### Main #####
 
 if __name__ == "__main__":
 	try:
@@ -158,6 +226,9 @@ if __name__ == "__main__":
 			dirName = unzipFile(filename)
 			renameAndRemoveDirectories(dirName, RENAME_RULES, fullyTranslated)
 			moveAppStoreDescriptions(dirName)
+			moveTranslations()
+			cleanUp(filename)
+			print("All done!")
 		else:
 			print(exception.strerror)
 	
