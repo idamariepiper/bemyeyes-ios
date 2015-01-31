@@ -152,7 +152,8 @@ static NSString *const videoSegueIdentifier = @"Video";
     
     MFMailComposeViewController *mailComposeController = [MFMailComposeViewController new];
     mailComposeController.mailComposeDelegate = self;
-    [mailComposeController setToRecipients:@[ BMEFeedbackRecipientEmail ]];
+    NSString *emailAddress = [GVUserDefaults standardUserDefaults].api == BMESettingsAPIPublic ? BMEFeedbackRecipientEmail : BMEBetaFeedbackRecipientEmail;
+    [mailComposeController setToRecipients:@[ emailAddress ]];
     [mailComposeController setSubject:BMEFeedbackEmailSubject];
     [mailComposeController setMessageBody:initialBody isHTML:NO];
     [self presentViewController:mailComposeController animated:YES completion:nil];
