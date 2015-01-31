@@ -15,8 +15,8 @@ FILENAME = "languages.zip"
 APP_STORE_DESCRIPTION = "AppStore.txt"
 APP_STORE_DESCRIPTIONS_DIR = "AppStoreDescriptions"
 EXTRACTION_DIR = "Localization"
-RENAME_RULES = {'zh-CN':'zh-Hant', 'zh-TW' : 'zh-Hans', 'ur-PK' : 'ur', 'es-ES' : 'es', 'sv-SE' : 'sv', 'pt-PT' : 'pt'}
-APP_LANGUAGES = ['af','ar','ca','cs','da','de','el','es-ES','fi','fr','he','hi','hr','hu', 'lt','ja','ko','it','nb','nl','no', 'nb','pl','pt-BR','pt-PT','ro','ru','sk','sr','sv-SE','tr','uk','ur-PK','vi','zh-TW','zh-CN']
+RENAME_RULES = {'zh-CN':'zh-Hant', 'zh-TW' : 'zh-Hans', 'ur-PK' : 'ur', 'es-ES' : 'es', 'sv-SE' : 'sv', 'pt-PT' : 'pt', 'no' -> 'nb'}
+APP_LANGUAGES = ['af','ar','ca','cs','da','de','el','es-ES','fi','fr','he','hi','hr','hu', 'lt','ja','ko','it','nl','no', 'nb','pl','pt-BR','pt-PT','ro','ru','sk','sr','sv-SE','tr','uk','ur-PK','vi','zh-TW','zh-CN']
 
 
 def usage():
