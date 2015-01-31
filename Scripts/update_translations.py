@@ -16,7 +16,7 @@ APP_STORE_DESCRIPTION = "AppStore.txt"
 APP_STORE_DESCRIPTIONS_DIR = "AppStoreDescriptions"
 EXTRACTION_DIR = "Localization"
 RENAME_RULES = {'zh-CN':'zh-Hant', 'zh-TW' : 'zh-Hans', 'ur-PK' : 'ur', 'es-ES' : 'es', 'sv-SE' : 'sv', 'pt-PT' : 'pt'}
-APP_LANGUAGES = ['af','ar','ca','cs','da','de','el','es-ES','fi','fr','he','hi','hr','hu','it','ja','ko','it','nb','nl','no','pl','pt-BR','pt-PT','ro','ru','sk','sr','sv-SE','tr','uk','ur-PK','vi','zh-TW','zh-CN']
+APP_LANGUAGES = ['af','ar','ca','cs','da','de','el','es-ES','fi','fr','he','hi','hr','hu', 'lt','ja','ko','it','nb','nl','no','pl','pt-BR','pt-PT','ro','ru','sk','sr','sv-SE','tr','uk','ur-PK','vi','zh-TW','zh-CN']
 
 
 def usage():
@@ -153,7 +153,7 @@ def moveTranslations():
 	try:
 		shutil.rmtree(localizationDirPath())
 	except OSError as e:
-		print("Error while removing existing localizations".format(e.strerror))
+		print("Error while removing existing localizations: {0}".format(e.strerror))
 	
 	#move extracted languages to the right folder
 	try:
@@ -190,7 +190,7 @@ def extractedLocalizationDirPath():
 
 def localizationDirPath():
 	parent = os.path.join(os.getcwd(), os.pardir)
-	return os.path.join(parent, "ByMyEyes", "Localization")
+	return os.path.join(parent, "BeMyEyes", "Localization")
 	
 def baseLprojPathCurrent():
 	return os.path.join(localizationDirPath(), "Base.lproj")
