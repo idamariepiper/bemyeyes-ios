@@ -18,6 +18,7 @@
 #define BMEBundleIdDevelopment @"org.bemyeyes.BeMyEyes.dev"
 
 #define BMEFeedbackRecipientEmail @"info@bemyeyes.org"
+#define BMEBetaFeedbackRecipientEmail @"beta@bemyeyes.org"
 #define BMEFeedbackEmailSubject @"Feedback on Be My Eyes"
 
 #define BMEPeopleHelpedBeforeAskingForMoreLanguages 3
