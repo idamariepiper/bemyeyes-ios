@@ -13,9 +13,10 @@ ENDPOINT = "https://api.crowdin.com/api/project/{projectID}/download/{package}.z
 LANG_STATUS_ENDPOINT = "https://api.crowdin.com/api/project/{projectID}/status?key={projectKey}&jsonp"
 FILENAME = "languages.zip"
 APP_STORE_DESCRIPTION = "AppStore.txt"
-APP_STORE_DESCRIPTIONS_DIR = "app_store_descriptions"
-EXTRACTION_DIR = "extracted_languages"
+APP_STORE_DESCRIPTIONS_DIR = "AppStoreDescriptions"
+EXTRACTION_DIR = "ExtractedLanguages"
 RENAME_RULES = {'zh-CN':'zh-Hant', 'zh-TW' : 'zh-Hans', 'ur-PK' : 'ur', 'es-ES' : 'es', 'sv-SE' : 'sv', 'pt-PT' : 'pt'}
+APP_LANGUAGES = {'af','ar','ca','cs','da','de','el','es','fi','fr','he','hi','hr','hu','it','ja','ko','it','nb','nl','no','pl','pt-BR','pt','ro','ru','sk','sr','sv','tr','uk','ur','vi','zh-Hans','zh-Hant'}
 
 def usage():
 	print(__doc__)
