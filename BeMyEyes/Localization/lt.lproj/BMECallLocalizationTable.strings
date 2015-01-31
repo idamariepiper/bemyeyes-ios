@@ -1,0 +1,78 @@
+/* Title of disconnect button */
+"BME_CALL_DISCONNECT" = "Atsijungti";
+
+/* Title of cancel button in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL" = "Gerai";
+
+/* Message in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "Prašymas jau buvo atsakytas. Ačiū už jūsų pagalbą!";
+
+/* Title in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "Prašymas jau atsakytas";
+
+/* Title of cancel button in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL" = "Gerai";
+
+/* Message in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE" = "Aklasis atsisakė prašymo. Ačiū už jūsų pagalbą!";
+
+/* Title in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE" = "Prašymas panaikintas";
+
+/* Title in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_TITLE" = "Negalime atsakyti į užklausą";
+
+/* Cancel in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "Gerai";
+
+/* Message in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "Negalime užregistruoti užklausos. Prašome pabandyti vėliau.";
+
+/* Title in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Negalime sukurti užklausos";
+
+/* Title of cancel button in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_CANCEL" = "Gerai";
+
+/* Status when asking the user to wait */
+"BME_CALL_STATUS_PLEASE_WAIT" = "Prašome palaukti...";
+
+/* Status when answering request */
+"BME_CALL_STATUS_ANSWERING_REQUEST" = "Atsakome į užklausą...";
+
+/* Message in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "Negalite atsiliepti į šią užklausą. Ačiū už jūsų pagalbą!";
+
+/* Status when creating request */
+"BME_CALL_STATUS_CREATING_REQUEST" = "Kuriame užklausą...";
+
+/* Status when connecting */
+"BME_CALL_STATUS_CONNECTING" = "Sujungiama su serveriu...";
+
+/* Status when connection is established */
+"BME_CALL_STATUS_CONNECTION_ESTABLISHED" = "Laukiame kitos pusės...";
+
+/* Status when session failed */
+"BME_CALL_STATUS_SESSION_FAILED" = "Nepavyko užmegzti ryšio";
+
+/* Status when failed publishing */
+"BME_CALL_STATUS_FAILED_PUBLISHING" = "Nepavyko įkelti vaizdo ir garso";
+
+/* Speech when connected to other part */
+"BME_CALL_SPEECH_DID_SUBSCRIBE" = "Esate sujungtas su kitu vartotoju";
+
+/* Status when failed subscribing */
+"BME_CALL_STATUS_FAILED_SUBSCRIBING" = "Nepavyko prisijungti prie kito vartotojo";
+
+/* Status when disconnecting */
+"BME_CALL_STATUS_DISCONNECTING" = "Atsijungiama...";
+
+/* Title of cancel button in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL" = "Gerai";
+
+/* Message in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE" = "Kita vartotojas atsijungė ir sesija yra baigta.";
+
+/* Title in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE" = "Sesija baigta";
+

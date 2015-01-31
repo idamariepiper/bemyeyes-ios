@@ -1,0 +1,9 @@
+/* Title of back button */
+"BME_BLIND_INTRO_BACK" = "Grįžti";
+
+/* Title of continue button */
+"BME_BLIND_INTRO_CONTINUE" = "Tęsti";
+
+/* Description */
+"BME_BLIND_INTRO_DESCRIPTION" = "Ši programa sujungs jus tiesiogiai su reginčiuoju vartotoju, kuris nuotoliniu būdu padės jums su užduotimis reikalaujančiomis reginčiojo pagalbos - per tiesioginį vaizdo pokalbį, pagalbininkas pasakys jums, ką jis ar ji mato kai jūs nukreipiate savo telefono kamerą į ką nors.\n\nBe My Eyes tinklo pagalbininkai yra savanoriai ir mes negalime garantuoti jų pagalbos kokybės ar prisiimti atsakomybę už jų veiksmus. Be to, mes priklausome nuo tikrų žmonių, kad jums padėti, todėl mes skatiname jūs būti kantriu prašant pagalbos.\n\nJokiomis aplinkybėmis nesidalinkite turiniu su nuogumu, neteisėtu ar neapykantą skatinančiu turiniu, arba turiniu su seksualinėmis konotacijomis, niekada nesidalinkite svarbia informaciją, pvz., kreditinių kortelių, paso ar kitais asmeniniais duomenimis.";
+

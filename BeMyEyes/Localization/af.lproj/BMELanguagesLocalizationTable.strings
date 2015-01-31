@@ -1,0 +1,12 @@
+/* Title */
+"BME_LANGUAGES_TITLE" = "Jou Tale";
+
+/* Title of cancel button in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "Reg";
+
+/* MEssage in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Die tale kon nie gestoor word nie.  Probeer asseblief later weer.";
+
+/* Title in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Kon nie stoor nie";
+

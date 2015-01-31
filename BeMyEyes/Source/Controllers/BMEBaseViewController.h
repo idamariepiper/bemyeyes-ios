@@ -10,4 +10,6 @@
 
 @interface BMEBaseViewController : UIViewController
 
+@property (assign, nonatomic) BOOL backButtonPopsToRootViewController;
+
 @end

@@ -441,6 +441,7 @@ bail:
                 return OTVideoOrientationUp;
             case UIInterfaceOrientationLandscapeRight:
                 return OTVideoOrientationDown;
+            case UIInterfaceOrientationUnknown:
             case UIInterfaceOrientationPortrait:
                 return OTVideoOrientationLeft;
             case UIInterfaceOrientationPortraitUpsideDown:
@@ -454,6 +455,7 @@ bail:
                 return OTVideoOrientationDown;
             case UIInterfaceOrientationLandscapeRight:
                 return OTVideoOrientationUp;
+            case UIInterfaceOrientationUnknown:
             case UIInterfaceOrientationPortrait:
                 return OTVideoOrientationLeft;
             case UIInterfaceOrientationPortraitUpsideDown:

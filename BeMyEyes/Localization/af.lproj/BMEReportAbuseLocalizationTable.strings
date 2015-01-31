@@ -1,0 +1,72 @@
+/* Headline */
+"BME_REPORT_ABUSE_HEADLINE" = "Meld misbruik aan";
+
+/* Text telling user to choose a reason */
+"BME_REPORT_ABUSE_CHOOSE_REASON" = "Kies 'n rede";
+
+/* Title of report button */
+"BME_REPORT_ABUSE_REPORT" = "Meld misbruik aan";
+
+/* Title of skip button */
+"BME_REPORT_ABUSE_SKIP" = "Slaan oor";
+
+/* Text 1 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND" = "Die persoon wou nie help nie.";
+
+/* Text 1 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER" = "Die persoon was nie blind nie.";
+
+/* Text 2 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND" = "Die helper het onvanpas opgetree.";
+
+/* Text 2 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER" = "Die blinde persoon het onvanpas opgetree.";
+
+/* Text 3 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND" = "Die rede is nie gelys nie.";
+
+/* Text 3 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_HELPER" = "Die rede is nie gelys nie.";
+
+/* Title of cancel button in alert view show when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL" = "Reg";
+
+/* Message in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "Die verslag kon nie gestuur word nie.  Maak asseblief seker dat jy 'n aktiewe internet konneksie het en probeer weer.";
+
+/* Title in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE" = "Kon nie misbruik aanmeld nie";
+
+/* Title in overlay displayed when reporting abuse */
+"BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE" = "Besig om aan te meld...";
+
+/* Title of cancel button in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL" = "Kanselleer";
+
+/* Title of confirm in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM" = "Bevestig";
+
+/* Message in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Alle sake van misbruik word ernstig opgeneem en ondersoek. Is jy seker dat jy die ander party wil aanmeld vir misbruik?";
+
+/* Title in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "Meld Misbruik Aan";
+
+/* Accesibility label for reason 1 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "Die persoon wou nie help nie (Gekies)";
+
+/* Accesibility label for reason 1 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "Die persoon wou nie help nie.";
+
+/* Accesibility label for reason 2 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "Die helper het onvanpas opgetree (Gekies)";
+
+/* Accesibility label for reason 2 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2" = "Die helper het onvanpas opgetree.";
+
+/* Accesibility label for reason 3 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "Die rede is nie gelys nie (Gekies)";
+
+/* Accesibility label for reason 3 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3" = "Die rede is nie gelys nie.";
+

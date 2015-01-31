@@ -1,0 +1,9 @@
+/* Title of back button */
+"BME_BLIND_INTRO_BACK" = "Voltar";
+
+/* Title of continue button */
+"BME_BLIND_INTRO_CONTINUE" = "Continuar";
+
+/* Description */
+"BME_BLIND_INTRO_DESCRIPTION" = "O aplicativo coloca você em contato ao vivo com um voluntario que enxerga e que remotamente irá ajudá-lo com tarefas que requerem ajuda de uma pessoa que enxerga - através de uma conexão de vídeo o voluntario irá lhe dizer o que vê enquanto você aponta o celular à alguma coisa.\n\nOs ajudantes na rede Be My Eyes são voluntários e nós não garantimos a qualidade de sua ajuda deles nem tomamos responsabilidades por suas ações. Além disso, devido dependermos de pessoas reais para ajudar, nós pedimos a você que seja paciente quando solicitar ajuda.\n\nVocê não pode, em nenhuma circunstância, compartilhar qualquer nudismo, atividades contra a lei, atividades que gerem ódio ou conteúdo sexualmente sugestivo pelo serviço, e você nunca deve apresentar qualquer informação sensível como cartões de crédito, passaportes ou outras informações pessoais.";
+

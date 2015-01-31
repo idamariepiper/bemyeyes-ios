@@ -1,0 +1,78 @@
+/* Title of back button */
+"BME_SIGN_UP_METHOD_BACK" = "Tornar";
+
+/* Headline */
+"BME_SIGN_UP_METHOD_HEADLINE" = "Sigues part de la xarxa";
+
+/* Tiel of Facebook sign up button */
+"BME_SIGN_UP_METHOD_FACEBOOK" = "Inscriure's mitjançant Facebook";
+
+/* Sign up with e-mail button */
+"BME_SIGN_UP_METHOD_EMAIL" = "Inscrigui's mitjançant correu electrònic";
+
+/* Top part of button for viewing terms and conditions */
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "Per continuar accepteu els";
+
+/* Bottom part of button for viewing terms and conditions */
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "Termes i acords";
+
+/* Top part of button for viewing privacy policy */
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "així com la";
+
+/* Bottom part of button for viewing privacy policy */
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "Política de privacitat";
+
+/* Title of cancel button in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL" = "D'acord";
+
+/* Message in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE" = "Un compte amb l'adreça electrònica de l'usuari de Facebook ja ha estat registrat.";
+
+/* Title in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE" = "Correu electrònic ja registrat";
+
+/* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_CANCEL" = "D'acord";
+
+/* Message in alert view shown when a network error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_MESSAGE" = "Si us plau verifica que tens una connexió activa a internet i prova-ho una altra vegada.";
+
+/* Title in alert view shown when a TITLEnetwork error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_TITLE" = "S'ha produït un error";
+
+/* Title of cancel button in alert view shown when log in to Facebook failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL" = "D'acord";
+
+/* Message in alert view shown when logging into Facebook but it failed because authentication failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE" = "No s'ha pogut autenticar amb Facebook.";
+
+/* Title in alert view shown when log in to Facebook failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE" = "L'autenticació ha fallat";
+
+/* Title in overlay displayed when logging in */
+"BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "Iniciant sessió...";
+
+/* Title in overlay displayed when registering */
+"BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE" = "Registrant...";
+
+/* Title of cancel button in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "D'acord";
+
+/* Message in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "No s'han trobat comptes de Facebook en el dispositiu. Si us plau afegeixi el vostre compte a la configuració del sistema.";
+
+/* Title in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Cap compte trobat";
+
+/* Accessibility hint for privacy policy button */
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT" = "Política de privacitat";
+
+/* Accessibility label for privacy policy button */
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL" = " ";
+
+/* Accessibility hint for terms and agreements button */
+"BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_HINT" = "Termes i acords";
+
+/* Accessibility label for terms and agreements button */
+"BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_LABEL" = " ";
+

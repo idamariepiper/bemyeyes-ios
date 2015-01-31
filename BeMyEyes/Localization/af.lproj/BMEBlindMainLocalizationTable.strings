@@ -1,0 +1,15 @@
+/* Title of connect to community button */
+"BME_BLIND_MAIN_CONNECT_TO_COMMUNITY" = "Verbind met eerste beskikbare helper";
+
+/* Cancel in alert showed when failed creating request */
+"BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "Reg";
+
+/* Message in alert showed when failed creating request */
+"BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "Die versoek kon nie geskep word nie.  Probeer asseblief weer.";
+
+/* Title in alert showed when failed creating request */
+"BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Skepping van versoek het misluk";
+
+/* Title in hud shown when creating request */
+"BME_BLIND_MAIN_HUD_CREATING_REQUEST_TITLE" = "Skepping van versoek...";
+
