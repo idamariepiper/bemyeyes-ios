@@ -72,7 +72,7 @@ def renameAndRemoveDirectories(parentDir, renameRules, fullyTranslated):
 			else:
 				shutil.rmtree(os.path.join(extractedDir, dir))
 	except OSError as error:
-		print(error.strerror)
+		print("Error while raneming and removing: {0}".format(error.strerror))
 
 
 def moveAppStoreDescriptions(dirName):
@@ -143,6 +143,30 @@ def moveTranslations():
 	"""
 	Move translations to the right folder in the project.
 	"""
+	existingLocPath = localizationDirPath()
+	newLocPath = extractedLocalizationDirPath()
+	
+	try:
+		dirsList = [name for name in os.listdir(newLocPath)
+					            if os.path.isdir(os.path.join(newLocPath, name))]
+					
+		for dir in dirsList:
+			existingDirPath = os.path.join(existingLocPath, dir)
+			if os.path.exists(existingDirPath):
+				shutil.rmtree(existingDirPath)
+			shutil.move(os.path.join(newLocPath, dir), existingDirPath)
+	except IOError as e:
+		print("Error while moving {1}: {0}".format(e.strerror, e.filename))
+	
+	#move AppStoreDescriptions into the Localization folder
+	try:
+		if os.path.exists(appStoreDescriotionsCopyPath()):
+			shutil.rmtree(appStoreDescriotionsCopyPath())
+		shutil.move(appStoreDescriptionsExtractPath(), appStoreDescriotionsCopyPath())
+	except IOError as e:
+		print("Error while moving AppStoreDescriptions: {0}".format(e.strerror))
+	
+	"""
 	#move Base.lproj out
 	try:
 		shutil.move(baseLprojPathCurrent(), baseLprojPathNew())
@@ -167,12 +191,13 @@ def moveTranslations():
 	except IOError as e:
 		print("Error while moving Base.lproj: {0}".format(e.strerror))
 		
+	
 	#move AppStoreDescriptions into the Localization folder
 	try:
 		shutil.move(appStoreDescriptionsExtractPath(), appStoreDescriotionsCopyPath())
 	except IOError as e:
 		print("Error while moving AppStoreDescriptions: {0}".format(e.strerror))
-	
+	"""	
 
 def cleanUp(downloadedTranslationsFile):
 	"""
@@ -180,6 +205,7 @@ def cleanUp(downloadedTranslationsFile):
 	"""
 	try:
 		os.remove(os.path.join(os.getcwd(), downloadedTranslationsFile))
+		shutil.rmtree(extractedLocalizationDirPath())
 	except IOError as e:
 		print("Error while deleting the downloaded translations: {0}".format(e.strerror))
 	
