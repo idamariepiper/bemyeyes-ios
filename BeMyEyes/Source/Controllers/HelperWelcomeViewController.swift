@@ -22,7 +22,7 @@ class HelperWelcomeViewController: UIViewController {
         super.viewDidLoad()
         
         heartImageView.tintColor = .whiteColor()
-        demoCallButton.mainStyle = .Border
+        doneButton.mainStyle = .Border
         
         let firstName = BMEClient.sharedClient().currentUser.firstName
         titleLabel.text = NSString(format: MKLocalizedFromTable("BME_HELPER_WELCOME_TITLE", "HelperWelcomeLocalizationTable"), firstName)
