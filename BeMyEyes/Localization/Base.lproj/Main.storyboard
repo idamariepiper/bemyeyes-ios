@@ -333,9 +333,9 @@
                         <outlet property="pointsCommunityHelpedLabel" destination="rXJ-n1-HIU" id="40A-DO-MWv"/>
                         <outlet property="pointsCommunitySightedLabel" destination="Kz3-fb-tJr" id="Nqg-nn-6Vf"/>
                         <outlet property="sightedRoleButton" destination="kV5-ME-fhW" id="dTS-ut-p3K"/>
-                        <segue destination="rRF-Ua-fxy" kind="push" identifier="Helper" id="z5a-7f-Ou4"/>
                         <segue destination="du8-BL-rDz" kind="push" identifier="Blind" id="dq6-Ez-jnR"/>
                         <segue destination="ihY-sp-kva" kind="push" identifier="Login" id="evd-2a-L42"/>
+                        <segue destination="rmT-tx-lgV" kind="push" identifier="Helper" id="Snp-ad-1TG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -356,48 +356,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBd-Zc-0Qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-532" y="117"/>
-        </scene>
-        <!--Onboarding Video View Controller-->
-        <scene sceneID="h5X-fl-V9X">
-            <objects>
-                <viewController id="rRF-Ua-fxy" customClass="OnboardingVideoViewController" customModule="BeMyEyes" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KWo-eH-683"/>
-                        <viewControllerLayoutGuide type="bottom" id="q1x-Kd-9UI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xaE-Bk-D52">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eni-M1-mvH" customClass="BMEButtonImageToRight">
-                                <rect key="frame" x="233" y="419" width="87" height="61"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
-                                <state key="normal" title="Done" image="NextButton">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="rmT-tx-lgV" kind="push" identifier="VideoToSignUp" id="z55-42-yOb"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="q1x-Kd-9UI" firstAttribute="bottom" secondItem="eni-M1-mvH" secondAttribute="bottom" id="cbP-Su-8oX"/>
-                            <constraint firstAttribute="trailing" secondItem="eni-M1-mvH" secondAttribute="trailing" id="yje-fa-JUe"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="ihW-vb-1Lm"/>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <connections>
-                        <outlet property="doneButton" destination="eni-M1-mvH" id="gIU-F6-afQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CeR-IK-Up2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="358" y="-230"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Olh-l6-fc2">
@@ -2084,10 +2042,10 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jYR-t1-5eX" userLabel="Content Size View">
-                                <rect key="frame" x="16" y="20" width="288" height="310"/>
+                                <rect key="frame" x="16" y="20" width="288" height="302"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QoL-DC-cFU" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="-7" width="288" height="325"/>
+                                        <rect key="frame" x="0.0" y="-11" width="288" height="325"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="Z5O-CA-ONv">
                                                 <rect key="frame" x="108" y="0.0" width="72" height="65"/>
@@ -2136,7 +2094,7 @@ YXdheS4
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSL-46-8Hb" userLabel="Demo Call" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="330" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="322" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="LYA-Fe-LBc"/>
@@ -2146,7 +2104,7 @@ YXdheS4
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2F7-3g-fjH" userLabel="OK" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="405" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="397" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="xXZ-gJ-1aW"/>
@@ -2167,7 +2125,7 @@ YXdheS4
                             <constraint firstAttribute="trailing" secondItem="VSL-46-8Hb" secondAttribute="trailing" id="Umu-O4-eFA"/>
                             <constraint firstItem="bf6-BO-GCx" firstAttribute="leading" secondItem="aeM-v1-Per" secondAttribute="leading" id="XTO-1v-JxF"/>
                             <constraint firstAttribute="trailing" secondItem="2F7-3g-fjH" secondAttribute="trailing" id="bby-2t-R0E"/>
-                            <constraint firstItem="IB5-kn-QvV" firstAttribute="top" secondItem="2F7-3g-fjH" secondAttribute="bottom" id="gDj-qt-byw"/>
+                            <constraint firstItem="IB5-kn-QvV" firstAttribute="top" secondItem="2F7-3g-fjH" secondAttribute="bottom" constant="8" id="gDj-qt-byw"/>
                             <constraint firstAttribute="trailing" secondItem="bf6-BO-GCx" secondAttribute="trailing" id="kf2-0j-oUV"/>
                             <constraint firstItem="IB5-kn-QvV" firstAttribute="top" secondItem="bf6-BO-GCx" secondAttribute="bottom" id="kjj-5j-azI"/>
                             <constraint firstItem="jYR-t1-5eX" firstAttribute="top" secondItem="2ij-MZ-reS" secondAttribute="bottom" id="pVE-Qt-WVd"/>
@@ -3583,7 +3541,7 @@ YXdheS4
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="46J-Mt-BiQ"/>
+        <segue reference="Snp-ad-1TG"/>
         <segue reference="THh-yj-HlV"/>
         <segue reference="tPL-wK-r0M"/>
     </inferredMetricsTieBreakers>

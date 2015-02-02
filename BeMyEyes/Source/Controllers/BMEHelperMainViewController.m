@@ -134,9 +134,9 @@ typedef NS_ENUM(NSInteger, BMESnoozeStep) {
     
     if ([self.user isNative]) {
         UITapGestureRecognizer *photoTapRecognizer =
-        [[UITapGestureRecognizer alloc] initWithTarget: self
-                                                action: @selector(profileImageViewTapped:)];
-        [self.profileImageView addGestureRecognizer: photoTapRecognizer];
+        [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                action:@selector(profileImageViewTapped:)];
+        [self.profileImageView addGestureRecognizer:photoTapRecognizer];
         self.profileImageView.userInteractionEnabled = YES;
     }
     
@@ -464,65 +464,61 @@ typedef NS_ENUM(NSInteger, BMESnoozeStep) {
 
 #pragma mark - Profile photo selection
 
-- (void) profileImageViewTapped: (UITapGestureRecognizer*) tapRecognizer
+- (void)profileImageViewTapped:(UITapGestureRecognizer *)tapRecognizer
 {
     NSString *actionSheetTitle = MKLocalizedFromTable(BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE, BMEHelperMainLocalizationTable);
     
     PSTAlertController *actionSheet =
-    [PSTAlertController alertControllerWithTitle: actionSheetTitle
-                                         message: nil
-                                  preferredStyle: PSTAlertControllerStyleActionSheet];
+    [PSTAlertController alertControllerWithTitle:actionSheetTitle
+                                         message:nil
+                                  preferredStyle:PSTAlertControllerStyleActionSheet];
     
-    if ([UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera])
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
     {
         NSString *takeNewActionTitle = MKLocalizedFromTable(BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW, BMEHelperMainLocalizationTable);
         
         PSTAlertAction *takeNewAction =
-        [PSTAlertAction actionWithTitle: takeNewActionTitle
-                                handler:^(PSTAlertAction *action) {
-                                    UIImagePickerController *pickerController = [UIImagePickerController new];
-                                    pickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
-                                    pickerController.cameraDevice = UIImagePickerControllerCameraDeviceFront;
-                                    pickerController.delegate = self;
-                                    [self presentViewController: pickerController
-                                                       animated: YES
-                                                     completion: nil];
-                                }];
+        [PSTAlertAction actionWithTitle:takeNewActionTitle handler:^(PSTAlertAction *action) {
+            UIImagePickerController *pickerController = [UIImagePickerController new];
+            pickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
+            pickerController.cameraDevice = UIImagePickerControllerCameraDeviceFront;
+            pickerController.delegate = self;
+            [self presentViewController:pickerController
+                               animated:YES
+                             completion:nil];
+        }];
         
-        [actionSheet addAction: takeNewAction];
+        [actionSheet addAction:takeNewAction];
     }
     
     NSString *chooseExistingTitle = MKLocalizedFromTable(BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING, BMEHelperMainLocalizationTable);
     
     PSTAlertAction *chooseExistingAction =
-    [PSTAlertAction actionWithTitle: chooseExistingTitle
+    [PSTAlertAction actionWithTitle:chooseExistingTitle
                             handler:^(PSTAlertAction *action) {
                                 UIImagePickerController *pickerController = [UIImagePickerController new];
                                 pickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
                                 pickerController.delegate = self;
-                                [self presentViewController: pickerController
-                                                   animated: YES
-                                                 completion: nil];
+                                [self presentViewController:pickerController
+                                                   animated:YES
+                                                 completion:nil];
                             }];
     
-    [actionSheet addAction: chooseExistingAction];
-    [actionSheet addCancelActionWithHandler: nil];
+    [actionSheet addAction:chooseExistingAction];
+    [actionSheet addCancelActionWithHandler:nil];
     
-    [actionSheet showWithSender: nil
-                     controller: self
-                       animated: YES
-                     completion: nil];
+    [actionSheet showWithSender:self.profileImageView controller:self animated:YES completion:nil];
 }
 
 #pragma mark - UIImagePickerControllerDelegate
 
-- (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
-    UIImage *image = [info valueForKey: UIImagePickerControllerOriginalImage];
+    UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
     UIImage *imageScaled = [image scaleToProfileImageSize];
     self.profileImageView.image = imageScaled;
     self.user.profileImage = imageScaled;
-    [picker dismissViewControllerAnimated: YES completion: nil];
+    [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

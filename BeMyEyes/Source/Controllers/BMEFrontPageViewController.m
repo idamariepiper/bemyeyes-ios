@@ -10,7 +10,7 @@
 #import "BMEPointLabel.h"
 #import "BMECommunityStats.h"
 #import "BMEBlindIntroViewController.h"
-#import "BeMyEyes-Swift.h"
+#import "BMESignUpMethodViewController.h"
 #import <PSTAlertController.h>
 
 @interface BMEFrontPageViewController ()
@@ -133,8 +133,8 @@ static NSString *const BMELoginSegue = @"Login";
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:BMEHelperSegue]) {
-        OnboardingVideoViewController *controller = (OnboardingVideoViewController *)segue.destinationViewController;
-        [controller setHelperRole];
+        BMESignUpMethodViewController *controller = (BMESignUpMethodViewController *)segue.destinationViewController;
+        controller.role = BMERoleHelper;
     } else if ([segue.identifier isEqualToString:BMEBlindSegue]) {
         BMEBlindIntroViewController *controller = (BMEBlindIntroViewController *)segue.destinationViewController;
         controller.role = BMERoleBlind;
