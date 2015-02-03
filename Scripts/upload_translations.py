@@ -18,7 +18,7 @@ PROJECT_ID = "bemyeyes-test-project"
 ####### Production
 #PROJECT_ID = "bemyeyes"
 MAX_FILE_LIST_LENGTH = 20
-IGNORED_FILES = ["InfoPlist.strings"]
+IGNORED_FILES = set(["InfoPlist.strings"])
 UPDATE_FILE_URL = "https://api.crowdin.com/api/project/{projectID}/{addOrUpdate}-file?key={APIKey}"
 PATH_TO_ENGLISH = "../BeMyEyes/Localization/en.lproj"
 
@@ -42,13 +42,13 @@ def uploadFiles(APIKey, mode):
 	mode - either 'a' (add files) or 'u' (update files)
 	"""
 	englishDir = pathToEnglishTranslation()
-	fileList = fileListAt(englishDir, lambda x: x.endswith(".strings"))
+	fileSet = fileSetAt(englishDir, lambda x: x.endswith(".strings"))
 	
 	filesToUpload = {}
 	
 	p("Preparing for upload")
 	
-	for file in fileList:
+	for file in (fileSet - IGNORED_FILES):
 		location = os.path.join(englishDir, file)
 		filesToUpload["files[{0}]".format(file)] = open(location, "r")
 		if len(filesToUpload) == MAX_FILE_LIST_LENGTH:
@@ -86,14 +86,14 @@ def pathToEnglishTranslation():
 	return os.path.join(os.getcwd(), PATH_TO_ENGLISH)
 	
 	
-def fileListAt(directory, condition):
+def fileSetAt(directory, condition):
 	"""
 	Return a list of all elements in a given directory that 
 	fulfill the supplied condition.
 	"""
 	dirsList = [name for name in os.listdir(directory)
 			            if condition(name)]
-	return dirsList
+	return set(dirsList)
 
 
 def uploadURL(projID, key, mode):
