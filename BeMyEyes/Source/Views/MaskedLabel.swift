@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable class MaskedLabel: UILabel {
     
-    @IBInspectable var color: UIColor = UIColor.whiteColor() {
+    @IBInspectable var color: UIColor = .whiteColor() {
         didSet {
             setup()
         }
@@ -34,8 +34,8 @@ import UIKit
     
     func setup() {
         opaque = false
-        backgroundColor = UIColor.clearColor()
-        textColor = UIColor.whiteColor()
+        backgroundColor = .clearColor()
+        textColor = .whiteColor()
         setNeedsDisplay()
         clipsToBounds = true // Fixes incorrect layout of unicode characters
     }
@@ -72,11 +72,5 @@ import UIKit
         size.width += self.textInset.left + self.textInset.right;
         size.height += self.textInset.top + self.textInset.bottom;
         return size
-    }
-    
-    override func prepareForInterfaceBuilder() {
-        super.prepareForInterfaceBuilder()
-        
-        text = "Masked label"
     }
 }
