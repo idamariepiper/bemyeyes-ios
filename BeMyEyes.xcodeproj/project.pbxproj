@@ -3787,6 +3787,7 @@
 				4E850D801A826A3E00B89FB0 /* ReleaseDev */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7236DFF518B8A87B00F622AA /* Build configuration list for PBXProject "BeMyEyes" */ = {
 			isa = XCConfigurationList;
