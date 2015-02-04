@@ -18,6 +18,7 @@
 # Be My Eyes specific files
 BeMyEyes/Source/BMEGlobal.h
 BeMyEyes\ Tests/ReferenceImages
+BeMyEyes/Source/Other\ sources/OpenTok.framework
  
 #####
 # OS X temporary files that should never be committed

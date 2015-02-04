@@ -22,7 +22,6 @@ class PostCallViewController: BMEBaseViewController, MKLocalizable {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        reportAbuseButton.mainStyle = .Border
         MKLocalization.registerForLocalization(self)
     }
     

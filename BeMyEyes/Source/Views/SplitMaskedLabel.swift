@@ -102,6 +102,7 @@ extension SplitMaskedLabel {
     func leftRect() -> CGRect {
         var rect = self.frame
         rect.size.width *= CGFloat(self.split)
+        rect.size.width = round(rect.size.width)
         return rect
     }
     func rightRect() -> CGRect {

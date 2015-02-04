@@ -48,7 +48,6 @@ static NSString *const BMELoginSegue = @"Login";
     [MKLocalization registerForLocalization:self];
     
     self.alreadyRegisteredButton.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    [self.alreadyRegisteredButton setMainStyleBorder];
     self.sightedRoleButton.font = [UIFont boldSystemFontOfSize:24];
     self.blindRoleButton.font = [UIFont boldSystemFontOfSize:24];
     
