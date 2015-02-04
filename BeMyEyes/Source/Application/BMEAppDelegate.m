@@ -244,8 +244,9 @@
         [self application:application didReceiveRemoteNotification:userInfo];
     }
 
-    if (completionHandler)
+    if (completionHandler) {
         completionHandler();
+    }
 }
 
 
