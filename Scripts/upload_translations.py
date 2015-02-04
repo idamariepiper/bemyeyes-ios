@@ -12,11 +12,7 @@ Usage:
 
 import requests, os, argparse, sys, json
 
-# Testing
-PROJECT_ID = "bemyeyes-test-project"
-
-####### Production
-#PROJECT_ID = "bemyeyes"
+PROJECT_ID = "bemyeyes"
 MAX_FILE_LIST_LENGTH = 20
 IGNORED_FILES = set(["InfoPlist.strings"])
 UPDATE_FILE_URL = "https://api.crowdin.com/api/project/{projectID}/{addOrUpdate}-file?key={APIKey}"
