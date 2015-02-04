@@ -43,37 +43,58 @@ def uploadFiles(APIKey, mode, existingFiles):
 	"""
 	englishDir = pathToEnglishTranslation()
 	fileSet = fileSetAt(englishDir, lambda x: x.endswith(".strings"))
+	filesToUpdate, filesToAdd = classifyFiles(fileSet - IGNORED_FILES, existingFiles)
 	
+	print("Files to update: {0}".format(filesToUpdate))
+	print("Files to add: {0}".format(filesToAdd))
+	
+	#Update files
+	if mode != Mode.add:
+		step1URL = uploadURL(PROJECT_ID, APIKey, Mode.update)
+		step1Suc = upload(filesToUpdate, step1URL, englishDir)
+	
+	#Add files
+	if mode != Mode.update:
+		step2URL = uploadURL(PROJECT_ID, APIKey, Mode.add)
+		step2Suc = upload(filesToAdd, step2URL, englishDir)
+	
+	return True
+
+def classifyFiles(filesToUpload, existingFiles):
+	filesToUpdate = []
+	filesToAdd = []
+	for file in filesToUpload:
+		if file in existingFiles:
+			filesToUpdate.append(file)
+		else:
+			filesToAdd.append(file)
+	return filesToUpdate, filesToAdd
+
+
+def upload(files, url, englishDir):
 	filesToUpload = {}
-	
-	p("Preparing for upload")
-	
-	for file in (fileSet - IGNORED_FILES):
+	for file in files:
 		location = os.path.join(englishDir, file)
 		filesToUpload["files[{0}]".format(file)] = open(location, "r")
 		if len(filesToUpload) == MAX_FILE_LIST_LENGTH:
 			p("Uploading {0} files".format(len(filesToUpload)))
-			if makeUploadRequest(filesToUpload, APIKey, mode):
+			if makeUploadRequest(filesToUpload, url):
 				filesToUpload = {}
 			else:
 				return False
-				
+					
 	if len(filesToUpload):
 		p("Uploading {0} files".format(len(filesToUpload)))
-		success = makeUploadRequest(filesToUpload, APIKey, mode)
+		success = makeUploadRequest(filesToUpload, url)
 		if success:
 			p("Upload successful")
 		else:
 			return False
-	
-	return True
 
-
-def makeUploadRequest(filesToUpload, APIKey, mode):
+def makeUploadRequest(filesToUpload, url):
 	"""
 	Function opening a connection to the CrowdIn server and uploading files.
 	"""
-	url = uploadURL(PROJECT_ID, APIKey, mode)
 	response = requests.post(url, files=filesToUpload)
 	if response.status_code != 200:
 		print("Upload unsuccessful! Status code {0}. Response: {1}".format(response.status_code, response.text))
@@ -100,9 +121,9 @@ def uploadURL(projID, key, mode):
 	"""
 	We need a different URL depending on whether the user wants to add files or upload them.
 	"""
-	if mode == 'a':
+	if mode == Mode.add:
 		return UPDATE_FILE_URL.format(projectID=projID, APIKey=key, addOrUpdate="add")
-	elif mode == 'u':
+	elif mode == Mode.update:
 		return UPDATE_FILE_URL.format(projectID=projID, APIKey=key, addOrUpdate="update")
 	else:
 		return ''
@@ -147,5 +168,5 @@ if __name__ == "__main__":
 	
 	mode = modeFromArguments(args.add, args.update)
 	existingFilenames = fetchExistingFilenames(PROJECT_ID, args.api_key)
-	uploadFiles(parser.api_key, mode, existingFilenames)
+	uploadFiles(args.api_key, mode, existingFilenames)
 	
