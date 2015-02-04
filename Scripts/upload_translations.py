@@ -10,7 +10,7 @@ Usage:
 	Either -a or -u should be specified. Defaults to -a.
 """
 
-import requests, os, getopt, sys
+import requests, os, argparse, sys, json
 
 # Testing
 PROJECT_ID = "bemyeyes-test-project"
@@ -20,11 +20,11 @@ PROJECT_ID = "bemyeyes-test-project"
 MAX_FILE_LIST_LENGTH = 20
 IGNORED_FILES = set(["InfoPlist.strings"])
 UPDATE_FILE_URL = "https://api.crowdin.com/api/project/{projectID}/{addOrUpdate}-file?key={APIKey}"
+PROJECT_INFO_URL = "https://api.crowdin.com/api/project/{projectID}/info?key={APIkey}&json"
 PATH_TO_ENGLISH = "../BeMyEyes/Localization/en.lproj"
 
-def usage():
-	print(__doc__)
-
+class Mode:
+	add, update, addAndUpdate = range(0, 3)
 
 def p(message):
 	"""
@@ -33,7 +33,7 @@ def p(message):
 	print("### {0} ###".format(message))
 
 
-def uploadFiles(APIKey, mode):
+def uploadFiles(APIKey, mode, existingFiles):
 	"""
 	The heart of this script. This function looks for English translation files
 	and uploads them to CrowdIn.
@@ -107,31 +107,45 @@ def uploadURL(projID, key, mode):
 	else:
 		return ''
 	
+def projectInfoURL(projID, key):
+	return PROJECT_INFO_URL.format(projectID=projID, APIkey=key)	
+
+def modeFromArguments(add, update):
+	both = add and update
+	neither = not add and not update
+	if both or neither:
+		return Mode.addAndUpdate
+	elif add:
+		return Mode.add
+	else:
+		return Mode.update
+		
+		
+def fetchExistingFilenames(projID, APIKey):
+	"""
+	Method fetching info about the project and extracting
+	names of uploaded files.
+	"""
+	url = projectInfoURL(projID, APIKey)
+	response = requests.get(url)
+	parsedJSON = json.loads(response.text)
+	files = parsedJSON["files"]
+	existingNames = []
+	for langDict in files:
+		existingNames.append(langDict["name"])
+	return set(existingNames)
 
 ###### Main ######
 
 if __name__ == "__main__":
-	try:
-		opts, args = getopt.getopt(sys.argv[1:], "p:ua")
-		if len(opts) != 2:
-			usage()
-			sys.exit(2)
-	except getopt.GetoptError:
-		usage()
-		sys.exit(2)
-	else:
-		projectKey = ''
-		mode = 'a'
-		for opt, arg in opts:
-			if opt == "-p":
-				projectKey = arg
-			elif opt == "-u":
-				mode = 'u'
-			elif opt == "-a":
-				pass
-			else:
-				usage()
-				sys.exit(2)
-		
-	uploadFiles(projectKey, mode)
+	
+	parser = argparse.ArgumentParser()
+	parser.add_argument("api_key", help="Key for accessing the CrowdIn API")
+	parser.add_argument("-a", "--add", help="New files will be added", action="store_true")
+	parser.add_argument("-u", "--update", help="Existing files will be updated", action="store_true")
+	args = parser.parse_args()
+	
+	mode = modeFromArguments(args.add, args.update)
+	existingFilenames = fetchExistingFilenames(PROJECT_ID, args.api_key)
+	uploadFiles(parser.api_key, mode, existingFilenames)
 	
