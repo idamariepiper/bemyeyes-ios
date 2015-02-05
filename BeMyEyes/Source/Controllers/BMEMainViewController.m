@@ -72,30 +72,34 @@ static NSString *const BMEAccessViewSegue = @"AccessView";
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [self checkAccess];
-    [self askForMoreLanguagesIfNecessary];
+    [self checkAccess:^(BOOL didShowAccessView) {
+        if (didShowAccessView) {
+            return;
+        }
+        [self askForMoreLanguagesIfNecessary];
+    }];
 }
 
 - (void)handleAppBecameActive
 {
-    [self checkAccess];
+    [self checkAccess:nil];
 }
 
-- (void)checkAccess
+- (void)checkAccess:(void (^)(BOOL asked))completion
 {
     if ([BMEClient sharedClient].currentUser.role == BMERoleHelper) {
         [BMEAccessControlHandler hasNotificationsEnabled:^(BOOL isUserEnabled, BOOL validToken) {
             if (isUserEnabled) {
                 // If user is helper and has notifications enabled, to a request to register for a possibly new device token
                 [BMEAccessControlHandler requireNotificationsEnabled:^(BOOL isUserEnabled, BOOL validToken) {
-                    [self askForAccessIfNecessary];
+                    [self askForAccessIfNecessary:completion];
                 }];
             } else {
-                [self askForAccessIfNecessary];
+                [self askForAccessIfNecessary:completion];
             }
         }];
     } else {
-        [self askForAccessIfNecessary];
+        [self askForAccessIfNecessary:completion];
     }
 }
 
@@ -154,6 +158,7 @@ static NSString *const BMEAccessViewSegue = @"AccessView";
 	self.currentViewController = controller;
 }
 
+
 - (void)askForMoreLanguagesIfNecessary {
     if ([BMEClient sharedClient].currentUser.peopleHelped.integerValue >= BMEPeopleHelpedBeforeAskingForMoreLanguages &&
         ![GVUserDefaults standardUserDefaults].hasAskedForMoreLanguages) {
@@ -181,7 +186,7 @@ static NSString *const BMEAccessViewSegue = @"AccessView";
     }
 }
 
-- (void)askForAccessIfNecessary
+- (void)askForAccessIfNecessary:(void (^)(BOOL asked))completion
 {
     [BMEAccessControlHandler enabledForRole:[BMEClient sharedClient].currentUser.role completion:^(BOOL isEnabled, BOOL validToken) {
         if (isEnabled) {
@@ -193,14 +198,18 @@ static NSString *const BMEAccessViewSegue = @"AccessView";
                 PSPDFAlertView *alertView = [[PSPDFAlertView alloc] initWithTitle:title message:message];
                 [alertView setCancelButtonWithTitle:cancelButton block:nil];
                 [alertView show];
-                return;
+            }
+            if (completion) {
+                completion(NO);
             }
             return;
         }
         [self performSegueWithIdentifier:BMEAccessViewSegue sender:self];
+        if (completion) {
+            completion(YES);
+        }
     }];
 }
-
 
 
 #pragma mark - Call
