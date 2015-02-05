@@ -3575,6 +3575,7 @@ YXdheS4
                         <outlet property="enableNotificationsLabel" destination="1K5-3K-aCJ" id="I4Z-xj-DsS"/>
                         <outlet property="step1Label" destination="eSi-kg-x9p" id="F7z-i2-UqK"/>
                         <outlet property="step2Label" destination="5xj-zL-jtA" id="o1Y-bS-vpv"/>
+                        <outlet property="stepsView" destination="U46-gq-fMW" id="eT4-hF-vRV"/>
                         <outlet property="titleLabel" destination="Rf1-NI-fk2" id="IMq-z0-IFr"/>
                         <segue destination="9ba-B7-MXH" kind="modal" identifier="DemoVideo" id="ORv-jo-JV0"/>
                     </connections>
