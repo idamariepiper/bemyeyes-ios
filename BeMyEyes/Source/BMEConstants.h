@@ -33,6 +33,7 @@
 #define BMEMenuControllerIdentifier @"Menu"
 #define BMECallControllerIdentifier @"Call"
 #define BMESecretSettingsControllerIdentifier @"SecretSettings"
+#define BMEForgotPasswordControllerIdentifier @"ForgotPassword"
 #define BMEDemoCallViewController @"DemoCall"
 #define BMEHelperWelcomeViewController @"HelperWelcome"
 

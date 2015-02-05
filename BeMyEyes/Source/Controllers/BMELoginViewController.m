@@ -25,7 +25,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet Button *loginButton;
 @property (weak, nonatomic) IBOutlet Button *facebookButton;
-@property (weak, nonatomic) IBOutlet UIButton *forgotPasswordButton;
+@property (weak, nonatomic) IBOutlet Button *forgotPasswordButton;
 @property (strong, nonatomic) BMEScrollViewTextFieldHelper *scrollViewHelper;
 
 @property (strong, nonatomic) MRProgressOverlayView *loggingInOverlayView;
@@ -57,7 +57,7 @@
     
     self.loginButton.title = MKLocalizedFromTable(BME_LOGIN_PERFORM_LOG_IN, BMELoginLocalizationTable);
     self.facebookButton.title = MKLocalizedFromTable(BME_LOGIN_FACEBOOK, BMELoginLocalizationTable);
-     [self.forgotPasswordButton setTitle:MKLocalizedFromTable(BME_LOGIN_FORGOT_PASSWORD, BMELoginLocalizationTable) forState:UIControlStateNormal];
+    self.forgotPasswordButton.title = MKLocalizedFromTable(BME_LOGIN_FORGOT_PASSWORD, BMELoginLocalizationTable);
 }
 
 - (BOOL)prefersStatusBarHidden
@@ -213,6 +213,11 @@
         
         NSLog(@"Could not log in: %@", error);
     }];
+}
+
+
+- (IBAction)forgotPasswordTapped:(id)sender {
+    [self performSegueWithIdentifier:BMEForgotPasswordControllerIdentifier sender:self];
 }
 
 - (void)dismissKeyboard {

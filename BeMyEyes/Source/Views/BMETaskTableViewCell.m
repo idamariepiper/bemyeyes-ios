@@ -19,13 +19,8 @@
     // Fix backgroundColor not being set to clearColor from Storyboard on iPad.
     self.backgroundColor = [UIColor clearColor];
     
-    // Set these in IB when possible (currently IB is buggy)
-    self.titleLabel.color =
-    self.detailLabel.color = [UIColor whiteColor];
     self.titleLabel.textInset =
     self.detailLabel.textInset = UIEdgeInsetsMake(5, 15, 5, 15);
-    self.titleLabel.font = [UIFont systemFontOfSize:17];
-    self.detailLabel.font = [UIFont boldSystemFontOfSize:17.0];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -58,6 +53,7 @@
         self.detailLabel.text = self.detail;
     }
 }
+
 
 #pragma mark - Accessibility
 
