@@ -22,6 +22,7 @@
 @property (strong, nonatomic) PSPDFAlertView *callAlertView;
 @property (strong, nonatomic) BMECallAudioPlayer *callAudioPlayer;
 @property (assign, nonatomic, getter = isLaunchedWithShortID) BOOL launchedWithShortID;
+@property (assign, nonatomic, getter = isLaunchedFromDemoCall) BOOL launchedFromDemoCall;
 @property (strong, nonatomic) InAppTestBadge *inAppTestBadgeWindow;
 @end
 
@@ -225,15 +226,16 @@
 
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
     NSLog(@"Did register user notification settings");
-    [application registerForRemoteNotifications];
+	[[NSNotificationCenter defaultCenter] postNotificationName:BMEDidRegisterUserNotificationsNotification object:nil];
+	[application registerForRemoteNotifications];
 }
 
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
-	[self postNotificationIfLocalNotificationIsFromDemoCall:notification];
+	[self checkIfLocalNotificationIsFromDemoCall:notification];
 }
 
 - (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)())completionHandler {
-	[self postNotificationIfLocalNotificationIsFromDemoCall:notification];
+	[self checkIfLocalNotificationIsFromDemoCall:notification];
 	completionHandler();
 }
 
@@ -302,8 +304,9 @@
     return [alertInfo objectForKey:@"short_id"];
 }
 
-- (void)postNotificationIfLocalNotificationIsFromDemoCall:(UILocalNotification *)notification {
+- (void)checkIfLocalNotificationIsFromDemoCall:(UILocalNotification *)notification {
 	if ([[notification.userInfo objectForKey:[DemoCallViewController NotificationIsDemoKey]] boolValue]) {
+		self.launchedFromDemoCall = YES;
 		[[NSNotificationCenter defaultCenter] postNotificationName:BMEDidAnswerDemoCallNotification object:nil];
 	}
 }
@@ -370,16 +373,17 @@
 
 - (void)checkForPendingRequestIfIconHasBadge {
     NSUInteger badgeCount = [UIApplication sharedApplication].applicationIconBadgeNumber;
-    if (badgeCount > 0) {
+    if (badgeCount > 0 && !self.isLaunchedFromDemoCall) {
         MRProgressOverlayView *progressOverlayView = [MRProgressOverlayView showOverlayAddedTo:self.window animated:YES];
         progressOverlayView.mode = MRProgressOverlayViewModeIndeterminate;
         progressOverlayView.titleLabelText = MKLocalizedFromTable(BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE, BMEAppDelegateLocalizationTable);
     
-        [[BMEClient sharedClient] checkForPendingRequest:^(NSString *shortId, BOOL success, NSError *error) {
+        [[BMEClient sharedClient] checkForPendingRequest:^(id shortId, BOOL success, NSError *error) {
             [progressOverlayView hide:YES];
             
             if (success) {
                 if (shortId) {
+					
                     [self didAnswerCallWithShortId:shortId];
                 } else {
                     NSString *title = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE, BMEAppDelegateLocalizationTable);

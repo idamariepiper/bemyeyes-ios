@@ -22,7 +22,18 @@ class DemoCallViewController: BMEBaseViewController {
 	
     internal var callCompletion: ((UIViewController) -> ())?
 	
-	private var canPerformDemoCall = false
+	private var canPerformDemoCall: Bool {
+		if UIApplication.instancesRespondToSelector(Selector("registerUserNotificationSettings:")) {
+			let application = UIApplication.sharedApplication()
+			let types = application.currentUserNotificationSettings().types.rawValue
+			let soundEnabled = types & UIRemoteNotificationType.Sound.rawValue != 0
+			let alertEnabled = types & UIRemoteNotificationType.Alert.rawValue != 0
+			let badgeEnabled = types & UIRemoteNotificationType.Badge.rawValue != 0
+			return application.isRegisteredForRemoteNotifications() && soundEnabled && alertEnabled && badgeEnabled
+		}
+		
+		return true
+	}
 	
 	// MARK: - Lifecycle
 	
@@ -37,6 +48,7 @@ class DemoCallViewController: BMEBaseViewController {
 		
 		receiveDidEnterBackgroundNotifications(true)
 		NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("didAnswerDemoCall:"), name: BMEDidAnswerDemoCallNotification, object: nil)
+		NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("didRegisterUserNotificationsNotification:"), name: BMEDidRegisterUserNotificationsNotification, object: nil)
 		
 		checkIfDemoCallCanBePerformed()
     }
@@ -59,21 +71,17 @@ class DemoCallViewController: BMEBaseViewController {
 	}
 	
 	private func checkIfDemoCallCanBePerformed() {
-		if UIApplication.instancesRespondToSelector(Selector("registerUserNotificationSettings:")) {
-			let application = UIApplication.sharedApplication()
-			if !application.isRegisteredForRemoteNotifications() {
-				stepsView.hidden = true
-				enableNotificationsLabel.hidden = false
-				canPerformDemoCall = false
-				let settings = UIUserNotificationSettings(forTypes: .Sound | .Alert | .Badge, categories: nil)
-				application.registerUserNotificationSettings(settings)
-				return
-			}
-		}
+		updateDisplayedViews()
 		
-		stepsView.hidden = false
-		enableNotificationsLabel.hidden = true
-		canPerformDemoCall = true
+		if !canPerformDemoCall {
+			let settings = UIUserNotificationSettings(forTypes: .Sound | .Alert | .Badge, categories: nil)
+			UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+		}
+	}
+	
+	private func updateDisplayedViews() {
+		stepsView.hidden = !canPerformDemoCall
+		enableNotificationsLabel.hidden = canPerformDemoCall
 	}
 	
 	internal func didEnterBackground(notification: NSNotification) {
@@ -103,6 +111,10 @@ class DemoCallViewController: BMEBaseViewController {
 	internal func didAnswerDemoCall(notification: NSNotification) {
 		receiveDidEnterBackgroundNotifications(false)
 		performSegueWithIdentifier(DemoVideoSegue, sender: nil)
+	}
+	
+	internal func didRegisterUserNotificationsNotification(notification: NSNotification) {
+		updateDisplayedViews()
 	}
 	
 	private func receiveDidEnterBackgroundNotifications(receive: Bool) {
