@@ -22,11 +22,12 @@ import UIKit
         }
     }
     
-    @IBInspectable var progress: Float = 0.0 {
-        didSet {
-            UIView.animateWithDuration(1) {
-                self.label.split = self.progress
-            }
+    @IBInspectable var progress: Float {
+        set {
+            label.split = newValue
+        }
+        get {
+            return label.split
         }
     }
     
@@ -51,6 +52,8 @@ import UIKit
         super.prepareForInterfaceBuilder()
         
         setup()
+        text = "100 points untill next level"
+        progress = 0.5
     }
 }
 

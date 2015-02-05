@@ -79,6 +79,6 @@ extension UIColor {
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         
-        update()
+        setup()
     }
 }

@@ -11,7 +11,7 @@ import UIKit
 
 @IBDesignable class Button: UIControl {
     
-    enum Style {
+    enum Style: Int {
         case Filled
         case Border
     }
@@ -82,6 +82,27 @@ import UIKit
         return label
     }()
     
+    enum Centering: Int {
+        case Normal
+        case AtBottomEdge
+        case AtTopEdge
+    }
+    var centering: Centering = .Normal {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    private let inset: CGFloat = 14
+    private var contentInsets: UIEdgeInsets {
+        get {
+            switch centering {
+                case .Normal: return UIEdgeInsets(top: inset/2, left: inset, bottom: inset/2, right: inset)
+                case .AtBottomEdge: return UIEdgeInsets(top: inset/2, left: inset, bottom: inset, right: inset)
+                case .AtTopEdge: return UIEdgeInsets(top: inset, left: inset, bottom: inset/2, right: inset)
+            }
+        }
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
@@ -94,13 +115,26 @@ import UIKit
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        let innerRect = CGRectInset(bounds, 15, 7.5)
+        
+        let innerRect = bounds.inset(contentInsets)
         titleLabelFilled.frame = innerRect
         titleLabelBorder.frame = innerRect
     }
     
     override func prepareForInterfaceBuilder() {
         setup()
+    }
+    
+    // Adapter for Storyboard inspectability
+    @IBInspectable var mainStyleAsInt: Int = 0 {
+        didSet {
+            mainStyle = Style(rawValue: mainStyleAsInt) ?? .Border
+        }
+    }
+    @IBInspectable var centeringAsInt: Int = 0 {
+        didSet {
+            centering = Centering(rawValue: centeringAsInt) ?? .Normal
+        }
     }
 }
 
@@ -143,14 +177,13 @@ extension Button {
     }
 }
 
-/**
-    Extension for Objective-C compatibility
-*/
-extension Button {
-    @objc func setMainStyleFilled() {
-        mainStyle = .Filled
-    }
-    @objc func setMainStyleBorder() {
-        mainStyle = .Border
+extension CGRect {
+    
+    func inset(insets: UIEdgeInsets) -> CGRect {
+        var rect = self
+        rect.offset(dx: insets.left, dy: insets.top)
+        rect.size.width -= insets.left + insets.right
+        rect.size.height -= insets.top + insets.bottom
+        return rect
     }
 }

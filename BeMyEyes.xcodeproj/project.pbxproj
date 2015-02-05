@@ -6,7 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4E850D791A826A3E00B89FB0 /* PreBuild */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4E850D7A1A826A3E00B89FB0 /* Build configuration list for PBXAggregateTarget "PreBuild" */;
+			buildPhases = (
+				4E850D811A826A4200B89FB0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = PreBuild;
+			productName = PreBuild;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		4E04E2DB1A823777005BE3EB /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04E2DA1A823777005BE3EB /* UIView+IBInspectable.swift */; };
 		4E08EE7A19E1693200B45088 /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E08EE7919E1693200B45088 /* OpenTok.framework */; };
 		4E1916CF19E5800300B85E61 /* MaskedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916CE19E5800300B85E61 /* MaskedLabel.swift */; };
 		4E1916D119E5804800B85E61 /* SplitMaskedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916D019E5804800B85E61 /* SplitMaskedLabel.swift */; };
@@ -181,6 +196,13 @@
 			remoteGlobalIDString = 7236DFF918B8A87B00F622AA;
 			remoteInfo = BeMyEyes;
 		};
+		4E850D821A826A4E00B89FB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7236DFF218B8A87B00F622AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E850D791A826A3E00B89FB0;
+			remoteInfo = PreBuild;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -206,7 +228,8 @@
 		3168DA5A000B6A36C7147FB6 /* Pods-BeMyEyes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeMyEyes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeMyEyes/Pods-BeMyEyes.debug.xcconfig"; sourceTree = "<group>"; };
 		48877F93D8E56E4310DAF4B9 /* Pods.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debugdev.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debugdev.xcconfig"; sourceTree = "<group>"; };
 		4E011A081A03A46C0042A895 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		4E08EE7919E1693200B45088 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = "OpenTok-iOS-2.3.0/OpenTok.framework"; sourceTree = "<group>"; };
+		4E04E2DA1A823777005BE3EB /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		4E08EE7919E1693200B45088 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = "OpenTok-iOS-2.4.0/OpenTok.framework"; sourceTree = "<group>"; };
 		4E10F2FE19F7F176004EA22E /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
 		4E1916CE19E5800300B85E61 /* MaskedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedLabel.swift; sourceTree = "<group>"; };
 		4E1916D019E5804800B85E61 /* SplitMaskedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitMaskedLabel.swift; sourceTree = "<group>"; };
@@ -1581,6 +1604,7 @@
 				4EB6C13B19FFB6B50048735E /* BMEButtonImageToRight.h */,
 				4EB6C13C19FFB6B50048735E /* BMEButtonImageToRight.m */,
 				4E6AE89F1A0194430019247A /* ProfileImageView.swift */,
+				4E04E2DA1A823777005BE3EB /* UIView+IBInspectable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1733,6 +1757,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4E850D831A826A4E00B89FB0 /* PBXTargetDependency */,
 			);
 			name = BeMyEyes;
 			productName = BeMyEyes;
@@ -1752,6 +1777,9 @@
 					4E7BA9981A1B5D9300F9744A = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 7236DFF918B8A87B00F622AA;
+					};
+					4E850D791A826A3E00B89FB0 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 					7236DFF918B8A87B00F622AA = {
 						DevelopmentTeam = VS2JRRGV67;
@@ -1807,6 +1835,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4E850D791A826A3E00B89FB0 /* PreBuild */,
 				7236DFF918B8A87B00F622AA /* BeMyEyes */,
 				4E7BA9981A1B5D9300F9744A /* BeMyEyes Tests */,
 			);
@@ -1903,6 +1932,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "Scripts/./miaw -g -w --no-date -d -o BeMyEyes/Source/";
+		};
+		4E850D811A826A4200B89FB0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "unzip -u BeMyEyes/Source/Other\\ sources/OpenTok.framework.zip -d BeMyEyes/Source/Other\\ sources/";
 		};
 		4E8ABED719F9423B0005F6E8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2054,6 +2096,7 @@
 				4E8E21F519E8C03C00316AD8 /* IntroVideoViewController.swift in Sources */,
 				72DA826B18D45B61001F3312 /* BMEBlindMainViewController.m in Sources */,
 				72DEF73318B90A6D0048FA90 /* NSString+Base64.m in Sources */,
+				4E04E2DB1A823777005BE3EB /* UIView+IBInspectable.swift in Sources */,
 				72DEF71318B907CB0048FA90 /* BMEClient.m in Sources */,
 				72DEF71E18B907D10048FA90 /* BMEOpenTokSession.m in Sources */,
 				4EB6AD1C19E1F4CD00141615 /* BMEUserLevel.m in Sources */,
@@ -2075,6 +2118,11 @@
 			isa = PBXTargetDependency;
 			target = 7236DFF918B8A87B00F622AA /* BeMyEyes */;
 			targetProxy = 4E7BA99F1A1B5D9300F9744A /* PBXContainerItemProxy */;
+		};
+		4E850D831A826A4E00B89FB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E850D791A826A3E00B89FB0 /* PreBuild */;
+			targetProxy = 4E850D821A826A4E00B89FB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3147,7 +3195,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = ReleaseDev;
 		};
@@ -3210,8 +3257,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = DebugDev;
 		};
@@ -3274,8 +3321,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = DebugStaging;
 		};
@@ -3337,7 +3384,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = ReleaseStaging;
 		};
@@ -3547,6 +3593,48 @@
 			};
 			name = ReleaseDev;
 		};
+		4E850D7B1A826A3E00B89FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E850D7C1A826A3E00B89FB0 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = DebugStaging;
+		};
+		4E850D7D1A826A3E00B89FB0 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = DebugDev;
+		};
+		4E850D7E1A826A3E00B89FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E850D7F1A826A3E00B89FB0 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = ReleaseStaging;
+		};
+		4E850D801A826A3E00B89FB0 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = ReleaseDev;
+		};
 		7236E02A18B8A87B00F622AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E7A85C41A0C49DB0006BDC8 /* Config.debug.xcconfig */;
@@ -3577,7 +3665,6 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -3608,7 +3695,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -3686,6 +3772,19 @@
 				4E7BA9A51A1B5D9400F9744A /* Release */,
 				4E7BA9A61A1B5D9400F9744A /* ReleaseStaging */,
 				4E7BA9A71A1B5D9400F9744A /* ReleaseDev */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E850D7A1A826A3E00B89FB0 /* Build configuration list for PBXAggregateTarget "PreBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E850D7B1A826A3E00B89FB0 /* Debug */,
+				4E850D7C1A826A3E00B89FB0 /* DebugStaging */,
+				4E850D7D1A826A3E00B89FB0 /* DebugDev */,
+				4E850D7E1A826A3E00B89FB0 /* Release */,
+				4E850D7F1A826A3E00B89FB0 /* ReleaseStaging */,
+				4E850D801A826A3E00B89FB0 /* ReleaseDev */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
