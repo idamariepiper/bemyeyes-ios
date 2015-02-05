@@ -11,3 +11,4 @@
 "POST_CALL_VIEW_CONTROLLER_STEP_1" = "Press the home button and wait a second to receive a notification.";
 "POST_CALL_VIEW_CONTROLLER_STEP_2" = "Tap the notification.";
 "POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Someone";
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device.";

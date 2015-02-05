@@ -25,7 +25,7 @@
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmg-sQ-kOY" userLabel="Community Stats View">
-                                <rect key="frame" x="14" y="0.0" width="292" height="71.5"/>
+                                <rect key="frame" x="14" y="0.0" width="292" height="72"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Be My Eyes Network" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlY-08-fhH">
                                         <rect key="frame" x="0.0" y="5" width="292" height="17"/>
@@ -37,14 +37,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSi-hN-xg4" userLabel="Separator 1">
-                                        <rect key="frame" x="0.0" y="47" width="31.5" height="5"/>
+                                        <rect key="frame" x="0.0" y="47" width="32" height="5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="uK0-gp-LuM"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="voN-tL-YkH" userLabel="Sighted">
-                                        <rect key="frame" x="31" y="27" width="66" height="44.5"/>
+                                        <rect key="frame" x="31" y="27" width="66" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="421k" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz3-fb-tJr" userLabel="42k" customClass="BMEPointLabel">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="36"/>
@@ -56,7 +56,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sighted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEj-r0-eEf" userLabel="Sighted">
-                                                <rect key="frame" x="0.0" y="31" width="66" height="13.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="66" height="14"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
@@ -84,7 +84,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BS6-su-hfO" userLabel="Blind">
-                                        <rect key="frame" x="113" y="27" width="66" height="44.5"/>
+                                        <rect key="frame" x="113" y="27" width="66" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="512" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzD-R4-9bG" customClass="BMEPointLabel">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="36"/>
@@ -96,7 +96,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wih-2Q-gty">
-                                                <rect key="frame" x="0.0" y="31" width="66" height="13.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="66" height="14"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
@@ -117,14 +117,14 @@
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwn-Xz-knj" userLabel="Separator 3">
-                                        <rect key="frame" x="179" y="47" width="15.5" height="5"/>
+                                        <rect key="frame" x="179" y="47" width="16" height="5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="hXF-Ha-TBC"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rz-TP-5dg" userLabel="Helped">
-                                        <rect key="frame" x="194.5" y="27" width="66" height="44.5"/>
+                                        <rect key="frame" x="195" y="27" width="66" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXJ-n1-HIU" customClass="BMEPointLabel">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="36"/>
@@ -136,7 +136,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helped" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRX-sl-5ha">
-                                                <rect key="frame" x="0.0" y="31" width="66" height="13.5"/>
+                                                <rect key="frame" x="0.0" y="31" width="66" height="14"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
@@ -157,7 +157,7 @@
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-iZ-zHC" userLabel="Separator 4">
-                                        <rect key="frame" x="260.5" y="47" width="31.5" height="5"/>
+                                        <rect key="frame" x="261" y="47" width="32" height="5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="48O-jL-A8R"/>
@@ -196,10 +196,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ag-KE-c4b" userLabel="Logo Wrapper">
-                                <rect key="frame" x="0.0" y="72" width="320" height="150.5"/>
+                                <rect key="frame" x="0.0" y="72" width="320" height="152"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNI-8U-fEM" userLabel="Logo Container">
-                                        <rect key="frame" x="0.0" y="12" width="320" height="127"/>
+                                        <rect key="frame" x="0.0" y="13" width="320" height="127"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoNoTextWhite" translatesAutoresizingMaskIntoConstraints="NO" id="m2L-ka-v6O">
                                                 <rect key="frame" x="110" y="0.0" width="100" height="69"/>
@@ -239,7 +239,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QYR-dz-rQ0" userLabel="Login" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="222" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="223" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="xu3-fC-Fga"/>
@@ -255,13 +255,13 @@
                                 </connections>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your role?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHE-NR-WpR">
-                                <rect key="frame" x="14" y="297" width="292" height="19.5"/>
+                                <rect key="frame" x="14" y="298" width="292" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kV5-ME-fhW" userLabel="I am sighted" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="322" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="323" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
@@ -278,14 +278,14 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ESf-r7-DMS" userLabel="I am blind" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="397" width="320" height="83"/>
+                                <rect key="frame" x="0.0" y="398" width="320" height="82"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="HV3-4o-Wpc"/>
+                                    <constraint firstAttribute="height" constant="82" id="HV3-4o-Wpc"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="I am blind"/>
@@ -386,7 +386,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkz-vv-OkC" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="485"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="484"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pA-sN-peL">
                                                 <rect key="frame" x="0.0" y="20" width="83" height="59"/>
@@ -521,10 +521,10 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jW-Ph-Zvu" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="402" width="320" height="83"/>
+                                                <rect key="frame" x="0.0" y="402" width="320" height="82"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="83" id="VDz-bx-Kf6"/>
+                                                    <constraint firstAttribute="height" constant="82" id="VDz-bx-Kf6"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Forgot password"/>
@@ -620,7 +620,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RrJ-xE-fKg" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="284.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjp-5g-kgm">
                                                 <rect key="frame" x="2" y="25" width="74" height="59"/>
@@ -638,13 +638,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your e-mail and we'll send you a new password." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bl7-si-Ugu">
-                                                <rect key="frame" x="14" y="84" width="292" height="40.5"/>
+                                                <rect key="frame" x="14" y="84" width="292" height="41"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pte-jz-YRe" userLabel="Email View">
-                                                <rect key="frame" x="14" y="134.5" width="292" height="60"/>
+                                                <rect key="frame" x="14" y="135" width="292" height="60"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SignUpEmail" translatesAutoresizingMaskIntoConstraints="NO" id="kIs-N0-b4i">
                                                         <rect key="frame" x="10" y="21" width="28" height="18"/>
@@ -684,14 +684,14 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7J-gM-nC7" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="201.5" width="320" height="83"/>
+                                                <rect key="frame" x="0.0" y="202" width="320" height="82"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
                                                     <bool key="isElement" value="YES"/>
                                                 </accessibility>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="83" id="mh5-J4-gmV"/>
+                                                    <constraint firstAttribute="height" constant="82" id="mh5-J4-gmV"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Send new password"/>
@@ -932,7 +932,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 </connections>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="By continuing you accept the" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wM-z3-EP5">
-                                <rect key="frame" x="14" y="397" width="292" height="14.5"/>
+                                <rect key="frame" x="14" y="397" width="292" height="15"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -941,7 +941,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Terms and Agreements" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvx-U1-YpW">
-                                <rect key="frame" x="14" y="411" width="292" height="19.5"/>
+                                <rect key="frame" x="14" y="411" width="292" height="20"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -965,7 +965,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="as well as the" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFF-B2-BZA">
-                                <rect key="frame" x="14" y="441" width="292" height="14.5"/>
+                                <rect key="frame" x="14" y="441" width="292" height="15"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -974,7 +974,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Privacy Policy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cud-rC-Tmf">
-                                <rect key="frame" x="14" y="455" width="292" height="19.5"/>
+                                <rect key="frame" x="14" y="455" width="292" height="20"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -1446,10 +1446,10 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pl8-pe-Xnt" userLabel="User type + level">
-                                            <rect key="frame" x="108.5" y="185" width="103.5" height="14"/>
+                                            <rect key="frame" x="109" y="185" width="104" height="14"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Helper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDk-Fp-G2F">
-                                                    <rect key="frame" x="28" y="-2" width="75.5" height="17"/>
+                                                    <rect key="frame" x="28" y="-2" width="76" height="17"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1508,19 +1508,19 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" text="Helped one person" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-5i-7OK">
-                                                    <rect key="frame" x="14" y="8" width="138.5" height="19.5"/>
+                                                    <rect key="frame" x="14" y="8" width="139" height="20"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+50 points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hrm-bE-OmT">
-                                                    <rect key="frame" x="227.5" y="8" width="78.5" height="19.5"/>
+                                                    <rect key="frame" x="228" y="8" width="79" height="20"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yesterday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yx2-YA-dhW">
-                                                    <rect key="frame" x="14" y="27.5" width="50.5" height="13.5"/>
+                                                    <rect key="frame" x="14" y="28" width="51" height="14"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1767,7 +1767,7 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R7S-5p-jnF" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="387"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="386"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jS9-FE-y1n">
                                                 <rect key="frame" x="0.0" y="20" width="83" height="59"/>
@@ -1933,10 +1933,10 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GW3-zo-Nwg" userLabel="Register button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="304" width="320" height="83"/>
+                                                <rect key="frame" x="0.0" y="304" width="320" height="82"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="83" id="Gb7-ti-Puz"/>
+                                                    <constraint firstAttribute="height" constant="82" id="Gb7-ti-Puz"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Register"/>
@@ -2094,11 +2094,11 @@ You may under no circumstances share any nude, unlawful, hateful or sexually sug
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bf6-BO-GCx" userLabel="Gradient" customClass="GradientView" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jYR-t1-5eX" userLabel="Content Size View">
-                                <rect key="frame" x="16" y="20" width="288" height="302"/>
+                                <rect key="frame" x="16" y="20" width="288" height="303"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QoL-DC-cFU" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="-11" width="288" height="325"/>
@@ -2150,7 +2150,7 @@ YXdheS4
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSL-46-8Hb" userLabel="Demo Call" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="322" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="323" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="LYA-Fe-LBc"/>
@@ -2163,16 +2163,19 @@ YXdheS4
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2F7-3g-fjH" userLabel="OK" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="397" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="398" width="320" height="82"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="xXZ-gJ-1aW"/>
+                                    <constraint firstAttribute="height" constant="82" id="xXZ-gJ-1aW"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="mainStyleAsInt">
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Ok, I got it"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="centeringAsInt">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="doneButtonPressed:" destination="RSG-SW-ISv" eventType="touchUpInside" id="u62-rr-F6T"/>
@@ -2185,12 +2188,12 @@ YXdheS4
                             <constraint firstAttribute="trailingMargin" secondItem="jYR-t1-5eX" secondAttribute="trailing" id="COR-0k-ZfC"/>
                             <constraint firstItem="2F7-3g-fjH" firstAttribute="leading" secondItem="aeM-v1-Per" secondAttribute="leading" id="Fld-EP-CpE"/>
                             <constraint firstItem="VSL-46-8Hb" firstAttribute="top" secondItem="jYR-t1-5eX" secondAttribute="bottom" id="H2H-ez-gER"/>
-                            <constraint firstItem="bf6-BO-GCx" firstAttribute="top" secondItem="2ij-MZ-reS" secondAttribute="top" id="O9c-rW-CRb"/>
                             <constraint firstItem="jYR-t1-5eX" firstAttribute="leading" secondItem="aeM-v1-Per" secondAttribute="leadingMargin" id="Q9w-mn-If6"/>
                             <constraint firstAttribute="trailing" secondItem="VSL-46-8Hb" secondAttribute="trailing" id="Umu-O4-eFA"/>
                             <constraint firstItem="bf6-BO-GCx" firstAttribute="leading" secondItem="aeM-v1-Per" secondAttribute="leading" id="XTO-1v-JxF"/>
                             <constraint firstAttribute="trailing" secondItem="2F7-3g-fjH" secondAttribute="trailing" id="bby-2t-R0E"/>
-                            <constraint firstItem="IB5-kn-QvV" firstAttribute="top" secondItem="2F7-3g-fjH" secondAttribute="bottom" constant="8" id="gDj-qt-byw"/>
+                            <constraint firstItem="bf6-BO-GCx" firstAttribute="top" secondItem="aeM-v1-Per" secondAttribute="topMargin" id="bnZ-Ws-blD"/>
+                            <constraint firstItem="IB5-kn-QvV" firstAttribute="top" secondItem="2F7-3g-fjH" secondAttribute="bottom" id="gDj-qt-byw"/>
                             <constraint firstAttribute="trailing" secondItem="bf6-BO-GCx" secondAttribute="trailing" id="kf2-0j-oUV"/>
                             <constraint firstItem="IB5-kn-QvV" firstAttribute="top" secondItem="bf6-BO-GCx" secondAttribute="bottom" id="kjj-5j-azI"/>
                             <constraint firstItem="jYR-t1-5eX" firstAttribute="top" secondItem="2ij-MZ-reS" secondAttribute="bottom" id="pVE-Qt-WVd"/>
@@ -2243,7 +2246,7 @@ YXdheS4
                                                     <rect key="frame" x="14" y="4" width="292" height="46"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View the video" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDa-pe-Zox" customClass="MaskedLabel" customModule="BeMyEyes" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="203" height="46"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="193" height="46"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="highlightedColor"/>
@@ -2255,7 +2258,7 @@ YXdheS4
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="+ 50 Points" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNa-gM-xxi" customClass="MaskedLabel" customModule="BeMyEyes" customModuleProvider="target">
-                                                            <rect key="frame" x="203" y="0.0" width="89" height="46"/>
+                                                            <rect key="frame" x="193" y="0.0" width="99" height="46"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <nil key="highlightedColor"/>
                                                             <userDefinedRuntimeAttributes>
@@ -2304,13 +2307,13 @@ YXdheS4
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English, Danish" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyH-yG-Xzl">
-                                <rect key="frame" x="117.5" y="212" width="188.5" height="44"/>
+                                <rect key="frame" x="118" y="212" width="189" height="44"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0d-zV-1XX">
-                                <rect key="frame" x="117.5" y="256" width="188.5" height="44"/>
+                                <rect key="frame" x="118" y="256" width="189" height="44"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Add languages">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2328,7 +2331,7 @@ YXdheS4
                                 </constraints>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Languages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vb-6z-am3">
-                                <rect key="frame" x="14" y="212" width="89.5" height="44"/>
+                                <rect key="frame" x="14" y="212" width="90" height="44"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -2351,7 +2354,7 @@ YXdheS4
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nom-F8-SPu">
-                                <rect key="frame" x="103" y="20" width="113.5" height="50"/>
+                                <rect key="frame" x="103" y="20" width="114" height="50"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -2373,7 +2376,7 @@ YXdheS4
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="First name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJV-uE-7uS">
-                                <rect key="frame" x="14" y="80" width="89.5" height="44"/>
+                                <rect key="frame" x="14" y="80" width="90" height="44"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -2385,7 +2388,7 @@ YXdheS4
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Surname" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3d-mk-uwU">
-                                <rect key="frame" x="14" y="124" width="89.5" height="44"/>
+                                <rect key="frame" x="14" y="124" width="90" height="44"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -2394,7 +2397,7 @@ YXdheS4
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="E-mail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvj-Dw-BPc">
-                                <rect key="frame" x="14" y="168" width="89.5" height="44"/>
+                                <rect key="frame" x="14" y="168" width="90" height="44"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -2403,7 +2406,7 @@ YXdheS4
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Paul" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IH7-YW-7ZL">
-                                <rect key="frame" x="117.5" y="80" width="188.5" height="44"/>
+                                <rect key="frame" x="118" y="80" width="189" height="44"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
@@ -2418,7 +2421,7 @@ YXdheS4
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="McCartney" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="24Y-Oq-jej">
-                                <rect key="frame" x="117.5" y="124" width="188.5" height="44"/>
+                                <rect key="frame" x="118" y="124" width="189" height="44"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
@@ -2433,7 +2436,7 @@ YXdheS4
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="demomail@bemyeyes.org" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fEL-aF-32C">
-                                <rect key="frame" x="117.5" y="168" width="188.5" height="44"/>
+                                <rect key="frame" x="118" y="168" width="189" height="44"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
@@ -2448,7 +2451,7 @@ YXdheS4
                                 </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.2 (43)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ub2-Qn-2Ma">
-                                <rect key="frame" x="219" y="442.5" width="87" height="15.5"/>
+                                <rect key="frame" x="219" y="443" width="87" height="16"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2518,7 +2521,7 @@ YXdheS4
                             <constraint firstItem="09q-I0-lZJ" firstAttribute="top" secondItem="oA8-ms-JHo" secondAttribute="top" id="jNC-HL-g8N"/>
                             <constraint firstItem="XJV-uE-7uS" firstAttribute="top" secondItem="nom-F8-SPu" secondAttribute="bottom" constant="10" id="jY0-q6-2Ji"/>
                             <constraint firstItem="mvj-Dw-BPc" firstAttribute="top" secondItem="fEL-aF-32C" secondAttribute="top" id="lBV-Xu-oPN"/>
-                            <constraint firstItem="XJV-uE-7uS" firstAttribute="top" secondItem="IH7-YW-7ZL" secondAttribute="top" id="lft-iO-83F"/>
+                            <constraint firstItem="XJV-uE-7uS" firstAttribute="top" secondItem="IH7-YW-7ZL" secondAttribute="top" id="lft-iO-82F"/>
                             <constraint firstAttribute="trailing" secondItem="4kB-AN-5cU" secondAttribute="trailing" id="o3V-H5-e8M"/>
                             <constraint firstItem="fEL-aF-32C" firstAttribute="trailing" secondItem="IH7-YW-7ZL" secondAttribute="trailing" id="pBZ-Wg-PML"/>
                             <constraint firstItem="09q-I0-lZJ" firstAttribute="leading" secondItem="oA8-ms-JHo" secondAttribute="leading" id="pSZ-N1-l7n"/>
@@ -2809,7 +2812,7 @@ YXdheS4
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please wait..." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIz-JI-R6d" userLabel="Status Label">
-                                <rect key="frame" x="14" y="268" width="292" height="19.5"/>
+                                <rect key="frame" x="14" y="268" width="292" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2818,14 +2821,14 @@ YXdheS4
                                 <rect key="frame" x="141" y="221" width="37" height="37"/>
                             </activityIndicatorView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pr4-7v-mGa" userLabel="Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="397" width="320" height="83"/>
+                                <rect key="frame" x="0.0" y="398" width="320" height="82"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="Gdh-jZ-Ni3"/>
+                                    <constraint firstAttribute="height" constant="82" id="Gdh-jZ-Ni3"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Disconnect"/>
@@ -2871,7 +2874,7 @@ YXdheS4
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stf-oQ-mRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="788" y="2183"/>
+            <point key="canvasLocation" x="788" y="2182"/>
         </scene>
         <!--Post Call View Controller-->
         <scene sceneID="oXP-Ev-N4O">
@@ -2890,13 +2893,13 @@ YXdheS4
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks for the help!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHg-MV-rQf">
-                                <rect key="frame" x="14" y="20" width="292" height="213"/>
+                                <rect key="frame" x="14" y="20" width="292" height="214"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r4O-VG-VGH" userLabel="OK Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="308" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="309" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
@@ -2913,7 +2916,7 @@ YXdheS4
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkT-7E-HT8" userLabel="Share Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="233" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="234" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
@@ -2930,9 +2933,9 @@ YXdheS4
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S80-s9-0Kn" userLabel="Report Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="397" width="320" height="83"/>
+                                <rect key="frame" x="0.0" y="398" width="320" height="82"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="trW-m8-gGD"/>
+                                    <constraint firstAttribute="height" constant="82" id="trW-m8-gGD"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="mainStyleAsInt">
@@ -2980,7 +2983,7 @@ YXdheS4
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xsE-Fe-gIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1222" y="2183"/>
+            <point key="canvasLocation" x="1222" y="2182"/>
         </scene>
         <!--Report Abuse View Controller-->
         <scene sceneID="WUV-od-PF3">
@@ -2999,7 +3002,7 @@ YXdheS4
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jw7-bk-och">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="322"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="323"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OLY-qL-vvZ" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="298"/>
@@ -3199,7 +3202,7 @@ YXdheS4
                                 </connections>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8C-02-xnX" userLabel="Report Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="322" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="323" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="Aq8-Jj-e1u"/>
@@ -3212,10 +3215,10 @@ YXdheS4
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XAb-1c-eMg" userLabel="Skip Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="397" width="320" height="83"/>
+                                <rect key="frame" x="0.0" y="398" width="320" height="82"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="UsS-dz-gYh"/>
+                                    <constraint firstAttribute="height" constant="82" id="UsS-dz-gYh"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Skip"/>
@@ -3269,7 +3272,7 @@ YXdheS4
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emM-fF-hv3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1656" y="2183"/>
+            <point key="canvasLocation" x="1656" y="2182"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="xFF-Ds-18S">
@@ -3537,11 +3540,19 @@ YXdheS4
                                     <constraint firstItem="RJF-N3-mVw" firstAttribute="height" secondItem="U46-gq-fMW" secondAttribute="height" multiplier="1:4" id="yc9-Y5-EoF"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K5-3K-aCJ">
+                                <rect key="frame" x="16" y="81" width="288" height="379"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="1K5-3K-aCJ" firstAttribute="top" secondItem="Rf1-NI-fk2" secondAttribute="bottom" id="2ga-ZA-JBO"/>
                             <constraint firstItem="Rf1-NI-fk2" firstAttribute="top" secondItem="EhC-qe-HwW" secondAttribute="bottom" id="3Hk-Dg-hA1"/>
                             <constraint firstItem="U46-gq-fMW" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leadingMargin" id="3nq-1m-OLT"/>
+                            <constraint firstItem="1K5-3K-aCJ" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leadingMargin" id="4s0-OQ-749"/>
                             <constraint firstItem="Mxh-bq-z2C" firstAttribute="top" secondItem="U46-gq-fMW" secondAttribute="bottom" constant="20" id="E66-f4-yWn"/>
                             <constraint firstItem="FvJ-wC-qMR" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leading" id="GVa-B5-qgD"/>
                             <constraint firstItem="Rf1-NI-fk2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FvJ-wC-qMR" secondAttribute="trailing" id="I8o-EK-sFy"/>
@@ -3549,6 +3560,8 @@ YXdheS4
                             <constraint firstAttribute="trailing" secondItem="ak6-hZ-SvY" secondAttribute="trailing" id="SNn-Fz-rdt"/>
                             <constraint firstItem="U46-gq-fMW" firstAttribute="top" secondItem="Rf1-NI-fk2" secondAttribute="bottom" constant="8" id="TQg-eO-W4V"/>
                             <constraint firstItem="ak6-hZ-SvY" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leading" id="TY7-Jl-GSa"/>
+                            <constraint firstItem="Mxh-bq-z2C" firstAttribute="top" secondItem="1K5-3K-aCJ" secondAttribute="bottom" constant="20" id="Y8h-1R-S8m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1K5-3K-aCJ" secondAttribute="trailing" id="Yle-fF-3WU"/>
                             <constraint firstItem="Mxh-bq-z2C" firstAttribute="top" secondItem="ak6-hZ-SvY" secondAttribute="bottom" id="ctr-3d-q7X"/>
                             <constraint firstItem="ak6-hZ-SvY" firstAttribute="top" secondItem="EhC-qe-HwW" secondAttribute="top" id="l7z-kU-ZMo"/>
                             <constraint firstItem="FvJ-wC-qMR" firstAttribute="top" secondItem="EhC-qe-HwW" secondAttribute="bottom" id="mxw-Ys-YYY"/>
@@ -3559,8 +3572,10 @@ YXdheS4
                     <navigationItem key="navigationItem" id="4HG-oY-xWW"/>
                     <connections>
                         <outlet property="cancelButton" destination="FvJ-wC-qMR" id="3Hj-eD-G4h"/>
+                        <outlet property="enableNotificationsLabel" destination="1K5-3K-aCJ" id="I4Z-xj-DsS"/>
                         <outlet property="step1Label" destination="eSi-kg-x9p" id="F7z-i2-UqK"/>
                         <outlet property="step2Label" destination="5xj-zL-jtA" id="o1Y-bS-vpv"/>
+                        <outlet property="stepsView" destination="U46-gq-fMW" id="eT4-hF-vRV"/>
                         <outlet property="titleLabel" destination="Rf1-NI-fk2" id="IMq-z0-IFr"/>
                         <segue destination="9ba-B7-MXH" kind="modal" identifier="DemoVideo" id="ORv-jo-JV0"/>
                     </connections>
@@ -3582,14 +3597,14 @@ YXdheS4
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGs-Rr-bBo" userLabel="Button" customClass="Button" customModule="BeMyEyes" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="397" width="320" height="83"/>
+                                <rect key="frame" x="0.0" y="398" width="320" height="82"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES"/>
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="RNS-R3-muj"/>
+                                    <constraint firstAttribute="height" constant="82" id="RNS-R3-muj"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Disconnect"/>
@@ -3639,8 +3654,8 @@ YXdheS4
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Snp-ad-1TG"/>
-        <segue reference="tPL-wK-r0M"/>
-        <segue reference="THh-yj-HlV"/>
+        <segue reference="46J-Mt-BiQ"/>
+        <segue reference="wQZ-b3-l1S"/>
+        <segue reference="Zkk-7c-PpU"/>
     </inferredMetricsTieBreakers>
 </document>
