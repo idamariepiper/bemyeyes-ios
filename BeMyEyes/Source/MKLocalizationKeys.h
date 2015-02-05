@@ -23475,6 +23475,18 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
 static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_CONTROLLER_BLIND_NAME";
 
 /*!
+ * "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * All translations:
+
+ * @b da@: "For at kunne modtage et opkald, skal du slå notifikationer til for Be My Eyes applikationen i dine systemindstillinger."
+
+ * @b en@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS";
+
+/*!
  * "Answer"
 
  * All translations:

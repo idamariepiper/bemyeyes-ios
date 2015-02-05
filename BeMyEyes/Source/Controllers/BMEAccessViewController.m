@@ -174,6 +174,7 @@
 - (void)touchUpInsideNotificationsView
 {
     if (self.accessNotificationsView.selected) {
+        [self checkAccess];
         return;
     }
     [BMEAccessControlHandler requireNotificationsEnabled:^(BOOL isUserEnabled, BOOL validToken) {
@@ -185,6 +186,7 @@
 - (void)touchUpInsideMicrophoneView
 {
     if (self.accessMicrophoneView.selected) {
+        [self checkAccess];
         return;
     }
     [BMEAccessControlHandler requireMicrophoneEnabled:^(BOOL isEnabled) {
@@ -196,6 +198,7 @@
 - (void)touchUpInsideCameraView
 {
     if (self.accessCameraView.selected) {
+        [self checkAccess];
         return;
     }
     [BMEAccessControlHandler requireCameraEnabled:^(BOOL isEnabled) {

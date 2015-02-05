@@ -17,8 +17,23 @@ class DemoCallViewController: BMEBaseViewController {
 	@IBOutlet weak var cancelButton: UIButton!
 	@IBOutlet weak var step1Label: UILabel!
 	@IBOutlet weak var step2Label: UILabel!
-    
+	@IBOutlet weak var stepsView: UIView!
+	@IBOutlet weak var enableNotificationsLabel: UILabel!
+	
     internal var callCompletion: ((UIViewController) -> ())?
+	
+	private var canPerformDemoCall: Bool {
+		if UIApplication.instancesRespondToSelector(Selector("registerUserNotificationSettings:")) {
+			let application = UIApplication.sharedApplication()
+			let types = application.currentUserNotificationSettings().types.rawValue
+			let soundEnabled = types & UIRemoteNotificationType.Sound.rawValue != 0
+			let alertEnabled = types & UIRemoteNotificationType.Alert.rawValue != 0
+			let badgeEnabled = types & UIRemoteNotificationType.Badge.rawValue != 0
+			return application.isRegisteredForRemoteNotifications() && soundEnabled && alertEnabled && badgeEnabled
+		}
+		
+		return true
+	}
 	
 	// MARK: - Lifecycle
 	
@@ -29,9 +44,13 @@ class DemoCallViewController: BMEBaseViewController {
 		cancelButton.setTitle(MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_CANCEL", "DemoCallLocalizationTable"), forState: .Normal)
 		step1Label.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_STEP_1", "DemoCallLocalizationTable")
 		step2Label.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_STEP_2", "DemoCallLocalizationTable")
+		enableNotificationsLabel.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS", "DemoCallLocalizationTable")
 		
 		receiveDidEnterBackgroundNotifications(true)
 		NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("didAnswerDemoCall:"), name: BMEDidAnswerDemoCallNotification, object: nil)
+		NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("didRegisterUserNotificationsNotification:"), name: BMEDidRegisterUserNotificationsNotification, object: nil)
+		
+		checkIfDemoCallCanBePerformed()
     }
 	
 	deinit {
@@ -51,29 +70,51 @@ class DemoCallViewController: BMEBaseViewController {
 		dismissViewControllerAnimated(true, completion: nil)
 	}
 	
-	internal func didEnterBackground(notification: NSNotification) {
-		receiveDidEnterBackgroundNotifications(false)
-		receiveWillEnterForegroundNotifications(true)
+	private func checkIfDemoCallCanBePerformed() {
+		updateDisplayedViews()
 		
-		let blindName = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_BLIND_NAME", "DemoCallLocalizationTable")
-		let fireDate = NSDate().dateByAddingTimeInterval(DemoCallFireNotificationAfterSeconds)
-		let notification = UILocalNotification()
-		notification.fireDate = fireDate
-		notification.alertBody = NSString(format: MKLocalized("PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE"), "Someone")
-		notification.userInfo = [ DemoCallViewController.NotificationIsDemoKey(): true ]
-		notification.soundName = "call-repeat.aiff"
-		UIApplication.sharedApplication().scheduleLocalNotification(notification)
+		if !canPerformDemoCall {
+			let settings = UIUserNotificationSettings(forTypes: .Sound | .Alert | .Badge, categories: nil)
+			UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+		}
+	}
+	
+	private func updateDisplayedViews() {
+		stepsView.hidden = !canPerformDemoCall
+		enableNotificationsLabel.hidden = canPerformDemoCall
+	}
+	
+	internal func didEnterBackground(notification: NSNotification) {
+		receiveWillEnterForegroundNotifications(true)
+		receiveDidEnterBackgroundNotifications(false)
+		
+		if canPerformDemoCall {
+			let blindName = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_BLIND_NAME", "DemoCallLocalizationTable")
+			let fireDate = NSDate().dateByAddingTimeInterval(DemoCallFireNotificationAfterSeconds)
+			let notification = UILocalNotification()
+			notification.fireDate = fireDate
+			notification.alertBody = NSString(format: MKLocalized("PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE"), blindName)
+			notification.userInfo = [ DemoCallViewController.NotificationIsDemoKey(): true ]
+			notification.soundName = "call-repeat.aiff"
+			notification.applicationIconBadgeNumber = notification.applicationIconBadgeNumber + 1
+			UIApplication.sharedApplication().scheduleLocalNotification(notification)
+		}
 	}
 	
 	internal func willEnterForeground(notification: NSNotification) {
 		receiveWillEnterForegroundNotifications(false)
 		receiveDidEnterBackgroundNotifications(true)
 		UIApplication.sharedApplication().cancelAllLocalNotifications()
+		checkIfDemoCallCanBePerformed()
 	}
 	
 	internal func didAnswerDemoCall(notification: NSNotification) {
 		receiveDidEnterBackgroundNotifications(false)
 		performSegueWithIdentifier(DemoVideoSegue, sender: nil)
+	}
+	
+	internal func didRegisterUserNotificationsNotification(notification: NSNotification) {
+		updateDisplayedViews()
 	}
 	
 	private func receiveDidEnterBackgroundNotifications(receive: Bool) {
