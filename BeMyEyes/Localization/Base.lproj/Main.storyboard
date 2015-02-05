@@ -3362,22 +3362,22 @@ YXdheS4
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U46-gq-fMW">
-                                <rect key="frame" x="16" y="81" width="288" height="379"/>
+                                <rect key="frame" x="16" y="89" width="288" height="371"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNx-di-cSE">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="95"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="93"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMg-03-wnj">
-                                        <rect key="frame" x="0.0" y="95" width="288" height="95"/>
+                                        <rect key="frame" x="0.0" y="93" width="288" height="93"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="245" verticalHuggingPriority="750" text="1." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-wO-fjO">
-                                                <rect key="frame" x="0.0" y="9" width="19" height="26"/>
+                                                <rect key="frame" x="0.0" y="8" width="19" height="26"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="Press the home button and wait a second to receive a notification." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="259" translatesAutoresizingMaskIntoConstraints="NO" id="eSi-kg-x9p">
-                                                <rect key="frame" x="29" y="9" width="259" height="78"/>
+                                                <rect key="frame" x="29" y="8" width="259" height="78"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -3394,16 +3394,16 @@ YXdheS4
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJF-N3-mVw">
-                                        <rect key="frame" x="0.0" y="190" width="288" height="95"/>
+                                        <rect key="frame" x="0.0" y="186" width="288" height="93"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="2." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="20" translatesAutoresizingMaskIntoConstraints="NO" id="Dc2-sJ-A7j">
-                                                <rect key="frame" x="0.0" y="35" width="19" height="26"/>
+                                                <rect key="frame" x="0.0" y="34" width="19" height="26"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="750" text="Tap the notification." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="5xj-zL-jtA">
-                                                <rect key="frame" x="29" y="35" width="184" height="26"/>
+                                                <rect key="frame" x="29" y="34" width="184" height="26"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -3420,7 +3420,7 @@ YXdheS4
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lw8-e1-vlh">
-                                        <rect key="frame" x="0.0" y="285" width="288" height="95"/>
+                                        <rect key="frame" x="0.0" y="279" width="288" height="93"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -3442,42 +3442,30 @@ YXdheS4
                                     <constraint firstItem="RJF-N3-mVw" firstAttribute="height" secondItem="U46-gq-fMW" secondAttribute="height" multiplier="1:4" id="yc9-Y5-EoF"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pleae go the the settings on your device and enable notifications for the Be My Eyes app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGT-Vh-6Fs">
-                                <rect key="frame" x="16" y="81" width="288" height="379"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.18039215689999999" green="0.45098039220000002" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Rf1-NI-fk2" firstAttribute="top" secondItem="EhC-qe-HwW" secondAttribute="bottom" id="3Hk-Dg-hA1"/>
                             <constraint firstItem="U46-gq-fMW" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leadingMargin" id="3nq-1m-OLT"/>
-                            <constraint firstItem="VGT-Vh-6Fs" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leadingMargin" id="8zR-ZE-2JT"/>
                             <constraint firstItem="Mxh-bq-z2C" firstAttribute="top" secondItem="U46-gq-fMW" secondAttribute="bottom" constant="20" id="E66-f4-yWn"/>
                             <constraint firstItem="FvJ-wC-qMR" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leading" id="GVa-B5-qgD"/>
                             <constraint firstItem="Rf1-NI-fk2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FvJ-wC-qMR" secondAttribute="trailing" id="I8o-EK-sFy"/>
-                            <constraint firstItem="Mxh-bq-z2C" firstAttribute="top" secondItem="VGT-Vh-6Fs" secondAttribute="bottom" constant="20" id="PSo-yo-UQQ"/>
                             <constraint firstAttribute="centerX" secondItem="Rf1-NI-fk2" secondAttribute="centerX" id="RAa-FE-b6G"/>
                             <constraint firstAttribute="trailing" secondItem="ak6-hZ-SvY" secondAttribute="trailing" id="SNn-Fz-rdt"/>
-                            <constraint firstItem="U46-gq-fMW" firstAttribute="top" secondItem="Rf1-NI-fk2" secondAttribute="bottom" id="TQg-eO-W4V"/>
+                            <constraint firstItem="U46-gq-fMW" firstAttribute="top" secondItem="Rf1-NI-fk2" secondAttribute="bottom" constant="8" id="TQg-eO-W4V"/>
                             <constraint firstItem="ak6-hZ-SvY" firstAttribute="leading" secondItem="6hu-yE-uPZ" secondAttribute="leading" id="TY7-Jl-GSa"/>
                             <constraint firstItem="Mxh-bq-z2C" firstAttribute="top" secondItem="ak6-hZ-SvY" secondAttribute="bottom" id="ctr-3d-q7X"/>
                             <constraint firstItem="ak6-hZ-SvY" firstAttribute="top" secondItem="EhC-qe-HwW" secondAttribute="top" id="l7z-kU-ZMo"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VGT-Vh-6Fs" secondAttribute="trailing" id="mMC-lY-efb"/>
                             <constraint firstItem="FvJ-wC-qMR" firstAttribute="top" secondItem="EhC-qe-HwW" secondAttribute="bottom" id="mxw-Ys-YYY"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Rf1-NI-fk2" secondAttribute="trailing" id="oNc-1f-YGY"/>
                             <constraint firstItem="U46-gq-fMW" firstAttribute="trailing" secondItem="6hu-yE-uPZ" secondAttribute="trailingMargin" id="pOr-8D-Bue"/>
-                            <constraint firstItem="VGT-Vh-6Fs" firstAttribute="top" secondItem="Rf1-NI-fk2" secondAttribute="bottom" id="smQ-BR-lVb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4HG-oY-xWW"/>
                     <connections>
                         <outlet property="cancelButton" destination="FvJ-wC-qMR" id="3Hj-eD-G4h"/>
-                        <outlet property="enableNotificationsLabel" destination="VGT-Vh-6Fs" id="wAJ-PR-tKv"/>
                         <outlet property="step1Label" destination="eSi-kg-x9p" id="F7z-i2-UqK"/>
                         <outlet property="step2Label" destination="5xj-zL-jtA" id="o1Y-bS-vpv"/>
-                        <outlet property="stepsView" destination="U46-gq-fMW" id="9ha-Dt-RxY"/>
                         <outlet property="titleLabel" destination="Rf1-NI-fk2" id="IMq-z0-IFr"/>
                         <segue destination="9ba-B7-MXH" kind="modal" identifier="DemoVideo" id="ORv-jo-JV0"/>
                     </connections>
