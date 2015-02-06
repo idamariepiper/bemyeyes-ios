@@ -22,7 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		4E04E2DB1A823777005BE3EB /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04E2DA1A823777005BE3EB /* UIView+IBInspectable.swift */; };
-		4E08EE7A19E1693200B45088 /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E08EE7919E1693200B45088 /* OpenTok.framework */; };
+		4E1522BC1A83DE7000E62BFA /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1522BB1A83DE7000E62BFA /* OpenTok.framework */; };
 		4E1916CF19E5800300B85E61 /* MaskedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916CE19E5800300B85E61 /* MaskedLabel.swift */; };
 		4E1916D119E5804800B85E61 /* SplitMaskedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916D019E5804800B85E61 /* SplitMaskedLabel.swift */; };
 		4E2B919B19E67F1F00C9D0ED /* BMEAccessControlHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B919A19E67F1F00C9D0ED /* BMEAccessControlHandler.m */; };
@@ -229,8 +229,8 @@
 		48877F93D8E56E4310DAF4B9 /* Pods.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debugdev.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debugdev.xcconfig"; sourceTree = "<group>"; };
 		4E011A081A03A46C0042A895 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4E04E2DA1A823777005BE3EB /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
-		4E08EE7919E1693200B45088 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = "OpenTok-iOS-2.4.0/OpenTok.framework"; sourceTree = "<group>"; };
 		4E10F2FE19F7F176004EA22E /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
+		4E1522BB1A83DE7000E62BFA /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
 		4E1916CE19E5800300B85E61 /* MaskedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedLabel.swift; sourceTree = "<group>"; };
 		4E1916D019E5804800B85E61 /* SplitMaskedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitMaskedLabel.swift; sourceTree = "<group>"; };
 		4E2B919919E67F1F00C9D0ED /* BMEAccessControlHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEAccessControlHandler.h; sourceTree = "<group>"; };
@@ -1284,7 +1284,7 @@
 				7262300618BA39AA006F388C /* CoreAudio.framework in Frameworks */,
 				7262300418BA39A6006F388C /* CFNetwork.framework in Frameworks */,
 				7262300218BA39A1006F388C /* AVFoundation.framework in Frameworks */,
-				4E08EE7A19E1693200B45088 /* OpenTok.framework in Frameworks */,
+				4E1522BC1A83DE7000E62BFA /* OpenTok.framework in Frameworks */,
 				72622FFE18BA27FE006F388C /* AdSupport.framework in Frameworks */,
 				72622FFA18BA27F2006F388C /* Social.framework in Frameworks */,
 				72622FF818BA27EE006F388C /* Twitter.framework in Frameworks */,
@@ -1670,7 +1670,7 @@
 		72DEF72318B90A6D0048FA90 /* Other sources */ = {
 			isa = PBXGroup;
 			children = (
-				4E08EE7919E1693200B45088 /* OpenTok.framework */,
+				4E1522BB1A83DE7000E62BFA /* OpenTok.framework */,
 				72DEF72418B90A6D0048FA90 /* AESCrypt */,
 			);
 			path = "Other sources";
@@ -3214,6 +3214,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
+					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
+					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3277,6 +3279,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
+					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
+					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3340,6 +3344,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
+					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
+					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3400,6 +3406,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
+					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
+					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3710,6 +3718,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
+					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
+					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3740,6 +3750,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
+					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
+					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
