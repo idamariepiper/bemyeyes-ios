@@ -12,7 +12,7 @@
 
 @interface BMEAccessControlHandler() <UIAlertViewDelegate>
 
-@property (strong, nonatomic) void (^notificationsCompletion)(BOOL isEnabled, BOOL validToken);
+@property (copy, nonatomic) void (^notificationsCompletion)(BOOL isEnabled, BOOL validToken);
 
 @end
 
