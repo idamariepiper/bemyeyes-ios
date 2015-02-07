@@ -53,3 +53,5 @@ Admins of this repo can make the changes.
 - Login with email + Facebook
 - Make help request
 - Respond to help request
+- Reset password
+- Change name + email
