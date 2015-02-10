@@ -489,6 +489,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     if (!self.isTokenValid) {
         return;
     }
+    
     NSString *alias = [UIDevice currentDevice].name;
     NSString *appVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *appBundleVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey];
@@ -509,9 +510,19 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
         // If no token, just send current local as "truth" to server
         newToken = [GVUserDefaults standardUserDefaults].deviceToken;
     }
-    if (newToken) {
-        [parameters setObject:newToken forKey:@"device_token"];
+    
+    if (!newToken || [newToken length] == 0) {
+        // If we still don't have a new token, we can't register the device.
+        if (completion) {
+            NSString *messsage = @"Could not register device for calls as it has not been registered for remote notifications.";
+            NSError *error = [self errorWithMessage:messsage code:-1];
+            completion(NO, error);
+        }
+        
+        return;
     }
+    
+    [parameters setObject:newToken forKey:@"device_token"];
     
     [self postPath:@"devices/register" parameters:parameters.copy success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"Upsert device info with parameters: %@", parameters);
@@ -900,7 +911,10 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     NSDictionary *errorDict = [representation objectForKey:@"error"];
     NSInteger code = [[errorDict objectForKey:@"code"] integerValue];
     NSString *message = [errorDict objectForKey:@"message"];
-    
+    return [self errorWithMessage:message code:code];
+}
+
+- (NSError *)errorWithMessage:(NSString *)message code:(NSInteger)code {
     return [NSError errorWithDomain:BMEErrorDomain code:code userInfo:@{ NSLocalizedDescriptionKey : message }];
 }
 
