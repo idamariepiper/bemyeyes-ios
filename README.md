@@ -3,6 +3,18 @@
 
 Read more about [Be My Eyes](http://bemyeyes.org) project.
 
+# Collaboration
+This is the main issue for the entire Be My Eyes project. Issues on other repos like [backend](https://github.com/bemyeyes/bemyeyes-backend) and [server](https://github.com/bemyeyes/bemyeyes-server) should refer to issues in this repo when relevant. E.g. when a new feature in the app requires a support on the backend.
+
+We are using [Waffle](https://waffle.io/bemyeyes/bemyeyes-ios) to manage Github issues. It has two-way sync by adding and removing tags like:
+- Ready – Done discussing, do!
+- In progress – Someone is working on this one
+
+You can see priorities on [Waffle](https://waffle.io/bemyeyes/bemyeyes-ios) where **top = first**.
+Admins of this repo can make the changes. 
+[![Throughput Graph](https://graphs.waffle.io/bemyeyes/bemyeyes-ios/throughput.svg)](https://waffle.io/bemyeyes/bemyeyes-ios/metrics)
+
+
 # Getting started
 ## Dependencies
 All dependencies are already in the repo. To update pods use `pod update` in the terminal (install CocoaPods first if necessary with `sudo gem install cocoapods`).
@@ -22,15 +34,6 @@ The translations are crowd sourced at [crowdin](http://crowdin.com/project/bemye
 - Croation is `hr`
 - Greek is `el`
 - Urdu is `ur-PK`
-
-# Collaboration
-We are using [Waffle](https://waffle.io/bemyeyes/bemyeyes-ios) to manage Github issues. It has two-way sync by adding and removing tags like:
-- Ready – Done discussing, do!
-- In progress – Someone is working on this one
-
-You can see priorities on [Waffle](https://waffle.io/bemyeyes/bemyeyes-ios) – top = first.
-Admins of this repo can make the changes. 
-[![Throughput Graph](https://graphs.waffle.io/bemyeyes/bemyeyes-ios/throughput.svg)](https://waffle.io/bemyeyes/bemyeyes-ios/metrics)
 
 # Release checklist
 ## Pre / Continuously
