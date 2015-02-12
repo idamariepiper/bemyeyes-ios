@@ -6,11 +6,11 @@ Read more about [Be My Eyes](http://bemyeyes.org) project.
 # Collaboration
 This is the main issue for the entire Be My Eyes project. Issues on other repos like [backend](https://github.com/bemyeyes/bemyeyes-backend) and [server](https://github.com/bemyeyes/bemyeyes-server) should refer to issues in this repo when relevant. E.g. when a new feature in the app requires a support on the backend.
 
-We are using [Waffle](https://waffle.io/bemyeyes/bemyeyes-ios) to manage Github issues. It has two-way sync by adding and removing tags like:
+We are using <a href="https://waffle.io/bemyeyes/bemyeyes-ios" target="_blank">Waffle.io</a> to manage Github issues. It has two-way sync by adding and removing tags like:
 - Ready – Done discussing, do!
 - In progress – Someone is working on this one
 
-You can see priorities on [Waffle](https://waffle.io/bemyeyes/bemyeyes-ios) where **top = first**.
+You can see priorities on <a href="https://waffle.io/bemyeyes/bemyeyes-ios" target="_blank">Waffle.io</a> where **top = first**.
 Admins of this repo can make the changes. 
 [![Throughput Graph](https://graphs.waffle.io/bemyeyes/bemyeyes-ios/throughput.svg)](https://waffle.io/bemyeyes/bemyeyes-ios/metrics)
 
