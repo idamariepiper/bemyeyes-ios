@@ -23439,25 +23439,25 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTR
 static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONTROLLER_CANCEL";
 
 /*!
- * "Press the home button to leave the app. You'll receive a notification shortly."
+ * "Press the home button to leave the app."
 
  * All translations:
 
  * @b da@: "Tryk på hjemmeknappen for at forlade appen. Du modtager en notifikation et par sekunder efter."
 
- * @b en@: "Press the home button to leave the app. You'll receive a notification shortly."
+ * @b en@: "Press the home button to leave the app."
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
 
 /*!
- * "Tap the notification."
+ * "You'll receive a notification shortly."
 
  * All translations:
 
  * @b da@: "Tap på notifikationen."
 
- * @b en@: "Tap the notification."
+ * @b en@: "You'll receive a notification shortly."
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
@@ -23675,6 +23675,16 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
+
+/*!
+ * "Tap the notification."
+
+ * All translations:
+
+ * @b en@: "Tap the notification."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONTROLLER_STEP_3";
 
 /*!
  * "Welcome %@"
