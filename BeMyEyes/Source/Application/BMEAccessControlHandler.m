@@ -12,7 +12,7 @@
 
 @interface BMEAccessControlHandler() <UIAlertViewDelegate>
 
-@property (strong, nonatomic) void (^notificationsCompletion)(BOOL isEnabled, BOOL validToken);
+@property (copy, nonatomic) void (^notificationsCompletion)(BOOL isEnabled, BOOL validToken);
 
 @end
 
@@ -38,15 +38,7 @@
     NSLog(@"Register for remote notifications");
     
     if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
-
-        UIMutableUserNotificationAction *replyYesAction = [self userNotificationActionWithTitle:BME_ACCESS_NOTIFICATION_ACTION_ANSWER indentifier:NotificationActionReplyYes activationMode:UIUserNotificationActivationModeForeground];
-        UIMutableUserNotificationAction *replyNoAction = [self userNotificationActionWithTitle:BME_ACCESS_NOTIFICATION_ACTION_DISMISS indentifier:NotificationActionReplyNo activationMode:UIUserNotificationActivationModeBackground];
-
-        UIMutableUserNotificationCategory *category = [UIMutableUserNotificationCategory new];
-        category.identifier = NotificationCategoryReply;
-        [category setActions:@[replyNoAction, replyYesAction] forContext:UIUserNotificationActionContextDefault];
-
-        NSSet *categories = [NSSet setWithObject:category];
+        NSSet *categories = [self notificationCategories];
         UIUserNotificationType types = (UIUserNotificationTypeSound | UIUserNotificationTypeBadge | UIUserNotificationTypeAlert);
 
         UIUserNotificationSettings *settingsActionable = [UIUserNotificationSettings settingsForTypes:types categories:categories];
@@ -56,15 +48,22 @@
     }
 }
 
-+ (UIMutableUserNotificationAction*)userNotificationActionWithTitle:(NSString*)title
-                                                        indentifier:(NSString*)identifier
-                                                     activationMode:(UIUserNotificationActivationMode) activationMode {
-    UIMutableUserNotificationAction* action = [[UIMutableUserNotificationAction alloc] init];
++ (NSSet *)notificationCategories {
+    UIMutableUserNotificationAction *replyYesAction = [self userNotificationActionWithTitle:MKLocalizedFromTable( BME_ACCESS_NOTIFICATION_ACTION_ANSWER, BMEAccessLocalization) identifier:NotificationActionReplyYes activationMode:UIUserNotificationActivationModeForeground];
+    UIMutableUserNotificationAction *replyNoAction = [self userNotificationActionWithTitle:MKLocalizedFromTable( BME_ACCESS_NOTIFICATION_ACTION_DISMISS, BMEAccessLocalization) identifier:NotificationActionReplyNo activationMode:UIUserNotificationActivationModeBackground];
+    
+    UIMutableUserNotificationCategory *category = [UIMutableUserNotificationCategory new];
+    category.identifier = NotificationCategoryReply;
+    [category setActions:@[replyYesAction, replyNoAction] forContext:UIUserNotificationActionContextDefault];
+    
+    return [NSSet setWithObject:category];
+}
+
++ (UIMutableUserNotificationAction *)userNotificationActionWithTitle:(NSString *)title identifier:(NSString*)identifier activationMode:(UIUserNotificationActivationMode) activationMode {
+    UIMutableUserNotificationAction *action = [UIMutableUserNotificationAction new];
     action.title = title;
     action.identifier = identifier;
     action.activationMode = activationMode;
-    action.destructive = NO;
-    action.authenticationRequired = NO;
     return action;
 }
 
@@ -183,7 +182,6 @@
         if (!granted) {
             [self showMicrophoneAlert];
         }
-        
         if (completion) {
             completion(granted);
         }

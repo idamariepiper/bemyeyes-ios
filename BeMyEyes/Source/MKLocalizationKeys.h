@@ -23439,25 +23439,25 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTR
 static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONTROLLER_CANCEL";
 
 /*!
- * "Press the home button and wait a second to receive a notification."
+ * "Press the home button to leave the app."
 
  * All translations:
 
- * @b da@: "Tryk på hjemmeknappen og vent et sekund indtil du modtager en notifikation."
+ * @b da@: "Tryk på hjemmeknappen for at forlade appen. Du modtager en notifikation et par sekunder efter."
 
- * @b en@: "Press the home button and wait a second to receive a notification."
+ * @b en@: "Press the home button to leave the app."
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
 
 /*!
- * "Tap the notification."
+ * "You'll receive a notification shortly."
 
  * All translations:
 
  * @b da@: "Tap på notifikationen."
 
- * @b en@: "Tap the notification."
+ * @b en@: "You'll receive a notification shortly."
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
@@ -23555,6 +23555,26 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAG
 
  */
 static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON";
+
+/*!
+ * "Made test call"
+
+ * All translations:
+
+ * @b en@: "Made test call"
+
+ */
+static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION";
+
+/*!
+ * "Make test call"
+
+ * All translations:
+
+ * @b en@: "Make test call"
+
+ */
+static NSString * const BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION";
 
 /*!
  * "Take new"
@@ -23655,6 +23675,16 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
+
+/*!
+ * "Tap the notification."
+
+ * All translations:
+
+ * @b en@: "Tap the notification."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONTROLLER_STEP_3";
 
 /*!
  * "Welcome %@"

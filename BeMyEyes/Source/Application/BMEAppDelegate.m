@@ -49,8 +49,9 @@
         NSLog(@"API: Development");
         [GVUserDefaults standardUserDefaults].api = BMESettingsAPIDevelopment;
     } else {
-        NSLog(@"Wrong bundle id: %@", bundleId);
-        abort();
+        NSLog(@"Wrong bundle id: %@. Fallback to Development", bundleId);
+        [GVUserDefaults standardUserDefaults].api = BMESettingsAPIDevelopment;
+        isDevelopment = YES;
     }
     if (isStaging || isDevelopment) {
         self.inAppTestBadgeWindow = [[InAppTestBadge alloc] initWithType:isStaging ? @"Beta" : @"Alpha"];
@@ -58,7 +59,7 @@
         [self.window addSubview:self.inAppTestBadgeWindow];
     }
     
-    // Provisiong: Production / Development
+    // Provisioning: Production / Development
     BOOL isDebug;
 #ifdef DEBUG
     isDebug = YES;
@@ -126,7 +127,6 @@
     if ([[BMEClient sharedClient] isLoggedIn] && !self.launchedWithShortID) {
         [self checkForPendingRequestIfIconHasBadge];
     }
-    
     [self resetBadgeIcon];
 }
 
@@ -381,18 +381,7 @@
         [[BMEClient sharedClient] checkForPendingRequest:^(id shortId, BOOL success, NSError *error) {
             [progressOverlayView hide:YES];
             
-            if (success) {
-                if (shortId) {
-					
-                    [self didAnswerCallWithShortId:shortId];
-                } else {
-                    NSString *title = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE, BMEAppDelegateLocalizationTable);
-                    NSString *message = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE, BMEAppDelegateLocalizationTable);
-                    NSString *cancelButton = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL, BMEAppDelegateLocalizationTable);
-                    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:cancelButton otherButtonTitles:nil, nil];
-                    [alertView show];
-                }
-            } else {
+            if (!success) {
                 NSLog(@"Could not load pending request: %@", error);
                 
                 NSString *title = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE, BMEAppDelegateLocalizationTable);
@@ -400,7 +389,17 @@
                 NSString *cancelButton = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL, BMEAppDelegateLocalizationTable);
                 UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:cancelButton otherButtonTitles:nil, nil];
                 [alertView show];
+                return;
             }
+            if (!shortId) {
+                NSString *title = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE, BMEAppDelegateLocalizationTable);
+                NSString *message = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE, BMEAppDelegateLocalizationTable);
+                NSString *cancelButton = MKLocalizedFromTable(BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL, BMEAppDelegateLocalizationTable);
+                UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:cancelButton otherButtonTitles:nil, nil];
+                [alertView show];
+                return;
+            }
+            [self didAnswerCallWithShortId:shortId];
         }];
     }
 }

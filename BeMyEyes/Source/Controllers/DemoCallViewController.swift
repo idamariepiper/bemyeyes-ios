@@ -17,6 +17,7 @@ class DemoCallViewController: BMEBaseViewController {
 	@IBOutlet weak var cancelButton: UIButton!
 	@IBOutlet weak var step1Label: UILabel!
 	@IBOutlet weak var step2Label: UILabel!
+    @IBOutlet weak var step3Label: UILabel!
 	@IBOutlet weak var stepsView: UIView!
 	@IBOutlet weak var enableNotificationsLabel: UILabel!
 	
@@ -31,7 +32,6 @@ class DemoCallViewController: BMEBaseViewController {
 			let badgeEnabled = types & UIRemoteNotificationType.Badge.rawValue != 0
 			return application.isRegisteredForRemoteNotifications() && soundEnabled && alertEnabled && badgeEnabled
 		}
-		
 		return true
 	}
 	
@@ -40,11 +40,7 @@ class DemoCallViewController: BMEBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		titleLabel.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_TITLE", "DemoCallLocalizationTable")
-		cancelButton.setTitle(MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_CANCEL", "DemoCallLocalizationTable"), forState: .Normal)
-		step1Label.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_STEP_1", "DemoCallLocalizationTable")
-		step2Label.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_STEP_2", "DemoCallLocalizationTable")
-		enableNotificationsLabel.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS", "DemoCallLocalizationTable")
+		MKLocalization.registerForLocalization(self)
 		
 		receiveDidEnterBackgroundNotifications(true)
 		NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("didAnswerDemoCall:"), name: BMEDidAnswerDemoCallNotification, object: nil)
@@ -74,7 +70,7 @@ class DemoCallViewController: BMEBaseViewController {
 		updateDisplayedViews()
 		
 		if !canPerformDemoCall {
-			let settings = UIUserNotificationSettings(forTypes: .Sound | .Alert | .Badge, categories: nil)
+			let settings = UIUserNotificationSettings(forTypes: .Sound | .Alert | .Badge, categories: BMEAccessControlHandler.notificationCategories())
 			UIApplication.sharedApplication().registerUserNotificationSettings(settings)
 		}
 	}
@@ -94,9 +90,10 @@ class DemoCallViewController: BMEBaseViewController {
 			let notification = UILocalNotification()
 			notification.fireDate = fireDate
 			notification.alertBody = NSString(format: MKLocalized("PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE"), blindName)
-			notification.userInfo = [ DemoCallViewController.NotificationIsDemoKey(): true ]
+			notification.userInfo = [DemoCallViewController.NotificationIsDemoKey() : true]
 			notification.soundName = "call-repeat.aiff"
-			notification.applicationIconBadgeNumber = notification.applicationIconBadgeNumber + 1
+			notification.applicationIconBadgeNumber = 0
+            notification.category = NotificationCategoryReply;
 			UIApplication.sharedApplication().scheduleLocalNotification(notification)
 		}
 	}
@@ -138,5 +135,17 @@ class DemoCallViewController: BMEBaseViewController {
             let controller = segue.destinationViewController as DemoCallVideoViewController
             controller.completion = callCompletion
         }
+    }
+}
+
+extension DemoCallViewController: MKLocalizable {
+    
+    func shouldLocalize() {
+        titleLabel.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_TITLE", "DemoCallLocalizationTable")
+        cancelButton.setTitle(MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_CANCEL", "DemoCallLocalizationTable"), forState: .Normal)
+        step1Label.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_STEP_1", "DemoCallLocalizationTable")
+        step2Label.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_STEP_2", "DemoCallLocalizationTable")
+        step3Label.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_STEP_3", "DemoCallLocalizationTable")
+        enableNotificationsLabel.text = MKLocalizedFromTable("POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS", "DemoCallLocalizationTable")
     }
 }

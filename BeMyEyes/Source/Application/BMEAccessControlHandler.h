@@ -11,6 +11,7 @@
 @interface BMEAccessControlHandler : NSObject
 
 + (void)requireNotificationsEnabled:(void(^)(BOOL isEnabled, BOOL validToken))completion;
++ (NSSet *)notificationCategories;
 + (void)hasNotificationsEnabled:(void(^)(BOOL isEnabled, BOOL validToken))completion;
 + (void)requireMicrophoneEnabled:(void(^)(BOOL isEnabled))completion;
 + (void)hasMicrophoneEnabled:(void(^)(BOOL isEnabled))completion;

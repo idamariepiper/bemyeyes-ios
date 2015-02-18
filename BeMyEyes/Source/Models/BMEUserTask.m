@@ -39,8 +39,10 @@
             return BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION;
         case BMEUserTaskTypeShareOnTwitter:
             return BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION;
-        case BMEUserTaskTypeWatchVideo:
+        case BMEUserTaskTypeWatchIntroVideo:
             return BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION;
+        case BMEUserTaskTypeMakeTestCall:
+            return BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION;
         default:
             break;
     }
@@ -54,8 +56,10 @@
             return @"share_on_facebook";
         case BMEUserTaskTypeShareOnTwitter:
             return @"share_on_twitter";
-        case BMEUserTaskTypeWatchVideo:
+        case BMEUserTaskTypeWatchIntroVideo:
             return @"watch_video";
+        case BMEUserTaskTypeMakeTestCall:
+            return @"test_call";
         default:
             return nil;
     }
@@ -63,7 +67,7 @@
 
 + (BMEUserTaskType)taskTypeForServerKey:(NSString *)key
 {
-    for (NSNumber *typeNum in @[@(BMEUserTaskTypeShareOnFacebook), @(BMEUserTaskTypeShareOnTwitter), @(BMEUserTaskTypeWatchVideo)]) {
+    for (NSNumber *typeNum in @[@(BMEUserTaskTypeShareOnFacebook), @(BMEUserTaskTypeShareOnTwitter), @(BMEUserTaskTypeWatchIntroVideo), @(BMEUserTaskTypeMakeTestCall)]) {
         BMEUserTaskType type = typeNum.integerValue;
         if ([key isEqualToString:[self serverKeyForType:type]]) {
             return type;

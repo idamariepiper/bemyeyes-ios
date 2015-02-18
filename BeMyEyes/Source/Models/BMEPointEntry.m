@@ -55,6 +55,8 @@
         return BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTION;
     } else if ([self.event isEqualToString:@"watch_video"]) {
         return BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION;
+    } else if ([self.event isEqualToString:@"test_call"]) {
+        return BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION;
     }
     return nil;
 }
