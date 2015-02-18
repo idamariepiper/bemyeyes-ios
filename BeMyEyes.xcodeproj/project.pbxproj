@@ -62,6 +62,7 @@
 		4EB6C13D19FFB6B50048735E /* BMEButtonImageToRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6C13C19FFB6B50048735E /* BMEButtonImageToRight.m */; };
 		4EBE9BFA19E8C91000CBC675 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBE9BF919E8C91000CBC675 /* DismissSegue.m */; };
 		4EC696EE1A2625E6007E5680 /* BMEUserTypeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC696ED1A2625E6007E5680 /* BMEUserTypeConverter.m */; };
+		4ED265B21A94AB0200A3779D /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4ED265B11A94AB0200A3779D /* demo.mp4 */; };
 		4EDCE93F1A01E069006C7A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDCE9411A01E069006C7A4A /* LaunchScreen.storyboard */; };
 		4EE157E71A6B396800178F9F /* cut_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4EE157E11A6B396800178F9F /* cut_1.wav */; };
 		4EE157E81A6B396800178F9F /* cut_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4EE157E21A6B396800178F9F /* cut_2.wav */; };
@@ -618,6 +619,7 @@
 		4EBE9BF919E8C91000CBC675 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DismissSegue.m; path = Source/DismissSegue.m; sourceTree = "<group>"; };
 		4EC696EC1A2625E6007E5680 /* BMEUserTypeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEUserTypeConverter.h; sourceTree = "<group>"; };
 		4EC696ED1A2625E6007E5680 /* BMEUserTypeConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMEUserTypeConverter.m; sourceTree = "<group>"; };
+		4ED265B11A94AB0200A3779D /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
 		4ED7EE981A5602E90004C93F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4ED7EE991A5602E90004C93F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/BMEAccessLocalization.strings; sourceTree = "<group>"; };
 		4ED7EE9A1A5602E90004C93F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/BMEAppDelegateLocalizationTable.strings; sourceTree = "<group>"; };
@@ -1336,6 +1338,7 @@
 		721CAF1F192D2EAA00B5B4E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4ED265B11A94AB0200A3779D /* demo.mp4 */,
 				4E10F2FE19F7F176004EA22E /* intro.mp4 */,
 				725B0EFC19598B3C00BB4AE0 /* call-repeat.aiff */,
 				725B0EF71959875500BB4AE0 /* call.aiff */,
@@ -1572,9 +1575,9 @@
 				4E6544861A0136F700B71C1C /* BMEScrollViewTextFieldHelper.h */,
 				4E6544871A0136F700B71C1C /* BMEScrollViewTextFieldHelper.m */,
 				4E6AE89D1A01927F0019247A /* FacebookHelper.swift */,
+				72148B061A702762001F0F8C /* SocialTextProvider.swift */,
 				4EB3A9A21A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.h */,
 				4EB3A9A31A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m */,
-				72148B061A702762001F0F8C /* SocialTextProvider.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -1864,6 +1867,7 @@
 				72856DEC19AF66A20027AFF5 /* BMEBlindIntroLocalizationTable.strings in Resources */,
 				4EE157E91A6B396800178F9F /* cut_3.wav in Resources */,
 				72E65F9E18BA7A35002FB2E0 /* BMESignUpLocalizationTable.strings in Resources */,
+				4ED265B21A94AB0200A3779D /* demo.mp4 in Resources */,
 				7236E01618B8A87B00F622AA /* Images.xcassets in Resources */,
 				7236E00818B8A87B00F622AA /* InfoPlist.strings in Resources */,
 				72856DEF19AF71CB0027AFF5 /* BMESecretSettingsLocalizationTable.strings in Resources */,
