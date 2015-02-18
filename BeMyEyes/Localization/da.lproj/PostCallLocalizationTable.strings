@@ -16,6 +16,30 @@
 /* Title of dismiss button to blind */
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "OK";
 
+/* Title of share button to helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Del dine oplevelse";
+
+/* Title of share button to blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Del din oplevelse";
+
+/* Message when sharing to Facebook as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "Jeg har lige hjulpet en blind person se med Be My Eyes appen #BeMyEyes";
+
+/* Message when sharing to Facebook as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Nogen hjalp mig lige med at med Be My Eyes appen #BeMyEyes";
+
+/* Message when sharing to Twitter as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "Jeg har lige hjulpet en blind person se med @BeMyEyes appen #BeMyEyes";
+
+/* Message when sharing to Twitter as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Nogen hjalp mig lige med at se med @BeMyEyes appen #BeMyEyes";
+
+/* Default message when sharing as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "Jeg har lige hjulpet en blind person se med Be My Eyes appen";
+
+/* Default message when sharing as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Nogen hjalp mig lige med at se med Be My Eyes appen";
+
 /* Title of report button */
 "POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "Rapporter";
 

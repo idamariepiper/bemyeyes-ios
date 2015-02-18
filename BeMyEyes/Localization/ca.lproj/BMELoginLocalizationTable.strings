@@ -43,6 +43,15 @@
 /* Title in alert view shown when Facebook user not found during log in. */
 "BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE" = "Compte no registrat";
 
+/* Title of ok button in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "D'acord";
+
+/* Message in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to you Facebook account in system settings.";
+
+/* Title in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+
 /* Message in alert view shown when the e-mail or password is empty */
 "BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "Si us plau, reintrodueix l'e-mail i la contrasenya.";
 
@@ -77,7 +86,7 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "D'acord";
 
 /* Message in alert view shown when no Facebook account was found. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "No s'han trobat comptes de Facebook en el dispositiu. Si us plau, afegeix el teu compte a la configuració del sistema.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "No s'han trobat comptes de Facebook en el dispositiu. Si us plau afegeixi el vostre compte a la configuració del sistema.";
 
 /* Title in alert view shown when no Facebook account was found. */
 "BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Cap compte trobat";

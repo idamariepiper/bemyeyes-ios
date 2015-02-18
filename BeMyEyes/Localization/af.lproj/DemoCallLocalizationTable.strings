@@ -6,7 +6,7 @@
 */
 "POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Call";
 
-"POST_CALL_VIEW_CONTROLLER_CANCEL" = "İptal";
+"POST_CALL_VIEW_CONTROLLER_CANCEL" = "Kanselleer";
 
 "POST_CALL_VIEW_CONTROLLER_STEP_1" = "Press the home button to leave the app.";
 
@@ -14,7 +14,7 @@
 
 "POST_CALL_VIEW_CONTROLLER_STEP_3" = "Tap the notification.";
 
-"POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Birisi";
+"POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Anoniem";
 
 "POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device.";
 
