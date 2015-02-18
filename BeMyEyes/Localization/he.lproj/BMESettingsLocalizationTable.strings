@@ -38,7 +38,7 @@
 "BME_SETTINGS_VERSION_TITLE" = "גירסה %@";
 
 /* Dismiss settings button accessibility label */
-"BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL" = "חזור";
+"BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL" = "חזרה";
 
 /* Points description task cell */
 "BME_SETTINGS_TASK_POINTS" = "+%d נקודות";

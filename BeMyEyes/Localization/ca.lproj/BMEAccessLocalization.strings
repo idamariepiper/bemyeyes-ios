@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Quan una persona cega necessiti la teva ajuda et notificarem la trucada entrant.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Respondre";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Ara mateix no";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Micròfon";
 
@@ -20,7 +26,7 @@
 "BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Per poder parlar i guiar a la persona cega";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Ser capaç d'explicar el teu problema a l'ajudant.";
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Per poder explicar el teu problema a l'ajudant.";
 
 /* Title for camera */
 "BME_ACCESS_CAMERA_TITLE" = "Càmera";
@@ -29,5 +35,5 @@
 "BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "No enviem el teu vídeo a la persona que estàs ajudant, però és necessari establir la connexió.";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Per poder mostrar a l'ajudant en què necessita ajuda.";
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Per poder mostrar a l'ajudant amb què necessites ajuda.";
 

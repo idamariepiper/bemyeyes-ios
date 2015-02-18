@@ -381,6 +381,162 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_TITLE = @"BME_ACCESS_NOTIFICATI
 static NSString * const BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER = @"BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER";
 
 /*!
+ * "Answer"
+
+ * All translations:
+
+ * @b af@: "Antwoord"
+
+ * @b ar@: "الإجابة"
+
+ * @b ca@: "Respondre"
+
+ * @b cs@: "Odpovědet"
+
+ * @b da@: "Svar"
+
+ * @b de@: "Antwort"
+
+ * @b el@: "Απάντηση"
+
+ * @b en@: "Answer"
+
+ * @b es@: "Responder"
+
+ * @b fi@: "Vastaus"
+
+ * @b fr@: "Répondre"
+
+ * @b he@: "לענות"
+
+ * @b hi@: "उत्तर"
+
+ * @b hr@: "Odgovor"
+
+ * @b hu@: "Válasz"
+
+ * @b it@: "Rispondi"
+
+ * @b ja@: "応答"
+
+ * @b ko@: "응답하기"
+
+ * @b lt@: "Atsakymas"
+
+ * @b nb@: "Svar"
+
+ * @b nl@: "Antwoorden"
+
+ * @b pl@: "Odbierz"
+
+ * @b pt-BR@: "Responder"
+
+ * @b pt@: "Responder"
+
+ * @b ro@: "Răspuns"
+
+ * @b ru@: "Ответить"
+
+ * @b sk@: "Odpovedať"
+
+ * @b sr@: "Одговори"
+
+ * @b sv@: "Svara"
+
+ * @b tr@: "Cevapla"
+
+ * @b uk@: "Відповідь"
+
+ * @b ur@: "جواب"
+
+ * @b vi@: "Trả lời"
+
+ * @b zh-Hans@: "回應"
+
+ * @b zh-Hant@: "应答"
+
+ */
+static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOTIFICATION_ACTION_ANSWER";
+
+/*!
+ * "Not right now"
+
+ * All translations:
+
+ * @b af@: "Not right now"
+
+ * @b ar@: "ليس الآن"
+
+ * @b ca@: "Ara mateix no"
+
+ * @b cs@: "Ne právě teď"
+
+ * @b da@: "Ikke lige nu"
+
+ * @b de@: "Nicht jetzt"
+
+ * @b el@: "Not right now"
+
+ * @b en@: "Not right now"
+
+ * @b es@: "Ahora no"
+
+ * @b fi@: "Not right now"
+
+ * @b fr@: "Pas maintenant"
+
+ * @b he@: "Not right now"
+
+ * @b hi@: "Not right now"
+
+ * @b hr@: "Not right now"
+
+ * @b hu@: "Not right now"
+
+ * @b it@: "Not right now"
+
+ * @b ja@: "Not right now"
+
+ * @b ko@: "Not right now"
+
+ * @b lt@: "Ne dabar"
+
+ * @b nb@: "Not right now"
+
+ * @b nl@: "Sorry, dit is even geen goed moment"
+
+ * @b pl@: "Nie teraz"
+
+ * @b pt-BR@: "Not right now"
+
+ * @b pt@: "Agora não"
+
+ * @b ro@: "Not right now"
+
+ * @b ru@: "В другой раз"
+
+ * @b sk@: "Not right now"
+
+ * @b sr@: "Not right now"
+
+ * @b sv@: "Not right now"
+
+ * @b tr@: "Not right now"
+
+ * @b uk@: "Не прямо зараз"
+
+ * @b ur@: "Not right now"
+
+ * @b vi@: "Not right now"
+
+ * @b zh-Hans@: "Not right now"
+
+ * @b zh-Hant@: "Not right now"
+
+ */
+static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
+
+/*!
  * "Microphone"
 
  * All translations:
@@ -469,7 +625,7 @@ static NSString * const BME_ACCESS_MICROPHONE_TITLE = @"BME_ACCESS_MICROPHONE_TI
 
  * @b ca@: "Per poder parlar i guiar a la persona cega"
 
- * @b cs@: "Abyste mohli hovořit a provádět nevidomou osobu"
+ * @b cs@: "Abyste mohli vést nevidomého a hovořit s ním"
 
  * @b da@: "For at kunne at tale med og hjælpe den blinde"
 
@@ -545,9 +701,9 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_HELPER = @"BME_ACCESS_
 
  * @b ar@: "لتتمكن من توضيح مشكلتك للمساعِد."
 
- * @b ca@: "Ser capaç d'explicar el teu problema a l'ajudant."
+ * @b ca@: "Per poder explicar el teu problema a l'ajudant."
 
- * @b cs@: "Abyste byl schopen vysvětlit váš problém pomocníkovi."
+ * @b cs@: "Abyste byli schopni vysvětlit váš problém pomocníkovi."
 
  * @b da@: "For at kunne forklare dit problem til hjælperen."
 
@@ -703,7 +859,7 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b ca@: "No enviem el teu vídeo a la persona que estàs ajudant, però és necessari establir la connexió."
 
- * @b cs@: "My neposíláme vaše video osobě, které pomáháte, ale potřebujeme přístup ke kameře pro navázání připojení."
+ * @b cs@: "Vaše video nikomu neposíláme, je nutné pouze pro navázání spojení."
 
  * @b da@: "Vi sender ikke din video til den person du hjælper, men det er nødvendigt for at etablere forbindelsen."
 
@@ -719,7 +875,7 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b fr@: "La personne que vous aidez ne reçoit pas votre vidéo mais celle-ci est nécessaire pour établir la connexion."
 
- * @b he@: "אנחנו לא שולחים את הסרטון שלכם לאדם לו אתם עוזרים, אבל זה נדרש על מנת ליצור את החיבור."
+ * @b he@: "אין אנו שולחים את הוידיאו שלך לאדם העיוור לו אתה עוזר, אך הדבר דרוש לשם ביצוע החיבור."
 
  * @b hi@: "हम आपका वीडियो उस व्यक्ति के पास नहीं भेजते हैं जिसकी आप मदद कर रहे हैं, लेकिन कनेक्शन स्थापित करने के लिए यह आवश्यक है।"
 
@@ -757,7 +913,7 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b tr@: "Video görüntünüzü yardım ettiğiniz kişiye göndermiyoruz, ancak aradaki bağlantının sağlanabilmesi için videonuz gereklidir."
 
- * @b uk@: "Ми не показуємо ваше зображення особі, якій ви допомогаєте, але доступ до камери потрібен для встановлення зв'язку."
+ * @b uk@: "Ми не покажемо ваше зображення особі, якій ви допомагаєте, але доступ до камери потрібен для встановлення зв'язку."
 
  * @b ur@: "ہم آپ کی ویڈیو اس فرد کو نہیں ارسال کرتے جس کی مدد آپ کر رہے ہیں۔ لیکن یہ کنیکشن قائم کرنے کے لیے ضروری ہے۔"
 
@@ -779,9 +935,9 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_HELPER = @"BME_ACCESS_CAME
 
  * @b ar@: "لتتمكن من إظهار ما تحتاج المساعدة بخصوصه للمساعِد."
 
- * @b ca@: "Per poder mostrar a l'ajudant en què necessita ajuda."
+ * @b ca@: "Per poder mostrar a l'ajudant amb què necessites ajuda."
 
- * @b cs@: "Abyste byl schopen ukázat pomocníkovi s čím budete potřebovat pomoc."
+ * @b cs@: "Abyste mohli pomocníkovi vysvětlit, s čím potřebujete pomoci."
 
  * @b da@: "For at kunne vise hjælperen hvad du har brug for hjælp til."
 
@@ -797,7 +953,7 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_HELPER = @"BME_ACCESS_CAME
 
  * @b fr@: "Permet de montrer à la personne qui aide ce dont vous avez besoin."
 
- * @b he@: "על מנת להראות למסייע במה אתם צריכים עזרה."
+ * @b he@: "כדי להראות לאדם המסייע לכם במה אתם זקוקים לעזרה."
 
  * @b hi@: "सहायक को यह दिखाने में सक्षम होने के लिए कि आपको किस चीज की मदद चाहिए।"
 
@@ -951,7 +1107,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE = @"BME_
 
  * @b fr@: "Les notifications push ne sont pas activées"
 
- * @b he@: "הודעות בדחיפה אינן מופעלות"
+ * @b he@: "הודעות דחיפה אינן מופעלות"
 
  * @b hi@: "पुश सूचनाएं सक्षम नहीं हैं"
 
@@ -2121,7 +2277,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL
 
  * @b fr@: "La demande d'aide n'a malheureusement pas pu être chargée. Pas d'inquiétude, quelqu'un d'autre va y répondre."
 
- * @b he@: "טעינת הבקשה הנוכחית לא הצליחה. אל דאגה, מישהו אחר יטפל בבקשה."
+ * @b he@: "טעינת הבקשה לעזרה לא הצליחה. אל דאגה, מישהו אחר יענה לבקשה."
 
  * @b hi@: "लंबित अनुरोध लोड नहीं किया जा सकता है। चिंता मत करें, कोई अन्य अनुरोध का जवाब देगा।"
 
@@ -2199,7 +2355,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAG
 
  * @b fr@: "Demande non chargée"
 
- * @b he@: "הבקשה לא נטענה"
+ * @b he@: "טעינת הבקשה לא הצליחה"
 
  * @b hi@: "अनुरोध लोड नहीं किया गया"
 
@@ -2429,7 +2585,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b es@: "El dispositivo no estaba registrado para recibir notificaciones. Esto podría significar que la aplicación ha sido iniciada incorrectamente."
 
- * @b fi@: "Laitetta ei ole rekisteröity vastaanottamaan push-ilmoituksia. Tämä voi johtua siitä, että sovelluksen allekirjoutus on virheellinen."
+ * @b fi@: "Laitetta ei ole rekisteröity vastaanottamaan push-ilmoituksia. Tämä voi johtua siitä, että sovelluksen allekirjoitus on virheellinen."
 
  * @b fr@: "L'appareil ne peut pas recevoir de notifications push. L'application n'est peut-être pas enregistrée correctement."
 
@@ -2511,7 +2667,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -2665,7 +2821,7 @@ static NSString * const BME_BLIND_INTRO_CONTINUE = @"BME_BLIND_INTRO_CONTINUE";
 
  * @b fr@: "Cette application permet de vous mettre en contact avec une personne voyante qui vous aide à distance. Grâce à une connexion vidéo, la personne qui vous aide vous indique ce qu'elle voit lorsque vous dirigez votre téléphone dans une direction donnée.\n\nLes personnes qui aident au sein du réseau Be My Eyes sont bénévoles et nous ne pouvons pas garantir la qualité de leur intervention, ni être tenus responsables de leurs actions. En outre, comme nous nous appuyons sur des personnes réelles pour vous aider, nous vous encourageons à être patients lorsque vous demandez de l'aide.\n\nIl est interdit d'utiliser ce service pour partager du contenu illégal, obscène, à caractère haineux ou sexuel et il est recommandé de ne jamais échanger d'informations sensibles telles que vos numéros de cartes de crédit, de passeport ainsi que toute autre information personnelle."
 
- * @b he@: "האפליקיצייה תקשר ביניכם בזמן אמת לעוזר רואה שיסייע לכם מרחוק עם משימות הדורשות עזרה מאדם רואה - באמצעות שיחת וידאו חיה, העוזר יגיד לכם מה הוא רואה כאשר תכוונו את הטלפון שלכם על בכיוון מסוים. \n\n העוזרים ברשת Be My Eyes הם מתנדבים ואין לנו אפשרות להתחייב לאיכות הסיוע שיעניקו או להיות אחראים למעשיהם. יתרה מזו, היות שאנחנו מסתמכים על אנשים אמיתיים על מנת לעזור לכם, אנחנו מציעים להיות סבלניים בעת בקשת עזרה.  \n\n בשום פנים ואופן אין לשתף תוכן עירום, לא חוקי, פוגעני או בעל אופי מיני באמצעות השירות ולעולם אין לחשוף מידע רגיש כגון כרטיס אשראי, דרכון או מידע אישי אחר. "
+ * @b he@: "האפליקיצייה תקשר אותך בזמן אמת עם מסייע רואה שיעזור לך מרחוק עם משימות הדורשות עזרה מאדם רואה - באמצעות שיחת וידאו חיה, המסייע יגיד לך מה הוא או היא רואה כאשר הנך מכוון את הטלפון שלך על משהו. \n\n המסייעים ברשת Be My Eyes הם מתנדבים ואין לנו אפשרות להתחייב לאיכות הסיוע שיעניקו או להיות אחראים למעשיהם. יתרה מזו, היות ואנחנו מסתמכים על אנשים אמיתיים על מנת לעזור לכם, אנחנו מבקשים להתעזר בסבלנות בעת בקשת העזרה.  \n\n בשום פנים ואופן אין לשתף תוכן עירום, לא חוקי, פוגעני או בעל אופי מיני באמצעות השירות ולעולם אין לחשוף מידע רגיש כגון כרטיס אשראי, דרכון או מידע אישי אחר. "
 
  * @b hi@: "यह एप्लिकेशन आपको एक आंखों वाले व्यक्ति के साथ लाइव संपर्क प्रदान करेगा जो रिमोट तरीके से आवश्यक सहायता प्राप्त करने में आपकी मदद करेगा - जब आप अपना फोन किसी चीज की तरफ करेंगे तब यह सहायक लाइव वीडियो कनेक्शन के माध्यम से आपको बताएगा कि वह क्या देख रहा है।\n\nBe My Eyes नेटवर्क के सहायक स्वयंसेवक हैं और हम उनकी मदद की गुणवत्ता की गारंटी या उनके किसी भी कार्य की जिम्मेदारी नहीं ले सकते हैं। इसके अलावा, चूंकि हम आपकी मदद के लिए असली लोगों पर भरोसा करते हैं इसलिए मदद का अनुरोध करते समय हम आपको धैर्य रखने के लिए प्रोत्साहित करते हैं।\n\nआप किसी भी परिस्थिति में इस सेवा के माध्यम से कोई भी नग्न, गैरकानूनी, घृणित या कामोत्तेजक सामग्री साझा नहीं कर सकते हैं, और आपको कभी भी क्रेडिट कार्ड, पासपोर्ट या अन्य व्यक्तिगत जानकारी जैसी कोई भी संवेदनशील जानकारी नहीं दिखानी चाहिए।"
 
@@ -2899,7 +3055,7 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"
 
  * @b fr@: "La demande n'a pas pu aboutir. Merci de recommencer."
 
- * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שוב."
+ * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שנית."
 
  * @b hi@: "अनुरोध को बनाया नहीं जा सका। कृपया पुन: प्रयास करें।"
 
@@ -3055,7 +3211,7 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE = @"B
 
  * @b fr@: "Création de la demande..."
 
- * @b he@: "יצירת בקשה..."
+ * @b he@: "יצירת הבקשה..."
 
  * @b hi@: "अनुरोध बनाया जा रहा है..."
 
@@ -3835,7 +3991,7 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"BME_CA
 
  * @b fr@: "La demande n'a pas pu aboutir. Merci de recommencer."
 
- * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שוב."
+ * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שנית."
 
  * @b hi@: "अनुरोध को बनाया नहीं जा सका। कृपया पुन: प्रयास करें।"
 
@@ -4303,7 +4459,7 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE = @"BME_
 
  * @b fr@: "Création de la demande..."
 
- * @b he@: "יצירת בקשה..."
+ * @b he@: "יצירת הבקשה..."
 
  * @b hi@: "अनुरोध बनाया जा रहा है..."
 
@@ -5161,7 +5317,7 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE = @"BME_CAL
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -6633,7 +6789,7 @@ static NSString * const BME_FRONT_PAGE_ALREADY_REGISTERED = @"BME_FRONT_PAGE_ALR
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -7227,7 +7383,7 @@ static NSString * const BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION = @"BME_HELPER_
 
  * @b cs@: "Bodů celkem"
 
- * @b da@: "Totale points"
+ * @b da@: "Totale point"
 
  * @b de@: "Punkte insgesamt"
 
@@ -7695,7 +7851,7 @@ static NSString * const BME_HELPER_MAIN_LEVEL_MASTER_HELPER = @"BME_HELPER_MAIN_
 
  * @b cs@: "%d bodů do další úrovně"
 
- * @b da@: "%d points til næste niveau"
+ * @b da@: "%d point til næste niveau"
 
  * @b de@: "%d Punkte bis zum nächsten Level"
 
@@ -7773,7 +7929,7 @@ static NSString * const BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION = @"BME_HE
 
  * @b cs@: "Úspěšná registrace"
 
- * @b da@: "Successful registrering"
+ * @b da@: "Succesfuld registrering"
 
  * @b de@: "Erfolgreiche Registrierung"
 
@@ -9653,7 +9809,7 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -13317,7 +13473,7 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM = @"BME_MAIN_ALERT_
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -16903,7 +17059,7 @@ static NSString * const BME_SETTINGS_VERSION_TITLE = @"BME_SETTINGS_VERSION_TITL
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -17293,7 +17449,7 @@ static NSString * const BME_SETTINGS_TASK_SHARE_MESSAGE = @"BME_SETTINGS_TASK_SH
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -17681,7 +17837,7 @@ static NSString * const BME_SIGN_UP_PASSWORD_PLACEHOLDER = @"BME_SIGN_UP_PASSWOR
 
  * @b fr@: "Créer un compte"
 
- * @b he@: "הירשם"
+ * @b he@: "הרשמה"
 
  * @b hi@: "पंजीकरण"
 
@@ -18067,8 +18223,6 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME_SIGN_UP
 
  * @b fr@: "L'adresse e-mail n'est pas valide."
 
- * @b he@: "כתובת הדואר שהקלדתם אינה תקינה."
-
  * @b hi@: "दर्ज किया गया ई-मेल पता मान्य नहीं है।"
 
  * @b hr@: "Unesena e-mail adresa nije važeća."
@@ -18299,7 +18453,7 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL = @"BME_SIGN_UP_AL
 
  * @b fr@: "Veuillez remplir toutes les informations avant de continuer."
 
- * @b he@: "אנא מלאו את כל המידע לפני התקדמות לשלב הבא"
+ * @b he@: "נא מלאו את כל המידע לפני שתמשיכו."
 
  * @b hi@: "कृपया आगे बढ़ने से पहले सभी जानकारी भरें।"
 
@@ -18533,7 +18687,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL = @"BME_SIGN
 
  * @b fr@: "Le mot de passe entré est trop court."
 
- * @b he@: "הסיסמה שהוקלדה קצרה מדי."
+ * @b he@: "הסיסמה שהוזנה קצרה מדי."
 
  * @b hi@: "दर्ज किया गया पासवर्ड बहुत छोटा है।"
 
@@ -18611,7 +18765,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE = @"BME_SIG
 
  * @b fr@: "Le mot de passe est trop court"
 
- * @b he@: "הסיסמה קצרה מדי"
+ * @b he@: "סיסמה קצרה מדי"
 
  * @b hi@: "पासवर्ड बहुत छोटा है"
 
@@ -18767,7 +18921,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL = @"BME_
 
  * @b fr@: "Les mots de passe entrés ne correspondent pas."
 
- * @b he@: "הסיסמאות שהוקלדו לא זהות."
+ * @b he@: "הסיסמאות שהוזנו אינן תואמות."
 
  * @b hi@: "दर्ज किया गया पासवर्ड मेल नहीं खाता है।"
 
@@ -18845,7 +18999,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE = @"BME
 
  * @b fr@: "Les mots de passe ne correspondent pas"
 
- * @b he@: "הסיסמאות לא זהות"
+ * @b he@: "סיסמאות אינן תואמות"
 
  * @b hi@: "पासवर्ड मेल नहीं खाते हैं"
 
@@ -19001,7 +19155,7 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL = @"BME_SIGN_UP_A
 
  * @b fr@: "Votre compte n'a pas pu être créé. Veuillez vérifier que vous disposez d'une connexion internet active et réessayez."
 
- * @b he@: "לא הצלחנו ליצור עבורכם חשבון. אנא בדקו שחיבור האינטרנט תקין ונסו שנית."
+ * @b he@: "לא היתה אפשרות ליצור את החשבון שלכם. נא ודאו כי הנכם מחוברים לאינטרנט ונסו שנית."
 
  * @b hi@: "आपका खाता नहीं बनाया जा सका। कृपया पुष्टि करें कि आपके पास एक सक्रिय इंटरनेट कनेक्शन है और फिर से कोशिश करें।"
 
@@ -19079,7 +19233,7 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE = @"BME_SIGN_UP_
 
  * @b fr@: "Impossible de créer le compte"
 
- * @b he@: "יצירת חשבון לא הצליחה"
+ * @b he@: "לא היתה אפשרות ליצור חשבון"
 
  * @b hi@: "खाता नहीं बनाया जा सका"
 
@@ -19313,7 +19467,7 @@ static NSString * const BME_SIGN_UP_OVERLAY_REGISTERING_TITLE = @"BME_SIGN_UP_OV
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -19623,7 +19777,7 @@ static NSString * const BME_SIGN_UP_METHOD_EMAIL = @"BME_SIGN_UP_METHOD_EMAIL";
 
  * @b fr@: "En continuant, vous acceptez les"
 
- * @b he@: "בלחיצה על המשך אתם מקבלים את"
+ * @b he@: "בלחיצה על המשך הנכם מקבלים את"
 
  * @b hi@: "जारी रख कर आप स्वीकार करते हैं"
 
@@ -19779,7 +19933,7 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM = @"BME_S
 
  * @b fr@: "ainsi que la"
 
- * @b he@: "כמו גם את"
+ * @b he@: "כמו כן, גם את"
 
  * @b hi@: "साथ ही साथ"
 
@@ -20477,7 +20631,7 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL = @"BME_SI
 
  * @b fr@: "Impossible de s'authentifier avec Facebook."
 
- * @b he@: "לא הצלחנו לבצע אימות עם פייסבוק"
+ * @b he@: "אימות עם פייסבוק נכשל."
 
  * @b hi@: "फेसबुक के साथ प्रमाणित नहीं किया जा सका।"
 
@@ -22427,7 +22581,7 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEARS = @"BME_SNOOZE_RELATIVE_D
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -23415,98 +23569,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 static NSString * const POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE = @"POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE";
 
 /*!
- * "Test Call"
-
- * All translations:
-
- * @b da@: "Test Opkald"
-
- * @b en@: "Test Call"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTROLLER_TITLE";
-
-/*!
- * "Cancel"
-
- * All translations:
-
- * @b da@: "Annuller"
-
- * @b en@: "Cancel"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONTROLLER_CANCEL";
-
-/*!
- * "Press the home button to leave the app."
-
- * All translations:
-
- * @b da@: "Tryk på hjemmeknappen for at forlade appen. Du modtager en notifikation et par sekunder efter."
-
- * @b en@: "Press the home button to leave the app."
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
-
-/*!
- * "You'll receive a notification shortly."
-
- * All translations:
-
- * @b da@: "Tap på notifikationen."
-
- * @b en@: "You'll receive a notification shortly."
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
-
-/*!
- * "Someone"
-
- * All translations:
-
- * @b da@: "Nogen"
-
- * @b en@: "Someone"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_CONTROLLER_BLIND_NAME";
-
-/*!
- * "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
-
- * All translations:
-
- * @b da@: "For at kunne modtage et opkald, skal du slå notifikationer til for Be My Eyes applikationen i dine systemindstillinger."
-
- * @b en@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS";
-
-/*!
- * "Answer"
-
- * All translations:
-
- * @b en@: "Answer"
-
- */
-static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOTIFICATION_ACTION_ANSWER";
-
-/*!
- * "Not right now"
-
- * All translations:
-
- * @b en@: "Not right now"
-
- */
-static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
-
-/*!
  * "You must give the application permission to use push notifications in system settings."
 
  * All translations:
@@ -23677,6 +23739,46 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
 
 /*!
+ * "Test Call"
+
+ * All translations:
+
+ * @b en@: "Test Call"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTROLLER_TITLE";
+
+/*!
+ * "Cancel"
+
+ * All translations:
+
+ * @b en@: "Cancel"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONTROLLER_CANCEL";
+
+/*!
+ * "Press the home button to leave the app."
+
+ * All translations:
+
+ * @b en@: "Press the home button to leave the app."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
+
+/*!
+ * "You'll receive a notification shortly."
+
+ * All translations:
+
+ * @b en@: "You'll receive a notification shortly."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
+
+/*!
  * "Tap the notification."
 
  * All translations:
@@ -23685,6 +23787,26 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOG
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONTROLLER_STEP_3";
+
+/*!
+ * "Someone"
+
+ * All translations:
+
+ * @b en@: "Someone"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_CONTROLLER_BLIND_NAME";
+
+/*!
+ * "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * All translations:
+
+ * @b en@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS";
 
 /*!
  * "Welcome %@"

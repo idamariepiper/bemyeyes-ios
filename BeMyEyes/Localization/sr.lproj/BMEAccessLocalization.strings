@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Када слепој особи треба Ваша помоћ, ми Вас обавестимо о долазном позиву.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Одговори";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Not right now";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Микрофон";
 

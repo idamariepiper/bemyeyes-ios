@@ -8,7 +8,7 @@
 "BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Folk hjulpet";
 
 /* Point total description */
-"BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Totale points";
+"BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Totale point";
 
 /* Level new helper */
 "BME_HELPER_MAIN_LEVEL_NEW_HELPER" = "Ny hjælper";
@@ -26,10 +26,10 @@
 "BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Mester hjælper";
 
 /* Level points to next level description */
-"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d points til næste niveau";
+"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d point til næste niveau";
 
 /* Points signup description */
-"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Successful registrering";
+"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Succesfuld registrering";
 
 /* Points answer push message description */
 "BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Forsøgte at hjælpe";

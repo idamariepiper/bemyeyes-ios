@@ -13,21 +13,27 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Když nevidomý člověk potřebuje vaši pomoc, upozorníme vás na příchozí volání.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Odpovědet";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Ne právě teď";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Mikrofon";
 
 /* Explanation for why the helper needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Abyste mohli hovořit a provádět nevidomou osobu";
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Abyste mohli vést nevidomého a hovořit s ním";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Abyste byl schopen vysvětlit váš problém pomocníkovi.";
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Abyste byli schopni vysvětlit váš problém pomocníkovi.";
 
 /* Title for camera */
 "BME_ACCESS_CAMERA_TITLE" = "Kamera";
 
 /* Explanation for why the helper needs to enable camera access */
-"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "My neposíláme vaše video osobě, které pomáháte, ale potřebujeme přístup ke kameře pro navázání připojení.";
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Vaše video nikomu neposíláme, je nutné pouze pro navázání spojení.";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Abyste byl schopen ukázat pomocníkovi s čím budete potřebovat pomoc.";
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Abyste mohli pomocníkovi vysvětlit, s čím potřebujete pomoci.";
 
