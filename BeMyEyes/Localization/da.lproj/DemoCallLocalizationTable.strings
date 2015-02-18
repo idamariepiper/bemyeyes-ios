@@ -8,7 +8,7 @@
 
 "POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Opkald";
 "POST_CALL_VIEW_CONTROLLER_CANCEL" = "Annuller";
-"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Tryk på hjemmeknappen og vent et sekund indtil du modtager en notifikation.";
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Tryk på hjemmeknappen for at forlade appen. Du modtager en notifikation et par sekunder efter.";
 "POST_CALL_VIEW_CONTROLLER_STEP_2" = "Tap på notifikationen.";
 "POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Nogen";
 "POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "For at kunne modtage et opkald, skal du slå notifikationer til for Be My Eyes applikationen i dine systemindstillinger.";
