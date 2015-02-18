@@ -1,5 +1,5 @@
 /* Title of back button */
-"BME_LOGIN_BACK" = "חזור";
+"BME_LOGIN_BACK" = "חזרה";
 
 /* Placeholder in e-mail field */
 "BME_LOGIN_EMAIL_PLACEHOLDER" = "כתובת דוא\"ל";

@@ -1,0 +1,13 @@
+Staň se zrakem pro nevidomého, který potřebuje vzdálenou pomoc prostřednictvím živého video spojení, pokud jsi vidomý, nebo získej asistenci prostřednictvím sítě vidomých uživatelů, pokud jsi nevidomý.
+
+Projekt Be My Eyes (Staň se mým zrakem) poskytování a využívání malých laskavostí, takže naskočte na palubu a zapojte se!
+
+Nevidomí uživatelé mohou požádat o pomoc vidomé osoby a v takovémto případě budou vidomí uživatelé vyzváni k poskytnutí pomoci. Jakmile první vidomý uživatel příjme výzvu k poskytnutí pomoci, bude mezi oběma navázán živý audio-video přenos a vidomý uživatel může říci nevidomé osobě, co vidí, když nevidomý uživatel někam zaměří svůj telefon pomocí kamery na zadní straně.
+
+Jako vidomý uživatel se nemusíš obávat, že zmeškáš volání a „necháš nevidomého bez pomoci“ – jsi součástí větší sítě asistentů Be My Eyes a my nalezneme další dostupnou vidomou osobu v síti. Jde o to, že nevidomá osoba může požádat o celou řadu informací, počínaje datem trvanlivosti mléka až po navigaci v novém prostředí.
+
+Poznámka: Prosíme nevidomé uživatele, aby byli trpěliví při svých žádostech o pomoc, protože se spoléháme a reálné lidi, kteří jim pomohou.
+
+- Živé audio-video spojení mezi nevidomými a vidomými uživateli
+- Možnost přidání jazyků, které ovládáte, v nastaveních
+- Jednoduchý způsob, jakým můžete pomoci nevidomým

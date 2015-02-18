@@ -26,7 +26,7 @@
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "אישור";
 
 /* Message in alert showed when failed creating request */
-"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שוב.";
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שנית.";
 
 /* Title in alert showed when failed creating request */
 "BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "לא הייתה אפשרות ליצור את הבקשה";
@@ -44,7 +44,7 @@
 "BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "לא הייתה אפשרות להיענות לבקשה בשלב זה. תודה רבה על עזרתך!";
 
 /* Status when creating request */
-"BME_CALL_STATUS_CREATING_REQUEST" = "יצירת בקשה...";
+"BME_CALL_STATUS_CREATING_REQUEST" = "יצירת הבקשה...";
 
 /* Status when connecting */
 "BME_CALL_STATUS_CONNECTING" = "מתחבר לשרתים...";
