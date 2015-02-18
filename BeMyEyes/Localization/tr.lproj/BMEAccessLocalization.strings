@@ -17,7 +17,7 @@
 "BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Cevapla";
 
 /* Title for notification action when _not_ answering request for help */
-"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Not right now";
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Şimdi değil";
 
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Mikrofon";

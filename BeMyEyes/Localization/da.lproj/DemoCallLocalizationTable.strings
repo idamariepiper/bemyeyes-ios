@@ -1,14 +1,20 @@
 /* 
   DemoCallViewController.strings
   BeMyEyes
-
   Created by Simon Støvring on 22/01/15.
   Copyright (c) 2015 Be My Eyes. All rights reserved.
 */
-
 "POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Opkald";
+
 "POST_CALL_VIEW_CONTROLLER_CANCEL" = "Annuller";
-"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Tryk på hjemmeknappen for at forlade appen. Du modtager en notifikation et par sekunder efter.";
-"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Tap på notifikationen.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Tryk på hjemmeknappen for at forlade appen.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Kort efter modtager du en meddelelse.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Tryk på meddelelsen.";
+
 "POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Nogen";
-"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "For at kunne modtage et opkald, skal du slå notifikationer til for Be My Eyes applikationen i dine systemindstillinger.";
+
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "For at modtage opkald, skal du aktivere meddelelser for Be My Eyes app i Systemindstillinger på din enhed.";
+

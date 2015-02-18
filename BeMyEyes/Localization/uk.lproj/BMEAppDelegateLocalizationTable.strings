@@ -18,14 +18,20 @@
 /* Title of cancel button in alert view shown when a call is received while the app was active */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "Скасувати";
 
+/* Message in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "You must give the application permission to use push notifications in system settings.";
+
+/* Title in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "Push-повідомлення не ввімкнені";
+
 /* Message in alert view shown when the microphone is disabled */
-"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "Ви повинні дати додатку дозвіл на використання мікрофона в налаштуваннях системи.";
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "You must give the application permission to use your microphone in system settings.";
 
 /* Title in alert view shown when the microphone is disabled */
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "Мікрофон не ввімкнений";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "Ви повинні дати дозвіл додатку на використання камери в налаштуваннях системи.";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "You must give the application permission to use your camera in system settings.";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "Камера не ввімкнена";

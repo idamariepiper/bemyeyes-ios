@@ -18,14 +18,20 @@
 /* Title of cancel button in alert view shown when a call is received while the app was active */
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "إلغاء";
 
+/* Message in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "You must give the application permission to use push notifications in system settings.";
+
+/* Title in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "الإشعارات ليست مفعّلة";
+
 /* Message in alert view shown when the microphone is disabled */
-"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "يجب أن تعطي الإذن للتطبيق كي يستخدم الميكروفون الخاص بك من إعدادات النظام.";
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "You must give the application permission to use your microphone in system settings.";
 
 /* Title in alert view shown when the microphone is disabled */
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "الميكروفون غير مفعّل";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "يجب أن تعطي الإذن للتطبيق كي يستخدم الكاميرا الخاص بك من إعدادات النظام.";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "You must give the application permission to use your camera in system settings.";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "الكاميرا غير مفعّلة";
