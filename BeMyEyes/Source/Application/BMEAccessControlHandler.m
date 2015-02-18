@@ -38,15 +38,7 @@
     NSLog(@"Register for remote notifications");
     
     if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
-
-        UIMutableUserNotificationAction *replyYesAction = [self userNotificationActionWithTitle:BME_ACCESS_NOTIFICATION_ACTION_ANSWER indentifier:NotificationActionReplyYes activationMode:UIUserNotificationActivationModeForeground];
-        UIMutableUserNotificationAction *replyNoAction = [self userNotificationActionWithTitle:BME_ACCESS_NOTIFICATION_ACTION_DISMISS indentifier:NotificationActionReplyNo activationMode:UIUserNotificationActivationModeBackground];
-
-        UIMutableUserNotificationCategory *category = [UIMutableUserNotificationCategory new];
-        category.identifier = NotificationCategoryReply;
-        [category setActions:@[replyNoAction, replyYesAction] forContext:UIUserNotificationActionContextDefault];
-
-        NSSet *categories = [NSSet setWithObject:category];
+        NSSet *categories = [self notificationCategories];
         UIUserNotificationType types = (UIUserNotificationTypeSound | UIUserNotificationTypeBadge | UIUserNotificationTypeAlert);
 
         UIUserNotificationSettings *settingsActionable = [UIUserNotificationSettings settingsForTypes:types categories:categories];
@@ -56,8 +48,19 @@
     }
 }
 
++ (NSSet *)notificationCategories {
+    UIMutableUserNotificationAction *replyYesAction = [self userNotificationActionWithTitle:MKLocalizedFromTable( BME_ACCESS_NOTIFICATION_ACTION_ANSWER, BMEAccessLocalization) identifier:NotificationActionReplyYes activationMode:UIUserNotificationActivationModeForeground];
+    UIMutableUserNotificationAction *replyNoAction = [self userNotificationActionWithTitle:MKLocalizedFromTable( BME_ACCESS_NOTIFICATION_ACTION_DISMISS, BMEAccessLocalization) identifier:NotificationActionReplyNo activationMode:UIUserNotificationActivationModeBackground];
+    
+    UIMutableUserNotificationCategory *category = [UIMutableUserNotificationCategory new];
+    category.identifier = NotificationCategoryReply;
+    [category setActions:@[replyNoAction, replyYesAction] forContext:UIUserNotificationActionContextDefault];
+    
+    return [NSSet setWithObject:category];
+}
+
 + (UIMutableUserNotificationAction*)userNotificationActionWithTitle:(NSString*)title
-                                                        indentifier:(NSString*)identifier
+                                                        identifier:(NSString*)identifier
                                                      activationMode:(UIUserNotificationActivationMode) activationMode {
     UIMutableUserNotificationAction* action = [[UIMutableUserNotificationAction alloc] init];
     action.title = title;
@@ -183,7 +186,6 @@
         if (!granted) {
             [self showMicrophoneAlert];
         }
-        
         if (completion) {
             completion(granted);
         }

@@ -48,4 +48,8 @@
 
 #define BMEDidLogInNotificationDisplayHelperWelcomeKey @"BMEDidLogInNotificationDisplayHelperWelcomeKey"
 
+#define NotificationCategoryReply @"REPLY_ACTIONABLE"
+#define NotificationActionReplyNo @"ACTION_RESPOND_NO"
+#define NotificationActionReplyYes @"ACTION_RESPOND_YES"
+
 #endif
