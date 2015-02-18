@@ -18,11 +18,11 @@ class DemoCallVideoViewController: VideoViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		cancelButton.title = MKLocalizedFromTable("BME_CALL_DISCONNECT", "BMECallLocalizationTable");
+        MKLocalization.registerForLocalization(self)
 		
 		let isIpad = UIDevice.currentDevice().userInterfaceIdiom == .Pad
 		moviePlayerController.scalingMode = isIpad ? .AspectFit : .AspectFill
-		if let videoPath = NSBundle.mainBundle().pathForResource("intro", ofType: "mp4") {
+		if let videoPath = NSBundle.mainBundle().pathForResource("demo", ofType: "mp4") {
 			let videoUrl = NSURL(fileURLWithPath: videoPath)
 			moviePlayerController.contentURL = videoUrl
 			moviePlayerController.play()
@@ -55,4 +55,10 @@ class DemoCallVideoViewController: VideoViewController {
             completion(self)
         }
 	}
+}
+
+extension DemoCallVideoViewController: MKLocalizable {
+    func shouldLocalize() {
+        cancelButton.title = MKLocalizedFromTable("BME_CALL_DISCONNECT", "BMECallLocalizationTable");
+    }
 }
