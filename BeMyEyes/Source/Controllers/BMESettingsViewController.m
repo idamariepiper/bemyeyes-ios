@@ -39,7 +39,8 @@
 
 @implementation BMESettingsViewController
 
-static NSString *const videoSegueIdentifier = @"Video";
+static NSString *const introVideoSegueIdentifier = @"Video";
+static NSString *const testCallSegueIdentifier = @"TestCall";
 
 #pragma mark -
 #pragma mark Lifecycle
@@ -62,6 +63,7 @@ static NSString *const videoSegueIdentifier = @"Video";
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+    [self updateUserTasks];
     [self populateFields];
 }
 
@@ -157,15 +159,6 @@ static NSString *const videoSegueIdentifier = @"Video";
     [mailComposeController setSubject:BMEFeedbackEmailSubject];
     [mailComposeController setMessageBody:initialBody isHTML:NO];
     [self presentViewController:mailComposeController animated:YES completion:nil];
-}
-
-- (IBAction)testCallButtonPressed:(id)sender {
-	DemoCallViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:BMEDemoCallViewController];
-    controller.callCompletion = ^(UIViewController *completion) {
-        [self dismissViewControllerAnimated:YES completion:nil];
-    };
-    
-	[self presentViewController:controller animated:YES completion:nil];
 }
 
 - (void)validateEmail {
@@ -278,8 +271,12 @@ static NSString *const videoSegueIdentifier = @"Video";
         case BMEUserTaskTypeShareOnFacebook:
             [self shareOnFacebook];
             break;
-        case BMEUserTaskTypeWatchVideo:
-            [self watchVideo];
+        case BMEUserTaskTypeWatchIntroVideo:
+            [self watchIntroVideo];
+            break;
+        case BMEUserTaskTypeMakeTestCall:
+            [self watchDemoVideo];
+            break;
         default:
             break;
     }
@@ -333,17 +330,30 @@ static NSString *const videoSegueIdentifier = @"Video";
     [self presentViewController:composeViewController animated:YES completion:nil];
 }
 
-- (void)watchVideo
+- (void)watchIntroVideo
 {
-    [self performSegueWithIdentifier:videoSegueIdentifier sender:self];
+    [self performSegueWithIdentifier:introVideoSegueIdentifier sender:self];
+}
+
+- (void)watchDemoVideo
+{
+    [self performSegueWithIdentifier:testCallSegueIdentifier sender:self];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:videoSegueIdentifier]) {
+    if ([segue.identifier isEqualToString:introVideoSegueIdentifier]) {
         IntroVideoViewController *videoController = (IntroVideoViewController *)segue.destinationViewController;
         videoController.didFinishPlaying = ^{
-            [[BMEClient sharedClient] updateUserWithTaskType:BMEUserTaskTypeWatchVideo completion:^(BOOL success, NSError *error) {
+            [[BMEClient sharedClient] updateUserWithTaskType:BMEUserTaskTypeWatchIntroVideo completion:^(BOOL success, NSError *error) {
+                [self updateUserTasks];
+            }];
+        };
+    } else if ([segue.identifier isEqualToString:testCallSegueIdentifier]) {
+        DemoCallViewController *demoCallViewController = (DemoCallViewController *)segue.destinationViewController;
+        demoCallViewController.callCompletion = ^(UIViewController *completion) {
+            [self dismissViewControllerAnimated:YES completion:nil];
+            [[BMEClient sharedClient] updateUserWithTaskType:BMEUserTaskTypeMakeTestCall completion:^(BOOL success, NSError *error) {
                 [self updateUserTasks];
             }];
         };

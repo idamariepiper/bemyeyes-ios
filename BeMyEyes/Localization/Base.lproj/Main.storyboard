@@ -2245,7 +2245,7 @@ YXdheS4
                                                 <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7nS-My-s4W">
                                                     <rect key="frame" x="14" y="4" width="292" height="46"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View the video" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDa-pe-Zox" customClass="MaskedLabel" customModule="BeMyEyes" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="View the video" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDa-pe-Zox" customClass="MaskedLabel" customModule="BeMyEyes" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="193" height="46"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2257,7 +2257,7 @@ YXdheS4
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="+ 50 Points" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNa-gM-xxi" customClass="MaskedLabel" customModule="BeMyEyes" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" misplaced="YES" text="+ 50 Points" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNa-gM-xxi" customClass="MaskedLabel" customModule="BeMyEyes" customModuleProvider="target">
                                                             <rect key="frame" x="193" y="0.0" width="99" height="46"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <nil key="highlightedColor"/>
@@ -2554,6 +2554,7 @@ YXdheS4
                         <outlet property="tasksTableView" destination="4kB-AN-5cU" id="Fr9-xO-euj"/>
                         <outlet property="versionLabel" destination="ub2-Qn-2Ma" id="eIk-44-IZo"/>
                         <segue destination="joq-0X-lAZ" kind="modal" identifier="Video" id="xwK-IP-bSD"/>
+                        <segue destination="kcj-LN-zSv" kind="modal" identifier="TestCall" id="9pK-2O-oJe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9hd-so-bqo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3655,7 +3656,7 @@ YXdheS4
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="46J-Mt-BiQ"/>
-        <segue reference="wQZ-b3-l1S"/>
         <segue reference="Zkk-7c-PpU"/>
+        <segue reference="tPL-wK-r0M"/>
     </inferredMetricsTieBreakers>
 </document>

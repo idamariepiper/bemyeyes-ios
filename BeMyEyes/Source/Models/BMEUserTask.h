@@ -14,7 +14,8 @@ typedef NS_ENUM(NSUInteger, BMEUserTaskType)
 {
     BMEUserTaskTypeShareOnTwitter = 0,
     BMEUserTaskTypeShareOnFacebook = 1,
-    BMEUserTaskTypeWatchVideo = 2,
+    BMEUserTaskTypeWatchIntroVideo = 2,
+    BMEUserTaskTypeMakeTestCall = 3,
     BMEUserTaskTypeUnknown,
 };
 
