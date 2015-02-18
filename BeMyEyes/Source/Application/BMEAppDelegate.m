@@ -49,8 +49,9 @@
         NSLog(@"API: Development");
         [GVUserDefaults standardUserDefaults].api = BMESettingsAPIDevelopment;
     } else {
-        NSLog(@"Wrong bundle id: %@", bundleId);
-        abort();
+        NSLog(@"Wrong bundle id: %@. Fallback to Development", bundleId);
+        [GVUserDefaults standardUserDefaults].api = BMESettingsAPIDevelopment;
+        isDevelopment = YES;
     }
     if (isStaging || isDevelopment) {
         self.inAppTestBadgeWindow = [[InAppTestBadge alloc] initWithType:isStaging ? @"Beta" : @"Alpha"];
@@ -58,7 +59,7 @@
         [self.window addSubview:self.inAppTestBadgeWindow];
     }
     
-    // Provisiong: Production / Development
+    // Provisioning: Production / Development
     BOOL isDebug;
 #ifdef DEBUG
     isDebug = YES;
