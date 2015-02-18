@@ -54,20 +54,16 @@
     
     UIMutableUserNotificationCategory *category = [UIMutableUserNotificationCategory new];
     category.identifier = NotificationCategoryReply;
-    [category setActions:@[replyNoAction, replyYesAction] forContext:UIUserNotificationActionContextDefault];
+    [category setActions:@[replyYesAction, replyNoAction] forContext:UIUserNotificationActionContextDefault];
     
     return [NSSet setWithObject:category];
 }
 
-+ (UIMutableUserNotificationAction*)userNotificationActionWithTitle:(NSString*)title
-                                                        identifier:(NSString*)identifier
-                                                     activationMode:(UIUserNotificationActivationMode) activationMode {
-    UIMutableUserNotificationAction* action = [[UIMutableUserNotificationAction alloc] init];
++ (UIMutableUserNotificationAction *)userNotificationActionWithTitle:(NSString *)title identifier:(NSString*)identifier activationMode:(UIUserNotificationActivationMode) activationMode {
+    UIMutableUserNotificationAction *action = [UIMutableUserNotificationAction new];
     action.title = title;
     action.identifier = identifier;
     action.activationMode = activationMode;
-    action.destructive = NO;
-    action.authenticationRequired = NO;
     return action;
 }
 
