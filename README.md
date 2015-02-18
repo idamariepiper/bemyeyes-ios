@@ -38,26 +38,22 @@ The translations are crowd sourced at [crowdin](http://crowdin.com/project/bemye
 ### Language scripts
 The `Scripts` folder contains useful scripts that automate the process of maintaining language translations. All of them require CrowdIn API key to work properly.
 
-- `upload_translations.py` - Script responsible for uploading/updating the base language strings (en).
-- `export_translations.py` - Triggers a build of the newest translations on the CrowdIn server. 
-- `update_translations.py` - Script for downloading the newest translations, unpacking them and placing in the right place within the project structure.
-- `update_translations_and_run_miaw.sh` - Bash script that exports the newest translations, downloads them and runs `MiawKit` to update string constants within the project.
+- `upload_translations.py` – Script responsible for uploading/updating the base language strings (en).
+- `export_translations.py` – Triggers a build of the newest translations on the CrowdIn server. 
+- `update_translations.py` – Script for downloading the newest translations, unpacking them and placing in the right place within the project structure.
+- `update_translations_and_run_miaw.sh` – Bash script that exports the newest translations, downloads them and runs `MiawKit` to update string constants within the project.
 
 # Release checklist
 ## Pre / Continuously
-✓ Send localizable strings files for new features to [Crowdin](https://crowdin.com/project/bemyeyes)
-
-✓ Manual integration test on alpha/development
+- Send localizable strings files for new features to [Crowdin](https://crowdin.com/project/bemyeyes)
+- Manual integration test on alpha/development
 ## Do
-✓ Pull latest localizations from [Crowdin](https://crowdin.com/project/bemyeyes) and add to project
-
-✓ Manual integration test on beta/staging
-
-✓ Submit to App Store
-
-✓ Update App Store app description + screenshots + update description
+- Pull latest localizations from [Crowdin](https://crowdin.com/project/bemyeyes) and add to project
+- Manual integration test on beta/staging
+- Submit to App Store
+- Update App Store app description + screenshots + update description
 ## Post
-✓ Manual integration test on production 
+- Manual integration test on production 
 
 # Manual integration tests
 - Signup as blind person + sighted with email
