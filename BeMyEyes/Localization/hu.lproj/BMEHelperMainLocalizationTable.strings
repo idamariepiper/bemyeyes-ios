@@ -56,7 +56,7 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Videó megtekintve";
 
 /* Points make test call description */
-"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Próbahívás vége";
 
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Megosztás Twitter-en";
@@ -68,7 +68,7 @@
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Videó megnézése";
 
 /* Task make test call description */
-"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Próbahívás";
 
 /* Community network description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "A Be My Eyes Hálózat";
@@ -92,11 +92,11 @@
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Jelenleg aktív vagy";
 
 /* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Új kép készítése";
 
 /* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Válassz a meglévők közül";
 
 /* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Profilkép hozzáadása";
 
