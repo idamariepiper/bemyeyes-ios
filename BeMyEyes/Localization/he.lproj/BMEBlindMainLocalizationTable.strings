@@ -5,11 +5,11 @@
 "BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "אישור";
 
 /* Message in alert showed when failed creating request */
-"BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שוב.";
+"BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שנית.";
 
 /* Title in alert showed when failed creating request */
 "BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE" = "כשל ביצירת הבקשה";
 
 /* Title in hud shown when creating request */
-"BME_BLIND_MAIN_HUD_CREATING_REQUEST_TITLE" = "יצירת בקשה...";
+"BME_BLIND_MAIN_HUD_CREATING_REQUEST_TITLE" = "יצירת הבקשה...";
 

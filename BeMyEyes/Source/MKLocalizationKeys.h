@@ -121,6 +121,16 @@ static NSString * const BMETermsLocalizationTable = @"BMETermsLocalizationTable"
 static NSString * const BMEVideoLocalizationTable = @"BMEVideoLocalizationTable";
 
 /*!
+ * DemoCallLocalizationTable strings file 
+ */
+static NSString * const DemoCallLocalizationTable = @"DemoCallLocalizationTable";
+
+/*!
+ * HelperWelcomeLocalizationTable strings file 
+ */
+static NSString * const HelperWelcomeLocalizationTable = @"HelperWelcomeLocalizationTable";
+
+/*!
  * LaunchScreen strings file 
  */
 static NSString * const LaunchScreen = @"LaunchScreen";
@@ -134,16 +144,6 @@ static NSString * const Localizable = @"Localizable";
  * PostCallLocalizationTable strings file 
  */
 static NSString * const PostCallLocalizationTable = @"PostCallLocalizationTable";
-
-/*!
- * DemoCallLocalizationTable strings file 
- */
-static NSString * const DemoCallLocalizationTable = @"DemoCallLocalizationTable";
-
-/*!
- * HelperWelcomeLocalizationTable strings file 
- */
-static NSString * const HelperWelcomeLocalizationTable = @"HelperWelcomeLocalizationTable";
 
 /*!
  * InfoPlist strings file 
@@ -381,6 +381,162 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_TITLE = @"BME_ACCESS_NOTIFICATI
 static NSString * const BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER = @"BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER";
 
 /*!
+ * "Answer"
+
+ * All translations:
+
+ * @b af@: "Antwoord"
+
+ * @b ar@: "الإجابة"
+
+ * @b ca@: "Respondre"
+
+ * @b cs@: "Odpovědet"
+
+ * @b da@: "Svar"
+
+ * @b de@: "Antwort"
+
+ * @b el@: "Απάντηση"
+
+ * @b en@: "Answer"
+
+ * @b es@: "Responder"
+
+ * @b fi@: "Vastaus"
+
+ * @b fr@: "Répondre"
+
+ * @b he@: "לענות"
+
+ * @b hi@: "उत्तर"
+
+ * @b hr@: "Odgovor"
+
+ * @b hu@: "Válasz"
+
+ * @b it@: "Rispondi"
+
+ * @b ja@: "応答"
+
+ * @b ko@: "응답하기"
+
+ * @b lt@: "Atsakymas"
+
+ * @b nb@: "Svar"
+
+ * @b nl@: "Antwoorden"
+
+ * @b pl@: "Odbierz"
+
+ * @b pt-BR@: "Responder"
+
+ * @b pt@: "Responder"
+
+ * @b ro@: "Răspuns"
+
+ * @b ru@: "Ответить"
+
+ * @b sk@: "Odpovedať"
+
+ * @b sr@: "Одговори"
+
+ * @b sv@: "Svara"
+
+ * @b tr@: "Cevapla"
+
+ * @b uk@: "Відповідь"
+
+ * @b ur@: "جواب"
+
+ * @b vi@: "Trả lời"
+
+ * @b zh-Hans@: "回應"
+
+ * @b zh-Hant@: "应答"
+
+ */
+static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOTIFICATION_ACTION_ANSWER";
+
+/*!
+ * "Not right now"
+
+ * All translations:
+
+ * @b af@: "Kan nie nou nie"
+
+ * @b ar@: "ليس الآن"
+
+ * @b ca@: "Ara mateix no"
+
+ * @b cs@: "Ne právě teď"
+
+ * @b da@: "Ikke lige nu"
+
+ * @b de@: "Nicht jetzt"
+
+ * @b el@: "Δεν είμαι διαθέσιμος αυτή τη στιγμή"
+
+ * @b en@: "Not right now"
+
+ * @b es@: "Ahora no"
+
+ * @b fi@: "Ei juuri nyt"
+
+ * @b fr@: "Pas maintenant"
+
+ * @b he@: "Not right now"
+
+ * @b hi@: "Not right now"
+
+ * @b hr@: "Not right now"
+
+ * @b hu@: "Később"
+
+ * @b it@: "Non ora"
+
+ * @b ja@: "Not right now"
+
+ * @b ko@: "Not right now"
+
+ * @b lt@: "Ne dabar"
+
+ * @b nb@: "Ikke akkurat nå"
+
+ * @b nl@: "Sorry, dit is even geen goed moment"
+
+ * @b pl@: "Nie teraz"
+
+ * @b pt-BR@: "Agora não"
+
+ * @b pt@: "Agora não"
+
+ * @b ro@: "Not right now"
+
+ * @b ru@: "В другой раз"
+
+ * @b sk@: "Not right now"
+
+ * @b sr@: "Trenutno ne"
+
+ * @b sv@: "Inte just nu"
+
+ * @b tr@: "Şimdi değil"
+
+ * @b uk@: "Не прямо зараз"
+
+ * @b ur@: "Not right now"
+
+ * @b vi@: "Not right now"
+
+ * @b zh-Hans@: "現在不方便"
+
+ * @b zh-Hant@: "Not right now"
+
+ */
+static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
+
+/*!
  * "Microphone"
 
  * All translations:
@@ -469,7 +625,7 @@ static NSString * const BME_ACCESS_MICROPHONE_TITLE = @"BME_ACCESS_MICROPHONE_TI
 
  * @b ca@: "Per poder parlar i guiar a la persona cega"
 
- * @b cs@: "Abyste mohli hovořit a provádět nevidomou osobu"
+ * @b cs@: "Abyste mohli vést nevidomého a hovořit s ním"
 
  * @b da@: "For at kunne at tale med og hjælpe den blinde"
 
@@ -517,7 +673,7 @@ static NSString * const BME_ACCESS_MICROPHONE_TITLE = @"BME_ACCESS_MICROPHONE_TI
 
  * @b sk@: "Aby ste boli schopný hovoriť  a sprevádzať nevidiace osoby"
 
- * @b sr@: "Имати могућност разговора и вођења слепе особе"
+ * @b sr@: "Имати могућност разговора и навођења слепе особе"
 
  * @b sv@: "För att kunna vägleda och prata med den blinda personen"
 
@@ -545,9 +701,9 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_HELPER = @"BME_ACCESS_
 
  * @b ar@: "لتتمكن من توضيح مشكلتك للمساعِد."
 
- * @b ca@: "Ser capaç d'explicar el teu problema a l'ajudant."
+ * @b ca@: "Per poder explicar el teu problema a l'ajudant."
 
- * @b cs@: "Abyste byl schopen vysvětlit váš problém pomocníkovi."
+ * @b cs@: "Abyste byli schopni vysvětlit váš problém pomocníkovi."
 
  * @b da@: "For at kunne forklare dit problem til hjælperen."
 
@@ -607,7 +763,7 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_HELPER = @"BME_ACCESS_
 
  * @b vi@: "Để có thể giải thích vấn đề của bạn cho người trợ giúp."
 
- * @b zh-Hans@: "為了能夠向義工解釋你的需要。"
+ * @b zh-Hans@: "為了能夠向志工解釋你的需要。"
 
  * @b zh-Hant@: "你能够向帮助你的人描述你所遇到的问题。"
 
@@ -703,7 +859,7 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b ca@: "No enviem el teu vídeo a la persona que estàs ajudant, però és necessari establir la connexió."
 
- * @b cs@: "My neposíláme vaše video osobě, které pomáháte, ale potřebujeme přístup ke kameře pro navázání připojení."
+ * @b cs@: "Vaše video nikomu neposíláme, je nutné pouze pro navázání spojení."
 
  * @b da@: "Vi sender ikke din video til den person du hjælper, men det er nødvendigt for at etablere forbindelsen."
 
@@ -719,7 +875,7 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b fr@: "La personne que vous aidez ne reçoit pas votre vidéo mais celle-ci est nécessaire pour établir la connexion."
 
- * @b he@: "אנחנו לא שולחים את הסרטון שלכם לאדם לו אתם עוזרים, אבל זה נדרש על מנת ליצור את החיבור."
+ * @b he@: "אין אנו שולחים את הוידיאו שלך לאדם העיוור לו אתה עוזר, אך הדבר דרוש לשם ביצוע החיבור."
 
  * @b hi@: "हम आपका वीडियो उस व्यक्ति के पास नहीं भेजते हैं जिसकी आप मदद कर रहे हैं, लेकिन कनेक्शन स्थापित करने के लिए यह आवश्यक है।"
 
@@ -757,7 +913,7 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b tr@: "Video görüntünüzü yardım ettiğiniz kişiye göndermiyoruz, ancak aradaki bağlantının sağlanabilmesi için videonuz gereklidir."
 
- * @b uk@: "Ми не показуємо ваше зображення особі, якій ви допомогаєте, але доступ до камери потрібен для встановлення зв'язку."
+ * @b uk@: "Ми не покажемо ваше зображення особі, якій ви допомагаєте, але доступ до камери потрібен для встановлення зв'язку."
 
  * @b ur@: "ہم آپ کی ویڈیو اس فرد کو نہیں ارسال کرتے جس کی مدد آپ کر رہے ہیں۔ لیکن یہ کنیکشن قائم کرنے کے لیے ضروری ہے۔"
 
@@ -779,9 +935,9 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_HELPER = @"BME_ACCESS_CAME
 
  * @b ar@: "لتتمكن من إظهار ما تحتاج المساعدة بخصوصه للمساعِد."
 
- * @b ca@: "Per poder mostrar a l'ajudant en què necessita ajuda."
+ * @b ca@: "Per poder mostrar a l'ajudant amb què necessites ajuda."
 
- * @b cs@: "Abyste byl schopen ukázat pomocníkovi s čím budete potřebovat pomoc."
+ * @b cs@: "Abyste mohli pomocníkovi vysvětlit, s čím potřebujete pomoci."
 
  * @b da@: "For at kunne vise hjælperen hvad du har brug for hjælp til."
 
@@ -797,7 +953,7 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_HELPER = @"BME_ACCESS_CAME
 
  * @b fr@: "Permet de montrer à la personne qui aide ce dont vous avez besoin."
 
- * @b he@: "על מנת להראות למסייע במה אתם צריכים עזרה."
+ * @b he@: "כדי להראות לאדם המסייע לכם במה אתם זקוקים לעזרה."
 
  * @b hi@: "सहायक को यह दिखाने में सक्षम होने के लिए कि आपको किस चीज की मदद चाहिए।"
 
@@ -951,7 +1107,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE = @"BME_
 
  * @b fr@: "Les notifications push ne sont pas activées"
 
- * @b he@: "הודעות בדחיפה אינן מופעלות"
+ * @b he@: "הודעות דחיפה אינן מופעלות"
 
  * @b hi@: "पुश सूचनाएं सक्षम नहीं हैं"
 
@@ -1237,79 +1393,235 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE = @"BME_APP_DE
 static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL";
 
 /*!
+ * "You must give the application permission to use push notifications in system settings."
+
+ * All translations:
+
+ * @b af@: "You must give the application permission to use push notifications in system settings."
+
+ * @b ar@: "You must give the application permission to use push notifications in system settings."
+
+ * @b ca@: "You must give the application permission to use push notifications in system settings."
+
+ * @b cs@: "You must give the application permission to use push notifications in system settings."
+
+ * @b da@: "You must give the application permission to use push notifications in system settings."
+
+ * @b de@: "In den Systemeinstellungen müssen Pushbenachrichtigungen für diese App erlaubt sein."
+
+ * @b el@: "You must give the application permission to use push notifications in system settings."
+
+ * @b en@: "You must give the application permission to use push notifications in system settings."
+
+ * @b es@: "Debe dar permiso para utilizar las notificaciones push en los ajustes del sistema."
+
+ * @b fi@: "You must give the application permission to use push notifications in system settings."
+
+ * @b fr@: "You must give the application permission to use push notifications in system settings."
+
+ * @b he@: "You must give the application permission to use push notifications in system settings."
+
+ * @b hi@: "You must give the application permission to use push notifications in system settings."
+
+ * @b hr@: "You must give the application permission to use push notifications in system settings."
+
+ * @b hu@: "Engedélyezni kell az alkalmazásnak a push értesítések használatát a rendszerbeállításokban."
+
+ * @b it@: "Si devono autorizzare push notifications per quest' app sul sistema."
+
+ * @b ja@: "You must give the application permission to use push notifications in system settings."
+
+ * @b ko@: "You must give the application permission to use push notifications in system settings."
+
+ * @b lt@: "You must give the application permission to use push notifications in system settings."
+
+ * @b nb@: "You must give the application permission to use push notifications in system settings."
+
+ * @b nl@: "You must give the application permission to use push notifications in system settings."
+
+ * @b pl@: "You must give the application permission to use push notifications in system settings."
+
+ * @b pt-BR@: "You must give the application permission to use push notifications in system settings."
+
+ * @b pt@: "You must give the application permission to use push notifications in system settings."
+
+ * @b ro@: "You must give the application permission to use push notifications in system settings."
+
+ * @b ru@: "Необходимо дать приложению разрешение на использование push-уведомлений в настройках системы.\n"
+
+ * @b sk@: "You must give the application permission to use push notifications in system settings."
+
+ * @b sr@: "You must give the application permission to use push notifications in system settings."
+
+ * @b sv@: "You must give the application permission to use push notifications in system settings."
+
+ * @b tr@: "You must give the application permission to use push notifications in system settings."
+
+ * @b uk@: "You must give the application permission to use push notifications in system settings."
+
+ * @b ur@: "You must give the application permission to use push notifications in system settings."
+
+ * @b vi@: "You must give the application permission to use push notifications in system settings."
+
+ * @b zh-Hans@: "You must give the application permission to use push notifications in system settings."
+
+ * @b zh-Hant@: "You must give the application permission to use push notifications in system settings."
+
+ */
+static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE";
+
+/*!
+ * "Push notifications not enabled"
+
+ * All translations:
+
+ * @b af@: "Kennisgewings nie aangeskakel nie"
+
+ * @b ar@: "الإشعارات ليست مفعّلة"
+
+ * @b ca@: "Les notificacions push estan deshabilitades"
+
+ * @b cs@: "Push oznámení nejsou povoleny"
+
+ * @b da@: "Push-meddelelser ikke aktiveret"
+
+ * @b de@: "Push-Mitteilungen nicht eingeschaltet"
+
+ * @b el@: "Οι ειδοποιήσεις push δεν είναι ενεργοποιημένες"
+
+ * @b en@: "Push notifications not enabled"
+
+ * @b es@: "Las notificaciones no están habilitadas"
+
+ * @b fi@: "Push-ilmoitukset eivät ole käytössä"
+
+ * @b fr@: "Les notifications push ne sont pas activées"
+
+ * @b he@: "הודעות דחיפה אינן מופעלות"
+
+ * @b hi@: "पुश सूचनाएं सक्षम नहीं हैं"
+
+ * @b hr@: "Push obavijesti nisu omogućene"
+
+ * @b hu@: "Nincs engedélyezve az értesítések megjelenítése"
+
+ * @b it@: "Notifiche Push non attivate"
+
+ * @b ja@: "プッシュ通知が有効になっていません"
+
+ * @b ko@: "푸시 알림을 사용할 수 없습니다"
+
+ * @b lt@: "Aktyvieji pranešimai yra išjungti"
+
+ * @b nb@: "Varslinger ikke aktivert"
+
+ * @b nl@: "Push-Meldingen zijn niet ingeschakeld"
+
+ * @b pl@: "Aktywne powiadomienia Push nie zostały włączone"
+
+ * @b pt-BR@: "Notificações não habilitadas"
+
+ * @b pt@: "Notificações desativadas"
+
+ * @b ro@: "Opțiunea pentru notificări nu este activată"
+
+ * @b ru@: "Push-уведомления отключены"
+
+ * @b sk@: "Oznámenia nie sú povolené"
+
+ * @b sr@: "Пуш обавештења нису укључена"
+
+ * @b sv@: "Notiser inte aktiverade"
+
+ * @b tr@: "Anlık bildirimler etkinleştirilmemiş."
+
+ * @b uk@: "Push-повідомлення не ввімкнені"
+
+ * @b ur@: "پُش نوٹیفکیشنز فعال نہیں ہیں"
+
+ * @b vi@: "Thông báo đẩy không kích hoạt"
+
+ * @b zh-Hans@: "未啟用推送通知"
+
+ * @b zh-Hant@: "消息通知未开启"
+
+ */
+static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE";
+
+/*!
  * "You must give the application permission to use your microphone in system settings."
 
  * All translations:
 
- * @b af@: "Jy moet toestemming gee in die stelsel verstellings vir die toepassing om jou mikrofoon te kan gebruik."
+ * @b af@: "You must give the application permission to use your microphone in system settings."
 
- * @b ar@: "يجب أن تعطي الإذن للتطبيق كي يستخدم الميكروفون الخاص بك من إعدادات النظام."
+ * @b ar@: "You must give the application permission to use your microphone in system settings."
 
- * @b ca@: "Has de donar permís a l'aplicació per utilizar el teu micrófon a la configuració del sistema."
+ * @b ca@: "You must give the application permission to use your microphone in system settings."
 
- * @b cs@: "Musíte povolit používaní mikrofonu v nastavení systému."
+ * @b cs@: "You must give the application permission to use your microphone in system settings."
 
- * @b da@: "Du skal give programmet tilladelse til at bruge din mikrofon i systemindstillingerne."
+ * @b da@: "You must give the application permission to use your microphone in system settings."
 
- * @b de@: "Du musst das Mikrofon in den Systemeinstellungen für die App freigeben."
+ * @b de@: "Für diese App muss die Nutzung des Mikrophons in den Systemeinstellungen erlaubt sein."
 
- * @b el@: "Πρέπει να δώσετε στην εφαρμογή άδεια να χρησιμοποιήσει το μικρόφωνό σας στις ρυθμίσεις συστήματος."
+ * @b el@: "You must give the application permission to use your microphone in system settings."
 
  * @b en@: "You must give the application permission to use your microphone in system settings."
 
- * @b es@: "Debes dar permiso a la aplicación para utilizar el micrófono en la configuración del sistema."
+ * @b es@: "Debe dar permiso para utilizar el micrófono en los ajustes del sistema."
 
- * @b fi@: "Sinun täytyy sallia sovelluksen käyttää mikrofoniasi järjestelmän asetuksissa."
+ * @b fi@: "You must give the application permission to use your microphone in system settings."
 
- * @b fr@: "Vous devez autoriser l'application à utiliser le micro dans les réglages de votre appareil."
+ * @b fr@: "You must give the application permission to use your microphone in system settings."
 
- * @b he@: "עליכם לאפשר לאפליקציה גישה למיקרופון בהגדרות המערכת."
+ * @b he@: "You must give the application permission to use your microphone in system settings."
 
- * @b hi@: "आपको इस एप्लिकेशन को सिस्टम सेटिंग्स में आपके माइक्रोफोन का उपयोग करने की अनुमति अवश्य देनी होगी।"
+ * @b hi@: "You must give the application permission to use your microphone in system settings."
 
- * @b hr@: "U postavkama sustava morate dozvoliti aplikaciji korištenje vašeg mikrofona."
+ * @b hr@: "You must give the application permission to use your microphone in system settings."
 
  * @b hu@: "Engedélyezni kell az alkalmazásnak a mikrofon használatát a rendszerbeállításokban."
 
- * @b it@: "Devi autorizzare l'applicazione ad usare il tuo microfono attraverso le impostazioni di sistema."
+ * @b it@: "Devi autorizzare l'uso di push notifications attraverso le impostazioni di sistema."
 
- * @b ja@: "マイクを使用するためには、「設定」でこのアプリケーションにアクセス許可を与える必要があります。"
+ * @b ja@: "You must give the application permission to use your microphone in system settings."
 
- * @b ko@: "시스템 설정에서 이 앱이 마이크를 사용할 수 있도록 허용해야 합니다."
+ * @b ko@: "You must give the application permission to use your microphone in system settings."
 
- * @b lt@: "Jūs privalote suteikti programai leidimą naudotis jūsų mikrofonu sistemos parametruose."
+ * @b lt@: "You must give the application permission to use your microphone in system settings."
 
- * @b nb@: "Du må gi programmet tillatelse til å bruke mikrofonen i systeminnstillingene."
+ * @b nb@: "You must give the application permission to use your microphone in system settings."
 
- * @b nl@: "U moet in de systeeminstellingen de app toestemming geven om uw microfoon te gebruiken."
+ * @b nl@: "You must give the application permission to use your microphone in system settings."
 
- * @b pl@: "Musisz zezwolić aplikacji na użycie mikrofonu w ustawieniach systemowych urządzenia."
+ * @b pl@: "You must give the application permission to use your microphone in system settings."
 
- * @b pt-BR@: "Você deve dar a permissão ao aplicativo para usar o microfone nas configurações do sistema."
+ * @b pt-BR@: "You must give the application permission to use your microphone in system settings."
 
- * @b pt@: "Deve permitir o uso do microfone pela aplicação nas definições do sistema."
+ * @b pt@: "You must give the application permission to use your microphone in system settings."
 
- * @b ro@: "Trebuie să permiteți aplicației  utilizarea microfonului în setările telefonului."
+ * @b ro@: "You must give the application permission to use your microphone in system settings."
 
- * @b ru@: "В настройках системы разрешите приложению использовать микрофон."
+ * @b ru@: "Необходимо в настройках системы разрешить приложению использование микрофона."
 
- * @b sk@: "Použitie mikrofónu v aplikácii musíte povoliť v systémových nastaveniach."
+ * @b sk@: "You must give the application permission to use your microphone in system settings."
 
- * @b sr@: "Морате дозволити апликацији да користи Ваш микрофон у системским подешавањима. "
+ * @b sr@: "You must give the application permission to use your microphone in system settings."
 
- * @b sv@: "Du måste ge applikationen tillåtelse att använda mikrofonen i systeminställningar."
+ * @b sv@: "You must give the application permission to use your microphone in system settings."
 
- * @b tr@: "Mikrofonunuzu kullanması için  sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
+ * @b tr@: "You must give the application permission to use your microphone in system settings."
 
- * @b uk@: "Ви повинні дати додатку дозвіл на використання мікрофона в налаштуваннях системи."
+ * @b uk@: "You must give the application permission to use your microphone in system settings."
 
- * @b ur@: "آپ کے لیے ضروری ہے کہ آپ اپنئ سسٹم کی سیٹنگز میں اپنے مائیکروفون کا استعمال کرنے کی اجازت دینی ہوگی۔"
+ * @b ur@: "You must give the application permission to use your microphone in system settings."
 
- * @b vi@: "Bạn phải cho phép ứng dụng dùng micro của bạn trong cài đặt hệ thống."
+ * @b vi@: "You must give the application permission to use your microphone in system settings."
 
- * @b zh-Hans@: "你必須給在系統設置中給予應用程序麥克風的使用權限。"
+ * @b zh-Hans@: "You must give the application permission to use your microphone in system settings."
 
- * @b zh-Hant@: "请在系统设置里打开麦克风权限。"
+ * @b zh-Hant@: "You must give the application permission to use your microphone in system settings."
 
  */
 static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE";
@@ -1397,75 +1709,75 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * All translations:
 
- * @b af@: "Jy moet toestemming gee in die stelsel verstellings vir die toepassing om jou kamera te kan gebruik."
+ * @b af@: "You must give the application permission to use your camera in system settings."
 
- * @b ar@: "يجب أن تعطي الإذن للتطبيق كي يستخدم الكاميرا الخاص بك من إعدادات النظام."
+ * @b ar@: "You must give the application permission to use your camera in system settings."
 
- * @b ca@: "Has de donar permís a l'aplicació per utilitzar la càmera a la configuració del sistema."
+ * @b ca@: "You must give the application permission to use your camera in system settings."
 
- * @b cs@: "Musíte dát oprávnění používat fotoaparát v nastavení systému."
+ * @b cs@: "You must give the application permission to use your camera in system settings."
 
- * @b da@: "Du skal give programmet tilladelse til at bruge dit kamera i systemindstillingerne."
+ * @b da@: "You must give the application permission to use your camera in system settings."
 
- * @b de@: "Du musst den Kamera-Zugriff in den Systemeinstellungen für die App erlauben."
+ * @b de@: "Die Nutzung der Kamera muss für diese App in den Systemeinstellungen erlaubt sein."
 
- * @b el@: "Πρέπει να δώσετε στην εφαρμογή άδεια να χρησιμοποιήσει την κάμερα σας στις ρυθμίσεις συστήματος."
+ * @b el@: "You must give the application permission to use your camera in system settings."
 
  * @b en@: "You must give the application permission to use your camera in system settings."
 
- * @b es@: "Debes dar permiso a la aplicación para utilizar la cámara en la configuración del sistema."
+ * @b es@: "Debe dar permiso para utilizar la cámara en los ajustes del sistema."
 
- * @b fi@: "Sinun täytyy sallia sovelluksen käyttää kameraasi järjestelmän asetuksissa."
+ * @b fi@: "You must give the application permission to use your camera in system settings."
 
- * @b fr@: "Vous devez autoriser l'application à utiliser la vidéo dans les réglages de votre appareil."
+ * @b fr@: "You must give the application permission to use your camera in system settings."
 
- * @b he@: "עליכם לאפשר לאפליקצייה גישה למצלמה בהגדרות המערכת."
+ * @b he@: "You must give the application permission to use your camera in system settings."
 
- * @b hi@: "आपको इस एप्लिकेशन को सिस्टम सेटिंग्स में आपके कैमरे का उपयोग करने की अनुमति देनी होगी।"
+ * @b hi@: "You must give the application permission to use your camera in system settings."
 
- * @b hr@: "U postavkama sustava morate dozvoliti aplikaciji korištenje vaše kamere."
+ * @b hr@: "You must give the application permission to use your camera in system settings."
 
  * @b hu@: "Engedélyezni kell az alkalmazásnak a kamera használatát a rendszerbeállításokban."
 
  * @b it@: "Devi autorizzare l'uso della tua fotocamera attraverso le impostazioni di sistema."
 
- * @b ja@: "カメラを使用するためには、「設定」でこのアプリケーションにアクセス許可を与える必要があります。"
+ * @b ja@: "You must give the application permission to use your camera in system settings."
 
- * @b ko@: "시스템 설정에서 이 앱이 카메라를 사용할 수 있도록 허용해야 합니다."
+ * @b ko@: "You must give the application permission to use your camera in system settings."
 
- * @b lt@: "Jūs privalote suteikti programai leidimą naudotis jūsų kamera sistemos parametruose."
+ * @b lt@: "You must give the application permission to use your camera in system settings."
 
- * @b nb@: "Du må gi programmet tillatelse til å bruke kameraet i systeminnstillingene."
+ * @b nb@: "You must give the application permission to use your camera in system settings."
 
- * @b nl@: "U moet in de systeeminstellingen de app toestemming geven om uw camera te gebruiken ."
+ * @b nl@: "You must give the application permission to use your camera in system settings."
 
- * @b pl@: "Musisz zezwolić aplikacji na korzystanie z kamery w ustawieniach systemowych urządzenia."
+ * @b pl@: "You must give the application permission to use your camera in system settings."
 
- * @b pt-BR@: "Você deve dar a permissão ao aplicativo para usar a câmera nas configurações do sistema."
+ * @b pt-BR@: "You must give the application permission to use your camera in system settings."
 
- * @b pt@: "Deve permitir o uso da câmara pela aplicação nas definições do sistema."
+ * @b pt@: "You must give the application permission to use your camera in system settings."
 
- * @b ro@: "Trebuie să acordați permisiune aplicației să folosească camera telefonului in meniul setări."
+ * @b ro@: "You must give the application permission to use your camera in system settings."
 
  * @b ru@: "В настройках системы разрешите приложению доступ к камере."
 
- * @b sk@: "Použitie videokamery v aplikácii musíte povoliť v systémových nastaveniach."
+ * @b sk@: "You must give the application permission to use your camera in system settings."
 
- * @b sr@: "Морате дати апликацији дозволу да користи Вашу камеру у системским подешавањима."
+ * @b sr@: "You must give the application permission to use your camera in system settings."
 
- * @b sv@: "Du måste ge applikationen tillåtelse att använda kameran i systeminställningar."
+ * @b sv@: "You must give the application permission to use your camera in system settings."
 
- * @b tr@: "Kameranızı kullanması için sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
+ * @b tr@: "You must give the application permission to use your camera in system settings."
 
- * @b uk@: "Ви повинні дати дозвіл додатку на використання камери в налаштуваннях системи."
+ * @b uk@: "You must give the application permission to use your camera in system settings."
 
- * @b ur@: "آپ کو چاہیئے کہ آپ سسٹم سیٹنگز میں اپنے کیمرے کے استعمال کی اجازت دیں۔"
+ * @b ur@: "You must give the application permission to use your camera in system settings."
 
- * @b vi@: "Bạn phải cho phép ứng dụng dùng camera của bạn trong cài đặt hệ thống."
+ * @b vi@: "You must give the application permission to use your camera in system settings."
 
- * @b zh-Hans@: "你必須給在系統設置中給予應用程序照相機的使用權限。"
+ * @b zh-Hans@: "You must give the application permission to use your camera in system settings."
 
- * @b zh-Hant@: "请在系统设置里打开相机权限。"
+ * @b zh-Hant@: "You must give the application permission to use your camera in system settings."
 
  */
 static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE";
@@ -2121,7 +2433,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL
 
  * @b fr@: "La demande d'aide n'a malheureusement pas pu être chargée. Pas d'inquiétude, quelqu'un d'autre va y répondre."
 
- * @b he@: "טעינת הבקשה הנוכחית לא הצליחה. אל דאגה, מישהו אחר יטפל בבקשה."
+ * @b he@: "טעינת הבקשה לעזרה לא הצליחה. אל דאגה, מישהו אחר יענה לבקשה."
 
  * @b hi@: "लंबित अनुरोध लोड नहीं किया जा सकता है। चिंता मत करें, कोई अन्य अनुरोध का जवाब देगा।"
 
@@ -2199,7 +2511,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAG
 
  * @b fr@: "Demande non chargée"
 
- * @b he@: "הבקשה לא נטענה"
+ * @b he@: "טעינת הבקשה לא הצליחה"
 
  * @b hi@: "अनुरोध लोड नहीं किया गया"
 
@@ -2429,7 +2741,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b es@: "El dispositivo no estaba registrado para recibir notificaciones. Esto podría significar que la aplicación ha sido iniciada incorrectamente."
 
- * @b fi@: "Laitetta ei ole rekisteröity vastaanottamaan push-ilmoituksia. Tämä voi johtua siitä, että sovelluksen allekirjoutus on virheellinen."
+ * @b fi@: "Laitetta ei ole rekisteröity vastaanottamaan push-ilmoituksia. Tämä voi johtua siitä, että sovelluksen allekirjoitus on virheellinen."
 
  * @b fr@: "L'appareil ne peut pas recevoir de notifications push. L'application n'est peut-être pas enregistrée correctement."
 
@@ -2511,7 +2823,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -2665,7 +2977,7 @@ static NSString * const BME_BLIND_INTRO_CONTINUE = @"BME_BLIND_INTRO_CONTINUE";
 
  * @b fr@: "Cette application permet de vous mettre en contact avec une personne voyante qui vous aide à distance. Grâce à une connexion vidéo, la personne qui vous aide vous indique ce qu'elle voit lorsque vous dirigez votre téléphone dans une direction donnée.\n\nLes personnes qui aident au sein du réseau Be My Eyes sont bénévoles et nous ne pouvons pas garantir la qualité de leur intervention, ni être tenus responsables de leurs actions. En outre, comme nous nous appuyons sur des personnes réelles pour vous aider, nous vous encourageons à être patients lorsque vous demandez de l'aide.\n\nIl est interdit d'utiliser ce service pour partager du contenu illégal, obscène, à caractère haineux ou sexuel et il est recommandé de ne jamais échanger d'informations sensibles telles que vos numéros de cartes de crédit, de passeport ainsi que toute autre information personnelle."
 
- * @b he@: "האפליקיצייה תקשר ביניכם בזמן אמת לעוזר רואה שיסייע לכם מרחוק עם משימות הדורשות עזרה מאדם רואה - באמצעות שיחת וידאו חיה, העוזר יגיד לכם מה הוא רואה כאשר תכוונו את הטלפון שלכם על בכיוון מסוים. \n\n העוזרים ברשת Be My Eyes הם מתנדבים ואין לנו אפשרות להתחייב לאיכות הסיוע שיעניקו או להיות אחראים למעשיהם. יתרה מזו, היות שאנחנו מסתמכים על אנשים אמיתיים על מנת לעזור לכם, אנחנו מציעים להיות סבלניים בעת בקשת עזרה.  \n\n בשום פנים ואופן אין לשתף תוכן עירום, לא חוקי, פוגעני או בעל אופי מיני באמצעות השירות ולעולם אין לחשוף מידע רגיש כגון כרטיס אשראי, דרכון או מידע אישי אחר. "
+ * @b he@: "האפליקיצייה תקשר אותך בזמן אמת עם מסייע רואה שיעזור לך מרחוק עם משימות הדורשות עזרה מאדם רואה - באמצעות שיחת וידאו חיה, המסייע יגיד לך מה הוא או היא רואה כאשר הנך מכוון את הטלפון שלך על משהו. \n\n המסייעים ברשת Be My Eyes הם מתנדבים ואין לנו אפשרות להתחייב לאיכות הסיוע שיעניקו או להיות אחראים למעשיהם. יתרה מזו, היות ואנחנו מסתמכים על אנשים אמיתיים על מנת לעזור לכם, אנחנו מבקשים להתעזר בסבלנות בעת בקשת העזרה.  \n\n בשום פנים ואופן אין לשתף תוכן עירום, לא חוקי, פוגעני או בעל אופי מיני באמצעות השירות ולעולם אין לחשוף מידע רגיש כגון כרטיס אשראי, דרכון או מידע אישי אחר. "
 
  * @b hi@: "यह एप्लिकेशन आपको एक आंखों वाले व्यक्ति के साथ लाइव संपर्क प्रदान करेगा जो रिमोट तरीके से आवश्यक सहायता प्राप्त करने में आपकी मदद करेगा - जब आप अपना फोन किसी चीज की तरफ करेंगे तब यह सहायक लाइव वीडियो कनेक्शन के माध्यम से आपको बताएगा कि वह क्या देख रहा है।\n\nBe My Eyes नेटवर्क के सहायक स्वयंसेवक हैं और हम उनकी मदद की गुणवत्ता की गारंटी या उनके किसी भी कार्य की जिम्मेदारी नहीं ले सकते हैं। इसके अलावा, चूंकि हम आपकी मदद के लिए असली लोगों पर भरोसा करते हैं इसलिए मदद का अनुरोध करते समय हम आपको धैर्य रखने के लिए प्रोत्साहित करते हैं।\n\nआप किसी भी परिस्थिति में इस सेवा के माध्यम से कोई भी नग्न, गैरकानूनी, घृणित या कामोत्तेजक सामग्री साझा नहीं कर सकते हैं, और आपको कभी भी क्रेडिट कार्ड, पासपोर्ट या अन्य व्यक्तिगत जानकारी जैसी कोई भी संवेदनशील जानकारी नहीं दिखानी चाहिए।"
 
@@ -2899,7 +3211,7 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"
 
  * @b fr@: "La demande n'a pas pu aboutir. Merci de recommencer."
 
- * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שוב."
+ * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שנית."
 
  * @b hi@: "अनुरोध को बनाया नहीं जा सका। कृपया पुन: प्रयास करें।"
 
@@ -3055,7 +3367,7 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE = @"B
 
  * @b fr@: "Création de la demande..."
 
- * @b he@: "יצירת בקשה..."
+ * @b he@: "יצירת הבקשה..."
 
  * @b hi@: "अनुरोध बनाया जा रहा है..."
 
@@ -3835,7 +4147,7 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"BME_CA
 
  * @b fr@: "La demande n'a pas pu aboutir. Merci de recommencer."
 
- * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שוב."
+ * @b he@: "לא הייתה אפשרות ליצור את את הבקשה. אנא נסו שנית."
 
  * @b hi@: "अनुरोध को बनाया नहीं जा सका। कृपया पुन: प्रयास करें।"
 
@@ -4303,7 +4615,7 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE = @"BME_
 
  * @b fr@: "Création de la demande..."
 
- * @b he@: "יצירת בקשה..."
+ * @b he@: "יצירת הבקשה..."
 
  * @b hi@: "अनुरोध बनाया जा रहा है..."
 
@@ -5161,7 +5473,7 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE = @"BME_CAL
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -6423,7 +6735,7 @@ static NSString * const BME_FRONT_PAGE_ASK_FOR_ROLE = @"BME_FRONT_PAGE_ASK_FOR_R
 
  * @b nl@: "Ik ben ziend"
 
- * @b pl@: "Jestem widomy"
+ * @b pl@: "Jestem osobą widzącą"
 
  * @b pt-BR@: "Eu enxergo"
 
@@ -6611,6 +6923,240 @@ static NSString * const BME_FRONT_PAGE_BLIND_ROLE = @"BME_FRONT_PAGE_BLIND_ROLE"
 static NSString * const BME_FRONT_PAGE_ALREADY_REGISTERED = @"BME_FRONT_PAGE_ALREADY_REGISTERED";
 
 /*!
+ * "Be My Eyes"
+
+ * All translations:
+
+ * @b af@: "Be My Eyes"
+
+ * @b ar@: "Be My Eyes"
+
+ * @b ca@: "Be My Eyes"
+
+ * @b cs@: "Be My Eyes"
+
+ * @b da@: "Be My Eyes"
+
+ * @b de@: "Be My Eyes"
+
+ * @b el@: "Be My Eyes"
+
+ * @b en@: "Be My Eyes"
+
+ * @b es@: "Be My Eyes"
+
+ * @b fi@: "Be My Eyes"
+
+ * @b fr@: "Be My Eyes"
+
+ * @b he@: "Be My Eyes"
+
+ * @b hi@: "Be My Eyes"
+
+ * @b hr@: "Be My Eyes"
+
+ * @b hu@: "Be My Eyes"
+
+ * @b it@: "Be My Eyes"
+
+ * @b ja@: "Be My Eyes"
+
+ * @b ko@: "Be My Eyes"
+
+ * @b lt@: "Be My Eyes"
+
+ * @b nb@: "Be My Eyes"
+
+ * @b nl@: "Be My Eyes"
+
+ * @b pl@: "Be My Eyes"
+
+ * @b pt-BR@: "Be My Eyes"
+
+ * @b pt@: "Be My Eyes"
+
+ * @b ro@: "Be My Eyes"
+
+ * @b ru@: "Be My Eyes"
+
+ * @b sk@: "Be My Eyes"
+
+ * @b sr@: "Be My Eyes"
+
+ * @b sv@: "Be My Eyes"
+
+ * @b tr@: "Be My Eyes"
+
+ * @b uk@: "Be My Eyes"
+
+ * @b ur@: "Be My Eyes"
+
+ * @b vi@: "Be My Eyes"
+
+ * @b zh-Hans@: "Be My Eyes"
+
+ * @b zh-Hant@: "Be My Eyes"
+
+ */
+static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE";
+
+/*!
+ * "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * All translations:
+
+ * @b af@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b ar@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b ca@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b cs@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b da@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b de@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b el@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b en@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b es@: "VoiceOver debe estar activado para registrarse como un usuario ciego. Ve a Ajustes > General > Accesibilidad > VoiceOver"
+
+ * @b fi@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b fr@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b he@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b hi@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b hr@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b hu@: "A felolvasónak be kell lennie kapcsolva ahhoz, hogy látássérült felhasználóként regisztrálni tudj. A bekapcsoláshoz menj a Rendszerbeállítások > Általános > Kisegítő lehetőségek > Felolvasó menüponthoz"
+
+ * @b it@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b ja@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b ko@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b lt@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b nb@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b nl@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b pl@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b pt-BR@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b pt@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b ro@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b ru@: "Для регистрации незрячего пользователя должен быть включен VoiceOver. Войдите в Настройки > Основные > Универсальный доступ > VoiceOver"
+
+ * @b sk@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b sr@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b sv@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b tr@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b uk@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b ur@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b vi@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b zh-Hans@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ * @b zh-Hant@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+
+ */
+static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY";
+
+/*!
+ * "Ok"
+
+ * All translations:
+
+ * @b af@: "Goed"
+
+ * @b ar@: "موافق"
+
+ * @b ca@: "D'acord"
+
+ * @b cs@: "Ok"
+
+ * @b da@: "Ok"
+
+ * @b de@: "Ok"
+
+ * @b el@: "Εντάξι"
+
+ * @b en@: "Ok"
+
+ * @b es@: "Ok"
+
+ * @b fi@: "OK"
+
+ * @b fr@: "Ok"
+
+ * @b he@: "בסדר"
+
+ * @b hi@: "ठीक है"
+
+ * @b hr@: "U redu"
+
+ * @b hu@: "OK"
+
+ * @b it@: "Ok"
+
+ * @b ja@: "OK"
+
+ * @b ko@: "확인"
+
+ * @b lt@: "Gerai"
+
+ * @b nb@: "Ok"
+
+ * @b nl@: "OK"
+
+ * @b pl@: "Ok"
+
+ * @b pt-BR@: "Ok"
+
+ * @b pt@: "OK"
+
+ * @b ro@: "ok"
+
+ * @b ru@: "ОК"
+
+ * @b sk@: "OK"
+
+ * @b sr@: "У реду"
+
+ * @b sv@: "OK"
+
+ * @b tr@: "Tamam"
+
+ * @b uk@: "Ок"
+
+ * @b ur@: "ٹھیک ہے"
+
+ * @b vi@: "Ok"
+
+ * @b zh-Hans@: "好"
+
+ * @b zh-Hant@: "好的"
+
+ */
+static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON";
+
+/*!
  * All translations:
 
  * @b af@: "Terug"
@@ -6633,7 +7179,7 @@ static NSString * const BME_FRONT_PAGE_ALREADY_REGISTERED = @"BME_FRONT_PAGE_ALR
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -7227,7 +7773,7 @@ static NSString * const BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION = @"BME_HELPER_
 
  * @b cs@: "Bodů celkem"
 
- * @b da@: "Totale points"
+ * @b da@: "Totale point"
 
  * @b de@: "Punkte insgesamt"
 
@@ -7695,7 +8241,7 @@ static NSString * const BME_HELPER_MAIN_LEVEL_MASTER_HELPER = @"BME_HELPER_MAIN_
 
  * @b cs@: "%d bodů do další úrovně"
 
- * @b da@: "%d points til næste niveau"
+ * @b da@: "%d point til næste niveau"
 
  * @b de@: "%d Punkte bis zum nächsten Level"
 
@@ -7773,7 +8319,7 @@ static NSString * const BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION = @"BME_HE
 
  * @b cs@: "Úspěšná registrace"
 
- * @b da@: "Successful registrering"
+ * @b da@: "Succesfuld registrering"
 
  * @b de@: "Erfolgreiche Registrierung"
 
@@ -8457,6 +9003,84 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTI
 static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION";
 
 /*!
+ * "Made test call"
+
+ * All translations:
+
+ * @b af@: "Made test call"
+
+ * @b ar@: "Made test call"
+
+ * @b ca@: "Made test call"
+
+ * @b cs@: "Made test call"
+
+ * @b da@: "Made test call"
+
+ * @b de@: "Made test call"
+
+ * @b el@: "Made test call"
+
+ * @b en@: "Made test call"
+
+ * @b es@: "Hacer llamada de prueba"
+
+ * @b fi@: "Made test call"
+
+ * @b fr@: "Made test call"
+
+ * @b he@: "Made test call"
+
+ * @b hi@: "Made test call"
+
+ * @b hr@: "Made test call"
+
+ * @b hu@: "Próbahívás vége"
+
+ * @b it@: "Made test call"
+
+ * @b ja@: "Made test call"
+
+ * @b ko@: "Made test call"
+
+ * @b lt@: "Made test call"
+
+ * @b nb@: "Made test call"
+
+ * @b nl@: "Made test call"
+
+ * @b pl@: "Made test call"
+
+ * @b pt-BR@: "Made test call"
+
+ * @b pt@: "Made test call"
+
+ * @b ro@: "Made test call"
+
+ * @b ru@: "Сделан тестовый звонок"
+
+ * @b sk@: "Made test call"
+
+ * @b sr@: "Made test call"
+
+ * @b sv@: "Made test call"
+
+ * @b tr@: "Made test call"
+
+ * @b uk@: "Made test call"
+
+ * @b ur@: "Made test call"
+
+ * @b vi@: "Made test call"
+
+ * @b zh-Hans@: "Made test call"
+
+ * @b zh-Hant@: "Made test call"
+
+ */
+static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION";
+
+/*!
  * "Share on Twitter"
 
  * All translations:
@@ -8691,6 +9315,84 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION = @"B
 static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION";
 
 /*!
+ * "Make test call"
+
+ * All translations:
+
+ * @b af@: "Make test call"
+
+ * @b ar@: "Make test call"
+
+ * @b ca@: "Make test call"
+
+ * @b cs@: "Make test call"
+
+ * @b da@: "Make test call"
+
+ * @b de@: "Make test call"
+
+ * @b el@: "Make test call"
+
+ * @b en@: "Make test call"
+
+ * @b es@: "Hacer llamada de prueba"
+
+ * @b fi@: "Make test call"
+
+ * @b fr@: "Make test call"
+
+ * @b he@: "Make test call"
+
+ * @b hi@: "Make test call"
+
+ * @b hr@: "Make test call"
+
+ * @b hu@: "Próbahívás"
+
+ * @b it@: "Make test call"
+
+ * @b ja@: "Make test call"
+
+ * @b ko@: "Make test call"
+
+ * @b lt@: "Make test call"
+
+ * @b nb@: "Make test call"
+
+ * @b nl@: "Make test call"
+
+ * @b pl@: "Make test call"
+
+ * @b pt-BR@: "Make test call"
+
+ * @b pt@: "Make test call"
+
+ * @b ro@: "Make test call"
+
+ * @b ru@: "Сделать тестовый звонок"
+
+ * @b sk@: "Make test call"
+
+ * @b sr@: "Make test call"
+
+ * @b sv@: "Make test call"
+
+ * @b tr@: "Make test call"
+
+ * @b uk@: "Make test call"
+
+ * @b ur@: "Make test call"
+
+ * @b vi@: "Make test call"
+
+ * @b zh-Hans@: "Make test call"
+
+ * @b zh-Hant@: "Make test call"
+
+ */
+static NSString * const BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION";
+
+/*!
  * "The Be My Eyes Network"
 
  * All translations:
@@ -8815,7 +9517,7 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION = @"BME_HE
 
  * @b nl@: "Ziend"
 
- * @b pl@: "Słabowidzący"
+ * @b pl@: "Widzących"
 
  * @b pt-BR@: "Voluntário"
 
@@ -9237,6 +9939,240 @@ static NSString * const BME_HELPER_MAIN_RETRY_LOADING_POINT = @"BME_HELPER_MAIN_
 static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT";
 
 /*!
+ * "Take new"
+
+ * All translations:
+
+ * @b af@: "Take new"
+
+ * @b ar@: "Take new"
+
+ * @b ca@: "Take new"
+
+ * @b cs@: "Take new"
+
+ * @b da@: "Take new"
+
+ * @b de@: "Take new"
+
+ * @b el@: "Take new"
+
+ * @b en@: "Take new"
+
+ * @b es@: "Tomar nueva"
+
+ * @b fi@: "Take new"
+
+ * @b fr@: "Take new"
+
+ * @b he@: "Take new"
+
+ * @b hi@: "Take new"
+
+ * @b hr@: "Take new"
+
+ * @b hu@: "Új kép készítése"
+
+ * @b it@: "Take new"
+
+ * @b ja@: "Take new"
+
+ * @b ko@: "Take new"
+
+ * @b lt@: "Take new"
+
+ * @b nb@: "Take new"
+
+ * @b nl@: "Take new"
+
+ * @b pl@: "Take new"
+
+ * @b pt-BR@: "Take new"
+
+ * @b pt@: "Take new"
+
+ * @b ro@: "Take new"
+
+ * @b ru@: "Сделать новое"
+
+ * @b sk@: "Take new"
+
+ * @b sr@: "Take new"
+
+ * @b sv@: "Take new"
+
+ * @b tr@: "Take new"
+
+ * @b uk@: "Take new"
+
+ * @b ur@: "Take new"
+
+ * @b vi@: "Take new"
+
+ * @b zh-Hans@: "Take new"
+
+ * @b zh-Hant@: "Take new"
+
+ */
+static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW";
+
+/*!
+ * "Choose existing"
+
+ * All translations:
+
+ * @b af@: "Choose existing"
+
+ * @b ar@: "Choose existing"
+
+ * @b ca@: "Choose existing"
+
+ * @b cs@: "Choose existing"
+
+ * @b da@: "Choose existing"
+
+ * @b de@: "Choose existing"
+
+ * @b el@: "Choose existing"
+
+ * @b en@: "Choose existing"
+
+ * @b es@: "Elegir existente"
+
+ * @b fi@: "Choose existing"
+
+ * @b fr@: "Choose existing"
+
+ * @b he@: "Choose existing"
+
+ * @b hi@: "Choose existing"
+
+ * @b hr@: "Choose existing"
+
+ * @b hu@: "Válassz a meglévők közül"
+
+ * @b it@: "Choose existing"
+
+ * @b ja@: "Choose existing"
+
+ * @b ko@: "Choose existing"
+
+ * @b lt@: "Choose existing"
+
+ * @b nb@: "Choose existing"
+
+ * @b nl@: "Choose existing"
+
+ * @b pl@: "Choose existing"
+
+ * @b pt-BR@: "Choose existing"
+
+ * @b pt@: "Choose existing"
+
+ * @b ro@: "Choose existing"
+
+ * @b ru@: "Выбрать существующее"
+
+ * @b sk@: "Choose existing"
+
+ * @b sr@: "Choose existing"
+
+ * @b sv@: "Choose existing"
+
+ * @b tr@: "Choose existing"
+
+ * @b uk@: "Choose existing"
+
+ * @b ur@: "Choose existing"
+
+ * @b vi@: "Choose existing"
+
+ * @b zh-Hans@: "Choose existing"
+
+ * @b zh-Hant@: "Choose existing"
+
+ */
+static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING";
+
+/*!
+ * "Add profile photo"
+
+ * All translations:
+
+ * @b af@: "Add profile photo"
+
+ * @b ar@: "Add profile photo"
+
+ * @b ca@: "Add profile photo"
+
+ * @b cs@: "Add profile photo"
+
+ * @b da@: "Add profile photo"
+
+ * @b de@: "Add profile photo"
+
+ * @b el@: "Add profile photo"
+
+ * @b en@: "Add profile photo"
+
+ * @b es@: "Añadir foto de perfil"
+
+ * @b fi@: "Add profile photo"
+
+ * @b fr@: "Add profile photo"
+
+ * @b he@: "Add profile photo"
+
+ * @b hi@: "Add profile photo"
+
+ * @b hr@: "Add profile photo"
+
+ * @b hu@: "Profilkép hozzáadása"
+
+ * @b it@: "Add profile photo"
+
+ * @b ja@: "Add profile photo"
+
+ * @b ko@: "Add profile photo"
+
+ * @b lt@: "Add profile photo"
+
+ * @b nb@: "Add profile photo"
+
+ * @b nl@: "Add profile photo"
+
+ * @b pl@: "Add profile photo"
+
+ * @b pt-BR@: "Add profile photo"
+
+ * @b pt@: "Add profile photo"
+
+ * @b ro@: "Add profile photo"
+
+ * @b ru@: "Добавить фото к профилю"
+
+ * @b sk@: "Add profile photo"
+
+ * @b sr@: "Add profile photo"
+
+ * @b sv@: "Add profile photo"
+
+ * @b tr@: "Add profile photo"
+
+ * @b uk@: "Add profile photo"
+
+ * @b ur@: "Add profile photo"
+
+ * @b vi@: "Add profile photo"
+
+ * @b zh-Hans@: "Add profile photo"
+
+ * @b zh-Hant@: "Add profile photo"
+
+ */
+static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE = @"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE";
+
+/*!
  * "Selected"
 
  * All translations:
@@ -9627,6 +10563,318 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE = @"BME_LANGU
 static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE";
 
 /*!
+ * "You have no languages selected"
+
+ * All translations:
+
+ * @b af@: "You have no languages selected"
+
+ * @b ar@: "You have no languages selected"
+
+ * @b ca@: "You have no languages selected"
+
+ * @b cs@: "You have no languages selected"
+
+ * @b da@: "You have no languages selected"
+
+ * @b de@: "You have no languages selected"
+
+ * @b el@: "You have no languages selected"
+
+ * @b en@: "You have no languages selected"
+
+ * @b es@: "No has seleccionado ningún idioma"
+
+ * @b fi@: "You have no languages selected"
+
+ * @b fr@: "You have no languages selected"
+
+ * @b he@: "You have no languages selected"
+
+ * @b hi@: "You have no languages selected"
+
+ * @b hr@: "You have no languages selected"
+
+ * @b hu@: "Nem választottál ki egyetlen nyelvet sem"
+
+ * @b it@: "You have no languages selected"
+
+ * @b ja@: "You have no languages selected"
+
+ * @b ko@: "You have no languages selected"
+
+ * @b lt@: "You have no languages selected"
+
+ * @b nb@: "You have no languages selected"
+
+ * @b nl@: "You have no languages selected"
+
+ * @b pl@: "You have no languages selected"
+
+ * @b pt-BR@: "You have no languages selected"
+
+ * @b pt@: "You have no languages selected"
+
+ * @b ro@: "You have no languages selected"
+
+ * @b ru@: "Язык не выбран"
+
+ * @b sk@: "You have no languages selected"
+
+ * @b sr@: "You have no languages selected"
+
+ * @b sv@: "You have no languages selected"
+
+ * @b tr@: "You have no languages selected"
+
+ * @b uk@: "You have no languages selected"
+
+ * @b ur@: "You have no languages selected"
+
+ * @b vi@: "You have no languages selected"
+
+ * @b zh-Hans@: "You have no languages selected"
+
+ * @b zh-Hant@: "You have no languages selected"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED";
+
+/*!
+ * "Are you sure you want to proceed?"
+
+ * All translations:
+
+ * @b af@: "Are you sure you want to proceed?"
+
+ * @b ar@: "Are you sure you want to proceed?"
+
+ * @b ca@: "Are you sure you want to proceed?"
+
+ * @b cs@: "Are you sure you want to proceed?"
+
+ * @b da@: "Are you sure you want to proceed?"
+
+ * @b de@: "Are you sure you want to proceed?"
+
+ * @b el@: "Are you sure you want to proceed?"
+
+ * @b en@: "Are you sure you want to proceed?"
+
+ * @b es@: "¿Estás seguro de que desea continuar?"
+
+ * @b fi@: "Are you sure you want to proceed?"
+
+ * @b fr@: "Are you sure you want to proceed?"
+
+ * @b he@: "Are you sure you want to proceed?"
+
+ * @b hi@: "Are you sure you want to proceed?"
+
+ * @b hr@: "Are you sure you want to proceed?"
+
+ * @b hu@: "Biztosan folytatod?"
+
+ * @b it@: "Are you sure you want to proceed?"
+
+ * @b ja@: "Are you sure you want to proceed?"
+
+ * @b ko@: "Are you sure you want to proceed?"
+
+ * @b lt@: "Are you sure you want to proceed?"
+
+ * @b nb@: "Are you sure you want to proceed?"
+
+ * @b nl@: "Are you sure you want to proceed?"
+
+ * @b pl@: "Are you sure you want to proceed?"
+
+ * @b pt-BR@: "Are you sure you want to proceed?"
+
+ * @b pt@: "Are you sure you want to proceed?"
+
+ * @b ro@: "Are you sure you want to proceed?"
+
+ * @b ru@: "Вы точно хотите продолжить?"
+
+ * @b sk@: "Are you sure you want to proceed?"
+
+ * @b sr@: "Are you sure you want to proceed?"
+
+ * @b sv@: "Are you sure you want to proceed?"
+
+ * @b tr@: "Are you sure you want to proceed?"
+
+ * @b uk@: "Are you sure you want to proceed?"
+
+ * @b ur@: "Are you sure you want to proceed?"
+
+ * @b vi@: "Are you sure you want to proceed?"
+
+ * @b zh-Hans@: "Are you sure you want to proceed?"
+
+ * @b zh-Hant@: "Are you sure you want to proceed?"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION";
+
+/*!
+ * "Yes"
+
+ * All translations:
+
+ * @b af@: "Yes"
+
+ * @b ar@: "Yes"
+
+ * @b ca@: "Yes"
+
+ * @b cs@: "Yes"
+
+ * @b da@: "Yes"
+
+ * @b de@: "Yes"
+
+ * @b el@: "Yes"
+
+ * @b en@: "Yes"
+
+ * @b es@: "Sí"
+
+ * @b fi@: "Yes"
+
+ * @b fr@: "Yes"
+
+ * @b he@: "Yes"
+
+ * @b hi@: "Yes"
+
+ * @b hr@: "Yes"
+
+ * @b hu@: "Igen"
+
+ * @b it@: "Yes"
+
+ * @b ja@: "Yes"
+
+ * @b ko@: "Yes"
+
+ * @b lt@: "Yes"
+
+ * @b nb@: "Yes"
+
+ * @b nl@: "Yes"
+
+ * @b pl@: "Yes"
+
+ * @b pt-BR@: "Yes"
+
+ * @b pt@: "Yes"
+
+ * @b ro@: "Yes"
+
+ * @b ru@: "Да"
+
+ * @b sk@: "Yes"
+
+ * @b sr@: "Yes"
+
+ * @b sv@: "Yes"
+
+ * @b tr@: "Yes"
+
+ * @b uk@: "Yes"
+
+ * @b ur@: "Yes"
+
+ * @b vi@: "Yes"
+
+ * @b zh-Hans@: "Yes"
+
+ * @b zh-Hant@: "Yes"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES";
+
+/*!
+ * "No"
+
+ * All translations:
+
+ * @b af@: "Nee"
+
+ * @b ar@: "لا"
+
+ * @b ca@: "No"
+
+ * @b cs@: "Ne"
+
+ * @b da@: "Nej"
+
+ * @b de@: "Nein"
+
+ * @b el@: "Όχι"
+
+ * @b en@: "No"
+
+ * @b es@: "No"
+
+ * @b fi@: "Ei"
+
+ * @b fr@: "Non"
+
+ * @b he@: "לא"
+
+ * @b hi@: "नहीं"
+
+ * @b hr@: "Ne"
+
+ * @b hu@: "Nem"
+
+ * @b it@: "No"
+
+ * @b ja@: "いいえ"
+
+ * @b ko@: "아니요"
+
+ * @b lt@: "Ne"
+
+ * @b nb@: "Nei"
+
+ * @b nl@: "Nee"
+
+ * @b pl@: "Nie"
+
+ * @b pt-BR@: "Não"
+
+ * @b pt@: "Não"
+
+ * @b ro@: "Nu"
+
+ * @b ru@: "Нет"
+
+ * @b sk@: "Nie"
+
+ * @b sr@: "Не"
+
+ * @b sv@: "Nej"
+
+ * @b tr@: "Hayır"
+
+ * @b uk@: "Ні"
+
+ * @b ur@: "جی نہین"
+
+ * @b vi@: "Không"
+
+ * @b zh-Hans@: "不"
+
+ * @b zh-Hant@: "否"
+
+ */
+static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO";
+
+/*!
  * "Back"
 
  * All translations:
@@ -9653,7 +10901,7 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -10795,6 +12043,240 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_MESSAGE = @
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE";
 
 /*!
+ * "OK"
+
+ * All translations:
+
+ * @b af@: "Reg"
+
+ * @b ar@: "موافق"
+
+ * @b ca@: "D'acord"
+
+ * @b cs@: "Ok"
+
+ * @b da@: "OK"
+
+ * @b de@: "OK"
+
+ * @b el@: "ΟΚ"
+
+ * @b en@: "OK"
+
+ * @b es@: "OK"
+
+ * @b fi@: "OK"
+
+ * @b fr@: "OK"
+
+ * @b he@: "אישור"
+
+ * @b hi@: "ठीक है"
+
+ * @b hr@: "U redu"
+
+ * @b hu@: "OK"
+
+ * @b it@: "OK"
+
+ * @b ja@: "OK"
+
+ * @b ko@: "확인"
+
+ * @b lt@: "Gerai"
+
+ * @b nb@: "OK"
+
+ * @b nl@: "Ok"
+
+ * @b pl@: "Ok"
+
+ * @b pt-BR@: "Ok"
+
+ * @b pt@: "OK"
+
+ * @b ro@: "OK"
+
+ * @b ru@: "ОК"
+
+ * @b sk@: "OK"
+
+ * @b sr@: "У реду"
+
+ * @b sv@: "Okej"
+
+ * @b tr@: "Tamam"
+
+ * @b uk@: "OK"
+
+ * @b ur@: "ٹھیک ہے"
+
+ * @b vi@: "OK"
+
+ * @b zh-Hans@: "確認"
+
+ * @b zh-Hant@: "好的"
+
+ */
+static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK";
+
+/*!
+ * "You have to enable access to you Facebook account in system settings."
+
+ * All translations:
+
+ * @b af@: "You have to enable access to you Facebook account in system settings."
+
+ * @b ar@: "You have to enable access to you Facebook account in system settings."
+
+ * @b ca@: "You have to enable access to you Facebook account in system settings."
+
+ * @b cs@: "You have to enable access to you Facebook account in system settings."
+
+ * @b da@: "You have to enable access to you Facebook account in system settings."
+
+ * @b de@: "You have to enable access to you Facebook account in system settings."
+
+ * @b el@: "You have to enable access to you Facebook account in system settings."
+
+ * @b en@: "You have to enable access to you Facebook account in system settings."
+
+ * @b es@: "Debes permitir el acceso a tu cuenta de Facebook en los ajustes del sistema."
+
+ * @b fi@: "You have to enable access to you Facebook account in system settings."
+
+ * @b fr@: "You have to enable access to you Facebook account in system settings."
+
+ * @b he@: "You have to enable access to you Facebook account in system settings."
+
+ * @b hi@: "You have to enable access to you Facebook account in system settings."
+
+ * @b hr@: "You have to enable access to you Facebook account in system settings."
+
+ * @b hu@: "Engedélyezd a Facebook fiókodhoz való hozzáférést a rendszerbeállításokban."
+
+ * @b it@: "You have to enable access to you Facebook account in system settings."
+
+ * @b ja@: "You have to enable access to you Facebook account in system settings."
+
+ * @b ko@: "You have to enable access to you Facebook account in system settings."
+
+ * @b lt@: "You have to enable access to you Facebook account in system settings."
+
+ * @b nb@: "You have to enable access to you Facebook account in system settings."
+
+ * @b nl@: "You have to enable access to you Facebook account in system settings."
+
+ * @b pl@: "You have to enable access to you Facebook account in system settings."
+
+ * @b pt-BR@: "You have to enable access to you Facebook account in system settings."
+
+ * @b pt@: "You have to enable access to you Facebook account in system settings."
+
+ * @b ro@: "You have to enable access to you Facebook account in system settings."
+
+ * @b ru@: "Необходимо в настройках системы разрешить доступ к учетной записи Facebook."
+
+ * @b sk@: "You have to enable access to you Facebook account in system settings."
+
+ * @b sr@: "You have to enable access to you Facebook account in system settings."
+
+ * @b sv@: "You have to enable access to you Facebook account in system settings."
+
+ * @b tr@: "You have to enable access to you Facebook account in system settings."
+
+ * @b uk@: "You have to enable access to you Facebook account in system settings."
+
+ * @b ur@: "You have to enable access to you Facebook account in system settings."
+
+ * @b vi@: "You have to enable access to you Facebook account in system settings."
+
+ * @b zh-Hans@: "You have to enable access to you Facebook account in system settings."
+
+ * @b zh-Hant@: "You have to enable access to you Facebook account in system settings."
+
+ */
+static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE";
+
+/*!
+ * "Access not allowed"
+
+ * All translations:
+
+ * @b af@: "Access not allowed"
+
+ * @b ar@: "Access not allowed"
+
+ * @b ca@: "Access not allowed"
+
+ * @b cs@: "Access not allowed"
+
+ * @b da@: "Access not allowed"
+
+ * @b de@: "Access not allowed"
+
+ * @b el@: "Access not allowed"
+
+ * @b en@: "Access not allowed"
+
+ * @b es@: "Acceso no permitido"
+
+ * @b fi@: "Access not allowed"
+
+ * @b fr@: "Access not allowed"
+
+ * @b he@: "Access not allowed"
+
+ * @b hi@: "Access not allowed"
+
+ * @b hr@: "Access not allowed"
+
+ * @b hu@: "Hozzáférés megtagadva"
+
+ * @b it@: "Access not allowed"
+
+ * @b ja@: "Access not allowed"
+
+ * @b ko@: "Access not allowed"
+
+ * @b lt@: "Access not allowed"
+
+ * @b nb@: "Access not allowed"
+
+ * @b nl@: "Access not allowed"
+
+ * @b pl@: "Access not allowed"
+
+ * @b pt-BR@: "Access not allowed"
+
+ * @b pt@: "Access not allowed"
+
+ * @b ro@: "Access not allowed"
+
+ * @b ru@: "Доступ запрещен"
+
+ * @b sk@: "Access not allowed"
+
+ * @b sr@: "Access not allowed"
+
+ * @b sv@: "Access not allowed"
+
+ * @b tr@: "Access not allowed"
+
+ * @b uk@: "Access not allowed"
+
+ * @b ur@: "Access not allowed"
+
+ * @b vi@: "Access not allowed"
+
+ * @b zh-Hans@: "Access not allowed"
+
+ * @b zh-Hant@: "Access not allowed"
+
+ */
+static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
+
+/*!
  * "Please enter both e-mail and password."
 
  * All translations:
@@ -11231,7 +12713,7 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE = @"BME_LO
 
  * @b nl@: "Onjuiste gegevens"
 
- * @b pl@: "Nieprawdłowe dane"
+ * @b pl@: "Nieprawidłowe dane"
 
  * @b pt-BR@: "Credenciais incorretas"
 
@@ -11661,55 +13143,55 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL = @"BM
 
  * @b ar@: "لا توجد حسابات فيسبوك على هاتفك. يرجى إضافة حسابك في إعدادات النظام."
 
- * @b ca@: "No s'han trobat comptes de Facebook en el dispositiu. Si us plau, afegeix el teu compte a la configuració del sistema."
+ * @b ca@: "No s'han trobat comptes de Facebook en el dispositiu. Si us plau afegeixi el vostre compte a la configuració del sistema."
 
- * @b cs@: "Na zařízení nebyly nalezeny žádné účty Facebook. Prosím, přidejte si účet v nastavení systému."
+ * @b cs@: "Na zařízení nebyly nalezeny žádné účty Facebook. Prosím, přidejte svůj účet v nastavení systému."
 
  * @b da@: "Der blev ikke fundet nogen Facebook konti på enheden. Tilføj venligst din konto i systemindstillinger."
 
- * @b de@: "Es wurden auf diesem Gerät keine Facebook-Konten gefunden. Bitte füge eines in den Systemeinstellungen hinzu."
+ * @b de@: "Es wurden auf diesem Gerät keine Facebook Konten gefunden. Bitte füge eines in den Systemeinstellungen hinzu."
 
  * @b el@: "Δεν βρέθηκε κανένας λογαριασμός Facebook στη συσκευή. Παρακαλούμε προσθέσετε τον λογαριασμό σας στις ρυθμίσεις συστήματος."
 
  * @b en@: "No Facebook accounts were found on the device. Please add your account in the system settings."
 
- * @b es@: "Ninguna cuenta de Facebook fue encontrada en su dispositivo. Por favor añada su cuenta en ajustes del sistema."
+ * @b es@: "No se encontró niguna cuenta de Facebook en su dispositivo. Por favor añada su cuenta en ajustes del sistema."
 
  * @b fi@: "Facebook tilejä ei löytynyt koneesta. Lisää tilisi järjestelmäasetuksiin."
 
- * @b fr@: "Aucun compte Facebook n'a été trouvé sur votre appareil. Veuillez ajouter votre compte dans Réglages."
+ * @b fr@: "Aucun compte Facebook n'a été trouvé sur votre appareil. Veuillez ajouter votre compte dans les réglages."
 
- * @b he@: "לא נמצאו חשבונות פייסבוק על המכשיר. אנא הוסף חשבון להגדרות המערכת."
+ * @b he@: "לא אותרו חשבונות פייסבוק במכשיר. אנא הוסיפו חשבון בהגדרות המערכת. "
 
- * @b hi@: "डिवाइस पर कोई फेसबुक खाता नहीं पाया गया। कृपया सिस्टम सेटिंग्स में अपना खाता जोड़ें।"
+ * @b hi@: "डिवाइस पर कोई फेसबुक खाता नहीं पाया गया। कृपया सिस्टम सेटिंग्स में अपने खाते को जोड़ें।"
 
  * @b hr@: "Na ovom uređaju nije pronađen niti jedan Facebook korisnički račun. Molimo dodajte vaš korisnički račun u postavkama sustava."
 
- * @b hu@: "A készüléken nem található Facebook fiók. Kérünk, add meg a fiókodat a rendszerbeállításokban."
+ * @b hu@: "A készülékén nem található Facebook fiók. Kérünk, vedd fel a fiókot a rendszerbeállításokban."
 
  * @b it@: "Sul dispositivo non è stato trovato un account Facebook.  Si prega di aggiungere l'account nelle impostazioni di sistema."
 
- * @b ja@: "Facebookアカウントは見つかりませんでした。 システム設定でアカウントを追加してください。"
+ * @b ja@: "お使いのディバイスでFacebookのアカウントが見つかりませんでした。 システム設定でアカウントを追加してください。"
 
  * @b ko@: "이 기기에서 페이스북 계정을 찾지 못했습니다. 시스템 설정에 계정을 추가해주세요."
 
- * @b lt@: "Įrenginyje nerasta Facebook paskyrų. Prašome pridėti paskyrą įrenginio nustatymuose."
+ * @b lt@: "Įrenginyje nerasta Facebook paskyrų. Prašome pridėti paskyrą sistemos nustatymuose."
 
  * @b nb@: "Ingen Facebook-kontoer ble funnet på enheten. Vennligst legg til din konto i systeminnstillingene."
 
- * @b nl@: "Er is geen Facebookaccount gevonden op het apparaat. Voeg een account toe in de systeeminstellingen."
+ * @b nl@: "Er is geen Facebook account gevonden op het apparaat. Voeg een account toe in de systeem instellingen."
 
- * @b pl@: "Na urządzeniu nie znaleziono kont Facebooka. Dodaj swoje konto w ustawieniach systemowych."
+ * @b pl@: "Nie znaleziono żadnych kont Facebook na tym urządzeniu. Prosimy o dodanie Twoich kont w ustawieniach systemowych."
 
- * @b pt-BR@: "Nenhuma conta de Facebook encontrada nesse dispositivo. Por favor adicione uma conta nas configurações de sistema."
+ * @b pt-BR@: "Nenhuma conta do Facebook foi encontrada nesse dispositivo. Por favor adicione uma conta nas configurações de sistema."
 
- * @b pt@: "Não foram encontradas contas de Facebook no dispositivo. Por favor, adicione a sua conta de Facebook nas configurações do sistema."
+ * @b pt@: "Não foram encontradas contas de Facebook no dispositivo. Por favor, adicione a sua conta de Facebook nas definições do sistema."
 
  * @b ro@: "Nici un cont de Facebook nu a fost găsit pe dispozitiv. Vă rugăm să adăugaţi contul dumneavoastră în setările telefonului."
 
- * @b ru@: "На устройстве не найдена учётная запись Facebook. Пожалуйста, добавьте её в настройках системы."
+ * @b ru@: "На устройстве не найдена учётная запись Facebook . Пожалуйста, добавьте её в настройках системы."
 
- * @b sk@: "Žiadny Facebook účet nebol nájdený. Pridajte si účet v nastavení systému."
+ * @b sk@: "Nebol nájdený žiadny Facebook účet. Pridajte si účet v nastavení systému."
 
  * @b sr@: "На овом уређају није пронађен ни један Фејсбук налог. Додајте свој налог у системским поставкама."
 
@@ -11717,13 +13199,13 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL = @"BM
 
  * @b tr@: "Cihazda hiçbir Facebook hesabı bulunamadı. Lütfen sistem ayarlarından hesabınızı ekleyin."
 
- * @b uk@: "Облікові записи Facebook не знайдено на пристрої. Будь ласка, додайте обліковий запис в налаштуваннях системи."
+ * @b uk@: "Облікового записа Facebook не знайдено на пристрої. Будь ласка, додайте ваш обліковий запис в системних налаштуваннях."
 
- * @b ur@: "ڈیوائس پر کوئی فیس بُک اکاؤنٹ نہیں ملا، براہِ کرم اپنا اکاؤنٹ سسٹم سیٹنگز میں شامل کریں۔"
+ * @b ur@: "ڈیوائس پر کوئی فیس بُک اکاؤنٹ نہیں پایا گیا۔ براہِ کرم اپنا اکاؤںٹ سسٹم سیٹنگز میں شامل کریں۔"
 
- * @b vi@: "Không có tài khoản Facebook được tìm thấy trên thiết bị. Vui lòng thêm tài khoản của bạn trong cài đặt hệ thống."
+ * @b vi@: "Không có tài khoản Facebook nào được tìm thấy trên thiết bị. Vui lòng thêm tài khoản của bạn trong cài đặt hệ thống."
 
- * @b zh-Hans@: "沒有偵測到這台設備上有Facebook帳戶。請在系統設置添加你的帳戶。"
+ * @b zh-Hans@: "在設備上找不到 Facebook 帳戶。請在系統設置中添加您的帳戶。"
 
  * @b zh-Hant@: "未能读取您的Facebook账户。请在系统设置中添加您的账户。"
 
@@ -13317,7 +14799,7 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM = @"BME_MAIN_ALERT_
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -15677,7 +17159,7 @@ static NSString * const BME_SECRET_SETTINGS_API_DESCRIPTION = @"BME_SECRET_SETTI
 
  * @b nl@: "Ontwikkeling"
 
- * @b pl@: "Rozwój"
+ * @b pl@: "Development"
 
  * @b pt-BR@: "Desenvolvimento"
 
@@ -15755,7 +17237,7 @@ static NSString * const BME_SECRET_SETTINGS_API_DEVELOPMENT = @"BME_SECRET_SETTI
 
  * @b nl@: "Enscenering"
 
- * @b pl@: "Inscenizacja"
+ * @b pl@: "Staging"
 
  * @b pt-BR@: "Staging"
 
@@ -16221,7 +17703,7 @@ static NSString * const BME_SETTINGS_EMAIL = @"BME_SETTINGS_EMAIL";
 
  * @b nl@: "Talen"
 
- * @b pl@: "Język"
+ * @b pl@: "Języki"
 
  * @b pt-BR@: "Idiomas"
 
@@ -16377,7 +17859,7 @@ static NSString * const BME_SETTINGS_ADD_LANGUAGES = @"BME_SETTINGS_ADD_LANGUAGE
 
  * @b nl@: "Feedback geven over de app"
 
- * @b pl@: "Ocen aplikacje"
+ * @b pl@: "Oceń aplikację"
 
  * @b pt-BR@: "Dar feedback sobre aplicativo"
 
@@ -16611,7 +18093,7 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL = @"BME_SETTING
 
  * @b nl@: "U bent niet afgemeld. Zorg ervoor dat u een actieve internetverbinding hebt en probeer het opnieuw."
 
- * @b pl@: "Nie zostałeś wylogowany. Prosze upewnij się że masz połączenie z internetem i spróbuj ponownie."
+ * @b pl@: "Nie zostałeś wylogowany. Proszę upewnij się, że masz połączenie z internetem i spróbuj ponownie."
 
  * @b pt-BR@: "Você não estava desconectado. Por favor certifique-se de que você tem uma conexão de internet ativa e tente novamente."
 
@@ -16903,7 +18385,7 @@ static NSString * const BME_SETTINGS_VERSION_TITLE = @"BME_SETTINGS_VERSION_TITL
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -17203,7 +18685,7 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL = @"BME_
 
  * @b da@: "Hjælp en blind med at se med #BeMyEyes appen - appen som forbinder blinde med seende hjælpere!"
 
- * @b de@: "Helfen Sie blinden Personen zu sehen mit der #BeMyEyes App - der App, die blinde Menschen mit sehenden Helfern verbindet!"
+ * @b de@: "Hilf einem blinden Menschen zu sehen! Mit der App #BeMyEyes, die Blinde und Sehende zusammenbringt."
 
  * @b el@: "Βοηθήστε ένα άτομο με πρόβλημα όρασης να βλέπει μέσω #BeMyEyes app - η εφαρμογή που συνδέει τα άτομα με πρόβλημα όρασης με βοηθούς χωρίς πρόβλημα όρασης!"
 
@@ -17235,7 +18717,7 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL = @"BME_
 
  * @b nl@: "Help een blinde persoon om te zien via de #BeMyEyes app - De app die blinde mensen verbind met ziende helpers!"
 
- * @b pl@: "Pomóż osobie niewidomej widzieć z aplikacją #BeMyEyes - aplikacją, która łączy niewidomych ludzi z widzącymi pomocnikami!"
+ * @b pl@: "Pomóż osobie niewidomej widzieć z aplikacją #BeMyEyes - aplikacją, która łączy osoby niewidome z widzącymi pomocnikami!"
 
  * @b pt-BR@: "Ajude uma pessoa cega a ver com o aplicativo #BeMyEyes, o aplicativo que conecta pessoas cegas com pessoas que enxergam!"
 
@@ -17293,7 +18775,7 @@ static NSString * const BME_SETTINGS_TASK_SHARE_MESSAGE = @"BME_SETTINGS_TASK_SH
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -17681,7 +19163,7 @@ static NSString * const BME_SIGN_UP_PASSWORD_PLACEHOLDER = @"BME_SIGN_UP_PASSWOR
 
  * @b fr@: "Créer un compte"
 
- * @b he@: "הירשם"
+ * @b he@: "הרשמה"
 
  * @b hi@: "पंजीकरण"
 
@@ -18067,8 +19549,6 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME_SIGN_UP
 
  * @b fr@: "L'adresse e-mail n'est pas valide."
 
- * @b he@: "כתובת הדואר שהקלדתם אינה תקינה."
-
  * @b hi@: "दर्ज किया गया ई-मेल पता मान्य नहीं है।"
 
  * @b hr@: "Unesena e-mail adresa nije važeća."
@@ -18299,7 +19779,7 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL = @"BME_SIGN_UP_AL
 
  * @b fr@: "Veuillez remplir toutes les informations avant de continuer."
 
- * @b he@: "אנא מלאו את כל המידע לפני התקדמות לשלב הבא"
+ * @b he@: "נא מלאו את כל המידע לפני שתמשיכו."
 
  * @b hi@: "कृपया आगे बढ़ने से पहले सभी जानकारी भरें।"
 
@@ -18533,7 +20013,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL = @"BME_SIGN
 
  * @b fr@: "Le mot de passe entré est trop court."
 
- * @b he@: "הסיסמה שהוקלדה קצרה מדי."
+ * @b he@: "הסיסמה שהוזנה קצרה מדי."
 
  * @b hi@: "दर्ज किया गया पासवर्ड बहुत छोटा है।"
 
@@ -18611,7 +20091,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE = @"BME_SIG
 
  * @b fr@: "Le mot de passe est trop court"
 
- * @b he@: "הסיסמה קצרה מדי"
+ * @b he@: "סיסמה קצרה מדי"
 
  * @b hi@: "पासवर्ड बहुत छोटा है"
 
@@ -18767,7 +20247,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL = @"BME_
 
  * @b fr@: "Les mots de passe entrés ne correspondent pas."
 
- * @b he@: "הסיסמאות שהוקלדו לא זהות."
+ * @b he@: "הסיסמאות שהוזנו אינן תואמות."
 
  * @b hi@: "दर्ज किया गया पासवर्ड मेल नहीं खाता है।"
 
@@ -18845,7 +20325,7 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE = @"BME
 
  * @b fr@: "Les mots de passe ne correspondent pas"
 
- * @b he@: "הסיסמאות לא זהות"
+ * @b he@: "סיסמאות אינן תואמות"
 
  * @b hi@: "पासवर्ड मेल नहीं खाते हैं"
 
@@ -19001,7 +20481,7 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL = @"BME_SIGN_UP_A
 
  * @b fr@: "Votre compte n'a pas pu être créé. Veuillez vérifier que vous disposez d'une connexion internet active et réessayez."
 
- * @b he@: "לא הצלחנו ליצור עבורכם חשבון. אנא בדקו שחיבור האינטרנט תקין ונסו שנית."
+ * @b he@: "לא היתה אפשרות ליצור את החשבון שלכם. נא ודאו כי הנכם מחוברים לאינטרנט ונסו שנית."
 
  * @b hi@: "आपका खाता नहीं बनाया जा सका। कृपया पुष्टि करें कि आपके पास एक सक्रिय इंटरनेट कनेक्शन है और फिर से कोशिश करें।"
 
@@ -19079,7 +20559,7 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE = @"BME_SIGN_UP_
 
  * @b fr@: "Impossible de créer le compte"
 
- * @b he@: "יצירת חשבון לא הצליחה"
+ * @b he@: "לא היתה אפשרות ליצור חשבון"
 
  * @b hi@: "खाता नहीं बनाया जा सका"
 
@@ -19313,7 +20793,7 @@ static NSString * const BME_SIGN_UP_OVERLAY_REGISTERING_TITLE = @"BME_SIGN_UP_OV
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -19611,7 +21091,7 @@ static NSString * const BME_SIGN_UP_METHOD_EMAIL = @"BME_SIGN_UP_METHOD_EMAIL";
 
  * @b da@: "Ved at fortsætte accepterer du"
 
- * @b de@: "Durch Fortfahren bestätigen sie die "
+ * @b de@: "Durch Fortfahren bestätigst du die"
 
  * @b el@: "Συνεχίζοντας αποδέχεστε τους"
 
@@ -19623,7 +21103,7 @@ static NSString * const BME_SIGN_UP_METHOD_EMAIL = @"BME_SIGN_UP_METHOD_EMAIL";
 
  * @b fr@: "En continuant, vous acceptez les"
 
- * @b he@: "בלחיצה על המשך אתם מקבלים את"
+ * @b he@: "בלחיצה על המשך הנכם מקבלים את"
 
  * @b hi@: "जारी रख कर आप स्वीकार करते हैं"
 
@@ -19779,7 +21259,7 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM = @"BME_S
 
  * @b fr@: "ainsi que la"
 
- * @b he@: "כמו גם את"
+ * @b he@: "כמו כן, גם את"
 
  * @b hi@: "साथ ही साथ"
 
@@ -20477,7 +21957,7 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL = @"BME_SI
 
  * @b fr@: "Impossible de s'authentifier avec Facebook."
 
- * @b he@: "לא הצלחנו לבצע אימות עם פייסבוק"
+ * @b he@: "אימות עם פייסבוק נכשל."
 
  * @b hi@: "फेसबुक के साथ प्रमाणित नहीं किया जा सका।"
 
@@ -22427,7 +23907,7 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEARS = @"BME_SNOOZE_RELATIVE_D
 
  * @b fr@: "Retour"
 
- * @b he@: "חזור"
+ * @b he@: "חזרה"
 
  * @b hi@: "वापस जाएं"
 
@@ -22555,6 +24035,864 @@ static NSString * const BME_TERMS_BACK = @"BME_TERMS_BACK";
 
  */
 static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
+
+/*!
+ * "Test Call"
+
+ * All translations:
+
+ * @b af@: "Test Call"
+
+ * @b ar@: "Test Call"
+
+ * @b ca@: "Test Call"
+
+ * @b cs@: "Test Call"
+
+ * @b da@: "Test Opkald"
+
+ * @b de@: "Test Call"
+
+ * @b el@: "Test Call"
+
+ * @b en@: "Test Call"
+
+ * @b es@: "Llamada de prueba"
+
+ * @b fi@: "Test Call"
+
+ * @b fr@: "Test Call"
+
+ * @b he@: "Test Call"
+
+ * @b hi@: "Test Call"
+
+ * @b hr@: "Test Call"
+
+ * @b hu@: "Próbahívás"
+
+ * @b it@: "Test Call"
+
+ * @b ja@: "Test Call"
+
+ * @b ko@: "Test Call"
+
+ * @b lt@: "Test Call"
+
+ * @b nb@: "Test Call"
+
+ * @b nl@: "Test Call"
+
+ * @b pl@: "Test Call"
+
+ * @b pt-BR@: "Test Call"
+
+ * @b pt@: "Test Call"
+
+ * @b ro@: "Test Call"
+
+ * @b ru@: "Тестовый звонок"
+
+ * @b sk@: "Test Call"
+
+ * @b sr@: "Test Call"
+
+ * @b sv@: "Test Call"
+
+ * @b tr@: "Test Call"
+
+ * @b uk@: "Test Call"
+
+ * @b ur@: "Test Call"
+
+ * @b vi@: "Test Call"
+
+ * @b zh-Hans@: "Test Call"
+
+ * @b zh-Hant@: "Test Call"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTROLLER_TITLE";
+
+/*!
+ * "Cancel"
+
+ * All translations:
+
+ * @b af@: "Kanselleer"
+
+ * @b ar@: "إلغاء"
+
+ * @b ca@: "Cancel·la"
+
+ * @b cs@: "Zrušit"
+
+ * @b da@: "Annuller"
+
+ * @b de@: "Abbrechen"
+
+ * @b el@: "Άκυρο"
+
+ * @b en@: "Cancel"
+
+ * @b es@: "Cancelar"
+
+ * @b fi@: "Peruuta"
+
+ * @b fr@: "Annuler"
+
+ * @b he@: "בטל"
+
+ * @b hi@: "रद्द करें"
+
+ * @b hr@: "Otkaži"
+
+ * @b hu@: "Mégsem"
+
+ * @b it@: "Annulla"
+
+ * @b ja@: "キャンセル"
+
+ * @b ko@: "취소"
+
+ * @b lt@: "Atšaukti"
+
+ * @b nb@: "Avbryt"
+
+ * @b nl@: "Annuleer"
+
+ * @b pl@: "Anuluj"
+
+ * @b pt-BR@: "Cancelar"
+
+ * @b pt@: "Cancelar"
+
+ * @b ro@: "Abandonează"
+
+ * @b ru@: "Отменить"
+
+ * @b sk@: "Zrušíť"
+
+ * @b sr@: "Откажи"
+
+ * @b sv@: "Avbryt"
+
+ * @b tr@: "İptal"
+
+ * @b uk@: "Скасувати"
+
+ * @b ur@: "منسوخ کریں"
+
+ * @b vi@: "Hủy"
+
+ * @b zh-Hans@: "取消"
+
+ * @b zh-Hant@: "取消"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONTROLLER_CANCEL";
+
+/*!
+ * "Press the home button to leave the app."
+
+ * All translations:
+
+ * @b af@: "Press the home button to leave the app."
+
+ * @b ar@: "Press the home button to leave the app."
+
+ * @b ca@: "Press the home button to leave the app."
+
+ * @b cs@: "Press the home button to leave the app."
+
+ * @b da@: "Tryk på hjemmeknappen for at forlade appen."
+
+ * @b de@: "Press the home button to leave the app."
+
+ * @b el@: "Press the home button to leave the app."
+
+ * @b en@: "Press the home button to leave the app."
+
+ * @b es@: "Pulsa el bóton de inicio para salir de la aplicación."
+
+ * @b fi@: "Press the home button to leave the app."
+
+ * @b fr@: "Press the home button to leave the app."
+
+ * @b he@: "Press the home button to leave the app."
+
+ * @b hi@: "Press the home button to leave the app."
+
+ * @b hr@: "Press the home button to leave the app."
+
+ * @b hu@: "Nyomd meg a Home gombot az alkalmazásból való kilépéshez."
+
+ * @b it@: "Press the home button to leave the app."
+
+ * @b ja@: "Press the home button to leave the app."
+
+ * @b ko@: "Press the home button to leave the app."
+
+ * @b lt@: "Press the home button to leave the app."
+
+ * @b nb@: "Press the home button to leave the app."
+
+ * @b nl@: "Press the home button to leave the app."
+
+ * @b pl@: "Press the home button to leave the app."
+
+ * @b pt-BR@: "Press the home button to leave the app."
+
+ * @b pt@: "Press the home button to leave the app."
+
+ * @b ro@: "Press the home button to leave the app."
+
+ * @b ru@: "Нажмите кнопку Домой, чтобы выйти из приложения."
+
+ * @b sk@: "Press the home button to leave the app."
+
+ * @b sr@: "Press the home button to leave the app."
+
+ * @b sv@: "Press the home button to leave the app."
+
+ * @b tr@: "Press the home button to leave the app."
+
+ * @b uk@: "Press the home button to leave the app."
+
+ * @b ur@: "Press the home button to leave the app."
+
+ * @b vi@: "Press the home button to leave the app."
+
+ * @b zh-Hans@: "Press the home button to leave the app."
+
+ * @b zh-Hant@: "Press the home button to leave the app."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
+
+/*!
+ * "You'll receive a notification shortly."
+
+ * All translations:
+
+ * @b af@: "You'll receive a notification shortly."
+
+ * @b ar@: "You'll receive a notification shortly."
+
+ * @b ca@: "You'll receive a notification shortly."
+
+ * @b cs@: "You'll receive a notification shortly."
+
+ * @b da@: "Kort efter modtager du en meddelelse."
+
+ * @b de@: "You'll receive a notification shortly."
+
+ * @b el@: "You'll receive a notification shortly."
+
+ * @b en@: "You'll receive a notification shortly."
+
+ * @b es@: "Recibirás una notificación dentro de poco."
+
+ * @b fi@: "You'll receive a notification shortly."
+
+ * @b fr@: "You'll receive a notification shortly."
+
+ * @b he@: "You'll receive a notification shortly."
+
+ * @b hi@: "You'll receive a notification shortly."
+
+ * @b hr@: "You'll receive a notification shortly."
+
+ * @b hu@: "Hamarosan értesítést kapsz."
+
+ * @b it@: "You'll receive a notification shortly."
+
+ * @b ja@: "You'll receive a notification shortly."
+
+ * @b ko@: "You'll receive a notification shortly."
+
+ * @b lt@: "You'll receive a notification shortly."
+
+ * @b nb@: "You'll receive a notification shortly."
+
+ * @b nl@: "You'll receive a notification shortly."
+
+ * @b pl@: "You'll receive a notification shortly."
+
+ * @b pt-BR@: "You'll receive a notification shortly."
+
+ * @b pt@: "You'll receive a notification shortly."
+
+ * @b ro@: "You'll receive a notification shortly."
+
+ * @b ru@: "Вскоре вы получите уведомление."
+
+ * @b sk@: "You'll receive a notification shortly."
+
+ * @b sr@: "You'll receive a notification shortly."
+
+ * @b sv@: "You'll receive a notification shortly."
+
+ * @b tr@: "You'll receive a notification shortly."
+
+ * @b uk@: "You'll receive a notification shortly."
+
+ * @b ur@: "You'll receive a notification shortly."
+
+ * @b vi@: "You'll receive a notification shortly."
+
+ * @b zh-Hans@: "You'll receive a notification shortly."
+
+ * @b zh-Hant@: "You'll receive a notification shortly."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
+
+/*!
+ * "Tap the notification."
+
+ * All translations:
+
+ * @b af@: "Tap the notification."
+
+ * @b ar@: "Tap the notification."
+
+ * @b ca@: "Tap the notification."
+
+ * @b cs@: "Tap the notification."
+
+ * @b da@: "Tryk på meddelelsen."
+
+ * @b de@: "Tap the notification."
+
+ * @b el@: "Tap the notification."
+
+ * @b en@: "Tap the notification."
+
+ * @b es@: "Pulsa la notificación."
+
+ * @b fi@: "Tap the notification."
+
+ * @b fr@: "Tap the notification."
+
+ * @b he@: "Tap the notification."
+
+ * @b hi@: "Tap the notification."
+
+ * @b hr@: "Tap the notification."
+
+ * @b hu@: "Érintsd meg az értesítést."
+
+ * @b it@: "Tap the notification."
+
+ * @b ja@: "Tap the notification."
+
+ * @b ko@: "Tap the notification."
+
+ * @b lt@: "Tap the notification."
+
+ * @b nb@: "Tap the notification."
+
+ * @b nl@: "Tap the notification."
+
+ * @b pl@: "Tap the notification."
+
+ * @b pt-BR@: "Tap the notification."
+
+ * @b pt@: "Tap the notification."
+
+ * @b ro@: "Tap the notification."
+
+ * @b ru@: "Коснитесь уведомления."
+
+ * @b sk@: "Tap the notification."
+
+ * @b sr@: "Tap the notification."
+
+ * @b sv@: "Tap the notification."
+
+ * @b tr@: "Tap the notification."
+
+ * @b uk@: "Tap the notification."
+
+ * @b ur@: "Tap the notification."
+
+ * @b vi@: "Tap the notification."
+
+ * @b zh-Hans@: "Tap the notification."
+
+ * @b zh-Hant@: "Tap the notification."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONTROLLER_STEP_3";
+
+/*!
+ * "Someone"
+
+ * All translations:
+
+ * @b af@: "Anoniem"
+
+ * @b ar@: "شخص ما"
+
+ * @b ca@: "Algú"
+
+ * @b cs@: "Někdo"
+
+ * @b da@: "Nogen"
+
+ * @b de@: "Jemand"
+
+ * @b el@: "Κάποιος"
+
+ * @b en@: "Someone"
+
+ * @b es@: "Anónimo"
+
+ * @b fi@: "Joku"
+
+ * @b fr@: "Quelqu'un"
+
+ * @b he@: "מישהו"
+
+ * @b hi@: "कोई"
+
+ * @b hr@: "Netko"
+
+ * @b hu@: "Valaki"
+
+ * @b it@: "Qualcuno"
+
+ * @b ja@: "誰か"
+
+ * @b ko@: "아무개"
+
+ * @b lt@: "Kas nors"
+
+ * @b nb@: "Noen"
+
+ * @b nl@: "Iemand"
+
+ * @b pl@: "Nieznajomy"
+
+ * @b pt-BR@: "Alguém"
+
+ * @b pt@: "Alguém"
+
+ * @b ro@: "Cineva"
+
+ * @b ru@: "Кто-то"
+
+ * @b sk@: "Niekto"
+
+ * @b sr@: "Неко"
+
+ * @b sv@: "Någon"
+
+ * @b tr@: "Birisi"
+
+ * @b uk@: "Хтось"
+
+ * @b ur@: "کسی کو"
+
+ * @b vi@: "Một ai đó"
+
+ * @b zh-Hans@: "有人"
+
+ * @b zh-Hant@: "热心志愿者"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_CONTROLLER_BLIND_NAME";
+
+/*!
+ * "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * All translations:
+
+ * @b af@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b ar@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b ca@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b cs@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b da@: "For at modtage opkald, skal du aktivere meddelelser for Be My Eyes app i Systemindstillinger på din enhed."
+
+ * @b de@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b el@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b en@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b es@: "Para recibir llamadas debes activar las notificaciones para Be My Eyes en los ajustes del sistema de tu dispositivo."
+
+ * @b fi@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b fr@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b he@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b hi@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b hr@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b hu@: "Hívások fogadásához engedélyezned kell az értesítések küldését a Be My Eyes alkalmazás számára a rendszerbeállításokban."
+
+ * @b it@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b ja@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b ko@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b lt@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b nb@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b nl@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b pl@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b pt-BR@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b pt@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b ro@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b ru@: "Чтобы получать звонки, вы должны включить уведомления для Be My Eyes в системных настройках вашего устройства."
+
+ * @b sk@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b sr@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b sv@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b tr@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b uk@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b ur@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b vi@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b zh-Hans@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ * @b zh-Hant@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS";
+
+/*!
+ * "Welcome %@"
+
+ * All translations:
+
+ * @b af@: "Welcome %@"
+
+ * @b ar@: "Welcome %@"
+
+ * @b ca@: "Welcome %@"
+
+ * @b cs@: "Welcome %@"
+
+ * @b da@: "Velkommen %@"
+
+ * @b de@: "Welcome %@"
+
+ * @b el@: "Welcome %@"
+
+ * @b en@: "Welcome %@"
+
+ * @b es@: "Bienvenido %@"
+
+ * @b fi@: "Welcome %@"
+
+ * @b fr@: "Welcome %@"
+
+ * @b he@: "Welcome %@"
+
+ * @b hi@: "Welcome %@"
+
+ * @b hr@: "Welcome %@"
+
+ * @b hu@: "Üdv %@"
+
+ * @b it@: "Welcome %@"
+
+ * @b ja@: "Welcome %@"
+
+ * @b ko@: "Welcome %@"
+
+ * @b lt@: "Welcome %@"
+
+ * @b nb@: "Welcome %@"
+
+ * @b nl@: "Welcome %@"
+
+ * @b pl@: "Welcome %@"
+
+ * @b pt-BR@: "Welcome %@"
+
+ * @b pt@: "Welcome %@"
+
+ * @b ro@: "Welcome %@"
+
+ * @b ru@: "Приветствуем %@"
+
+ * @b sk@: "Welcome %@"
+
+ * @b sr@: "Welcome %@"
+
+ * @b sv@: "Welcome %@"
+
+ * @b tr@: "Welcome %@"
+
+ * @b uk@: "Welcome %@"
+
+ * @b ur@: "Welcome %@"
+
+ * @b vi@: "Welcome %@"
+
+ * @b zh-Hans@: "Welcome %@"
+
+ * @b zh-Hant@: "Welcome %@"
+
+ */
+static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
+
+/*!
+ * "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * All translations:
+
+ * @b af@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b ar@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b ca@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b cs@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b da@: "Tak fordi du har tilsluttet dig Be My Eyes som frivillig! Du er nu en del af et voksende netværk af øjne, som hjælper blinde mennesker over hele verden.  Det er let at hjælpe. Din enhed er åben for opkald, så længe du er logget ind. Vi har en masse hjælpere, så bliv ikke modløs, hvis du ikke modtager et opkald lige med det samme."
+
+ * @b de@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b el@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b en@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b es@: "¡Gracias por unirte a Be My Eyes como voluntario! Ahora eres parte de una creciente red de ojos ayudando a personas ciegas de todo el mundo.\n\nAyudar es fácil. Tu teléfono está disponible para llamadas mientras estés logueado. Tenemos muchos ayudantes así que no te desanimes si no recibes una llamada de inmediato."
+
+ * @b fi@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b fr@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b he@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b hi@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b hr@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b hu@: "Köszönjük, hogy csatlakoztál a Be My Eyes segítő hálózatához! Egy látássérülteket segítő világszerte növekvő önkéntes hálózat része lettél.\n\nSegíteni egyszerű. A telefonod várja a hívásokat mindaddig, amíg bejelentkezve maradsz. Rengeteg segítőnk van, ezért ne keseredj el, ha éppen nem tudod fogadni a hívást."
+
+ * @b it@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b ja@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b ko@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b lt@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b nb@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b nl@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b pl@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b pt-BR@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b pt@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b ro@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b ru@: "Спасибо за то, что присоединились к Be My Eyes в качестве волонтера! Теперь вы - часть быстро растущей сети глаз, помогающих незрячим по всему миру.\n\nПомочь легко. Ваш телефон доступен для звонков все время, пока вы находитесь в системе. У нас много помощников, так что не расстраивайтесь если вам не позвонили тотчас же."
+
+ * @b sk@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b sr@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b sv@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b tr@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b uk@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b ur@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b vi@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b zh-Hans@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ * @b zh-Hant@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+
+ */
+static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DESCRIPTION";
+
+/*!
+ * "Make a test call"
+
+ * All translations:
+
+ * @b af@: "Make a test call"
+
+ * @b ar@: "Make a test call"
+
+ * @b ca@: "Make a test call"
+
+ * @b cs@: "Make a test call"
+
+ * @b da@: "Lave et test-opkald"
+
+ * @b de@: "Make a test call"
+
+ * @b el@: "Make a test call"
+
+ * @b en@: "Make a test call"
+
+ * @b es@: "Hacer llamada de prueba"
+
+ * @b fi@: "Make a test call"
+
+ * @b fr@: "Make a test call"
+
+ * @b he@: "Make a test call"
+
+ * @b hi@: "Make a test call"
+
+ * @b hr@: "Make a test call"
+
+ * @b hu@: "Próbahívás indítása"
+
+ * @b it@: "Make a test call"
+
+ * @b ja@: "Make a test call"
+
+ * @b ko@: "Make a test call"
+
+ * @b lt@: "Make a test call"
+
+ * @b nb@: "Make a test call"
+
+ * @b nl@: "Make a test call"
+
+ * @b pl@: "Make a test call"
+
+ * @b pt-BR@: "Make a test call"
+
+ * @b pt@: "Make a test call"
+
+ * @b ro@: "Make a test call"
+
+ * @b ru@: "Сделать тестовый звонок"
+
+ * @b sk@: "Make a test call"
+
+ * @b sr@: "Make a test call"
+
+ * @b sv@: "Make a test call"
+
+ * @b tr@: "Make a test call"
+
+ * @b uk@: "Make a test call"
+
+ * @b ur@: "Make a test call"
+
+ * @b vi@: "Make a test call"
+
+ * @b zh-Hans@: "Make a test call"
+
+ * @b zh-Hant@: "Make a test call"
+
+ */
+static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITLE";
+
+/*!
+ * "Ok, got it"
+
+ * All translations:
+
+ * @b af@: "Ok, got it"
+
+ * @b ar@: "Ok, got it"
+
+ * @b ca@: "Ok, got it"
+
+ * @b cs@: "Ok, got it"
+
+ * @b da@: "OK"
+
+ * @b de@: "Ok, got it"
+
+ * @b el@: "Ok, got it"
+
+ * @b en@: "Ok, got it"
+
+ * @b es@: "De acuerdo"
+
+ * @b fi@: "Ok, got it"
+
+ * @b fr@: "Ok, got it"
+
+ * @b he@: "Ok, got it"
+
+ * @b hi@: "Ok, got it"
+
+ * @b hr@: "Ok, got it"
+
+ * @b hu@: "OK, megvan"
+
+ * @b it@: "Ok, got it"
+
+ * @b ja@: "Ok, got it"
+
+ * @b ko@: "Ok, got it"
+
+ * @b lt@: "Ok, got it"
+
+ * @b nb@: "Ok, got it"
+
+ * @b nl@: "Ok, got it"
+
+ * @b pl@: "Ok, got it"
+
+ * @b pt-BR@: "Ok, got it"
+
+ * @b pt@: "Ok, got it"
+
+ * @b ro@: "Ok, got it"
+
+ * @b ru@: "Готово"
+
+ * @b sk@: "Ok, got it"
+
+ * @b sr@: "Ok, got it"
+
+ * @b sv@: "Ok, got it"
+
+ * @b tr@: "Ok, got it"
+
+ * @b uk@: "Ok, got it"
+
+ * @b ur@: "Ok, got it"
+
+ * @b vi@: "Ok, got it"
+
+ * @b zh-Hans@: "Ok, got it"
+
+ * @b zh-Hant@: "Ok, got it"
+
+ */
+static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
 
 /*!
  * "Be My Eyes"
@@ -23337,6 +25675,630 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER = @"POST
 static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND";
 
 /*!
+ * "Share your experience"
+
+ * All translations:
+
+ * @b af@: "Share your experience"
+
+ * @b ar@: "Share your experience"
+
+ * @b ca@: "Share your experience"
+
+ * @b cs@: "Share your experience"
+
+ * @b da@: "Del dine oplevelse"
+
+ * @b de@: "Share your experience"
+
+ * @b el@: "Share your experience"
+
+ * @b en@: "Share your experience"
+
+ * @b es@: "Comparte tu experiencia"
+
+ * @b fi@: "Share your experience"
+
+ * @b fr@: "Share your experience"
+
+ * @b he@: "Share your experience"
+
+ * @b hi@: "Share your experience"
+
+ * @b hr@: "Share your experience"
+
+ * @b hu@: "Oszd meg a tapasztalataidat"
+
+ * @b it@: "Share your experience"
+
+ * @b ja@: "Share your experience"
+
+ * @b ko@: "Share your experience"
+
+ * @b lt@: "Share your experience"
+
+ * @b nb@: "Share your experience"
+
+ * @b nl@: "Share your experience"
+
+ * @b pl@: "Share your experience"
+
+ * @b pt-BR@: "Share your experience"
+
+ * @b pt@: "Share your experience"
+
+ * @b ro@: "Share your experience"
+
+ * @b ru@: "Поделитесь своим опытом"
+
+ * @b sk@: "Share your experience"
+
+ * @b sr@: "Share your experience"
+
+ * @b sv@: "Share your experience"
+
+ * @b tr@: "Share your experience"
+
+ * @b uk@: "Share your experience"
+
+ * @b ur@: "Share your experience"
+
+ * @b vi@: "Share your experience"
+
+ * @b zh-Hans@: "Share your experience"
+
+ * @b zh-Hant@: "Share your experience"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER";
+
+/*!
+ * "Share your experience"
+
+ * All translations:
+
+ * @b af@: "Share your experience"
+
+ * @b ar@: "Share your experience"
+
+ * @b ca@: "Share your experience"
+
+ * @b cs@: "Share your experience"
+
+ * @b da@: "Del din oplevelse"
+
+ * @b de@: "Share your experience"
+
+ * @b el@: "Share your experience"
+
+ * @b en@: "Share your experience"
+
+ * @b es@: "Comparte tu experiencia"
+
+ * @b fi@: "Share your experience"
+
+ * @b fr@: "Share your experience"
+
+ * @b he@: "Share your experience"
+
+ * @b hi@: "Share your experience"
+
+ * @b hr@: "Share your experience"
+
+ * @b hu@: "Oszd meg a tapasztalataidat"
+
+ * @b it@: "Share your experience"
+
+ * @b ja@: "Share your experience"
+
+ * @b ko@: "Share your experience"
+
+ * @b lt@: "Share your experience"
+
+ * @b nb@: "Share your experience"
+
+ * @b nl@: "Share your experience"
+
+ * @b pl@: "Share your experience"
+
+ * @b pt-BR@: "Share your experience"
+
+ * @b pt@: "Share your experience"
+
+ * @b ro@: "Share your experience"
+
+ * @b ru@: "Поделитесь своим опытом"
+
+ * @b sk@: "Share your experience"
+
+ * @b sr@: "Share your experience"
+
+ * @b sv@: "Share your experience"
+
+ * @b tr@: "Share your experience"
+
+ * @b uk@: "Share your experience"
+
+ * @b ur@: "Share your experience"
+
+ * @b vi@: "Share your experience"
+
+ * @b zh-Hans@: "Share your experience"
+
+ * @b zh-Hant@: "Share your experience"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND";
+
+/*!
+ * "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * All translations:
+
+ * @b af@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b ar@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b ca@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b cs@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b da@: "Jeg har lige hjulpet en blind person se med Be My Eyes appen #BeMyEyes"
+
+ * @b de@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b el@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b en@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b es@: "Acabo de ayudar a ver a una persona ciega con Be My Eyes app #BeMyEyes"
+
+ * @b fi@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b fr@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b he@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b hi@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b hr@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b hu@: "Most segítettem egy látássérültnek a Be My Eyes alkalmazáson keresztül #BeMyEyes"
+
+ * @b it@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b ja@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b ko@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b lt@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b nb@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b nl@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b pl@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b pt-BR@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b pt@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b ro@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b ru@: "Я только что помог(ла) незрячему увидеть при помощи приложения Be My Eyes #BeMyEyes"
+
+ * @b sk@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b sr@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b sv@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b tr@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b uk@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b ur@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b vi@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b zh-Hans@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ * @b zh-Hant@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER";
+
+/*!
+ * "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * All translations:
+
+ * @b af@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b ar@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b ca@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b cs@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b da@: "Nogen hjalp mig lige med at med Be My Eyes appen #BeMyEyes"
+
+ * @b de@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b el@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b en@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b es@: "Alguien me acaba de ayudar a ver con Be My Eyes app #BeMyEyes"
+
+ * @b fi@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b fr@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b he@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b hi@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b hr@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b hu@: "Most segítettek nekem a Be My Eyes alkalmazáson keresztül #BeMyEyes"
+
+ * @b it@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b ja@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b ko@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b lt@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b nb@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b nl@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b pl@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b pt-BR@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b pt@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b ro@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b ru@: "Мне только что помогли увидеть при помощи приложения Be My Eyes #BeMyEyes"
+
+ * @b sk@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b sr@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b sv@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b tr@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b uk@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b ur@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b vi@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b zh-Hans@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ * @b zh-Hant@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND";
+
+/*!
+ * "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * All translations:
+
+ * @b af@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b ar@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b ca@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b cs@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b da@: "Jeg har lige hjulpet en blind person se med @BeMyEyes appen #BeMyEyes"
+
+ * @b de@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b el@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b en@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b es@: "Acabo de ayudar a ver a una persona ciega con @bemyeyes app #BeMyEyes"
+
+ * @b fi@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b fr@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b he@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b hi@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b hr@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b hu@: "Most segítettem egy látássérültnek a @bemyeyes alkalmazáson keresztül #BeMyEyes"
+
+ * @b it@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b ja@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b ko@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b lt@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b nb@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b nl@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b pl@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b pt-BR@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b pt@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b ro@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b ru@: "Я только что помог(ла) незрячему увидеть при помощи приложения @bemyeyes #BeMyEyes"
+
+ * @b sk@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b sr@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b sv@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b tr@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b uk@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b ur@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b vi@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b zh-Hans@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ * @b zh-Hant@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER";
+
+/*!
+ * "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * All translations:
+
+ * @b af@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b ar@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b ca@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b cs@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b da@: "Nogen hjalp mig lige med at se med @BeMyEyes appen #BeMyEyes"
+
+ * @b de@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b el@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b en@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b es@: "Alguien me acaba de ayudar a ver con @bemyeyes app #BeMyEyes"
+
+ * @b fi@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b fr@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b he@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b hi@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b hr@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b hu@: "Most segítettek nekem a @bemyeyes alkalmazáson keresztül #BeMyEyes"
+
+ * @b it@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b ja@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b ko@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b lt@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b nb@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b nl@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b pl@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b pt-BR@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b pt@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b ro@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b ru@: "Мне только что помогли увидеть при помощи приложения @bemyeyes #BeMyEyes"
+
+ * @b sk@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b sr@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b sv@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b tr@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b uk@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b ur@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b vi@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b zh-Hans@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ * @b zh-Hant@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND";
+
+/*!
+ * "I just helped a blind person see with the Be My Eyes app"
+
+ * All translations:
+
+ * @b af@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b ar@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b ca@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b cs@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b da@: "Jeg har lige hjulpet en blind person se med Be My Eyes appen"
+
+ * @b de@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b el@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b en@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b es@: "Acabo de ayudar a ver a una persona ciega con Be My Eyes app"
+
+ * @b fi@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b fr@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b he@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b hi@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b hr@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b hu@: "Most segítettem egy látássérültnek a Be My Eyes alkalmazáson keresztül"
+
+ * @b it@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b ja@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b ko@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b lt@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b nb@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b nl@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b pl@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b pt-BR@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b pt@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b ro@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b ru@: "Я только что помог(ла) незрячему увидеть при помощи приложения Be My Eyes"
+
+ * @b sk@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b sr@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b sv@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b tr@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b uk@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b ur@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b vi@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b zh-Hans@: "I just helped a blind person see with the Be My Eyes app"
+
+ * @b zh-Hant@: "I just helped a blind person see with the Be My Eyes app"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER";
+
+/*!
+ * "Someone just helped me see with the Be My Eyes app"
+
+ * All translations:
+
+ * @b af@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b ar@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b ca@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b cs@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b da@: "Nogen hjalp mig lige med at se med Be My Eyes appen"
+
+ * @b de@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b el@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b en@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b es@: "Alguien me acaba de ayudar a ver con Be My Eyes app"
+
+ * @b fi@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b fr@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b he@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b hi@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b hr@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b hu@: "Most segítettek nekem a Be My Eyes alkalmazáson keresztül"
+
+ * @b it@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b ja@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b ko@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b lt@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b nb@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b nl@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b pl@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b pt-BR@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b pt@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b ro@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b ru@: "Мне только что помогли увидеть при помощи приложения Be My Eyes"
+
+ * @b sk@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b sr@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b sv@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b tr@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b uk@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b ur@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b vi@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b zh-Hans@: "Someone just helped me see with the Be My Eyes app"
+
+ * @b zh-Hant@: "Someone just helped me see with the Be My Eyes app"
+
+ */
+static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND";
+
+/*!
  * "Report"
 
  * All translations:
@@ -23413,398 +26375,6 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE = @"POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE";
-
-/*!
- * "Test Call"
-
- * All translations:
-
- * @b da@: "Test Opkald"
-
- * @b en@: "Test Call"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTROLLER_TITLE";
-
-/*!
- * "Cancel"
-
- * All translations:
-
- * @b da@: "Annuller"
-
- * @b en@: "Cancel"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONTROLLER_CANCEL";
-
-/*!
- * "Press the home button to leave the app."
-
- * All translations:
-
- * @b da@: "Tryk på hjemmeknappen for at forlade appen. Du modtager en notifikation et par sekunder efter."
-
- * @b en@: "Press the home button to leave the app."
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
-
-/*!
- * "You'll receive a notification shortly."
-
- * All translations:
-
- * @b da@: "Tap på notifikationen."
-
- * @b en@: "You'll receive a notification shortly."
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
-
-/*!
- * "Someone"
-
- * All translations:
-
- * @b da@: "Nogen"
-
- * @b en@: "Someone"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_CONTROLLER_BLIND_NAME";
-
-/*!
- * "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
-
- * All translations:
-
- * @b da@: "For at kunne modtage et opkald, skal du slå notifikationer til for Be My Eyes applikationen i dine systemindstillinger."
-
- * @b en@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS";
-
-/*!
- * "Answer"
-
- * All translations:
-
- * @b en@: "Answer"
-
- */
-static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOTIFICATION_ACTION_ANSWER";
-
-/*!
- * "Not right now"
-
- * All translations:
-
- * @b en@: "Not right now"
-
- */
-static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
-
-/*!
- * "You must give the application permission to use push notifications in system settings."
-
- * All translations:
-
- * @b en@: "You must give the application permission to use push notifications in system settings."
-
- */
-static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE";
-
-/*!
- * "Push notifications not enabled"
-
- * All translations:
-
- * @b en@: "Push notifications not enabled"
-
- */
-static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE";
-
-/*!
- * "Be My Eyes"
-
- * All translations:
-
- * @b en@: "Be My Eyes"
-
- */
-static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE";
-
-/*!
- * "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
-
- * All translations:
-
- * @b en@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
-
- */
-static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY";
-
-/*!
- * "Ok"
-
- * All translations:
-
- * @b en@: "Ok"
-
- */
-static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON";
-
-/*!
- * "Made test call"
-
- * All translations:
-
- * @b en@: "Made test call"
-
- */
-static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION";
-
-/*!
- * "Make test call"
-
- * All translations:
-
- * @b en@: "Make test call"
-
- */
-static NSString * const BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION";
-
-/*!
- * "Take new"
-
- * All translations:
-
- * @b en@: "Take new"
-
- */
-static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW";
-
-/*!
- * "Choose existing"
-
- * All translations:
-
- * @b en@: "Choose existing"
-
- */
-static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING";
-
-/*!
- * "Add profile photo"
-
- * All translations:
-
- * @b en@: "Add profile photo"
-
- */
-static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE = @"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE";
-
-/*!
- * "You have no languages selected"
-
- * All translations:
-
- * @b en@: "You have no languages selected"
-
- */
-static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED";
-
-/*!
- * "Are you sure you want to proceed?"
-
- * All translations:
-
- * @b en@: "Are you sure you want to proceed?"
-
- */
-static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION";
-
-/*!
- * "Yes"
-
- * All translations:
-
- * @b en@: "Yes"
-
- */
-static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES";
-
-/*!
- * "No"
-
- * All translations:
-
- * @b en@: "No"
-
- */
-static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO";
-
-/*!
- * "OK"
-
- * All translations:
-
- * @b en@: "OK"
-
- */
-static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK";
-
-/*!
- * "You have to enable access to you Facebook account in system settings."
-
- * All translations:
-
- * @b en@: "You have to enable access to you Facebook account in system settings."
-
- */
-static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE";
-
-/*!
- * "Access not allowed"
-
- * All translations:
-
- * @b en@: "Access not allowed"
-
- */
-static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
-
-/*!
- * "Tap the notification."
-
- * All translations:
-
- * @b en@: "Tap the notification."
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONTROLLER_STEP_3";
-
-/*!
- * "Welcome %@"
-
- * All translations:
-
- * @b en@: "Welcome %@"
-
- */
-static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
-
-/*!
- * "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
-
- * All translations:
-
- * @b en@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
-
- */
-static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DESCRIPTION";
-
-/*!
- * "Make a test call"
-
- * All translations:
-
- * @b en@: "Make a test call"
-
- */
-static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITLE";
-
-/*!
- * "Ok, got it"
-
- * All translations:
-
- * @b en@: "Ok, got it"
-
- */
-static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
-
-/*!
- * "Share your experience"
-
- * All translations:
-
- * @b en@: "Share your experience"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER";
-
-/*!
- * "Share your experience"
-
- * All translations:
-
- * @b en@: "Share your experience"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND";
-
-/*!
- * "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
-
- * All translations:
-
- * @b en@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER";
-
-/*!
- * "Someone just helped me see with the Be My Eyes app #BeMyEyes"
-
- * All translations:
-
- * @b en@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND";
-
-/*!
- * "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
-
- * All translations:
-
- * @b en@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER";
-
-/*!
- * "Someone just helped me see with the @bemyeyes app #BeMyEyes"
-
- * All translations:
-
- * @b en@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND";
-
-/*!
- * "I just helped a blind person see with the Be My Eyes app"
-
- * All translations:
-
- * @b en@: "I just helped a blind person see with the Be My Eyes app"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER";
-
-/*!
- * "Someone just helped me see with the Be My Eyes app"
-
- * All translations:
-
- * @b en@: "Someone just helped me see with the Be My Eyes app"
-
- */
-static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND";
 
                                                
 #endif                                         

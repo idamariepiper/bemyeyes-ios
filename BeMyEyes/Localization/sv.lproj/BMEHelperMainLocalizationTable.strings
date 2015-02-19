@@ -55,6 +55,9 @@
 /* Points watch video description */
 "BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Tittat på video";
 
+/* Points make test call description */
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Dela på Twitter";
 
@@ -63,6 +66,9 @@
 
 /* Task watch video description */
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Titta på video";
+
+/* Task make test call description */
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
 
 /* Community network description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyes-nätverket";
@@ -84,4 +90,13 @@
 
 /* Snooze status text when not snoozing */
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Du är aktiv";
+
+/* Option title in actions sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+
+/* Option title in action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+
+/* Title of the action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
 

@@ -10,3 +10,15 @@
 /* Title in alert view shown when the languages could not be saved */
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "No se pudo guardar";
 
+/* Title in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "No has seleccionado ningún idioma";
+
+/* Message in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "¿Estás seguro de que desea continuar?";
+
+/* Positive answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "Sí";
+
+/* Negative answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO" = "No";
+

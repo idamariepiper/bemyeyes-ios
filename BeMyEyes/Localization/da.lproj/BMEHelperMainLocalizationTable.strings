@@ -8,7 +8,7 @@
 "BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Folk hjulpet";
 
 /* Point total description */
-"BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Totale points";
+"BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Totale point";
 
 /* Level new helper */
 "BME_HELPER_MAIN_LEVEL_NEW_HELPER" = "Ny hjælper";
@@ -26,10 +26,10 @@
 "BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Mester hjælper";
 
 /* Level points to next level description */
-"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d points til næste niveau";
+"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d point til næste niveau";
 
 /* Points signup description */
-"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Successful registrering";
+"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Succesfuld registrering";
 
 /* Points answer push message description */
 "BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Forsøgte at hjælpe";
@@ -55,6 +55,9 @@
 /* Points watch video description */
 "BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Så video";
 
+/* Points make test call description */
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Del på Twitter";
 
@@ -63,6 +66,9 @@
 
 /* Task watch video description */
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Se video";
+
+/* Task make test call description */
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
 
 /* Community network description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyes netværket";
@@ -84,4 +90,13 @@
 
 /* Snooze status text when not snoozing */
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Du er i øjeblikket ikke aktiv";
+
+/* Option title in actions sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+
+/* Option title in action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+
+/* Title of the action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
 

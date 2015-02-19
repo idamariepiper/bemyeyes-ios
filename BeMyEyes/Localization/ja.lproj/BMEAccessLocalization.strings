@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "視覚障がい者が助けを必要としている時、着信にてお知らせします。";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "応答";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Not right now";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "マイク";
 

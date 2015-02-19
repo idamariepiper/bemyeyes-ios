@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Quando uma pessoa cega precisar de sua ajuda, iremos te notificar sobre a chamada recebida.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Responder";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Agora não";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Microfone";
 

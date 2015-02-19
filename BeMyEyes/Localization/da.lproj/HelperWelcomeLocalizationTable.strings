@@ -1,0 +1,14 @@
+/* 
+  HelperWelcomeLocalizationTable.strings
+  BeMyEyes
+  Created by Simon Støvring on 29/01/15.
+  Copyright (c) 2015 Be My Eyes. All rights reserved.
+*/
+"BME_HELPER_WELCOME_TITLE" = "Velkommen %@";
+
+"BME_HELPER_WELCOME_DESCRIPTION" = "Tak fordi du har tilsluttet dig Be My Eyes som frivillig! Du er nu en del af et voksende netværk af øjne, som hjælper blinde mennesker over hele verden.  Det er let at hjælpe. Din enhed er åben for opkald, så længe du er logget ind. Vi har en masse hjælpere, så bliv ikke modløs, hvis du ikke modtager et opkald lige med det samme.";
+
+"BME_HELPER_DEMO_CALL_TITLE" = "Lave et test-opkald";
+
+"BME_HELPER_DONE_TITLE" = "OK";
+

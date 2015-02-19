@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "當一個盲人需要你的幫助時，我們會透過電話通知你。";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "回應";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "現在不方便";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "麥克風";
 
@@ -20,7 +26,7 @@
 "BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "為了透過說話引導盲人。";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "為了能夠向義工解釋你的需要。";
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "為了能夠向志工解釋你的需要。";
 
 /* Title for camera */
 "BME_ACCESS_CAMERA_TITLE" = "相機";

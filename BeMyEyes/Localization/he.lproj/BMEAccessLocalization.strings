@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "כאשר אדם עיוור זקוק לעזרתכם, נודיע לכם על הקריאה הנכנסת.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "לענות";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Not right now";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "מיקרופון";
 
@@ -26,8 +32,8 @@
 "BME_ACCESS_CAMERA_TITLE" = "מצלמה";
 
 /* Explanation for why the helper needs to enable camera access */
-"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "אנחנו לא שולחים את הסרטון שלכם לאדם לו אתם עוזרים, אבל זה נדרש על מנת ליצור את החיבור.";
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "אין אנו שולחים את הוידיאו שלך לאדם העיוור לו אתה עוזר, אך הדבר דרוש לשם ביצוע החיבור.";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "על מנת להראות למסייע במה אתם צריכים עזרה.";
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "כדי להראות לאדם המסייע לכם במה אתם זקוקים לעזרה.";
 

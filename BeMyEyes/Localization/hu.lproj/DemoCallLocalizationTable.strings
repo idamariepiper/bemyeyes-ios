@@ -1,0 +1,20 @@
+/* 
+  DemoCallViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 22/01/15.
+  Copyright (c) 2015 Be My Eyes. All rights reserved.
+*/
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "Próbahívás";
+
+"POST_CALL_VIEW_CONTROLLER_CANCEL" = "Mégsem";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Nyomd meg a Home gombot az alkalmazásból való kilépéshez.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Hamarosan értesítést kapsz.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Érintsd meg az értesítést.";
+
+"POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Valaki";
+
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "Hívások fogadásához engedélyezned kell az értesítések küldését a Be My Eyes alkalmazás számára a rendszerbeállításokban.";
+

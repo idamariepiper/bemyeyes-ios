@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Amikor egy vak személynek szüksége van a segítségedre, mi értesítést küldünk a bejövő hívásról.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Válasz";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Később";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Mikrofon";
 

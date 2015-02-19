@@ -13,3 +13,12 @@
 /* Log in button, if the user is already registered */
 "BME_FRONT_PAGE_ALREADY_REGISTERED" = "Уже зарегистрированы? Войдите.";
 
+/* No voiceover alert title */
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE" = "Be My Eyes";
+
+/* No voiceover alert body */
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Для регистрации незрячего пользователя должен быть включен VoiceOver. Войдите в Настройки > Основные > Универсальный доступ > VoiceOver";
+
+/* No voiceover button title */
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON" = "ОК";
+
