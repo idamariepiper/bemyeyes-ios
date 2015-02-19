@@ -1,5 +1,5 @@
 /* Title of back button */
-"BME_SIGN_UP_METHOD_BACK" = "חזור";
+"BME_SIGN_UP_METHOD_BACK" = "חזרה";
 
 /* Headline */
 "BME_SIGN_UP_METHOD_HEADLINE" = "הצטרפו לרשת";
@@ -11,13 +11,13 @@
 "BME_SIGN_UP_METHOD_EMAIL" = "הרשמה עם כתובת דוא\"ל";
 
 /* Top part of button for viewing terms and conditions */
-"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "בלחיצה על המשך אתם מקבלים את";
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "בלחיצה על המשך הנכם מקבלים את";
 
 /* Bottom part of button for viewing terms and conditions */
 "BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "תנאי השימוש";
 
 /* Top part of button for viewing privacy policy */
-"BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "כמו גם את";
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "כמו כן, גם את";
 
 /* Bottom part of button for viewing privacy policy */
 "BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "מדיניות הפרטיות";
@@ -26,10 +26,10 @@
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL" = "אישור";
 
 /* Message in alert view shown when e-mail is already registered. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE" = "קיים חשבון עבור כתובת הדוא\"ל של משתמש פייסבוק זה.";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE" = "קיים כבר חשבון עבור כתובת דוא\"ל זו של משתמש פייסבוק.";
 
 /* Title in alert view shown when e-mail is already registered. */
-"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE" = "כתובת הדוא\"ל כבר רשומה";
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE" = "כתובת דוא\"ל כבר רשומה";
 
 /* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
 "BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_CANCEL" = "אישור";
@@ -44,7 +44,7 @@
 "BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL" = "אישור";
 
 /* Message in alert view shown when logging into Facebook but it failed because authentication failed */
-"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE" = "לא הצלחנו לבצע אימות עם פייסבוק";
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE" = "אימות עם פייסבוק נכשל.";
 
 /* Title in alert view shown when log in to Facebook failed */
 "BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE" = "האימות נכשל";

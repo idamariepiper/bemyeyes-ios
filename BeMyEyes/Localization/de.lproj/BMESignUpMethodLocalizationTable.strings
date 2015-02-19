@@ -11,7 +11,7 @@
 "BME_SIGN_UP_METHOD_EMAIL" = "Mit E-Mail registrieren";
 
 /* Top part of button for viewing terms and conditions */
-"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "Durch Fortfahren bestätigen sie die ";
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "Durch Fortfahren bestätigst du die";
 
 /* Bottom part of button for viewing terms and conditions */
 "BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "Allgemeine Geschäftsbedingungen";

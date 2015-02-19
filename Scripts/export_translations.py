@@ -16,7 +16,7 @@ def exportTranslations(APIKey):
 		if status == "skipped":
 			print("Status: {0}. You can only export every 30 minutes.".format(status))
 		else:
-			print("Statis: {0}. Export was successful.".format(status))
+			print("Status: {0}. Export was successful.".format(status))
 	
 def exportURL(key):
 	return EXPORT_URL.format(projectID=PROJECT_ID, APIkey=key)

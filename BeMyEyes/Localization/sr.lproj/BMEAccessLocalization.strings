@@ -13,11 +13,17 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Када слепој особи треба Ваша помоћ, ми Вас обавестимо о долазном позиву.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Одговори";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Trenutno ne";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Микрофон";
 
 /* Explanation for why the helper needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Имати могућност разговора и вођења слепе особе";
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Имати могућност разговора и навођења слепе особе";
 
 /* Explanation for why the blind person needs to enable microphone access */
 "BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Имати могућност да објасните Ваш проблем особи која Вам помаже.";

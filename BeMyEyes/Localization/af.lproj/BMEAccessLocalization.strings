@@ -13,6 +13,12 @@
 /* Explanation for why the helper needs to enable notifications */
 "BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Wanneer 'n blinde persoon hulp nodig het, sal ons jou laat weet van die inkomende oproep.";
 
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Antwoord";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Kan nie nou nie";
+
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Mikrofoon";
 

@@ -1,0 +1,20 @@
+/* 
+  DemoCallViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 22/01/15.
+  Copyright (c) 2015 Be My Eyes. All rights reserved.
+*/
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "Тестовый звонок";
+
+"POST_CALL_VIEW_CONTROLLER_CANCEL" = "Отменить";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Нажмите кнопку Домой, чтобы выйти из приложения.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Вскоре вы получите уведомление.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Коснитесь уведомления.";
+
+"POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Кто-то";
+
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "Чтобы получать звонки, вы должны включить уведомления для Be My Eyes в системных настройках вашего устройства.";
+
