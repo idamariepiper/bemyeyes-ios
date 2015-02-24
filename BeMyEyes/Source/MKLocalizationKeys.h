@@ -493,7 +493,7 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
 
  * @b hu@: "Később"
 
- * @b it@: "Non ora"
+ * @b it@: "Non adesso"
 
  * @b ja@: "Not right now"
 
@@ -531,7 +531,7 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
 
  * @b zh-Hans@: "現在不方便"
 
- * @b zh-Hant@: "Not right now"
+ * @b zh-Hant@: "现在不合适"
 
  */
 static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NOTIFICATION_ACTION_DISMISS";
@@ -1417,7 +1417,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
 
  * @b fi@: "You must give the application permission to use push notifications in system settings."
 
- * @b fr@: "You must give the application permission to use push notifications in system settings."
+ * @b fr@: "Vous devez autoriser l'application à utiliser les notifications push dans les réglages de votre appareil."
 
  * @b he@: "You must give the application permission to use push notifications in system settings."
 
@@ -1441,7 +1441,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
 
  * @b pl@: "You must give the application permission to use push notifications in system settings."
 
- * @b pt-BR@: "You must give the application permission to use push notifications in system settings."
+ * @b pt-BR@: "Você deve, nas configurações do sistema, dar permissão para o aplicativo usar notificações push."
 
  * @b pt@: "You must give the application permission to use push notifications in system settings."
 
@@ -1455,7 +1455,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
 
  * @b sv@: "You must give the application permission to use push notifications in system settings."
 
- * @b tr@: "You must give the application permission to use push notifications in system settings."
+ * @b tr@: "Push bildirimlerinizi kullanması için  sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
 
  * @b uk@: "You must give the application permission to use push notifications in system settings."
 
@@ -1465,7 +1465,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
 
  * @b zh-Hans@: "You must give the application permission to use push notifications in system settings."
 
- * @b zh-Hant@: "You must give the application permission to use push notifications in system settings."
+ * @b zh-Hant@: "你必须在系统设置中允许本应用接收推送通知。"
 
  */
 static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE";
@@ -1573,7 +1573,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
 
  * @b fi@: "You must give the application permission to use your microphone in system settings."
 
- * @b fr@: "You must give the application permission to use your microphone in system settings."
+ * @b fr@: "Vous devez autoriser l'application à utiliser le micro dans les réglages de votre appareil."
 
  * @b he@: "You must give the application permission to use your microphone in system settings."
 
@@ -1597,7 +1597,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
 
  * @b pl@: "You must give the application permission to use your microphone in system settings."
 
- * @b pt-BR@: "You must give the application permission to use your microphone in system settings."
+ * @b pt-BR@: "Você deve, nas configurações do sistema, dar permissão para o aplicativo usar o seu microfone."
 
  * @b pt@: "You must give the application permission to use your microphone in system settings."
 
@@ -1611,7 +1611,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
 
  * @b sv@: "You must give the application permission to use your microphone in system settings."
 
- * @b tr@: "You must give the application permission to use your microphone in system settings."
+ * @b tr@: "Mikrofonunuzu kullanması için  sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
 
  * @b uk@: "You must give the application permission to use your microphone in system settings."
 
@@ -1621,7 +1621,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
 
  * @b zh-Hans@: "You must give the application permission to use your microphone in system settings."
 
- * @b zh-Hant@: "You must give the application permission to use your microphone in system settings."
+ * @b zh-Hant@: "你必须在系统设置中允许本应用使用麦克风。"
 
  */
 static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE";
@@ -1729,7 +1729,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * @b fi@: "You must give the application permission to use your camera in system settings."
 
- * @b fr@: "You must give the application permission to use your camera in system settings."
+ * @b fr@: "Vous devez autoriser l'application à utiliser l'appareil photo dans les réglages de votre appareil."
 
  * @b he@: "You must give the application permission to use your camera in system settings."
 
@@ -1753,7 +1753,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * @b pl@: "You must give the application permission to use your camera in system settings."
 
- * @b pt-BR@: "You must give the application permission to use your camera in system settings."
+ * @b pt-BR@: "Você deve, nas configurações do sistema, dar permissão para o aplicativo usar a sua câmera."
 
  * @b pt@: "You must give the application permission to use your camera in system settings."
 
@@ -1767,7 +1767,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * @b sv@: "You must give the application permission to use your camera in system settings."
 
- * @b tr@: "You must give the application permission to use your camera in system settings."
+ * @b tr@: "Kameranızı kullanması için sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
 
  * @b uk@: "You must give the application permission to use your camera in system settings."
 
@@ -1777,7 +1777,7 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * @b zh-Hans@: "You must give the application permission to use your camera in system settings."
 
- * @b zh-Hant@: "You must give the application permission to use your camera in system settings."
+ * @b zh-Hant@: "你必须在系统设置中允许本应用使用相机。"
 
  */
 static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE = @"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE";
@@ -7015,7 +7015,7 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b da@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
- * @b de@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+ * @b de@: "VoiceOver must eingeschaltet sein, um sich als blinder Teilnehmer registrieren zu können. Gehe zu Einstellungen > Allgemein > Bedienungshilfen > VoiceOver"
 
  * @b el@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
@@ -7025,7 +7025,7 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b fi@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
- * @b fr@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+ * @b fr@: "L'assistant VoiceOver doit être activé pour vous inscrire en tant qu'utilisateur aveugle. Allez dans Paramètres > Général > Accessibilité > VoiceOver"
 
  * @b he@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
@@ -7035,7 +7035,7 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b hu@: "A felolvasónak be kell lennie kapcsolva ahhoz, hogy látássérült felhasználóként regisztrálni tudj. A bekapcsoláshoz menj a Rendszerbeállítások > Általános > Kisegítő lehetőségek > Felolvasó menüponthoz"
 
- * @b it@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+ * @b it@: "Accessibilità VoiceOver deve essere attivato per potersi registrare come utente non vedente. Vai su Impostazioni> Generali> Accessibilità> VoiceOver"
 
  * @b ja@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
@@ -7049,7 +7049,7 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b pl@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
- * @b pt-BR@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+ * @b pt-BR@: "O VoiceOver tem que estar ligado para que você possa se registrar como usuário cego. Vá para Configurações > Geral > Acessibilidade > VoiceOver"
 
  * @b pt@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
@@ -7063,7 +7063,7 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b sv@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
- * @b tr@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+ * @b tr@: "VoiceOver erişilebilirliği kaydolan görme engelli bir kullanıcı için açılmalıdır. Ayarlara gidin > Genel > Erişilebilirlik > VoiceOver"
 
  * @b uk@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
@@ -7073,7 +7073,7 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b zh-Hans@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
- * @b zh-Hant@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
+ * @b zh-Hant@: "要注册成为盲人用户，必须打开 VoiceOver 这个辅助功能。可以在 设置 > 通用 > 辅助功能 > VoiceOver 中找到它。"
 
  */
 static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY";
@@ -9017,7 +9017,7 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
 
  * @b da@: "Made test call"
 
- * @b de@: "Made test call"
+ * @b de@: "Test-Anruf durchgeführt"
 
  * @b el@: "Made test call"
 
@@ -9027,7 +9027,7 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
 
  * @b fi@: "Made test call"
 
- * @b fr@: "Made test call"
+ * @b fr@: "Faire un test d'appel"
 
  * @b he@: "Made test call"
 
@@ -9037,7 +9037,7 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
 
  * @b hu@: "Próbahívás vége"
 
- * @b it@: "Made test call"
+ * @b it@: "Chiamata di prova effettuata"
 
  * @b ja@: "Made test call"
 
@@ -9051,7 +9051,7 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
 
  * @b pl@: "Made test call"
 
- * @b pt-BR@: "Made test call"
+ * @b pt-BR@: "Chamada de teste realizada"
 
  * @b pt@: "Made test call"
 
@@ -9075,7 +9075,7 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
 
  * @b zh-Hans@: "Made test call"
 
- * @b zh-Hant@: "Made test call"
+ * @b zh-Hant@: "已拨打测试电话"
 
  */
 static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION";
@@ -9329,7 +9329,7 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
 
  * @b da@: "Make test call"
 
- * @b de@: "Make test call"
+ * @b de@: "Test-Anruf durchführen"
 
  * @b el@: "Make test call"
 
@@ -9339,7 +9339,7 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
 
  * @b fi@: "Make test call"
 
- * @b fr@: "Make test call"
+ * @b fr@: "Faire un test d'appel"
 
  * @b he@: "Make test call"
 
@@ -9349,7 +9349,7 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
 
  * @b hu@: "Próbahívás"
 
- * @b it@: "Make test call"
+ * @b it@: "Effettua chiamata di prova"
 
  * @b ja@: "Make test call"
 
@@ -9363,7 +9363,7 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
 
  * @b pl@: "Make test call"
 
- * @b pt-BR@: "Make test call"
+ * @b pt-BR@: "Fazer chamada de teste"
 
  * @b pt@: "Make test call"
 
@@ -9387,7 +9387,7 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
 
  * @b zh-Hans@: "Make test call"
 
- * @b zh-Hant@: "Make test call"
+ * @b zh-Hant@: "拨打测试电话"
 
  */
 static NSString * const BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION = @"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION";
@@ -9953,7 +9953,7 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
 
  * @b da@: "Take new"
 
- * @b de@: "Take new"
+ * @b de@: "Neues aufnehmen"
 
  * @b el@: "Take new"
 
@@ -9963,7 +9963,7 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
 
  * @b fi@: "Take new"
 
- * @b fr@: "Take new"
+ * @b fr@: "En prendre une nouvelle"
 
  * @b he@: "Take new"
 
@@ -9973,7 +9973,7 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
 
  * @b hu@: "Új kép készítése"
 
- * @b it@: "Take new"
+ * @b it@: "Scatta una nuova"
 
  * @b ja@: "Take new"
 
@@ -9987,7 +9987,7 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
 
  * @b pl@: "Take new"
 
- * @b pt-BR@: "Take new"
+ * @b pt-BR@: "Tirar nova"
 
  * @b pt@: "Take new"
 
@@ -10011,7 +10011,7 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
 
  * @b zh-Hans@: "Take new"
 
- * @b zh-Hant@: "Take new"
+ * @b zh-Hant@: "拍摄新的照片"
 
  */
 static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW";
@@ -10031,7 +10031,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
 
  * @b da@: "Choose existing"
 
- * @b de@: "Choose existing"
+ * @b de@: "Bestehendes auswählen"
 
  * @b el@: "Choose existing"
 
@@ -10041,7 +10041,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
 
  * @b fi@: "Choose existing"
 
- * @b fr@: "Choose existing"
+ * @b fr@: "Choisir un élément existant"
 
  * @b he@: "Choose existing"
 
@@ -10051,7 +10051,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
 
  * @b hu@: "Válassz a meglévők közül"
 
- * @b it@: "Choose existing"
+ * @b it@: "Scegli foto esistente"
 
  * @b ja@: "Choose existing"
 
@@ -10065,7 +10065,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
 
  * @b pl@: "Choose existing"
 
- * @b pt-BR@: "Choose existing"
+ * @b pt-BR@: "Escolher existente"
 
  * @b pt@: "Choose existing"
 
@@ -10089,7 +10089,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
 
  * @b zh-Hans@: "Choose existing"
 
- * @b zh-Hant@: "Choose existing"
+ * @b zh-Hant@: "选择已有的照片"
 
  */
 static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING";
@@ -10109,7 +10109,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b da@: "Add profile photo"
 
- * @b de@: "Add profile photo"
+ * @b de@: "Profilfoto hinzufügen"
 
  * @b el@: "Add profile photo"
 
@@ -10119,7 +10119,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b fi@: "Add profile photo"
 
- * @b fr@: "Add profile photo"
+ * @b fr@: "Ajouter une photo de profil"
 
  * @b he@: "Add profile photo"
 
@@ -10129,7 +10129,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b hu@: "Profilkép hozzáadása"
 
- * @b it@: "Add profile photo"
+ * @b it@: "Aggiungi foto profilo"
 
  * @b ja@: "Add profile photo"
 
@@ -10143,7 +10143,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b pl@: "Add profile photo"
 
- * @b pt-BR@: "Add profile photo"
+ * @b pt-BR@: "Adicionar foto do perfil"
 
  * @b pt@: "Add profile photo"
 
@@ -10157,7 +10157,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b sv@: "Add profile photo"
 
- * @b tr@: "Add profile photo"
+ * @b tr@: "Profil fotoğrafı ekle"
 
  * @b uk@: "Add profile photo"
 
@@ -10167,7 +10167,7 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b zh-Hans@: "Add profile photo"
 
- * @b zh-Hant@: "Add profile photo"
+ * @b zh-Hant@: "添加头像照片"
 
  */
 static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE = @"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE";
@@ -10577,7 +10577,7 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b da@: "You have no languages selected"
 
- * @b de@: "You have no languages selected"
+ * @b de@: "Du hast keine Sprachen ausgewählt"
 
  * @b el@: "You have no languages selected"
 
@@ -10587,7 +10587,7 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b fi@: "You have no languages selected"
 
- * @b fr@: "You have no languages selected"
+ * @b fr@: "Vous n'avez sélectionné aucune langue"
 
  * @b he@: "You have no languages selected"
 
@@ -10611,7 +10611,7 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b pl@: "You have no languages selected"
 
- * @b pt-BR@: "You have no languages selected"
+ * @b pt-BR@: "Você não tem nenhum idioma selecionado"
 
  * @b pt@: "You have no languages selected"
 
@@ -10625,7 +10625,7 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b sv@: "You have no languages selected"
 
- * @b tr@: "You have no languages selected"
+ * @b tr@: "Bir dil seçmediniz"
 
  * @b uk@: "You have no languages selected"
 
@@ -10635,7 +10635,7 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b zh-Hans@: "You have no languages selected"
 
- * @b zh-Hant@: "You have no languages selected"
+ * @b zh-Hant@: "你还没有选择语言"
 
  */
 static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED";
@@ -10655,7 +10655,7 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
 
  * @b da@: "Are you sure you want to proceed?"
 
- * @b de@: "Are you sure you want to proceed?"
+ * @b de@: "Bist du sicher, dass du fortfahren möchtest?"
 
  * @b el@: "Are you sure you want to proceed?"
 
@@ -10665,7 +10665,7 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
 
  * @b fi@: "Are you sure you want to proceed?"
 
- * @b fr@: "Are you sure you want to proceed?"
+ * @b fr@: "Êtes-vous sûr de vouloir continuer ?"
 
  * @b he@: "Are you sure you want to proceed?"
 
@@ -10689,7 +10689,7 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
 
  * @b pl@: "Are you sure you want to proceed?"
 
- * @b pt-BR@: "Are you sure you want to proceed?"
+ * @b pt-BR@: "Tem certeza que deseja prosseguir?"
 
  * @b pt@: "Are you sure you want to proceed?"
 
@@ -10703,7 +10703,7 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
 
  * @b sv@: "Are you sure you want to proceed?"
 
- * @b tr@: "Are you sure you want to proceed?"
+ * @b tr@: "Devam etmek istediğinizden emin misiniz?"
 
  * @b uk@: "Are you sure you want to proceed?"
 
@@ -10713,7 +10713,7 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
 
  * @b zh-Hans@: "Are you sure you want to proceed?"
 
- * @b zh-Hant@: "Are you sure you want to proceed?"
+ * @b zh-Hant@: "你确定要继续吗？"
 
  */
 static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION";
@@ -10733,7 +10733,7 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
 
  * @b da@: "Yes"
 
- * @b de@: "Yes"
+ * @b de@: "Ja"
 
  * @b el@: "Yes"
 
@@ -10743,7 +10743,7 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
 
  * @b fi@: "Yes"
 
- * @b fr@: "Yes"
+ * @b fr@: "Oui"
 
  * @b he@: "Yes"
 
@@ -10767,7 +10767,7 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
 
  * @b pl@: "Yes"
 
- * @b pt-BR@: "Yes"
+ * @b pt-BR@: "Sim"
 
  * @b pt@: "Yes"
 
@@ -10781,7 +10781,7 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
 
  * @b sv@: "Yes"
 
- * @b tr@: "Yes"
+ * @b tr@: "Evet"
 
  * @b uk@: "Yes"
 
@@ -10791,7 +10791,7 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
 
  * @b zh-Hans@: "Yes"
 
- * @b zh-Hant@: "Yes"
+ * @b zh-Hant@: "确定"
 
  */
 static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES";
@@ -12135,7 +12135,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
 
  * @b da@: "You have to enable access to you Facebook account in system settings."
 
- * @b de@: "You have to enable access to you Facebook account in system settings."
+ * @b de@: "Du musst den Zugriff auf dein Facebook-Konto in den Systemeinstellungen erlauben."
 
  * @b el@: "You have to enable access to you Facebook account in system settings."
 
@@ -12145,7 +12145,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
 
  * @b fi@: "You have to enable access to you Facebook account in system settings."
 
- * @b fr@: "You have to enable access to you Facebook account in system settings."
+ * @b fr@: "Vous devez activer l'accès à votre compte Facebook dans les réglages de votre appareil."
 
  * @b he@: "You have to enable access to you Facebook account in system settings."
 
@@ -12169,7 +12169,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
 
  * @b pl@: "You have to enable access to you Facebook account in system settings."
 
- * @b pt-BR@: "You have to enable access to you Facebook account in system settings."
+ * @b pt-BR@: "Você tem que habilitar o acesso a sua conta do Facebook nas configurações do sistema."
 
  * @b pt@: "You have to enable access to you Facebook account in system settings."
 
@@ -12193,7 +12193,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
 
  * @b zh-Hans@: "You have to enable access to you Facebook account in system settings."
 
- * @b zh-Hant@: "You have to enable access to you Facebook account in system settings."
+ * @b zh-Hant@: "你必须在系统设置中启用 Facebook 帐号的访问权限。"
 
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE";
@@ -12213,7 +12213,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  * @b da@: "Access not allowed"
 
- * @b de@: "Access not allowed"
+ * @b de@: "Zugriff nicht erlaubt"
 
  * @b el@: "Access not allowed"
 
@@ -12223,7 +12223,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  * @b fi@: "Access not allowed"
 
- * @b fr@: "Access not allowed"
+ * @b fr@: "Accès non autorisé"
 
  * @b he@: "Access not allowed"
 
@@ -12247,7 +12247,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  * @b pl@: "Access not allowed"
 
- * @b pt-BR@: "Access not allowed"
+ * @b pt-BR@: "Acesso não permitido"
 
  * @b pt@: "Access not allowed"
 
@@ -12271,7 +12271,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  * @b zh-Hans@: "Access not allowed"
 
- * @b zh-Hant@: "Access not allowed"
+ * @b zh-Hant@: "不允许访问"
 
  */
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE";
@@ -24051,7 +24051,7 @@ static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
 
  * @b da@: "Test Opkald"
 
- * @b de@: "Test Call"
+ * @b de@: "Test-Anruf"
 
  * @b el@: "Test Call"
 
@@ -24061,7 +24061,7 @@ static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
 
  * @b fi@: "Test Call"
 
- * @b fr@: "Test Call"
+ * @b fr@: "Appel de test"
 
  * @b he@: "Test Call"
 
@@ -24085,7 +24085,7 @@ static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
 
  * @b pl@: "Test Call"
 
- * @b pt-BR@: "Test Call"
+ * @b pt-BR@: "Chamada de Teste"
 
  * @b pt@: "Test Call"
 
@@ -24109,7 +24109,7 @@ static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
 
  * @b zh-Hans@: "Test Call"
 
- * @b zh-Hant@: "Test Call"
+ * @b zh-Hant@: "测试呼叫"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTROLLER_TITLE";
@@ -24207,7 +24207,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
 
  * @b da@: "Tryk på hjemmeknappen for at forlade appen."
 
- * @b de@: "Press the home button to leave the app."
+ * @b de@: "Drücke den Home-Button, um die Anwendung zu verlassen."
 
  * @b el@: "Press the home button to leave the app."
 
@@ -24217,7 +24217,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
 
  * @b fi@: "Press the home button to leave the app."
 
- * @b fr@: "Press the home button to leave the app."
+ * @b fr@: "Appuyez sur le bouton d'accueil pour quitter l'application."
 
  * @b he@: "Press the home button to leave the app."
 
@@ -24241,7 +24241,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
 
  * @b pl@: "Press the home button to leave the app."
 
- * @b pt-BR@: "Press the home button to leave the app."
+ * @b pt-BR@: "Pressione a tecla home para sair do aplicativo."
 
  * @b pt@: "Press the home button to leave the app."
 
@@ -24255,7 +24255,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
 
  * @b sv@: "Press the home button to leave the app."
 
- * @b tr@: "Press the home button to leave the app."
+ * @b tr@: "Uygulamadan çıkmak için anasayfa tuşuna basın."
 
  * @b uk@: "Press the home button to leave the app."
 
@@ -24265,7 +24265,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
 
  * @b zh-Hans@: "Press the home button to leave the app."
 
- * @b zh-Hant@: "Press the home button to leave the app."
+ * @b zh-Hant@: "按 home 键离开此应用程序。"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONTROLLER_STEP_1";
@@ -24285,7 +24285,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
 
  * @b da@: "Kort efter modtager du en meddelelse."
 
- * @b de@: "You'll receive a notification shortly."
+ * @b de@: "Du wirst in Kürze eine Benachrichtigung erhalten."
 
  * @b el@: "You'll receive a notification shortly."
 
@@ -24295,7 +24295,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
 
  * @b fi@: "You'll receive a notification shortly."
 
- * @b fr@: "You'll receive a notification shortly."
+ * @b fr@: "Vous allez recevoir une notification dans quelques instants."
 
  * @b he@: "You'll receive a notification shortly."
 
@@ -24319,7 +24319,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
 
  * @b pl@: "You'll receive a notification shortly."
 
- * @b pt-BR@: "You'll receive a notification shortly."
+ * @b pt-BR@: "Você receberá uma notificação em breve."
 
  * @b pt@: "You'll receive a notification shortly."
 
@@ -24343,7 +24343,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
 
  * @b zh-Hans@: "You'll receive a notification shortly."
 
- * @b zh-Hant@: "You'll receive a notification shortly."
+ * @b zh-Hant@: "稍候你会收到通知。"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONTROLLER_STEP_2";
@@ -24363,7 +24363,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
 
  * @b da@: "Tryk på meddelelsen."
 
- * @b de@: "Tap the notification."
+ * @b de@: "Tappe die Benachrichtigung."
 
  * @b el@: "Tap the notification."
 
@@ -24373,7 +24373,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
 
  * @b fi@: "Tap the notification."
 
- * @b fr@: "Tap the notification."
+ * @b fr@: "Appuyez sur la notification."
 
  * @b he@: "Tap the notification."
 
@@ -24397,7 +24397,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
 
  * @b pl@: "Tap the notification."
 
- * @b pt-BR@: "Tap the notification."
+ * @b pt-BR@: "Toque na notificação."
 
  * @b pt@: "Tap the notification."
 
@@ -24421,7 +24421,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
 
  * @b zh-Hans@: "Tap the notification."
 
- * @b zh-Hant@: "Tap the notification."
+ * @b zh-Hant@: "点击通知。"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONTROLLER_STEP_3";
@@ -24519,7 +24519,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
 
  * @b da@: "For at modtage opkald, skal du aktivere meddelelser for Be My Eyes app i Systemindstillinger på din enhed."
 
- * @b de@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+ * @b de@: "Um Anrufe entgegennehmen zu können, musst du Mitteilungen für die Be My Eyes App in den Systemeinstellungen deines Geräts erlauben."
 
  * @b el@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
@@ -24529,7 +24529,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
 
  * @b fi@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
- * @b fr@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+ * @b fr@: "Pour recevoir des appels, vous devez activer les notifications pour l'application Be My Eyes dans les paramètres de votre appareil."
 
  * @b he@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
@@ -24553,7 +24553,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
 
  * @b pl@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
- * @b pt-BR@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+ * @b pt-BR@: "Para receber chamadas você deve habilitar as notificações para o Be My Eyes nas configurações do sistema no seu dispositivo."
 
  * @b pt@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
@@ -24577,7 +24577,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
 
  * @b zh-Hans@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
- * @b zh-Hant@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
+ * @b zh-Hant@: "为了能接到 Be My Eyes 的电话，你必须在系统设置中启用推送功能。"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS";
@@ -24597,7 +24597,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_
 
  * @b da@: "Velkommen %@"
 
- * @b de@: "Welcome %@"
+ * @b de@: "Willkommen, %@"
 
  * @b el@: "Welcome %@"
 
@@ -24607,7 +24607,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_
 
  * @b fi@: "Welcome %@"
 
- * @b fr@: "Welcome %@"
+ * @b fr@: "Bienvenue %@"
 
  * @b he@: "Welcome %@"
 
@@ -24631,7 +24631,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_
 
  * @b pl@: "Welcome %@"
 
- * @b pt-BR@: "Welcome %@"
+ * @b pt-BR@: "Bem-vindo(a) %@"
 
  * @b pt@: "Welcome %@"
 
@@ -24655,7 +24655,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_
 
  * @b zh-Hans@: "Welcome %@"
 
- * @b zh-Hant@: "Welcome %@"
+ * @b zh-Hant@: "欢迎你 %@"
 
  */
 static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
@@ -24675,7 +24675,7 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
 
  * @b da@: "Tak fordi du har tilsluttet dig Be My Eyes som frivillig! Du er nu en del af et voksende netværk af øjne, som hjælper blinde mennesker over hele verden.  Det er let at hjælpe. Din enhed er åben for opkald, så længe du er logget ind. Vi har en masse hjælpere, så bliv ikke modløs, hvis du ikke modtager et opkald lige med det samme."
 
- * @b de@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+ * @b de@: "Vielen Dank, dass du Be My Eyes als Helfer beigetreten bist. Du bist nun Teil eines wachsenden Netzwerks von Augen, die blinden Menschen auf der ganzen Welt helfen.\n\nHelfen ist einfach. Dein Telefon ist für eingehende Anrufe erreichbar, solange du eingeloggt bist. Wir haben eine Menge an Helfern, darum lass dich nicht entmutigen, falls du nicht sofort einen Anruf erhältst."
 
  * @b el@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
@@ -24685,7 +24685,7 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
 
  * @b fi@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
- * @b fr@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+ * @b fr@: "Merci d'avoir rejoint Be My Eyes en tant que bénévole ! Vous faites maintenant partie d'un réseau croissant d'yeux qui aident les personnes aveugles dans le monde entier. \n\nAider est facile. Votre téléphone disponible pour recevoir des appels tant que vous êtes connecté. Nous avons beaucoup d'autres bénévoles, donc ne vous découragez pas si vous ne recevez pas d'appel tout de suite."
 
  * @b he@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
@@ -24709,7 +24709,7 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
 
  * @b pl@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
- * @b pt-BR@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+ * @b pt-BR@: "Obrigado por se juntar ao Be MY Eyes como voluntário! Você é agora parte de uma rede crescente de olhos ajudando pessoas cegas através do mundo.\n\nAjudar é fácil. O seu telefone está aberto para ligações enquanto você estiver logado. Nós temos muitos voluntários por isso não se desanime se você não receber uma ligação  de imediato."
 
  * @b pt@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
@@ -24733,7 +24733,7 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
 
  * @b zh-Hans@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
- * @b zh-Hant@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
+ * @b zh-Hant@: "感谢你成为 Be My Eyes 的志愿者！你刚加入了一个逐渐壮大的旨在帮助世界各地盲人的网络。\n\n开始帮助别人非常简单。只要你登录了你的帐号，别人就能拨打你的电话。如果你错过了一个电话，不要泄气，我们有很多志愿者能继续接听。"
 
  */
 static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DESCRIPTION";
@@ -24753,7 +24753,7 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
 
  * @b da@: "Lave et test-opkald"
 
- * @b de@: "Make a test call"
+ * @b de@: "Mach einen Test-Anruf"
 
  * @b el@: "Make a test call"
 
@@ -24763,7 +24763,7 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
 
  * @b fi@: "Make a test call"
 
- * @b fr@: "Make a test call"
+ * @b fr@: "Faire un test d'appel"
 
  * @b he@: "Make a test call"
 
@@ -24787,7 +24787,7 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
 
  * @b pl@: "Make a test call"
 
- * @b pt-BR@: "Make a test call"
+ * @b pt-BR@: "Faça uma chamada de teste"
 
  * @b pt@: "Make a test call"
 
@@ -24811,7 +24811,7 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
 
  * @b zh-Hans@: "Make a test call"
 
- * @b zh-Hant@: "Make a test call"
+ * @b zh-Hant@: "拨打测试电话"
 
  */
 static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITLE";
@@ -24831,7 +24831,7 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
 
  * @b da@: "OK"
 
- * @b de@: "Ok, got it"
+ * @b de@: "Okay, verstanden"
 
  * @b el@: "Ok, got it"
 
@@ -24841,7 +24841,7 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
 
  * @b fi@: "Ok, got it"
 
- * @b fr@: "Ok, got it"
+ * @b fr@: "OK, compris"
 
  * @b he@: "Ok, got it"
 
@@ -24865,7 +24865,7 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
 
  * @b pl@: "Ok, got it"
 
- * @b pt-BR@: "Ok, got it"
+ * @b pt-BR@: "Ok, entendi"
 
  * @b pt@: "Ok, got it"
 
@@ -24879,7 +24879,7 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
 
  * @b sv@: "Ok, got it"
 
- * @b tr@: "Ok, got it"
+ * @b tr@: "Tamam, anladım"
 
  * @b uk@: "Ok, got it"
 
@@ -24889,7 +24889,7 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
 
  * @b zh-Hans@: "Ok, got it"
 
- * @b zh-Hant@: "Ok, got it"
+ * @b zh-Hant@: "好的，知道了"
 
  */
 static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
@@ -25689,7 +25689,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 
  * @b da@: "Del dine oplevelse"
 
- * @b de@: "Share your experience"
+ * @b de@: "Teile deine Erfahrung"
 
  * @b el@: "Share your experience"
 
@@ -25699,7 +25699,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 
  * @b fi@: "Share your experience"
 
- * @b fr@: "Share your experience"
+ * @b fr@: "Partagez votre expérience"
 
  * @b he@: "Share your experience"
 
@@ -25723,7 +25723,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 
  * @b pl@: "Share your experience"
 
- * @b pt-BR@: "Share your experience"
+ * @b pt-BR@: "Compartilhe sua experiência"
 
  * @b pt@: "Share your experience"
 
@@ -25737,7 +25737,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 
  * @b sv@: "Share your experience"
 
- * @b tr@: "Share your experience"
+ * @b tr@: "Deneyiminizi paylaşın"
 
  * @b uk@: "Share your experience"
 
@@ -25747,7 +25747,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 
  * @b zh-Hans@: "Share your experience"
 
- * @b zh-Hant@: "Share your experience"
+ * @b zh-Hant@: "分享你的经验"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER";
@@ -25767,7 +25767,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
 
  * @b da@: "Del din oplevelse"
 
- * @b de@: "Share your experience"
+ * @b de@: "Teile deine Erfahrung"
 
  * @b el@: "Share your experience"
 
@@ -25777,7 +25777,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
 
  * @b fi@: "Share your experience"
 
- * @b fr@: "Share your experience"
+ * @b fr@: "Partagez votre expérience"
 
  * @b he@: "Share your experience"
 
@@ -25801,7 +25801,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
 
  * @b pl@: "Share your experience"
 
- * @b pt-BR@: "Share your experience"
+ * @b pt-BR@: "Compartilhe sua experiência"
 
  * @b pt@: "Share your experience"
 
@@ -25815,7 +25815,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
 
  * @b sv@: "Share your experience"
 
- * @b tr@: "Share your experience"
+ * @b tr@: "Deneyiminizi paylaşın"
 
  * @b uk@: "Share your experience"
 
@@ -25825,7 +25825,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
 
  * @b zh-Hans@: "Share your experience"
 
- * @b zh-Hant@: "Share your experience"
+ * @b zh-Hant@: "分享你的经验"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND";
@@ -25845,7 +25845,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
 
  * @b da@: "Jeg har lige hjulpet en blind person se med Be My Eyes appen #BeMyEyes"
 
- * @b de@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+ * @b de@: "Ich habe gerade einem blinden Menschen mit der Be My Eyes App meine Augen geliehen #BeMyEyes"
 
  * @b el@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
@@ -25855,7 +25855,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
 
  * @b fi@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
- * @b fr@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+ * @b fr@: "Je viens d'aider une personne aveugle à voir avec l'application Be My Eyes #BeMyEyes"
 
  * @b he@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
@@ -25879,7 +25879,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
 
  * @b pl@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
- * @b pt-BR@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+ * @b pt-BR@: "Acabei de ajudar uma pessoa cega a ver com o aplicativo Be My Eyes #BeMyEyes"
 
  * @b pt@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
@@ -25903,7 +25903,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
 
  * @b zh-Hans@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
- * @b zh-Hant@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
+ * @b zh-Hant@: "我刚才用 Be My Eyes 这个 App 使一位盲人重见光明 #BeMyEyes"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER";
@@ -25923,7 +25923,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
 
  * @b da@: "Nogen hjalp mig lige med at med Be My Eyes appen #BeMyEyes"
 
- * @b de@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+ * @b de@: "Jemand hat mir gerade mit der Be My Eyes App seine Augen geliehen #BeMyEyes"
 
  * @b el@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
@@ -25933,7 +25933,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
 
  * @b fi@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
- * @b fr@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+ * @b fr@: "Quelqu'un vient de m'aider à voir avec l'application Be My Eyes #BeMyEyes"
 
  * @b he@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
@@ -25957,7 +25957,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
 
  * @b pl@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
- * @b pt-BR@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+ * @b pt-BR@: "Alguém acabou de me ajudar a ver com o aplicativo Be My Eyes #BeMyEyes"
 
  * @b pt@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
@@ -25981,7 +25981,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
 
  * @b zh-Hans@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
- * @b zh-Hant@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
+ * @b zh-Hant@: "刚才有人用 Be My Eyes 这个 App 帮我重见光明 #BeMyEyes"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND";
@@ -26001,7 +26001,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
 
  * @b da@: "Jeg har lige hjulpet en blind person se med @BeMyEyes appen #BeMyEyes"
 
- * @b de@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+ * @b de@: "Ich habe gerade einem blinden Menschen mit der @bemyeyes App meine Augen geliehen #BeMyEyes"
 
  * @b el@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
@@ -26011,7 +26011,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
 
  * @b fi@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
- * @b fr@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+ * @b fr@: "Je viens d'aider une personne aveugle à voir avec l'application Be My Eyes #BeMyEyes"
 
  * @b he@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
@@ -26035,7 +26035,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
 
  * @b pl@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
- * @b pt-BR@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+ * @b pt-BR@: "Acabei de ajudar uma pessoa cega a ver com o aplicativo @bemyeyes #BeMyEyes"
 
  * @b pt@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
@@ -26059,7 +26059,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
 
  * @b zh-Hans@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
- * @b zh-Hant@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
+ * @b zh-Hant@: "我刚才用 @bemyeyes 的 App 使一位盲人重见光明 #BeMyEyes"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER";
@@ -26079,7 +26079,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
 
  * @b da@: "Nogen hjalp mig lige med at se med @BeMyEyes appen #BeMyEyes"
 
- * @b de@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+ * @b de@: "Jemand hat mir gerade mit der @bemyeyes App seine Augen geliehen #BeMyEyes"
 
  * @b el@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
@@ -26089,7 +26089,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
 
  * @b fi@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
- * @b fr@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+ * @b fr@: "Quelqu'un vient de m'aider à voir avec l'application Be My Eyes #BeMyEyes"
 
  * @b he@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
@@ -26113,7 +26113,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
 
  * @b pl@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
- * @b pt-BR@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+ * @b pt-BR@: "Alguém acabou de me ajudar a ver com o aplicativo @bemyeyes #BeMyEyes"
 
  * @b pt@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
@@ -26137,7 +26137,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
 
  * @b zh-Hans@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
- * @b zh-Hant@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
+ * @b zh-Hant@: "刚才有人用 @bemyeyes 的 App 帮我重见光明 #BeMyEyes"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND";
@@ -26157,7 +26157,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
 
  * @b da@: "Jeg har lige hjulpet en blind person se med Be My Eyes appen"
 
- * @b de@: "I just helped a blind person see with the Be My Eyes app"
+ * @b de@: "Ich habe gerade einem blinden Menschen mit der Be My Eyes App meine Augen geliehen"
 
  * @b el@: "I just helped a blind person see with the Be My Eyes app"
 
@@ -26167,7 +26167,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
 
  * @b fi@: "I just helped a blind person see with the Be My Eyes app"
 
- * @b fr@: "I just helped a blind person see with the Be My Eyes app"
+ * @b fr@: "Je viens d'aider une personne aveugle à voir avec l'application Be My Eyes"
 
  * @b he@: "I just helped a blind person see with the Be My Eyes app"
 
@@ -26191,7 +26191,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
 
  * @b pl@: "I just helped a blind person see with the Be My Eyes app"
 
- * @b pt-BR@: "I just helped a blind person see with the Be My Eyes app"
+ * @b pt-BR@: "Acabei de ajudar uma pessoa cega a ver com o aplicativo Be My Eyes"
 
  * @b pt@: "I just helped a blind person see with the Be My Eyes app"
 
@@ -26215,7 +26215,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
 
  * @b zh-Hans@: "I just helped a blind person see with the Be My Eyes app"
 
- * @b zh-Hant@: "I just helped a blind person see with the Be My Eyes app"
+ * @b zh-Hant@: "我刚才用 Be My Eyes 这个 App 使一位盲人重见光明"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER";
@@ -26235,7 +26235,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER =
 
  * @b da@: "Nogen hjalp mig lige med at se med Be My Eyes appen"
 
- * @b de@: "Someone just helped me see with the Be My Eyes app"
+ * @b de@: "Jemand hat mir gerade mit der Be My Eyes App seine Augen geliehen"
 
  * @b el@: "Someone just helped me see with the Be My Eyes app"
 
@@ -26245,7 +26245,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER =
 
  * @b fi@: "Someone just helped me see with the Be My Eyes app"
 
- * @b fr@: "Someone just helped me see with the Be My Eyes app"
+ * @b fr@: "Quelqu'un vient de m'aider à voir avec l'application Be My Eyes"
 
  * @b he@: "Someone just helped me see with the Be My Eyes app"
 
@@ -26269,7 +26269,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER =
 
  * @b pl@: "Someone just helped me see with the Be My Eyes app"
 
- * @b pt-BR@: "Someone just helped me see with the Be My Eyes app"
+ * @b pt-BR@: "Alguém acabou de me ajudar a ver com o aplicativo Be My Eyes"
 
  * @b pt@: "Someone just helped me see with the Be My Eyes app"
 
@@ -26293,7 +26293,7 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER =
 
  * @b zh-Hans@: "Someone just helped me see with the Be My Eyes app"
 
- * @b zh-Hant@: "Someone just helped me see with the Be My Eyes app"
+ * @b zh-Hant@: "刚才有人用 Be My Eyes 这个 App 帮我重见光明"
 
  */
 static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND = @"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND";
