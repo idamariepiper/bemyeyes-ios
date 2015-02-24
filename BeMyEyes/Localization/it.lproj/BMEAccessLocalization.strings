@@ -17,7 +17,7 @@
 "BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Rispondi";
 
 /* Title for notification action when _not_ answering request for help */
-"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Non ora";
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Non adesso";
 
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "Microfono";

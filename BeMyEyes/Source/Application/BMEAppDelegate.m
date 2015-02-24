@@ -202,6 +202,11 @@
     
     NSString *normalizedDeviceToken = BMENormalizedDeviceTokenStringWithDeviceToken(deviceToken);
     
+    if (normalizedDeviceToken.length == 0) {
+        NSLog(@"Device token (%@) not valid, don't send to server.", normalizedDeviceToken);
+        return;
+    }
+    
     void(^completionHandler)(NSError *) = ^(NSError *error) {
         if (!error && normalizedDeviceToken) {
             [GVUserDefaults standardUserDefaults].deviceToken = normalizedDeviceToken;
