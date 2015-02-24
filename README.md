@@ -47,11 +47,13 @@ The `Scripts` folder contains useful scripts that automate the process of mainta
 ## Pre / Continuously
 - Send localizable strings files for new features to [Crowdin](https://crowdin.com/project/bemyeyes)
 - Manual integration test on alpha/development
+
 ## Do
 - Pull latest localizations from [Crowdin](https://crowdin.com/project/bemyeyes) and add to project
 - Manual integration test on beta/staging
 - Submit to App Store
 - Update App Store app description + screenshots + update description
+
 ## Post
 - Manual integration test on production 
 
