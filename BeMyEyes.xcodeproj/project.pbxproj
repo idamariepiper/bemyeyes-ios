@@ -3341,8 +3341,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
-					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
-					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3406,8 +3404,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
-					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
-					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3471,8 +3467,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
-					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
-					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3534,8 +3528,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
-					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
-					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3847,8 +3839,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
-					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
-					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
@@ -3879,8 +3869,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BeMyEyes/Source/Other\\ sources/**",
-					"$(PROJECT_DIR)/BeMyEyes/Source/Other",
-					sources,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
