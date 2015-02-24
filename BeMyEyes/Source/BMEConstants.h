@@ -9,7 +9,7 @@
 #ifndef BeMyEyes_BMEConstants_h
 #define BeMyEyes_BMEConstants_h
 
-#define BMEAPIPublicBaseUrl @"https://api.bemyeyes.org"
+#define BMEAPIPublicBaseUrl @"https://apiv2.bemyeyes.org"
 #define BMEAPIStagingBaseUrl @"https://stagingapi.bemyeyes.org"
 #define BMEAPIDevelopmentBaseUrl @"https://devapi.bemyeyes.org"
 
