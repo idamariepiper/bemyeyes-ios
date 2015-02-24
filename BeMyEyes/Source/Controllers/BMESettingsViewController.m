@@ -179,6 +179,10 @@ static NSString *const testCallSegueIdentifier = @"TestCall";
     for (NSString *languageCode in knownLanguageCodes) {
         NSLocale *locale = [NSLocale localeWithLocaleIdentifier:languageCode];
         NSString *languageString = [[locale displayNameForKey:NSLocaleIdentifier value:languageCode] capitalizedStringWithLocale:[NSLocale currentLocale]];
+        if (!languageString) {
+            [knownLanguages appendString:languageCode];
+            continue;
+        }
         if (languageCode == knownLanguageCodes.firstObject) {
             [knownLanguages appendString:languageString];
         } else {
