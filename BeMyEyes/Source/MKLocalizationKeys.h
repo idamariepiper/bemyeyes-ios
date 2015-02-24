@@ -12121,7 +12121,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE = @"B
 static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK";
 
 /*!
- * "You have to enable access to you Facebook account in system settings."
+ * "You have to enable access to your Facebook account in system settings."
 
  * All translations:
 
@@ -12139,7 +12139,7 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
 
  * @b el@: "You have to enable access to you Facebook account in system settings."
 
- * @b en@: "You have to enable access to you Facebook account in system settings."
+ * @b en@: "You have to enable access to your Facebook account in system settings."
 
  * @b es@: "Debes permitir el acceso a tu cuenta de Facebook en los ajustes del sistema."
 
