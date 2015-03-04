@@ -19,6 +19,12 @@
 BeMyEyes/Source/BMEGlobal.h
 BeMyEyes\ Tests/ReferenceImages
 BeMyEyes/Source/Other\ sources/OpenTok.framework
+
+####
+# Fastlane
+report.xml
+fastlane/screenshots
+fastlane/*.itmsp
  
 #####
 # OS X temporary files that should never be committed
