@@ -119,16 +119,7 @@ extension String {
         return String(Array(self)[i])
     }
     
-    static func random(length: Int = 6) -> String {
-        let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-        let lettersLength = countElements(letters)
-        var randomString = ""
-        for _ in 0..<length {
-            let index = Int(arc4random_uniform(UInt32(lettersLength)))
-            let letter = letters[index]
-            randomString += letter
-        }
-        println(randomString)
-        return randomString
+    static func random() -> String {
+        return NSUUID().UUIDString
     }
 }
