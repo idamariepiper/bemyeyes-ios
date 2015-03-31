@@ -93,7 +93,9 @@ class DemoCallViewController: BMEBaseViewController {
 			notification.userInfo = [DemoCallViewController.NotificationIsDemoKey() : true]
 			notification.soundName = "call-repeat.aiff"
 			notification.applicationIconBadgeNumber = 0
-            notification.category = NotificationCategoryReply;
+            if notification.respondsToSelector(Selector("category:")) {
+                notification.category = NotificationCategoryReply;
+            }
 			UIApplication.sharedApplication().scheduleLocalNotification(notification)
 		}
 	}
