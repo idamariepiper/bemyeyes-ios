@@ -111,10 +111,10 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
 #pragma mark Users
 
 - (void)createUserWithEmail:(NSString *)email password:(NSString *)password firstName:(NSString *)firstName lastName:(NSString *)lastName role:(BMERole)role completion:(void (^)(BOOL success, NSError *error))completion {
-    NSAssert([email length] > 0, @"E-mail cannot be empty.");
-    NSAssert([password length] > 0, @"Password cannot be empty.");
-    NSAssert([firstName length] > 0, @"First name cannot be empty.");
-    NSAssert([lastName length] > 0, @"Last name cannot be empty.");
+    NSAssert(email.length > 0, @"E-mail cannot be empty.");
+    NSAssert(password.length > 0, @"Password cannot be empty.");
+    NSAssert(firstName.length > 0, @"First name cannot be empty.");
+    NSAssert(lastName.length > 0, @"Last name cannot be empty.");
     
     NSString *securePassword = [AESCrypt encrypt:password password:BMESecuritySalt];
     NSDictionary *parameters = @{ @"email" : email,
@@ -122,21 +122,21 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
                                   @"first_name" : firstName,
                                   @"last_name" : lastName,
                                   @"role" : (role == BMERoleBlind) ? @"blind" : @"helper",
-                                  @"languages" : @[ [[NSLocale preferredLanguages] objectAtIndex:0] ] };
+                                  @"languages" : @[ [NSLocale preferredLanguages].firstObject ] };
     
     [self createUserWithParameters:parameters completion:completion];
 }
 
-- (void)createFacebookUserId:(long long)userId email:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName role:(BMERole)role completion:(void (^)(BOOL success, NSError *error))completion {
-    NSAssert([firstName length] > 0, @"First name cannot be empty.");
-    NSAssert([lastName length] > 0, @"Last name cannot be empty.");
+- (void)createFacebookUserId:(NSString *)userId email:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName role:(BMERole)role completion:(void (^)(BOOL success, NSError *error))completion {
+    NSAssert(firstName.length > 0, @"First name cannot be empty.");
+    NSAssert(lastName.length > 0, @"Last name cannot be empty.");
 
     NSDictionary *parameters = @{ @"user_id" : userId,
                                   @"email" : email,
                                   @"first_name" : firstName,
                                   @"last_name" : lastName,
                                   @"role" : (role == BMERoleBlind) ? @"blind" : @"helper",
-                                  @"languages" : @[ [[NSLocale preferredLanguages] objectAtIndex:0] ] };
+                                  @"languages" : @[ [NSLocale preferredLanguages].firstObject ] };
     
     [self createUserWithParameters:parameters completion:completion];
 }
@@ -178,8 +178,8 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
 }
 
 - (void)loginWithEmail:(NSString *)email password:(NSString *)password deviceToken:(NSString *)deviceToken success:(void (^)(BMEToken *))success failure:(void (^)(NSError *))failure {
-    NSAssert([email length] > 0, @"E-mail cannot be empty.");
-    NSAssert([password length] > 0, @"Password cannot be empty.");
+    NSAssert(email.length > 0, @"E-mail cannot be empty.");
+    NSAssert(password.length > 0, @"Password cannot be empty.");
     
     NSString *securePassword = [AESCrypt encrypt:password password:BMESecuritySalt];
     NSDictionary *parameters = @{ @"email" : email,
@@ -189,8 +189,8 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     [self loginWithParameters:parameters success:success failure:failure];
 }
 
-    NSAssert([email length] > 0, @"E-mail cannot be empty.");
 - (void)loginWithEmail:(NSString *)email userId:(NSString *)userId deviceToken:(NSString *)deviceToken success:(void (^)(BMEToken *))success failure:(void (^)(NSError *))failure {
+    NSAssert(email.length > 0, @"E-mail cannot be empty.");
     NSAssert(userId.length > 0, @"User ID cannot be empty.");
 
     NSDictionary *parameters = @{ @"email" : email,
@@ -200,7 +200,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
 }
 
 - (void)loginUsingFacebookWithDeviceToken:(NSString *)deviceToken success:(void (^)(BMEToken *))success loginFailure:(void (^)(NSError *))loginFailure accountFailure:(void (^)(NSError *))accountFailure {
-    NSAssert([self.facebookAppId length] > 0, @"Facebook app ID must be set in order to login with Facebook.");
+    NSAssert(self.facebookAppId.length > 0, @"Facebook app ID must be set in order to login with Facebook.");
     
     [self authenticateWithFacebook:^(BMEFacebookInfo *fbInfo, NSError *error) {
         if (!error) {
@@ -511,7 +511,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
         newToken = [GVUserDefaults standardUserDefaults].deviceToken;
     }
     
-    if (!newToken || [newToken length] == 0) {
+    if (!newToken || newToken.length == 0) {
         // If we still don't have a new token, we can't register the device.
         if (completion) {
             NSString *messsage = @"Could not register device for calls as it has not been registered for remote notifications.";
