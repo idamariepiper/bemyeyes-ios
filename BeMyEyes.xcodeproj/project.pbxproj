@@ -49,7 +49,7 @@
 		4E8AC11019E413E10035BB70 /* BMEUserTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AC10F19E413E00035BB70 /* BMEUserTask.m */; };
 		4E8E21F519E8C03C00316AD8 /* IntroVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E21F219E8C03C00316AD8 /* IntroVideoViewController.swift */; };
 		4E8E21F719E8C03C00316AD8 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E21F419E8C03C00316AD8 /* VideoViewController.swift */; };
-		4EB3A9A41A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3A9A31A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m */; };
+		4EB3A9A41A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3A9A31A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4EB46C4419F080FE008405B8 /* BMEAccessLocalization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EB46C4619F080FE008405B8 /* BMEAccessLocalization.strings */; };
 		4EB6A1E219E5725F00C72A02 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6A1E119E5725F00C72A02 /* Button.swift */; };
 		4EB6AD1219E1F47A00141615 /* BMETaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6AD1119E1F47A00141615 /* BMETaskTableViewCell.m */; };
@@ -3321,7 +3321,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = ReleaseDev;
 		};
@@ -3385,7 +3384,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = DebugDev;
 		};
@@ -3449,7 +3447,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = DebugStaging;
 		};
@@ -3511,7 +3508,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = ReleaseStaging;
 		};
@@ -3792,7 +3788,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -3823,7 +3818,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

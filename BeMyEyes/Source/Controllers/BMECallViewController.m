@@ -240,10 +240,17 @@ static NSString *BMECallPostSegue = @"PostCall";
 
 - (void)publish {
     self.publisher = [[OTPublisher alloc] initWithDelegate:self name:[BMEClient sharedClient].currentUser.firstName];
-    self.publisher.cameraPosition = AVCaptureDevicePositionBack;
+    
     self.publisher.publishAudio = YES;
     self.publisher.publishVideo = [self isUserBlind];
-    self.publisher.videoCapture = [BMEOpenTokVideoCapture new];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // Must set video capture async as of 2.4.0 due to regression bug in OpenTok
+        BMEOpenTokVideoCapture *videoCapture = [BMEOpenTokVideoCapture new];
+        self.publisher.videoCapture = videoCapture;
+        // Set camere position after setting video capture on 
+        videoCapture.cameraPosition = AVCaptureDevicePositionBack;
+    });
     
     OTError *error = nil;
     [self.session publish:self.publisher error:&error];
