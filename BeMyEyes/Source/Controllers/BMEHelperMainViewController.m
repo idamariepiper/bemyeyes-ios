@@ -241,7 +241,6 @@ typedef NS_ENUM(NSInteger, BMESnoozeStep) {
             self.profileImageView.image = [UIImage imageNamed:@"ProfileFilledInSquare"];
         }
     }
-    
     [self updatePointsAnimated:NO];
     [self reloadPoints];
 }
