@@ -230,8 +230,8 @@ typedef NS_ENUM(NSInteger, BMESnoozeStep) {
 
     self.profileImageView.image = nil;
     if (user.type == BMEUserTypeFacebook) {
-        NSNumber *facebookId = (NSNumber *)user.userId;
-        NSURL *url = [FacebookHelper urlForId:facebookId.integerValue];
+        NSString *facebookId = user.userId;
+        NSURL *url = [FacebookHelper urlForId:facebookId];
         [self.profileImageView sd_setImageWithURL:url placeholderImage:nil options:SDWebImageRefreshCached];
     } else {
         [self.profileImageView sd_cancelCurrentImageLoad];

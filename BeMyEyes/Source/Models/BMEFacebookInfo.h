@@ -10,7 +10,7 @@
 
 @interface BMEFacebookInfo : NSObject
 
-@property (readonly, nonatomic) NSNumber *userId;
+@property (readonly, nonatomic) NSString *userId;
 @property (readonly, nonatomic) NSString *email;
 @property (readonly, nonatomic) NSString *firstName;
 @property (readonly, nonatomic) NSString *lastName;

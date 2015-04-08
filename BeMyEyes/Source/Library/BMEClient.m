@@ -131,7 +131,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     NSAssert([firstName length] > 0, @"First name cannot be empty.");
     NSAssert([lastName length] > 0, @"Last name cannot be empty.");
 
-    NSDictionary *parameters = @{ @"user_id" : @(userId),
+    NSDictionary *parameters = @{ @"user_id" : userId,
                                   @"email" : email,
                                   @"first_name" : firstName,
                                   @"last_name" : lastName,
@@ -189,12 +189,12 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     [self loginWithParameters:parameters success:success failure:failure];
 }
 
-- (void)loginWithEmail:(NSString *)email userId:(long long)userId deviceToken:(NSString *)deviceToken success:(void (^)(BMEToken *))success failure:(void (^)(NSError *))failure {
     NSAssert([email length] > 0, @"E-mail cannot be empty.");
-    NSAssert(userId > 0, @"User ID cannot be empty.");
+- (void)loginWithEmail:(NSString *)email userId:(NSString *)userId deviceToken:(NSString *)deviceToken success:(void (^)(BMEToken *))success failure:(void (^)(NSError *))failure {
+    NSAssert(userId.length > 0, @"User ID cannot be empty.");
 
     NSDictionary *parameters = @{ @"email" : email,
-                                  @"user_id" : @(userId)};
+                                  @"user_id" : userId};
 	
     [self loginWithParameters:parameters success:success failure:failure];
 }
@@ -204,7 +204,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     
     [self authenticateWithFacebook:^(BMEFacebookInfo *fbInfo, NSError *error) {
         if (!error) {
-            [self loginWithEmail:fbInfo.email userId:[fbInfo.userId longLongValue] deviceToken:deviceToken success:success failure:loginFailure];
+            [self loginWithEmail:fbInfo.email userId:fbInfo.userId deviceToken:deviceToken success:success failure:loginFailure];
         } else {
             if (accountFailure) {
                 accountFailure(error);
@@ -752,7 +752,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
 - (void)facebookAuthSuccessWithUserData:(NSDictionary *)userData {
     if (self.fbAuthCompletion) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            NSNumber *userId = userData[@"id"];
+            NSString *userId = userData[@"id"];
             NSString *firstName = userData[@"first_name"];
             NSString *lastName = userData[@"last_name"];
             NSString *email = userData[@"email"];

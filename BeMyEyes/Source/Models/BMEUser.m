@@ -21,6 +21,9 @@
     if (self = [super init]) {
         _identifier = [aDecoder decodeObjectForKey:NSStringFromSelector(@selector(identifier))];
         _userId = [aDecoder decodeObjectForKey:NSStringFromSelector(@selector(userId))];
+        if ([_userId isKindOfClass:[NSNumber class]]) {
+            _userId = ((NSNumber *)_userId).stringValue; // Id might have mistakenly been saved as a NSNumber
+        }
         _username = [aDecoder decodeObjectForKey:NSStringFromSelector(@selector(username))];
         _email = [aDecoder decodeObjectForKey:NSStringFromSelector(@selector(email))];
         _firstName = [aDecoder decodeObjectForKey:NSStringFromSelector(@selector(firstName))];
