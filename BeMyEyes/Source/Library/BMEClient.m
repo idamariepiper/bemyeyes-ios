@@ -240,7 +240,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
         NSLog(@"No valid auth token: %@, %@", self.token, self.tokenExpiryDate);
         return;
     }
-    NSLog(@"Check auth token on server: %@", self.token);
+    NSLog(@"Check auth token on server: %@,\nHeaderToken: %@", self.token, [self defaultValueForHeader:BMEHeaderAuthTokenKey]);
     [self putPath:@"auth/login/token" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (completion) {
             completion(YES);
