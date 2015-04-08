@@ -20,10 +20,9 @@
 
 // CrashlyticsFramework
 #define COCOAPODS_POD_AVAILABLE_CrashlyticsFramework
-// This library does not follow semantic-versioning,
-// so we were not able to define version macros.
-// Please contact the author.
-// Version: 2.2.5.2.
+#define COCOAPODS_VERSION_MAJOR_CrashlyticsFramework 2
+#define COCOAPODS_VERSION_MINOR_CrashlyticsFramework 2
+#define COCOAPODS_VERSION_PATCH_CrashlyticsFramework 10
 
 // DCKeyValueObjectMapping
 #define COCOAPODS_POD_AVAILABLE_DCKeyValueObjectMapping
@@ -35,61 +34,61 @@
 #define COCOAPODS_POD_AVAILABLE_FormatterKit
 #define COCOAPODS_VERSION_MAJOR_FormatterKit 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit 5
 
 // FormatterKit/AddressFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_AddressFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_AddressFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_AddressFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_AddressFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_AddressFormatter 5
 
 // FormatterKit/ArrayFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_ArrayFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_ArrayFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_ArrayFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_ArrayFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_ArrayFormatter 5
 
 // FormatterKit/ColorFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_ColorFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_ColorFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_ColorFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_ColorFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_ColorFormatter 5
 
 // FormatterKit/LocationFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_LocationFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_LocationFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_LocationFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_LocationFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_LocationFormatter 5
 
 // FormatterKit/NameFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_NameFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_NameFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_NameFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_NameFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_NameFormatter 5
 
 // FormatterKit/OrdinalNumberFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_OrdinalNumberFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_OrdinalNumberFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_OrdinalNumberFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_OrdinalNumberFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_OrdinalNumberFormatter 5
 
 // FormatterKit/TimeIntervalFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_TimeIntervalFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_TimeIntervalFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_TimeIntervalFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_TimeIntervalFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_TimeIntervalFormatter 5
 
 // FormatterKit/URLRequestFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_URLRequestFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_URLRequestFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_URLRequestFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_URLRequestFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_URLRequestFormatter 5
 
 // FormatterKit/UnitOfInformationFormatter
 #define COCOAPODS_POD_AVAILABLE_FormatterKit_UnitOfInformationFormatter
 #define COCOAPODS_VERSION_MAJOR_FormatterKit_UnitOfInformationFormatter 1
 #define COCOAPODS_VERSION_MINOR_FormatterKit_UnitOfInformationFormatter 7
-#define COCOAPODS_VERSION_PATCH_FormatterKit_UnitOfInformationFormatter 2
+#define COCOAPODS_VERSION_PATCH_FormatterKit_UnitOfInformationFormatter 5
 
 // GVUserDefaults
 #define COCOAPODS_POD_AVAILABLE_GVUserDefaults
@@ -113,61 +112,61 @@
 #define COCOAPODS_POD_AVAILABLE_MRProgress
 #define COCOAPODS_VERSION_MAJOR_MRProgress 0
 #define COCOAPODS_VERSION_MINOR_MRProgress 8
-#define COCOAPODS_VERSION_PATCH_MRProgress 0
+#define COCOAPODS_VERSION_PATCH_MRProgress 1
 
 // MRProgress/ActivityIndicator
 #define COCOAPODS_POD_AVAILABLE_MRProgress_ActivityIndicator
 #define COCOAPODS_VERSION_MAJOR_MRProgress_ActivityIndicator 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_ActivityIndicator 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_ActivityIndicator 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_ActivityIndicator 1
 
 // MRProgress/Blur
 #define COCOAPODS_POD_AVAILABLE_MRProgress_Blur
 #define COCOAPODS_VERSION_MAJOR_MRProgress_Blur 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_Blur 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_Blur 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_Blur 1
 
 // MRProgress/Circular
 #define COCOAPODS_POD_AVAILABLE_MRProgress_Circular
 #define COCOAPODS_VERSION_MAJOR_MRProgress_Circular 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_Circular 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_Circular 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_Circular 1
 
 // MRProgress/Helper
 #define COCOAPODS_POD_AVAILABLE_MRProgress_Helper
 #define COCOAPODS_VERSION_MAJOR_MRProgress_Helper 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_Helper 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_Helper 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_Helper 1
 
 // MRProgress/Icons
 #define COCOAPODS_POD_AVAILABLE_MRProgress_Icons
 #define COCOAPODS_VERSION_MAJOR_MRProgress_Icons 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_Icons 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_Icons 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_Icons 1
 
 // MRProgress/NavigationBarProgress
 #define COCOAPODS_POD_AVAILABLE_MRProgress_NavigationBarProgress
 #define COCOAPODS_VERSION_MAJOR_MRProgress_NavigationBarProgress 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_NavigationBarProgress 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_NavigationBarProgress 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_NavigationBarProgress 1
 
 // MRProgress/Overlay
 #define COCOAPODS_POD_AVAILABLE_MRProgress_Overlay
 #define COCOAPODS_VERSION_MAJOR_MRProgress_Overlay 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_Overlay 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_Overlay 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_Overlay 1
 
 // MRProgress/ProgressBaseClass
 #define COCOAPODS_POD_AVAILABLE_MRProgress_ProgressBaseClass
 #define COCOAPODS_VERSION_MAJOR_MRProgress_ProgressBaseClass 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_ProgressBaseClass 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_ProgressBaseClass 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_ProgressBaseClass 1
 
 // MRProgress/Stopable
 #define COCOAPODS_POD_AVAILABLE_MRProgress_Stopable
 #define COCOAPODS_VERSION_MAJOR_MRProgress_Stopable 0
 #define COCOAPODS_VERSION_MINOR_MRProgress_Stopable 8
-#define COCOAPODS_VERSION_PATCH_MRProgress_Stopable 0
+#define COCOAPODS_VERSION_PATCH_MRProgress_Stopable 1
 
 // Masonry
 #define COCOAPODS_POD_AVAILABLE_Masonry
@@ -178,13 +177,13 @@
 // MiawKit
 #define COCOAPODS_POD_AVAILABLE_MiawKit
 #define COCOAPODS_VERSION_MAJOR_MiawKit 1
-#define COCOAPODS_VERSION_MINOR_MiawKit 1
-#define COCOAPODS_VERSION_PATCH_MiawKit 0
+#define COCOAPODS_VERSION_MINOR_MiawKit 2
+#define COCOAPODS_VERSION_PATCH_MiawKit 1
 
 // NewRelicAgent
 #define COCOAPODS_POD_AVAILABLE_NewRelicAgent
 #define COCOAPODS_VERSION_MAJOR_NewRelicAgent 4
-#define COCOAPODS_VERSION_MINOR_NewRelicAgent 155
+#define COCOAPODS_VERSION_MINOR_NewRelicAgent 186
 #define COCOAPODS_VERSION_PATCH_NewRelicAgent 0
 
 // PSAlertView
@@ -203,13 +202,13 @@
 #define COCOAPODS_POD_AVAILABLE_SDWebImage
 #define COCOAPODS_VERSION_MAJOR_SDWebImage 3
 #define COCOAPODS_VERSION_MINOR_SDWebImage 7
-#define COCOAPODS_VERSION_PATCH_SDWebImage 1
+#define COCOAPODS_VERSION_PATCH_SDWebImage 2
 
 // SDWebImage/Core
 #define COCOAPODS_POD_AVAILABLE_SDWebImage_Core
 #define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
 #define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
-#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 1
+#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 2
 
 // Debug build configuration
 #ifdef DEBUG
@@ -217,7 +216,7 @@
   // Reveal-iOS-SDK
   #define COCOAPODS_POD_AVAILABLE_Reveal_iOS_SDK
   #define COCOAPODS_VERSION_MAJOR_Reveal_iOS_SDK 1
-  #define COCOAPODS_VERSION_MINOR_Reveal_iOS_SDK 0
-  #define COCOAPODS_VERSION_PATCH_Reveal_iOS_SDK 6
+  #define COCOAPODS_VERSION_MINOR_Reveal_iOS_SDK 5
+  #define COCOAPODS_VERSION_PATCH_Reveal_iOS_SDK 1
 
 #endif
