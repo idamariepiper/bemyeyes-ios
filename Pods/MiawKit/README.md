@@ -4,9 +4,13 @@ MiawKit is a collection of utilities that makes life a little easier when locali
 
 ## Getting started
 
-As modern 21st century brogrammer you're of cause using [CocoaPods](http://cocoapods.org)! Right, right?
+MiawKit supports both [CocoaPods](http://cocoapods.org) and [Carthage](http://github.com/carthage/carthage). If you use CococaPods add this line to your ``Podfile``:
 
-    pod 'MiawKit', :git => 'https://github.com/robocat/MiawKit.git'
+    pod 'MiawKit', '~> 1.2'
+
+If you use Carthage add this line to your ``Cartfile``:
+
+	github "robocat/MiawKit"
   
 If you're planning on using the scrit portion of MiawKit you will have to copy the [miaw script](miaw) into the root directory of your project manually.
 
@@ -81,6 +85,8 @@ If you want to change the language used within your app you can use ``changeLoca
  */
 + (void)changeLocalizationTo:(NSString *)language;
 ```
+
+Apple does not provide any official API's to support applications with different locales from the systems or users locale. MiawKit uses a convention of setting the ``AppleLanguages`` in ``[[NSUserDefaults] standardDefaults]`` to the currently preferred language code. Please advice that other 3rd-party libraries you depend upon may not follow this same convention. 
 
 ## UIKit Categories
 
