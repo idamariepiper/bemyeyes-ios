@@ -53,11 +53,7 @@
         [GVUserDefaults standardUserDefaults].api = BMESettingsAPIDevelopment;
         isDevelopment = YES;
     }
-    if (isStaging || isDevelopment) {
-        self.inAppTestBadgeWindow = [[InAppTestBadge alloc] initWithType:isStaging ? @"Beta" : @"Alpha"];
-        [self.window makeKeyAndVisible];
-        [self.window addSubview:self.inAppTestBadgeWindow];
-    }
+    
     
     // Provisioning: Production / Development
     BOOL isDebug;
@@ -105,6 +101,11 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didLogOut:) name:BMEDidLogOutNotification object:nil];
     
     self.window.tintColor = [UIColor lightBlueColor];
+    if (isStaging || isDevelopment) {
+        self.inAppTestBadgeWindow = [[InAppTestBadge alloc] initWithType:isStaging ? @"Beta" : @"Alpha"];
+        [self.window makeKeyAndVisible];
+        [self.window addSubview:self.inAppTestBadgeWindow];
+    }
   
     return YES;
 }

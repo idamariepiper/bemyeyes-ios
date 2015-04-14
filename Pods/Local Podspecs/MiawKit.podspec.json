@@ -1,6 +1,6 @@
 {
   "name": "MiawKit",
-  "version": "1.1",
+  "version": "1.0",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/robocat/MiawKit.git",
-    "tag": "1.1"
+    "branch": "master"
   },
   "social_media_url": "http://twitter.com/robocat",
   "screenshots": "http://cl.ly/image/0K1x1L0F2p1C/Bh-2X4RIUAEovzh.png",

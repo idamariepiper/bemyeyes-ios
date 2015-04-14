@@ -3,6 +3,7 @@
 //
 
 #import "BMEGlobal.h"
+#import "BMEConstants.h"
 #import "BMEClient.h"
 
 #import "GVUserDefaults+Settings.h"
