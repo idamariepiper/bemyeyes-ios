@@ -64,6 +64,14 @@ import UIKit
             updateToState()
         }
     }
+    override var accessibilityLabel: String! {
+        get {
+            return titleLabelFilled.accessibilityLabel
+        }
+        set {
+            titleLabelFilled.accessibilityLabel = newValue
+        }
+    }
     
     private lazy var titleLabelFilled: MaskedLabel = {
         let label = MaskedLabel()
@@ -101,6 +109,10 @@ import UIKit
                 case .AtTopEdge: return UIEdgeInsets(top: inset, left: inset, bottom: inset/2, right: inset)
             }
         }
+    }
+    
+    convenience init() {
+        self.init(frame: CGRectZero)
     }
     
     override init(frame: CGRect) {
@@ -146,10 +158,6 @@ extension Button {
         addSubview(titleLabelFilled)
         addSubview(titleLabelBorder)
         updateToState()
-    }
-    
-    func accessibilityLabel() -> String! {
-        return titleLabelFilled.accessibilityLabel
     }
     
     func updateToState() {
