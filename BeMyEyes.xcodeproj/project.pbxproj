@@ -1809,6 +1809,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7236E02C18B8A87B00F622AA /* Build configuration list for PBXNativeTarget "BeMyEyes" */;
 			buildPhases = (
+				4E011A061A03A0570042A895 /* ShellScript */,
 				C7D633721AEF4038AC00C23E /* Check Pods Manifest.lock */,
 				7236DFF618B8A87B00F622AA /* Sources */,
 				7236DFF718B8A87B00F622AA /* Frameworks */,
@@ -1816,7 +1817,6 @@
 				B7DF8BE5A9DE4CE1B1BDE152 /* Copy Pods Resources */,
 				4E901DCD19E5B5680067CEB2 /* Embed Frameworks */,
 				4E8ABED719F9423B0005F6E8 /* ShellScript */,
-				4E011A061A03A0570042A895 /* ShellScript */,
 			);
 			buildRules = (
 			);
