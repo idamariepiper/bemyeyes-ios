@@ -5,8 +5,13 @@
 
 # All lines starting with a # are ignored when running `fastlane`
 
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "0.5.0"
+
 before_all do
   # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+  ENV["BME_APP_TITLE"] = "Be My Eyes – Helping blind see"
 
   # sh "./customShellScript.sh"
 
@@ -14,38 +19,40 @@ before_all do
 
   # increment_build_number
 
-  # ipa({
-#     workspace: "BeMyEyes.xcworkspace",
-#     configuration: "Debug",
-#     scheme: "BeMyEyes Development",
-#   })
-
   # xctool
-end
-
-lane :deliver do
-  deliver #:force
 end
 
 lane :test do
   # snapshot
 end
 
-lane :beta do
-  # snapshot
-  # sigh
-  deliver :skip_deploy, :beta
-  # sh "your_script.sh"
-end
-
-lane :deploy do
-  # snapshot
-  # sigh
-  deliver :skip_deploy, :force
-  # frameit
-end
-
 lane :development do
+  ipa({
+    scheme: "BeMyEyes Development",
+    configuration: "ReleaseDev",
+  })
+  ENV["BME_APP_TITLE"] = "Be My Eyes – Alpha"
+  deliver :skip_deploy, :beta
+end
+
+lane :staging do
+  ipa({
+    scheme: "BeMyEyes Staging",
+    configuration: "ReleaseStaging",
+  })
+  ENV["BME_APP_TITLE"] = "Be My Eyes – Beta"
+  deliver :skip_deploy, :beta
+end
+
+lane :production do
+  ipa({
+    scheme: "BeMyEyes",
+    configuration: "Release",
+  })
+  deliver :skip_deploy, :force
+end
+
+lane :inhouse do
   # insert your code here
 end
 

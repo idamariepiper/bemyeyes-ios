@@ -22,9 +22,11 @@ BeMyEyes/Source/Other\ sources/OpenTok.framework
 
 ####
 # Fastlane
-report.xml
+fastlane/report.xml
 fastlane/screenshots
 fastlane/*.itmsp
+fastlane/*.ipa
+fastlane/*.dSYM.zip
  
 #####
 # OS X temporary files that should never be committed
