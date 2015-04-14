@@ -45,7 +45,7 @@ lane :translations do
   Scripts/miaw -g -w --no-date -d -o BeMyEyes/Source/"
 end
 
-lane :development do
+lane :beta_dev do
   ipa({
     scheme: "BeMyEyes Development",
     configuration: "ReleaseDev",
@@ -54,12 +54,20 @@ lane :development do
   deliver :skip_deploy, :beta
 end
 
-lane :staging do
+lane :beta_staging do
   ipa({
     scheme: "BeMyEyes Staging",
     configuration: "ReleaseStaging",
   })
   ENV["BME_APP_TITLE"] = "Be My Eyes – Beta"
+  deliver :skip_deploy, :beta
+end
+
+lane :beta_production do
+  ipa({
+    scheme: "BeMyEyes",
+    configuration: "Release",
+  })
   deliver :skip_deploy, :beta
 end
 
