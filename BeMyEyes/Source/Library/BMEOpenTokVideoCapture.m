@@ -6,14 +6,15 @@
 //  Copyright (c) 2014 Be My Eyes. All rights reserved.
 //
 
-#import "BMEOpenTokVideoCapture.h"
-
 #import <Availability.h>
 #import <UIKit/UIKit.h>
 #import <CoreVideo/CoreVideo.h>
 #import <OpenTok/OpenTok.h>
+#import "BMEOpenTokVideoCapture.h"
+
 
 @implementation BMEOpenTokVideoCapture {
+    id<OTVideoCaptureConsumer> _videoCaptureConsumer;
     OTVideoFrame* _videoFrame;
     
     uint32_t _captureWidth;
@@ -62,8 +63,13 @@
     [self releaseCapture];
     
     if (_capture_queue) {
+        dispatch_release(_capture_queue);
         _capture_queue = nil;
     }
+    
+    [_videoFrame release];
+    
+    [super dealloc];
 }
 
 - (AVCaptureDevice *) cameraWithPosition:(AVCaptureDevicePosition) position {
@@ -337,7 +343,8 @@
             [session removeInput:_videoInput];
             if ([session canAddInput:newVideoInput]) {
                 [session addInput:newVideoInput];
-                _videoInput = newVideoInput;
+                [_videoInput release];
+                _videoInput = [newVideoInput retain];
             } else {
                 success = NO;
                 [session addInput:_videoInput];
@@ -363,10 +370,14 @@ bail:
     dispatch_sync(_capture_queue, ^() {
         [_captureSession stopRunning];
     });
+    [_captureSession release];
     _captureSession = nil;
+    [_videoOutput release];
     _videoOutput = nil;
     
+    [_videoInput release];
     _videoInput = nil;
+    
 }
 
 - (void) initCapture {
@@ -388,8 +399,8 @@ bail:
     
     //-- Add the device to the session.
     NSError *error;
-    _videoInput = [AVCaptureDeviceInput deviceInputWithDevice:videoDevice
-                                                         error:&error];
+    _videoInput = [[AVCaptureDeviceInput deviceInputWithDevice:videoDevice
+                                                         error:&error] retain];
     
     if(error)
         assert(0); //TODO: Handle error

@@ -1,0 +1,73 @@
+# Customise this file, documentation can be found here:
+# https://github.com/krausefx/fastlane#customise-the-fastfile
+
+# Change the syntax highlighting to Ruby
+
+# All lines starting with a # are ignored when running `fastlane`
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "0.5.0"
+
+before_all do
+  # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+  ENV["BME_APP_TITLE"] = "Be My Eyes – Helping blind see"
+
+  # sh "./customShellScript.sh"
+
+  # cocoapods
+
+  # increment_build_number
+
+  # xctool
+end
+
+lane :test do
+  # snapshot
+end
+
+lane :development do
+  ipa({
+    scheme: "BeMyEyes Development",
+    configuration: "ReleaseDev",
+  })
+  ENV["BME_APP_TITLE"] = "Be My Eyes – Alpha"
+  deliver :skip_deploy, :beta
+end
+
+lane :staging do
+  ipa({
+    scheme: "BeMyEyes Staging",
+    configuration: "ReleaseStaging",
+  })
+  ENV["BME_APP_TITLE"] = "Be My Eyes – Beta"
+  deliver :skip_deploy, :beta
+end
+
+lane :production do
+  ipa({
+    scheme: "BeMyEyes",
+    configuration: "Release",
+  })
+  deliver :skip_deploy, :force
+end
+
+lane :inhouse do
+  # insert your code here
+end
+
+# You can define as many lanes as you want
+
+after_all do |lane|
+  # This block is called, only if the executed lane was successful
+  # slack({
+  #   message: "Successfully deployed new App Update for [App](http://link.com).",
+  #   success: true,
+  #   channel: 'development'
+  # })
+end
+
+
+error do |lane, exception|
+  # Something bad happened
+end

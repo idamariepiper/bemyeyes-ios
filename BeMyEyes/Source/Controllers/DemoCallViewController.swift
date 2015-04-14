@@ -89,11 +89,13 @@ class DemoCallViewController: BMEBaseViewController {
 			let fireDate = NSDate().dateByAddingTimeInterval(DemoCallFireNotificationAfterSeconds)
 			let notification = UILocalNotification()
 			notification.fireDate = fireDate
-			notification.alertBody = NSString(format: MKLocalized("PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE"), blindName)
+			notification.alertBody = NSString(format: MKLocalized("PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE"), blindName) as String
 			notification.userInfo = [DemoCallViewController.NotificationIsDemoKey() : true]
 			notification.soundName = "call-repeat.aiff"
 			notification.applicationIconBadgeNumber = 0
-            notification.category = NotificationCategoryReply;
+            if notification.respondsToSelector(Selector("category:")) {
+                notification.category = NotificationCategoryReply;
+            }
 			UIApplication.sharedApplication().scheduleLocalNotification(notification)
 		}
 	}
@@ -131,8 +133,10 @@ class DemoCallViewController: BMEBaseViewController {
 	}
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == DemoVideoSegue {
-            let controller = segue.destinationViewController as DemoCallVideoViewController
+        if
+            segue.identifier == DemoVideoSegue,
+            let controller = segue.destinationViewController as? DemoCallVideoViewController
+        {
             controller.completion = callCompletion
         }
     }

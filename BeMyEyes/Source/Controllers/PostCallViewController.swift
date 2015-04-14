@@ -55,10 +55,11 @@ class PostCallViewController: BMEBaseViewController, MKLocalizable {
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == reportAbuseSegue {
-            if let vc = segue.destinationViewController as? BMEReportAbuseViewController {
-                vc.requestIdentifier = self.requestIdentifier!
-            }
+        if
+            segue.identifier == reportAbuseSegue,
+            let vc = segue.destinationViewController as? BMEReportAbuseViewController
+        {
+            vc.requestIdentifier = self.requestIdentifier!
         }
     }
     
@@ -94,7 +95,7 @@ class PostCallViewController: BMEBaseViewController, MKLocalizable {
 	}
 	
     @IBAction func didTapOkButton(sender: Button) {
-        if countElements(BMEAppStoreId) > 0 {
+        if count(BMEAppStoreId) > 0 {
             Appirater.userDidSignificantEvent(true)
         }
         dismiss()
