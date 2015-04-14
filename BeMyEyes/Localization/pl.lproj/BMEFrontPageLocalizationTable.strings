@@ -8,7 +8,7 @@
 "BME_FRONT_PAGE_SIGHTED_ROLE" = "Jestem osobą widzącą";
 
 /* Title for choosing blind role */
-"BME_FRONT_PAGE_BLIND_ROLE" = "Jestem niewidomy";
+"BME_FRONT_PAGE_BLIND_ROLE" = "Jestem osobą niewidomą";
 
 /* Log in button, if the user is already registered */
 "BME_FRONT_PAGE_ALREADY_REGISTERED" = "Masz już konto? Zaloguj się.";
@@ -17,7 +17,7 @@
 "BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE" = "Be My Eyes";
 
 /* No voiceover alert body */
-"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver";
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Dostępność VoiceOver musi być uruchomiona, aby móc zarejestrować się jako osoba niewidoma. Przedź do Ustawienia > Ogólne > Dostępności > VoiceOver";
 
 /* No voiceover button title */
 "BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON" = "Ok";

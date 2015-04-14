@@ -20,10 +20,10 @@
 "BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER" = "Pålitelig hjelper";
 
 /* Level expert helper */
-"BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Ekspert hjelper";
+"BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Eksperthjelper";
 
 /* Level master helper */
-"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Mester hjelper";
+"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Mesterhjelper";
 
 /* Level points to next level description */
 "BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d poeng til neste nivå";
@@ -56,7 +56,7 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Så video";
 
 /* Points make test call description */
-"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Hadde en testsamtale";
 
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Del på Twitter";
@@ -68,7 +68,7 @@
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Se video";
 
 /* Task make test call description */
-"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Ha en testsamtale";
 
 /* Community network description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyes nettverket";
@@ -77,7 +77,7 @@
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Seende";
 
 /* Community network blind description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Blinde";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Blind";
 
 /* Community network helped description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "Hjulpet";
@@ -92,11 +92,11 @@
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Du er for øyeblikket aktiv";
 
 /* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Ta nytt";
 
 /* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Velg et eksisterende";
 
 /* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Legg til profilbilde";
 

@@ -17,10 +17,10 @@
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "Färdigt";
 
 /* Title of share button to helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Dela din upplevelse";
 
 /* Title of share button to blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Dela din upplevelse";
 
 /* Message when sharing to Facebook as helper */
 "POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "I just helped a blind person see with the Be My Eyes app #BeMyEyes";

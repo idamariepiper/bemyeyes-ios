@@ -11,7 +11,7 @@
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Speichern fehlgeschlagen";
 
 /* Title in alert view shown when no languages have been selected */
-"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "Du hast keine Sprachen ausgewählt";
+"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "Du hast keine Sprachen ausgewählt.";
 
 /* Message in alert view shown when no languages have been selected */
 "BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "Bist du sicher, dass du fortfahren möchtest?";

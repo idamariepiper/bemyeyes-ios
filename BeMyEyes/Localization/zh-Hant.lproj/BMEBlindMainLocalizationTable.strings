@@ -1,5 +1,5 @@
 /* Title of connect to community button */
-"BME_BLIND_MAIN_CONNECT_TO_COMMUNITY" = "连接到首位可提供服务的助手";
+"BME_BLIND_MAIN_CONNECT_TO_COMMUNITY" = "连接到首位可提供服务的志愿者";
 
 /* Cancel in alert showed when failed creating request */
 "BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "好的";

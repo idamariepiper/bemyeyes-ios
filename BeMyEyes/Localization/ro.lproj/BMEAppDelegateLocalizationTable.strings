@@ -4,7 +4,7 @@
   Copyright (c) 2014 Be My Eyes. All rights reserved.
 */
 /* MEssage in alert view shown if push notifications are not enabled */
-"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Notificările sunt o parte centrală a aplicației  Be My Eyes şi trebuie să fie activate in setările telefonului pentru a vă putea inregistra.";
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Notificările push sunt o parte centrală a aplicației  Be My Eyes şi trebuie să fie activate in setările telefonului pentru a vă putea inregistra.";
 
 /* Title in alert view shown if push notifications are not enabled */
 "BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Opțiunea pentru notificări nu este activată";
@@ -19,19 +19,19 @@
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "Abandonează";
 
 /* Message in alert view shown when push notifications are disabled */
-"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "You must give the application permission to use push notifications in system settings.";
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "Trebuie să permiteţi aplicaţiei să utilizeze notificări push în setările de sistem.";
 
 /* Title in alert view shown when push notifications are disabled */
 "BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "Opțiunea pentru notificări nu este activată";
 
 /* Message in alert view shown when the microphone is disabled */
-"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "You must give the application permission to use your microphone in system settings.";
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "Trebuie să permiteţi aplicaţiei să utilizeze microfonul în setările de sistem.";
 
 /* Title in alert view shown when the microphone is disabled */
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "Microfonul nu este activat";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "You must give the application permission to use your camera in system settings.";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "Trebuie să permiteţi aplicaţiei să utilizeze camera video în setările de sistem.";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "Camera nu este activată";

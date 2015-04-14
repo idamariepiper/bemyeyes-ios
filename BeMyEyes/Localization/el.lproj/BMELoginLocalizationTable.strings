@@ -2,7 +2,7 @@
 "BME_LOGIN_BACK" = "Πίσω";
 
 /* Placeholder in e-mail field */
-"BME_LOGIN_EMAIL_PLACEHOLDER" = "Διεύθυνση ηλεκτρονικού ταχυδρομείου";
+"BME_LOGIN_EMAIL_PLACEHOLDER" = "Email";
 
 /* Placeholder in password field */
 "BME_LOGIN_PASSWORD_PLACEHOLDER" = "Κωδικός πρόσβασης";
@@ -14,7 +14,7 @@
 "BME_LOGIN_FACEBOOK" = "Συνδεθείτε μέσω Facebook";
 
 /* Title of forgot password button */
-"BME_LOGIN_FORGOT_PASSWORD" = "Ξέχασα των κωδικό πρόσβασης";
+"BME_LOGIN_FORGOT_PASSWORD" = "Ξέχασα τον κωδικό πρόσβασης";
 
 /* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
 "BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL" = "ΟΚ";
@@ -47,10 +47,10 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "ΟΚ";
 
 /* Message in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to you Facebook account in system settings.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "Πρέπει να επιτρέψετε την πρόσβαση στον λογαριασμό σας στο Facebook μέσα από τις ρυθμίσεις συστήματος.";
 
 /* Title in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Η πρόσβαση δεν επετράπη";
 
 /* Message in alert view shown when the e-mail or password is empty */
 "BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "Παρακαλούμε να εισάγετε την διεύθυνση ηλεκτρονικού ταχυδρομείου και τον κωδικό πρόσβασης.";
@@ -86,7 +86,7 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "ΟΚ";
 
 /* Message in alert view shown when no Facebook account was found. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Δεν βρέθηκε κανένας λογαριασμός Facebook στη συσκευή. Παρακαλούμε προσθέσετε τον λογαριασμό σας στις ρυθμίσεις συστήματος.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Δεν βρέθηκε κανένας λογαριασμός Facebook στη συσκευή.  Προσθέστε το λογαριασμό σας στις ρυθμίσεις συστήματος.";
 
 /* Title in alert view shown when no Facebook account was found. */
 "BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Δεν βρέθηκε κανένας λογαριασμός";

@@ -5,7 +5,7 @@
 "BME_FRONT_PAGE_ASK_FOR_ROLE" = "Ποιος θα είναι ο ρόλος σου;";
 
 /* Title for choosing sighted role */
-"BME_FRONT_PAGE_SIGHTED_ROLE" = "Δεν έχω πρόβλημα όρασης";
+"BME_FRONT_PAGE_SIGHTED_ROLE" = "Βλέπω κανονικά";
 
 /* Title for choosing blind role */
 "BME_FRONT_PAGE_BLIND_ROLE" = "Έχω πρόβλημα όρασης";
@@ -17,8 +17,8 @@
 "BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE" = "Be My Eyes";
 
 /* No voiceover alert body */
-"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver";
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Για να γραφτείτε ως τυφλός χρήστης, θα πρέπει να είναι ενεργοποιημένη η λειτουργία προσβασιμότητας VoiceOver. Πατήστε διαδοχικά Settings (Ρυθμίσεις) > General (Γενικά) > Accessibility (Προσβασιμότητα) > VoiceOver";
 
 /* No voiceover button title */
-"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON" = "Εντάξι";
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON" = "OK";
 

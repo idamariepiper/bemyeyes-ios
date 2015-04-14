@@ -4,17 +4,17 @@
   Created by Simon Støvring on 22/01/15.
   Copyright (c) 2015 Be My Eyes. All rights reserved.
 */
-"POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Call";
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "Apel de test";
 
 "POST_CALL_VIEW_CONTROLLER_CANCEL" = "Abandonează";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Press the home button to leave the app.";
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Apăsaţi butonul home pentru a părăsi aplicaţia.";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_2" = "You'll receive a notification shortly.";
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Veţi primi o notificare în curand.";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Tap the notification.";
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Atingeți notificarea.";
 
 "POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Cineva";
 
-"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device.";
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "Pentru a primi apeluri trebuie să activaţi notificările pentru aplicaţia Be My Eyes în setările de sistem pe dispozitivul dumneavoastră.";
 

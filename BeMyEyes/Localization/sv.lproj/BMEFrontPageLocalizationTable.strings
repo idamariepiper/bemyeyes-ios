@@ -17,7 +17,7 @@
 "BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE" = "Be My Eyes";
 
 /* No voiceover alert body */
-"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver";
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Hjälpmedel VoiceOver måste vara påslaget för att registrera som en synskadad användare. Gå till Inställningar > Allmänt > Hjälpmedel > VoiceOver";
 
 /* No voiceover button title */
 "BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON" = "OK";

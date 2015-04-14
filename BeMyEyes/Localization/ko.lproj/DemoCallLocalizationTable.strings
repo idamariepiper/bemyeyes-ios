@@ -4,17 +4,17 @@
   Created by Simon Støvring on 22/01/15.
   Copyright (c) 2015 Be My Eyes. All rights reserved.
 */
-"POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Call";
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "테스트 통화";
 
 "POST_CALL_VIEW_CONTROLLER_CANCEL" = "취소";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Press the home button to leave the app.";
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "앱을 종료하기 전에 홈 버튼을 누르세요";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_2" = "You'll receive a notification shortly.";
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "당신은 곧 알림을 받을 것입니다";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Tap the notification.";
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "알림을 누르세요";
 
 "POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "아무개";
 
-"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device.";
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "통화를 받기 위해, 당신은 폰의 시스템 환경설정에서 Be My Eyes 앱의 알림기능을 활성화해야 합니다.";
 

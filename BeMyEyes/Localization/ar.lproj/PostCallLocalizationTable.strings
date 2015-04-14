@@ -17,28 +17,28 @@
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "تم";
 
 /* Title of share button to helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "جرب معنا";
 
 /* Title of share button to blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "جرب معنا";
 
 /* Message when sharing to Facebook as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "I just helped a blind person see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "لقد ساعدت شخص اعمى وجعلته يرى بتطبيق \"كون عيوني\" #BeMyEyes";
 
 /* Message when sharing to Facebook as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Someone just helped me see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "شخصٌ ساعدني ان أرى بتطبيق كون عيوني #BeMyEyes";
 
 /* Message when sharing to Twitter as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "I just helped a blind person see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "لقد ساعدت شخص اعمى و جعلته يرى بتطبيق bemyeyes #BeMyEyes@";
 
 /* Message when sharing to Twitter as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Someone just helped me see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "لقد قام للتو أحدٌ بمساعدتي عن طريق برنامج @bemyeyes #BeMyEyes";
 
 /* Default message when sharing as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "I just helped a blind person see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "لقد قمت قبل قليل بمساعدة شخصاً أعمى على ان يرى عن طريق برنامج Be My Eyes";
 
 /* Default message when sharing as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Someone just helped me see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "لقد قام للتو شخصٌ بمساعدتي لأرى عن طريق برنامج Be My Eyes";
 
 /* Title of report button */
 "POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "إبلاغ";

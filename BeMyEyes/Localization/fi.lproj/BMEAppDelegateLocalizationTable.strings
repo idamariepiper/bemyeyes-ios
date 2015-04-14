@@ -19,19 +19,19 @@
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "Peruuta";
 
 /* Message in alert view shown when push notifications are disabled */
-"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "You must give the application permission to use push notifications in system settings.";
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "Sinun täytyy antaa sovellukselle lupa käyttää push-ilmoituksia laitteesi asetuksissa.";
 
 /* Title in alert view shown when push notifications are disabled */
 "BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "Push-ilmoitukset eivät ole käytössä";
 
 /* Message in alert view shown when the microphone is disabled */
-"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "You must give the application permission to use your microphone in system settings.";
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "Sinun täytyy antaa sovellukselle lupa käyttää mikrofonia laitteesi asetuksista.";
 
 /* Title in alert view shown when the microphone is disabled */
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "Mikrofoni ei ole käytössä";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "You must give the application permission to use your camera in system settings.";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "Sinun täytyy antaa sovellukselle lupa käyttää kameraa laitteesi asetuksista.";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "Kamera ei ole käytössä";

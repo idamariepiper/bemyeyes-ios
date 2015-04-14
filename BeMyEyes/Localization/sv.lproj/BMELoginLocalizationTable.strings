@@ -47,10 +47,10 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "Okej";
 
 /* Message in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to you Facebook account in system settings.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "Du måste slå på access till ditt Facebook-konto i systeminställningarna.";
 
 /* Title in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Åtkomst nekad";
 
 /* Message in alert view shown when the e-mail or password is empty */
 "BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "Vänligen ange både e-post och lösenord.";

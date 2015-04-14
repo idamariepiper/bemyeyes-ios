@@ -8,7 +8,7 @@
 "POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER" = "Merci pour votre aide !";
 
 /* Motivational message to blind when call has ended */
-"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "Nous espérons que vous êtes satisfait de l'aide apportée !";
+"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "Nous espérons que vous avez reçu l'aide demandée !";
 
 /* Title of dismiss button to helper */
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Aucun problème";

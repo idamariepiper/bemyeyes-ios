@@ -14,7 +14,7 @@
 "BME_LOGIN_FACEBOOK" = "Autentificare cu Facebook";
 
 /* Title of forgot password button */
-"BME_LOGIN_FORGOT_PASSWORD" = "A-ți uitat parola ";
+"BME_LOGIN_FORGOT_PASSWORD" = "Ați uitat parola";
 
 /* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
 "BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL" = "OK";
@@ -29,7 +29,7 @@
 "BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_CANCEL" = "OK";
 
 /* Message in alert view shown when logging into Facebook but it failed because authentication failed */
-"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_MESSAGE" = "Nu ați fost logat. Vă rugăm să încercaţi din nou.";
+"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_MESSAGE" = "Nu ați fost autentificat. Vă rugăm să încercaţi din nou.";
 
 /* Title in alert view shown when log in to Facebook failed */
 "BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_TITLE" = "Nu ești autentificat(ă)";
@@ -47,10 +47,10 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "OK";
 
 /* Message in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to you Facebook account in system settings.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "Trebuie să permiteţi accesul la contul de Facebook în setările de sistem.";
 
 /* Title in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Accesul nepermis";
 
 /* Message in alert view shown when the e-mail or password is empty */
 "BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "Vă rugăm să introduceţi adresa de e-mail şi parola.";
@@ -68,7 +68,7 @@
 "BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE" = "Adresa de e-mail și parola nu se potrivesc";
 
 /* Title in alert view shown when credentials are incorrect. */
-"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "Date de logare incorecte ";
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "Date de autentificare incorecte";
 
 /* Title of cancel button in alert view shown when a network error occurred during e-mail log in. */
 "BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL" = "OK";

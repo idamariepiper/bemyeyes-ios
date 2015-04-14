@@ -20,7 +20,7 @@
 "BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL" = "OK";
 
 /* Message in alert view shown when a network error occurred during Facebook log in. */
-"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE" = "Varmista, että sinulla on aktiivinen internet-yhteys ja yritä uudelleen.";
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE" = "Varmista, että sinulla on toimiva internet-yhteys ja yritä uudelleen.";
 
 /* Title in alert view shown when a network error occurred during Facebook log in. */
 "BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_TITLE" = "On tapahtunut virhe";
@@ -47,10 +47,10 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "OK";
 
 /* Message in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to you Facebook account in system settings.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "Sinun täytyy sallia pääsy Facebook-tilillesi järjestelmäasetuksista.";
 
 /* Title in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Tilille pääsy ei ole sallittu";
 
 /* Message in alert view shown when the e-mail or password is empty */
 "BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "Kirjoita sähköpostiosoite ja salasana.";
@@ -68,13 +68,13 @@
 "BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE" = "Annettu sähköposti ja salasana ei vastaa.";
 
 /* Title in alert view shown when credentials are incorrect. */
-"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "Väärät tunnukset";
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "Väärät sisäänkirjautumistiedot";
 
 /* Title of cancel button in alert view shown when a network error occurred during e-mail log in. */
 "BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL" = "OK";
 
 /* Message in alert view shown when a network error occurred. */
-"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE" = "Varmista, että sinulla on aktiivinen internet-yhteys ja yritä uudelleen.";
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE" = "Varmista, että sinulla on toimiva internet-yhteys ja yritä uudelleen.";
 
 /* Title in alert view shown when a network error occurred during e-mail log in. */
 "BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE" = "On tapahtunut virhe";

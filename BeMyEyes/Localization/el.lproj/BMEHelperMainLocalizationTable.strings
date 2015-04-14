@@ -23,22 +23,22 @@
 "BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Εμπειρογνώμονας βοηθός";
 
 /* Level master helper */
-"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Master Helper";
+"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Κορυφαίος βοηθός";
 
 /* Level points to next level description */
-"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d πόντων έως τον επόμενο επίπεδο";
+"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d πόντοι μέχρι το επόμενο επίπεδο";
 
 /* Points signup description */
 "BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Η εγγραφή πραγματοποιήθηκε επιτυχώς";
 
 /* Points answer push message description */
-"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Προσπάθειες βοήθειας";
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Προσπαθήσατε να βοηθήσετε";
 
 /* Points answer push message techinal error description */
-"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "Προσπάθειες βοήθειας";
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "Προσπαθήσατε να βοηθήσετε";
 
 /* Points finish helping request description */
-"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Βοήθησατε ένα άτομο με πρόβλημα όρασης";
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Βοήθησατε έναν τυφλό";
 
 /* Points finish 10 helping requests in a week description */
 "BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Βοηθήσατε 10 άτομα σε μια εβδομάδα";
@@ -56,7 +56,7 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Βίντεο που είδατε";
 
 /* Points make test call description */
-"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Έγινε δοκιμαστική κλήση";
 
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Κοινοποίηση στο Twitter";
@@ -65,10 +65,10 @@
 "BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION" = "Κοινοποίηση στο Facebook";
 
 /* Task watch video description */
-"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Βίντεο που είδατε";
+"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Δείτε το βίντεο";
 
 /* Task make test call description */
-"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Κάντε δοκιμαστική κλήση";
 
 /* Community network description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Το δίκτυο της εφαρμογης Be My Eyes";
@@ -86,17 +86,17 @@
 "BME_HELPER_MAIN_LOADING_POINT_FAILED" = "Δεν έγινε φόρτωση πόντων";
 
 /* Title of button for retrying loading point when failed */
-"BME_HELPER_MAIN_RETRY_LOADING_POINT" = "Προσπαθήστε ξανά";
+"BME_HELPER_MAIN_RETRY_LOADING_POINT" = "Επανάληψη";
 
 /* Snooze status text when not snoozing */
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Είστε διαθέσιμοι";
 
 /* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Τραβήξτε νέα φωτογραφία";
 
 /* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Επιλέξτε την υπάρχουσα εικόνα";
 
 /* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Προσθέστε φωτογραφία προφίλ";
 

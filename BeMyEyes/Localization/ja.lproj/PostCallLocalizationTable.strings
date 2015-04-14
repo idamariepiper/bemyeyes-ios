@@ -17,28 +17,28 @@
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "終了";
 
 /* Title of share button to helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "体験をシェア";
 
 /* Title of share button to blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "体験をシェア";
 
 /* Message when sharing to Facebook as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "I just helped a blind person see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "Be My Eyesアプリで視覚障がい者のかわりに見るお手伝いをしました。#BeMyEyes";
 
 /* Message when sharing to Facebook as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Someone just helped me see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Be My Eyesアプリで見るお手伝いをいただきました。#BeMyEyes";
 
 /* Message when sharing to Twitter as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "I just helped a blind person see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "@bemyeyesアプリで視覚障がい者のかわりに見るお手伝いをしました。#BeMyEyes";
 
 /* Message when sharing to Twitter as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Someone just helped me see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "@bemyeyesアプリで見るお手伝いをいただきました。#BeMyEyes";
 
 /* Default message when sharing as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "I just helped a blind person see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "Be My Eyesアプリで視覚障がい者のかわりに見るお手伝いをしました。";
 
 /* Default message when sharing as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Someone just helped me see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Be My Eyesアプリで見るお手伝いをいただきました。";
 
 /* Title of report button */
 "POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "報告";

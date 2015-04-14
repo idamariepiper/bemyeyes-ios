@@ -14,7 +14,7 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Εάν γνωρίζετε περισσότερες γλώσσες μπορείτε να τις επιλέξετε ώστε να συνδυαστούν με κάποιον βοηθό ο οποίος μιλάει μια από τις γλώσσες αυτές με σκοπό να σας βοηθήσει γρηγορότερα.";
 
 /* Title in alert view shown when asking the blind if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Γνωρίζετε περισσότερες γλώσσες;";
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Ξέρετε περισσότερες γλώσσες;";
 
 /* Title of cancel button in alert view shown when asking the helper if he knows more langauges */
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "Όχι";
@@ -23,10 +23,10 @@
 "BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Ναι";
 
 /* Message in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Εάν γνωρίζετε περισσότερες γλώσσες, μπορείτε να τις επιλέξετε και να γίνει ταίριασμα με άτομα με πρόβλημα όρασης τα οποία χρειάζονται βοήθεια στην γλώσσα αυτή.";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Αν ξέρετε περισσότερες γλώσσες, μπορείτε να τις επιλέξετε για να σας αντιστοιχίσουμε με έναν τυφλό που χρειάζεται βοήθεια σε μια από αυτές τις γλώσσες.";
 
 /* Title in alert view shown when asking the helper if he knows more langauges */
-"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Γνωρίζετε περισσότερες γλώσσες;";
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Ξέρετε περισσότερες γλώσσες;";
 
 /* Settings button accessibility label */
 "BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "Ρυθμίσεις";
@@ -38,13 +38,13 @@
 "BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Παρουσιάστηκε κάποιο σφάλμα και μπορεί να μην λαμβάνετε ειδοποιήσεις.";
 
 /* Title of cancel button in alert view */
-"BME_MAIN_ALERT_CANCEL" = "Εντάξι";
+"BME_MAIN_ALERT_CANCEL" = "OK";
 
 /* Title of alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Σφάλμα κατά τη σύνδεση";
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Σφάλμα σύνδεσης";
 
 /* Message in alert view when user is forced to logout */
-"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Γίνετε αποσύνδεση λόγω κάποιου τεχνικού προβλήματος.";
+"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Λόγω τεχνικού προβλήματος, θα αποσυνδεθείτε.";
 
 /* Ok button in alert view when user is forced to logout */
 "BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "Σύνδεση";

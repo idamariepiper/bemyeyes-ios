@@ -11,34 +11,34 @@
 "POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "Vi håper du fikk den hjelpen du trengte!";
 
 /* Title of dismiss button to helper */
-"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Ingen problem";
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Ingen årsak";
 
 /* Title of dismiss button to blind */
-"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "Utført";
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "Ferdig";
 
 /* Title of share button to helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Del din erfaring";
 
 /* Title of share button to blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Del din erfaring";
 
 /* Message when sharing to Facebook as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "I just helped a blind person see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "Jeg hjalp nettopp en blind person med å se via Be My Eyes appen #BeMyEyes";
 
 /* Message when sharing to Facebook as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Someone just helped me see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Noen hjalp meg nettopp med å se via Be My Eyes appen #BeMyEyes";
 
 /* Message when sharing to Twitter as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "I just helped a blind person see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "Jeg hjalp nettopp en blind person med å se via @bemyeyes appen #BeMyEyes";
 
 /* Message when sharing to Twitter as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Someone just helped me see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Noen hjalp meg nettopp med å se via @bemyeyes appen #BeMyEyes";
 
 /* Default message when sharing as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "I just helped a blind person see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "Jeg hjalp nettopp en blind person med å se via Be My Eyes appen";
 
 /* Default message when sharing as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Someone just helped me see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Noen hjalp meg nettopp med å se via Be My Eyes appen";
 
 /* Title of report button */
 "POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "Rapporter";
