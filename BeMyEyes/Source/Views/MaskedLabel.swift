@@ -16,10 +16,9 @@ import UIKit
         }
     }
     @IBInspectable var textInset: UIEdgeInsets = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
-    
-    override init() {
-        super.init()
-        setup()
+
+    convenience init() {
+        self.init(frame: CGRectZero)
     }
     
     override init(frame: CGRect) {

@@ -24,7 +24,7 @@ class HelperWelcomeViewController: UIViewController {
         heartImageView.tintColor = .whiteColor()
         
         let firstName = BMEClient.sharedClient().currentUser.firstName
-        titleLabel.text = NSString(format: MKLocalizedFromTable("BME_HELPER_WELCOME_TITLE", "HelperWelcomeLocalizationTable"), firstName)
+        titleLabel.text = NSString(format: MKLocalizedFromTable("BME_HELPER_WELCOME_TITLE", "HelperWelcomeLocalizationTable"), firstName) as String
         descriptionLabel.text = MKLocalizedFromTable("BME_HELPER_WELCOME_DESCRIPTION", "HelperWelcomeLocalizationTable")
         demoCallButton.title = MKLocalizedFromTable("BME_HELPER_DEMO_CALL_TITLE", "HelperWelcomeLocalizationTable")
         doneButton.title = MKLocalizedFromTable("BME_HELPER_DONE_TITLE", "HelperWelcomeLocalizationTable")
@@ -37,12 +37,13 @@ class HelperWelcomeViewController: UIViewController {
     // MARK: - Private methods
 
     @IBAction func demoCallButtonPressed(sender: AnyObject) {
-        let controller = storyboard?.instantiateViewControllerWithIdentifier(BMEDemoCallViewController) as DemoCallViewController
-        controller.callCompletion = { controller in
-            self.dismissViewControllerAnimated(true, completion: nil)
+        if let controller = storyboard?.instantiateViewControllerWithIdentifier(BMEDemoCallViewController) as? DemoCallViewController {
+            controller.callCompletion = { controller in
+                self.dismissViewControllerAnimated(true, completion: nil)
+            }
+            presentViewController(controller, animated: true, completion: nil)
         }
         
-        presentViewController(controller, animated: true, completion: nil)
     }
     
     @IBAction func doneButtonPressed(sender: AnyObject) {

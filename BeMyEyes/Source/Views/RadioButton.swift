@@ -12,10 +12,10 @@ import UIKit
     
     private let strokeWidth: CGFloat = 3
     
-    override init() {
-        super.init()
-        setup()
+    convenience init() {
+        self.init(frame: CGRectZero)
     }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()

@@ -47,14 +47,6 @@ import UIKit
         }
     }
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
     override func drawRect(rect: CGRect) {
         
         let frame = bounds
@@ -83,7 +75,7 @@ import UIKit
         
         CGContextSaveGState(context)
         let image = CGBitmapContextCreateImage(context)
-        let imageMask = CGImageMaskCreate(UInt(mask.width), UInt(mask.height), CGImageGetBitsPerComponent(image), CGImageGetBitsPerPixel(image), CGImageGetBytesPerRow(image), CGImageGetDataProvider(image), CGImageGetDecode(image), CGImageGetShouldInterpolate(image))
+        let imageMask = CGImageMaskCreate(Int(mask.width), Int(mask.height), CGImageGetBitsPerComponent(image), CGImageGetBitsPerPixel(image), CGImageGetBytesPerRow(image), CGImageGetDataProvider(image), CGImageGetDecode(image), CGImageGetShouldInterpolate(image))
         CGContextClipToMask(context, mask, imageMask)
         content()
         CGContextRestoreGState(context)
