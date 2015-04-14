@@ -16,7 +16,6 @@ class FrontPageViewController_Tests: FBSnapshotTestCase {
     override func setUp() {
         super.setUp()
 //        recordMode = true
-        renderAsLayer = true
         
         frontPageVC = UIApplication.sharedApplication().keyWindow?.rootViewController?.storyboard?.instantiateViewControllerWithIdentifier(BMEFrontPageControllerIdentifier) as? BMEFrontPageViewController
         frontPageVC?.viewDidLoad()
