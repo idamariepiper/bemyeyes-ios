@@ -1,32 +1,6 @@
-# For more information about each property, visit the GitHub documentation: https://github.com/krausefx/deliver
-# Everything next to a # is a comment and will be ignored
-
-# hide_transporter_output # remove the '#' in the beginning of the line, to hide the output while uploading
-
-# apple_id "937245219"
-# app_identifier "org.bemyeyes.BeMyEyes.dev"
-# baseTitle = "Be My Eyes - Alpha"
-
-apple_id "905177575"
-app_identifier "org.bemyeyes.BeMyEyes.staging"
-baseTitle = "Be My Eyes - Beta"
-
-# apple_id "938504950"
-# app_identifier "org.bemyeyes.BeMyEyes"
-# baseTitle = "Be My Eyes – Helping blind see"
-
-baseSupportURL = "http://www.bemyeyes.org"
-baseMarketingURL = "http://www.bemyeyes.org"
-basePrivacyURL = "http://www.bemyeyes.org"
-
-########################################
-# App Metadata
-########################################
-
-
-version '1.2' # you can pass this if you want to verify the version number with the ipa file
-
-# config_json_folder './deliver'
+###################### App Metadata ######################
+# DON'T Update the app description and metadata in the ./metadata folder
+# Use direct metadata set from this ruby file
 
 baseLanguage = "en-US"
 
@@ -51,6 +25,26 @@ supportedLanguages = {
   "cmn-Hant" => "zh-Hant",
 }
 
+def basey(baseKey, baseValue, allKeys)
+  hashey = { baseKey => baseValue }
+  allKeys.each { |key, value|
+    hashey[key] = baseValue
+  }
+  return hashey
+end
+
+# TITLE
+baseTitle = ENV["BME_APP_TITLE"] # Environment variable is set in the 'Fastfile'
+title(basey(baseLanguage, baseTitle, supportedLanguages))
+
+# KEYWORDS
+baseKeywords = [ "accessible", "blind", "impaired", "help", "vision", "voiceover", "volunteer", "bemyeyes", "taptapsee"]
+keywords(basey(baseLanguage, baseKeywords, supportedLanguages))
+
+# CHANGELOG
+baseChangelog = "Fix demo call on iOS 7"
+changelog(basey(baseLanguage, baseChangelog, supportedLanguages))
+
 # DESCRIPTION
 descriptionHash = { 
   baseLanguage => "Be the eyes for a blind person in need of help remotely through a live video connection if you are sighted or be assisted by the network of sighted users if you are blind.\n\nBe My Eyes is all about contributing to and benefiting from small acts of kindness, so hop on board and get involved!\n\nBlind users can request help from a sighted person and the sighted users will then be called for help. As soon as the first sighted user accepts the request for help a live audio-video connection will be set up between the two and the sighted user can tell the blind person what she sees when the blind user points his phone at something using the rear-facing camera.\n\nAs a sighted user you don't need to worry about missing a call and 'leave a blind person hanging' - you are a part of the bigger Be My Eyes helper-network and we will find the next available sighted person in the network. The challenges that the blind person needs help with can be anything from knowing the expiry date on the milk to getting help crossing the street.\n\nNote: We encourage blind users to be patient when requesting help because we rely on real people to help you.\n\n- Live audio-video connection between blind and sighted users\n- Add the languages you know under settings\n- An easy way you can make a difference for blind people" 
@@ -62,36 +56,10 @@ supportedLanguages.each { |key, value|
 description(descriptionHash)
 
 
+###################### Screenshots ######################
+# Store all screenshots in the ./screenshots folder separated
+# by language. If you use snapshot, this happens automatically
 
-def basey(baseKey, baseValue, allKeys)
-  hashey = { baseKey => baseValue }
-  allKeys.each { |key, value|
-    hashey[key] = baseValue
-  }
-  return hashey
-end
-
-# TITLE
-# titleHash = {
-#   baseLanguage => baseTitle
-# }
-# supportedLanguages.each { |key, value|
-#   titleHash[key] = titleHash[baseLanguage]
-# }
-# title(titleHash)
-title(basey(baseLanguage, baseTitle, supportedLanguages))
-
-# KEYWORDS
-keywordsHash = { 
-  baseLanguage => [ "accessible", "blind", "impaired", "help", "vision", "voiceover", "volunteer", "bemyeyes", "taptapsee"] 
-}
-supportedLanguages.each { |key, value|
-  keywordsHash[key] = keywordsHash[baseLanguage]
-}
-keywords(keywordsHash)
-
-
-# SCREENSHOTS
 # Copy baseLanugage screenshots to the rest of the languages
 supportedLanguages.each { |key, value|
   FileUtils.cp_r "./screenshots/" + baseLanguage + "/.", "./screenshots/" + key
@@ -101,37 +69,28 @@ supportedLanguages.each { |key, value|
 # https://github.com/KrauseFx/deliver#upload-screenshots-to-itunes-connect
 screenshots_path "./screenshots/"
 
+###################### IPA File ######################
+# This part is only relevant, if you want to submit a new binary
+# If you don't use fastlane (https://github.com/KrauseFx/fastlane)
+# you can set the path to your ipa file using:
+# ipa "./app.ipa"
 
-########################################
-# Building and Testing
-########################################
+# to provide an ipa file for TestFlight distribution, use beta_ipa 
+# beta_ipa "./../BeMyEyes.ipa"
 
-# Dynamic generation of the ipa file
-# I'm using Shenzhen by Mattt, but you can use any build tool you want
-# Remove the whole block if you do not want to upload an ipa file
-# ipa do
-#     # Add any code you want, like incrementing the build
-#     # number or changing the app identifier
-#
-#     # Attention: When you return a valid ipa file, this file will get uploaded and released
-#     # If you only want to upload app metadata, remove the complete ipa block.
-#
-#     # system("ipa build --verbose") # build your project using Shenzhen
-#     "./bemyeyes-ios.ipa" # Tell 'Deliver' where it can find the finished ipa file
-# end
+# The version of your app - remove this if you provide an ipa file
+# version "1.4.1"
 
-# ipa "./latest.ipa" # this can be used instead of the `do` block, if you prefer manually building the ipa file
+###################### More Options ######################
+# If you want to have even more control, check out the documentation
+# https://github.com/KrauseFx/deliver/blob/master/Deliverfile.md
 
-# beta_ipa do
-    # system("ipa build --verbose") # customize this to build beta version
-    # "./ad_hoc_build.ipa" # upload ipa file using `deliver --beta`
-# end
 
-# unit_tests do
-#   If you use fastlane (http://github.com/krausefx/fastlane), run the tests there
-#   system("xctool test")
-# end
+###################### Automatically generated ######################
+# Feel free to remove the following lines if you use fastlane
 
-success do
-  # system("say 'Successfully deployed a new version.'")
-end
+# app_identifier "org.bemyeyes.BeMyEyes" # The bundle identifier of your app
+# apple_id "905177575" # This is NOT your Apple login ID, but the App ID of your app
+# email "apple_company@bemyeyes.org" # the login email addressbaseLanguage = "en-US"
+
+
