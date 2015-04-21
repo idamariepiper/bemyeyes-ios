@@ -17,28 +17,28 @@
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "Fatto";
 
 /* Title of share button to helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Condividi la tua esperienza";
 
 /* Title of share button to blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Condividi la tua esperienza";
 
 /* Message when sharing to Facebook as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "I just helped a blind person see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "Ho appena aiutato una persona non vedente a vedere attraverso l'app Be My Eyes #BeMyEyes";
 
 /* Message when sharing to Facebook as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Someone just helped me see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Qualcuno mi ha appena aiutato a vedere con l'app Be My Eyes #BeMyEyes";
 
 /* Message when sharing to Twitter as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "I just helped a blind person see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "Ho appena aiutato un persona non vedente a vedere attraverso @bemyeyes #BeMyEyes";
 
 /* Message when sharing to Twitter as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Someone just helped me see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Qualcuno mi ha appena aiutato a vedere con @bemyeyes #BeMyEyes";
 
 /* Default message when sharing as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "I just helped a blind person see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "Ho appena aiutato una persona non vedente a vedere con l'app Be My Eyes";
 
 /* Default message when sharing as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Someone just helped me see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Qualcuno appena mi ha aiutato a vedere con l'app Be My Eyes";
 
 /* Title of report button */
 "POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "Report";

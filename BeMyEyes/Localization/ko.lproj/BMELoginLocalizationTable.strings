@@ -47,10 +47,10 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "확인";
 
 /* Message in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to you Facebook account in system settings.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "당신은 당신의 페이스북 계정에 시스템 설정에 접근할 수 있게 가지고 있다";
 
 /* Title in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "접근이 허용되지 않는다.";
 
 /* Message in alert view shown when the e-mail or password is empty */
 "BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "이메일과 패스워드를 모두 입력해주세요.";

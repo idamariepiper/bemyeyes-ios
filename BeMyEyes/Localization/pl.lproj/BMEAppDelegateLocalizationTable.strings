@@ -19,19 +19,19 @@
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "Anuluj";
 
 /* Message in alert view shown when push notifications are disabled */
-"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "You must give the application permission to use push notifications in system settings.";
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "Należy nadać aplikacji uprawnienia w trybie otrzymywania powiadomień typu push w ustawienia systemu tego urządzenia.";
 
 /* Title in alert view shown when push notifications are disabled */
 "BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "Aktywne powiadomienia Push nie zostały włączone";
 
 /* Message in alert view shown when the microphone is disabled */
-"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "You must give the application permission to use your microphone in system settings.";
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "Musisz zezwolić aplikacji na używanie mikrofonu w ustawieniach systemu twojego urządzenia.";
 
 /* Title in alert view shown when the microphone is disabled */
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "Mikrofon wyłączony";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "You must give the application permission to use your camera in system settings.";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "Musisz zezwolić aplikacji na korzystanie z kamery w ustawieniach systemu twojego urządzenia.";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "Kamera nie włączona";

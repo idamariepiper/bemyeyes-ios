@@ -1,8 +1,8 @@
 /* Headline */
-"BME_REGISTERED_HEADLINE" = "DA!";
+"BME_REGISTERED_HEADLINE" = "Da!";
 
 /* Description */
-"BME_REGISTERED_DESCRIPTION" = "Sunteți înregistrat (ă).";
+"BME_REGISTERED_DESCRIPTION" = "Sunteți înregistrat.";
 
 /* Title of log in button */
 "BME_REGISTERED_LOG_IN" = "Logare";

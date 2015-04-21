@@ -17,7 +17,7 @@
 "BME_SETTINGS_ADD_LANGUAGES" = "Lisää kieli";
 
 /* Feedback title */
-"BME_SETTINGS_FEEDBACK" = "Antaa palautetta sovelluksesta";
+"BME_SETTINGS_FEEDBACK" = "Anna palautetta sovelluksesta";
 
 /* Log out title */
 "BME_SETTINGS_LOG_OUT" = "Kirjaudu ulos";

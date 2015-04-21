@@ -2,7 +2,7 @@
 
 """
 Usage:
-	upload_translations.py -p <project-key> [-a|-u] 
+	upload_translations.py <project-key> [-a|-u] 
 	
 	-a : Add files
 	-u : Update files
@@ -100,7 +100,9 @@ def makeUploadRequest(filesToUpload, url):
 		
 		
 def pathToEnglishTranslation():
-	return os.path.join(os.getcwd(), PATH_TO_ENGLISH)
+    abspath = os.path.abspath(__file__)
+    dname = os.path.dirname(abspath)
+    return os.path.join(dname, PATH_TO_ENGLISH)
 	
 	
 def fileSetAt(directory, condition):

@@ -1,5 +1,5 @@
 /* App name. Please don't translate this. */
-"BME_FRONT_PAGE_APP_NAME" = "Be My Eyes";
+"BME_FRONT_PAGE_APP_NAME" = "나의눈";
 
 /* Asking the user to choose if he is sighted or blind */
 "BME_FRONT_PAGE_ASK_FOR_ROLE" = "어떤 역할을 원하세요?";
@@ -14,10 +14,10 @@
 "BME_FRONT_PAGE_ALREADY_REGISTERED" = "이미 등록했다면 여기서 로그인하세요.";
 
 /* No voiceover alert title */
-"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE" = "Be My Eyes";
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE" = "나의눈";
 
 /* No voiceover alert body */
-"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver";
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "접근성 VoiceOver 사용자로 등록하기 위해야 한다. Setting 을 가리키고 총장에게 가서 내게 필요한 옵션에 가서 VoiceOver에 하세요.";
 
 /* No voiceover button title */
 "BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON" = "확인";

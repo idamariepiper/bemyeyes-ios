@@ -53,10 +53,10 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTION" = "Facebookで共有";
 
 /* Points watch video description */
-"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "閲覧した動画";
+"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "動画を閲覧";
 
 /* Points make test call description */
-"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "テスト通話を完了";
 
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Twitterで共有";
@@ -68,7 +68,7 @@
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "動画を見る";
 
 /* Task make test call description */
-"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "テスト通話をする";
 
 /* Community network description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyes ネットワーク";
@@ -80,7 +80,7 @@
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "視覚障がい者";
 
 /* Community network helped description */
-"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "援助者";
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "援助件数";
 
 /* Message shown when the point could not be loaded */
 "BME_HELPER_MAIN_LOADING_POINT_FAILED" = "ポイントを読み込めませんでした";
@@ -92,11 +92,11 @@
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "あなたは現在アクティブです";
 
 /* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "新たに撮影";
 
 /* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "写真を選択";
 
 /* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "プロフィール写真を追加";
 

@@ -2,10 +2,10 @@
 "BME_SIGN_UP_BACK" = "戻る";
 
 /* Placeholder in first name field */
-"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "名前";
+"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "名";
 
 /* Placeholder in last name field */
-"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "苗字";
+"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "氏";
 
 /* Placeholder in e-mail field */
 "BME_SIGN_UP_EMAIL_PLACEHOLDER" = "Eメール";

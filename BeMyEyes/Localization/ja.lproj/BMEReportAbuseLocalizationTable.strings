@@ -53,19 +53,19 @@
 "BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "不正利用の報告";
 
 /* Accesibility label for reason 1 when the reason is selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "その人は援助を拒否しました (選択)";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "その人は援助を拒否しました（選択済）";
 
 /* Accesibility label for reason 1 when the reason is not selected */
 "BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "その人は援助を拒否しました。";
 
 /* Accesibility label for reason 2 when the reason is selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "そのヘルパーは不適切な行為をしました。 (選択)";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "そのヘルパーは不適切な行為をしました。（選択済）";
 
 /* Accesibility label for reason 2 when the reason is not selected */
 "BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2" = "そのヘルパーは不適切な行為をしました。";
 
 /* Accesibility label for reason 3 when the reason is selected */
-"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "その理由はリストにありません (選択)";
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "その理由はリストにありません（選択済）";
 
 /* Accesibility label for reason 3 when the reason is not selected */
 "BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3" = "その理由はリストにありません。";

@@ -4,17 +4,17 @@
   Created by Simon Støvring on 22/01/15.
   Copyright (c) 2015 Be My Eyes. All rights reserved.
 */
-"POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Call";
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "Testipuhelu";
 
 "POST_CALL_VIEW_CONTROLLER_CANCEL" = "Peruuta";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Press the home button to leave the app.";
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Paina koti-näppäintä poistuaksesi sovelluksesta.";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_2" = "You'll receive a notification shortly.";
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Saat ilmoituksen piakkoin.";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Tap the notification.";
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Napauta ilmoitusta.";
 
 "POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Joku";
 
-"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device.";
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "Ottaaksesi vastaan puheluita sinun täytyy ottaa käyttöön ilmoitukset sovellukselle Be My Eyes laitteesi asetuksista.";
 

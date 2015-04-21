@@ -11,13 +11,13 @@
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Nie można zapisać";
 
 /* Title in alert view shown when no languages have been selected */
-"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "You have no languages selected";
+"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "Nie wybrano żadnego języka";
 
 /* Message in alert view shown when no languages have been selected */
-"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "Are you sure you want to proceed?";
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "Czy na pewno chcesz kontynuować?";
 
 /* Positive answer to alert view shown when no languages have been selected */
-"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "Yes";
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "Tak";
 
 /* Negative answer to alert view shown when no languages have been selected */
 "BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO" = "Nie";

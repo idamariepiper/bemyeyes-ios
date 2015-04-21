@@ -4,17 +4,17 @@
   Created by Simon Støvring on 22/01/15.
   Copyright (c) 2015 Be My Eyes. All rights reserved.
 */
-"POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Call";
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "Δοκιμαστική κλήση";
 
 "POST_CALL_VIEW_CONTROLLER_CANCEL" = "Άκυρο";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Press the home button to leave the app.";
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Πατήστε το κουμπί Home για να κλείσετε την εφαρμογή.";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_2" = "You'll receive a notification shortly.";
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Θα λάβετε μια ειδοποίηση σύντομα.";
 
-"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Tap the notification.";
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Πατήστε την ειδοποίηση.";
 
 "POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Κάποιος";
 
-"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device.";
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "Για να δέχεστε κλήσεις, πηγαίνετε στις ρυθμίσεις συστήματος της συσκευής σας και ενεργοποιήστε τις ειδοποιήσεις για την εφαρμογή Be My Eyes.";
 

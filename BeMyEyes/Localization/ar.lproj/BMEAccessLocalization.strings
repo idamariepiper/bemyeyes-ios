@@ -23,7 +23,7 @@
 "BME_ACCESS_MICROPHONE_TITLE" = "الميكروفون";
 
 /* Explanation for why the helper needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "لتتمكن من الحديث مع وإرشاد الشخص الأعمى";
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "لتتمكن من التحدث و توجيه الشخص المكفوف";
 
 /* Explanation for why the blind person needs to enable microphone access */
 "BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "لتتمكن من توضيح مشكلتك للمساعِد.";

@@ -65,7 +65,7 @@
 "BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_CANCEL" = "OK";
 
 /* Message in alert view shown when credentials are incorrect. */
-"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE" = "Anmeldung mit der eingegebenen E-Mail-Adresse und Kennwort nicht möglich.";
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE" = "Die angegebene E-mail-Adresse und das Passwort stimmen nicht überein.";
 
 /* Title in alert view shown when credentials are incorrect. */
 "BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "Falsche Anmeldeinformationen";
@@ -80,7 +80,7 @@
 "BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE" = "Ein Fehler ist aufgetreten";
 
 /* Title in overlay displayed when logging in */
-"BME_LOGIN_OVERLAY_LOGGING_IN_TITLE" = "Anmelden …";
+"BME_LOGIN_OVERLAY_LOGGING_IN_TITLE" = "Anmeldung ...";
 
 /* Title of cancel button in alert view shown when no Facebook account was found. */
 "BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "OK";

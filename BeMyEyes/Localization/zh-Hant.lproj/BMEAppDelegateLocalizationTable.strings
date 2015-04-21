@@ -31,7 +31,7 @@
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "麦克风权限未开启";
 
 /* Message in alert view shown when the camera is disabled */
-"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "你必须在系统设置中允许本应用使用相机。";
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "你必须在系统设置中允许本应用使用相机功能。";
 
 /* Title in alert view shown when the camera is disabled */
 "BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "相机权限未开启";
@@ -70,5 +70,5 @@
 "BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "注册失败";
 
 /* Message in alert shown when the device could not register for remote notifications */
-"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "由于未能注册成功，该设备无法接受推送消息。原因可能是本应用程序数字证书注册失败。";
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "该设备未能注册接受推送消息。原因可能是本应用程序数字证书注册失败。";
 

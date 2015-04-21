@@ -56,7 +56,7 @@
 "BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Video's bekeken";
 
 /* Points make test call description */
-"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Maak een test gesprek";
 
 /* Task share on twitter description */
 "BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Delen op Twitter";
@@ -68,7 +68,7 @@
 "BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Bekijk video";
 
 /* Task make test call description */
-"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Maak een test gesprek";
 
 /* Community network description */
 "BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Het Be My Eyes Netwerk";
@@ -92,11 +92,11 @@
 "BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "U bent momenteel actief";
 
 /* Option title in actions sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Maak een nieuwe";
 
 /* Option title in action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Kies bestaande";
 
 /* Title of the action sheet displayed when the profile image view is tapped */
-"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Profielfoto toevoegen";
 

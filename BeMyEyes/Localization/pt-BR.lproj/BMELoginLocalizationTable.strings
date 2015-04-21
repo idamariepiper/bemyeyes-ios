@@ -47,7 +47,7 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "Ok";
 
 /* Message in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "Você tem que habilitar o acesso a sua conta do Facebook nas configurações do sistema.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "Você tem que habilitar o acesso à sua conta do facebook nas configurações do sistema.";
 
 /* Title in alert view shown when Facebook access not granted. */
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Acesso não permitido";

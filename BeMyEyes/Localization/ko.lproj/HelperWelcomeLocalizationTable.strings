@@ -4,9 +4,9 @@
   Created by Simon Støvring on 29/01/15.
   Copyright (c) 2015 Be My Eyes. All rights reserved.
 */
-"BME_HELPER_WELCOME_TITLE" = "Welcome %@";
+"BME_HELPER_WELCOME_TITLE" = "안녕 %@";
 
-"BME_HELPER_WELCOME_DESCRIPTION" = "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away.";
+"BME_HELPER_WELCOME_DESCRIPTION" = "자원 봉사자로 한 내 눈에 동참해 고마워! 눈을 감고 이 세상을 가로질러 맹인을 돕고 네트워크의 이제 부분이다.\n도와 주는 쉽다. 당신의 전화에 여러분이 접속해 열려 있다. 우리는지 마라지 않을 경우 즉시 전화를 받은 과다하게 도우미들이 많다.";
 
 "BME_HELPER_DEMO_CALL_TITLE" = "Make a test call";
 

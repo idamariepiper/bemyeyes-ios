@@ -19,13 +19,13 @@
 "BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "Abbrechen";
 
 /* Message in alert view shown when push notifications are disabled */
-"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "In den Systemeinstellungen müssen Pushbenachrichtigungen für diese App erlaubt sein.";
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "Du musst über die Systemeinstellungen der App erlauben, Push-Mitteilungen erhalten zu können.";
 
 /* Title in alert view shown when push notifications are disabled */
 "BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "Push-Mitteilungen nicht eingeschaltet";
 
 /* Message in alert view shown when the microphone is disabled */
-"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "Für diese App muss die Nutzung des Mikrophons in den Systemeinstellungen erlaubt sein.";
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "Du musst über die Systemeinstellungen der App erlauben, das Mikrofon benutzen zu dürfen.";
 
 /* Title in alert view shown when the microphone is disabled */
 "BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "Mikrofon-Zugriff nicht erlaubt";

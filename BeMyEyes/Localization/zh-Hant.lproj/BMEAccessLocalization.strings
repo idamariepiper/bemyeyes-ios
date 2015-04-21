@@ -17,22 +17,22 @@
 "BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "应答";
 
 /* Title for notification action when _not_ answering request for help */
-"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "现在不合适";
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "现在不方便";
 
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "麦克风";
 
 /* Explanation for why the helper needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "你能够和对方通话，并引导他们处理遇到的情况";
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "你能够和失明人士通话，并引导他们处理遇到的情况";
 
 /* Explanation for why the blind person needs to enable microphone access */
-"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "你能够向帮助你的人描述你所遇到的问题。";
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "能够向志愿者描述您所遇到的问题。";
 
 /* Title for camera */
 "BME_ACCESS_CAMERA_TITLE" = "相机";
 
 /* Explanation for why the helper needs to enable camera access */
-"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "我们并不会将你个人的视频信息传送给你所帮助的人，但建立你们之间的连接需要你开启你的相机权限。";
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "我们并不会将您的个人视频传送给您正在所帮助的人，但建立你们之间的连接需要您授权开启您的相机。";
 
 /* Explanation for why the blind person needs to enable microphone access */
 "BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "使你能向帮助者解释你遇到的问题";

@@ -4,11 +4,11 @@
   Created by Simon Støvring on 29/01/15.
   Copyright (c) 2015 Be My Eyes. All rights reserved.
 */
-"BME_HELPER_WELCOME_TITLE" = "Welcome %@";
+"BME_HELPER_WELCOME_TITLE" = "Bine aţi venit %@";
 
-"BME_HELPER_WELCOME_DESCRIPTION" = "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away.";
+"BME_HELPER_WELCOME_DESCRIPTION" = "Vă mulţumim pentru aderarea ca voluntar Be My Eyes! Acum faceţi parte dintr-o reţea în creştere de ochi ajutători pentru persoane nevăzătoare din întreaga lume.\n\nEste uşor să ajuti. Telefonul dumneavoastră este gata să preia apeluri atât timp cât sunteţi autentificat. Avem multe ajutoare, asa încât nu vă descurajaţi dacă nu primiţi un apel imediat.";
 
-"BME_HELPER_DEMO_CALL_TITLE" = "Make a test call";
+"BME_HELPER_DEMO_CALL_TITLE" = "Efectuează un apel de test";
 
-"BME_HELPER_DONE_TITLE" = "Ok, got it";
+"BME_HELPER_DONE_TITLE" = "Ok, am înţeles";
 

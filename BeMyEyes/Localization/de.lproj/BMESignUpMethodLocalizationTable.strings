@@ -50,7 +50,7 @@
 "BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE" = "Authentifizierung fehlgeschlagen";
 
 /* Title in overlay displayed when logging in */
-"BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "Anmelden …";
+"BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "Anmeldung ...";
 
 /* Title in overlay displayed when registering */
 "BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE" = "Registrierung ...";

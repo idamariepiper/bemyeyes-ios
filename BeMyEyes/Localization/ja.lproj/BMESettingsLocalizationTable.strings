@@ -2,10 +2,10 @@
 "BME_SETTINGS_HEADLINE" = "設定";
 
 /* First name title */
-"BME_SETTINGS_FIRST_NAME" = "名前";
+"BME_SETTINGS_FIRST_NAME" = "名";
 
 /* Last name title */
-"BME_SETTINGS_LAST_NAME" = "苗字";
+"BME_SETTINGS_LAST_NAME" = "氏";
 
 /* E-mail title */
 "BME_SETTINGS_EMAIL" = "Eメール";
@@ -35,7 +35,7 @@
 "BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE" = "ログアウトしています...";
 
 /* Version title */
-"BME_SETTINGS_VERSION_TITLE" = "%@バージョン";
+"BME_SETTINGS_VERSION_TITLE" = "バージョン %@";
 
 /* Dismiss settings button accessibility label */
 "BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL" = "戻る";

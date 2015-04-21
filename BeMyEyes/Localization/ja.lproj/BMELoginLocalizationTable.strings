@@ -47,10 +47,10 @@
 "BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "OK";
 
 /* Message in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to you Facebook account in system settings.";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "システム設定でFacebookアカウントの使用を許可する必要があります。";
 
 /* Title in alert view shown when Facebook access not granted. */
-"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "アクセスが許可されていません";
 
 /* Message in alert view shown when the e-mail or password is empty */
 "BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "メールアドレスとパスワードを入力してください。";
@@ -68,7 +68,7 @@
 "BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE" = "入力されたメールアドレスとパスワードが一致しません。";
 
 /* Title in alert view shown when credentials are incorrect. */
-"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "証明書が異なります";
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "ログイン情報が正しくありません";
 
 /* Title of cancel button in alert view shown when a network error occurred during e-mail log in. */
 "BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL" = "OK";

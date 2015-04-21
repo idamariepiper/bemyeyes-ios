@@ -26,7 +26,30 @@ lane :test do
   # snapshot
 end
 
-lane :development do
+lane :shtest do
+  testy
+end
+
+lane :increment_build do 
+  increment_build_number
+end
+
+lane :translations do
+  projectKey = crowdin_project_key
+  Helper.log.info "Update English files on CrowdIn"
+  sh "./../Scripts/upload_translations.py #{projectKey} -u"
+  Helper.log.info "Add new English files on CrowdIn"
+  sh "./../Scripts/upload_translations.py #{projectKey} -a"
+  Helper.log.info "Process translations on CrowdIn"
+  sh "./../Scripts/export_translations.py #{projectKey}"
+  Helper.log.info "Download translations from CrowdIn"
+  sh "./../Scripts/update_translations.py -p #{projectKey}"
+  Helper.log.info "Update translation keys"
+  sh "cd ..
+  Scripts/miaw -g -w --no-date -d -o BeMyEyes/Source/"
+end
+
+lane :beta_dev do
   ipa({
     scheme: "BeMyEyes Development",
     configuration: "ReleaseDev",
@@ -35,7 +58,7 @@ lane :development do
   deliver :skip_deploy, :beta
 end
 
-lane :staging do
+lane :beta_staging do
   ipa({
     scheme: "BeMyEyes Staging",
     configuration: "ReleaseStaging",
@@ -44,12 +67,20 @@ lane :staging do
   deliver :skip_deploy, :beta
 end
 
+lane :beta_production do
+  ipa({
+    scheme: "BeMyEyes",
+    configuration: "Release",
+  })
+  deliver :skip_deploy, :beta
+end
+
 lane :production do
   ipa({
     scheme: "BeMyEyes",
     configuration: "Release",
   })
-  deliver :skip_deploy, :force
+  deliver :skip_deploy
 end
 
 lane :inhouse do
@@ -65,6 +96,7 @@ after_all do |lane|
   #   success: true,
   #   channel: 'development'
   # })
+  notify "Fastlane finished '#{lane}'" 
 end
 
 

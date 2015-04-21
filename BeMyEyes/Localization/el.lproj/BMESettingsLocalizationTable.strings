@@ -8,7 +8,7 @@
 "BME_SETTINGS_LAST_NAME" = "Επώνυμο";
 
 /* E-mail title */
-"BME_SETTINGS_EMAIL" = "Διεύθυνση ηλεκτρονικού ταχυδρομείου";
+"BME_SETTINGS_EMAIL" = "Email";
 
 /* Languages */
 "BME_SETTINGS_LANGUAGES" = "Γλώσσες";
@@ -26,13 +26,13 @@
 "BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL" = "ΟΚ";
 
 /* Messaage in alert view shown when log out failed */
-"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Το αίτημα για νέο κωδικό πρόσβασης δεν απεστάλη. Παρακαλούμε βεβαιωθείτε ότι είστε συνδεδεμένοι στο ιντερνέτ και προσπαθήστε ξανά.";
+"BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE" = "Η αποσύνδεση απέτυχε. Βεβαιωθείτε ότι είστε συνδεδεμένοι στο Internet και δοκιμάστε ξανά.";
 
 /* Title in alert view shown when log out failed */
 "BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE" = "Η αποσύνδεση δεν πραγματοποιήθηκε";
 
 /* Title in overlay shown when logging out */
-"BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE" = "Γίνετε αποσύνδεση...";
+"BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE" = "Αποσύνδεση...";
 
 /* Version title */
 "BME_SETTINGS_VERSION_TITLE" = "Έκδοση %@";
@@ -41,7 +41,7 @@
 "BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL" = "Πίσω";
 
 /* Points description task cell */
-"BME_SETTINGS_TASK_POINTS" = "+% πόντων";
+"BME_SETTINGS_TASK_POINTS" = "+%d πόντοι";
 
 /* Points description task completed */
 "BME_SETTINGS_TASK_COMPLETED" = "✓";

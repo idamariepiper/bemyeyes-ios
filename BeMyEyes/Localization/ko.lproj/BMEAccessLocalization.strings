@@ -17,7 +17,7 @@
 "BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "응답하기";
 
 /* Title for notification action when _not_ answering request for help */
-"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Not right now";
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "지금 당장은 아닙니다.";
 
 /* Title for microphone */
 "BME_ACCESS_MICROPHONE_TITLE" = "마이크";

@@ -8,7 +8,7 @@
 "BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "Επώνυμο";
 
 /* Placeholder in e-mail field */
-"BME_SIGN_UP_EMAIL_PLACEHOLDER" = "Διεύθυνση ηλεκτρονικού ταχυδρομείου";
+"BME_SIGN_UP_EMAIL_PLACEHOLDER" = "Email";
 
 /* Placeholder in password field */
 "BME_SIGN_UP_PASSWORD_PLACEHOLDER" = "Κωδικός πρόσβασης";
@@ -32,13 +32,13 @@
 "BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE" = "Η διεύθυνση ηλεκτρονικού ταχυδρομείου που δώσατε δεν είναι έγκυρη.";
 
 /* Title in alert view shown when the e-mail is not valid. */
-"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE" = "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη.";
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE" = "Η διεύθυνση email δεν είναι έγκυρη";
 
 /* Title of cancel button in alert view shown when one or more fields are empty. */
 "BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL" = "ΟΚ";
 
 /* Message in alert view shown when one or more fields are empty. */
-"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "Παρακαλούμε να συμπληρώσετε όλα τα στοιχεία πριν προχωρήσετε.";
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "Για να συνεχίσετε, συμπληρώστε όλα τα στοιχεία.";
 
 /* Title in alert view shown when one or more fields are empty. */
 "BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE" = "Κενά πεδία";
@@ -47,10 +47,10 @@
 "BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL" = "ΟΚ";
 
 /* Message in alert view shown when the password is too short. */
-"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE" = "Ο κωδικός πρόσβασης που δώσατε είναι πολύ σύντομο.";
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE" = "Ο κωδικός πρόσβασης που δώσατε είναι πολύ σύντομος.";
 
 /* Title in alert view shown when the password is too short. */
-"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE" = "Ο κωδικός πρόσβασης είναι πολύ σύντομο";
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE" = "Ο κωδικός πρόσβασης είναι πολύ σύντομος";
 
 /* Title of cancel button in alert view shown when passwords doesn't match. */
 "BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL" = "ΟΚ";
@@ -59,20 +59,20 @@
 "BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE" = "Οι κωδικοί πρόσβασης που δώσατε δεν ταιριάζουν.";
 
 /* Title in alert view shown when passwords doesn't match. */
-"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE" = "Οι κωδικοί πρόσβασης δεν ταιριάζουν.";
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE" = "Οι κωδικοί πρόσβασης δεν ταιριάζουν";
 
 /* Title of cancel button in alert view shown when a network error occurred. */
 "BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL" = "ΟΚ";
 
 /* Message in alert view shown when a network error occurred. */
-"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Ο λογαριασμός σας δεν μπορεί να δημιουργηθεί. Παρακαλούμε βεβαιωθείτε ότι είστε συνδεδεμένοι στο ιντερνέτ και προσπαθήστε ξανά.";
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Ο λογαριασμός σας δεν δημιουργήθηκε. Βεβαιωθείτε ότι είστε συνδεδεμένοι στο Internet και δοκιμάστε ξανά.";
 
 /* Title in alert view shown when a network error occurred. */
-"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "Ο λογαριασμός σας δεν μπορεί να δημιουργηθεί";
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "Η δημιουργία του λογαριασμού απέτυχε";
 
 /* Title in overlay displayed when logging in */
 "BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "Γίνετε σύνδεση...";
 
 /* Title in overlay displayed when registering */
-"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Γίνετε εγγραφή...";
+"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Εγγραφή...";
 
