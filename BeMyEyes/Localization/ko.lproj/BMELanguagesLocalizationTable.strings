@@ -11,13 +11,13 @@
 "BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "저장 실패";
 
 /* Title in alert view shown when no languages have been selected */
-"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "You have no languages selected";
+"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "어떤 언어도 안 선정했다.";
 
 /* Message in alert view shown when no languages have been selected */
-"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "Are you sure you want to proceed?";
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "정말이야 진행하고 싶고요?";
 
 /* Positive answer to alert view shown when no languages have been selected */
-"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "Yes";
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "예";
 
 /* Negative answer to alert view shown when no languages have been selected */
 "BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO" = "아니요";

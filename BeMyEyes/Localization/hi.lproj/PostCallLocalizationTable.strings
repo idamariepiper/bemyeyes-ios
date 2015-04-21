@@ -17,28 +17,28 @@
 "POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "हो गया";
 
 /* Title of share button to helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "अपने अनुभव को साझा करें";
 
 /* Title of share button to blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Share your experience";
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "अपने अनुभव को साझा करें";
 
 /* Message when sharing to Facebook as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "I just helped a blind person see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "मैं सिर्फ एक अंधे व्यक्ति मेरी आँखें हो app के साथ #BeMyEyes को देखने में मदद की";
 
 /* Message when sharing to Facebook as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "Someone just helped me see with the Be My Eyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "किसी बस मुझे मेरी आँखें हो app के साथ #BeMyEyes को देखने की मदद की";
 
 /* Message when sharing to Twitter as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "I just helped a blind person see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "मैं सिर्फ एक अंधे व्यक्ति मेरी आँखें हो app के साथ #BeMyEyes को देखने में मदद की";
 
 /* Message when sharing to Twitter as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "Someone just helped me see with the @bemyeyes app #BeMyEyes";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "किसी ने सिर्फ मुझे @bemyeyes app के साथ #BeMyEyes देखने में मदद की";
 
 /* Default message when sharing as helper */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "I just helped a blind person see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "मैं देखें मेरी आँखें हो app के साथ एक अंधे व्यक्ति की मदद";
 
 /* Default message when sharing as blind */
-"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Someone just helped me see with the Be My Eyes app";
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "किसी मुझे मेरी आँखें हो app के साथ देखने की मदद की";
 
 /* Title of report button */
 "POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "रिपोर्ट";
