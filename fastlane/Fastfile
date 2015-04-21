@@ -30,6 +30,10 @@ lane :shtest do
   testy
 end
 
+lane :increment_build do 
+  increment_build_number
+end
+
 lane :translations do
   projectKey = crowdin_project_key
   Helper.log.info "Update English files on CrowdIn"
@@ -76,7 +80,7 @@ lane :production do
     scheme: "BeMyEyes",
     configuration: "Release",
   })
-  deliver :skip_deploy, :force
+  deliver :skip_deploy
 end
 
 lane :inhouse do
