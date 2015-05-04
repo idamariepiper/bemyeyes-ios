@@ -13,7 +13,6 @@
 #import "BMEUser.h"
 #import "BMEEmailValidator.h"
 #import "BMETaskTableViewCell.h"
-#import "BeMyEyes-Swift.h"
 
 @import Twitter;
 

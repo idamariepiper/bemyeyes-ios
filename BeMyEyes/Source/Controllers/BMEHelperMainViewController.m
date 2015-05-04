@@ -18,7 +18,6 @@
 #import "NSDate+BMESnoozeRelativeDate.h"
 #import "BMEPointsTableViewCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-#import "BeMyEyes-Swift.h"
 #import <PSTAlertController.h>
 
 

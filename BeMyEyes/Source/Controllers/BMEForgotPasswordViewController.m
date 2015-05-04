@@ -11,7 +11,6 @@
 #import "BMEEmailValidator.h"
 #import "BMEClient.h"
 #import "BMEScrollViewTextFieldHelper.h"
-#import "BeMyEyes-Swift.h"
 
 @interface BMEForgotPasswordViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;

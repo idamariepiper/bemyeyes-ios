@@ -16,7 +16,6 @@
 #import "BMEAccessControlHandler.h"
 #import <Crashlytics/Crashlytics.h>
 #import "BMETopNavigationController.h"
-#import "BeMyEyes-Swift.h"
 
 @interface BMEAppDelegate () <UIAlertViewDelegate>
 @property (strong, nonatomic) PSPDFAlertView *callAlertView;
