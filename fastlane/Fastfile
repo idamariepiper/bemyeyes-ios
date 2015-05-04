@@ -70,7 +70,6 @@ lane :beta_dev do
   })
   ENV["BME_APP_TITLE"] = "Be My Eyes – Alpha"
   deliver(
-    skip_deploy: true,
     beta: true
   )
 end
@@ -92,7 +91,6 @@ lane :beta_production do
     configuration: "Release",
   })
   deliver(
-    skip_deploy: true,
     beta: true
   )
 end
