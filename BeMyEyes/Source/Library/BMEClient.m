@@ -116,8 +116,10 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     NSAssert(firstName.length > 0, @"First name cannot be empty.");
     NSAssert(lastName.length > 0, @"Last name cannot be empty.");
     
+    NSString *uniqueDeviceToken = [UserTokenHandler uniqueToken];
     NSString *securePassword = [AESCrypt encrypt:password password:BMESecuritySalt];
-    NSDictionary *parameters = @{ @"email" : email,
+    NSDictionary *parameters = @{ @"bme_device_token" : uniqueDeviceToken,
+                                  @"email" : email,
                                   @"password" : securePassword,
                                   @"first_name" : firstName,
                                   @"last_name" : lastName,
@@ -131,7 +133,9 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     NSAssert(firstName.length > 0, @"First name cannot be empty.");
     NSAssert(lastName.length > 0, @"Last name cannot be empty.");
 
-    NSDictionary *parameters = @{ @"user_id" : userId,
+    NSString *uniqueDeviceToken = [UserTokenHandler uniqueToken];
+    NSDictionary *parameters = @{ @"bme_device_token" : uniqueDeviceToken,
+                                  @"user_id" : userId,
                                   @"email" : email,
                                   @"first_name" : firstName,
                                   @"last_name" : lastName,
@@ -181,10 +185,12 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     NSAssert(email.length > 0, @"E-mail cannot be empty.");
     NSAssert(password.length > 0, @"Password cannot be empty.");
     
+    NSString *uniqueDeviceToken = [UserTokenHandler uniqueToken];
     NSString *securePassword = [AESCrypt encrypt:password password:BMESecuritySalt];
     NSDictionary *parameters = @{ @"email" : email,
                                   @"password" : securePassword,
-                                  @"device_token" : deviceToken ? deviceToken : @"" };
+                                  @"device_token" : deviceToken ? deviceToken : @"",
+                                  @"bme_device_token" : uniqueDeviceToken };
     
     [self loginWithParameters:parameters success:success failure:failure];
 }
@@ -495,6 +501,7 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
         return;
     }
     
+    NSString *uniqueDeviceToken = [UserTokenHandler uniqueToken];
     NSString *alias = [UIDevice currentDevice].name;
     NSString *appVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *appBundleVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey];
@@ -503,7 +510,8 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
     NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
     NSString *locale = [[NSLocale currentLocale] localeIdentifier];
     
-    NSMutableDictionary *parameters = @{ @"device_name" : alias,
+    NSMutableDictionary *parameters = @{ @"bme_device_token" : uniqueDeviceToken,
+                                         @"device_name" : alias,
                                          @"model" : model,
                                          @"system_version" : [NSString stringWithFormat:@"%@ %@", systemName, systemVersion],
                                          @"app_version" : appVersion,
@@ -516,18 +524,11 @@ NSString* BMENormalizedDeviceTokenStringWithDeviceToken(id deviceToken) {
         newToken = [GVUserDefaults standardUserDefaults].deviceToken;
     }
     
-    if (!newToken || newToken.length == 0) {
-        // If we still don't have a new token, we can't register the device.
-        if (completion) {
-            NSString *messsage = @"Could not register device for calls as it has not been registered for remote notifications.";
-            NSError *error = [self errorWithMessage:messsage code:-1];
-            completion(NO, error);
-        }
-        
-        return;
+    if (newToken.length != 0) {
+        parameters[@"device_token"] = newToken;
+    } else {
+        NSLog(@"Could not register device for calls as it has not been registered for remote notifications.");
     }
-    
-    [parameters setObject:newToken forKey:@"device_token"];
     
     [self postPath:@"devices/register" parameters:parameters.copy success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"Upsert device info with parameters: %@", parameters);
