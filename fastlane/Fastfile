@@ -26,12 +26,26 @@ lane :test do
   # snapshot
 end
 
-lane :shtest do
-  testy
-end
-
 lane :increment_build do 
   increment_build_number
+end
+
+lane :increment_version_patch do 
+  increment_version_number(
+    bump_type: "patch"
+  )
+end
+
+lane :increment_version_minor do 
+  increment_version_number(
+    bump_type: "minor"
+  )
+end
+
+lane :increment_version_major do 
+  increment_version_number(
+    bump_type: "major"
+  )
 end
 
 lane :translations do
@@ -55,7 +69,9 @@ lane :beta_dev do
     configuration: "ReleaseDev",
   })
   ENV["BME_APP_TITLE"] = "Be My Eyes – Alpha"
-  deliver :skip_deploy, :beta
+  deliver(
+    beta: true
+  )
 end
 
 lane :beta_staging do
@@ -64,7 +80,9 @@ lane :beta_staging do
     configuration: "ReleaseStaging",
   })
   ENV["BME_APP_TITLE"] = "Be My Eyes – Beta"
-  deliver :skip_deploy, :beta
+  deliver(
+     beta: true
+  )
 end
 
 lane :beta_production do
@@ -72,7 +90,9 @@ lane :beta_production do
     scheme: "BeMyEyes",
     configuration: "Release",
   })
-  deliver :skip_deploy, :beta
+  deliver(
+    beta: true
+  )
 end
 
 lane :production do
@@ -80,7 +100,9 @@ lane :production do
     scheme: "BeMyEyes",
     configuration: "Release",
   })
-  deliver :skip_deploy
+  deliver(
+    skip_deploy: true
+  )
 end
 
 lane :inhouse do

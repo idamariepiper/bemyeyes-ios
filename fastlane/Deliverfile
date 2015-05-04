@@ -25,7 +25,7 @@ supportedLanguages = {
   "cmn-Hant" => "zh-Hant",
 }
 
-def basey(baseKey, baseValue, allKeys)
+def hashToAllLanguages(baseKey, baseValue, allKeys)
   hashey = { baseKey => baseValue }
   allKeys.each { |key, value|
     hashey[key] = baseValue
@@ -42,7 +42,7 @@ baseKeywords = [ "accessible", "blind", "impaired", "help", "vision", "voiceover
 keywords(basey(baseLanguage, baseKeywords, supportedLanguages))
 
 # CHANGELOG
-baseChangelog = "Fix demo call on iOS 7"
+baseChangelog = "Minor bug fixes."
 changelog(basey(baseLanguage, baseChangelog, supportedLanguages))
 
 # DESCRIPTION
