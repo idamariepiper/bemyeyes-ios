@@ -3,7 +3,7 @@ PODS:
   - Appirater (2.0.4)
   - CrashlyticsFramework (2.2.10)
   - DCKeyValueObjectMapping (1.4)
-  - FBSnapshotTestCase (1.6)
+  - FBSnapshotTestCase (1.8)
   - FormatterKit (1.7.5):
     - FormatterKit/AddressFormatter (= 1.7.5)
     - FormatterKit/ArrayFormatter (= 1.7.5)
@@ -56,7 +56,7 @@ PODS:
   - MRProgress/ProgressBaseClass (0.8.1)
   - MRProgress/Stopable (0.8.1):
     - MRProgress/Helper
-  - NewRelicAgent (4.186)
+  - NewRelicAgent (5.0.1)
   - PSAlertView (1.1)
   - PSTAlertController (1.1.0)
   - Reveal-iOS-SDK (1.5.1)
@@ -97,7 +97,7 @@ SPEC CHECKSUMS:
   Appirater: 8783318c36414e8de3ea023443028df94c1b784b
   CrashlyticsFramework: 2f7c515a2d74c8636bf47e761621f2f68193747e
   DCKeyValueObjectMapping: 04cd5a338c03ce1c02488926cab6e1d1f704a093
-  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  FBSnapshotTestCase: 05065a47e7acc9c919315648ca39fb614f29ebd4
   FormatterKit: a0c0674b06fda3ce910af9f2358ed0ed868fb48b
   GVUserDefaults: bd3efc5beab8f501d17e566eddc7acd6f2425c2a
   ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
@@ -105,10 +105,10 @@ SPEC CHECKSUMS:
   Masonry: 9f515466afe48632562342a40a1c224071a1a022
   MiawKit: 97fd3545bcee64e8317479adf154173a021918b8
   MRProgress: 72653f3ffd13c7bbac8c9de1da9bf0249fc2717d
-  NewRelicAgent: c9efe4386f703c97741fbb1f65e80d5513a04866
+  NewRelicAgent: 2597fb3c4b974e4a37f51d942a6ef51982ccaed2
   PSAlertView: 986043a1db2826098b64cc849b9e72e4c6d073f3
   PSTAlertController: cb21afcfa76c3229feec7db044afd4f60dab5892
   Reveal-iOS-SDK: c9c55cad2729c85f6ced415f1b21857c9a2d8ef9
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.37.0
