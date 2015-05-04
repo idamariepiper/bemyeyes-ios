@@ -9,7 +9,6 @@
 #import "BMEAccessViewController.h"
 #import "BMEAccessView.h"
 #import "UIView+Layout.h"
-#import "BeMyEyes-Swift.h"
 #import "BMEAccessControlHandler.h"
 
 @interface BMEAccessViewController ()

@@ -12,7 +12,6 @@
 #import "BMEClient.h"
 #import "BMEEmailValidator.h"
 #import "BMEScrollViewTextFieldHelper.h"
-#import "BeMyEyes-Swift.h"
 
 #define BMESignUpMinimumPasswordLength 6
 

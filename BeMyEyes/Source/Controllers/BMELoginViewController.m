@@ -13,7 +13,6 @@
 #import "BMEClient.h"
 #import "BMEUser.h"
 #import "BMEScrollViewTextFieldHelper.h"
-#import "BeMyEyes-Swift.h"
 #import "BMEForgotPasswordViewController.h"
 #import "PSPDFAlertView.h"
 #import "PSTAlertController.h"

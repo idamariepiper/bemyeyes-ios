@@ -14,7 +14,6 @@
 #import "BMEClient.h"
 #import "BMEUser.h"
 #import "BMEFacebookInfo.h"
-#import "BeMyEyes-Swift.h"
 
 #define BMESignUpMethodSignUpSegue @"SignUp"
 

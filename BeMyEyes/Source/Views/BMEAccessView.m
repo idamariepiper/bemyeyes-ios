@@ -7,7 +7,6 @@
 //
 
 #import "BMEAccessView.h"
-#import "BeMyEyes-Swift.h"
 
 @interface BMEAccessView()
 

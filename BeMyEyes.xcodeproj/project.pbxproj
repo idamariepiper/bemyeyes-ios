@@ -49,6 +49,8 @@
 		4E8AC11019E413E10035BB70 /* BMEUserTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AC10F19E413E00035BB70 /* BMEUserTask.m */; };
 		4E8E21F519E8C03C00316AD8 /* IntroVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E21F219E8C03C00316AD8 /* IntroVideoViewController.swift */; };
 		4E8E21F719E8C03C00316AD8 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E21F419E8C03C00316AD8 /* VideoViewController.swift */; };
+		4EA667361AF77A2D0082D658 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA667341AF77A2D0082D658 /* Keychain.swift */; };
+		4EA667381AF77A810082D658 /* UserTokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA667371AF77A810082D658 /* UserTokenHandler.swift */; };
 		4EB3A9A41A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3A9A31A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4EB46C4419F080FE008405B8 /* BMEAccessLocalization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EB46C4619F080FE008405B8 /* BMEAccessLocalization.strings */; };
 		4EB6A1E219E5725F00C72A02 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6A1E119E5725F00C72A02 /* Button.swift */; };
@@ -658,6 +660,9 @@
 		4E8E21F119E8C02500316AD8 /* BeMyEyes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeMyEyes-Bridging-Header.h"; sourceTree = "<group>"; };
 		4E8E21F219E8C03C00316AD8 /* IntroVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVideoViewController.swift; sourceTree = "<group>"; };
 		4E8E21F419E8C03C00316AD8 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		4EA667341AF77A2D0082D658 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		4EA667351AF77A2D0082D658 /* KeychainAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainAccess.h; sourceTree = "<group>"; };
+		4EA667371AF77A810082D658 /* UserTokenHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTokenHandler.swift; sourceTree = "<group>"; };
 		4EB3A9A21A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEOpenTokVideoCapture.h; sourceTree = "<group>"; };
 		4EB3A9A31A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMEOpenTokVideoCapture.m; sourceTree = "<group>"; };
 		4EB46C4519F080FE008405B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BMEAccessLocalization.strings; sourceTree = "<group>"; };
@@ -1387,6 +1392,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4EA667331AF77A2D0082D658 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				4EA667341AF77A2D0082D658 /* Keychain.swift */,
+				4EA667351AF77A2D0082D658 /* KeychainAccess.h */,
+			);
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
 		4EE671BC1A2DAEE50037865B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1639,6 +1653,7 @@
 				72148B061A702762001F0F8C /* SocialTextProvider.swift */,
 				4EB3A9A21A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.h */,
 				4EB3A9A31A0E6D4F0044D4B9 /* BMEOpenTokVideoCapture.m */,
+				4EA667371AF77A810082D658 /* UserTokenHandler.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -1736,6 +1751,7 @@
 			children = (
 				4E1522BB1A83DE7000E62BFA /* OpenTok.framework */,
 				72DEF72418B90A6D0048FA90 /* AESCrypt */,
+				4EA667331AF77A2D0082D658 /* KeychainAccess */,
 			);
 			path = "Other sources";
 			sourceTree = "<group>";
@@ -2099,6 +2115,7 @@
 				7236E04718B8DBDF00F622AA /* BMESignUpMethodViewController.m in Sources */,
 				72E65FB018BA8214002FB2E0 /* BMEFacebookInfo.m in Sources */,
 				7236E00A18B8A87B00F622AA /* main.m in Sources */,
+				4EA667381AF77A810082D658 /* UserTokenHandler.swift in Sources */,
 				4E8E21F719E8C03C00316AD8 /* VideoViewController.swift in Sources */,
 				4EB6C13D19FFB6B50048735E /* BMEButtonImageToRight.m in Sources */,
 				4EB6AD1219E1F47A00141615 /* BMETaskTableViewCell.m in Sources */,
@@ -2173,6 +2190,7 @@
 				4E6AE8A01A0194430019247A /* ProfileImageView.swift in Sources */,
 				726D7B93191AA21A005690B7 /* BMEPointEntry.m in Sources */,
 				729656A518CC933F00E1A9EE /* BMETopNavigationController.m in Sources */,
+				4EA667361AF77A2D0082D658 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3336,7 +3354,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: S/I Be My Eyes (VS2JRRGV67)";
-				CURRENT_PROJECT_VERSION = 60;
+				CURRENT_PROJECT_VERSION = 61;
 				DISPLAY_NAME = "Be My Alpha";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3402,7 +3420,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 60;
+				CURRENT_PROJECT_VERSION = 61;
 				DISPLAY_NAME = "Be My Alpha";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3468,7 +3486,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 60;
+				CURRENT_PROJECT_VERSION = 61;
 				DISPLAY_NAME = "Be My Beta";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3531,7 +3549,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: S/I Be My Eyes (VS2JRRGV67)";
-				CURRENT_PROJECT_VERSION = 60;
+				CURRENT_PROJECT_VERSION = 61;
 				DISPLAY_NAME = "Be My Beta";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3844,7 +3862,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 60;
+				CURRENT_PROJECT_VERSION = 61;
 				DISPLAY_NAME = "Be My Eyes";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3877,7 +3895,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: S/I Be My Eyes (VS2JRRGV67)";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: S/I Be My Eyes (VS2JRRGV67)";
-				CURRENT_PROJECT_VERSION = 60;
+				CURRENT_PROJECT_VERSION = 61;
 				DISPLAY_NAME = "Be My Eyes";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
