@@ -2,6 +2,8 @@
 # DON'T Update the app description and metadata in the ./metadata folder
 # Use direct metadata set from this ruby file
 
+default_language "en-US"
+
 baseLanguage = "en-US"
 
 supportedLanguages = {
@@ -35,15 +37,15 @@ end
 
 # TITLE
 baseTitle = ENV["BME_APP_TITLE"] # Environment variable is set in the 'Fastfile'
-title(basey(baseLanguage, baseTitle, supportedLanguages))
+title(hashToAllLanguages(baseLanguage, baseTitle, supportedLanguages))
 
 # KEYWORDS
 baseKeywords = [ "accessible", "blind", "impaired", "help", "vision", "voiceover", "volunteer", "bemyeyes", "taptapsee"]
-keywords(basey(baseLanguage, baseKeywords, supportedLanguages))
+keywords(hashToAllLanguages(baseLanguage, baseKeywords, supportedLanguages))
 
 # CHANGELOG
 baseChangelog = "Added languages Thai, Afrikaans, Azerbaijani, Catalan, Estonian, Lithuanian."
-changelog(basey(baseLanguage, baseChangelog, supportedLanguages))
+changelog(hashToAllLanguages(baseLanguage, baseChangelog, supportedLanguages))
 
 # DESCRIPTION
 descriptionHash = { 

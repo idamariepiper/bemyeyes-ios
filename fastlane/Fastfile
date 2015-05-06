@@ -76,6 +76,14 @@ lane :beta_dev do
   deliver(
     beta: true
   )
+  slack(
+    message: "New Development (Alpha) version pushed to TestFlight.",
+    channel: "#appstore",
+    payload: {            # Optional, lets you specify any number of your own Slack attachments.
+      'Build Date' => Time.new.to_s,
+    },
+    default_payloads: [:git_branch, :git_author] # Optional, lets you specify a whitelist of default payloads to include. Pass an empty array to suppress all the default payloads. Don't add this key, or pass nil, if you want all the default payloads. The available default payloads are: `lane`, `test_result`, `git_branch`, `git_author`, `last_git_commit`.
+  )
 end
 
 lane :beta_staging do
