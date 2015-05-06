@@ -1,0 +1,24 @@
+/* Title */
+"BME_LANGUAGES_TITLE" = "ภาษาของคุณ";
+
+/* Title of cancel button in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "ตกลง";
+
+/* MEssage in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "ภาษาไม่สามารถถูกบันทึก กรุณาลองใหม่ในภายหลัง";
+
+/* Title in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "ไม่สามารถบันทึก";
+
+/* Title in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "คุณไม่ได้เลือกภาษา";
+
+/* Message in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "คุณต้องการดำเนินการต่อหรือไม่";
+
+/* Positive answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "ใช่";
+
+/* Negative answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO" = "ไม่";
+

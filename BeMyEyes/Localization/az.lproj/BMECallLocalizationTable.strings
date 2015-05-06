@@ -1,0 +1,78 @@
+/* Title of disconnect button */
+"BME_CALL_DISCONNECT" = "Bağlantını kəs";
+
+/* Title of cancel button in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL" = "Oldu";
+
+/* Message in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "Sorğu artıq cavablandı. Köməyiniz üçün təşəkkürlər!";
+
+/* Title in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "Sorğu artıq cavablandırılıb";
+
+/* Title of cancel button in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL" = "Oldu";
+
+/* Message in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE" = "Görmə əngəlli şəxs sorğudan imtina etdi. Köməyiniz üçün təşəkkürlər!";
+
+/* Title in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE" = "Sorğudan imtina edildi";
+
+/* Title in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_TITLE" = "Sorğuya cavab verilmədi";
+
+/* Cancel in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "Oldu";
+
+/* Message in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "Sorğu yaradıla bilmədi. Zəhmət olmasa yenidən yoxlayın.";
+
+/* Title in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "Sorğu yaradılmadı";
+
+/* Title of cancel button in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_CANCEL" = "Oldu";
+
+/* Status when asking the user to wait */
+"BME_CALL_STATUS_PLEASE_WAIT" = "Zəhmət olmasa gözləyin...";
+
+/* Status when answering request */
+"BME_CALL_STATUS_ANSWERING_REQUEST" = "Sorğuya cavab verilir...";
+
+/* Message in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "Sorğu hal-hazırda cavablandırılmadı. Köməyiniz üçün təşəkkürlər!";
+
+/* Status when creating request */
+"BME_CALL_STATUS_CREATING_REQUEST" = "Sorğu yaradılır...";
+
+/* Status when connecting */
+"BME_CALL_STATUS_CONNECTING" = "Serverə bağlanır...";
+
+/* Status when connection is established */
+"BME_CALL_STATUS_CONNECTION_ESTABLISHED" = "Qarşı tərəf gözlənir...";
+
+/* Status when session failed */
+"BME_CALL_STATUS_SESSION_FAILED" = "Bağlantı alınmadı";
+
+/* Status when failed publishing */
+"BME_CALL_STATUS_FAILED_PUBLISHING" = "Səs və görüntü çatdırılmadı";
+
+/* Speech when connected to other part */
+"BME_CALL_SPEECH_DID_SUBSCRIBE" = "Qarşı tərəfə bağlanıldı";
+
+/* Status when failed subscribing */
+"BME_CALL_STATUS_FAILED_SUBSCRIBING" = "Qarşı tərəfə bağlanılmadı";
+
+/* Status when disconnecting */
+"BME_CALL_STATUS_DISCONNECTING" = "Bağlantı kəsilir...";
+
+/* Title of cancel button in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL" = "Oldu";
+
+/* Message in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE" = "Qarşı tərəf bağlantını kəsdi və seans bitdi.";
+
+/* Title in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE" = "Seans bitdi";
+

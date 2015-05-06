@@ -1,0 +1,39 @@
+/* 
+  BMEAccessLocalization.strings
+  BeMyEyes
+  Created by Tobias DM on 17/10/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Introductory message for access for notifications, microphone and camera */
+"BME_ACCESS_INTRO_MESSAGE" = "Be My Eyes şəbəkəsinə qoşulmaq üçün zəhmət olmasa aşağıdakılara icazə verin";
+
+/* Title for notifications */
+"BME_ACCESS_NOTIFICATIONS_TITLE" = "Bildirişlər";
+
+/* Explanation for why the helper needs to enable notifications */
+"BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Görmə əngəlli şəxs kömək etməyinizi istəyəndə, gələn zəng barədə sizi xəbərdar edəcəyik.";
+
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Cavabla";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "İndi yox";
+
+/* Title for microphone */
+"BME_ACCESS_MICROPHONE_TITLE" = "Mikrofon";
+
+/* Explanation for why the helper needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Görmə əngəlli şəxslə danışmaq və ona kömək edə bilmək üçün";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Kömək edəcək şəxsə probleminizi izah edə bilməyiniz üçün.";
+
+/* Title for camera */
+"BME_ACCESS_CAMERA_TITLE" = "Kamera";
+
+/* Explanation for why the helper needs to enable camera access */
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Videonuzu kömək etdiyiniz şəxsə göndərmirik, ancaq aranızdakı bağlantını yaratmaq üçün bu lazımdır.";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Kömək edən şəxsə necə kömək edəcəyini göstərə bilməyiniz üçün.";
+

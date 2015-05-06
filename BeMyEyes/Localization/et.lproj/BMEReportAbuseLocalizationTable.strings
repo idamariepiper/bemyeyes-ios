@@ -1,0 +1,72 @@
+/* Headline */
+"BME_REPORT_ABUSE_HEADLINE" = "Teata kuritarvitamisest";
+
+/* Text telling user to choose a reason */
+"BME_REPORT_ABUSE_CHOOSE_REASON" = "Vali põhjus";
+
+/* Title of report button */
+"BME_REPORT_ABUSE_REPORT" = "Teata kuritarvitamisest";
+
+/* Title of skip button */
+"BME_REPORT_ABUSE_SKIP" = "Jäta vahele";
+
+/* Text 1 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND" = "Inimene ei tahtnud aidata.";
+
+/* Text 1 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER" = "Inimene ei olnud pime.";
+
+/* Text 2 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND" = "Abistaja käitus kohatult.";
+
+/* Text 2 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER" = "Pime inimene käitus kohatult.";
+
+/* Text 3 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND" = "Põhjus pole loetletud.";
+
+/* Text 3 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_HELPER" = "Põhjus pole loetletud.";
+
+/* Title of cancel button in alert view show when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL" = "OK";
+
+/* Message in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "Raportit ei olnud võimalik saata. Palun kontrolli internetiühenduse olemasolu ja proovi uuesti.";
+
+/* Title in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE" = "Ei saanud teavitada kuritarvitamisest";
+
+/* Title in overlay displayed when reporting abuse */
+"BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE" = "Raporteerimine...";
+
+/* Title of cancel button in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL" = "Loobu";
+
+/* Title of confirm in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM" = "Kinnita";
+
+/* Message in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Kõiki kuritarvitamise juhtumeid võetakse tõsiselt. Oled sa kindel et soovid raporteerida teist poolt kui kuritarvitajat?";
+
+/* Title in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "Teata kuritarvitamisest";
+
+/* Accesibility label for reason 1 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "Inimene ei tahtnud aidata (Valitud)";
+
+/* Accesibility label for reason 1 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "Inimene ei tahtnud aidata.";
+
+/* Accesibility label for reason 2 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "Abistaja käitus kohatult (valitud)";
+
+/* Accesibility label for reason 2 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2" = "Abistaja käitus kohatult.";
+
+/* Accesibility label for reason 3 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "Põhjus pole loetletud (Valitud)";
+
+/* Accesibility label for reason 3 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3" = "Põhjus pole loetletud.";
+

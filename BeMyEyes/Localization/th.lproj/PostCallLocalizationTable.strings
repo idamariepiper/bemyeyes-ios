@@ -1,0 +1,45 @@
+/* 
+  PostCallViewController.strings
+  BeMyEyes
+  Created by Tobias Due Munk on 28/10/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Motivational message to helper when call has ended */
+"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER" = "ขอบคุณที่ช่วยเหลือ !";
+
+/* Motivational message to blind when call has ended */
+"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "เราหวังว่า สิ่งที่คุณร้องขอจะได้รับการช่วยเหลือ !";
+
+/* Title of dismiss button to helper */
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "ไม่มีปัญหา";
+
+/* Title of dismiss button to blind */
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "สำเร็จ";
+
+/* Title of share button to helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "แบ่งปันประสบการณ์ของคุณ";
+
+/* Title of share button to blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "แบ่งปันประสบการณ์ของคุณ";
+
+/* Message when sharing to Facebook as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "ฉันเพิ่งช่วยผู้พิการทางสายตา ดูด้วยแอพBe My Eyes #BeMyEyes";
+
+/* Message when sharing to Facebook as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "บางคนพึ่งช่วยฉัน ดูด้วยแอพ Be My Eyes #BeMyEyes";
+
+/* Message when sharing to Twitter as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "ฉันเพิ่งช่วยผู้พิการทางสายตา ดูด้วยแอพBe My Eyes #BeMyEyes";
+
+/* Message when sharing to Twitter as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "บางคนเพิ่งช่วยฉัน ดูด้วยแอพ Be My Eyes #BeMyEyes";
+
+/* Default message when sharing as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "ฉันเพิ่งจะช่วยคนมีปัญหาทางสายตาผ่าน Be My Eyes";
+
+/* Default message when sharing as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "เพิ่งจะมีคนช่วยฉันมองผ่าน Be My Eyes";
+
+/* Title of report button */
+"POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "รายงาน";
+

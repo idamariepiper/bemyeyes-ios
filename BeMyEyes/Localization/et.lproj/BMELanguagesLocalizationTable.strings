@@ -1,0 +1,24 @@
+/* Title */
+"BME_LANGUAGES_TITLE" = "Sinu keeled";
+
+/* Title of cancel button in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "OK";
+
+/* MEssage in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Keeli ei saanud hetkel salvestada. Palun proovi hiljem uuesti.";
+
+/* Title in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Ei saanud salvestada";
+
+/* Title in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "You have no languages selected";
+
+/* Message in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "Are you sure you want to proceed?";
+
+/* Positive answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "Yes";
+
+/* Negative answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO" = "Ei";
+

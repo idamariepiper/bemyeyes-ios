@@ -1,0 +1,9 @@
+/* Title of back button */
+"BME_BLIND_INTRO_BACK" = "Tagasi";
+
+/* Title of continue button */
+"BME_BLIND_INTRO_CONTINUE" = "Jätka";
+
+/* Description */
+"BME_BLIND_INTRO_DESCRIPTION" = "Rakendus ühendab teid nägijast inimesega, kes saab teid kaugelt abistada tegevustega, mis vajavad nägija abi. Läbi reaalajas videoühenduse saab nägija kirjeldada teile seda mida ta näeb läbi teie telefoni kaamera.\n\nBe My Eyes võrgustikus olevad abistajad on vabatahtlikud, mistõttu ei saa me garanteerida abistamise kvaliteeti ja vastutada nende tegude eest. Veelgi enam, palume teil olla abi taotlemisel kannatlik, kuna toetume reaalsetele inimestele.\n\nMitte mingil juhul ei tohi te jagada alasti, seadusega vastuolevat, vihkamisele õhutavat või seksuaalset sisu läbi rakenduse. Samuti ei tohiks te näidata kunagi tundlikku informatsiooni nagu krediitkaardid, pass või muud personaalset infot.";
+

@@ -1,0 +1,78 @@
+/* Title of back button */
+"BME_SIGN_UP_METHOD_BACK" = "ย้อนกลับ";
+
+/* Headline */
+"BME_SIGN_UP_METHOD_HEADLINE" = "มาร่วมเป็นส่วนหนึ่งของเครือข่าย";
+
+/* Tiel of Facebook sign up button */
+"BME_SIGN_UP_METHOD_FACEBOOK" = "สมัครผ่าน Facebook";
+
+/* Sign up with e-mail button */
+"BME_SIGN_UP_METHOD_EMAIL" = "สมัครโดยใช้อีเมล์";
+
+/* Top part of button for viewing terms and conditions */
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP" = "การดำเนินการต่อหมายถึงคุณยอมรับ";
+
+/* Bottom part of button for viewing terms and conditions */
+"BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM" = "เงื่อนไขและข้อตกลง";
+
+/* Top part of button for viewing privacy policy */
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP" = "รวมทั้ง";
+
+/* Bottom part of button for viewing privacy policy */
+"BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM" = "นโยบายความเป็นส่วนตัว";
+
+/* Title of cancel button in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_MESSAGE" = "ลงทะเบียนบัญชีโดยใช้ที่อยู่อีเมล์ของผู้ใช้ Facebook แล้ว";
+
+/* Title in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTERED_TITLE" = "มีผู้ใช้อีเมลนี้แล้ว";
+
+/* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when a network error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_MESSAGE" = "โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ตและลองอีกครั้ง.";
+
+/* Title in alert view shown when a TITLEnetwork error occurred during Facebook log in. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_TITLE" = "เกิดข้อผิดพลาด";
+
+/* Title of cancel button in alert view shown when log in to Facebook failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when logging into Facebook but it failed because authentication failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE" = "ไม่สามารถเชื่อมต่อการรับร้องกับ Facebook";
+
+/* Title in alert view shown when log in to Facebook failed */
+"BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE" = "การตรวจสอบผิดพลาด";
+
+/* Title in overlay displayed when logging in */
+"BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE" = "กำลังเข้าสู่ระบบ ...";
+
+/* Title in overlay displayed when registering */
+"BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE" = "กำลังลงทะเบียน...";
+
+/* Title of cancel button in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "ไม่พบบัญชี Facebook ในอุปกรณ์นี้. กรุณาเพิ่มบัญชีของคุณในการตั้งค่าระบบ";
+
+/* Title in alert view shown when no Facebook account was found. */
+"BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "ไม่พบบัญชี";
+
+/* Accessibility hint for privacy policy button */
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT" = "นโยบายความเป็นส่วนตัว";
+
+/* Accessibility label for privacy policy button */
+"BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL" = " ";
+
+/* Accessibility hint for terms and agreements button */
+"BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_HINT" = "เงื่อนไขและข้อตกลง";
+
+/* Accessibility label for terms and agreements button */
+"BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_LABEL" = " ";
+

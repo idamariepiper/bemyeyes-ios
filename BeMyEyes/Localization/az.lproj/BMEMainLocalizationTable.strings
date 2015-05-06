@@ -1,0 +1,51 @@
+/* 
+  BMEMainViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 07/07/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Title of cancel button in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL" = "Xeyr";
+
+/* Title of confirm button in alert view shown when asking the blind if he knows more BME_MAIN_langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Bəli, bilirəm";
+
+/* Message in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Əgər başqa dil bilirsinizsə bu dilləri seçə bilər və o dildə danışan köməkçiyə bağlanaraq daha tez kömək ala bilərsiniz.";
+
+/* Title in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Başqa dil bilirsən?";
+
+/* Title of cancel button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "Xeyr";
+
+/* Title of confirm button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Bəli, bilirəm";
+
+/* Message in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Əgər başqa dil bilirsinizsə, onları seçə bilər və o dillərdə köməyə ehtiyacı olan görmə əngəllilərə kömək edə bilərsiniz.";
+
+/* Title in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Başqa dil bilirsən?";
+
+/* Settings button accessibility label */
+"BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "Tənzimləmələr";
+
+/* Title of notifications error title in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "Bildirişlər";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Nəsə düz getmir və bildirişləri almaya bilərsiniz";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_CANCEL" = "Oldu";
+
+/* Title of alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Giriş xətası";
+
+/* Message in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Texniki xətaya görə çıxış ediləcək.";
+
+/* Ok button in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "Giriş";
+

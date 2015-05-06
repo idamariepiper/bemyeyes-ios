@@ -1,0 +1,24 @@
+/* App name. Please don't translate this. */
+"BME_FRONT_PAGE_APP_NAME" = "ช่วยดูให้ทีนะ";
+
+/* Asking the user to choose if he is sighted or blind */
+"BME_FRONT_PAGE_ASK_FOR_ROLE" = "สิ่งที่จะทำคือ?";
+
+/* Title for choosing sighted role */
+"BME_FRONT_PAGE_SIGHTED_ROLE" = "ฉันจะเป็นคนช่วยเหลือ";
+
+/* Title for choosing blind role */
+"BME_FRONT_PAGE_BLIND_ROLE" = "ฉันเป็นผู้พิการทางสายตา";
+
+/* Log in button, if the user is already registered */
+"BME_FRONT_PAGE_ALREADY_REGISTERED" = "ลงทะเบียนแล้ว? ล็อคอินที่นี่";
+
+/* No voiceover alert title */
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE" = "ช่วยดูให้ทีนะ";
+
+/* No voiceover alert body */
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY" = "การเข้าถึงVoiceOverจะต้องเปิดให้ลงทะเบียนเป็นผู้ใช้คนตาบอด ไปที่การตั้งค่า > ทั่วไป > ถึง > VoiceOver";
+
+/* No voiceover button title */
+"BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON" = "โอเค";
+

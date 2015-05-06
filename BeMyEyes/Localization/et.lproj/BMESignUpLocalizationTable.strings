@@ -1,0 +1,78 @@
+/* Title of back button */
+"BME_SIGN_UP_BACK" = "Tagasi";
+
+/* Placeholder in first name field */
+"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "Eesnimi";
+
+/* Placeholder in last name field */
+"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "Perekonnanimi";
+
+/* Placeholder in e-mail field */
+"BME_SIGN_UP_EMAIL_PLACEHOLDER" = "E-posti aadress";
+
+/* Placeholder in password field */
+"BME_SIGN_UP_PASSWORD_PLACEHOLDER" = "salasõna";
+
+/* Title of register button */
+"BME_SIGN_UP_REGISTER" = "Registreeru";
+
+/* Title of cancel button in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL" = "OK";
+
+/* Message in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE" = "Konto selle e-posti aadressiga on juba olemas.";
+
+/* Title in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE" = "E-posti aadress on juba registreeritud";
+
+/* Title of cancel button in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL" = "OK";
+
+/* Message in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE" = "Sisestatud e-posti aadress ei ole õige.";
+
+/* Title in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE" = "Vigane e-posti aadress";
+
+/* Title of cancel button in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL" = "OK";
+
+/* Message in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "Palun sisesta kogu informatsioon enne jätkamist.";
+
+/* Title in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE" = "Tühjad väljad";
+
+/* Title of cancel button in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL" = "OK";
+
+/* Message in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE" = "Sisestatud salasõna on liiga lühike.";
+
+/* Title in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE" = "Liiga lühike salasõna";
+
+/* Title of cancel button in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL" = "OK";
+
+/* Message in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE" = "Sisestatud salasõnad ei kattu.";
+
+/* Title in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE" = "Salasõnad ei kattu";
+
+/* Title of cancel button in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL" = "OK";
+
+/* Message in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Sinu kontot ei saanud luua. Palun kontrolli internetiühenduse olemasolu ja proovi uuesti.";
+
+/* Title in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "Kontot ei olnud võimalik luua";
+
+/* Title in overlay displayed when logging in */
+"BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "Sisselogimine...";
+
+/* Title in overlay displayed when registering */
+"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Registreerimine...";
+

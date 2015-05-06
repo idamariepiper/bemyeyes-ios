@@ -1,0 +1,72 @@
+/* Headline */
+"BME_REPORT_ABUSE_HEADLINE" = "Pis rəftar hesabatı";
+
+/* Text telling user to choose a reason */
+"BME_REPORT_ABUSE_CHOOSE_REASON" = "Səbəb seçin";
+
+/* Title of report button */
+"BME_REPORT_ABUSE_REPORT" = "Pis rəftar hesabatı";
+
+/* Title of skip button */
+"BME_REPORT_ABUSE_SKIP" = "Keç";
+
+/* Text 1 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND" = "Şəxs kömək etmək istəmir.";
+
+/* Text 1 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER" = "Şəxs görmə əngəlli deyil.";
+
+/* Text 2 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND" = "Köməkçi yersiz hərəkət etdi.";
+
+/* Text 2 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER" = "Görmə əngəlli şəxs yersiz hərəkət etdi.";
+
+/* Text 3 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND" = "Başqa səbəb.";
+
+/* Text 3 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_HELPER" = "Başqa səbəb.";
+
+/* Title of cancel button in alert view show when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL" = "Oldu";
+
+/* Message in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "Hesabat göndərilmədi. Zəhmət olmasa aktiv internet bağlantınızın olduğundan əmin olub yenidən cəhd edin.";
+
+/* Title in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE" = "Pis rəftar hesabatı məruzə edilmədi";
+
+/* Title in overlay displayed when reporting abuse */
+"BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE" = "Məruzə edilir...";
+
+/* Title of cancel button in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL" = "İmtina";
+
+/* Title of confirm in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM" = "Təsdiqlə";
+
+/* Message in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "Bütün pis rəftar faktları ciddi götürülür və araşdırılır. Qarşı tərəfin pis rəftarı ilə bağlı məruzə etmək istədiyinizə əminsiniz?";
+
+/* Title in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "Pis Rəftar Hesabatı";
+
+/* Accesibility label for reason 1 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "Şəxs kömək etmək istəmir (Seçildi)";
+
+/* Accesibility label for reason 1 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "Şəxs kömək etmək istəmir.";
+
+/* Accesibility label for reason 2 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "Köməkçi yersiz hərəkət etdi (Seçildi)";
+
+/* Accesibility label for reason 2 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2" = "Köməkçi yersiz hərəkət etdi.";
+
+/* Accesibility label for reason 3 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "Başqa səbəb (Seçildi)";
+
+/* Accesibility label for reason 3 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3" = "Başqa səbəb.";
+

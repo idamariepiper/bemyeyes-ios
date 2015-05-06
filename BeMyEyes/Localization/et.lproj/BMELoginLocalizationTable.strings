@@ -1,0 +1,105 @@
+/* Title of back button */
+"BME_LOGIN_BACK" = "Tagasi";
+
+/* Placeholder in e-mail field */
+"BME_LOGIN_EMAIL_PLACEHOLDER" = "E-posti aadress";
+
+/* Placeholder in password field */
+"BME_LOGIN_PASSWORD_PLACEHOLDER" = "salasõna";
+
+/* Title of log in button */
+"BME_LOGIN_PERFORM_LOG_IN" = "Logi sisse";
+
+/* Title of log in with Facebook button */
+"BME_LOGIN_FACEBOOK" = "Logi sisse Facebookiga";
+
+/* Title of forgot password button */
+"BME_LOGIN_FORGOT_PASSWORD" = "Unustatud salasõna";
+
+/* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL" = "OK";
+
+/* Message in alert view shown when a network error occurred during Facebook log in. */
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE" = "Veendu, et internetiühendus on olemas ja proovi uuesti.";
+
+/* Title in alert view shown when a network error occurred during Facebook log in. */
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_TITLE" = "Juhtus viga";
+
+/* Title of cancel button in alert view shown when log in to Facebook failed */
+"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_CANCEL" = "OK";
+
+/* Message in alert view shown when logging into Facebook but it failed because authentication failed */
+"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_MESSAGE" = "Sind ei logitud sisse. Palun proovi uuesti.";
+
+/* Title in alert view shown when log in to Facebook failed */
+"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_TITLE" = "Pole sisse logitud";
+
+/* Title of cancel button in alert view shown when Facebook user not found during log in. */
+"BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_CANCEL" = "OK";
+
+/* Message in alert view shown when Facebook user not found during log in. */
+"BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_MESSAGE" = "Pead enne oma Facebooki konto abil liituma, enne kui saad selle abil sisse logida.";
+
+/* Title in alert view shown when Facebook user not found during log in. */
+"BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE" = "Pole kontot";
+
+/* Title of ok button in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "OK";
+
+/* Message in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "You have to enable access to your Facebook account in system settings.";
+
+/* Title in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Access not allowed";
+
+/* Message in alert view shown when the e-mail or password is empty */
+"BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "Sisesta nii e-postiaadress kui ka salasõna.";
+
+/* Title of cancel button in alert view show when the e-mail or password is empty */
+"BME_LOGIN_ALERT_EMPTY_FIELDS_CANCEL" = "OK";
+
+/* Title in alert view shown when the e-mail or password is empty */
+"BME_LOGIN_ALERT_EMPTY_FIELDS_TITLE" = "Tühjad väljad";
+
+/* Title of cancel button in alert view shown when credentials are incorrect. */
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_CANCEL" = "OK";
+
+/* Message in alert view shown when credentials are incorrect. */
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE" = "Sisestatud e-postiaadress ja salasõna ei sobi.";
+
+/* Title in alert view shown when credentials are incorrect. */
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "Sobimatu kasutajainfo";
+
+/* Title of cancel button in alert view shown when a network error occurred during e-mail log in. */
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL" = "OK";
+
+/* Message in alert view shown when a network error occurred. */
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE" = "Veendu, et internetiühendus on olemas ja proovi uuesti.";
+
+/* Title in alert view shown when a network error occurred during e-mail log in. */
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE" = "Juhtus viga";
+
+/* Title in overlay displayed when logging in */
+"BME_LOGIN_OVERLAY_LOGGING_IN_TITLE" = "Sisselogimine...";
+
+/* Title of cancel button in alert view shown when no Facebook account was found. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "OK";
+
+/* Message in alert view shown when no Facebook account was found. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Seadmes ei tuvastatud Facebooki kontosid. Palun lisa oma konto süsteemiseadetes.";
+
+/* Title in alert view shown when no Facebook account was found. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Ei leidnud kontot";
+
+/* Title of cancel button in alert shown when the user is not registered for remote notifications */
+"BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_CANCEL" = "OK";
+
+/* Message in alert shown when the user is not registered for remote notifications */
+"BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_MESSAGE" = "Kaugteavitusteks registreerumine nurjus.\nPalun kontrolli, et kaugteavitused on süsteemi seadetes lubatud ja proovi uuesti.";
+
+/* Title in alert shown when the user is not registered for remote notifications */
+"BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_TITLE" = "Sisselogimine ebaõnnestus";
+
+/* Title in overlay displayed while loading pending request */
+"BME_LOGIN_OVERLAY_LOADING_PENDING_REQUEST_TITLE" = "Taotluste laadimine...";
+

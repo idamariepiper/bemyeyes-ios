@@ -1,0 +1,51 @@
+/* 
+  BMEMainViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 07/07/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Title of cancel button in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL" = "Ei";
+
+/* Title of confirm button in alert view shown when asking the blind if he knows more BME_MAIN_langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "Jah, oskan";
+
+/* Message in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "Kui sa oskad rohkem keeli , võid valida ka need, ning kui need sobivad abistaja keelevalikuga, võid nii leida rutem abi.";
+
+/* Title in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "Kas oskad rohkem keeli?";
+
+/* Title of cancel button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "Ei";
+
+/* Title of confirm button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "Jah, oskan";
+
+/* Message in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "Kui oskad rohkem keeli, võid valida ka need, ning võid abi pakkuda nägemispuudega inimesele, kes oskab seda valitud keelt.";
+
+/* Title in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "Kas oskad rohkem keeli?";
+
+/* Settings button accessibility label */
+"BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "Seaded";
+
+/* Title of notifications error title in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "Teavitused";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "Miski läks valesti ja sa ei pruugi teavitusi saada";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_CANCEL" = "Ok";
+
+/* Title of alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "Sisselogimistõrge";
+
+/* Message in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "Tehnilise vea tõttu logitakse sind välja.";
+
+/* Ok button in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "Logi sisse";
+

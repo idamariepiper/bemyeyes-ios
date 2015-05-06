@@ -1,0 +1,47 @@
+/* BMESnoozeRelativeDate.strings
+  BeMyEyes
+  Created by Simon Støvring on 19/04/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_DAY" = "วัน";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_DAYS" = "%.0f วัน";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_HOUR" = "ชั่วโมง";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_HOURS" = "%.0f ชั่วโมง";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_MINUTE" = "นาที";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_MINUTES" = "%.0f นาที";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_MONTH" = "เดือน";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_MONTHS" = "%.0f เดือน";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_SECOND" = "วินาที";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_SECONDS" = "%.0f วินาที";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_WEEK" = "สัปดาห์";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_WEEKS" = "%.0f สัปดาห์ที่ผ่านมา";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_YEAR" = "ปี";
+
+/* No comment provided by engineer. */
+"BME_SNOOZE_RELATIVE_DATE_YEARS" = "%.0f ปี";
+

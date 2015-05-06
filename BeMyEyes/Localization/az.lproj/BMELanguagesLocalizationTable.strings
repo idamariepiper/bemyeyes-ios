@@ -1,0 +1,24 @@
+/* Title */
+"BME_LANGUAGES_TITLE" = "Dilləriniz";
+
+/* Title of cancel button in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL" = "Oldu";
+
+/* MEssage in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE" = "Dillər saxlanılmadı. Zəhmət olmasa yenidən cəhd edin.";
+
+/* Title in alert view shown when the languages could not be saved */
+"BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE" = "Saxlanılmadı";
+
+/* Title in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_NO_LANGS_SELECTED" = "Dil seçməmisiniz";
+
+/* Message in alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION" = "Davam etmək istədiyinizə əminsiniz?";
+
+/* Positive answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES" = "Bəli";
+
+/* Negative answer to alert view shown when no languages have been selected */
+"BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO" = "Xeyr";
+

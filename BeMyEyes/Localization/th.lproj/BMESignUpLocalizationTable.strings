@@ -1,0 +1,78 @@
+/* Title of back button */
+"BME_SIGN_UP_BACK" = "ย้อนกลับ";
+
+/* Placeholder in first name field */
+"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "ชื่อ";
+
+/* Placeholder in last name field */
+"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "นามสกุล";
+
+/* Placeholder in e-mail field */
+"BME_SIGN_UP_EMAIL_PLACEHOLDER" = "อีเมล";
+
+/* Placeholder in password field */
+"BME_SIGN_UP_PASSWORD_PLACEHOLDER" = "รหัสผ่าน";
+
+/* Title of register button */
+"BME_SIGN_UP_REGISTER" = "ลงทะเบียน";
+
+/* Title of cancel button in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE" = "อีเมล์ที่คุณป้อนนั้นได้ถูกลงทะเบียนแล้ว";
+
+/* Title in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE" = "มีผู้ใช้อีเมลนี้แล้ว";
+
+/* Title of cancel button in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE" = "อีเมล์ที่คุณป้อนไม่ถูกต้อง";
+
+/* Title in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE" = "อีเมล์ไม่ถูกต้อง";
+
+/* Title of cancel button in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "กรุณากรอกข้อมูลทั้งหมดก่อนที่จะเริ่มขั้นตอนต่อไป";
+
+/* Title in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE" = "ช่องว่าง";
+
+/* Title of cancel button in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE" = "รหัสผ่านสั้นเกินไป";
+
+/* Title in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE" = "รหัสผ่านสั้นเกินไป";
+
+/* Title of cancel button in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE" = "กรอกรหัสผ่านไม่ตรงกัน";
+
+/* Title in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE" = "รหัสผ่านไม่ตรงกัน";
+
+/* Title of cancel button in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "ไม่สามารถสร้างบัญชีของคุณได้ โปรดตรวจสอบว่าคุณได้เชื่อมต่อกับอินเตอร์เน็ตอยู่ แล้วลองใหม่อีกครั้ง";
+
+/* Title in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "ไม่สามารถสร้างบัญชีผู้ใช้ได้";
+
+/* Title in overlay displayed when logging in */
+"BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "กำลังเข้าสู่ระบบ ...";
+
+/* Title in overlay displayed when registering */
+"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "กำลังลงทะเบียน...";
+

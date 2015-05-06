@@ -1,0 +1,12 @@
+/* Message in push notification when a request has been received */
+"PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE" = "%@ köməyə ehtiyacı var! Cavablamaq üçün sürüşdürün ya da toxunun.";
+
+/* Message in push notification when a request has been received */
+"PUSH_NOTIFICATION_CANCELLED_REQUEST_MESSAGE" = "%@ sorğudan imtina etdi.";
+
+/* Message in push notification when a request has been received */
+"PUSH_NOTIFICATION_REQUEST_WAS_ANSWERED_MESSAGE" = "%@ istifadəçisindən gələn sorğu cavablandırıldı.";
+
+/* Title of button in push notification when a request has been received */
+"PUSH_NOTIFICATION_ANSWER_REQUEST_ACTION" = "Cavabla";
+

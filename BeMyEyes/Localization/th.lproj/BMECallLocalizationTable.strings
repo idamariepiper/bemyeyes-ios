@@ -1,0 +1,78 @@
+/* Title of disconnect button */
+"BME_CALL_DISCONNECT" = "ตัดการเชื่อมต่อแล้ว";
+
+/* Title of cancel button in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE" = "คำขอนี้ถูกตอบรับโดยคนอื่นแล้ว แต่ก็ขอขอบคุณสำหรับความช่วยเหลือนะ!";
+
+/* Title in alert view shown when failed answering request because the request has already been answered */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE" = "คำขอถูกตอบรับไปก่อนหน้านี้แล้ว";
+
+/* Title of cancel button in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE" = "ผู้มองไม่เห็นได้ยกเลิกคำขอแล้ว แต่ก็ขอขอบคุณสำหรับความช่วยเหลือนะ!";
+
+/* Title in alert view shown when failed answering request because the request has been stopped */
+"BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE" = "คำร้องขอถูกยกเลิก";
+
+/* Title in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_TITLE" = "ไม่สามารถตอบรับคำขอร้องได้";
+
+/* Cancel in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL" = "ตกลง";
+
+/* Message in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE" = "คำร้องขอไม่สามารถสร้างได้ กรุณาลองใหม่อีกครั้ง";
+
+/* Title in alert showed when failed creating request */
+"BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE" = "ไม่สามารถสร้างคำขอได้";
+
+/* Title of cancel button in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_CANCEL" = "ตกลง";
+
+/* Status when asking the user to wait */
+"BME_CALL_STATUS_PLEASE_WAIT" = "กรุณารอซักครู่...";
+
+/* Status when answering request */
+"BME_CALL_STATUS_ANSWERING_REQUEST" = "กำลังตอบรับคำร้องขอ...";
+
+/* Message in alert view shown when failed answering request for an unknown reason */
+"BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE" = "คำขอความช่วยเหลือ ไม่สามารถตอบรับได้ในตอนนี้ ขอบคุณที่ช่วยนะ!";
+
+/* Status when creating request */
+"BME_CALL_STATUS_CREATING_REQUEST" = "กำลังสร้างการร้องขอ";
+
+/* Status when connecting */
+"BME_CALL_STATUS_CONNECTING" = "กำลังเชื่อมต่อกับเซิร์ฟเวอร์...";
+
+/* Status when connection is established */
+"BME_CALL_STATUS_CONNECTION_ESTABLISHED" = "กำลังรอฝ่ายตรงข้าม...";
+
+/* Status when session failed */
+"BME_CALL_STATUS_SESSION_FAILED" = "การเชื่อมต่อล้มเหลว";
+
+/* Status when failed publishing */
+"BME_CALL_STATUS_FAILED_PUBLISHING" = "ไม่สามารถเผยแพร่ภาพและเสียง";
+
+/* Speech when connected to other part */
+"BME_CALL_SPEECH_DID_SUBSCRIBE" = "เชื่อมต่อกับฝ่ายตรงข้ามแล้ว";
+
+/* Status when failed subscribing */
+"BME_CALL_STATUS_FAILED_SUBSCRIBING" = "การเชื่อมต่อกับฝ่ายตรงข้ามล้มเหลว";
+
+/* Status when disconnecting */
+"BME_CALL_STATUS_DISCONNECTING" = "กำลังตัดการเชื่อมต่อ...";
+
+/* Title of cancel button in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL" = "ตกลง";
+
+/* Message in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE" = "ฝั่งตรงข้ามได้ตัดการเชื่อมต่อ และเซสซันนี้ได้สิ้นสุดแล้ว";
+
+/* Title in alert shown when other part has disconnected */
+"BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE" = "สิ้นสุดเซสซัน";
+

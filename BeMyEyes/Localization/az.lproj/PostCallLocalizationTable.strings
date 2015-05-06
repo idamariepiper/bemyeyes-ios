@@ -1,0 +1,45 @@
+/* 
+  PostCallViewController.strings
+  BeMyEyes
+  Created by Tobias Due Munk on 28/10/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Motivational message to helper when call has ended */
+"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER" = "Köməyiniz üçün təşəkkür edirik!";
+
+/* Motivational message to blind when call has ended */
+"POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND" = "Ümid edirik ki, istədiyiniz köməyi aldınız!";
+
+/* Title of dismiss button to helper */
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER" = "Problem deyil";
+
+/* Title of dismiss button to blind */
+"POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND" = "Hazırdır";
+
+/* Title of share button to helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER" = "Təcrübəni paylaş";
+
+/* Title of share button to blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND" = "Təcrübəni paylaş";
+
+/* Message when sharing to Facebook as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER" = "İndicə Be My Eyes tətbiqetməsi ilə görmə əngəlli şəxsə kömək etdim #BeMyEyes";
+
+/* Message when sharing to Facebook as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND" = "İndicə kimsə mənə Be My Eyes tətbiqetməsi ilə kömək etdi #BeMyEyes";
+
+/* Message when sharing to Twitter as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER" = "İndicə @bemyeyes tətbiqetməsi ilə görmə əngəlli şəxsə kömək etdim #BeMyEyes";
+
+/* Message when sharing to Twitter as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND" = "İndicə kimsə mənə @bemyeyes tətbiqetməsi ilə kömək etdi #BeMyEyes";
+
+/* Default message when sharing as helper */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER" = "İndicə Be My Eyes tətbiqetməsi ilə görmə əngəlli şəxsə kömək etdim";
+
+/* Default message when sharing as blind */
+"POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND" = "Someone just helped me see with the @bemyeyes app";
+
+/* Title of report button */
+"POST_CALL_VIEW_CONTROLLER_REPORT_ABUSE" = "Hesabat";
+

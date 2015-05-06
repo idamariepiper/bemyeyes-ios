@@ -1,0 +1,72 @@
+/* Headline */
+"BME_REPORT_ABUSE_HEADLINE" = "รายงานการละเมิด";
+
+/* Text telling user to choose a reason */
+"BME_REPORT_ABUSE_CHOOSE_REASON" = "เลือกเหตุผล";
+
+/* Title of report button */
+"BME_REPORT_ABUSE_REPORT" = "รายงานการละเมิด";
+
+/* Title of skip button */
+"BME_REPORT_ABUSE_SKIP" = "ข้าม";
+
+/* Text 1 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND" = "บุคคลนี้ไม่ประสงค์จะช่วยเหลือ";
+
+/* Text 1 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER" = "บุคคลนี้มองเห็นได้";
+
+/* Text 2 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND" = "ผู้ช่วยเหลือประพฤติไม่เหมาะสม";
+
+/* Text 2 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER" = "ผู้พิการทางสายตามีพฤติกรรมไม่เหมาะสม";
+
+/* Text 3 for reporting abuse as a blind person. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND" = "ไม่มีเหตุผลในรายการนี้";
+
+/* Text 3 for reporting abuse as a helper. */
+"BME_REPORT_ABUSE_REPORT_TEXT_3_HELPER" = "ไม่มีเหตุผลในรายการนี้";
+
+/* Title of cancel button in alert view show when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE" = "ไม่สามารถส่งรายงาน โปรดตรวจสอบว่าคุณเชื่อมต่ออินเทอร์เน็ตอยู่ แล้วลองใหม่อีกครั้ง";
+
+/* Title in alert view shown when reporting failed */
+"BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE" = "ไม่สามารถรายงานการละเมิดสิทธิ";
+
+/* Title in overlay displayed when reporting abuse */
+"BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE" = "กำลังรายงาน...";
+
+/* Title of cancel button in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL" = "ยกเลิก";
+
+/* Title of confirm in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM" = "ยืนยัน";
+
+/* Message in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE" = "เคสการละเมิดจะถูกตรวจสอบโดยละเอียด คุณแน่ใจหรือไม่ ว่าต้องการรายงานการละเมิด";
+
+/* Title in alert view shown when asking the user to confirm that he wants to report abuse */
+"BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE" = "รายงานการละเมิด";
+
+/* Accesibility label for reason 1 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED" = "บุคคลดังกล่าวไม่ประสงค์ที่จะช่วยเหลือ (เลือก)";
+
+/* Accesibility label for reason 1 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1" = "บุคคลนี้ไม่ประสงค์จะช่วยเหลือ";
+
+/* Accesibility label for reason 2 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED" = "ผู้ช่วยเหลือประพฤติไม่เหมาะสม (เลือก)";
+
+/* Accesibility label for reason 2 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2" = "ผู้ช่วยเหลือประพฤติไม่เหมาะสม";
+
+/* Accesibility label for reason 3 when the reason is selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED" = "ไม่มีเหตุผลในรายการ (เลือก)";
+
+/* Accesibility label for reason 3 when the reason is not selected */
+"BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3" = "ไม่มีเหตุผลในรายการนี้";
+

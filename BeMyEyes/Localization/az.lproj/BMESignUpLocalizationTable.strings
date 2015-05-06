@@ -1,0 +1,78 @@
+/* Title of back button */
+"BME_SIGN_UP_BACK" = "Geri";
+
+/* Placeholder in first name field */
+"BME_SIGN_UP_FIRST_NAME_PLACEHOLDER" = "Adınız";
+
+/* Placeholder in last name field */
+"BME_SIGN_UP_LAST_NAME_PLACEHOLDER" = "Soyadınız";
+
+/* Placeholder in e-mail field */
+"BME_SIGN_UP_EMAIL_PLACEHOLDER" = "E-poçt";
+
+/* Placeholder in password field */
+"BME_SIGN_UP_PASSWORD_PLACEHOLDER" = "Şifrə";
+
+/* Title of register button */
+"BME_SIGN_UP_REGISTER" = "Qeydiyyat";
+
+/* Title of cancel button in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL" = "Oldu";
+
+/* Message in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE" = "Daxil edilmiş e-poçt ünvanına malik olan hesab artıq mövcuddur.";
+
+/* Title in alert view shown when e-mail is already registered. */
+"BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE" = "E-poçt artıq qeydiyyatdadır";
+
+/* Title of cancel button in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL" = "Oldu";
+
+/* Message in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE" = "Daxil edilmiş e-poçt ünvanı etibarsızdır.";
+
+/* Title in alert view shown when the e-mail is not valid. */
+"BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE" = "E-poçt etibarsızdır";
+
+/* Title of cancel button in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL" = "Oldu";
+
+/* Message in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE" = "Zəhmət olmasa davam etməmişdən əvvəl bütün məlumatları doldurun.";
+
+/* Title in alert view shown when one or more fields are empty. */
+"BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE" = "Boş sahələr";
+
+/* Title of cancel button in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL" = "Oldu";
+
+/* Message in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE" = "Daxil edilmiş şifrə çox qısadır.";
+
+/* Title in alert view shown when the password is too short. */
+"BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE" = "Şifrə çox qısadır";
+
+/* Title of cancel button in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL" = "Oldu";
+
+/* Message in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE" = "Daxil edilmiş şifrələr uyğunlaşmır.";
+
+/* Title in alert view shown when passwords doesn't match. */
+"BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE" = "Şifrələr uyğunlaşmır";
+
+/* Title of cancel button in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL" = "Oldu";
+
+/* Message in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE" = "Hesabınız yaradılmadı. Zəhmət olmasa aktiv internet bağlantınızın olduğunu təsdiqləyib yenidən cəhd edin.";
+
+/* Title in alert view shown when a network error occurred. */
+"BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE" = "Hesab yaradıla bilmədi";
+
+/* Title in overlay displayed when logging in */
+"BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE" = "Giriş edilir...";
+
+/* Title in overlay displayed when registering */
+"BME_SIGN_UP_OVERLAY_REGISTERING_TITLE" = "Qeydiyyatdan keçir...";
+

@@ -159,6 +159,8 @@ static NSString * const InfoPlist = @"InfoPlist";
 
  * @b ar@: "يرجى تمكين ما يلي للانضمام بشكل كامل لشبكة كُن عيناي (Be My Eyes)"
 
+ * @b az@: "Be My Eyes şəbəkəsinə qoşulmaq üçün zəhmət olmasa aşağıdakılara icazə verin"
+
  * @b ca@: "Si us plau habilita les següents funcions per tenir ple accés a la comunitat Be My Eyes"
 
  * @b cs@: "Prosím povolte následující pro plné připojení k síti Be My Eyes"
@@ -172,6 +174,8 @@ static NSString * const InfoPlist = @"InfoPlist";
  * @b en@: "Please enable the following to fully join the Be My Eyes network"
 
  * @b es@: "Por favor, habilita las siguientes funciones para unirte a la comunidad Be My Eyes"
+
+ * @b et@: "Palun luba järgmised valikud, et täielikult ühineda Be My Eyes võrgustikuga"
 
  * @b fi@: "Ole hyvä ja salli seuraavat, jotta voit liittyä täysin Be My Eyes verkostoon"
 
@@ -209,6 +213,8 @@ static NSString * const InfoPlist = @"InfoPlist";
 
  * @b sv@: "Tillåt följande för att  vara med helt i Be My Eyes-nätverket"
 
+ * @b th@: "กรุณาเปิดการทำงานดังต่อไปนี้เพื่อเข้าร่วมเครือข่าย Be My Eyes อย่างเต็มรูปแบบ"
+
  * @b tr@: "Lütfen Be My Eyes ağına katılabilmek için aşağıdakilere izin veriniz"
 
  * @b uk@: "Будь ласка, увімкніть наступне, щоб приєднатися до Be My Eyes мережі"
@@ -233,6 +239,8 @@ static NSString * const BME_ACCESS_INTRO_MESSAGE = @"BME_ACCESS_INTRO_MESSAGE";
 
  * @b ar@: "التنبيهات"
 
+ * @b az@: "Bildirişlər"
+
  * @b ca@: "Notificacions"
 
  * @b cs@: "Oznámení"
@@ -246,6 +254,8 @@ static NSString * const BME_ACCESS_INTRO_MESSAGE = @"BME_ACCESS_INTRO_MESSAGE";
  * @b en@: "Notifications"
 
  * @b es@: "Notificaciones"
+
+ * @b et@: "Teavitused"
 
  * @b fi@: "Ilmoitukset"
 
@@ -287,6 +297,8 @@ static NSString * const BME_ACCESS_INTRO_MESSAGE = @"BME_ACCESS_INTRO_MESSAGE";
 
  * @b sv@: "Notiser"
 
+ * @b th@: "การแจ้งเตือน"
+
  * @b tr@: "Bildirimler"
 
  * @b uk@: "Сповіщення"
@@ -311,6 +323,8 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_TITLE = @"BME_ACCESS_NOTIFICATI
 
  * @b ar@: "عندما يحتاج شخص مكفوف لمساعدتك، نقوم بتنبيهك بالمكالمة الواردة."
 
+ * @b az@: "Görmə əngəlli şəxs kömək etməyinizi istəyəndə, gələn zəng barədə sizi xəbərdar edəcəyik."
+
  * @b ca@: "Quan una persona cega necessiti la teva ajuda et notificarem la trucada entrant."
 
  * @b cs@: "Když nevidomý člověk potřebuje vaši pomoc, upozorníme vás na příchozí volání."
@@ -324,6 +338,8 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_TITLE = @"BME_ACCESS_NOTIFICATI
  * @b en@: "When a blind person needs your help, we notify you about the incoming call."
 
  * @b es@: "Cuando una persona ciega necesite tu ayuda, te notificaremos la llamada entrante."
+
+ * @b et@: "Kui nägemispuudega inimene vajab abi,anname me sulle saabuvast kõnest märku."
 
  * @b fi@: "Ilmoitamme saapuvasta puhelusta, kun sokea henkilö tarvitsee apuasi."
 
@@ -365,6 +381,8 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_TITLE = @"BME_ACCESS_NOTIFICATI
 
  * @b sv@: "När en blind person behöver din hjälp meddelar vi dig om det inkommande samtalet."
 
+ * @b th@: "เมื่อผู้พิการทางสายตาต้องการความช่วยเหลือ เราจะแจ้งเตือนคุณเมื่อมีสายเข้า"
+
  * @b tr@: "Görme engelli biri yardımınızı istediğinde, gelen çağrı hakkında size bildirim göndereceğiz."
 
  * @b uk@: "Коли сліпій людині буде потрібна ваша допомога, ми повідомимо вам про вхідний дзвінок."
@@ -389,6 +407,8 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER = @"BME_ACCE
 
  * @b ar@: "الإجابة"
 
+ * @b az@: "Cavabla"
+
  * @b ca@: "Respondre"
 
  * @b cs@: "Odpovědet"
@@ -402,6 +422,8 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER = @"BME_ACCE
  * @b en@: "Answer"
 
  * @b es@: "Responder"
+
+ * @b et@: "Vasta"
 
  * @b fi@: "Vastaus"
 
@@ -443,6 +465,8 @@ static NSString * const BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER = @"BME_ACCE
 
  * @b sv@: "Svara"
 
+ * @b th@: "ตอบรับ"
+
  * @b tr@: "Cevapla"
 
  * @b uk@: "Відповідь"
@@ -467,6 +491,8 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
 
  * @b ar@: "ليس الآن"
 
+ * @b az@: "İndi yox"
+
  * @b ca@: "Ara mateix no"
 
  * @b cs@: "Ne právě teď"
@@ -480,6 +506,8 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
  * @b en@: "Not right now"
 
  * @b es@: "Ahora no"
+
+ * @b et@: "Mitte praegu"
 
  * @b fi@: "Ei juuri nyt"
 
@@ -521,6 +549,8 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_ANSWER = @"BME_ACCESS_NOT
 
  * @b sv@: "Inte just nu"
 
+ * @b th@: "ไม่ใช่ตอนนี้"
+
  * @b tr@: "Şimdi değil"
 
  * @b uk@: "Не прямо зараз"
@@ -545,6 +575,8 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NO
 
  * @b ar@: "الميكروفون"
 
+ * @b az@: "Mikrofon"
+
  * @b ca@: "Micròfon"
 
  * @b cs@: "Mikrofon"
@@ -558,6 +590,8 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NO
  * @b en@: "Microphone"
 
  * @b es@: "Micrófono"
+
+ * @b et@: "Mikrofon"
 
  * @b fi@: "Mikrofoni"
 
@@ -599,6 +633,8 @@ static NSString * const BME_ACCESS_NOTIFICATION_ACTION_DISMISS = @"BME_ACCESS_NO
 
  * @b sv@: "Mikrofon"
 
+ * @b th@: "ไมโครโฟน"
+
  * @b tr@: "Mikrofon"
 
  * @b uk@: "Мікрофон"
@@ -623,6 +659,8 @@ static NSString * const BME_ACCESS_MICROPHONE_TITLE = @"BME_ACCESS_MICROPHONE_TI
 
  * @b ar@: "لتتمكن من التحدث و توجيه الشخص المكفوف"
 
+ * @b az@: "Görmə əngəlli şəxslə danışmaq və ona kömək edə bilmək üçün"
+
  * @b ca@: "Per poder parlar i guiar a la persona cega"
 
  * @b cs@: "Abyste mohli vést nevidomého a hovořit s ním"
@@ -636,6 +674,8 @@ static NSString * const BME_ACCESS_MICROPHONE_TITLE = @"BME_ACCESS_MICROPHONE_TI
  * @b en@: "To be able to talk with and guide the blind person"
 
  * @b es@: "Para poder hablar y guiar a la persona ciega"
+
+ * @b et@: "Võimaldamaks sul nägemispuudega inimesega rääkida ja teda juhendada"
 
  * @b fi@: "Jotta voit puhua sokean henkilön kanssa ja ohjata häntä"
 
@@ -677,6 +717,8 @@ static NSString * const BME_ACCESS_MICROPHONE_TITLE = @"BME_ACCESS_MICROPHONE_TI
 
  * @b sv@: "För att kunna vägleda och prata med den blinda personen"
 
+ * @b th@: "เพื่อสามารถคุยและแนะนำผู้พิการทางสายตา"
+
  * @b tr@: "Görme engelli kişiyle konuşmak ve o kişiye yardım edebilmek için"
 
  * @b uk@: "Для змоги розмовляти, а також напрявляти сліпу людину"
@@ -701,6 +743,8 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_HELPER = @"BME_ACCESS_
 
  * @b ar@: "لتتمكن من توضيح مشكلتك للمساعِد."
 
+ * @b az@: "Kömək edəcək şəxsə probleminizi izah edə bilməyiniz üçün."
+
  * @b ca@: "Per poder explicar el teu problema a l'ajudant."
 
  * @b cs@: "Abyste byli schopni vysvětlit váš problém pomocníkovi."
@@ -714,6 +758,8 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_HELPER = @"BME_ACCESS_
  * @b en@: "To be able to explain your problem to the helper."
 
  * @b es@: "Para poder explicar tu problema al voluntario."
+
+ * @b et@: "Et saaksid oma probleemi abistajale selgitada."
 
  * @b fi@: "Jotta voit kertoa ongelmastasi avustajalle."
 
@@ -755,6 +801,8 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_HELPER = @"BME_ACCESS_
 
  * @b sv@: "För att kunna förklara ditt problem för hjälparen."
 
+ * @b th@: "เพื่อสามารถอธิบายปัญหาของคุณต่อผู้ให้การช่วยเหลือ"
+
  * @b tr@: "Yardım eden kişiye sorununuzu açıklayabilmeniz için."
 
  * @b uk@: "Для змоги пояснити свою проблему для помічника."
@@ -779,6 +827,8 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_BLIND = @"BME_ACCESS_M
 
  * @b ar@: "الكاميرا"
 
+ * @b az@: "Kamera"
+
  * @b ca@: "Càmera"
 
  * @b cs@: "Kamera"
@@ -792,6 +842,8 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_BLIND = @"BME_ACCESS_M
  * @b en@: "Camera"
 
  * @b es@: "Cámara"
+
+ * @b et@: "Kaamera"
 
  * @b fi@: "Kamera"
 
@@ -833,6 +885,8 @@ static NSString * const BME_ACCESS_MICROPHONE_EXPLANATION_BLIND = @"BME_ACCESS_M
 
  * @b sv@: "Kamera"
 
+ * @b th@: "กล้อง"
+
  * @b tr@: "Kamera"
 
  * @b uk@: "Камера"
@@ -857,6 +911,8 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b ar@: "نحن لا نقوم بإرسال الفيديو الخاص بك للشخص الذي تساعده، لكننا نحتاجه لإنشاء اتصال."
 
+ * @b az@: "Videonuzu kömək etdiyiniz şəxsə göndərmirik, ancaq aranızdakı bağlantını yaratmaq üçün bu lazımdır."
+
  * @b ca@: "No enviem el teu vídeo a la persona que estàs ajudant, però és necessari establir la connexió."
 
  * @b cs@: "Vaše video nikomu neposíláme, je nutné pouze pro navázání spojení."
@@ -870,6 +926,8 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
  * @b en@: "We don't send your video to the person you're helping, but it's needed to establish the connection."
 
  * @b es@: "No enviaremos tu video a la persona que estás ayudando, pero es necesario para establecer la conexión."
+
+ * @b et@: "Me ei saada sinu videopilti inimesele, keda abistad, kuid see on vajalik ühenduse loomiseks."
 
  * @b fi@: "Emme lähetä videotasi henkilölle, jota autat mutta video tarvitaan yhteyden luomiseksi."
 
@@ -911,6 +969,8 @@ static NSString * const BME_ACCESS_CAMERA_TITLE = @"BME_ACCESS_CAMERA_TITLE";
 
  * @b sv@: "Vi skickar inte bilder till personen du hjälper, men det är nödvändig för att anslutningen ska fungera."
 
+ * @b th@: "เราจะไม่ส่งวิดีโอของคุณให้กับผู้รับความช่วยเหลือ แต่มันมีความจำเป็นในการสร้างการเชื่อมต่อ"
+
  * @b tr@: "Video görüntünüzü yardım ettiğiniz kişiye göndermiyoruz, ancak aradaki bağlantının sağlanabilmesi için videonuz gereklidir."
 
  * @b uk@: "Ми не покажемо ваше зображення особі, якій ви допомагаєте, але доступ до камери потрібен для встановлення зв'язку."
@@ -935,6 +995,8 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_HELPER = @"BME_ACCESS_CAME
 
  * @b ar@: "لتتمكن من إظهار ما تحتاج المساعدة بخصوصه للمساعِد."
 
+ * @b az@: "Kömək edən şəxsə necə kömək edəcəyini göstərə bilməyiniz üçün."
+
  * @b ca@: "Per poder mostrar a l'ajudant amb què necessites ajuda."
 
  * @b cs@: "Abyste mohli pomocníkovi vysvětlit, s čím potřebujete pomoci."
@@ -948,6 +1010,8 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_HELPER = @"BME_ACCESS_CAME
  * @b en@: "To be able to show the helper what you need help with."
 
  * @b es@: "Para poder mostrar al voluntario la ayuda que necesitas."
+
+ * @b et@: "Et saaksid abistajale näidata, millega abi vajad."
 
  * @b fi@: "Jotta voit näyttää avustajalle missä tarvitset apua."
 
@@ -989,6 +1053,8 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_HELPER = @"BME_ACCESS_CAME
 
  * @b sv@: "För att kunna visa hjälparen vad behöver du hjälp med."
 
+ * @b th@: "เพื่อแสดงให้ผู้ช่วยเหลือเห็นในสิ่งที่คุณต้องการความช่วยเหลือ"
+
  * @b tr@: "Yardım eden kişiye ne konuda yardım istediğinizi gösterebilmeniz için."
 
  * @b uk@: "Для того, щоб показати помічнику, з чим вам потрібна допомога."
@@ -1013,6 +1079,8 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_BLIND = @"BME_ACCESS_CAMER
 
  * @b ar@: "الإشعارات جزء مركزي لتطبيق Be My Eyes ويجب عليك تفعيلها للتسجيل."
 
+ * @b az@: "Anlıq bildirişlər Be My Eyes tətbiqetməsinin ən vacib hissəsidir və buna görə də qeydiyyatdan keçmək üçün anlıq bildirişləri fəallaşdırmalısınız."
+
  * @b ca@: "Les notificacions push són una part fonamental de l'app Be My eyes, és necessàri habilitar-les per poder accedir."
 
  * @b cs@: "Push oznámení jsou hlavní součástí aplikace Be My Eyes a musí být povoleny abyste se mohl přihlásit."
@@ -1026,6 +1094,8 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_BLIND = @"BME_ACCESS_CAMER
  * @b en@: "Push notifications are a central part of the Be My Eyes app and you must have them enabled to sign up."
 
  * @b es@: "Las notificaciones son una parte central de Be My Eyes y por tanto debes habilitarlas para registrarse."
+
+ * @b et@: "Push teated on keskne Be My Eyes rakenduse osa ja sa pead need registreerimiseks lubama."
 
  * @b fi@: "Push-ilmoitukset ovat keskeinen osa My Eyes sovellusta, ja niiden pitää olla päällä, jotta voit kirjautua sisään."
 
@@ -1065,6 +1135,8 @@ static NSString * const BME_ACCESS_CAMERA_EXPLANATION_BLIND = @"BME_ACCESS_CAMER
 
  * @b sv@: "Notiser är en central del i Be My Eyes-appen, du måste ha dem aktiverade för att registrera dig."
 
+ * @b th@: "การแสดงการแจ้งเตือนเป็นส่วนสำคัญของ Be My Eyes คุณจำเป็นต้องเปิดการแจ้งเตือนดังกล่าวเพื่อลงทะเบียน"
+
  * @b tr@: "Anlık bildirimler Be My Eyes uygulamasının en önemli parçasıdır ve bu yüzden kayıt olmak için anlık bildirimleri etkinleştirmelisiniz."
 
  * @b uk@: "Push-повідомлення – це центральна частина додатку Be My Eyes, і вам необхідно їх ввімкнути, щоб зареєструватися."
@@ -1089,6 +1161,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE = @"BME_
 
  * @b ar@: "الإشعارات ليست مفعّلة"
 
+ * @b az@: "Anlıq bildirişlər fəallaşdırılmayıb"
+
  * @b ca@: "Les notificacions push estan deshabilitades"
 
  * @b cs@: "Push oznámení nejsou povoleny"
@@ -1102,6 +1176,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE = @"BME_
  * @b en@: "Push notifications not enabled"
 
  * @b es@: "Las notificaciones no están habilitadas"
+
+ * @b et@: "Push teated ei ole lubatud"
 
  * @b fi@: "Push-ilmoitukset eivät ole käytössä"
 
@@ -1143,6 +1219,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE = @"BME_
 
  * @b sv@: "Notiser inte aktiverade"
 
+ * @b th@: "การแจ้งเตือนยังไม่ถูกเปิดใช้งาน"
+
  * @b tr@: "Anlık bildirimler etkinleştirilmemiş."
 
  * @b uk@: "Push-повідомлення не ввімкнені"
@@ -1167,6 +1245,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE = @"BME_AP
 
  * @b ar@: "شخص ما"
 
+ * @b az@: "Kimsə"
+
  * @b ca@: "Algú"
 
  * @b cs@: "Někdo"
@@ -1180,6 +1260,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE = @"BME_AP
  * @b en@: "Someone"
 
  * @b es@: "Anónimo"
+
+ * @b et@: "Keegi"
 
  * @b fi@: "Joku"
 
@@ -1221,6 +1303,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE = @"BME_AP
 
  * @b sv@: "Någon"
 
+ * @b th@: "คนคนหนึ่ง"
+
  * @b tr@: "Birisi"
 
  * @b uk@: "Хтось"
@@ -1245,6 +1329,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME = @"BME
 
  * @b ar@: "مساعدتك مطلوبة!"
 
+ * @b az@: "Köməyiniz lazımdır!"
+
  * @b ca@: "Es necessita la teva ajuda!"
 
  * @b cs@: "Potřebujeme vaši pomoc!"
@@ -1258,6 +1344,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME = @"BME
  * @b en@: "Your help is needed!"
 
  * @b es@: "¡Se necesita tu ayuda!"
+
+ * @b et@: "Su abi vajatakse!"
 
  * @b fi@: "Apuasi tarvitaan!"
 
@@ -1299,6 +1387,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME = @"BME
 
  * @b sv@: "Din hjälp behövs!"
 
+ * @b th@: "ต้องการความช่วยเหลือจากคุณ!!"
+
  * @b tr@: "Yardımınız gerekli!"
 
  * @b uk@: "Потрібна ваша допомога!"
@@ -1323,6 +1413,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE = @"BME_APP_DE
 
  * @b ar@: "إلغاء"
 
+ * @b az@: "İmtina"
+
  * @b ca@: "Cancel·la"
 
  * @b cs@: "Zrušit"
@@ -1336,6 +1428,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE = @"BME_APP_DE
  * @b en@: "Cancel"
 
  * @b es@: "Cancelar"
+
+ * @b et@: "Loobu"
 
  * @b fi@: "Peruuta"
 
@@ -1377,6 +1471,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE = @"BME_APP_DE
 
  * @b sv@: "Avbryt"
 
+ * @b th@: "ยกเลิก"
+
  * @b tr@: "İptal"
 
  * @b uk@: "Скасувати"
@@ -1401,6 +1497,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
 
  * @b ar@: "يجب أن تعطي الإذن للتطبيق لاستخدام الإشعارات في إعدادات الجهاز."
 
+ * @b az@: "Anlıq bildirişlərin istifadəsi üçün sistem tənzimləmələrindən tətbiqetməyə icazə verməlisiniz."
+
  * @b ca@: "You must give the application permission to use push notifications in system settings."
 
  * @b cs@: "You must give the application permission to use push notifications in system settings."
@@ -1414,6 +1512,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
  * @b en@: "You must give the application permission to use push notifications in system settings."
 
  * @b es@: "Debe dar permiso para utilizar las notificaciones push en los ajustes del sistema."
+
+ * @b et@: "You must give the application permission to use push notifications in system settings."
 
  * @b fi@: "Sinun täytyy antaa sovellukselle lupa käyttää push-ilmoituksia laitteesi asetuksissa."
 
@@ -1455,6 +1555,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL = @"BME_APP_D
 
  * @b sv@: "Du måste ge applikationen lov att använda push-notifikationer i systeminställningarna."
 
+ * @b th@: "คุณต้องอนุญาติให้แอพพลิเคชันนี้ใช้การแจ้งเตือนแบบพุชในการตั้งค่า"
+
  * @b tr@: "Push bildirimlerinizi kullanması için  sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
 
  * @b uk@: "You must give the application permission to use push notifications in system settings."
@@ -1479,6 +1581,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP
 
  * @b ar@: "الإشعارات ليست مفعّلة"
 
+ * @b az@: "Anlıq bildirişlər fəallaşdırılmayıb"
+
  * @b ca@: "Les notificacions push estan deshabilitades"
 
  * @b cs@: "Push oznámení nejsou povoleny"
@@ -1492,6 +1596,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP
  * @b en@: "Push notifications not enabled"
 
  * @b es@: "Las notificaciones no están habilitadas"
+
+ * @b et@: "Push teated ei ole lubatud"
 
  * @b fi@: "Push-ilmoitukset eivät ole käytössä"
 
@@ -1533,6 +1639,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE = @"BME_APP
 
  * @b sv@: "Notiser inte aktiverade"
 
+ * @b th@: "การแจ้งเตือนยังไม่ถูกเปิดใช้งาน"
+
  * @b tr@: "Anlık bildirimler etkinleştirilmemiş."
 
  * @b uk@: "Push-повідомлення не ввімкнені"
@@ -1557,6 +1665,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
 
  * @b ar@: "يجب أن تعطي الإذن للتطبيق لاستخدام الميكروفون الخاص بك من إعدادات الجهاز."
 
+ * @b az@: "Mikrofonun istifadəsi üçün sistem tənzimləmələrindən tətbiqetməyə icazə verməlisiniz."
+
  * @b ca@: "You must give the application permission to use your microphone in system settings."
 
  * @b cs@: "You must give the application permission to use your microphone in system settings."
@@ -1570,6 +1680,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
  * @b en@: "You must give the application permission to use your microphone in system settings."
 
  * @b es@: "Debe dar permiso para utilizar el micrófono en los ajustes del sistema."
+
+ * @b et@: "You must give the application permission to use your microphone in system settings."
 
  * @b fi@: "Sinun täytyy antaa sovellukselle lupa käyttää mikrofonia laitteesi asetuksista."
 
@@ -1611,6 +1723,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE = @"BME_APP_D
 
  * @b sv@: "Du måste ge applikationen lov att använda din mikrofon i systeninställningarna."
 
+ * @b th@: "คุณต้องอนุญาติให้แอพพลิเคชันใช้งานไมโครโฟนในการตั้งค่า"
+
  * @b tr@: "Mikrofonunuzu kullanması için  sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
 
  * @b uk@: "You must give the application permission to use your microphone in system settings."
@@ -1635,6 +1749,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE = @"B
 
  * @b ar@: "الميكروفون غير مفعّل"
 
+ * @b az@: "Mikrofon fəallaşdırılmayıb"
+
  * @b ca@: "El micròfon deshabilitat"
 
  * @b cs@: "Mikrofon není povolen"
@@ -1648,6 +1764,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE = @"B
  * @b en@: "Microphone not enabled"
 
  * @b es@: "Micrófono no habilitado"
+
+ * @b et@: "Mikrofon ei ole lubatud"
 
  * @b fi@: "Mikrofoni ei ole käytössä"
 
@@ -1689,6 +1807,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE = @"B
 
  * @b sv@: "Mikrofonen inte aktiverad"
 
+ * @b th@: "ไมโครโฟนยังไม่ถูกเปิดใช้งาน"
+
  * @b tr@: "Mikrofon etkinleştirilemedi."
 
  * @b uk@: "Мікрофон не ввімкнений"
@@ -1713,6 +1833,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * @b ar@: "يجب أن تعطي الإذن للتطبيق كي يستخدم الكاميرا الخاص بك من إعدادات النظام."
 
+ * @b az@: "Kameranın istifadəsi üçün sistem tənzimləmələrindən tətbiqetməyə icazə verməlisiniz."
+
  * @b ca@: "You must give the application permission to use your camera in system settings."
 
  * @b cs@: "You must give the application permission to use your camera in system settings."
@@ -1726,6 +1848,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
  * @b en@: "You must give the application permission to use your camera in system settings."
 
  * @b es@: "Debe dar permiso para utilizar la cámara en los ajustes del sistema."
+
+ * @b et@: "You must give the application permission to use your camera in system settings."
 
  * @b fi@: "Sinun täytyy antaa sovellukselle lupa käyttää kameraa laitteesi asetuksista."
 
@@ -1767,6 +1891,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE = @"BME
 
  * @b sv@: "Du måste ge applikationen lov att använda din kamera i systeminställningarna."
 
+ * @b th@: "คุณต้องอนุญาติให้แอพพลิเคชันเข้าถึงการใช้งานกล้องของคุณในการตั้งค่าระบบ"
+
  * @b tr@: "Kameranızı kullanması için sistem ayarlarından uygulamaya izin vermeniz gerekiyor."
 
  * @b uk@: "You must give the application permission to use your camera in system settings."
@@ -1791,6 +1917,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE = @"BME_A
 
  * @b ar@: "الكاميرا غير مفعّلة"
 
+ * @b az@: "Kamera fəallaşdırılmayıb"
+
  * @b ca@: "La càmera està deshabilitada"
 
  * @b cs@: "Kamera není povolena"
@@ -1804,6 +1932,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE = @"BME_A
  * @b en@: "Camera not enabled"
 
  * @b es@: "Cámara no habilitada"
+
+ * @b et@: "Kaamera ei ole lubatud"
 
  * @b fi@: "Kamera ei ole käytössä"
 
@@ -1845,6 +1975,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE = @"BME_A
 
  * @b sv@: "Kameran inte aktiverad"
 
+ * @b th@: "กล้องยังไม่ถูกเปิดใช้งาน"
+
  * @b tr@: "Kamera etkinleştirilmemiş. "
 
  * @b uk@: "Камера не ввімкнена"
@@ -1869,6 +2001,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE = @"BME_APP
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -1882,6 +2016,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE = @"BME_APP
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -1923,6 +2059,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE = @"BME_APP
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -1947,6 +2085,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL = @"BME_AP
 
  * @b ar@: "إلغاء"
 
+ * @b az@: "İmtina"
+
  * @b ca@: "Cancel·la"
 
  * @b cs@: "Zrušit"
@@ -1960,6 +2100,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL = @"BME_AP
  * @b en@: "Cancel"
 
  * @b es@: "Cancelar"
+
+ * @b et@: "Loobu"
 
  * @b fi@: "Peruuta"
 
@@ -2001,6 +2143,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL = @"BME_AP
 
  * @b sv@: "Avbryt"
 
+ * @b th@: "ยกเลิก"
+
  * @b tr@: "İptal"
 
  * @b uk@: "Скасувати"
@@ -2025,6 +2169,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL_CAN_GO_TO_
 
  * @b ar@: "افتح الإعدادات"
 
+ * @b az@: "Tənzimləmələrə get"
+
  * @b ca@: "Obrir la configuració"
 
  * @b cs@: "Otevřít nastavení"
@@ -2038,6 +2184,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL_CAN_GO_TO_
  * @b en@: "Open settings"
 
  * @b es@: "Abrir ajustes"
+
+ * @b et@: "Ava seaded"
 
  * @b fi@: "Avaa asetukset"
 
@@ -2079,6 +2227,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL_CAN_GO_TO_
 
  * @b sv@: "Öppna inställningar"
 
+ * @b th@: "เปิดการตั้งค่า"
+
  * @b tr@: "Ayarlara git"
 
  * @b uk@: "Відкрийте налаштування"
@@ -2103,6 +2253,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_GO_TO_SETTINGS = 
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -2116,6 +2268,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_GO_TO_SETTINGS = 
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -2157,6 +2311,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_GO_TO_SETTINGS = 
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -2181,6 +2337,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL = 
 
  * @b ar@: "لقد تمت الإجابة على الطلب المعلّق أو أنه تم إلغاؤه بواسطة الشخص الأعمى لكن شكرا لك على المساعدة!"
 
+ * @b az@: "Gözlənən sorğu cavablandı ya da görmə əngəlli şəxs tərəfindən imtina edildi ancaq köməyiniz üçün təşəkkür edirik!"
+
  * @b ca@: "La petició pendent ha sigut contestada o bé cancel·lada per la persona invident però gràcies per la seva ajuda!"
 
  * @b cs@: "Čekající žádost byla zodpovězena nebo byla zrušena nevidomým, ale děkujeme za pomoc!"
@@ -2194,6 +2352,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL = 
  * @b en@: "The pending request has been answered or was cancelled by the blind but thank you for helping out!"
 
  * @b es@: "La petición pendiente ha sido contestada o fue cancelada por la persona ciega ¡pero gracias por tu ayuda!"
+
+ * @b et@: "Ootel taotlus on juba vastatud või tühistatud nägemispuudega inimese poolt, aga aitäh abi pakkumast!"
 
  * @b fi@: "Odottavaan pyyntöön on vastattu tai sokea henkilö on perunut sen, kiitos avustasi!"
 
@@ -2235,6 +2395,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL = 
 
  * @b sv@: "Förfrågan har redan besvarats eller avbröts av avsändaren, men tack för att du ville hjälpa till!"
 
+ * @b th@: "คำร้องขอได้ถูกตอบรับไปแล้ว หรือถูกยกเลิกโดนผู้พิการทางสายตาไปแล้ว ขอบคุณสำหรับการช่วยเหลือ!"
+
  * @b tr@: "Bekleyen istek yanıtlandı ya da görme engelli tarafından iptal edildi ama yardımınız için teşekkürler!"
 
  * @b uk@: "Запит сліпої людини був задоволений або скасований, але дякуємо вам за допомогу!"
@@ -2259,6 +2421,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE =
 
  * @b ar@: "لقد تمت الإجابة على الطلب بالفعل أو أنه تم إلغاؤه"
 
+ * @b az@: "Sorğu artıq cavablandı ya da imtina edildi"
+
  * @b ca@: "La petició ja ha estat resposta o cancel·lada"
 
  * @b cs@: "Žádost je již zodpovězena nebo zrušena"
@@ -2272,6 +2436,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE =
  * @b en@: "Request already answered or cancelled"
 
  * @b es@: "Petición ya contestada o cancelada"
+
+ * @b et@: "Taotlus on juba vastatud või tühistatud"
 
  * @b fi@: "Pyyntöön on jo vastattu tai se on peruttu"
 
@@ -2313,6 +2479,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE =
 
  * @b sv@: "Förfrågan redan besvarad eller avbruten"
 
+ * @b th@: "คำร้องขอได้ถูกตอบรับไปแล้ว หรือถูกยกเลิก"
+
  * @b tr@: "İstek halihazırda yanıtlandı veya iptal edildi"
 
  * @b uk@: "Запит був задоволений або скасований"
@@ -2337,6 +2505,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE = @
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -2350,6 +2520,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE = @
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -2391,6 +2563,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE = @
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -2415,6 +2589,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL
 
  * @b ar@: "لا يمكن تحميل الطلب المعلّق. لا تقلق، شخص آخر سيجيب على الطلب."
 
+ * @b az@: "Gözlənən sorğu yüklənə bilmədi. Narahat olmayın, başqası sorğuya cavab verəcək."
+
  * @b ca@: "No s'ha pogut carregar la petició pendent. No et preocupis, algú altre respondrà la sol·licitud."
 
  * @b cs@: "Nelze načíst čekající žádost. Nedělejte si starosti, odpoví někdo jiný."
@@ -2428,6 +2604,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL
  * @b en@: "The pending request could not be loaded. Don't worry, someone else will answer the request."
 
  * @b es@: "La petición pendiente no se pudo cargar. No te preocupes, alguna otra persona responderá a la petición."
+
+ * @b et@: "Ootel taotlust ei ole võimalik laadida. Ära muretse, keegi teine vastab sellele."
 
  * @b fi@: "Odottavaa pyyntöä ei voitu ladata. Älä huoli, joku toinen vastaa pyyntöön."
 
@@ -2469,6 +2647,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL
 
  * @b sv@: "Förfrågan kunde inte laddas. Oroa dig inte, någon annan kommer att svara på den."
 
+ * @b th@: "ไม่สามารถโหลดคำร้องขอที่ค้างอยู่ได้ แต่ไม่ต้องเป็นห่วง คนอื่น ๆ จะตอบรับความช่วยเหลือ"
+
  * @b tr@: "Bekleyen istek yüklenemedi. Endişelenmeyin, başka birisi isteğe yanıt verecek."
 
  * @b uk@: "Не вдалося завантажити запит. Не хвилюйтеся, хтось інший відповість на запит."
@@ -2493,6 +2673,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAG
 
  * @b ar@: "لم يتم تحميل الطلب"
 
+ * @b az@: "Sorğu yüklənmədi"
+
  * @b ca@: "Petició no carregada"
 
  * @b cs@: "Žádost nenačtena"
@@ -2506,6 +2688,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAG
  * @b en@: "Request not loaded"
 
  * @b es@: "Petición no cargada"
+
+ * @b et@: "Taotlust ei laetud"
 
  * @b fi@: "Pyyntöä ei ole ladattu"
 
@@ -2547,6 +2731,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAG
 
  * @b sv@: "Förfrågan inte laddad"
 
+ * @b th@: "คำร้องขอไม่ถูกโหลด"
+
  * @b tr@: "İstek yüklenemedi."
 
  * @b uk@: "Запит не завантажено"
@@ -2571,6 +2757,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE 
 
  * @b ar@: "جاري التحميل..."
 
+ * @b az@: "Yüklənir..."
+
  * @b ca@: "Carregant..."
 
  * @b cs@: "Nahrávám..."
@@ -2584,6 +2772,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE 
  * @b en@: "Loading..."
 
  * @b es@: "Cargando..."
+
+ * @b et@: "Laadimine..."
 
  * @b fi@: "Ladataan..."
 
@@ -2625,6 +2815,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE 
 
  * @b sv@: "Laddar..."
 
+ * @b th@: "กำลังโหลดข้อมูล..."
+
  * @b tr@: "Yükleniyor..."
 
  * @b uk@: "Завантаження..."
@@ -2649,6 +2841,8 @@ static NSString * const BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE =
 
  * @b ar@: "تعذر التسجيل"
 
+ * @b az@: "Qeydiyyatdan keçmədi"
+
  * @b ca@: "No s'ha pogut registrar"
 
  * @b cs@: "Nelze zaregistrovat"
@@ -2662,6 +2856,8 @@ static NSString * const BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE =
  * @b en@: "Could not register"
 
  * @b es@: "No se ha podido registrar"
+
+ * @b et@: "Polnud võimalik registreerida"
 
  * @b fi@: "Ei voitu rekisteröidä"
 
@@ -2703,6 +2899,8 @@ static NSString * const BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE =
 
  * @b sv@: "Kunde inte registrera"
 
+ * @b th@: "ไม่สามารถลงทะเบียนได้"
+
  * @b tr@: "Kayıt olunamadı"
 
  * @b uk@: "Не вдалося зареєструвати"
@@ -2727,6 +2925,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b ar@: "الجهاز غير مسجّل من أجل استلام الإشعارات. قد يعني هذا أنه تم التسجيل في التطبيق بالخطأ."
 
+ * @b az@: "Cihaz anlıq bildirişləri almaq üçün qeydiyyatdan keçməyib. Bu, tətbiqetmənin yalnış imzalandığı mənasını verə bilər."
+
  * @b ca@: "El dispositiu no va ser registrat per rebre notificacions d'empenta. Això podria significar que l'aplicació s'ha signat incorrectament."
 
  * @b cs@: "Zařízení nebylo zaregistrováno k odběru push oznámení. To by mohlo znamenat, že aplikace není přihlášená."
@@ -2740,6 +2940,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
  * @b en@: "The device was not registered to receive push notifications. This could mean that the application has been incorrectly signed."
 
  * @b es@: "El dispositivo no estaba registrado para recibir notificaciones. Esto podría significar que la aplicación ha sido iniciada incorrectamente."
+
+ * @b et@: "Seadet ei registreeritud push teadete saajaks. See võib tähendada, et rakendus on ebakorrektselt signeeritud."
 
  * @b fi@: "Laitetta ei ole rekisteröity vastaanottamaan push-ilmoituksia. Tämä voi johtua siitä, että sovelluksen allekirjoitus on virheellinen."
 
@@ -2781,6 +2983,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b sv@: "Enheten kunde inte registreras för att ta emot notiser. Detta kan betyda att applikationen är felaktigt signerad."
 
+ * @b th@: "อุปกรณ์ไม่สามารถลงทะเบียนเพื่อรับการแจ้งเตือนได้ นี่อาจหมายถึงโปรแกรมของคุณไม่ได้ลงทะเบียนอย่างถูกต้อง"
+
  * @b tr@: "Cihaz anlık bildirimler almak için kayıtlı değil. Bu, uygulamanın yanlış imzalandığı anlamına gelebilir."
 
  * @b uk@: "Пристрій не було зареєстровано для отримання Push-повідомлень. Це може означати, що програма ну була правильно підписана."
@@ -2805,6 +3009,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -2818,6 +3024,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -2859,6 +3067,8 @@ static NSString * const BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFIC
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -2883,6 +3093,8 @@ static NSString * const BME_BLIND_INTRO_BACK = @"BME_BLIND_INTRO_BACK";
 
  * @b ar@: "استمرار"
 
+ * @b az@: "Davam"
+
  * @b ca@: "Continuar"
 
  * @b cs@: "Pokračovat"
@@ -2896,6 +3108,8 @@ static NSString * const BME_BLIND_INTRO_BACK = @"BME_BLIND_INTRO_BACK";
  * @b en@: "Continue"
 
  * @b es@: "Siguiente"
+
+ * @b et@: "Jätka"
 
  * @b fi@: "Jatka"
 
@@ -2937,6 +3151,8 @@ static NSString * const BME_BLIND_INTRO_BACK = @"BME_BLIND_INTRO_BACK";
 
  * @b sv@: "Fortsätt"
 
+ * @b th@: "ไปต่อ"
+
  * @b tr@: "Devam"
 
  * @b uk@: "Продовжити"
@@ -2961,6 +3177,8 @@ static NSString * const BME_BLIND_INTRO_CONTINUE = @"BME_BLIND_INTRO_CONTINUE";
 
  * @b ar@: "سيضعك التطبيق مباشرة مع مساعِد مبصر والذي سيساعدك عن بعد فيما يخص المهام التي تتطلب المساعدة من شخص مبصر - من خلال اتصال فيديو مباشر سيخبرك المساعِد عن الشيء الذي يراه عندما توجّه هاتفك باتجاهه.\n\nالمساعِدون في شبكة Be My Eyes هم أشخاص متطوعون ولا يمكننا أن نضمن جودة مساعدتهم ولا نتحمل المسؤولية عن أية أفعالهم تصدر منهم. بالإضافة لذلك، و لأننا نعتمد على أشخاص حقيقيين لمساعدتك فنحن نحثك على التحلي بالصبر عندما تطلب المساعدة.\n\nلا يجوز لك بأي حال من الأحوال أن تُشارك أي محتوى يتضمن العُريّ، المخالفات القانونية أو الإيحاءات الجنسية من خلال الخدمة، ولا يتوجب عليك أن تُظهر أبداً أي بيانات حساسة مثل: البطاقات الائتمانية، جواز السفر أو غيرها من المعلومات الشخصية."
 
+ * @b az@: "The app will put you in live contact with a sighted helper who remotely will assist you with tasks that requires assistance from a sighted person - through a live video connection the helper will tell you what he or she sees when you point your phone at something.\n\nThe helpers in the Be My Eyes network are volunteers and we cannot guarantee the quality of their help or take responsibility for any of their actions. Furthermore because we rely on real people to help you we encourage you to be patient when you request help.\n\nYou may under no circumstances share any nude, unlawful, hateful or sexually suggestive content via the service, and you should never show any sensitive information such as credit cards, passport or other personal information."
+
  * @b ca@: "L'app li posarà en contacte directe amb un ajudant vidents que remotament us ajudarà amb les tasques que requereix l'ajuda d'una persona vidents - a través d'una connexió de vídeo en directe l'ajudant li dirà el que ell o ella veu quan apunta alguna cosa amb el seu telèfon.\n\nEls ajudants de la xarxa de Be My Eyes són voluntaris i no podem garantir la qualitat de la seva ajuda ni ens responsabilitzem de qualsevol de les seves accions. D'altra banda perquè confiem en la gent real per ajudar-vos us demanem ser pacients quan es demana ajuda.  \n\nVostè en cap cas pot compartir qualsevol contingut nu, il·legal, odi o sexualment suggerent mitjançant el servei, i mai no hauria de mostrar qualsevol informació confidencial com ara targetes de crèdit, passaport o altres dades personals."
 
  * @b cs@: "Aplikace vás dostanete do kontaktu s vidícím pomocníkem, který vám vzdáleně bude pomáhat s úkoly vyžadující pomoc od vidící osoby - prostřednictvím živého video propojení vám řekne, co on nebo ona vidí, když na něco ukážete váš telefon.  \n\nPomocníci v síti Be My Eyes jsou dobrovolníci a nemůžeme zaručit kvalitu jejich pomoci nebo převzít odpovědnost za jejich činy. Protože se spoléháme na pomoc skutečných lidí, doporučujeme vám být trpělivý, když požádáte o pomoc.   \n\nZa žádných okolností nemůžete  sdílet jakýkoli nudistický, protiprávní, nenávistný nebo sexuálně orientovaný obsah prostřednictvím aplikace a nikdy byste neměli zobrazovat žádné citlivé informace, například kreditní karty, cestovní pas nebo jiné osobní údaje."
@@ -2972,6 +3190,8 @@ static NSString * const BME_BLIND_INTRO_CONTINUE = @"BME_BLIND_INTRO_CONTINUE";
  * @b en@: "The app will put you in live contact with a sighted helper who remotely will assist you with tasks that requires assistance from a sighted person - through a live video connection the helper will tell you what he or she sees when you point your phone at something.\n\nThe helpers in the Be My Eyes network are volunteers and we cannot guarantee the quality of their help or take responsibility for any of their actions. Furthermore because we rely on real people to help you we encourage you to be patient when you request help.\n\nYou may under no circumstances share any nude, unlawful, hateful or sexually suggestive content via the service, and you should never show any sensitive information such as credit cards, passport or other personal information."
 
  * @b es@: "La aplicación te pondrá en contacto directo con un ayudante vidente que remotamente te ayudará con las tareas que requieren la ayuda de una persona vidente - a través de una conexión de vídeo en directo, el ayudante te dirá lo que él o ella ve cuando apuntas tu teléfono a algo.  \n\nLos ayudantes de Be My Eyes son voluntarios, y no podemos garantizar la calidad de su ayuda o asumir la responsabilidad de cualquiera de sus acciones. Además, ya que contamos con gente real para ayudarte, te aconsejamos ser paciente cuando solicites ayuda.  \n\nBajo ninguna circunstancia debes compartir vía este servicio cualquier contenido que contenga desnudez, o sea ilegal, odioso o sexualmente sugestivo, y nunca se debe compartir cualquier información delicada como tarjetas de crédito, pasaportes u otra información personal."
+
+ * @b et@: "Rakendus ühendab teid nägijast inimesega, kes saab teid kaugelt abistada tegevustega, mis vajavad nägija abi. Läbi reaalajas videoühenduse saab nägija kirjeldada teile seda mida ta näeb läbi teie telefoni kaamera.\n\nBe My Eyes võrgustikus olevad abistajad on vabatahtlikud, mistõttu ei saa me garanteerida abistamise kvaliteeti ja vastutada nende tegude eest. Veelgi enam, palume teil olla abi taotlemisel kannatlik, kuna toetume reaalsetele inimestele.\n\nMitte mingil juhul ei tohi te jagada alasti, seadusega vastuolevat, vihkamisele õhutavat või seksuaalset sisu läbi rakenduse. Samuti ei tohiks te näidata kunagi tundlikku informatsiooni nagu krediitkaardid, pass või muud personaalset infot."
 
  * @b fi@: "Sovellus avaa sinulle suoran yhteyden näkevään auttajaasi, joka auttaa sinua etänä tehtävissä, jotka edellyttävät apua näkevältä henkilöltä - suoran videoyhteyden kautta avustaja kertoo, mitä hän näkee, kun osoitat puhelimellasi jotakin.\n\nBe My Eyes verkoston avustajat ovat vapaaehtoisia, joten emme voi taata heidän apunsa laatua emmekä voi vastata heidän tekemistään. Lisäksi kannustamme sinua kärsivällisyyteen, koska sinua auttavat todelliset henkilöt.\n\nEt missään tapauksessa saa jakaa alastomia, laittomia, vihamielisiä tai seksuaalisesti vihjalevia sisältöjä palvelun kautta, eikä sinun pidä näyttää mitään arkaluontoisia tietoja kuten luottokortteja, passia tai muuta henkilökohtaisia tietoja."
 
@@ -3013,6 +3233,8 @@ static NSString * const BME_BLIND_INTRO_CONTINUE = @"BME_BLIND_INTRO_CONTINUE";
 
  * @b sv@: "Appen skapar en liveanslutning med en seende hjälpare som kan hjälpa dig med saker som kräver stöd från en seende person - genom en videoström kommer hjälpare att berätta vad han eller hon ser när du riktar telefonen mot något.\n\nHjälparna i Be My Eyes-nätverket är volontärer, och vi kan inte garantera kvaliteten på deras hjälp eller ta ansvar för några av deras handlingar. Då vi är beroende av riktiga människor ber vi dig ha tålamod när du ber om hjälp.\n\nDu får inte under några omständigheter dela med dig av något naket, olagligt, sexuellt eller hatiskt innehåll via tjänsten, och du bör aldrig visa någon känslig information såsom kreditkort, pass eller annan personlig information."
 
+ * @b th@: "App นี้จะเชื่อมต่อวิดิโอแชทของคุณกับผู้ที่อาสาจะช่วยเหลือคุณ เมื่อคุณขอคำช่วยเหลือผ่านทางโปรแกรมนี้ เพื่อที่ผู้ช่วยเหลือของคุณจะได้บอกได้ว่าสิ่งที่คุณชี้กล้องไปหานั้นคืออะไร\n\nผู้ที่จะช่วยเหลือคุณจากกลุ่มเครือข่าย Be My Eyes นั้นเป็นอาสาสมัครจากที่ต่างๆ ฉะนั้นเราจึ่งไม่สามารถรับรับรองหรือผิดชอบใดๆ ได้ว่าผู้ช่วยของคุณจะมีคุณภาพ หรือช่วยเหลือคุณได้มากน้อยแค่ไหน จากการช่วยเหลือของกลุ่มอาสาสมัคร เนื่องจากว่าคนที่จะช่วยเหลือคุณนั้นเป็นคนจริงๆ เราจึงอยากแนะนำให้คุณอดทนในบางครั้งเมื่อคุณขอความช่วยเหลือ\n\nคุณจะต้องไม่แชร์ ภาพเปลือย ลามาอนาจาร สิ่งผิดกฏหมาย ยั่งยุ หรือ ชี้นำเกี่ยวกับเรื่องทางเพศ ผ่านทางบริการนี้ และไม่ควรเป็นอย่างยิ่งที่จะ แสดงข้อมูลสำคัญส่วนตัว เช่น บัตรเครดิต พาสปอร์ต หรือว่า ข้อมูลส่วนตัวอื่นๆ"
+
  * @b tr@: "Bu uygulama sizi, etrafı görmenizi gerektiren eylemleri gerçekleştirmenize uzaktan yardımda bulunacak bir kişiye bağlayacak - canlı bir video bağlantısı yoluyla yardımcınız, telefonunuzu bir şeye doğru tuttuğunuz zaman gördüğü şeyi size söyleyecek.\n\nBe My Eyes ağındaki insanlar gönüllülerdir ve yardımlarının kalitesini garanti edemez veya eylemlerinden dolayı sorumluluk kabul edemeyiz. Ayrıca, size yardım edilmesi için gerçek insanlara ihtiyaç duyulduğundan, yardım istediğiniz zaman lütfen sabırlı olunuz.\n\nBu servisi kullanarak, hiçbir halükarda çıplaklık içeren, yasadışı, kötü niyetli veya tahrik edici içerik paylaşamazsınız ve kredi kartı, pasaport veya diğer kişisel bilgilerinizi asla göstermemelisiniz."
 
  * @b uk@: "Додаток допоможе вам бути у прямому контакті зі зрячим помічником, який дистанційно допоможе вам із завданнями, що вимагають допомоги від зрячої людини: за допомогою живого відео-зв'язку помічник скаже вам, що він або вона бачить, коли ви направляєте ваш телефон на який-небудь об'єкт. \n\nПомічники в мережі Be My Eyes – добровольці, і ми не можемо гарантувати якість їх допомоги або взяти на себе відповідальність за будь-які їхні дії. Крім того, оскільки ми покладаємося на реальних людей, щоб допомагати вам, ми закликаємо вас бути терплячими, коли ви запитуєте допомоги. \n\nНі при яких обставинах ви не повинні ділитися будь-якими матеріалами оголеного, незаконного, ворожого або сексуального характеру за допомогою цього сервісу, і ви ніколи не повинні ділитися будь-якою конфіденційною інформацією, такою як кредитні картки, деталі паспорта або іншою особистою інформацією."
@@ -3037,6 +3259,8 @@ static NSString * const BME_BLIND_INTRO_DESCRIPTION = @"BME_BLIND_INTRO_DESCRIPT
 
  * @b ar@: "اتصل بأول مساعِد متاح"
 
+ * @b az@: "İlk uyğun köməkçiyə bağlan"
+
  * @b ca@: "Connectar-se amb el primer ajudant disponible"
 
  * @b cs@: "Připojit se k prvnímu dostupnému pomocníkovi"
@@ -3050,6 +3274,8 @@ static NSString * const BME_BLIND_INTRO_DESCRIPTION = @"BME_BLIND_INTRO_DESCRIPT
  * @b en@: "Connect to first available helper"
 
  * @b es@: "Conecta con el primer voluntario disponible"
+
+ * @b et@: "Ühenda esimese saadaval oleva abistajaga"
 
  * @b fi@: "Yhdistä ensimmäiselle saatavilla olevalle auttajalle"
 
@@ -3091,6 +3317,8 @@ static NSString * const BME_BLIND_INTRO_DESCRIPTION = @"BME_BLIND_INTRO_DESCRIPT
 
  * @b sv@: "Anslut till första tillgängliga hjälpare"
 
+ * @b th@: "เชื่อมต่อกับผู้ช่วยเหลือคนแรก"
+
  * @b tr@: "İlk uygun yardımcıya bağlan"
 
  * @b uk@: "Підключитися до першого доступного помічника"
@@ -3115,6 +3343,8 @@ static NSString * const BME_BLIND_MAIN_CONNECT_TO_COMMUNITY = @"BME_BLIND_MAIN_C
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -3128,6 +3358,8 @@ static NSString * const BME_BLIND_MAIN_CONNECT_TO_COMMUNITY = @"BME_BLIND_MAIN_C
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -3169,6 +3401,8 @@ static NSString * const BME_BLIND_MAIN_CONNECT_TO_COMMUNITY = @"BME_BLIND_MAIN_C
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -3193,6 +3427,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"
 
  * @b ar@: "تعذر إنشاء الطلب. الرجاء المحاولة مرة أخرى."
 
+ * @b az@: "Sorğu yaradıla bilmədi. Zəhmət olmasa yenidən yoxlayın."
+
  * @b ca@: "La petició no s'ha pogut crear. Intenteu-ho novament."
 
  * @b cs@: "Požadavek se nepodařilo vytvořit. Opakujte akci."
@@ -3206,6 +3442,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"
  * @b en@: "The request could not be created. Please try again."
 
  * @b es@: "No se pudo crear la solicitud. Por favor, inténtalo de nuevo."
+
+ * @b et@: "Taotlust ei olnud võimalik luua. Palun proovi uuesti."
 
  * @b fi@: "Pyyntöäsi ei voitu luoda. Yritä uudelleen."
 
@@ -3247,6 +3485,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"
 
  * @b sv@: "Förfrågan kunde inte skapas. Vänligen försök igen."
 
+ * @b th@: "คำร้องขอไม่สามารถสร้างได้ กรุณาลองใหม่อีกครั้ง"
+
  * @b tr@: "İstek oluşturulamadı. Lütfen tekrar deneyin."
 
  * @b uk@: "Запит не вдалося створити. Будь ласка, спробуйте ще раз."
@@ -3271,6 +3511,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE = @
 
  * @b ar@: "فشل إنشاء الطلب"
 
+ * @b az@: "Sorğu yaratma xətası"
+
  * @b ca@: "Ha fallat la sol·licitud de creació"
 
  * @b cs@: "Vytvoření požadavku se nezdařilo."
@@ -3284,6 +3526,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE = @
  * @b en@: "Failed creating request"
 
  * @b es@: "No se pudo crear la solicitud"
+
+ * @b et@: "Taotluse loomine nurjus"
 
  * @b fi@: "Pyyntö epäonnistui"
 
@@ -3325,6 +3569,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_MESSAGE = @
 
  * @b sv@: "Misslyckades att skapa förfrågan"
 
+ * @b th@: "เชื่อมต่อกับผู้ช่วยเหลือคนแรก"
+
  * @b tr@: "İstek oluşturulamadı"
 
  * @b uk@: "Не вдалося створити запит"
@@ -3349,6 +3595,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE = @"B
 
  * @b ar@: "جار إنشاء الطلب..."
 
+ * @b az@: "Sorğu yaradılır..."
+
  * @b ca@: "Creant sol·licitud..."
 
  * @b cs@: "Vytváření požadavku..."
@@ -3362,6 +3610,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE = @"B
  * @b en@: "Creating request..."
 
  * @b es@: "Creando solicitud..."
+
+ * @b et@: "Loon taotlust..."
 
  * @b fi@: "Luodaan pyyntöä..."
 
@@ -3403,6 +3653,8 @@ static NSString * const BME_BLIND_MAIN_ALERT_FAILED_CREATING_REQUEST_TITLE = @"B
 
  * @b sv@: "Skapar förfrågan ..."
 
+ * @b th@: "กำลังสร้างการร้องขอ"
+
  * @b tr@: "İstek oluşturuluyor..."
 
  * @b uk@: "Створення запиту..."
@@ -3427,6 +3679,8 @@ static NSString * const BME_BLIND_MAIN_HUD_CREATING_REQUEST_TITLE = @"BME_BLIND_
 
  * @b ar@: "قطع الاتصال"
 
+ * @b az@: "Bağlantını kəs"
+
  * @b ca@: "Desconnecta't"
 
  * @b cs@: "Odpojit"
@@ -3440,6 +3694,8 @@ static NSString * const BME_BLIND_MAIN_HUD_CREATING_REQUEST_TITLE = @"BME_BLIND_
  * @b en@: "Disconnect"
 
  * @b es@: "Desconectar"
+
+ * @b et@: "Katkesta"
 
  * @b fi@: "Katkaise yhteys"
 
@@ -3481,6 +3737,8 @@ static NSString * const BME_BLIND_MAIN_HUD_CREATING_REQUEST_TITLE = @"BME_BLIND_
 
  * @b sv@: "Avsluta"
 
+ * @b th@: "ตัดการเชื่อมต่อแล้ว"
+
  * @b tr@: "Bağlantıyı kes"
 
  * @b uk@: "Роз'єднати"
@@ -3505,6 +3763,8 @@ static NSString * const BME_CALL_DISCONNECT = @"BME_CALL_DISCONNECT";
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -3518,6 +3778,8 @@ static NSString * const BME_CALL_DISCONNECT = @"BME_CALL_DISCONNECT";
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -3559,6 +3821,8 @@ static NSString * const BME_CALL_DISCONNECT = @"BME_CALL_DISCONNECT";
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -3583,6 +3847,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL 
 
  * @b ar@: "لقد تمت الإجابة على الطلب بالفعل. شكرا لك على مساعدتك!"
 
+ * @b az@: "Sorğu artıq cavablandı. Köməyiniz üçün təşəkkürlər!"
+
  * @b ca@: "La petició ja ha estat contestada. Gràcies per la teva ajuda!"
 
  * @b cs@: "Žádost již byla zodpovězena. Děkujeme za vaši pomoc!"
@@ -3596,6 +3862,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL 
  * @b en@: "The request has already been answered. Thanks for your help!"
 
  * @b es@: "La petición ya ha sido contestada. ¡Gracias por tu ayuda!"
+
+ * @b et@: "Taotlusele on juba vastatud. Täname abi eest!"
 
  * @b fi@: "Pyyntöön on jo vastattu. Kiitos avustasi!"
 
@@ -3637,6 +3905,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_CANCEL 
 
  * @b sv@: "Förfrågan har redan besvarats. Tack för din hjälp!"
 
+ * @b th@: "คำขอนี้ถูกตอบรับโดยคนอื่นแล้ว แต่ก็ขอขอบคุณสำหรับความช่วยเหลือนะ!"
+
  * @b tr@: "İstek halihazırda yanıtlandı. Yardımınız için teşekkürler!"
 
  * @b uk@: "Запит вже був задоволений. Дякуємо за вашу допомогу!"
@@ -3661,6 +3931,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE
 
  * @b ar@: "لقد تمت الإجابة على الطلب بالفعل"
 
+ * @b az@: "Sorğu artıq cavablandırılıb"
+
  * @b ca@: "Peticions ja contestades"
 
  * @b cs@: "Žádost již zodpověděna"
@@ -3674,6 +3946,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE
  * @b en@: "Request already answered"
 
  * @b es@: "Petición ya contestada"
+
+ * @b et@: "Taotlusele on juba vastatud"
 
  * @b fi@: "Pyyntöön on jo vastattu"
 
@@ -3715,6 +3989,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_MESSAGE
 
  * @b sv@: "Förfrågan redan besvarad"
 
+ * @b th@: "คำขอถูกตอบรับไปก่อนหน้านี้แล้ว"
+
  * @b tr@: "İstek zaten yanıtlanmış"
 
  * @b uk@: "Запит вже був задоволений"
@@ -3739,6 +4015,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE =
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -3752,6 +4030,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE =
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -3793,6 +4073,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_ANSWERED_TITLE =
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -3817,6 +4099,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL =
 
  * @b ar@: "لقد قام الشخص الأعمى بإلغاء الطلب. شكرا لك على مساعدتك!"
 
+ * @b az@: "Görmə əngəlli şəxs sorğudan imtina etdi. Köməyiniz üçün təşəkkürlər!"
+
  * @b ca@: "L'invident ha cancel·lat la sol·licitud. Gràcies per la teva ajuda!"
 
  * @b cs@: "Nevidomý zrušil žádost. Děkujeme za vaši pomoc!"
@@ -3830,6 +4114,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL =
  * @b en@: "The blind has cancelled the request. Thanks for your help!"
 
  * @b es@: "La persona ciega ha cancelado la petición. ¡Gracias por tu ayuda!"
+
+ * @b et@: "Nägemispuudega inimene on taotlusest loobunud. Täname abi eest!"
 
  * @b fi@: "Sokea henkilö on peruuttanut pyynnön. Kiitos avustasi!"
 
@@ -3871,6 +4157,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_CANCEL =
 
  * @b sv@: "Den blinde har avbrutit begäran. Tack för din hjälp!"
 
+ * @b th@: "ผู้มองไม่เห็นได้ยกเลิกคำขอแล้ว แต่ก็ขอขอบคุณสำหรับความช่วยเหลือนะ!"
+
  * @b tr@: "Gönderen kişi isteğini iptal etti. Yardımınız için teşekkürler!"
 
  * @b uk@: "Сліпий скасував запит. Дякуємо за вашу допомогу!"
@@ -3895,6 +4183,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE 
 
  * @b ar@: "تم إلغاء الطلب"
 
+ * @b az@: "Sorğudan imtina edildi"
+
  * @b ca@: "Petició cancel·lada"
 
  * @b cs@: "Požadavek zrušen"
@@ -3908,6 +4198,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE 
  * @b en@: "Request cancelled"
 
  * @b es@: "Petición cancelada"
+
+ * @b et@: "Taotlusest on loobutud"
 
  * @b fi@: "Pyyntö peruutettu"
 
@@ -3949,6 +4241,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_MESSAGE 
 
  * @b sv@: "Förfrågan avbruten"
 
+ * @b th@: "คำร้องขอถูกยกเลิก"
+
  * @b tr@: "İstek iptal edildi"
 
  * @b uk@: "Запит скасовано"
@@ -3973,6 +4267,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE = 
 
  * @b ar@: "لا يمكن الإجابة على الطلب"
 
+ * @b az@: "Sorğuya cavab verilmədi"
+
  * @b ca@: "No s'ha pogut respondre la petició"
 
  * @b cs@: "Nelze odpovědět na požadavek"
@@ -3986,6 +4282,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE = 
  * @b en@: "Could not answer request"
 
  * @b es@: "No se pudo responder a la petición"
+
+ * @b et@: "Taotlusele ei olnud võimalik vastata"
 
  * @b fi@: "Pyyntöön ei osattu vastata"
 
@@ -4027,6 +4325,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_REQUEST_STOPPED_TITLE = 
 
  * @b sv@: "Kunde inte svara på förfrågan"
 
+ * @b th@: "ไม่สามารถตอบรับคำขอร้องได้"
+
  * @b tr@: "İsteğe cevap verilemedi"
 
  * @b uk@: "Не вдалося задовольнити запит"
@@ -4051,6 +4351,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_TITLE = @"BME_CA
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -4064,6 +4366,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_TITLE = @"BME_CA
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -4105,6 +4409,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_TITLE = @"BME_CA
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -4129,6 +4435,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"BME_CA
 
  * @b ar@: "تعذر إنشاء الطلب. الرجاء المحاولة مرة أخرى."
 
+ * @b az@: "Sorğu yaradıla bilmədi. Zəhmət olmasa yenidən yoxlayın."
+
  * @b ca@: "La petició no s'ha pogut crear. Intenteu-ho novament."
 
  * @b cs@: "Požadavek se nepodařilo vytvořit. Opakujte akci."
@@ -4142,6 +4450,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"BME_CA
  * @b en@: "The request could not be created. Please try again."
 
  * @b es@: "No se pudo crear la solicitud. Por favor, inténtalo de nuevo."
+
+ * @b et@: "Taotlust ei olnud võimalik luua. Palun proovi uuesti."
 
  * @b fi@: "Pyyntöäsi ei voitu luoda. Yritä uudelleen."
 
@@ -4183,6 +4493,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_CANCEL = @"BME_CA
 
  * @b sv@: "Förfrågan kunde inte skapas. Vänligen försök igen."
 
+ * @b th@: "คำร้องขอไม่สามารถสร้างได้ กรุณาลองใหม่อีกครั้ง"
+
  * @b tr@: "İstek oluşturulamadı. Lütfen tekrar deneyin."
 
  * @b uk@: "Запит не вдалося створити. Будь ласка, спробуйте ще раз."
@@ -4207,6 +4519,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE = @"BME_C
 
  * @b ar@: "لا يمكن إنشاء الطلب"
 
+ * @b az@: "Sorğu yaradılmadı"
+
  * @b ca@: "No s'ha pogut crear la petició"
 
  * @b cs@: "Nelze vytvořit požadavek"
@@ -4220,6 +4534,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE = @"BME_C
  * @b en@: "Could not create request"
 
  * @b es@: "No se pudo crear la petición"
+
+ * @b et@: "Taotlust ei olnud võimalik luua"
 
  * @b fi@: "Pyyntöä ei voitu luoda"
 
@@ -4261,6 +4577,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_MESSAGE = @"BME_C
 
  * @b sv@: "Kunde inte skapa förfrågan"
 
+ * @b th@: "ไม่สามารถสร้างคำขอได้"
+
  * @b tr@: "İstek oluşturulamadı"
 
  * @b uk@: "Не вдалося створити запит"
@@ -4285,6 +4603,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE = @"BME_CAL
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -4298,6 +4618,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE = @"BME_CAL
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -4339,6 +4661,8 @@ static NSString * const BME_CALL_ALERT_FAILED_CREATING_REQUEST_TITLE = @"BME_CAL
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -4363,6 +4687,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_CANCEL = @"BME_C
 
  * @b ar@: "يرجى الانتظار..."
 
+ * @b az@: "Zəhmət olmasa gözləyin..."
+
  * @b ca@: "Esperi si us plau..."
 
  * @b cs@: "Prosím počkejte…..."
@@ -4376,6 +4702,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_CANCEL = @"BME_C
  * @b en@: "Please wait..."
 
  * @b es@: "Por favor espera..."
+
+ * @b et@: "Palun oota..."
 
  * @b fi@: "Ole hyvä ja odota..."
 
@@ -4417,6 +4745,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_CANCEL = @"BME_C
 
  * @b sv@: "Vänligen vänta..."
 
+ * @b th@: "กรุณารอซักครู่..."
+
  * @b tr@: "Lütfen bekleyiniz..."
 
  * @b uk@: "Будь ласка, зачекайте..."
@@ -4441,6 +4771,8 @@ static NSString * const BME_CALL_STATUS_PLEASE_WAIT = @"BME_CALL_STATUS_PLEASE_W
 
  * @b ar@: "تتم الإجابة على الطلب..."
 
+ * @b az@: "Sorğuya cavab verilir..."
+
  * @b ca@: "Responent sol·licitud..."
 
  * @b cs@: "Odpovídá na požadavku..."
@@ -4454,6 +4786,8 @@ static NSString * const BME_CALL_STATUS_PLEASE_WAIT = @"BME_CALL_STATUS_PLEASE_W
  * @b en@: "Answering request..."
 
  * @b es@: "Respondiendo a la petición..."
+
+ * @b et@: "Taotlusele vastamine..."
 
  * @b fi@: "Pyyntöön vastataan..."
 
@@ -4495,6 +4829,8 @@ static NSString * const BME_CALL_STATUS_PLEASE_WAIT = @"BME_CALL_STATUS_PLEASE_W
 
  * @b sv@: "Besvarar förfrågan..."
 
+ * @b th@: "กำลังตอบรับคำร้องขอ..."
+
  * @b tr@: "İsteğe cevap veriliyor..."
 
  * @b uk@: "Задоволення запиту..."
@@ -4519,6 +4855,8 @@ static NSString * const BME_CALL_STATUS_ANSWERING_REQUEST = @"BME_CALL_STATUS_AN
 
  * @b ar@: "لا يمكن الإجابة على الطلب في هذا الوقت. شكرا لك على مساعدتك!"
 
+ * @b az@: "Sorğu hal-hazırda cavablandırılmadı. Köməyiniz üçün təşəkkürlər!"
+
  * @b ca@: "La sol·licitud no ha pogut ser contestada en aquest moment. Gràcies per la teva ajuda!"
 
  * @b cs@: "Žádost nelze zodpovědět v tuto chvíli. Děkujeme za vaši pomoc!"
@@ -4532,6 +4870,8 @@ static NSString * const BME_CALL_STATUS_ANSWERING_REQUEST = @"BME_CALL_STATUS_AN
  * @b en@: "The request could not be answered at this time. Thanks for your help!"
 
  * @b es@: "La petición no ha podido ser contestada en este momento. ¡Gracias por tu ayuda!"
+
+ * @b et@: "Taotlusele ei olnud hetkel võimalik vastata. Täname abi eest!"
 
  * @b fi@: "Pyyntöön ei voitu vastata juuri nyt. Kiitos avustasi!"
 
@@ -4573,6 +4913,8 @@ static NSString * const BME_CALL_STATUS_ANSWERING_REQUEST = @"BME_CALL_STATUS_AN
 
  * @b sv@: "Förfrågan kunde inte besvaras just nu. Tack för din hjälp!"
 
+ * @b th@: "คำขอความช่วยเหลือ ไม่สามารถตอบรับได้ในตอนนี้ ขอบคุณที่ช่วยนะ!"
+
  * @b tr@: "İstek şu an için cevaplandırılamadı. Yardımınız için teşekkürler!"
 
  * @b uk@: "Запит не вдалося задовольнити. Дякуємо за вашу допомогу!"
@@ -4597,6 +4939,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE = @"BME_
 
  * @b ar@: "جار إنشاء الطلب..."
 
+ * @b az@: "Sorğu yaradılır..."
+
  * @b ca@: "Creant sol·licitud..."
 
  * @b cs@: "Vytváření požadavku..."
@@ -4610,6 +4954,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE = @"BME_
  * @b en@: "Creating request..."
 
  * @b es@: "Creando solicitud..."
+
+ * @b et@: "Loon taotlust..."
 
  * @b fi@: "Luodaan pyyntöä..."
 
@@ -4651,6 +4997,8 @@ static NSString * const BME_CALL_ALERT_FAILED_ANSWERING_UNKNOWN_MESSAGE = @"BME_
 
  * @b sv@: "Skapar förfrågan ..."
 
+ * @b th@: "กำลังสร้างการร้องขอ"
+
  * @b tr@: "İstek oluşturuluyor..."
 
  * @b uk@: "Створення запиту..."
@@ -4675,6 +5023,8 @@ static NSString * const BME_CALL_STATUS_CREATING_REQUEST = @"BME_CALL_STATUS_CRE
 
  * @b ar@: "يتم الاتصال بالخادم..."
 
+ * @b az@: "Serverə bağlanır..."
+
  * @b ca@: "Connectant als servidors..."
 
  * @b cs@: "Připojení k serverům..."
@@ -4688,6 +5038,8 @@ static NSString * const BME_CALL_STATUS_CREATING_REQUEST = @"BME_CALL_STATUS_CRE
  * @b en@: "Connecting to servers..."
 
  * @b es@: "Conectando con los servidores..."
+
+ * @b et@: "Ühendumine serveritega..."
 
  * @b fi@: "Yhdistetään palvelimiin..."
 
@@ -4729,6 +5081,8 @@ static NSString * const BME_CALL_STATUS_CREATING_REQUEST = @"BME_CALL_STATUS_CRE
 
  * @b sv@: "Ansluter till servarna..."
 
+ * @b th@: "กำลังเชื่อมต่อกับเซิร์ฟเวอร์..."
+
  * @b tr@: "Sunuculara bağlanılıyor..."
 
  * @b uk@: "Підключення до серверів..."
@@ -4753,6 +5107,8 @@ static NSString * const BME_CALL_STATUS_CONNECTING = @"BME_CALL_STATUS_CONNECTIN
 
  * @b ar@: "في انتظار الطرف الآخر..."
 
+ * @b az@: "Qarşı tərəf gözlənir..."
+
  * @b ca@: "Esperant l'altra part..."
 
  * @b cs@: "Čekání na druhou stranu..."
@@ -4766,6 +5122,8 @@ static NSString * const BME_CALL_STATUS_CONNECTING = @"BME_CALL_STATUS_CONNECTIN
  * @b en@: "Waiting for other part..."
 
  * @b es@: "Esperando a la otra parte..."
+
+ * @b et@: "Teise poole ootamine..."
 
  * @b fi@: "Odotetaan toista osaa..."
 
@@ -4807,6 +5165,8 @@ static NSString * const BME_CALL_STATUS_CONNECTING = @"BME_CALL_STATUS_CONNECTIN
 
  * @b sv@: "Väntar på motparten..."
 
+ * @b th@: "กำลังรอฝ่ายตรงข้าม..."
+
  * @b tr@: "Karşı taraf bekleniyor..."
 
  * @b uk@: "Очікування відповіді з іншого боку..."
@@ -4831,6 +5191,8 @@ static NSString * const BME_CALL_STATUS_CONNECTION_ESTABLISHED = @"BME_CALL_STAT
 
  * @b ar@: "فشل في الاتصال"
 
+ * @b az@: "Bağlantı alınmadı"
+
  * @b ca@: "Connexió fallida"
 
  * @b cs@: "Připojení se nezdařilo"
@@ -4844,6 +5206,8 @@ static NSString * const BME_CALL_STATUS_CONNECTION_ESTABLISHED = @"BME_CALL_STAT
  * @b en@: "Connection failed"
 
  * @b es@: "Conexión fallida"
+
+ * @b et@: "Ühendus nurjus"
 
  * @b fi@: "Yhteys epäonnistui"
 
@@ -4885,6 +5249,8 @@ static NSString * const BME_CALL_STATUS_CONNECTION_ESTABLISHED = @"BME_CALL_STAT
 
  * @b sv@: "Anslutningen misslyckades"
 
+ * @b th@: "การเชื่อมต่อล้มเหลว"
+
  * @b tr@: "Bağlantı koptu"
 
  * @b uk@: "Не вдалося встановити з'єднання"
@@ -4909,6 +5275,8 @@ static NSString * const BME_CALL_STATUS_SESSION_FAILED = @"BME_CALL_STATUS_SESSI
 
  * @b ar@: "فشل في نشر الصوت أو الفيديو"
 
+ * @b az@: "Səs və görüntü çatdırılmadı"
+
  * @b ca@: "Ha fallat la publicació d'àudio i vídeo"
 
  * @b cs@: "Selhalo audio a video připojení"
@@ -4922,6 +5290,8 @@ static NSString * const BME_CALL_STATUS_SESSION_FAILED = @"BME_CALL_STATUS_SESSI
  * @b en@: "Failed publishing audio and video"
 
  * @b es@: "Error en la publicación del audio y del vídeo"
+
+ * @b et@: "Video ja audio edastamine nurjus"
 
  * @b fi@: "Äänen ja kuvan julkaiseminen epäonnistui"
 
@@ -4963,6 +5333,8 @@ static NSString * const BME_CALL_STATUS_SESSION_FAILED = @"BME_CALL_STATUS_SESSI
 
  * @b sv@: "Kunde inte publicera ljud och video"
 
+ * @b th@: "ไม่สามารถเผยแพร่ภาพและเสียง"
+
  * @b tr@: "Ses ve görüntü ulaştırılamadı"
 
  * @b uk@: "Не вдалося опублікувати аудіо та відео"
@@ -4987,6 +5359,8 @@ static NSString * const BME_CALL_STATUS_FAILED_PUBLISHING = @"BME_CALL_STATUS_FA
 
  * @b ar@: "متصّل بالطرف الآخر"
 
+ * @b az@: "Qarşı tərəfə bağlanıldı"
+
  * @b ca@: "Connectat a l'altra part"
 
  * @b cs@: "Připojeno k druhé straně"
@@ -5000,6 +5374,8 @@ static NSString * const BME_CALL_STATUS_FAILED_PUBLISHING = @"BME_CALL_STATUS_FA
  * @b en@: "Connected to other part"
 
  * @b es@: "Conectando con la otra parte"
+
+ * @b et@: "Ühendatud teise poolega"
 
  * @b fi@: "Yhdistetty toiseen osaan"
 
@@ -5041,6 +5417,8 @@ static NSString * const BME_CALL_STATUS_FAILED_PUBLISHING = @"BME_CALL_STATUS_FA
 
  * @b sv@: "Ansluten till motparten"
 
+ * @b th@: "เชื่อมต่อกับฝ่ายตรงข้ามแล้ว"
+
  * @b tr@: "Karşı tarafa bağlanıldı"
 
  * @b uk@: "Вас з'єднано"
@@ -5065,6 +5443,8 @@ static NSString * const BME_CALL_SPEECH_DID_SUBSCRIBE = @"BME_CALL_SPEECH_DID_SU
 
  * @b ar@: "فشل الاتصال بالطرف الآخر"
 
+ * @b az@: "Qarşı tərəfə bağlanılmadı"
+
  * @b ca@: "Ha fallat la connexió a l'altra part"
 
  * @b cs@: "Připojení k druhé straně se nezdařilo"
@@ -5078,6 +5458,8 @@ static NSString * const BME_CALL_SPEECH_DID_SUBSCRIBE = @"BME_CALL_SPEECH_DID_SU
  * @b en@: "Failed connecting to other part"
 
  * @b es@: "No se pudo conectar con la otra parte"
+
+ * @b et@: "Teise poolega ühendumine nurjus"
 
  * @b fi@: "Yhdistäminen toiseen osaan epäonnistui"
 
@@ -5119,6 +5501,8 @@ static NSString * const BME_CALL_SPEECH_DID_SUBSCRIBE = @"BME_CALL_SPEECH_DID_SU
 
  * @b sv@: "Det gick inte att ansluta till motparten"
 
+ * @b th@: "การเชื่อมต่อกับฝ่ายตรงข้ามล้มเหลว"
+
  * @b tr@: "Karşı tarafa bağlanılamadı"
 
  * @b uk@: "Не вдалося підключитися до іншої людини"
@@ -5143,6 +5527,8 @@ static NSString * const BME_CALL_STATUS_FAILED_SUBSCRIBING = @"BME_CALL_STATUS_F
 
  * @b ar@: "يتم قطع الاتصال..."
 
+ * @b az@: "Bağlantı kəsilir..."
+
  * @b ca@: "Desconnectant..."
 
  * @b cs@: "Odpojování..."
@@ -5156,6 +5542,8 @@ static NSString * const BME_CALL_STATUS_FAILED_SUBSCRIBING = @"BME_CALL_STATUS_F
  * @b en@: "Disconnecting..."
 
  * @b es@: "Desconectando..."
+
+ * @b et@: "Katkestamine..."
 
  * @b fi@: "Yhteyttä katkaistaan..."
 
@@ -5197,6 +5585,8 @@ static NSString * const BME_CALL_STATUS_FAILED_SUBSCRIBING = @"BME_CALL_STATUS_F
 
  * @b sv@: "Kopplar ned..."
 
+ * @b th@: "กำลังตัดการเชื่อมต่อ..."
+
  * @b tr@: "Bağlantı kesiliyor..."
 
  * @b uk@: "Від'єднання..."
@@ -5221,6 +5611,8 @@ static NSString * const BME_CALL_STATUS_DISCONNECTING = @"BME_CALL_STATUS_DISCON
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -5234,6 +5626,8 @@ static NSString * const BME_CALL_STATUS_DISCONNECTING = @"BME_CALL_STATUS_DISCON
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -5275,6 +5669,8 @@ static NSString * const BME_CALL_STATUS_DISCONNECTING = @"BME_CALL_STATUS_DISCON
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -5299,6 +5695,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL = @"BME_CA
 
  * @b ar@: "لقد قام الطرف الآخر بقطع الاتصال وتم إنهاء الجلسة."
 
+ * @b az@: "Qarşı tərəf bağlantını kəsdi və seans bitdi."
+
  * @b ca@: "L'altre part s'ha desconnectat i ha acabat la sessió."
 
  * @b cs@: "Druhá strana se odpojila a rozhovor skončil"
@@ -5312,6 +5710,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL = @"BME_CA
  * @b en@: "The other part has disconnected and the session has ended."
 
  * @b es@: "La otra parte ha desconectado y la sesión ha finalizado."
+
+ * @b et@: "Teine pool on ühenduse katkestanud ja sessioon on lõppenud."
 
  * @b fi@: "Toinen osapuoli on katkaissut yhteyden ja istunto on päättynyt."
 
@@ -5353,6 +5753,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_CANCEL = @"BME_CA
 
  * @b sv@: "Motparten har kopplat ned och sessionen har avslutats."
 
+ * @b th@: "ฝั่งตรงข้ามได้ตัดการเชื่อมต่อ และเซสซันนี้ได้สิ้นสุดแล้ว"
+
  * @b tr@: "Karşı taraf bağlantıyı kesti ve oturum sonlandırıldı."
 
  * @b uk@: "Інша частина від'єдналася, і сесія закінчилася."
@@ -5377,6 +5779,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE = @"BME_C
 
  * @b ar@: "تم إنهاء الجلسة"
 
+ * @b az@: "Seans bitdi"
+
  * @b ca@: "Sessió finalitzada"
 
  * @b cs@: "Rozhovor ukončen"
@@ -5390,6 +5794,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE = @"BME_C
  * @b en@: "Session ended"
 
  * @b es@: "Sesión finalizada"
+
+ * @b et@: "Sessioon lõpetatud"
 
  * @b fi@: "Istunto on päättynyt"
 
@@ -5431,6 +5837,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_MESSAGE = @"BME_C
 
  * @b sv@: "Sessionen avslutad"
 
+ * @b th@: "สิ้นสุดเซสซัน"
+
  * @b tr@: "Oturum sonlandırıldı"
 
  * @b uk@: "Сесія закінчилася"
@@ -5455,6 +5863,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE = @"BME_CAL
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -5468,6 +5878,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE = @"BME_CAL
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -5509,6 +5921,8 @@ static NSString * const BME_CALL_ALERT_OTHER_PART_DISCONNECTED_TITLE = @"BME_CAL
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -5533,6 +5947,8 @@ static NSString * const BME_FORGOT_PASSWORD_BACK = @"BME_FORGOT_PASSWORD_BACK";
 
  * @b ar@: "أدخِل بريدك الإلكتروني وسوف نرسل لك كلمة مرور جديدة."
 
+ * @b az@: "E-poçt ünvanınızı daxil edin və sizə yeni bir şifrə göndərək."
+
  * @b ca@: "Introdueix el teu e-mail i t'enviarem una nova contrasenya."
 
  * @b cs@: "Zadejte svůj e-mail a my vám pošleme nové heslo."
@@ -5546,6 +5962,8 @@ static NSString * const BME_FORGOT_PASSWORD_BACK = @"BME_FORGOT_PASSWORD_BACK";
  * @b en@: "Enter your e-mail and we'll send you a new password."
 
  * @b es@: "Introduce tu e-mail y te enviaremos una nueva contraseña."
+
+ * @b et@: "Sisesta oma e-posti aadress ja me saadame sulle uue parooli."
 
  * @b fi@: "Kirjoita sähköpostiosoitteesi ja lähetämme sinulle uuden salasanan."
 
@@ -5587,6 +6005,8 @@ static NSString * const BME_FORGOT_PASSWORD_BACK = @"BME_FORGOT_PASSWORD_BACK";
 
  * @b sv@: "Ange din e-postadress så skickar vi ett nytt lösenord."
 
+ * @b th@: "กรุณาใส่อีเมลของคุณ แล้วเราจะส่งรหัสผ่านไปให้ใหม่."
+
  * @b tr@: "E-posta adresinizi girin ve size yeni bir şifre gönderelim."
 
  * @b uk@: "Введіть свою адресу електронної пошти, і ми надішлемо вам новий пароль."
@@ -5611,6 +6031,8 @@ static NSString * const BME_FORGOT_PASSWORD_DESCRIPTION = @"BME_FORGOT_PASSWORD_
 
  * @b ar@: "البريد الإلكتروني"
 
+ * @b az@: "E-poçt"
+
  * @b ca@: "E-mail"
 
  * @b cs@: "E-mail"
@@ -5624,6 +6046,8 @@ static NSString * const BME_FORGOT_PASSWORD_DESCRIPTION = @"BME_FORGOT_PASSWORD_
  * @b en@: "E-mail"
 
  * @b es@: "Correo electrónico"
+
+ * @b et@: "E-posti aadress"
 
  * @b fi@: "Sähköposti"
 
@@ -5663,6 +6087,8 @@ static NSString * const BME_FORGOT_PASSWORD_DESCRIPTION = @"BME_FORGOT_PASSWORD_
 
  * @b sv@: "E-post"
 
+ * @b th@: "อีเมล"
+
  * @b tr@: "E-posta"
 
  * @b uk@: "Електронна пошта"
@@ -5687,6 +6113,8 @@ static NSString * const BME_FORGOT_PASSWORD_EMAIL_PLACEHOLDER = @"BME_FORGOT_PAS
 
  * @b ar@: "أرسِل كلمة مرور جديدة"
 
+ * @b az@: "Yeni şifrə göndər"
+
  * @b ca@: "Enviar contrasenya nova"
 
  * @b cs@: "Poslat nové heslo"
@@ -5700,6 +6128,8 @@ static NSString * const BME_FORGOT_PASSWORD_EMAIL_PLACEHOLDER = @"BME_FORGOT_PAS
  * @b en@: "Send new password"
 
  * @b es@: "Enviar nueva contraseña"
+
+ * @b et@: "Saada uus parool"
 
  * @b fi@: "Lähetä uusi salasana"
 
@@ -5741,6 +6171,8 @@ static NSString * const BME_FORGOT_PASSWORD_EMAIL_PLACEHOLDER = @"BME_FORGOT_PAS
 
  * @b sv@: "Skicka nytt lösenord"
 
+ * @b th@: "ส่งรหัสผ่านใหม่"
+
  * @b tr@: "Yeni şifre gönder"
 
  * @b uk@: "Надішліть новий пароль"
@@ -5765,6 +6197,8 @@ static NSString * const BME_FORGOT_PASSWORD_SEND_PASSWORD = @"BME_FORGOT_PASSWOR
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -5778,6 +6212,8 @@ static NSString * const BME_FORGOT_PASSWORD_SEND_PASSWORD = @"BME_FORGOT_PASSWOR
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -5819,6 +6255,8 @@ static NSString * const BME_FORGOT_PASSWORD_SEND_PASSWORD = @"BME_FORGOT_PASSWOR
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -5843,6 +6281,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME
 
  * @b ar@: "البريد الإلكتروني المدخل غير صحيح. يرجى تغيير البريد الإلكتروني والمحاولة مجددا."
 
+ * @b az@: "Daxil edilmiş e-poçt etibarsızdır. Zəhmət olmasa e-poçtu dəyişdirib yenidən yoxlayın."
+
  * @b ca@: "L'e-mail introduït no és vàlid. Canvia l'e-mail i torna-ho a provar."
 
  * @b cs@: "Zadaný e-mailu není platný. Změnte e-mail a opakujte akci."
@@ -5856,6 +6296,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME
  * @b en@: "The entered e-mail is not valid. Please change the email and try again."
 
  * @b es@: "El correo electrónico introducido no es válido. Por favor cambia el correo electrónico y vuelve a intentarlo."
+
+ * @b et@: "Sisestatud e-posti aadress ei kehti. Palun muuda aadressi ja proovi uuesti."
 
  * @b fi@: "Annettu sähköpostiosoite ei kelpaa. Vaihda sähköpostiosoite ja yritä uudelleen."
 
@@ -5895,6 +6337,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME
 
  * @b sv@: "Den angivna e-postadressen är ogiltig. Vänligen kontrollera adressen och försök igen."
 
+ * @b th@: "อีเมลที่ใส่ไม่ถูกต้อง กรุณาเปลี่ยนอีเมลแล้วลองใหม่อีกครั้ง"
+
  * @b tr@: "Girilen e-posta geçerli değil. Lütfen e-postayı değiştirin ve yeniden deneyin."
 
  * @b uk@: "Неприпустима електронна адреса. Виправте електронну адресу та спробуйте знову."
@@ -5919,6 +6363,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BM
 
  * @b ar@: "البريد الإلكتروني غير صحيح"
 
+ * @b az@: "E-poçt etibarsızdır"
+
  * @b ca@: "L'email no és vàlid"
 
  * @b cs@: "E-mailová adresa není platná"
@@ -5932,6 +6378,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BM
  * @b en@: "Email is not valid"
 
  * @b es@: "Correo electrónico no válido"
+
+ * @b et@: "E-posti aadress ei kehti"
 
  * @b fi@: "Sähköpostiosoite ei kelpaa"
 
@@ -5971,6 +6419,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BM
 
  * @b sv@: "Ogiltig e-postadress"
 
+ * @b th@: "อีเมลไม่ถูกต้อง"
+
  * @b tr@: "E-posta geçerli değil"
 
  * @b uk@: "Електронна адреса неприпустима"
@@ -5995,6 +6445,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_TITLE = @"BME_
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -6008,6 +6460,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_TITLE = @"BME_
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -6049,6 +6503,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_EMAIL_NOT_VALID_TITLE = @"BME_
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -6073,6 +6529,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
 
  * @b ar@: "لا يمكن إرسال طلب كلمة مرور جديدة. يرجى التأكد أنك لديك اتصال بالإنترنت والمحاولة مجددا."
 
+ * @b az@: "Yeni şifrə sorğusu göndərilə bilmədi. Zəhmət olmasa aktiv internet bağlantısı olduğundan əmin olub yenidən cəhd edin."
+
  * @b ca@: "No s'ha pogut enviar la petició d'una nova contrasenya. Si us plau, assegura't que tens una connexió activa a internet i prova-ho una altra vegada."
 
  * @b cs@: "Nelze odeslat žádost o nové heslo. Přesvědčte se, zda máte aktivní připojení k internetu a opakujte akci."
@@ -6086,6 +6544,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
  * @b en@: "The request for a new password could not be sent. Please ensure that you have an active internet connection and try again."
 
  * @b es@: "No se ha podido enviar una nueva contraseña. Por favor, asegúrate de que tienes una conexión activa a internet e inténtalo de nuevo."
+
+ * @b et@: "Uue parooli taotlust ei olnud võimalik saata. Palun kontrolli interneti ühenduse olemasolu ja proovi uuesti."
 
  * @b fi@: "Pyyntöä uudesta salasanasta ei voitu lähettää. Varmista, että sinulla on aktiivinen internet yhteys ja yritä uudelleen."
 
@@ -6127,6 +6587,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
 
  * @b sv@: "Det gick inte att skicka begäran om nytt lösenord. Kontrollera din internetanslutning och försök igen."
 
+ * @b th@: "ไม่สามารถทำการร้องขอรหัสผ่านใหม่ได้ กรุณาเช็คให้แน่ใจว่าคุณได้เชื่อมต่ออินเตอร์เน็ตแล้ว"
+
  * @b tr@: "Yeni şifre isteği gönderilemedi. Lütfen etkin bir internet bağlantınız olduğundan emin olun ve tekrar deneyin."
 
  * @b uk@: "Не вдалося надіслати запит про новий пароль. Будь ласка, переконайтеся, що є активне підключення до Інтернету і повторіть спробу."
@@ -6151,6 +6613,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
 
  * @b ar@: "لا يمكن طلب كلمة مرور جديدة"
 
+ * @b az@: "Yeni şifrə sorğusu göndərilə bilmədi"
+
  * @b ca@: "No s'ha pogut demanar una nova contrasenya"
 
  * @b cs@: "Nelze zaslat nové heslo"
@@ -6164,6 +6628,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
  * @b en@: "Could not request new password"
 
  * @b es@: "No se pudo solicitar una nueva contraseña"
+
+ * @b et@: "Uut parooli ei olnud võimalik taotleda"
 
  * @b fi@: "Uuden salasanan pyyntö epäonnistui"
 
@@ -6205,6 +6671,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
 
  * @b sv@: "Kunde inte begära nytt lösenord"
 
+ * @b th@: "ไม่สามารถขอรหัสผ่านใหม่ได้"
+
  * @b tr@: "Yeni şifre isteği gönderilemedi"
 
  * @b uk@: "Не вдалося надіслати запит на новий пароль"
@@ -6229,6 +6697,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -6242,6 +6712,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -6283,6 +6755,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_FAIL
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -6307,6 +6781,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
 
  * @b ar@: "لقد استلمت رسالة إلكترونية تحتوي على كلمة مرورك الجديدة."
 
+ * @b az@: "Yeni şifrəniz olan bir e-poçt aldınız."
+
  * @b ca@: "Has rebut un correu electrònic amb la teva nova contrasenya."
 
  * @b cs@: "Obdrželi jste e-mail s novým heslem."
@@ -6320,6 +6796,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
  * @b en@: "You have received an e-mail with your new password."
 
  * @b es@: "Has recibido un correo electrónico con tu nueva contraseña."
+
+ * @b et@: "Sa oled saanud e-kirja uue parooliga."
 
  * @b fi@: "Olet saanut sähköpostin, jossa on uusi salasanasi."
 
@@ -6361,6 +6839,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
 
  * @b sv@: "Du har fått ett e-postmeddelande med ditt nya lösenord."
 
+ * @b th@: "คุณได้รับรหัสผ่านใหม่ผ่านทางอีเมลของคุณ"
+
  * @b tr@: "Yeni şifrenizi içeren bir e-posta aldınız."
 
  * @b uk@: "Ви отримали повідомлення електронної пошти з вашим новим паролем."
@@ -6385,6 +6865,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
 
  * @b ar@: "تم إرسال كلمة المرور الجديدة"
 
+ * @b az@: "Yeni şifrə göndərildi"
+
  * @b ca@: "Nova contrasenya enviada"
 
  * @b cs@: "Nové heslo zasláno"
@@ -6398,6 +6880,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
  * @b en@: "New password sent"
 
  * @b es@: "Nueva contraseña enviada"
+
+ * @b et@: "Uus parool on saadetud"
 
  * @b fi@: "Uusi salasana lähetetty"
 
@@ -6439,6 +6923,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
 
  * @b sv@: "Nytt lösenord skickat"
 
+ * @b th@: "รหัสผ่านใหม่ได้ถูกส่งไปแล้ว"
+
  * @b tr@: "Yeni şifre gönderildi"
 
  * @b uk@: "Новий пароль відправлено"
@@ -6463,6 +6949,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
 
  * @b ar@: "يتم إرسال الطلب..."
 
+ * @b az@: "Sorğu göndərilir..."
+
  * @b ca@: "Enviant la sol·licitud..."
 
  * @b cs@: "Odesílání požadavku..."
@@ -6476,6 +6964,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
  * @b en@: "Sending request..."
 
  * @b es@: "Enviando solicitud..."
+
+ * @b et@: "Taotluse saatmine..."
 
  * @b fi@: "Pyyntöä lähetetään..."
 
@@ -6517,6 +7007,8 @@ static NSString * const BME_FORGOT_PASSWORD_ALERT_SEND_NEW_PASSWORD_REQUEST_SUCC
 
  * @b sv@: "Skickar begäran..."
 
+ * @b th@: "กำลังส่งคำขอ"
+
  * @b tr@: "İstek gönderiliyor..."
 
  * @b uk@: "Надсилаємо запит..."
@@ -6541,6 +7033,8 @@ static NSString * const BME_FORGOT_PASSWORD_OVERLAY_SENDING_REQUEST_FOR_NEW_PASS
 
  * @b ar@: "Be My Eyes"
 
+ * @b az@: "Be My Eyes"
+
  * @b ca@: "Be My Eyes"
 
  * @b cs@: "Be My Eyes"
@@ -6554,6 +7048,8 @@ static NSString * const BME_FORGOT_PASSWORD_OVERLAY_SENDING_REQUEST_FOR_NEW_PASS
  * @b en@: "Be My Eyes"
 
  * @b es@: "Be My Eyes"
+
+ * @b et@: "Be MY Eyes"
 
  * @b fi@: "Be My Eyes"
 
@@ -6595,6 +7091,8 @@ static NSString * const BME_FORGOT_PASSWORD_OVERLAY_SENDING_REQUEST_FOR_NEW_PASS
 
  * @b sv@: "Be My Eyes"
 
+ * @b th@: "ช่วยดูให้ทีนะ"
+
  * @b tr@: "Be My Eyes"
 
  * @b uk@: "Be My Eyes"
@@ -6619,6 +7117,8 @@ static NSString * const BME_FRONT_PAGE_APP_NAME = @"BME_FRONT_PAGE_APP_NAME";
 
  * @b ar@: "ما هو دورك؟"
 
+ * @b az@: "Vəzifəniz nədir?"
+
  * @b ca@: "Quin és el teu paper?"
 
  * @b cs@: "Jaká je vaše úloha?"
@@ -6632,6 +7132,8 @@ static NSString * const BME_FRONT_PAGE_APP_NAME = @"BME_FRONT_PAGE_APP_NAME";
  * @b en@: "What is your role?"
 
  * @b es@: "¿Cuál es tu rol?"
+
+ * @b et@: "Mis on sinu roll?"
 
  * @b fi@: "Mikä on Sinun roolisi?"
 
@@ -6673,6 +7175,8 @@ static NSString * const BME_FRONT_PAGE_APP_NAME = @"BME_FRONT_PAGE_APP_NAME";
 
  * @b sv@: "Vad är din roll?"
 
+ * @b th@: "สิ่งที่จะทำคือ?"
+
  * @b tr@: "Göreviniz nedir?"
 
  * @b uk@: "Яка ваша роль?"
@@ -6697,6 +7201,8 @@ static NSString * const BME_FRONT_PAGE_ASK_FOR_ROLE = @"BME_FRONT_PAGE_ASK_FOR_R
 
  * @b ar@: "أنا مبصر"
 
+ * @b az@: "Görə bilirəm"
+
  * @b ca@: "Sóc vident"
 
  * @b cs@: "Jsem vidíci"
@@ -6710,6 +7216,8 @@ static NSString * const BME_FRONT_PAGE_ASK_FOR_ROLE = @"BME_FRONT_PAGE_ASK_FOR_R
  * @b en@: "I am sighted"
 
  * @b es@: "Soy vidente"
+
+ * @b et@: "ma olen nägija"
 
  * @b fi@: "Olen näkevä"
 
@@ -6751,6 +7259,8 @@ static NSString * const BME_FRONT_PAGE_ASK_FOR_ROLE = @"BME_FRONT_PAGE_ASK_FOR_R
 
  * @b sv@: "Jag är seende "
 
+ * @b th@: "ฉันจะเป็นคนช่วยเหลือ"
+
  * @b tr@: "Görebiliyorum"
 
  * @b uk@: "Я зрячий"
@@ -6775,6 +7285,8 @@ static NSString * const BME_FRONT_PAGE_SIGHTED_ROLE = @"BME_FRONT_PAGE_SIGHTED_R
 
  * @b ar@: "أنا أعمى"
 
+ * @b az@: "Görmə əngəlliyəm"
+
  * @b ca@: "Sóc cec"
 
  * @b cs@: "Jsem nevidomý"
@@ -6788,6 +7300,8 @@ static NSString * const BME_FRONT_PAGE_SIGHTED_ROLE = @"BME_FRONT_PAGE_SIGHTED_R
  * @b en@: "I am blind"
 
  * @b es@: "Soy invidente"
+
+ * @b et@: "Ma olen nägemispuudega"
 
  * @b fi@: "Olen sokea"
 
@@ -6829,6 +7343,8 @@ static NSString * const BME_FRONT_PAGE_SIGHTED_ROLE = @"BME_FRONT_PAGE_SIGHTED_R
 
  * @b sv@: "Jag är blind"
 
+ * @b th@: "ฉันเป็นผู้พิการทางสายตา"
+
  * @b tr@: "Görme engelliyim"
 
  * @b uk@: "Я сліпий"
@@ -6853,6 +7369,8 @@ static NSString * const BME_FRONT_PAGE_BLIND_ROLE = @"BME_FRONT_PAGE_BLIND_ROLE"
 
  * @b ar@: "مسجّل بالفعل؟ سجّل الدخول هنا."
 
+ * @b az@: "Qeydiyyatdan keçmisiniz? Buradan daxil olun."
+
  * @b ca@: "Ja estàs registrat? Entra aquí."
 
  * @b cs@: "Již registrován? Přihlaste se zde."
@@ -6866,6 +7384,8 @@ static NSString * const BME_FRONT_PAGE_BLIND_ROLE = @"BME_FRONT_PAGE_BLIND_ROLE"
  * @b en@: "Already registered? Log in here."
 
  * @b es@: "¿Ya estás registrado? Inicia sesión aquí."
+
+ * @b et@: "Omad juba kontot? Logi sisse siin."
 
  * @b fi@: "Jo rekisteröitynyt? Kirjaudu sisään tästä."
 
@@ -6907,6 +7427,8 @@ static NSString * const BME_FRONT_PAGE_BLIND_ROLE = @"BME_FRONT_PAGE_BLIND_ROLE"
 
  * @b sv@: "Redan registrerad? Logga in här."
 
+ * @b th@: "ลงทะเบียนแล้ว? ล็อคอินที่นี่"
+
  * @b tr@: "Kayıtlı mısınız? Buradan giriş yapın."
 
  * @b uk@: "Вже зареєстровані? Увійдіть тут."
@@ -6931,6 +7453,8 @@ static NSString * const BME_FRONT_PAGE_ALREADY_REGISTERED = @"BME_FRONT_PAGE_ALR
 
  * @b ar@: "Be My Eyes"
 
+ * @b az@: "Be My Eyes"
+
  * @b ca@: "Be My Eyes"
 
  * @b cs@: "Be My Eyes"
@@ -6944,6 +7468,8 @@ static NSString * const BME_FRONT_PAGE_ALREADY_REGISTERED = @"BME_FRONT_PAGE_ALR
  * @b en@: "Be My Eyes"
 
  * @b es@: "Be My Eyes"
+
+ * @b et@: "Be MY Eyes"
 
  * @b fi@: "Be My Eyes"
 
@@ -6985,6 +7511,8 @@ static NSString * const BME_FRONT_PAGE_ALREADY_REGISTERED = @"BME_FRONT_PAGE_ALR
 
  * @b sv@: "Be My Eyes"
 
+ * @b th@: "ช่วยดูให้ทีนะ"
+
  * @b tr@: "Be My Eyes"
 
  * @b uk@: "Be My Eyes"
@@ -7009,6 +7537,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b ar@: "يجب تشغيل  إمكانية وصول الصوت للتسجيل كمستخدم أعمى. اذهب إلى الإعدادات > العامة > امكانيه الوصول > VoiceOver"
 
+ * @b az@: "VoiceOver giriş edə bilmə qeydiyyatdan keçən görmə əngəlli istifadəçi üçün açılmalıdır. Tənzimləmələrə gedin > Ümumi > Giriş edə bilmə > VoiceOver"
+
  * @b ca@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
  * @b cs@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
@@ -7022,6 +7552,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
  * @b en@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
  * @b es@: "VoiceOver debe estar activado para registrarse como un usuario ciego. Ve a Ajustes > General > Accesibilidad > VoiceOver"
+
+ * @b et@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
 
  * @b fi@: "Käyttöapu VoiceOver on kytkettävä päälle, jotta voit rekisteröityä sokeana käyttäjänä. Mene Asetukset > Yleiset > Käyttöapu > VoiceOver"
 
@@ -7063,6 +7595,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_TITLE = @"BME_FRONT_PA
 
  * @b sv@: "Hjälpmedel VoiceOver måste vara påslaget för att registrera som en synskadad användare. Gå till Inställningar > Allmänt > Hjälpmedel > VoiceOver"
 
+ * @b th@: "การเข้าถึงVoiceOverจะต้องเปิดให้ลงทะเบียนเป็นผู้ใช้คนตาบอด ไปที่การตั้งค่า > ทั่วไป > ถึง > VoiceOver"
+
  * @b tr@: "VoiceOver erişilebilirliği kaydolan görme engelli bir kullanıcı için açılmalıdır. Ayarlara gidin > Genel > Erişilebilirlik > VoiceOver"
 
  * @b uk@: "Accessibility VoiceOver must be turned on to register as a blind user. Go to Settings > General > Accessibility > VoiceOver"
@@ -7087,6 +7621,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAG
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -7100,6 +7636,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAG
  * @b en@: "Ok"
 
  * @b es@: "Ok"
+
+ * @b et@: "Ok"
 
  * @b fi@: "OK"
 
@@ -7141,6 +7679,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BODY = @"BME_FRONT_PAG
 
  * @b sv@: "OK"
 
+ * @b th@: "โอเค"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "Ок"
@@ -7163,6 +7703,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON = @"BME_FRONT_P
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -7174,6 +7716,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON = @"BME_FRONT_P
  * @b el@: "Πίσω"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -7215,6 +7759,8 @@ static NSString * const BME_FRONT_PAGE_NO_VOICEOVER_ALERT_BUTTON = @"BME_FRONT_P
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -7237,6 +7783,8 @@ static NSString * const BME_HELPER_INTRO_BACK = @"BME_HELPER_INTRO_BACK";
 
  * @b ar@: "استمرار"
 
+ * @b az@: "Davam"
+
  * @b ca@: "Continuar"
 
  * @b cs@: "Pokračovat"
@@ -7248,6 +7796,8 @@ static NSString * const BME_HELPER_INTRO_BACK = @"BME_HELPER_INTRO_BACK";
  * @b el@: "Επόμενο"
 
  * @b es@: "Siguiente"
+
+ * @b et@: "Jätka"
 
  * @b fi@: "Jatka"
 
@@ -7289,6 +7839,8 @@ static NSString * const BME_HELPER_INTRO_BACK = @"BME_HELPER_INTRO_BACK";
 
  * @b sv@: "Fortsätt"
 
+ * @b th@: "ไปต่อ"
+
  * @b tr@: "Devam"
 
  * @b uk@: "Продовжити"
@@ -7311,6 +7863,8 @@ static NSString * const BME_HELPER_INTRO_CONTINUE = @"BME_HELPER_INTRO_CONTINUE"
 
  * @b ar@: "المساعدة سهلة!"
 
+ * @b az@: "Kömək etmək çox rahatdır!"
+
  * @b ca@: "Ajudar és fàcil!"
 
  * @b cs@: "Pomáhat je snadné!"
@@ -7322,6 +7876,8 @@ static NSString * const BME_HELPER_INTRO_CONTINUE = @"BME_HELPER_INTRO_CONTINUE"
  * @b el@: "Είναι εύκολο να βοηθάς!"
 
  * @b es@: "¡Ayudar es fácil!"
+
+ * @b et@: "Aitamine on lihtne!"
 
  * @b fi@: "Auttaminen on helppoa!"
 
@@ -7363,6 +7919,8 @@ static NSString * const BME_HELPER_INTRO_CONTINUE = @"BME_HELPER_INTRO_CONTINUE"
 
  * @b sv@: "Det är lätt att hjälpa till!"
 
+ * @b th@: "ช่วยเหลือคนอื่นได้ง่าย ๆ"
+
  * @b tr@: "Yardım etmek çok kolay!"
 
  * @b uk@: "Допомагати нескладно!"
@@ -7385,6 +7943,8 @@ static NSString * const BME_HELPER_INTRO_HEADLINE = @"BME_HELPER_INTRO_HEADLINE"
 
  * @b ar@: "ساعِد متى أردت ذلك، وأينما كنت."
 
+ * @b az@: "İstədiyiniz vaxt, istədiyiniz yerdə kömək edin."
+
  * @b ca@: "Ajuda sempre que vulguis, allà on siguis."
 
  * @b cs@: "Pomáhejte, kdykoli budete chtít, ať se nacházíte kdekoliv."
@@ -7396,6 +7956,8 @@ static NSString * const BME_HELPER_INTRO_HEADLINE = @"BME_HELPER_INTRO_HEADLINE"
  * @b el@: "Βοηθήστε οπότε επιθυμείτε, όπου και αν είστε."
 
  * @b es@: "Ayuda cuando quieras, donde quiera que estés."
+
+ * @b et@: "Aita kus iganes ja millal iganes sa soovid."
 
  * @b fi@: "Auta milloin haluat ja missä tahansa olet."
 
@@ -7437,6 +7999,8 @@ static NSString * const BME_HELPER_INTRO_HEADLINE = @"BME_HELPER_INTRO_HEADLINE"
 
  * @b sv@: "Hjälp till när du kan och vill, var du än är."
 
+ * @b th@: "ช่วยได้ทุกที่ที่มีเวลา ไม่ว่าคุณจะอยู่ที่ไหน"
+
  * @b tr@: "Dilediğiniz zaman, dilediğiniz yerde yardım edin."
 
  * @b uk@: "Допомогай завжди та усюди."
@@ -7459,6 +8023,8 @@ static NSString * const BME_HELPER_INTRO_SHORT_DESCRIPTION = @"BME_HELPER_INTRO_
 
  * @b ar@: "سيكون هاتفك مفتوحا للمكالمات من أشخاص يحتاجون المساعدة عندما تكون مسجّلا الدخول."
 
+ * @b az@: "Giriş etdiyinizdə telefonunuz köməyə ehtiyacı olan insanlardan gələn zənglərə açıq olacaq."
+
  * @b ca@: "Una vegada inicies sessió, el teu telèfon és obert per trucades de persones que necessiten la teva ajuda."
 
  * @b cs@: "Váš telefon je k dispozici pro hovory od lidí, kteří potřebují pomoc, když jste přihlášen."
@@ -7470,6 +8036,8 @@ static NSString * const BME_HELPER_INTRO_SHORT_DESCRIPTION = @"BME_HELPER_INTRO_
  * @b el@: "Το τηλέφωνό σας είναι διαθέσιμο για κλήσεις από ανθρώπους που χρειάζονται βοήθεια όταν είστε συνδεδεμένοι."
 
  * @b es@: "Tú teléfono está disponible para recibir llamadas de personas que necesitan ayuda  cuando hayas iniciado sesión."
+
+ * @b et@: "Su telefon on avatud kõnedele inimestelt kes vajavad abi, kui oled sisse logitud."
 
  * @b fi@: "Puhelimesi on auki avuntarvitsijoille, kun olet kirjautunut sisälle."
 
@@ -7511,6 +8079,8 @@ static NSString * const BME_HELPER_INTRO_SHORT_DESCRIPTION = @"BME_HELPER_INTRO_
 
  * @b sv@: "Din mobil är tillgänglig för samtal från människor som behöver hjälp när du är inloggad."
 
+ * @b th@: "โทรศัพท์คุณต้องเปิดและล็อคอิน Be My Eyes ไว้ เพื่อรอตอบรับการร้องขอความช่วยเหลือ"
+
  * @b tr@: "Giriş yaptığınızda, telefonunuz yardıma ihtiyacı olanlar tarafından gelen çağrılara açıktır."
 
  * @b uk@: "Ваш телефон відкритий для дзвінків, коли ви увійшли до системи."
@@ -7535,6 +8105,8 @@ static NSString * const BME_HELPER_INTRO_LONG_DESCRIPTION = @"BME_HELPER_INTRO_L
 
  * @b ar@: "قيد الانتظار"
 
+ * @b az@: "Təxirə sal"
+
  * @b ca@: "Ajornar"
 
  * @b cs@: "Odložit"
@@ -7548,6 +8120,8 @@ static NSString * const BME_HELPER_INTRO_LONG_DESCRIPTION = @"BME_HELPER_INTRO_L
  * @b en@: "Snooze"
 
  * @b es@: "Posponer"
+
+ * @b et@: "Tukasta"
 
  * @b fi@: "Torkku"
 
@@ -7589,6 +8163,8 @@ static NSString * const BME_HELPER_INTRO_LONG_DESCRIPTION = @"BME_HELPER_INTRO_L
 
  * @b sv@: "Snooza"
 
+ * @b th@: "แจ้งเตือน"
+
  * @b tr@: "Ertele"
 
  * @b uk@: "Відкласти"
@@ -7613,6 +8189,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_HEADLINE = @"BME_HELPER_MAIN_SNOO
 
  * @b ar@: "لقد جعلت %@ التالي قيد الانتظار"
 
+ * @b az@: "%@ qədər təxirə salırsınız"
+
  * @b ca@: "Estàs ajornant els següents %@"
 
  * @b cs@: "Odkládate další %@"
@@ -7626,6 +8204,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_HEADLINE = @"BME_HELPER_MAIN_SNOO
  * @b en@: "You are snoozing the next %@"
 
  * @b es@: "Posponiendo actividades durante %@"
+
+ * @b et@: "Tukastad järgmised %@"
 
  * @b fi@: "Torkut seuraavat %@"
 
@@ -7667,6 +8247,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_HEADLINE = @"BME_HELPER_MAIN_SNOO
 
  * @b sv@: "Du snoozar kommande %@"
 
+ * @b th@: "คุณจะได้รับการแจ้งเตือนอีกใน %@"
+
  * @b tr@: "Önümüzdeki %@ erteliyorsunuz"
 
  * @b uk@: "Ви відкладаєте наступні %@"
@@ -7691,6 +8273,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_TEXT = @"BME_HELPER_MAIN_S
 
  * @b ar@: "أشخاص ساعدتهم"
 
+ * @b az@: "Kömək Edilən İnsanlar"
+
  * @b ca@: "Persones ajudades"
 
  * @b cs@: "Lidé, kterým bylo pomoženo"
@@ -7704,6 +8288,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_TEXT = @"BME_HELPER_MAIN_S
  * @b en@: "People Helped"
 
  * @b es@: "Personas Asistidas"
+
+ * @b et@: "Inimesi aidatud"
 
  * @b fi@: "Autetut ihmiset"
 
@@ -7745,6 +8331,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_TEXT = @"BME_HELPER_MAIN_S
 
  * @b sv@: "Personer hjälpta"
 
+ * @b th@: "คน ได้รับความช่วยเหลือแล้ว"
+
  * @b tr@: "Yardım edilen kişiler"
 
  * @b uk@: "Люди, які допомогли"
@@ -7769,6 +8357,8 @@ static NSString * const BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION = @"BME_HELPER_
 
  * @b ar@: "مجموع النقاط"
 
+ * @b az@: "Ümumi xal"
+
  * @b ca@: "Total de punts"
 
  * @b cs@: "Bodů celkem"
@@ -7782,6 +8372,8 @@ static NSString * const BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION = @"BME_HELPER_
  * @b en@: "Points Total"
 
  * @b es@: "Puntos totales"
+
+ * @b et@: "Punkte kokku"
 
  * @b fi@: "Pisteet yhteensä"
 
@@ -7823,6 +8415,8 @@ static NSString * const BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION = @"BME_HELPER_
 
  * @b sv@: "Poäng totalt"
 
+ * @b th@: "คะแนนรวม"
+
  * @b tr@: "Toplam puan"
 
  * @b uk@: "Всього очок"
@@ -7847,6 +8441,8 @@ static NSString * const BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION = @"BME_HELPER_M
 
  * @b ar@: "مساعِد جديد"
 
+ * @b az@: "Yeni köməkçi"
+
  * @b ca@: "Nou Ajudant"
 
  * @b cs@: "Nový pomocník"
@@ -7860,6 +8456,8 @@ static NSString * const BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION = @"BME_HELPER_M
  * @b en@: "New Helper"
 
  * @b es@: "Nuevo ayudante"
+
+ * @b et@: "Uus abistaja"
 
  * @b fi@: "Uusi auttaja"
 
@@ -7901,6 +8499,8 @@ static NSString * const BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION = @"BME_HELPER_M
 
  * @b sv@: "Ny hjälpare"
 
+ * @b th@: "ผู้ช่วยหน้าใหม่"
+
  * @b tr@: "Yeni Yardımcı"
 
  * @b uk@: "Новий помічник"
@@ -7925,6 +8525,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_NEW_HELPER = @"BME_HELPER_MAIN_LEV
 
  * @b ar@: "مساعِد واعد"
 
+ * @b az@: "Ümid Verən Köməkçi"
+
  * @b ca@: "Ajudant Prometedor"
 
  * @b cs@: "Slibný pomocník"
@@ -7938,6 +8540,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_NEW_HELPER = @"BME_HELPER_MAIN_LEV
  * @b en@: "Promising Helper"
 
  * @b es@: "Ayudante Prometedor"
+
+ * @b et@: "Paljutõotav abistaja"
 
  * @b fi@: "Lupaava auttaja"
 
@@ -7979,6 +8583,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_NEW_HELPER = @"BME_HELPER_MAIN_LEV
 
  * @b sv@: "Lovande hjälpare"
 
+ * @b th@: "ผู้ช่วยให้มีความหวัง"
+
  * @b tr@: "Umut vadeden Yardımcı"
 
  * @b uk@: "Перспективний помічник"
@@ -8003,6 +8609,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_PROMISING_HELPER = @"BME_HELPER_MA
 
  * @b ar@: "مساعِد موثوق به"
 
+ * @b az@: "Etibarlı köməkçi"
+
  * @b ca@: "Ajudant de Confiança"
 
  * @b cs@: "Důvěryhodný pomocník"
@@ -8016,6 +8624,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_PROMISING_HELPER = @"BME_HELPER_MA
  * @b en@: "Trusted Helper"
 
  * @b es@: "Ayudante de Confianza"
+
+ * @b et@: "Usaldusväärne abistaja"
 
  * @b fi@: "Luotettava auttaja"
 
@@ -8057,6 +8667,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_PROMISING_HELPER = @"BME_HELPER_MA
 
  * @b sv@: "Pålitlig hjälpare"
 
+ * @b th@: "ผู้ช่วยที่ไว้ใจได้"
+
  * @b tr@: "Güvenilir Yardımcı"
 
  * @b uk@: "Надійний помічник"
@@ -8081,6 +8693,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER = @"BME_HELPER_MAIN
 
  * @b ar@: "مساعِد متخصص"
 
+ * @b az@: "Təcrübəli köməkçi"
+
  * @b ca@: "Ajudant Expert"
 
  * @b cs@: "Pomocník Expert"
@@ -8094,6 +8708,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER = @"BME_HELPER_MAIN
  * @b en@: "Expert Helper"
 
  * @b es@: "Ayudante Experto"
+
+ * @b et@: "Ekspertabistaja"
 
  * @b fi@: "Asiantuntija auttaja"
 
@@ -8135,6 +8751,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER = @"BME_HELPER_MAIN
 
  * @b sv@: "Experthjälpare"
 
+ * @b th@: "ผู้ช่วยระดับเชี่ยวชาญ"
+
  * @b tr@: "Uzman Yardımcı"
 
  * @b uk@: "Помічник-експерт"
@@ -8159,6 +8777,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_EXPERT_HELPER = @"BME_HELPER_MAIN_
 
  * @b ar@: "مساعِد خبير"
 
+ * @b az@: "Usta köməkçi"
+
  * @b ca@: "Ajudant Mestre"
 
  * @b cs@: "Pomocník Majster"
@@ -8172,6 +8792,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_EXPERT_HELPER = @"BME_HELPER_MAIN_
  * @b en@: "Master Helper"
 
  * @b es@: "Ayudante Maestro"
+
+ * @b et@: "suurmeister-abistaja"
 
  * @b fi@: "Mestari auttaja"
 
@@ -8213,6 +8835,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_EXPERT_HELPER = @"BME_HELPER_MAIN_
 
  * @b sv@: "Mästarhjälpare"
 
+ * @b th@: "ผู้ช่วยระดับปรมาจารย์"
+
  * @b tr@: "Usta Yardımcı"
 
  * @b uk@: "Помічник-майстер"
@@ -8237,6 +8861,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_MASTER_HELPER = @"BME_HELPER_MAIN_
 
  * @b ar@: "%d نقاط حتى المستوى القادم"
 
+ * @b az@: "Növbəti səviyyəyə qədər %d xal qaldı"
+
  * @b ca@: "%d punts fins al següent nivell"
 
  * @b cs@: "%d bodů do další úrovně"
@@ -8250,6 +8876,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_MASTER_HELPER = @"BME_HELPER_MAIN_
  * @b en@: "%d points until next level"
 
  * @b es@: "%d puntos hasta el siguiente nivel"
+
+ * @b et@: "%d punkti järgmise tasemeni"
 
  * @b fi@: "%d pistettä seuraalle tasolle"
 
@@ -8291,6 +8919,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_MASTER_HELPER = @"BME_HELPER_MAIN_
 
  * @b sv@: "%d poäng till nästa nivå"
 
+ * @b th@: "อีก %d คะแนนจะถึงระดับถัดไป"
+
  * @b tr@: "Sonraki seviyeye %d puan kaldı"
 
  * @b uk@: "%d очок до наступного рівня"
@@ -8315,6 +8945,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION = @"BME_HE
 
  * @b ar@: "تسجيل ناجح"
 
+ * @b az@: "Qeydiyyat uğurlu oldu"
+
  * @b ca@: "Registre exitós"
 
  * @b cs@: "Úspěšná registrace"
@@ -8328,6 +8960,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION = @"BME_HE
  * @b en@: "Successful sign up"
 
  * @b es@: "Registrado con éxito"
+
+ * @b et@: "Edukas liitumine"
 
  * @b fi@: "Onnistunut rekisteröityminen"
 
@@ -8369,6 +9003,8 @@ static NSString * const BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION = @"BME_HE
 
  * @b sv@: "Lyckad registrering"
 
+ * @b th@: "ลงทะเบียนสำเร็จ"
+
  * @b tr@: "Başarıyla kayıt olundu"
 
  * @b uk@: "Успішна реєстрація"
@@ -8393,6 +9029,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION = @"BME_
 
  * @b ar@: "حاوَل المساعدة"
 
+ * @b az@: "Kömək etməyə çalışdıqları"
+
  * @b ca@: "Has intentat ajudar"
 
  * @b cs@: "Pokusit o pomoc"
@@ -8406,6 +9044,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION = @"BME_
  * @b en@: "Attempted to help"
 
  * @b es@: "Intento de asistencia"
+
+ * @b et@: "Abistamiskatse"
 
  * @b fi@: "Yrittänyt auttaa"
 
@@ -8446,6 +9086,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION = @"BME_
  * @b sr@: "Покушао је да помогне"
 
  * @b sv@: "Försökte hjälpa till"
+
+ * @b th@: "ได้พยายามช่วยแล้ว"
 
  * @b tr@: "Yardım etmeye çalıştıkları"
 
@@ -8471,6 +9113,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIP
 
  * @b ar@: "حاوَل المساعدة"
 
+ * @b az@: "Kömək etməyə çalışdıqları"
+
  * @b ca@: "Has intentat ajudar"
 
  * @b cs@: "Pokusit o pomoc"
@@ -8484,6 +9128,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIP
  * @b en@: "Attempted to help"
 
  * @b es@: "Intento de asistencia"
+
+ * @b et@: "Abistamiskatse"
 
  * @b fi@: "Yrittänyt auttaa"
 
@@ -8525,6 +9171,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIP
 
  * @b sv@: "Försökte hjälpa till"
 
+ * @b th@: "ได้พยายามช่วยแล้ว"
+
  * @b tr@: "Yardım etmeye çalıştıkları"
 
  * @b uk@: "Намагався допомогти"
@@ -8549,6 +9197,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNIC
 
  * @b ar@: "ساعَد شخصا أعمى"
 
+ * @b az@: "Bir görmə əngəlli şəxsə kömək edildi"
+
  * @b ca@: "Has ajudat una persona cega"
 
  * @b cs@: "Pomohl nevidomému"
@@ -8562,6 +9212,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNIC
  * @b en@: "Helped a blind person"
 
  * @b es@: "Ayudó a una persona invidente"
+
+ * @b et@: "Aitas nägemispuudega inimest"
 
  * @b fi@: "Auttoi sokeaa henkilöä"
 
@@ -8603,6 +9255,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNIC
 
  * @b sv@: "Hjälpte en blind person"
 
+ * @b th@: "ช่วยผู้พิการทางสายตาแล้ว"
+
  * @b tr@: "Bir görme engelliye yardımcı olundu"
 
  * @b uk@: "Допоміг сліпій людині"
@@ -8627,6 +9281,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESC
 
  * @b ar@: "ساعَد 10 في أسبوع"
 
+ * @b az@: "Bir həftədə 10 şəxsə kömək edildi"
+
  * @b ca@: "Has ajudat a 10 en una setmana"
 
  * @b cs@: "Pomáhl 10 za týden"
@@ -8640,6 +9296,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESC
  * @b en@: "Helped 10 in a week"
 
  * @b es@: "Asistió a 10 en una semana"
+
+ * @b et@: "Nädalaga 10 aitamist"
 
  * @b fi@: "Auttoi 10 viikossa"
 
@@ -8681,6 +9339,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESC
 
  * @b sv@: "Hjälpt 10 på en vecka"
 
+ * @b th@: "ช่วย 10 ครั้งในหนึ่งสัปดาห์แล้ว"
+
  * @b tr@: "Bir haftada 10 kişiye yardım edildi"
 
  * @b uk@: "Допоміг 10 людям за тиждень"
@@ -8705,6 +9365,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_
 
  * @b ar@: "5 تحايا في أسبوع"
 
+ * @b az@: "Bu həftə ərzində 5 əl"
+
  * @b ca@: "5 chocs de mans en una setmana"
 
  * @b cs@: "5 dej na to v týdnu"
@@ -8718,6 +9380,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_
  * @b en@: "5 high fives in week"
 
  * @b es@: "5 choques de mano en una semana"
+
+ * @b et@: "5 tänamist nädalaga"
 
  * @b fi@: "5 high fives viikossa"
 
@@ -8755,6 +9419,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_
 
  * @b sv@: "5 high fives i veckan"
 
+ * @b th@: "5 ดาวในหนึ่งสัปดาห์"
+
  * @b tr@: "Bu hafta 5 defa Çak! yapıldı"
 
  * @b ur@: "ہفتے میں 5 ہائی فائیوز"
@@ -8777,6 +9443,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WE
 
  * @b ar@: "مشارَك على تويتر"
 
+ * @b az@: "Twitter'də paylaşıldı"
+
  * @b ca@: "Compartit a Twitter"
 
  * @b cs@: "Sdílel na Twitteru"
@@ -8790,6 +9458,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WE
  * @b en@: "Shared on Twitter"
 
  * @b es@: "Compartido en Twitter"
+
+ * @b et@: "Jagatud Twitteris"
 
  * @b fi@: "Jaettu Twitterissä"
 
@@ -8831,6 +9501,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WE
 
  * @b sv@: "Delat på Twitter"
 
+ * @b th@: "แชร์บนทวิตเตอร์"
+
  * @b tr@: "Twitter'da paylaşıldı"
 
  * @b uk@: "Розповів у Twitter"
@@ -8855,6 +9527,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTIO
 
  * @b ar@: "مشارَك على فيسبوك"
 
+ * @b az@: "Facebook'da paylaşıldı"
+
  * @b ca@: "Compartit a Facebook"
 
  * @b cs@: "Sdílel na Facebooku"
@@ -8868,6 +9542,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTIO
  * @b en@: "Shared on Facebook"
 
  * @b es@: "Compartido en Facebook"
+
+ * @b et@: "Jagatud Facebookis"
 
  * @b fi@: "Jaettu Facebookissa"
 
@@ -8909,6 +9585,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTIO
 
  * @b sv@: "Delat på Facebook"
 
+ * @b th@: "แชร์บนเฟซบุ๊ก"
+
  * @b tr@: "Facebook'da paylaşıldı"
 
  * @b uk@: "Розповів у Facebook"
@@ -8933,6 +9611,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTI
 
  * @b ar@: "فيديو مشاهَد"
 
+ * @b az@: "Baxılmış video"
+
  * @b ca@: "Vídeo vist"
 
  * @b cs@: "Sledoval video"
@@ -8946,6 +9626,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTI
  * @b en@: "Watched video"
 
  * @b es@: "Vio un video"
+
+ * @b et@: "Vaadatud videot"
 
  * @b fi@: "Katsottu video"
 
@@ -8987,6 +9669,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTI
 
  * @b sv@: "Tittat på video"
 
+ * @b th@: "ได้ดูวิดีโอแล้ว"
+
  * @b tr@: "İzlenen video"
 
  * @b uk@: "Подивився відео"
@@ -9011,6 +9695,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
 
  * @b ar@: "تم اختبار الاتصال."
 
+ * @b az@: "Test zəngi edildi"
+
  * @b ca@: "Made test call"
 
  * @b cs@: "Made test call"
@@ -9024,6 +9710,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
  * @b en@: "Made test call"
 
  * @b es@: "Hacer llamada de prueba"
+
+ * @b et@: "Made test call"
 
  * @b fi@: "Testipuhelu tehty"
 
@@ -9065,6 +9753,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION = @
 
  * @b sv@: "Gjorde försökssamtal"
 
+ * @b th@: "โทรทดสอบแล้ว"
+
  * @b tr@: "Test çağrısı yapıldı"
 
  * @b uk@: "Made test call"
@@ -9089,6 +9779,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION 
 
  * @b ar@: "شارِك على تويتر"
 
+ * @b az@: "Twitter'də paylaş"
+
  * @b ca@: "Comparteix a Twitter"
 
  * @b cs@: "Sdílet na Twitteru"
@@ -9102,6 +9794,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION 
  * @b en@: "Share on Twitter"
 
  * @b es@: "Compartir en Twitter"
+
+ * @b et@: "Jaga Twitteris"
 
  * @b fi@: "Jaa Twitterissä"
 
@@ -9143,6 +9837,8 @@ static NSString * const BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION 
 
  * @b sv@: "Dela på Twitter"
 
+ * @b th@: "แชร์บนทวิตเตอร์"
+
  * @b tr@: "Twitter'da paylaş"
 
  * @b uk@: "Розповісти у Twitter"
@@ -9167,6 +9863,8 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION = @"BM
 
  * @b ar@: "شارِك على فيسبوك"
 
+ * @b az@: "Facebook'da paylaş"
+
  * @b ca@: "Comparteix a Facebook"
 
  * @b cs@: "Sdílet na Facebooku"
@@ -9180,6 +9878,8 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION = @"BM
  * @b en@: "Share on Facebook"
 
  * @b es@: "Compartir en Facebook"
+
+ * @b et@: "Jaga Facebookis"
 
  * @b fi@: "Jaa Facebookissa"
 
@@ -9221,6 +9921,8 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION = @"BM
 
  * @b sv@: "Dela på Facebook"
 
+ * @b th@: "แชร์บนเฟซบุ๊ก"
+
  * @b tr@: "Facebook'ta Paylaş"
 
  * @b uk@: "Поділитись у Facebook"
@@ -9245,6 +9947,8 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION = @"B
 
  * @b ar@: "شاهِد فيديو"
 
+ * @b az@: "Videoya bax"
+
  * @b ca@: "Veure el vídeo"
 
  * @b cs@: "Přehrát video"
@@ -9258,6 +9962,8 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION = @"B
  * @b en@: "Watch video"
 
  * @b es@: "Ver vídeo"
+
+ * @b et@: "Vaata videot"
 
  * @b fi@: "Katso video"
 
@@ -9299,6 +10005,8 @@ static NSString * const BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION = @"B
 
  * @b sv@: "Titta på video"
 
+ * @b th@: "ดูวิดีโอ"
+
  * @b tr@: "Video izle"
 
  * @b uk@: "Переглянути відео"
@@ -9323,6 +10031,8 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
 
  * @b ar@: "تم اختبار الاتصال."
 
+ * @b az@: "Test zəngi edin"
+
  * @b ca@: "Make test call"
 
  * @b cs@: "Make test call"
@@ -9336,6 +10046,8 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
  * @b en@: "Make test call"
 
  * @b es@: "Hacer llamada de prueba"
+
+ * @b et@: "Make test call"
 
  * @b fi@: "Tee testipuhelu"
 
@@ -9377,6 +10089,8 @@ static NSString * const BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION = @"BME_HEL
 
  * @b sv@: "Gör försökssamtal"
 
+ * @b th@: "ทดสอบการโทร"
+
  * @b tr@: "Test çağrısı yap"
 
  * @b uk@: "Make test call"
@@ -9401,6 +10115,8 @@ static NSString * const BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION = @"BME_
 
  * @b ar@: "شبكة Be My Eyes"
 
+ * @b az@: "Be My Eyes Şəbəkəsi"
+
  * @b ca@: "La xarxa Be My Eyes"
 
  * @b cs@: "Síť Be My Eyes"
@@ -9414,6 +10130,8 @@ static NSString * const BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION = @"BME_
  * @b en@: "The Be My Eyes Network"
 
  * @b es@: "La Red Be My Eyes"
+
+ * @b et@: "Be My Eyes võrgustik"
 
  * @b fi@: "Be My Eyes Verkosto"
 
@@ -9455,6 +10173,8 @@ static NSString * const BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION = @"BME_
 
  * @b sv@: "Be My Eyes-nätverket"
 
+ * @b th@: "เครือข่ายของ Be My Eyes"
+
  * @b tr@: "Be My Eyes Ağı"
 
  * @b uk@: "Мережа Be My Eyes"
@@ -9479,6 +10199,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION = @"BME_HE
 
  * @b ar@: "مبصر"
 
+ * @b az@: "Gördü"
+
  * @b ca@: "Vidents"
 
  * @b cs@: "Vidíci "
@@ -9492,6 +10214,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION = @"BME_HE
  * @b en@: "Sighted"
 
  * @b es@: "Videntes"
+
+ * @b et@: "Nägijaid"
 
  * @b fi@: "Näkevä"
 
@@ -9533,6 +10257,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION = @"BME_HE
 
  * @b sv@: "Seende"
 
+ * @b th@: "ผู้มีสายตาปกติ"
+
  * @b tr@: "Görüldü"
 
  * @b uk@: "Зрячий"
@@ -9557,6 +10283,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED = @"BME_HELPER
 
  * @b ar@: "أعمى"
 
+ * @b az@: "Görmə Əngəlli"
+
  * @b ca@: "Cec"
 
  * @b cs@: "Nevidomý"
@@ -9570,6 +10298,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED = @"BME_HELPER
  * @b en@: "Blind"
 
  * @b es@: "Invidente"
+
+ * @b et@: "Pime"
 
  * @b fi@: "Sokea"
 
@@ -9611,6 +10341,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED = @"BME_HELPER
 
  * @b sv@: "Blind"
 
+ * @b th@: "ผู้พิการทางสายตา"
+
  * @b tr@: "Görme Engelli"
 
  * @b uk@: "Сліпий"
@@ -9635,6 +10367,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND = @"BME_HELPER_M
 
  * @b ar@: "تمت مساعَدته"
 
+ * @b az@: "Kömək edildi"
+
  * @b ca@: "Ajudats"
 
  * @b cs@: "Pomohl"
@@ -9648,6 +10382,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND = @"BME_HELPER_M
  * @b en@: "Helped"
 
  * @b es@: "Asistidos"
+
+ * @b et@: "Aidatud"
 
  * @b fi@: "Auttoi"
 
@@ -9689,6 +10425,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND = @"BME_HELPER_M
 
  * @b sv@: "Hjälpta"
 
+ * @b th@: "ช่วยแล้ว"
+
  * @b tr@: "Yardım edildi"
 
  * @b uk@: "Допомогли"
@@ -9713,6 +10451,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED = @"BME_HELPER_
 
  * @b ar@: "لا يمكن تحميل النقطة"
 
+ * @b az@: "Xal yüklənə bilmədi"
+
  * @b ca@: "No s'ha pogut carregar el punt"
 
  * @b cs@: "Nelze načíst bod"
@@ -9726,6 +10466,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED = @"BME_HELPER_
  * @b en@: "Could not load point"
 
  * @b es@: "No se pudo cargar el puntos"
+
+ * @b et@: "Ei suutnud punkte laadida"
 
  * @b fi@: "Kohtaa ei voitu ladata"
 
@@ -9767,6 +10509,8 @@ static NSString * const BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED = @"BME_HELPER_
 
  * @b sv@: "Kunde inte ladda poäng"
 
+ * @b th@: "ไม่สามารถโหลดคะแนน"
+
  * @b tr@: "Puan yüklenemedi"
 
  * @b uk@: "Не вдалося завантажити пункти"
@@ -9791,6 +10535,8 @@ static NSString * const BME_HELPER_MAIN_LOADING_POINT_FAILED = @"BME_HELPER_MAIN
 
  * @b ar@: "إعادة المحاولة"
 
+ * @b az@: "Yenidən cəhd edin"
+
  * @b ca@: "Reintentar"
 
  * @b cs@: "Zkusit znovu"
@@ -9804,6 +10550,8 @@ static NSString * const BME_HELPER_MAIN_LOADING_POINT_FAILED = @"BME_HELPER_MAIN
  * @b en@: "Retry"
 
  * @b es@: "Reintentar"
+
+ * @b et@: "Proovi Uuesti"
 
  * @b fi@: "Yritä uudelleen"
 
@@ -9845,6 +10593,8 @@ static NSString * const BME_HELPER_MAIN_LOADING_POINT_FAILED = @"BME_HELPER_MAIN
 
  * @b sv@: "Försök igen"
 
+ * @b th@: "ลองอีกครั้ง"
+
  * @b tr@: "Tekrar dene"
 
  * @b uk@: "Спробувати знову"
@@ -9869,6 +10619,8 @@ static NSString * const BME_HELPER_MAIN_RETRY_LOADING_POINT = @"BME_HELPER_MAIN_
 
  * @b ar@: "أنت نشط حاليا"
 
+ * @b az@: "İndi aktivsiniz"
+
  * @b ca@: "Actualment ets actiu"
 
  * @b cs@: "Ste aktívny"
@@ -9882,6 +10634,8 @@ static NSString * const BME_HELPER_MAIN_RETRY_LOADING_POINT = @"BME_HELPER_MAIN_
  * @b en@: "You are currently active"
 
  * @b es@: "Estás activo actualmente"
+
+ * @b et@: "Oled hetkel aktiivne"
 
  * @b fi@: "Olet tällä hetkellä aktiivinen"
 
@@ -9923,6 +10677,8 @@ static NSString * const BME_HELPER_MAIN_RETRY_LOADING_POINT = @"BME_HELPER_MAIN_
 
  * @b sv@: "Du är aktiv"
 
+ * @b th@: "คุณมีการใช้งานอยู่ในปัจจุบัน"
+
  * @b tr@: "Şu anda etkinsiniz"
 
  * @b uk@: "Ви зараз активні"
@@ -9947,6 +10703,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
 
  * @b ar@: "اخد جديد"
 
+ * @b az@: "Yenisini çəkin"
+
  * @b ca@: "Take new"
 
  * @b cs@: "Take new"
@@ -9960,6 +10718,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
  * @b en@: "Take new"
 
  * @b es@: "Tomar nueva"
+
+ * @b et@: "Take new"
 
  * @b fi@: "Ota uusi"
 
@@ -10001,6 +10761,8 @@ static NSString * const BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT = @"BME_
 
  * @b sv@: "Ta nytt"
 
+ * @b th@: "ถ่ายใหม่"
+
  * @b tr@: "Yeni al"
 
  * @b uk@: "Take new"
@@ -10025,6 +10787,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
 
  * @b ar@: "اختيار صوره"
 
+ * @b az@: "Mövcud olanı seç"
+
  * @b ca@: "Choose existing"
 
  * @b cs@: "Choose existing"
@@ -10038,6 +10802,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
  * @b en@: "Choose existing"
 
  * @b es@: "Elegir existente"
+
+ * @b et@: "Choose existing"
 
  * @b fi@: "Vailtse olemassaoleva"
 
@@ -10079,6 +10845,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW = @"BME_HELPER_MA
 
  * @b sv@: "Välj befintligt"
 
+ * @b th@: "เลือกรายการที่มีอยู่"
+
  * @b tr@: "Varolanı seç"
 
  * @b uk@: "Choose existing"
@@ -10103,6 +10871,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b ar@: "إضافة صوره شخصية"
 
+ * @b az@: "Profil fotoşəkli əlavə et"
+
  * @b ca@: "Add profile photo"
 
  * @b cs@: "Add profile photo"
@@ -10116,6 +10886,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
  * @b en@: "Add profile photo"
 
  * @b es@: "Añadir foto de perfil"
+
+ * @b et@: "Add profile photo"
 
  * @b fi@: "Lisää profiilikuva"
 
@@ -10157,6 +10929,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING = @"BME_HE
 
  * @b sv@: "Lägg till profilbild"
 
+ * @b th@: "เพิ่มรูปโปรไฟล์"
+
  * @b tr@: "Profil fotoğrafı ekle"
 
  * @b uk@: "Add profile photo"
@@ -10181,6 +10955,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE = @"BME
 
  * @b ar@: "مُختار"
 
+ * @b az@: "Seçilib"
+
  * @b ca@: "Seleccionat"
 
  * @b cs@: "Vybráno"
@@ -10194,6 +10970,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE = @"BME
  * @b en@: "Selected"
 
  * @b es@: "Seleccionado"
+
+ * @b et@: "Valitud"
 
  * @b fi@: "Valittu"
 
@@ -10235,6 +11013,8 @@ static NSString * const BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE = @"BME
 
  * @b sv@: "Vald"
 
+ * @b th@: "เลือก"
+
  * @b tr@: "Seçili"
 
  * @b uk@: "Вибрані"
@@ -10259,6 +11039,8 @@ static NSString * const BME_INTERFACE_CONTROL_STATE_SELECTED = @"BME_INTERFACE_C
 
  * @b ar@: "اللغات الخاصة بك"
 
+ * @b az@: "Dilləriniz"
+
  * @b ca@: "Llengües"
 
  * @b cs@: "Jazyky"
@@ -10272,6 +11054,8 @@ static NSString * const BME_INTERFACE_CONTROL_STATE_SELECTED = @"BME_INTERFACE_C
  * @b en@: "Your Languages"
 
  * @b es@: "Tus idiomas"
+
+ * @b et@: "Sinu keeled"
 
  * @b fi@: "Kielesi"
 
@@ -10313,6 +11097,8 @@ static NSString * const BME_INTERFACE_CONTROL_STATE_SELECTED = @"BME_INTERFACE_C
 
  * @b sv@: "Dina språk"
 
+ * @b th@: "ภาษาของคุณ"
+
  * @b tr@: "Bildiğiniz diller"
 
  * @b uk@: "Ваші мови"
@@ -10337,6 +11123,8 @@ static NSString * const BME_LANGUAGES_TITLE = @"BME_LANGUAGES_TITLE";
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -10350,6 +11138,8 @@ static NSString * const BME_LANGUAGES_TITLE = @"BME_LANGUAGES_TITLE";
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -10391,6 +11181,8 @@ static NSString * const BME_LANGUAGES_TITLE = @"BME_LANGUAGES_TITLE";
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -10415,6 +11207,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL = @"BME_LANGUA
 
  * @b ar@: "لا يمكن حفظ اللغة. يرجى المحاولة مجددا لاحقا."
 
+ * @b az@: "Dillər saxlanılmadı. Zəhmət olmasa yenidən cəhd edin."
+
  * @b ca@: "Les llengües no s'han pogut desar. Si us plau, intenta-ho més tard."
 
  * @b cs@: "Jazyky nelze uložit. Opakujte akci později."
@@ -10428,6 +11222,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL = @"BME_LANGUA
  * @b en@: "The languages could not be saved. Please try again later."
 
  * @b es@: "Los idiomas no se han podido guardar. Por favor, inténtalo de nuevo más tarde."
+
+ * @b et@: "Keeli ei saanud hetkel salvestada. Palun proovi hiljem uuesti."
 
  * @b fi@: "Kieliä ei voitu tallentaa. Yritä myöhemmin uudelleen."
 
@@ -10469,6 +11265,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_CANCEL = @"BME_LANGUA
 
  * @b sv@: "Språken kunde inte sparas. Vänligen försök igen senare."
 
+ * @b th@: "ภาษาไม่สามารถถูกบันทึก กรุณาลองใหม่ในภายหลัง"
+
  * @b tr@: "Bildiğiniz diller kaydedilemedi. Lütfen daha sonra tekrar deneyin."
 
  * @b uk@: "Не вдалося зберегти обрані мови. Будь ласка, спробуйте ще раз пізніше."
@@ -10493,6 +11291,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE = @"BME_LANGU
 
  * @b ar@: "لا يمكن الحفظ"
 
+ * @b az@: "Saxlanılmadı"
+
  * @b ca@: "No s'ha pogut desar"
 
  * @b cs@: "Nelze uložit"
@@ -10506,6 +11306,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE = @"BME_LANGU
  * @b en@: "Could not save"
 
  * @b es@: "No se pudo guardar"
+
+ * @b et@: "Ei saanud salvestada"
 
  * @b fi@: "Tallentaminen ei onnistunut"
 
@@ -10547,6 +11349,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_MESSAGE = @"BME_LANGU
 
  * @b sv@: "Kunde inte spara"
 
+ * @b th@: "ไม่สามารถบันทึก"
+
  * @b tr@: "Kaydedilemedi"
 
  * @b uk@: "Не вдалося зберегти"
@@ -10571,6 +11375,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b ar@: "ليس ليديك اي لغة محددة\n"
 
+ * @b az@: "Dil seçməmisiniz"
+
  * @b ca@: "You have no languages selected"
 
  * @b cs@: "You have no languages selected"
@@ -10584,6 +11390,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
  * @b en@: "You have no languages selected"
 
  * @b es@: "No has seleccionado ningún idioma"
+
+ * @b et@: "You have no languages selected"
 
  * @b fi@: "Et ole valinnut yhtäkään kieltä"
 
@@ -10625,6 +11433,8 @@ static NSString * const BME_LANGUAGES_ALERT_COULD_NOT_SAVE_TITLE = @"BME_LANGUAG
 
  * @b sv@: "Du har inte valt något språk"
 
+ * @b th@: "คุณไม่ได้เลือกภาษา"
+
  * @b tr@: "Bir dil seçmediniz"
 
  * @b uk@: "You have no languages selected"
@@ -10649,6 +11459,8 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
 
  * @b ar@: "هل انت متاكد من انك تريد المتابعة؟"
 
+ * @b az@: "Davam etmək istədiyinizə əminsiniz?"
+
  * @b ca@: "Are you sure you want to proceed?"
 
  * @b cs@: "Are you sure you want to proceed?"
@@ -10662,6 +11474,8 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
  * @b en@: "Are you sure you want to proceed?"
 
  * @b es@: "¿Estás seguro de que desea continuar?"
+
+ * @b et@: "Are you sure you want to proceed?"
 
  * @b fi@: "Haluatko varmasti jatkaa?"
 
@@ -10703,6 +11517,8 @@ static NSString * const BME_LANGUAGES_ALERT_NO_LANGS_SELECTED = @"BME_LANGUAGES_
 
  * @b sv@: "Är du säker på att du vill fortsätta?"
 
+ * @b th@: "คุณต้องการดำเนินการต่อหรือไม่"
+
  * @b tr@: "Devam etmek istediğinizden emin misiniz?"
 
  * @b uk@: "Are you sure you want to proceed?"
@@ -10727,6 +11543,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
 
  * @b ar@: "نعم"
 
+ * @b az@: "Bəli"
+
  * @b ca@: "Yes"
 
  * @b cs@: "Yes"
@@ -10740,6 +11558,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
  * @b en@: "Yes"
 
  * @b es@: "Sí"
+
+ * @b et@: "Yes"
 
  * @b fi@: "Kyllä"
 
@@ -10781,6 +11601,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION = @"BME_LANGUAGES_A
 
  * @b sv@: "Ja"
 
+ * @b th@: "ใช่"
+
  * @b tr@: "Evet"
 
  * @b uk@: "Yes"
@@ -10805,6 +11627,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_
 
  * @b ar@: "لا"
 
+ * @b az@: "Xeyr"
+
  * @b ca@: "No"
 
  * @b cs@: "Ne"
@@ -10818,6 +11642,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_
  * @b en@: "No"
 
  * @b es@: "No"
+
+ * @b et@: "Ei"
 
  * @b fi@: "Ei"
 
@@ -10859,6 +11685,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_YES = @"BME_
 
  * @b sv@: "Nej"
 
+ * @b th@: "ไม่"
+
  * @b tr@: "Hayır"
 
  * @b uk@: "Ні"
@@ -10883,6 +11711,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_L
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -10896,6 +11726,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_L
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -10937,6 +11769,8 @@ static NSString * const BME_LANGUAGES_ALERT_PROCEED_QUESTION_ANSWER_NO = @"BME_L
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -10961,6 +11795,8 @@ static NSString * const BME_LOGIN_BACK = @"BME_LOGIN_BACK";
 
  * @b ar@: "البريد الإلكتروني"
 
+ * @b az@: "E-poçt"
+
  * @b ca@: "E-mail"
 
  * @b cs@: "E-mail"
@@ -10974,6 +11810,8 @@ static NSString * const BME_LOGIN_BACK = @"BME_LOGIN_BACK";
  * @b en@: "E-mail"
 
  * @b es@: "Correo electrónico"
+
+ * @b et@: "E-posti aadress"
 
  * @b fi@: "Sähköposti"
 
@@ -11013,6 +11851,8 @@ static NSString * const BME_LOGIN_BACK = @"BME_LOGIN_BACK";
 
  * @b sv@: "E-post"
 
+ * @b th@: "อีเมล"
+
  * @b tr@: "E-posta"
 
  * @b uk@: "Електронна пошта"
@@ -11037,6 +11877,8 @@ static NSString * const BME_LOGIN_EMAIL_PLACEHOLDER = @"BME_LOGIN_EMAIL_PLACEHOL
 
  * @b ar@: "كلمة المرور"
 
+ * @b az@: "Şifrə"
+
  * @b ca@: "Contrasenya"
 
  * @b cs@: "Heslo"
@@ -11050,6 +11892,8 @@ static NSString * const BME_LOGIN_EMAIL_PLACEHOLDER = @"BME_LOGIN_EMAIL_PLACEHOL
  * @b en@: "Password"
 
  * @b es@: "Contraseña"
+
+ * @b et@: "salasõna"
 
  * @b fi@: "Salasana"
 
@@ -11091,6 +11935,8 @@ static NSString * const BME_LOGIN_EMAIL_PLACEHOLDER = @"BME_LOGIN_EMAIL_PLACEHOL
 
  * @b sv@: "Lösenord"
 
+ * @b th@: "รหัสผ่าน"
+
  * @b tr@: "Şifre"
 
  * @b uk@: "Пароль"
@@ -11115,6 +11961,8 @@ static NSString * const BME_LOGIN_PASSWORD_PLACEHOLDER = @"BME_LOGIN_PASSWORD_PL
 
  * @b ar@: "تسجيل الدخول"
 
+ * @b az@: "Giriş"
+
  * @b ca@: "Entra"
 
  * @b cs@: "Přihlášení"
@@ -11128,6 +11976,8 @@ static NSString * const BME_LOGIN_PASSWORD_PLACEHOLDER = @"BME_LOGIN_PASSWORD_PL
  * @b en@: "Log in"
 
  * @b es@: "Iniciar sesión"
+
+ * @b et@: "Logi sisse"
 
  * @b fi@: "Kirjaudu sisään"
 
@@ -11169,6 +12019,8 @@ static NSString * const BME_LOGIN_PASSWORD_PLACEHOLDER = @"BME_LOGIN_PASSWORD_PL
 
  * @b sv@: "Logga in"
 
+ * @b th@: "ล็อคอิน"
+
  * @b tr@: "Oturum aç"
 
  * @b uk@: "Увійти"
@@ -11193,6 +12045,8 @@ static NSString * const BME_LOGIN_PERFORM_LOG_IN = @"BME_LOGIN_PERFORM_LOG_IN";
 
  * @b ar@: "تسجيل دخول باستخدام فيسبوك"
 
+ * @b az@: "Facebook ilə giriş et"
+
  * @b ca@: "Entra amb Facebook"
 
  * @b cs@: "Přihlásit se přes Facebook"
@@ -11206,6 +12060,8 @@ static NSString * const BME_LOGIN_PERFORM_LOG_IN = @"BME_LOGIN_PERFORM_LOG_IN";
  * @b en@: "Log in with Facebook"
 
  * @b es@: "Iniciar sesión con Facebook"
+
+ * @b et@: "Logi sisse Facebookiga"
 
  * @b fi@: "Kirjaudu käyttäen Facebookia"
 
@@ -11247,6 +12103,8 @@ static NSString * const BME_LOGIN_PERFORM_LOG_IN = @"BME_LOGIN_PERFORM_LOG_IN";
 
  * @b sv@: "Logga in med Facebook"
 
+ * @b th@: "ล็อคอินด้วยเฟซบุ๊ก"
+
  * @b tr@: "Facebook ile oturum aç"
 
  * @b uk@: "Увійти через Facebook"
@@ -11271,6 +12129,8 @@ static NSString * const BME_LOGIN_FACEBOOK = @"BME_LOGIN_FACEBOOK";
 
  * @b ar@: "نسيت كلمة المرور"
 
+ * @b az@: "Şifrəmi unutdum"
+
  * @b ca@: "Contrasenya oblidada"
 
  * @b cs@: "Zapomenuté heslo"
@@ -11284,6 +12144,8 @@ static NSString * const BME_LOGIN_FACEBOOK = @"BME_LOGIN_FACEBOOK";
  * @b en@: "Forgot password"
 
  * @b es@: "¿Olvidó su contraseña?"
+
+ * @b et@: "Unustatud salasõna"
 
  * @b fi@: "Unohtuiko salasana"
 
@@ -11325,6 +12187,8 @@ static NSString * const BME_LOGIN_FACEBOOK = @"BME_LOGIN_FACEBOOK";
 
  * @b sv@: "Glömt lösenord"
 
+ * @b th@: "ลืมรหัสผ่าน"
+
  * @b tr@: "Şifremi unuttum"
 
  * @b uk@: "Нагадати пароль"
@@ -11349,6 +12213,8 @@ static NSString * const BME_LOGIN_FORGOT_PASSWORD = @"BME_LOGIN_FORGOT_PASSWORD"
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -11362,6 +12228,8 @@ static NSString * const BME_LOGIN_FORGOT_PASSWORD = @"BME_LOGIN_FORGOT_PASSWORD"
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -11403,6 +12271,8 @@ static NSString * const BME_LOGIN_FORGOT_PASSWORD = @"BME_LOGIN_FORGOT_PASSWORD"
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -11427,6 +12297,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL = @"BME_LO
 
  * @b ar@: "يرجى التأكد أن لديك اتصال فعّال بالإنترنت والمحاولة مجددا."
 
+ * @b az@: "Zəhmət olmasa aktiv internet bağlantınızın olduğunu təsdiqləyib yenidən cəhd edin."
+
  * @b ca@: "Si us plau verifica que tens una connexió activa a internet i prova-ho una altra vegada."
 
  * @b cs@: "Ověřte, že máte aktivní připojení k internetu a opakujte akci."
@@ -11440,6 +12312,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL = @"BME_LO
  * @b en@: "Please verify that you have an active internet connection and try again."
 
  * @b es@: "Por favor verifique que tiene una conexión activa a internet e inténtelo de nuevo."
+
+ * @b et@: "Veendu, et internetiühendus on olemas ja proovi uuesti."
 
  * @b fi@: "Varmista, että sinulla on toimiva internet-yhteys ja yritä uudelleen."
 
@@ -11481,6 +12355,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL = @"BME_LO
 
  * @b sv@: "Vänligen kontrollera din internetanslutning och försök igen."
 
+ * @b th@: "โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ตและลองอีกครั้ง."
+
  * @b tr@: "Lütfen etkin bir internet bağlantınız olduğunu doğrulayın ve tekrar deneyin."
 
  * @b uk@: "Будь ласка перевірте, чи є підключення до Інтернету і повторіть спробу."
@@ -11505,6 +12381,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE = @"BME_L
 
  * @b ar@: "حدث خطأ ما"
 
+ * @b az@: "Xəta baş verdi"
+
  * @b ca@: "S'ha produït un error"
 
  * @b cs@: "Došlo k chybě"
@@ -11518,6 +12396,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE = @"BME_L
  * @b en@: "An error occurred"
 
  * @b es@: "Se ha producido un error"
+
+ * @b et@: "Juhtus viga"
 
  * @b fi@: "On tapahtunut virhe"
 
@@ -11559,6 +12439,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE = @"BME_L
 
  * @b sv@: "Ett fel uppstod"
 
+ * @b th@: "เกิดข้อผิดพลาด"
+
  * @b tr@: "Bir hata oluştu"
 
  * @b uk@: "Виникла помилка"
@@ -11583,6 +12465,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_TITLE = @"BME_LOG
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -11596,6 +12480,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_TITLE = @"BME_LOG
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -11637,6 +12523,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_TITLE = @"BME_LOG
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -11661,6 +12549,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_CANCEL = @"BME_LO
 
  * @b ar@: "أنت لم تقم بتسجيل الدخول. يرجى المحاولة مجددا."
 
+ * @b az@: "Giriş edilmədi. Zəhmət olmasa yenidən cəhd edin."
+
  * @b ca@: "No has pogut iniciar sessió. Si us plau, intenta-ho de nou."
 
  * @b cs@: "Nebyl ste přihlášen. Opakujte akci."
@@ -11674,6 +12564,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_CANCEL = @"BME_LO
  * @b en@: "You were not logged in. Please try again."
 
  * @b es@: "La sesión no ha sido iniciada. Por favor vuélvalo a intentar."
+
+ * @b et@: "Sind ei logitud sisse. Palun proovi uuesti."
 
  * @b fi@: "Et ole kirjautunut sisään. Yritä uudelleen."
 
@@ -11715,6 +12607,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_CANCEL = @"BME_LO
 
  * @b sv@: "Inloggningen misslyckades. Försök igen."
 
+ * @b th@: "คุณไม่ได้ทำการล็อคอิน โปรดลองอีกครั้ง."
+
  * @b tr@: "Oturum açılamadı. Lütfen tekrar deneyin."
 
  * @b uk@: "Не вдалося увійти. Будь ласка, спробуйте ще раз."
@@ -11739,6 +12633,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_MESSAGE = @"BME_L
 
  * @b ar@: "لم تقم بتسجيل الدخول"
 
+ * @b az@: "Giriş baş tutmadı"
+
  * @b ca@: "Sessió no iniciada"
 
  * @b cs@: "Nejste přihlášen"
@@ -11752,6 +12648,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_MESSAGE = @"BME_L
  * @b en@: "Not logged in"
 
  * @b es@: "No se ha iniciado sesión"
+
+ * @b et@: "Pole sisse logitud"
 
  * @b fi@: "Et ole kirjautunut"
 
@@ -11793,6 +12691,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_MESSAGE = @"BME_L
 
  * @b sv@: "Inte inloggad"
 
+ * @b th@: "ล็อคอินไม่ได้"
+
  * @b tr@: "Oturum açılmadı"
 
  * @b uk@: "Вхід не здійснено"
@@ -11817,6 +12717,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_TITLE = @"BME_LOG
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -11830,6 +12732,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_TITLE = @"BME_LOG
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -11871,6 +12775,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_TITLE = @"BME_LOG
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -11895,6 +12801,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_CANCEL = @"
 
  * @b ar@: "يجب عليك التسجيل باستخدام حساب فيسبوك الخاص بك قبل أن تتمكن من تسجيل الدخول."
 
+ * @b az@: "Giriş etməmişdən əvvəl Facebook hesabınız ilə qeydiyyatdan keçməlisiniz."
+
  * @b ca@: "Abans d'iniciar sessió has de registrar-te a amb el teu compte de Facebook."
 
  * @b cs@: "Nejprve se musíte přihlásit se svým Facebook účtem předtím, než se můžete přihlásit do aplikace."
@@ -11908,6 +12816,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_CANCEL = @"
  * @b en@: "You must first sign up with your Facebook account before you can log in."
 
  * @b es@: "Debe registrarse con su cuenta de Facebook antes de poder iniciar sesión."
+
+ * @b et@: "Pead enne oma Facebooki konto abil liituma, enne kui saad selle abil sisse logida."
 
  * @b fi@: "Sinun täytyy ensin kirjautua Facebookiin, ennen kuin voi kirjautua sisään."
 
@@ -11949,6 +12859,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_CANCEL = @"
 
  * @b sv@: "Du måste registrera dig med ditt Facebook-konto innan du kan logga in."
 
+ * @b th@: "คุณต้องทำการเชื่อมต่อเฟซบุ๊กของคุณก่อนการล็อคอิน."
+
  * @b tr@: "Oturum açmadan önce Facebook hesabınız ile kayıt olmalısınız."
 
  * @b uk@: "Вам необхідно спочатку зареєструватись з вашого профілю Facebook, перш ніж увійти до системи."
@@ -11973,6 +12885,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_MESSAGE = @
 
  * @b ar@: "الحساب ليس مسجلا"
 
+ * @b az@: "Hesab qeydiyyatda deyil"
+
  * @b ca@: "Compte no registrat"
 
  * @b cs@: "Účet není zaregistrován"
@@ -11986,6 +12900,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_MESSAGE = @
  * @b en@: "Account not registered"
 
  * @b es@: "Cuenta no registrada"
+
+ * @b et@: "Pole kontot"
 
  * @b fi@: "Tiliä ei ole rekisteröity"
 
@@ -12027,6 +12943,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_MESSAGE = @
 
  * @b sv@: "Konto inte registrerat"
 
+ * @b th@: "ชื่อผู้ใช้ไม่ได้มีการลงทะเบียน"
+
  * @b tr@: "Hesap kayıtlı değil"
 
  * @b uk@: "Обліковий запис не зареєстровано"
@@ -12051,6 +12969,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE = @"B
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -12064,6 +12984,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE = @"B
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -12105,6 +13027,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE = @"B
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -12129,6 +13053,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
 
  * @b ar@: "يجب عليك تمكين الوصول لحسابك الخاص بفيسبوك في اعدادات الجهاز."
 
+ * @b az@: "Sistem tənzimləmələrindən Facebook hesabınıza girişi fəallaşdırın."
+
  * @b ca@: "You have to enable access to your Facebook account in system settings."
 
  * @b cs@: "You have to enable access to your Facebook account in system settings."
@@ -12142,6 +13068,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
  * @b en@: "You have to enable access to your Facebook account in system settings."
 
  * @b es@: "Debes permitir el acceso a tu cuenta de Facebook en los ajustes del sistema."
+
+ * @b et@: "You have to enable access to your Facebook account in system settings."
 
  * @b fi@: "Sinun täytyy sallia pääsy Facebook-tilillesi järjestelmäasetuksista."
 
@@ -12183,6 +13111,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK = @"BME_LOGIN_
 
  * @b sv@: "Du måste slå på access till ditt Facebook-konto i systeminställningarna."
 
+ * @b th@: "คุณต้องเปิดการใช้งานการเข้าถึงบัญชีผู้ใช้ Facebook ของคุณในการตั้งค่าระบบ."
+
  * @b tr@: "Sistem ayarlarından Facebook hesabınıza erişimi etkinleştirmeniz gerekmektedir."
 
  * @b uk@: "You have to enable access to your Facebook account in system settings."
@@ -12207,6 +13137,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  * @b ar@: "الوصول غير مسموح"
 
+ * @b az@: "Giriş icazəsizdir"
+
  * @b ca@: "Access not allowed"
 
  * @b cs@: "Access not allowed"
@@ -12220,6 +13152,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
  * @b en@: "Access not allowed"
 
  * @b es@: "Acceso no permitido"
+
+ * @b et@: "Access not allowed"
 
  * @b fi@: "Tilille pääsy ei ole sallittu"
 
@@ -12261,6 +13195,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE = @"BME_L
 
  * @b sv@: "Åtkomst nekad"
 
+ * @b th@: "การเข้าถึงไม่ได้รับอนุญาต"
+
  * @b tr@: "Erişime izin yok"
 
  * @b uk@: "Access not allowed"
@@ -12285,6 +13221,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOG
 
  * @b ar@: "يرجى إدخال كل من البريد الإلكتروني وكلمة المرور"
 
+ * @b az@: "Zəhmət olmasa e-poçtunuzu və şifrənizi daxil edin."
+
  * @b ca@: "Si us plau, reintrodueix l'e-mail i la contrasenya."
 
  * @b cs@: "Prosím, zadejte e-mail a heslo."
@@ -12298,6 +13236,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOG
  * @b en@: "Please enter both e-mail and password."
 
  * @b es@: "Por favor introduzca su correo electrónico y contraseña."
+
+ * @b et@: "Sisesta nii e-postiaadress kui ka salasõna."
 
  * @b fi@: "Kirjoita sähköpostiosoite ja salasana."
 
@@ -12339,6 +13279,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE = @"BME_LOG
 
  * @b sv@: "Vänligen ange både e-post och lösenord."
 
+ * @b th@: "โปรดใส่อีเมล์ และรหัสผ่าน."
+
  * @b tr@: "E-posta adresinizi ve şifrenizi giriniz."
 
  * @b uk@: "Будь ласка, введіть електронну пошту та пароль ще раз."
@@ -12363,6 +13305,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE = @"BME_LOGIN_ALERT_
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -12376,6 +13320,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE = @"BME_LOGIN_ALERT_
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -12417,6 +13363,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE = @"BME_LOGIN_ALERT_
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -12441,6 +13389,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELDS_CANCEL = @"BME_LOGIN_ALERT_
 
  * @b ar@: "خانات فارغة"
 
+ * @b az@: "Boş sahələr"
+
  * @b ca@: "Camps buits"
 
  * @b cs@: "Prázdná pole"
@@ -12454,6 +13404,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELDS_CANCEL = @"BME_LOGIN_ALERT_
  * @b en@: "Empty fields"
 
  * @b es@: "Campos vacíos"
+
+ * @b et@: "Tühjad väljad"
 
  * @b fi@: "Tyhjiä kenttiä"
 
@@ -12495,6 +13447,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELDS_CANCEL = @"BME_LOGIN_ALERT_
 
  * @b sv@: "Tomma fält"
 
+ * @b th@: "ช่องว่าง"
+
  * @b tr@: "Boş alanlar"
 
  * @b uk@: "Пусті поля"
@@ -12519,6 +13473,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELDS_TITLE = @"BME_LOGIN_ALERT_E
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -12532,6 +13488,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELDS_TITLE = @"BME_LOGIN_ALERT_E
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -12573,6 +13531,8 @@ static NSString * const BME_LOGIN_ALERT_EMPTY_FIELDS_TITLE = @"BME_LOGIN_ALERT_E
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -12597,6 +13557,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_CANCEL = @"BME_LOG
 
  * @b ar@: "البريد الإلكتروني المدخل وكلمة المرور المدخلة لا يتطابقان."
 
+ * @b az@: "Daxil edilmiş e-poçt və şifrə uyğunlaşmır."
+
  * @b ca@: "L'e-mail introduït i la contrasenya no coincideixen."
 
  * @b cs@: "Zadaný e-mail a heslo se neshoduje."
@@ -12610,6 +13572,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_CANCEL = @"BME_LOG
  * @b en@: "The entered e-mail and password does not match."
 
  * @b es@: "El correo electrónico y contraseña introducidos no coinciden."
+
+ * @b et@: "Sisestatud e-postiaadress ja salasõna ei sobi."
 
  * @b fi@: "Annettu sähköposti ja salasana ei vastaa."
 
@@ -12651,6 +13615,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_CANCEL = @"BME_LOG
 
  * @b sv@: "Den angivna e-postadressen och lösenordet stämmer inte."
 
+ * @b th@: "ป้อนอีเมล์และรหัสผ่านไม่ตรงกัน"
+
  * @b tr@: "Girilen e-posta ve şifre eşleşmiyor."
 
  * @b uk@: "Введені електронна пошта та пароль не збігаються."
@@ -12675,6 +13641,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE = @"BME_LO
 
  * @b ar@: "اعتمادات خاطئة"
 
+ * @b az@: "Yalnış qeydiyyat məlumatları"
+
  * @b ca@: "Credencials incorrectes"
 
  * @b cs@: "Nesprávne informace"
@@ -12688,6 +13656,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE = @"BME_LO
  * @b en@: "Incorrect credentials"
 
  * @b es@: "Credenciales incorrectas"
+
+ * @b et@: "Sobimatu kasutajainfo"
 
  * @b fi@: "Väärät sisäänkirjautumistiedot"
 
@@ -12729,6 +13699,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE = @"BME_LO
 
  * @b sv@: "Felaktiga uppgifter"
 
+ * @b th@: "ใบรับรองไม่ถูกต้อง"
+
  * @b tr@: "Hatalı kimlik bilgileri"
 
  * @b uk@: "Неправильні облікові дані"
@@ -12753,6 +13725,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE = @"BME_LOGI
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -12766,6 +13740,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE = @"BME_LOGI
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -12807,6 +13783,8 @@ static NSString * const BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE = @"BME_LOGI
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -12831,6 +13809,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL = @"BME
 
  * @b ar@: "يرجى التأكد أن لديك اتصال فعّال بالإنترنت والمحاولة مجددا."
 
+ * @b az@: "Zəhmət olmasa aktiv internet bağlantınızın olduğunu təsdiqləyib yenidən cəhd edin."
+
  * @b ca@: "Si us plau verifica que tens una connexió activa a internet i prova-ho una altra vegada."
 
  * @b cs@: "Ověřte, že máte aktivní připojení k internetu a opakujte akci."
@@ -12844,6 +13824,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL = @"BME
  * @b en@: "Please verify that you have an active internet connection and try again."
 
  * @b es@: "Por favor verifique que tiene una conexión activa a internet e inténtelo de nuevo."
+
+ * @b et@: "Veendu, et internetiühendus on olemas ja proovi uuesti."
 
  * @b fi@: "Varmista, että sinulla on toimiva internet-yhteys ja yritä uudelleen."
 
@@ -12885,6 +13867,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL = @"BME
 
  * @b sv@: "Vänligen kontrollera din internetanslutning och försök igen."
 
+ * @b th@: "โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ตและลองอีกครั้ง."
+
  * @b tr@: "Lütfen etkin bir internet bağlantınız olduğunu doğrulayın ve tekrar deneyin."
 
  * @b uk@: "Будь ласка перевірте, чи є підключення до Інтернету і повторіть спробу."
@@ -12909,6 +13893,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE = @"BM
 
  * @b ar@: "حدث خطأ ما"
 
+ * @b az@: "Xəta baş verdi"
+
  * @b ca@: "S'ha produït un error"
 
  * @b cs@: "Došlo k chybě"
@@ -12922,6 +13908,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE = @"BM
  * @b en@: "An error occurred"
 
  * @b es@: "Se ha producido un error"
+
+ * @b et@: "Juhtus viga"
 
  * @b fi@: "On tapahtunut virhe"
 
@@ -12963,6 +13951,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE = @"BM
 
  * @b sv@: "Ett fel uppstod"
 
+ * @b th@: "เกิดข้อผิดพลาด"
+
  * @b tr@: "Bir hata oluştu"
 
  * @b uk@: "Виникла помилка"
@@ -12987,6 +13977,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE = @"BME_
 
  * @b ar@: "يتم تسجيل الدخول..."
 
+ * @b az@: "Giriş edilir..."
+
  * @b ca@: "Iniciant sessió..."
 
  * @b cs@: "Přihlašování…"
@@ -13000,6 +13992,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE = @"BME_
  * @b en@: "Logging in..."
 
  * @b es@: "Iniciando sesión..."
+
+ * @b et@: "Sisselogimine..."
 
  * @b fi@: "Kirjaudutaan sisään..."
 
@@ -13041,6 +14035,8 @@ static NSString * const BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE = @"BME_
 
  * @b sv@: "Loggar in..."
 
+ * @b th@: "กำลังเข้าสู่ระบบ ..."
+
  * @b tr@: "Oturum açılıyor..."
 
  * @b uk@: "Здійснюється вхід..."
@@ -13065,6 +14061,8 @@ static NSString * const BME_LOGIN_OVERLAY_LOGGING_IN_TITLE = @"BME_LOGIN_OVERLAY
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -13078,6 +14076,8 @@ static NSString * const BME_LOGIN_OVERLAY_LOGGING_IN_TITLE = @"BME_LOGIN_OVERLAY
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -13119,6 +14119,8 @@ static NSString * const BME_LOGIN_OVERLAY_LOGGING_IN_TITLE = @"BME_LOGIN_OVERLAY
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -13143,6 +14145,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL = @"BM
 
  * @b ar@: "لا توجد حسابات فيسبوك على هاتفك. يرجى إضافة حسابك في إعدادات النظام."
 
+ * @b az@: "Cihazda heç bir Facebook hesabı tapılmadı. Zəhmət olmasa sistem tənzimləmələrindən hesabınızı əlavə edin."
+
  * @b ca@: "No s'han trobat comptes de Facebook en el dispositiu. Si us plau afegeixi el vostre compte a la configuració del sistema."
 
  * @b cs@: "Na zařízení nebyly nalezeny žádné účty Facebook. Prosím, přidejte svůj účet v nastavení systému."
@@ -13156,6 +14160,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL = @"BM
  * @b en@: "No Facebook accounts were found on the device. Please add your account in the system settings."
 
  * @b es@: "No se encontró niguna cuenta de Facebook en su dispositivo. Por favor añada su cuenta en ajustes del sistema."
+
+ * @b et@: "Seadmes ei tuvastatud Facebooki kontosid. Palun lisa oma konto süsteemiseadetes."
 
  * @b fi@: "Facebook tilejä ei löytynyt koneesta. Lisää tilisi järjestelmäasetuksiin."
 
@@ -13197,6 +14203,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL = @"BM
 
  * @b sv@: "Inga Facebook-konton hittades på enheten. Lägg till ditt konto under systeminställningar."
 
+ * @b th@: "ไม่พบบัญชี Facebook ในอุปกรณ์นี้. กรุณาเพิ่มบัญชีของคุณในการตั้งค่าระบบ"
+
  * @b tr@: "Cihazda hiçbir Facebook hesabı bulunamadı. Lütfen sistem ayarlarından hesabınızı ekleyin."
 
  * @b uk@: "Облікового записа Facebook не знайдено на пристрої. Будь ласка, додайте ваш обліковий запис в системних налаштуваннях."
@@ -13221,6 +14229,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE = @"B
 
  * @b ar@: "لا يوجد حساب"
 
+ * @b az@: "Heç bir hesab tapılmadı"
+
  * @b ca@: "Cap compte trobat"
 
  * @b cs@: "Žádný účet nenalezen"
@@ -13234,6 +14244,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE = @"B
  * @b en@: "No account found"
 
  * @b es@: "Cuenta no encontrada"
+
+ * @b et@: "Ei leidnud kontot"
 
  * @b fi@: "Tiliä ei löydy"
 
@@ -13275,6 +14287,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE = @"B
 
  * @b sv@: "Inget konto hittades"
 
+ * @b th@: "ไม่พบบัญชี"
+
  * @b tr@: "Hiçbir hesap bulunamadı"
 
  * @b uk@: "Не знайдено облікового запису"
@@ -13299,6 +14313,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE = @"BME
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -13312,6 +14328,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE = @"BME
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -13353,6 +14371,8 @@ static NSString * const BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE = @"BME
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -13377,6 +14397,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
 
  * @b ar@: "لا يمكن التسجيل للتنبيهات عن بعد. وهذا شيء مطلوب لتطبيق Be My Eyes. يرجى التأكد من تفعيل التنبيهات عن بعد في إعدادات النظام والمحاولة مجددا."
 
+ * @b az@: "Uzaqdan bildirişlər üçün qeydiyyat baş tutmadı. Bu, Be My Eyes tətbiqetməsi üçün lazımdır. Zəhmət olmasa sistem tənzimləmələrinizdə uzaqdan bildirişlərin fəallaşdırıldığından əmin olub yenidən cəhd edin."
+
  * @b ca@: "No t'has pogut registrar per a notificacions remotes. Aquestes son necessàries per l'aplicació Be My Eyes. Si us plau, assegura't que tens les notificacions habilitades en la configuració del sistema i torna-ho a provar."
 
  * @b cs@: "Nelze zaregistrovat pro vzdálené upozornění. To je vyžadováno pro aplikaci Be My Eyes. Prosim, ujistite se že máte vzdálené oznámení povoleny v nastavení systému a opakujte akci."
@@ -13390,6 +14412,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
  * @b en@: "Could not register for remote notifications. This is required for the Be My Eyes application. Please ensure that you have remote notifications enabled in your system settings and try again."
 
  * @b es@: "No se pudo registrar para recibir notificaciones remotas. Esto es requerido por la aplicación Be My Eyes. Por favor, asegúrese de que tiene las notificaciones remotas activadas en su sistema y vuelva a intentarlo."
+
+ * @b et@: "Kaugteavitusteks registreerumine nurjus.\nPalun kontrolli, et kaugteavitused on süsteemi seadetes lubatud ja proovi uuesti."
 
  * @b fi@: "Etäilmoituksia ei voitu rekisteröidä. Be My Eyes sovellus edellyttää rekisteröintiä. Varmista , että järjestelmäsi sallii etäilmoitukset ja yritä uudelleen."
 
@@ -13431,6 +14455,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
 
  * @b sv@: "Kunde inte registrera notiser, vilket krävs för Be My Eyes-applikationen. Kontrollera att du har notiser aktiverade under systeminställningar och försök sedan igen."
 
+ * @b th@: "ไม่สามารถลงทะเบียนสำหรับการเเจ้งเตือนระยะไกล นี่เป็นสิ่งจำเป็นสำหรับ Be My Eyes โปรดเเน่ใจว่าคุณได้เปิดการเเจ้งเตือนระยะไกลในการตั้งค่าระบบ และ ลองใหม่อีกครั้ง"
+
  * @b tr@: "Uzaktan bildirimlere kayıt olunamadı. Bu, Be My Eyes uygulaması için gereklidir. Lütfen uzaktan bildirimlerin sistem ayarlarınızda etkin olduğundan emin olun ve tekrar deneyin."
 
  * @b uk@: "Не вдається зареєструвати віддалені сповіщення, необхідні для коректної роботи програми Be My Eyes . Будь ласка, переконайтеся, що сповіщення увімкнені в налаштуваннях системи та повторіть спробу."
@@ -13455,6 +14481,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
 
  * @b ar@: "فشل في تسجيل الدخول"
 
+ * @b az@: "Giriş uğursuz oldu"
+
  * @b ca@: "Error en l’inici de sessió"
 
  * @b cs@: "Přihlášení se nezdařilo"
@@ -13468,6 +14496,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
  * @b en@: "Log in failed"
 
  * @b es@: "No se pudo iniciar sesión"
+
+ * @b et@: "Sisselogimine ebaõnnestus"
 
  * @b fi@: "Kirjautuminen epäonnistui"
 
@@ -13509,6 +14539,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
 
  * @b sv@: "Inloggningen misslyckades"
 
+ * @b th@: "ล็อกอินล้มเหลว"
+
  * @b tr@: "Oturum açma başarısız oldu"
 
  * @b uk@: "Не вдалося увійти"
@@ -13533,6 +14565,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
 
  * @b ar@: "يتم تحميل الطلب..."
 
+ * @b az@: "Sorğu yüklənir..."
+
  * @b ca@: "Carregant sol·licitud..."
 
  * @b cs@: "Načítání požadavku..."
@@ -13546,6 +14580,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
  * @b en@: "Loading request..."
 
  * @b es@: "Cargando solicitud..."
+
+ * @b et@: "Taotluste laadimine..."
 
  * @b fi@: "Pyyntöä ladataan..."
 
@@ -13587,6 +14623,8 @@ static NSString * const BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_
 
  * @b sv@: "Förfrågan laddas..."
 
+ * @b th@: "โหลดคำขอ..."
+
  * @b tr@: "İstek yükleniyor..."
 
  * @b uk@: "Завантажую запит..."
@@ -13611,6 +14649,8 @@ static NSString * const BME_LOGIN_OVERLAY_LOADING_PENDING_REQUEST_TITLE = @"BME_
 
  * @b ar@: "لا"
 
+ * @b az@: "Xeyr"
+
  * @b ca@: "No"
 
  * @b cs@: "Ne"
@@ -13624,6 +14664,8 @@ static NSString * const BME_LOGIN_OVERLAY_LOADING_PENDING_REQUEST_TITLE = @"BME_
  * @b en@: "No"
 
  * @b es@: "No"
+
+ * @b et@: "Ei"
 
  * @b fi@: "Ei"
 
@@ -13665,6 +14707,8 @@ static NSString * const BME_LOGIN_OVERLAY_LOADING_PENDING_REQUEST_TITLE = @"BME_
 
  * @b sv@: "Nej"
 
+ * @b th@: "ไม่"
+
  * @b tr@: "Hayır"
 
  * @b uk@: "Ні"
@@ -13689,6 +14733,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL = @"BME_MAIN_
 
  * @b ar@: "نعم، أنا أعرف"
 
+ * @b az@: "Bəli, bilirəm"
+
  * @b ca@: "Sí, ho he fet"
 
  * @b cs@: "Ano"
@@ -13702,6 +14748,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL = @"BME_MAIN_
  * @b en@: "Yes, I do"
 
  * @b es@: "Si"
+
+ * @b et@: "Jah, oskan"
 
  * @b fi@: "Kyllä"
 
@@ -13743,6 +14791,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL = @"BME_MAIN_
 
  * @b sv@: "Ja, det gör jag"
 
+ * @b th@: "ตกลง ได้เลย"
+
  * @b tr@: "Evet, biliyorum"
 
  * @b uk@: "Так"
@@ -13767,6 +14817,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM = @"BME_MAIN
 
  * @b ar@: "إذا كنت تعرف لغات أكثر فيمكنك اختيارها وكن متشابها مع المساعِد الذي يعرف تلك اللغة أيضا وبذلك تحصل على المساعدة بشكل أسرع."
 
+ * @b az@: "Əgər başqa dil bilirsinizsə bu dilləri seçə bilər və o dildə danışan köməkçiyə bağlanaraq daha tez kömək ala bilərsiniz."
+
  * @b ca@: "Si vostè sap més idiomes, podeu seleccionar-los i seràs aparellat amb un ajudant que conegui aquest idioma i així rebrà ajuda més ràpid."
 
  * @b cs@: "Pokud znáte více jazyků, můžete vybrat ty a být spojen s pomocníkem, který také zná jazyk a tím rychleji získat pomoc."
@@ -13780,6 +14832,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM = @"BME_MAIN
  * @b en@: "If you know more languages you can select those and be matched with a helper who also knows that language thereby receiving help faster."
 
  * @b es@: "Si sabes más idiomas, puedes seleccionarlos y ser emparejado con un ayudante que también conozca ese lenguaje para recibir ayuda más rápidamente."
+
+ * @b et@: "Kui sa oskad rohkem keeli , võid valida ka need, ning kui need sobivad abistaja keelevalikuga, võid nii leida rutem abi."
 
  * @b fi@: "Jos tunnet muita kieliä, voit valita ne ja sinut voidaan yhdistää auttajalle joka tuntee sen kielen ja näin ollen voit saada apua nopeammin."
 
@@ -13821,6 +14875,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM = @"BME_MAIN
 
  * @b sv@: "Om du kan fler språk kan du välja dem och bli matchad med en hjälpare som kan samma språk, och därmed få hjälp snabbare."
 
+ * @b th@: "ถ้าคุณรู้ภาษาอื่นกรุณาเลือกให้เหมาะสมกับคุณ และการจับคู่กับผู้ช่วยเหลือที่รู้ภาษานั้นจะสามารถช่วยเหลือได้เร็วขึ้น"
+
  * @b tr@: "Eğer birden fazla dil biliyorsanız, onları seçebilir ve böylece o dilleri de konuşan bir yardımcıyla eşleştirilerek daha hızlı yardım alabilirsiniz."
 
  * @b uk@: "Якщо ви знаєте більше мов, можете обрати їх і зв'язатися з помічником, який також знає одну з них. Так ви отримаєте допомогу швидше."
@@ -13845,6 +14901,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE = @"BME_MAIN
 
  * @b ar@: "هل تعرف لغات أكثر؟"
 
+ * @b az@: "Başqa dil bilirsən?"
+
  * @b ca@: "Sap més idiomes?"
 
  * @b cs@: "Víte, další jazyky?"
@@ -13858,6 +14916,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE = @"BME_MAIN
  * @b en@: "Do you know more languages?"
 
  * @b es@: "¿Sabes más idiomas?"
+
+ * @b et@: "Kas oskad rohkem keeli?"
 
  * @b fi@: "Osaatko muita kieliä?"
 
@@ -13899,6 +14959,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE = @"BME_MAIN
 
  * @b sv@: "Kan du fler språk?"
 
+ * @b th@: "คุณรู้ภาษาอื่นอีกไหม"
+
  * @b tr@: "Başka bir dil biliyor musunuz?"
 
  * @b uk@: "Ви знаєте більше мов?"
@@ -13923,6 +14985,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE = @"BME_MAIN_A
 
  * @b ar@: "لا"
 
+ * @b az@: "Xeyr"
+
  * @b ca@: "No"
 
  * @b cs@: "Ne"
@@ -13936,6 +15000,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE = @"BME_MAIN_A
  * @b en@: "No"
 
  * @b es@: "No"
+
+ * @b et@: "Ei"
 
  * @b fi@: "Ei"
 
@@ -13977,6 +15043,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE = @"BME_MAIN_A
 
  * @b sv@: "Nej"
 
+ * @b th@: "ไม่"
+
  * @b tr@: "Hayır"
 
  * @b uk@: "Ні"
@@ -14001,6 +15069,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL = @"BME_MAIN
 
  * @b ar@: "نعم، أنا أعرف"
 
+ * @b az@: "Bəli, bilirəm"
+
  * @b ca@: "Sí, ho he fet"
 
  * @b cs@: "Ano"
@@ -14014,6 +15084,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL = @"BME_MAIN
  * @b en@: "Yes, I do"
 
  * @b es@: "Si"
+
+ * @b et@: "Jah, oskan"
 
  * @b fi@: "Kyllä"
 
@@ -14055,6 +15127,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL = @"BME_MAIN
 
  * @b sv@: "Ja, det gör jag"
 
+ * @b th@: "ตกลง ได้เลย"
+
  * @b tr@: "Evet, biliyorum"
 
  * @b uk@: "Так"
@@ -14079,6 +15153,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM = @"BME_MAI
 
  * @b ar@: "إذا كنت تعرف لغات أكثر فيمكنك اختيارها وكن متشابها مع الأشخاص العمي الذين يحتاجون المساعدة بتلك اللغة."
 
+ * @b az@: "Əgər başqa dil bilirsinizsə, onları seçə bilər və o dillərdə köməyə ehtiyacı olan görmə əngəllilərə kömək edə bilərsiniz."
+
  * @b ca@: "Si vostè sap més idiomes, podeu seleccionar-los i seràs aparellat amb els invidents que necessitin ajuda en aquest idioma."
 
  * @b cs@: "Pokud znáte další jazyky, můžete vybrat ty a budete odpovídat  lidém, který potřebují pomoc v daném jazyce."
@@ -14092,6 +15168,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM = @"BME_MAI
  * @b en@: "If you know more languages, you can select those and you will be matched with blind people who needs help in that language."
 
  * @b es@: "Si sabes más idiomas, puedes seleccionarlos y ser emparejado con una persona invidente que necesite ayuda en ese idioma."
+
+ * @b et@: "Kui oskad rohkem keeli, võid valida ka need, ning võid abi pakkuda nägemispuudega inimesele, kes oskab seda valitud keelt."
 
  * @b fi@: "Jos osaat muita kieliä, voit valita ne ja saat autettavaksi sokeita henkilöitä, jotka tarvitsevat apua niillä kielillä."
 
@@ -14133,6 +15211,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM = @"BME_MAI
 
  * @b sv@: "Om du kan fler språk kan du välja dem och bli matchad med en blind som kan dessa språk."
 
+ * @b th@: "ถ้าคุณรู้ภาษาอื่นๆ คุณสามารถเลือกได้ และคุณจะจับคู่กับผู้พิการทางสายตาที่ต้องการความช่วยเหลือในภาษานั้น"
+
  * @b tr@: "Eğer birden fazla dil biliyorsanız, onları seçebilir ve böylece o dillerde de yardıma ihtiyacı olan görme engellilerle eşleştirilebilirsiniz."
 
  * @b uk@: "Якщо ви знаєте більше мов, ви можете обрати їх, і ви будете з'єднані з тими незрячими людьми, хто потребує допомоги на цій мові."
@@ -14157,6 +15237,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE = @"BME_MAI
 
  * @b ar@: "هل تعرف لغات أكثر؟"
 
+ * @b az@: "Başqa dil bilirsən?"
+
  * @b ca@: "Sap més idiomes?"
 
  * @b cs@: "Víte, další jazyky?"
@@ -14170,6 +15252,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE = @"BME_MAI
  * @b en@: "Do you know more languages?"
 
  * @b es@: "¿Sabes más idiomas?"
+
+ * @b et@: "Kas oskad rohkem keeli?"
 
  * @b fi@: "Osaatko muita kieliä?"
 
@@ -14211,6 +15295,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE = @"BME_MAI
 
  * @b sv@: "Kan du fler språk?"
 
+ * @b th@: "คุณรู้ภาษาอื่นอีกไหม"
+
  * @b tr@: "Başka bir dil biliyor musunuz?"
 
  * @b uk@: "Ви знаєте більше мов?"
@@ -14235,6 +15321,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE = @"BME_MAIN_
 
  * @b ar@: "الإعدادات"
 
+ * @b az@: "Tənzimləmələr"
+
  * @b ca@: "Configuració"
 
  * @b cs@: "Nastavení"
@@ -14248,6 +15336,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE = @"BME_MAIN_
  * @b en@: "Settings"
 
  * @b es@: "Ajustes"
+
+ * @b et@: "Seaded"
 
  * @b fi@: "Asetukset"
 
@@ -14289,6 +15379,8 @@ static NSString * const BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE = @"BME_MAIN_
 
  * @b sv@: "Inställningar"
 
+ * @b th@: "ตั้งค่า"
+
  * @b tr@: "Ayarlar"
 
  * @b uk@: "Налаштування"
@@ -14313,6 +15405,8 @@ static NSString * const BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL = @"BME_MAI
 
  * @b ar@: "التنبيهات"
 
+ * @b az@: "Bildirişlər"
+
  * @b ca@: "Notificacions"
 
  * @b cs@: "Oznámení"
@@ -14326,6 +15420,8 @@ static NSString * const BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL = @"BME_MAI
  * @b en@: "Notifications"
 
  * @b es@: "Notificaciones"
+
+ * @b et@: "Teavitused"
 
  * @b fi@: "Ilmoitukset"
 
@@ -14367,6 +15463,8 @@ static NSString * const BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL = @"BME_MAI
 
  * @b sv@: "Notiser"
 
+ * @b th@: "การแจ้งเตือน"
+
  * @b tr@: "Bildirimler"
 
  * @b uk@: "Сповіщення"
@@ -14391,6 +15489,8 @@ static NSString * const BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE = @"BME_MAIN_AL
 
  * @b ar@: "حصل خطأ ما وقد لا تستقبل التنبيهات"
 
+ * @b az@: "Nəsə düz getmir və bildirişləri almaya bilərsiniz"
+
  * @b ca@: "Alguna cosa ha sorit malament i es possible que no rebeu notificacions"
 
  * @b cs@: "Něco se pokazilo a nebudete přijímat oznámení"
@@ -14404,6 +15504,8 @@ static NSString * const BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE = @"BME_MAIN_AL
  * @b en@: "Something went wrong and you might not receive notifications"
 
  * @b es@: "Algo ha fallado y puede que no recibas notificaciones"
+
+ * @b et@: "Miski läks valesti ja sa ei pruugi teavitusi saada"
 
  * @b fi@: "Jotain meni pieleen ja voi olla, että et saa enää ilmoituksia"
 
@@ -14445,6 +15547,8 @@ static NSString * const BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE = @"BME_MAIN_AL
 
  * @b sv@: "Något gick fel till, du kanske inte kan ta emot notiser"
 
+ * @b th@: "มีบางสิ่งผิดพลาด และคุณอาจไม่ได้รับการแจ้งเตือนใดๆ"
+
  * @b tr@: "Bir şeyler ters gitti ve bildirimleri alamayabilirsiniz"
 
  * @b uk@: "Виникла помилка, через яку ви не зможете отримувати сповіщення"
@@ -14469,6 +15573,8 @@ static NSString * const BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE = @"BME_MAIN_
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -14482,6 +15588,8 @@ static NSString * const BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE = @"BME_MAIN_
  * @b en@: "Ok"
 
  * @b es@: "Ok"
+
+ * @b et@: "Ok"
 
  * @b fi@: "OK"
 
@@ -14523,6 +15631,8 @@ static NSString * const BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE = @"BME_MAIN_
 
  * @b sv@: "OK"
 
+ * @b th@: "โอเค"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "Ок"
@@ -14547,6 +15657,8 @@ static NSString * const BME_MAIN_ALERT_CANCEL = @"BME_MAIN_ALERT_CANCEL";
 
  * @b ar@: "خطأ في تسجيل الدخول"
 
+ * @b az@: "Giriş xətası"
+
  * @b ca@: "Error en l'accés"
 
  * @b cs@: "Chyba přihlásení"
@@ -14560,6 +15672,8 @@ static NSString * const BME_MAIN_ALERT_CANCEL = @"BME_MAIN_ALERT_CANCEL";
  * @b en@: "Log in error"
 
  * @b es@: "Error iniciando sesión"
+
+ * @b et@: "Sisselogimistõrge"
 
  * @b fi@: "Kirjautumisvirhe"
 
@@ -14601,6 +15715,8 @@ static NSString * const BME_MAIN_ALERT_CANCEL = @"BME_MAIN_ALERT_CANCEL";
 
  * @b sv@: "Inloggningsfel"
 
+ * @b th@: "ล็อคอินผิดพลาด"
+
  * @b tr@: "Oturum açma hatası"
 
  * @b uk@: "Помилка входу"
@@ -14625,6 +15741,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_TITLE = @"BME_MAIN_ALERT_FO
 
  * @b ar@: "نظرا لحدوث خطأ تقني فسيتم تسجيل خروجك."
 
+ * @b az@: "Texniki xətaya görə çıxış ediləcək."
+
  * @b ca@: "Degut a un error tècnic vostè ha estat desconnectat."
 
  * @b cs@: "Z důvodu technické chyby budete odhlášen"
@@ -14638,6 +15756,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_TITLE = @"BME_MAIN_ALERT_FO
  * @b en@: "Due to a technical error you will be logged out."
 
  * @b es@: "Debido a un error técnico, se cerrará tu sesión."
+
+ * @b et@: "Tehnilise vea tõttu logitakse sind välja."
 
  * @b fi@: "Teknisen virheen vuoksi sinut kirjataan ulos."
 
@@ -14679,6 +15799,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_TITLE = @"BME_MAIN_ALERT_FO
 
  * @b sv@: "På grund av ett tekniskt fel så kommer du att bli utloggad."
 
+ * @b th@: "เนื่องจากมีข้อผิดพลาดทางเทคนิค คุณจึงถูกออกจากระบบ"
+
  * @b tr@: "Teknik bir hata nedeniyle oturumunuz kapatılacak."
 
  * @b uk@: "Виникла технічна помилка, через яку ви втратили зв'язок з системою."
@@ -14703,6 +15825,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE = @"BME_MAIN_ALERT_
 
  * @b ar@: "تسجيل الدخول"
 
+ * @b az@: "Giriş"
+
  * @b ca@: "Entra"
 
  * @b cs@: "Přihlášení"
@@ -14716,6 +15840,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE = @"BME_MAIN_ALERT_
  * @b en@: "Log in"
 
  * @b es@: "Iniciar sesión"
+
+ * @b et@: "Logi sisse"
 
  * @b fi@: "Kirjaudu sisään"
 
@@ -14757,6 +15883,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE = @"BME_MAIN_ALERT_
 
  * @b sv@: "Logga in"
 
+ * @b th@: "ล็อคอิน"
+
  * @b tr@: "Oturum aç"
 
  * @b uk@: "Увійти"
@@ -14781,6 +15909,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM = @"BME_MAIN_ALERT_
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -14794,6 +15924,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM = @"BME_MAIN_ALERT_
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -14835,6 +15967,8 @@ static NSString * const BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM = @"BME_MAIN_ALERT_
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -14859,6 +15993,8 @@ static NSString * const BME_PRIVACY_POLICY_BACK = @"BME_PRIVACY_POLICY_BACK";
 
  * @b ar@: "نعم!"
 
+ * @b az@: "Bəli!"
+
  * @b ca@: "Sí!"
 
  * @b cs@: "Ano!"
@@ -14872,6 +16008,8 @@ static NSString * const BME_PRIVACY_POLICY_BACK = @"BME_PRIVACY_POLICY_BACK";
  * @b en@: "Yes!"
 
  * @b es@: "¡Sí!"
+
+ * @b et@: "Jah!"
 
  * @b fi@: "Kyllä!"
 
@@ -14913,6 +16051,8 @@ static NSString * const BME_PRIVACY_POLICY_BACK = @"BME_PRIVACY_POLICY_BACK";
 
  * @b sv@: "Ja!"
 
+ * @b th@: "ใช่!"
+
  * @b tr@: "Evet!"
 
  * @b uk@: "Так!"
@@ -14937,6 +16077,8 @@ static NSString * const BME_REGISTERED_HEADLINE = @"BME_REGISTERED_HEADLINE";
 
  * @b ar@: "أنت الآن مسجّل."
 
+ * @b az@: "Artıq qeydiyyatdan keçdiniz."
+
  * @b ca@: "Ara ja esteu registrat."
 
  * @b cs@: "Nyní jste registrován."
@@ -14950,6 +16092,8 @@ static NSString * const BME_REGISTERED_HEADLINE = @"BME_REGISTERED_HEADLINE";
  * @b en@: "You are now registered."
 
  * @b es@: "Ya estás registrado."
+
+ * @b et@: "Sa oled nüüd registreeritud."
 
  * @b fi@: "Olet nyt rekisteröitynyt."
 
@@ -14991,6 +16135,8 @@ static NSString * const BME_REGISTERED_HEADLINE = @"BME_REGISTERED_HEADLINE";
 
  * @b sv@: "Du är nu registrerad."
 
+ * @b th@: "ตอนนี้ คุณลงทะเบียนเรียบร้อยแล้ว"
+
  * @b tr@: "Artık kayıtlısınız."
 
  * @b uk@: "Тепер ви зареєстровані."
@@ -15015,6 +16161,8 @@ static NSString * const BME_REGISTERED_DESCRIPTION = @"BME_REGISTERED_DESCRIPTIO
 
  * @b ar@: "تسجيل الدخول"
 
+ * @b az@: "Giriş"
+
  * @b ca@: "Entra"
 
  * @b cs@: "Přihlášení"
@@ -15028,6 +16176,8 @@ static NSString * const BME_REGISTERED_DESCRIPTION = @"BME_REGISTERED_DESCRIPTIO
  * @b en@: "Log in"
 
  * @b es@: "Iniciar sesión"
+
+ * @b et@: "Logi sisse"
 
  * @b fi@: "Kirjaudu sisään"
 
@@ -15069,6 +16219,8 @@ static NSString * const BME_REGISTERED_DESCRIPTION = @"BME_REGISTERED_DESCRIPTIO
 
  * @b sv@: "Logga in"
 
+ * @b th@: "ล็อคอิน"
+
  * @b tr@: "Oturum aç"
 
  * @b uk@: "Увійти"
@@ -15093,6 +16245,8 @@ static NSString * const BME_REGISTERED_LOG_IN = @"BME_REGISTERED_LOG_IN";
 
  * @b ar@: "الإبلاغ عن إساءة"
 
+ * @b az@: "Pis rəftar hesabatı"
+
  * @b ca@: "Reportar abús"
 
  * @b cs@: "Ohlásit zneužití"
@@ -15106,6 +16260,8 @@ static NSString * const BME_REGISTERED_LOG_IN = @"BME_REGISTERED_LOG_IN";
  * @b en@: "Report abuse"
 
  * @b es@: "Reportar abuso"
+
+ * @b et@: "Teata kuritarvitamisest"
 
  * @b fi@: "Ilmoita väärinkäytöstä"
 
@@ -15147,6 +16303,8 @@ static NSString * const BME_REGISTERED_LOG_IN = @"BME_REGISTERED_LOG_IN";
 
  * @b sv@: "Anmäl missbruk"
 
+ * @b th@: "รายงานการละเมิด"
+
  * @b tr@: "Kötüye kullanım bildir"
 
  * @b uk@: "Повідомити про порушення"
@@ -15171,6 +16329,8 @@ static NSString * const BME_REPORT_ABUSE_HEADLINE = @"BME_REPORT_ABUSE_HEADLINE"
 
  * @b ar@: "اختر السبب"
 
+ * @b az@: "Səbəb seçin"
+
  * @b ca@: "Triar una raó"
 
  * @b cs@: "Vyberte důvod"
@@ -15184,6 +16344,8 @@ static NSString * const BME_REPORT_ABUSE_HEADLINE = @"BME_REPORT_ABUSE_HEADLINE"
  * @b en@: "Choose a reason"
 
  * @b es@: "Elige el motivo"
+
+ * @b et@: "Vali põhjus"
 
  * @b fi@: "Valitse syy"
 
@@ -15225,6 +16387,8 @@ static NSString * const BME_REPORT_ABUSE_HEADLINE = @"BME_REPORT_ABUSE_HEADLINE"
 
  * @b sv@: "Välj en orsak"
 
+ * @b th@: "เลือกเหตุผล"
+
  * @b tr@: "Bir neden seçin"
 
  * @b uk@: "Оберіть привід"
@@ -15249,6 +16413,8 @@ static NSString * const BME_REPORT_ABUSE_CHOOSE_REASON = @"BME_REPORT_ABUSE_CHOO
 
  * @b ar@: "الإبلاغ عن إساءة"
 
+ * @b az@: "Pis rəftar hesabatı"
+
  * @b ca@: "Reportar abús"
 
  * @b cs@: "Ohlásit zneužití"
@@ -15262,6 +16428,8 @@ static NSString * const BME_REPORT_ABUSE_CHOOSE_REASON = @"BME_REPORT_ABUSE_CHOO
  * @b en@: "Report abuse"
 
  * @b es@: "Reportar abuso"
+
+ * @b et@: "Teata kuritarvitamisest"
 
  * @b fi@: "Ilmoita väärinkäytöstä"
 
@@ -15303,6 +16471,8 @@ static NSString * const BME_REPORT_ABUSE_CHOOSE_REASON = @"BME_REPORT_ABUSE_CHOO
 
  * @b sv@: "Anmäl missbruk"
 
+ * @b th@: "รายงานการละเมิด"
+
  * @b tr@: "Kötüye kullanım bildir"
 
  * @b uk@: "Повідомити про порушення"
@@ -15327,6 +16497,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT = @"BME_REPORT_ABUSE_REPORT";
 
  * @b ar@: "تجاوز"
 
+ * @b az@: "Keç"
+
  * @b ca@: "Omet"
 
  * @b cs@: "Přeskočit"
@@ -15340,6 +16512,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT = @"BME_REPORT_ABUSE_REPORT";
  * @b en@: "Skip"
 
  * @b es@: "Omitir"
+
+ * @b et@: "Jäta vahele"
 
  * @b fi@: "Ohita"
 
@@ -15381,6 +16555,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT = @"BME_REPORT_ABUSE_REPORT";
 
  * @b sv@: "Hoppa över"
 
+ * @b th@: "ข้าม"
+
  * @b tr@: "Atla"
 
  * @b uk@: "Пропустити"
@@ -15405,6 +16581,8 @@ static NSString * const BME_REPORT_ABUSE_SKIP = @"BME_REPORT_ABUSE_SKIP";
 
  * @b ar@: "الشخص لا يريد المساعدة."
 
+ * @b az@: "Şəxs kömək etmək istəmir."
+
  * @b ca@: "La persona no volia ajudar."
 
  * @b cs@: "Člověk nechtěl pomoct."
@@ -15418,6 +16596,8 @@ static NSString * const BME_REPORT_ABUSE_SKIP = @"BME_REPORT_ABUSE_SKIP";
  * @b en@: "The person did not want to help."
 
  * @b es@: "La persona no quiso ofrecer asistencia."
+
+ * @b et@: "Inimene ei tahtnud aidata."
 
  * @b fi@: "Henkilö ei halunnut apua."
 
@@ -15459,6 +16639,8 @@ static NSString * const BME_REPORT_ABUSE_SKIP = @"BME_REPORT_ABUSE_SKIP";
 
  * @b sv@: "Personen ville inte hjälpa till."
 
+ * @b th@: "บุคคลนี้ไม่ประสงค์จะช่วยเหลือ"
+
  * @b tr@: "Kişi yardım etmek istemedi."
 
  * @b uk@: "Людина не захотіла допомогти."
@@ -15483,6 +16665,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND = @"BME_REPORT_ABUS
 
  * @b ar@: "الشخص ليس أعمى."
 
+ * @b az@: "Şəxs görmə əngəlli deyil."
+
  * @b ca@: "La persona no era invident."
 
  * @b cs@: "Osoba nebyla nevidomá."
@@ -15496,6 +16680,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND = @"BME_REPORT_ABUS
  * @b en@: "The person was not blind."
 
  * @b es@: "La persona no era invidente."
+
+ * @b et@: "Inimene ei olnud pime."
 
  * @b fi@: "Henkilö ei ollut sokea."
 
@@ -15537,6 +16723,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_1_BLIND = @"BME_REPORT_ABUS
 
  * @b sv@: "Personen var inte blind."
 
+ * @b th@: "บุคคลนี้มองเห็นได้"
+
  * @b tr@: "Kişi görme engelli değildi."
 
  * @b uk@: "Людина була не сліпа."
@@ -15561,6 +16749,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER = @"BME_REPORT_ABU
 
  * @b ar@: "المساعد تصرّف بشكل غير مناسب."
 
+ * @b az@: "Köməkçi yersiz hərəkət etdi."
+
  * @b ca@: "L'ajudant ha actuat inadequadament."
 
  * @b cs@: "Pomocník se choval nevhodne."
@@ -15574,6 +16764,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER = @"BME_REPORT_ABU
  * @b en@: "The helper acted inappropriate."
 
  * @b es@: "El ayudante actuó de forma inadecuada."
+
+ * @b et@: "Abistaja käitus kohatult."
 
  * @b fi@: "Auttaja käyttäytyi sopimattomasti."
 
@@ -15615,6 +16807,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_1_HELPER = @"BME_REPORT_ABU
 
  * @b sv@: "Hjälparen agerade olämpligt."
 
+ * @b th@: "ผู้ช่วยเหลือประพฤติไม่เหมาะสม"
+
  * @b tr@: "Yardımcı uygunsuz davranışta bulundu."
 
  * @b uk@: "Помічник поводився недоречно."
@@ -15639,6 +16833,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND = @"BME_REPORT_ABUS
 
  * @b ar@: "الشخص الأعمى تصرّف بشكل غير مناسب."
 
+ * @b az@: "Görmə əngəlli şəxs yersiz hərəkət etdi."
+
  * @b ca@: "La persona invident ha actuat inadequadament."
 
  * @b cs@: "Nevidomý se choval nevhodně."
@@ -15652,6 +16848,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND = @"BME_REPORT_ABUS
  * @b en@: "The blind person acted inappropriate."
 
  * @b es@: "La persona invidente actuó de forma inadecuada."
+
+ * @b et@: "Pime inimene käitus kohatult."
 
  * @b fi@: "Sokea henkilö käyttäytyi sopimattomasti."
 
@@ -15693,6 +16891,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_2_BLIND = @"BME_REPORT_ABUS
 
  * @b sv@: "Den blinda personen agerade olämpligt."
 
+ * @b th@: "ผู้พิการทางสายตามีพฤติกรรมไม่เหมาะสม"
+
  * @b tr@: "Görme engelli kişi uygunsuz davranışta bulundu."
 
  * @b uk@: "Сліпа людина поводилась недоречно."
@@ -15717,6 +16917,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER = @"BME_REPORT_ABU
 
  * @b ar@: "السبب غير موجود في القائمة."
 
+ * @b az@: "Başqa səbəb."
+
  * @b ca@: "La raó no apareix."
 
  * @b cs@: "Důvod není uveden v seznamu."
@@ -15730,6 +16932,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER = @"BME_REPORT_ABU
  * @b en@: "The reason is not listed."
 
  * @b es@: "La razón no se encuentra en la lista."
+
+ * @b et@: "Põhjus pole loetletud."
 
  * @b fi@: "Syy ei ole luettelossa."
 
@@ -15770,6 +16974,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_2_HELPER = @"BME_REPORT_ABU
  * @b sr@: "Разлог није понуђен у овој листи."
 
  * @b sv@: "Annan orsak."
+
+ * @b th@: "ไม่มีเหตุผลในรายการนี้"
 
  * @b tr@: "Neden listelenmemiş."
 
@@ -15795,6 +17001,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND = @"BME_REPORT_ABUS
 
  * @b ar@: "السبب غير موجود في القائمة."
 
+ * @b az@: "Başqa səbəb."
+
  * @b ca@: "La raó no apareix."
 
  * @b cs@: "Důvod není uveden v seznamu."
@@ -15808,6 +17016,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND = @"BME_REPORT_ABUS
  * @b en@: "The reason is not listed."
 
  * @b es@: "La razón no se encuentra en la lista."
+
+ * @b et@: "Põhjus pole loetletud."
 
  * @b fi@: "Syy ei ole luettelossa."
 
@@ -15849,6 +17059,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_3_BLIND = @"BME_REPORT_ABUS
 
  * @b sv@: "Annan orsak."
 
+ * @b th@: "ไม่มีเหตุผลในรายการนี้"
+
  * @b tr@: "Neden listelenmemiş."
 
  * @b uk@: "Причини немає у списку."
@@ -15873,6 +17085,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_3_HELPER = @"BME_REPORT_ABU
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -15886,6 +17100,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_3_HELPER = @"BME_REPORT_ABU
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -15927,6 +17143,8 @@ static NSString * const BME_REPORT_ABUSE_REPORT_TEXT_3_HELPER = @"BME_REPORT_ABU
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -15951,6 +17169,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL = @"BME_R
 
  * @b ar@: "لا يمكن إرسال الإبلاغ. يرجى التأكد أنك لديك اتصال بالإنترنت والمحاولة مجددا."
 
+ * @b az@: "Hesabat göndərilmədi. Zəhmət olmasa aktiv internet bağlantınızın olduğundan əmin olub yenidən cəhd edin."
+
  * @b ca@: "No s'ha pogut enviar l'informe. Si us plau, assegureu-vos que teniu una connexió activa a internet i proveu una altra vegada."
 
  * @b cs@: "Zpráva nemohla být odeslána. Přesvědčte se, zda máte aktivní připojení k internetu a opakujte akci."
@@ -15964,6 +17184,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL = @"BME_R
  * @b en@: "The report could not be sent. Please ensure that you have an active internet connection and try again."
 
  * @b es@: "El informe no pudo ser enviado. Por favor, asegúrese de que cuenta con una conexión activa a internet y vuélvalo a intentar."
+
+ * @b et@: "Raportit ei olnud võimalik saata. Palun kontrolli internetiühenduse olemasolu ja proovi uuesti."
 
  * @b fi@: "Raporttia ei voitu lähettää. Varmista, että sinulla on aktiivinen internet-yhteys ja yritä uudelleen."
 
@@ -16005,6 +17227,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_CANCEL = @"BME_R
 
  * @b sv@: "Anmälan kunde inte skickas. Vänligen kontrollera din internetanslutning och försök igen."
 
+ * @b th@: "ไม่สามารถส่งรายงาน โปรดตรวจสอบว่าคุณเชื่อมต่ออินเทอร์เน็ตอยู่ แล้วลองใหม่อีกครั้ง"
+
  * @b tr@: "Rapor gönderilemedi. Lütfen etkin bir internet bağlantınız olduğundan emin olun ve tekrar deneyin."
 
  * @b uk@: "Не вдалося надіслати звіт. Будь ласка, переконайтеся, що є активне підключення до Інтернету і повторіть спробу."
@@ -16029,6 +17253,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE = @"BME_
 
  * @b ar@: "لا يمكن الإبلاغ عن الإساءة"
 
+ * @b az@: "Pis rəftar hesabatı məruzə edilmədi"
+
  * @b ca@: "No s'ha pogut informar de l'abús"
 
  * @b cs@: "Nelze nahlásit zneužití"
@@ -16042,6 +17268,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE = @"BME_
  * @b en@: "Could not report abuse"
 
  * @b es@: "No se pudo reportar el abuso"
+
+ * @b et@: "Ei saanud teavitada kuritarvitamisest"
 
  * @b fi@: "Väärinkäytöstä ei voitu ilmoittaa"
 
@@ -16083,6 +17311,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_MESSAGE = @"BME_
 
  * @b sv@: "Kunde inte anmäla missbruket"
 
+ * @b th@: "ไม่สามารถรายงานการละเมิดสิทธิ"
+
  * @b tr@: "Kötüye kullanım raporlanamadı"
 
  * @b uk@: "Не вдалося повідомити про порушення"
@@ -16107,6 +17337,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE = @"BME_RE
 
  * @b ar@: "يتم الإبلاغ..."
 
+ * @b az@: "Məruzə edilir..."
+
  * @b ca@: "Enviant..."
 
  * @b cs@: "Hlásí se..."
@@ -16120,6 +17352,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE = @"BME_RE
  * @b en@: "Reporting..."
 
  * @b es@: "Reportando..."
+
+ * @b et@: "Raporteerimine..."
 
  * @b fi@: "Raportoidaan..."
 
@@ -16161,6 +17395,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_REPORTING_FAILED_TITLE = @"BME_RE
 
  * @b sv@: "Anmäler..."
 
+ * @b th@: "กำลังรายงาน..."
+
  * @b tr@: "Raporlanıyor..."
 
  * @b uk@: "Звітування..."
@@ -16185,6 +17421,8 @@ static NSString * const BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE = @"BME_REPORT_
 
  * @b ar@: "إلغاء"
 
+ * @b az@: "İmtina"
+
  * @b ca@: "Cancel·la"
 
  * @b cs@: "Zrušit"
@@ -16198,6 +17436,8 @@ static NSString * const BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE = @"BME_REPORT_
  * @b en@: "Cancel"
 
  * @b es@: "Cancelar"
+
+ * @b et@: "Loobu"
 
  * @b fi@: "Peruuta"
 
@@ -16239,6 +17479,8 @@ static NSString * const BME_REPORT_ABUSE_OVERLAY_REPORTING_TITLE = @"BME_REPORT_
 
  * @b sv@: "Avbryt"
 
+ * @b th@: "ยกเลิก"
+
  * @b tr@: "İptal"
 
  * @b uk@: "Скасувати"
@@ -16263,6 +17505,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL = @"B
 
  * @b ar@: "تأكيد"
 
+ * @b az@: "Təsdiqlə"
+
  * @b ca@: "Confirmar"
 
  * @b cs@: "Potvrdit"
@@ -16276,6 +17520,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL = @"B
  * @b en@: "Confirm"
 
  * @b es@: "Confirmar"
+
+ * @b et@: "Kinnita"
 
  * @b fi@: "Vahvista"
 
@@ -16317,6 +17563,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CANCEL = @"B
 
  * @b sv@: "Bekräfta"
 
+ * @b th@: "ยืนยัน"
+
  * @b tr@: "Doğrula"
 
  * @b uk@: "Підтвердженно"
@@ -16341,6 +17589,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM = @"
 
  * @b ar@: "كل حالات الإساءة تؤخد بجديّة ويتم التحقيق فيها. هل أنت متأكد من أنك تريد الإبلاغ عن الطرف الآخر كمسيء؟"
 
+ * @b az@: "Bütün pis rəftar faktları ciddi götürülür və araşdırılır. Qarşı tərəfin pis rəftarı ilə bağlı məruzə etmək istədiyinizə əminsiniz?"
+
  * @b ca@: "Tots els informes d'abús es prenen seriosament i són revisats. Esteu segur que voleu informar sobre l'abús de l'altre part?"
 
  * @b cs@: "Všechny případy zneužívání se berou vážně a jsou přeskoumany. Jste si jisti, že chcete ohlásit zneužití?"
@@ -16354,6 +17604,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM = @"
  * @b en@: "All abuse cases are taken serious and looked into. Are you sure that you want to report the other part for abuse?"
 
  * @b es@: "Todos los casos de abuso son tomados seriamente e investigados. ¿Está seguro que desea reportar a la otra parte  por abuso?"
+
+ * @b et@: "Kõiki kuritarvitamise juhtumeid võetakse tõsiselt. Oled sa kindel et soovid raporteerida teist poolt kui kuritarvitajat?"
 
  * @b fi@: "Kaikki väärinkäytökset otetaan vakavasti ja tutkitaan. Oletko varma, että haluat ilmoittaa toisen osapuolen väärinkäytöksen?"
 
@@ -16395,6 +17647,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_CONFIRM = @"
 
  * @b sv@: "Allt missbruk tas på allvar och kontrolleras. Är du säker att du även vill anmäla motparten för missbruk?"
 
+ * @b th@: "เคสการละเมิดจะถูกตรวจสอบโดยละเอียด คุณแน่ใจหรือไม่ ว่าต้องการรายงานการละเมิด"
+
  * @b tr@: "Bütün kötüye kullanım vakaları ciddiye alınır ve incelenir. Karşı taraf için kötüye kullanım bildiriminde bulunmak istediğinize emin misiniz?"
 
  * @b uk@: "Всі порушення сприймаються серйозно і будуть розглянуті. Ви впевнені, що хочете повідомити про інше зловживання?"
@@ -16419,6 +17673,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE = @"
 
  * @b ar@: "الإبلاغ عن إساءة"
 
+ * @b az@: "Pis Rəftar Hesabatı"
+
  * @b ca@: "Enviar l'abús"
 
  * @b cs@: "Ohlásit zneužití"
@@ -16432,6 +17688,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE = @"
  * @b en@: "Report Abuse"
 
  * @b es@: "Reportar Abuso"
+
+ * @b et@: "Teata kuritarvitamisest"
 
  * @b fi@: "Ilmoita väärinkäytöstä"
 
@@ -16473,6 +17731,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_MESSAGE = @"
 
  * @b sv@: "Anmäl missbruk"
 
+ * @b th@: "รายงานการละเมิด"
+
  * @b tr@: "Kötüye kullanım bildir"
 
  * @b uk@: "Повідомити про порушення"
@@ -16497,6 +17757,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE = @"BM
 
  * @b ar@: "الشخص لا يريد المساعدة (تم الاختيار)"
 
+ * @b az@: "Şəxs kömək etmək istəmir (Seçildi)"
+
  * @b ca@: "La persona no volia ajudar (Seleccionat)"
 
  * @b cs@: "Člověk nechtěl pomoct (vybráno)"
@@ -16510,6 +17772,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE = @"BM
  * @b en@: "The person did not want to help (Selected)"
 
  * @b es@: "La persona no quiso ofrecer asistencia (Seleccionado)"
+
+ * @b et@: "Inimene ei tahtnud aidata (Valitud)"
 
  * @b fi@: "Henkilö ei halunnut auttaa (valittu)"
 
@@ -16551,6 +17815,8 @@ static NSString * const BME_REPORT_ABUSE_ALERT_CONFIRM_REPORT_ABUSE_TITLE = @"BM
 
  * @b sv@: "Personen ville inte hjälpa till (vald)"
 
+ * @b th@: "บุคคลดังกล่าวไม่ประสงค์ที่จะช่วยเหลือ (เลือก)"
+
  * @b tr@: "Kişi yardım etmek istemedi (Seçildi)"
 
  * @b uk@: "Людина не захотіла допомогти (обрано)"
@@ -16575,6 +17841,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED = @"BME_
 
  * @b ar@: "الشخص لا يريد المساعدة."
 
+ * @b az@: "Şəxs kömək etmək istəmir."
+
  * @b ca@: "La persona no volia ajudar."
 
  * @b cs@: "Člověk nechtěl pomoct."
@@ -16588,6 +17856,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED = @"BME_
  * @b en@: "The person did not want to help."
 
  * @b es@: "La persona no quiso ofrecer asistencia."
+
+ * @b et@: "Inimene ei tahtnud aidata."
 
  * @b fi@: "Henkilö ei halunnut apua."
 
@@ -16629,6 +17899,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1_SELECTED = @"BME_
 
  * @b sv@: "Personen ville inte hjälpa till."
 
+ * @b th@: "บุคคลนี้ไม่ประสงค์จะช่วยเหลือ"
+
  * @b tr@: "Kişi yardım etmek istemedi."
 
  * @b uk@: "Людина не захотіла допомогти."
@@ -16653,6 +17925,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1 = @"BME_REPORT_AB
 
  * @b ar@: "المساعد تصرّف بشكل غير مناسب (تم الاختيار)"
 
+ * @b az@: "Köməkçi yersiz hərəkət etdi (Seçildi)"
+
  * @b ca@: "L'ajudant ha actuat inadequadament (Seleccionat)"
 
  * @b cs@: "Pomocníka se choval nevhodně (vybráno)"
@@ -16666,6 +17940,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1 = @"BME_REPORT_AB
  * @b en@: "The helper acted inappropriate (Selected)"
 
  * @b es@: "El asistente actuó de forma inadecuada (Seleccionado)"
+
+ * @b et@: "Abistaja käitus kohatult (valitud)"
 
  * @b fi@: "Auttaja toiminut sopimattomasti (valittu)"
 
@@ -16707,6 +17983,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_1 = @"BME_REPORT_AB
 
  * @b sv@: "Hjälparen agerade olämpligt (vald) "
 
+ * @b th@: "ผู้ช่วยเหลือประพฤติไม่เหมาะสม (เลือก)"
+
  * @b tr@: "Yardımcı uygunsuz davranışta bulundu (Seçildi)"
 
  * @b uk@: "Помічник поводився недоречно (обрано)"
@@ -16731,6 +18009,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED = @"BME_
 
  * @b ar@: "المساعد تصرّف بشكل غير مناسب."
 
+ * @b az@: "Köməkçi yersiz hərəkət etdi."
+
  * @b ca@: "L'ajudant ha actuat inadequadament."
 
  * @b cs@: "Pomocník se choval nevhodne."
@@ -16744,6 +18024,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED = @"BME_
  * @b en@: "The helper acted inappropriate."
 
  * @b es@: "El ayudante actuó de forma inadecuada."
+
+ * @b et@: "Abistaja käitus kohatult."
 
  * @b fi@: "Auttaja käyttäytyi sopimattomasti."
 
@@ -16785,6 +18067,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2_SELECTED = @"BME_
 
  * @b sv@: "Hjälparen agerade olämpligt."
 
+ * @b th@: "ผู้ช่วยเหลือประพฤติไม่เหมาะสม"
+
  * @b tr@: "Yardımcı uygunsuz davranışta bulundu."
 
  * @b uk@: "Помічник поводився недоречно."
@@ -16809,6 +18093,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2 = @"BME_REPORT_AB
 
  * @b ar@: "السبب غير موجود في القائمة (تم الاختيار)"
 
+ * @b az@: "Başqa səbəb (Seçildi)"
+
  * @b ca@: "La raó no és a la llista (Seleccionat)"
 
  * @b cs@: "Důvod není uveden (vybráno)"
@@ -16822,6 +18108,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2 = @"BME_REPORT_AB
  * @b en@: "The reason is not listed (Selected)"
 
  * @b es@: "La razón no está en el listado (seleccionado)"
+
+ * @b et@: "Põhjus pole loetletud (Valitud)"
 
  * @b fi@: "Syytä ei ole lueteltu (valittu)"
 
@@ -16863,6 +18151,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_2 = @"BME_REPORT_AB
 
  * @b sv@: "Annan orsak (vald)"
 
+ * @b th@: "ไม่มีเหตุผลในรายการ (เลือก)"
+
  * @b tr@: "Neden listelenmemiş (Seçildi)"
 
  * @b uk@: "Причини немає у списку (обрано)"
@@ -16887,6 +18177,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED = @"BME_
 
  * @b ar@: "السبب غير موجود في القائمة."
 
+ * @b az@: "Başqa səbəb."
+
  * @b ca@: "La raó no apareix."
 
  * @b cs@: "Důvod není uveden v seznamu."
@@ -16900,6 +18192,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED = @"BME_
  * @b en@: "The reason is not listed."
 
  * @b es@: "La razón no se encuentra en la lista."
+
+ * @b et@: "Põhjus pole loetletud."
 
  * @b fi@: "Syy ei ole luettelossa."
 
@@ -16941,6 +18235,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3_SELECTED = @"BME_
 
  * @b sv@: "Annan orsak."
 
+ * @b th@: "ไม่มีเหตุผลในรายการนี้"
+
  * @b tr@: "Neden listelenmemiş."
 
  * @b uk@: "Причини немає у списку."
@@ -16965,6 +18261,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3 = @"BME_REPORT_AB
 
  * @b ar@: "واجهة برمجة التطبيقات (API)"
 
+ * @b az@: "API"
+
  * @b ca@: "API"
 
  * @b cs@: "API"
@@ -16978,6 +18276,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3 = @"BME_REPORT_AB
  * @b en@: "API"
 
  * @b es@: "API"
+
+ * @b et@: "API"
 
  * @b fi@: "API"
 
@@ -17019,6 +18319,8 @@ static NSString * const BME_REPORT_ABUSE_ACCESSIBILITY_LABEL_3 = @"BME_REPORT_AB
 
  * @b sv@: "API"
 
+ * @b th@: "API"
+
  * @b tr@: "API"
 
  * @b uk@: "API"
@@ -17043,6 +18345,8 @@ static NSString * const BME_SECRET_SETTINGS_API_TITLE = @"BME_SECRET_SETTINGS_AP
 
  * @b ar@: "تغيير واجهة برمجة التطبيقات (API) يتطلب إعادة تشغيل التطبيق."
 
+ * @b az@: "API dəyişdirilməsi tətbiqetmənin yenidən başladılmasını tələb edər."
+
  * @b ca@: "Canviar l'API requereix reiniciar l'app."
 
  * @b cs@: "Změna API vyžaduje restartovat aplikaci."
@@ -17056,6 +18360,8 @@ static NSString * const BME_SECRET_SETTINGS_API_TITLE = @"BME_SECRET_SETTINGS_AP
  * @b en@: "Changing the API requires the app to be restarted."
 
  * @b es@: "Cambiar la API  requiere que la aplicación se reinicie."
+
+ * @b et@: "API muutmisel tuleb rakendus taaskäivitada."
 
  * @b fi@: "APIn muuttaminen edellyttää sovelluksen uudelleen käynnistämistä."
 
@@ -17097,6 +18403,8 @@ static NSString * const BME_SECRET_SETTINGS_API_TITLE = @"BME_SECRET_SETTINGS_AP
 
  * @b sv@: "API-ändringar kräver omstart av applikationen."
 
+ * @b th@: "การเปลี่ยนแปลง API ต้องปิดและเปิดแอพใหม่"
+
  * @b tr@: "API değiştirmek uygulamanın yeniden başlatılmasını gerektirir."
 
  * @b uk@: "Зміна API вимагає перезапуску програми."
@@ -17121,6 +18429,8 @@ static NSString * const BME_SECRET_SETTINGS_API_DESCRIPTION = @"BME_SECRET_SETTI
 
  * @b ar@: "المطوّر"
 
+ * @b az@: "Təkmilləşdirmə"
+
  * @b ca@: "Development"
 
  * @b cs@: "Vývoj"
@@ -17134,6 +18444,8 @@ static NSString * const BME_SECRET_SETTINGS_API_DESCRIPTION = @"BME_SECRET_SETTI
  * @b en@: "Development"
 
  * @b es@: "Desarrollo"
+
+ * @b et@: "Arendus"
 
  * @b fi@: "Kehitys"
 
@@ -17175,6 +18487,8 @@ static NSString * const BME_SECRET_SETTINGS_API_DESCRIPTION = @"BME_SECRET_SETTI
 
  * @b sv@: "Utveckling"
 
+ * @b th@: "การพัฒนา"
+
  * @b tr@: "Geliştirme"
 
  * @b uk@: "Розробка"
@@ -17199,6 +18513,8 @@ static NSString * const BME_SECRET_SETTINGS_API_DEVELOPMENT = @"BME_SECRET_SETTI
 
  * @b ar@: "نقل البيانات"
 
+ * @b az@: "Quruluş"
+
  * @b ca@: "Staging"
 
  * @b cs@: "Pracovanje "
@@ -17212,6 +18528,8 @@ static NSString * const BME_SECRET_SETTINGS_API_DEVELOPMENT = @"BME_SECRET_SETTI
  * @b en@: "Staging"
 
  * @b es@: "Staging"
+
+ * @b et@: "Staging"
 
  * @b fi@: "Lavastus"
 
@@ -17253,6 +18571,8 @@ static NSString * const BME_SECRET_SETTINGS_API_DEVELOPMENT = @"BME_SECRET_SETTI
 
  * @b sv@: "Staging"
 
+ * @b th@: "Staging"
+
  * @b tr@: "Evreleme"
 
  * @b uk@: "Staging"
@@ -17277,6 +18597,8 @@ static NSString * const BME_SECRET_SETTINGS_API_STAGING = @"BME_SECRET_SETTINGS_
 
  * @b ar@: "عام"
 
+ * @b az@: "İctimai"
+
  * @b ca@: "Public"
 
  * @b cs@: "Veřejné"
@@ -17290,6 +18612,8 @@ static NSString * const BME_SECRET_SETTINGS_API_STAGING = @"BME_SECRET_SETTINGS_
  * @b en@: "Public"
 
  * @b es@: "Public"
+
+ * @b et@: "Avalik"
 
  * @b fi@: "Julkinen"
 
@@ -17331,6 +18655,8 @@ static NSString * const BME_SECRET_SETTINGS_API_STAGING = @"BME_SECRET_SETTINGS_
 
  * @b sv@: "Publikt"
 
+ * @b th@: "Public"
+
  * @b tr@: "Herkese Açık"
 
  * @b uk@: "Публічний"
@@ -17355,6 +18681,8 @@ static NSString * const BME_SECRET_SETTINGS_API_PUBLIC = @"BME_SECRET_SETTINGS_A
 
  * @b ar@: "الإعدادات"
 
+ * @b az@: "Tənzimləmələr"
+
  * @b ca@: "Configuració"
 
  * @b cs@: "Nastavení"
@@ -17368,6 +18696,8 @@ static NSString * const BME_SECRET_SETTINGS_API_PUBLIC = @"BME_SECRET_SETTINGS_A
  * @b en@: "Settings"
 
  * @b es@: "Ajustes"
+
+ * @b et@: "Seaded"
 
  * @b fi@: "Asetukset"
 
@@ -17409,6 +18739,8 @@ static NSString * const BME_SECRET_SETTINGS_API_PUBLIC = @"BME_SECRET_SETTINGS_A
 
  * @b sv@: "Inställningar"
 
+ * @b th@: "ตั้งค่า"
+
  * @b tr@: "Ayarlar"
 
  * @b uk@: "Налаштування"
@@ -17433,6 +18765,8 @@ static NSString * const BME_SETTINGS_HEADLINE = @"BME_SETTINGS_HEADLINE";
 
  * @b ar@: "الاسم الأول"
 
+ * @b az@: "Adınız"
+
  * @b ca@: "Nom"
 
  * @b cs@: "Křestní Jméno"
@@ -17446,6 +18780,8 @@ static NSString * const BME_SETTINGS_HEADLINE = @"BME_SETTINGS_HEADLINE";
  * @b en@: "First name"
 
  * @b es@: "Nombre"
+
+ * @b et@: "Eesnimi"
 
  * @b fi@: "Etunimi"
 
@@ -17487,6 +18823,8 @@ static NSString * const BME_SETTINGS_HEADLINE = @"BME_SETTINGS_HEADLINE";
 
  * @b sv@: "Förnamn"
 
+ * @b th@: "ชื่อ"
+
  * @b tr@: "Adınız"
 
  * @b uk@: "Ім'я"
@@ -17511,6 +18849,8 @@ static NSString * const BME_SETTINGS_FIRST_NAME = @"BME_SETTINGS_FIRST_NAME";
 
  * @b ar@: "اسم العائلة"
 
+ * @b az@: "Soyadınız"
+
  * @b ca@: "Cognom"
 
  * @b cs@: "Příjmení"
@@ -17524,6 +18864,8 @@ static NSString * const BME_SETTINGS_FIRST_NAME = @"BME_SETTINGS_FIRST_NAME";
  * @b en@: "Surname"
 
  * @b es@: "Apellidos"
+
+ * @b et@: "Perekonnanimi"
 
  * @b fi@: "Sukunimi"
 
@@ -17565,6 +18907,8 @@ static NSString * const BME_SETTINGS_FIRST_NAME = @"BME_SETTINGS_FIRST_NAME";
 
  * @b sv@: "Efternamn"
 
+ * @b th@: "นามสกุล"
+
  * @b tr@: "Soyadınız"
 
  * @b uk@: "Прізвище"
@@ -17589,6 +18933,8 @@ static NSString * const BME_SETTINGS_LAST_NAME = @"BME_SETTINGS_LAST_NAME";
 
  * @b ar@: "البريد الإلكتروني"
 
+ * @b az@: "E-poçt"
+
  * @b ca@: "E-mail"
 
  * @b cs@: "E-mail"
@@ -17602,6 +18948,8 @@ static NSString * const BME_SETTINGS_LAST_NAME = @"BME_SETTINGS_LAST_NAME";
  * @b en@: "E-mail"
 
  * @b es@: "Correo electrónico"
+
+ * @b et@: "E-posti aadress"
 
  * @b fi@: "Sähköposti"
 
@@ -17641,6 +18989,8 @@ static NSString * const BME_SETTINGS_LAST_NAME = @"BME_SETTINGS_LAST_NAME";
 
  * @b sv@: "E-post"
 
+ * @b th@: "อีเมล"
+
  * @b tr@: "E-posta"
 
  * @b uk@: "Електронна пошта"
@@ -17665,6 +19015,8 @@ static NSString * const BME_SETTINGS_EMAIL = @"BME_SETTINGS_EMAIL";
 
  * @b ar@: "اللغات"
 
+ * @b az@: "Dillər"
+
  * @b ca@: "Idiomes"
 
  * @b cs@: "Jazyky"
@@ -17678,6 +19030,8 @@ static NSString * const BME_SETTINGS_EMAIL = @"BME_SETTINGS_EMAIL";
  * @b en@: "Languages"
 
  * @b es@: "Idiomas"
+
+ * @b et@: "Keeled"
 
  * @b fi@: "Kielet"
 
@@ -17719,6 +19073,8 @@ static NSString * const BME_SETTINGS_EMAIL = @"BME_SETTINGS_EMAIL";
 
  * @b sv@: "Språk"
 
+ * @b th@: "ภาษาที่คุณพูดได้"
+
  * @b tr@: "Diller"
 
  * @b uk@: "Мови"
@@ -17743,6 +19099,8 @@ static NSString * const BME_SETTINGS_LANGUAGES = @"BME_SETTINGS_LANGUAGES";
 
  * @b ar@: "إضافة لغات"
 
+ * @b az@: "Dil əlavə et"
+
  * @b ca@: "Afegir idiomes"
 
  * @b cs@: "Přidat jazyky"
@@ -17756,6 +19114,8 @@ static NSString * const BME_SETTINGS_LANGUAGES = @"BME_SETTINGS_LANGUAGES";
  * @b en@: "Add languages"
 
  * @b es@: "Añadir idiomas"
+
+ * @b et@: "Lisa keeli"
 
  * @b fi@: "Lisää kieli"
 
@@ -17797,6 +19157,8 @@ static NSString * const BME_SETTINGS_LANGUAGES = @"BME_SETTINGS_LANGUAGES";
 
  * @b sv@: "Lägg till språk"
 
+ * @b th@: "เพิ่มภาษาที่คุณพูดได้"
+
  * @b tr@: "dil ekle"
 
  * @b uk@: "Додайте мови"
@@ -17821,6 +19183,8 @@ static NSString * const BME_SETTINGS_ADD_LANGUAGES = @"BME_SETTINGS_ADD_LANGUAGE
 
  * @b ar@: "اكتب تعليقا عن التطبيق"
 
+ * @b az@: "Tətbiqetmə haqqında geri bildiriş göndərin"
+
  * @b ca@: "Donar l'opinió a l'app"
 
  * @b cs@: "Názor na aplikaci"
@@ -17834,6 +19198,8 @@ static NSString * const BME_SETTINGS_ADD_LANGUAGES = @"BME_SETTINGS_ADD_LANGUAGE
  * @b en@: "Give feedback on the app"
 
  * @b es@: "Ofrecer críticas sobre la aplicación"
+
+ * @b et@: "Anna rakenduse tagasisidet"
 
  * @b fi@: "Anna palautetta sovelluksesta"
 
@@ -17875,6 +19241,8 @@ static NSString * const BME_SETTINGS_ADD_LANGUAGES = @"BME_SETTINGS_ADD_LANGUAGE
 
  * @b sv@: "Ge feedback på applikationen"
 
+ * @b th@: "แนะนำ/เสนอแนะเกี่ยวกับแอพพลิเคชั่นนี้"
+
  * @b tr@: "Uygulama hakkında geri bildirimde bulunun"
 
  * @b uk@: "Надайте відгук про програму"
@@ -17899,6 +19267,8 @@ static NSString * const BME_SETTINGS_FEEDBACK = @"BME_SETTINGS_FEEDBACK";
 
  * @b ar@: "تسجيل خروج"
 
+ * @b az@: "Çıxış"
+
  * @b ca@: "Tanca la sessió"
 
  * @b cs@: "Odhlásit se"
@@ -17912,6 +19282,8 @@ static NSString * const BME_SETTINGS_FEEDBACK = @"BME_SETTINGS_FEEDBACK";
  * @b en@: "Log out"
 
  * @b es@: "Cerrar sesión"
+
+ * @b et@: "Logi välja"
 
  * @b fi@: "Kirjaudu ulos"
 
@@ -17953,6 +19325,8 @@ static NSString * const BME_SETTINGS_FEEDBACK = @"BME_SETTINGS_FEEDBACK";
 
  * @b sv@: "Logga ut"
 
+ * @b th@: "ออกจากระบบ"
+
  * @b tr@: "Çıkış yap"
 
  * @b uk@: "Вийти"
@@ -17977,6 +19351,8 @@ static NSString * const BME_SETTINGS_LOG_OUT = @"BME_SETTINGS_LOG_OUT";
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -17990,6 +19366,8 @@ static NSString * const BME_SETTINGS_LOG_OUT = @"BME_SETTINGS_LOG_OUT";
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -18031,6 +19409,8 @@ static NSString * const BME_SETTINGS_LOG_OUT = @"BME_SETTINGS_LOG_OUT";
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -18055,6 +19435,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL = @"BME_SETTING
 
  * @b ar@: "أنت لست مسجّلا للخروج. يرجى التأكد أنك لديك اتصال بالإنترنت والمحاولة مجددا."
 
+ * @b az@: "Çıxış baş tutmadı. Zəhmət olmasa aktiv internet bağlantınızın olduğundan əmin olub yenidən cəhd edin."
+
  * @b ca@: "Vostè no ha tancat la sessió. Si us plau, asseguris que té una connexió activa a internet i provi una altra vegada."
 
  * @b cs@: "Nebyli jste odhlášen. Přesvědčte se, zda máte aktivní připojení k internetu a opakujte akci."
@@ -18068,6 +19450,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL = @"BME_SETTING
  * @b en@: "You were not logged out. Please ensure that you have an active internet connection and try again."
 
  * @b es@: "No se pudo cerrar sesión. Por favor, asegúrese de que usted cuenta con una conexión activa a internet y vuélvalo a intentar."
+
+ * @b et@: "Sind ei logitud välja. Palun kontrolli internetiühenduse olemasolu ja proovi uuesti."
 
  * @b fi@: "Et ole kirjautunut ulos. Varmista, että sinulla on aktiivinen internet-yhteys ja yritä uudelleen."
 
@@ -18109,6 +19493,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_CANCEL = @"BME_SETTING
 
  * @b sv@: "Du loggades inte ut. Kontrollera din internetanslutning och försök igen."
 
+ * @b th@: "ไม่สามารถออกจากระบบได้ เนื่องจากไม่พบการเชื่อมต่ออินเทอร์เน็ต โปรดลองใหม่อีกครั้ง"
+
  * @b tr@: "Çıkış yapmadınız. Lütfen etkin bir internet bağlantınız olduğunu kontrol edin ve tekrar deneyin."
 
  * @b uk@: "Ви не вийшли з системи. Будь ласка, переконайтеся, що є підключення до Інтернету і повторіть спробу."
@@ -18133,6 +19519,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE = @"BME_SETTIN
 
  * @b ar@: "لا يمكن تسجيل الخروج"
 
+ * @b az@: "Çıxış baş tutmadı"
+
  * @b ca@: "No es pot desconnectar"
 
  * @b cs@: "Nelze odhlásit"
@@ -18146,6 +19534,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE = @"BME_SETTIN
  * @b en@: "Could not log out"
 
  * @b es@: "No se pudo cerrar sesión"
+
+ * @b et@: "Polnud võimalik välja logida"
 
  * @b fi@: "Kirjautuminen ei onnistunut"
 
@@ -18187,6 +19577,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_MESSAGE = @"BME_SETTIN
 
  * @b sv@: "Kunde inte logga ut"
 
+ * @b th@: "ไม่สามารถออกจากระบบได้"
+
  * @b tr@: "Çıkış yapılamadı"
 
  * @b uk@: "Помилка виходу з облікового запису"
@@ -18211,6 +19603,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE = @"BME_SETTINGS
 
  * @b ar@: "جاري تسجيل الخروج..."
 
+ * @b az@: "Çıxılır..."
+
  * @b ca@: "Desconnectant..."
 
  * @b cs@: "Odhlášení..."
@@ -18224,6 +19618,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE = @"BME_SETTINGS
  * @b en@: "Logging out..."
 
  * @b es@: "Desconectándose..."
+
+ * @b et@: "Väljalogimine..."
 
  * @b fi@: "Kirjaudutaan ulos..."
 
@@ -18265,6 +19661,8 @@ static NSString * const BME_SETTINGS_ALERT_LOG_OUT_FAILED_TITLE = @"BME_SETTINGS
 
  * @b sv@: "Loggar ut..."
 
+ * @b th@: "กำลังออกจากระบบ..."
+
  * @b tr@: "Çıkış yapılıyor..."
 
  * @b uk@: "Виходжу з облікового запису..."
@@ -18289,6 +19687,8 @@ static NSString * const BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE = @"BME_SETTINGS_
 
  * @b ar@: "النسخة %@"
 
+ * @b az@: "Versiya %@"
+
  * @b ca@: "Versió %@"
 
  * @b cs@: "Verze %@"
@@ -18302,6 +19702,8 @@ static NSString * const BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE = @"BME_SETTINGS_
  * @b en@: "Version %@"
 
  * @b es@: "Versión %@"
+
+ * @b et@: "Versioon %@"
 
  * @b fi@: "Versio %@"
 
@@ -18343,6 +19745,8 @@ static NSString * const BME_SETTINGS_OVERLAY_LOGGING_OUT_TITLE = @"BME_SETTINGS_
 
  * @b sv@: "Version %@"
 
+ * @b th@: "เวอร์ชั่น %@"
+
  * @b tr@: "Sürüm %@"
 
  * @b uk@: "Версія %@"
@@ -18367,6 +19771,8 @@ static NSString * const BME_SETTINGS_VERSION_TITLE = @"BME_SETTINGS_VERSION_TITL
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -18380,6 +19786,8 @@ static NSString * const BME_SETTINGS_VERSION_TITLE = @"BME_SETTINGS_VERSION_TITL
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -18421,6 +19829,8 @@ static NSString * const BME_SETTINGS_VERSION_TITLE = @"BME_SETTINGS_VERSION_TITL
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -18445,6 +19855,8 @@ static NSString * const BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL = @"BME_
 
  * @b ar@: "+%d نقاط"
 
+ * @b az@: "+%d xal"
+
  * @b ca@: "+%d punts"
 
  * @b cs@: "%d bodů"
@@ -18458,6 +19870,8 @@ static NSString * const BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL = @"BME_
  * @b en@: "+%d points"
 
  * @b es@: "+%d puntos"
+
+ * @b et@: "+%d punkti"
 
  * @b fi@: "+%d pistettä"
 
@@ -18499,6 +19913,8 @@ static NSString * const BME_SETTINGS_DISMISS_BUTTON_ACCESSIBILITY_LABEL = @"BME_
 
  * @b sv@: "+%d poäng"
 
+ * @b th@: "ได้คะแนนเพิ่ม %d คะแนน"
+
  * @b tr@: "+%d puan"
 
  * @b uk@: "+%d балів"
@@ -18523,6 +19939,8 @@ static NSString * const BME_SETTINGS_TASK_POINTS = @"BME_SETTINGS_TASK_POINTS";
 
  * @b ar@: "✓"
 
+ * @b az@: "✓"
+
  * @b ca@: "✓"
 
  * @b cs@: "✓"
@@ -18536,6 +19954,8 @@ static NSString * const BME_SETTINGS_TASK_POINTS = @"BME_SETTINGS_TASK_POINTS";
  * @b en@: "✓"
 
  * @b es@: "✓"
+
+ * @b et@: "✓"
 
  * @b fi@: "✓"
 
@@ -18577,6 +19997,8 @@ static NSString * const BME_SETTINGS_TASK_POINTS = @"BME_SETTINGS_TASK_POINTS";
 
  * @b sv@: "✓"
 
+ * @b th@: "✓"
+
  * @b tr@: "✓"
 
  * @b uk@: "✓"
@@ -18601,6 +20023,8 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED = @"BME_SETTINGS_TASK_COMPLE
 
  * @b ar@: "مكتمل"
 
+ * @b az@: "Tamamlandı"
+
  * @b ca@: "Completat"
 
  * @b cs@: "Dokončeno"
@@ -18614,6 +20038,8 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED = @"BME_SETTINGS_TASK_COMPLE
  * @b en@: "Completed"
 
  * @b es@: "Completado"
+
+ * @b et@: "Lõpetatud"
 
  * @b fi@: "Valmis"
 
@@ -18655,6 +20081,8 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED = @"BME_SETTINGS_TASK_COMPLE
 
  * @b sv@: "Slutförd"
 
+ * @b th@: "เรียบร้อยแล้ว"
+
  * @b tr@: "Tamamlandı"
 
  * @b uk@: "Завершено"
@@ -18679,6 +20107,8 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL = @"BME_
 
  * @b ar@: "ساعِد شخصا أعمى ليرى من خلال تطبيق #BeMyEyes - التطبيق الذي يوصل الأشخاص العمي بالمساعدِين المبصرين!"
 
+ * @b az@: "Görmə əngəlli insanları görən köməkçilərlə görüşdürən #BeMyEyes tətbiqetməsi ilə görmə əngəlli şəxsin görməsinə kömək edin!"
+
  * @b ca@: "Ajudar a veure a una persona invident amb l'aplicació de #BeMyEyes - l'app que connecta persones invidents amb ajudants vidents!"
 
  * @b cs@: "Pomáhejte nevidomemu člověku vidět s #BeMyEyes - aplikace, která spojuje slepé lidé s vidicími pomocníky!"
@@ -18692,6 +20122,8 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL = @"BME_
  * @b en@: "Help a blind person see with the #BeMyEyes app - the app that connects blind people with sighted helpers!"
 
  * @b es@: "Asista a una persona invidente con la aplicación #BeMyEyes - la aplicación que conecta a gente invidente con asistentes videntes!"
+
+ * @b et@: "Aita pimedal inimesel näha Be My Eyes rakendusega - rakendus, mis ühendab pimedad inimesed ja nägijatest abistajad!"
 
  * @b fi@: "Auta sokeaa henkilöä näkemään #BeMyEyes sovelluksella - sovellus yhdistää sokeat näkeviin auttajiin!"
 
@@ -18733,6 +20165,8 @@ static NSString * const BME_SETTINGS_TASK_COMPLETED_ACCESSIBILITY_LABEL = @"BME_
 
  * @b sv@: "Hjälp en blind person att se med #BeMyEyes, appen som kopplar ihop blinda personer med seende hjälpare!"
 
+ * @b th@: "ช่วยเป็นตาให้กับคนที่มองไม่เห็นด้วยแอพ #BeMyEyes นี้\nให้คุณได้หยิบยื่น เมื่อมีคนที่ต้องการความช่วยเหลือ"
+
  * @b tr@: "Görme engellileri gören yardımcılarla buluşturan #BeMyEyes uygulamasıyla görme engelli birinin görmesine yardımcı olun!"
 
  * @b uk@: "Допоможіть сліпій людині побачити із застосунком #BeMyEyes» - програма, що поєднує сліпих людей з зрячими помічниками!"
@@ -18757,6 +20191,8 @@ static NSString * const BME_SETTINGS_TASK_SHARE_MESSAGE = @"BME_SETTINGS_TASK_SH
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -18770,6 +20206,8 @@ static NSString * const BME_SETTINGS_TASK_SHARE_MESSAGE = @"BME_SETTINGS_TASK_SH
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -18811,6 +20249,8 @@ static NSString * const BME_SETTINGS_TASK_SHARE_MESSAGE = @"BME_SETTINGS_TASK_SH
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -18835,6 +20275,8 @@ static NSString * const BME_SIGN_UP_BACK = @"BME_SIGN_UP_BACK";
 
  * @b ar@: "الاسم الأول"
 
+ * @b az@: "Adınız"
+
  * @b ca@: "Nom"
 
  * @b cs@: "Křestní Jméno"
@@ -18848,6 +20290,8 @@ static NSString * const BME_SIGN_UP_BACK = @"BME_SIGN_UP_BACK";
  * @b en@: "First name"
 
  * @b es@: "Nombre"
+
+ * @b et@: "Eesnimi"
 
  * @b fi@: "Etunimi"
 
@@ -18889,6 +20333,8 @@ static NSString * const BME_SIGN_UP_BACK = @"BME_SIGN_UP_BACK";
 
  * @b sv@: "Förnamn"
 
+ * @b th@: "ชื่อ"
+
  * @b tr@: "Adınız"
 
  * @b uk@: "Ім'я"
@@ -18913,6 +20359,8 @@ static NSString * const BME_SIGN_UP_FIRST_NAME_PLACEHOLDER = @"BME_SIGN_UP_FIRST
 
  * @b ar@: "اسم العائلة"
 
+ * @b az@: "Soyadınız"
+
  * @b ca@: "Cognom"
 
  * @b cs@: "Příjmení"
@@ -18926,6 +20374,8 @@ static NSString * const BME_SIGN_UP_FIRST_NAME_PLACEHOLDER = @"BME_SIGN_UP_FIRST
  * @b en@: "Surname"
 
  * @b es@: "Apellidos"
+
+ * @b et@: "Perekonnanimi"
 
  * @b fi@: "Sukunimi"
 
@@ -18967,6 +20417,8 @@ static NSString * const BME_SIGN_UP_FIRST_NAME_PLACEHOLDER = @"BME_SIGN_UP_FIRST
 
  * @b sv@: "Efternamn"
 
+ * @b th@: "นามสกุล"
+
  * @b tr@: "Soyadınız"
 
  * @b uk@: "Прізвище"
@@ -18991,6 +20443,8 @@ static NSString * const BME_SIGN_UP_LAST_NAME_PLACEHOLDER = @"BME_SIGN_UP_LAST_N
 
  * @b ar@: "البريد الإلكتروني"
 
+ * @b az@: "E-poçt"
+
  * @b ca@: "E-mail"
 
  * @b cs@: "E-mail"
@@ -19004,6 +20458,8 @@ static NSString * const BME_SIGN_UP_LAST_NAME_PLACEHOLDER = @"BME_SIGN_UP_LAST_N
  * @b en@: "E-mail"
 
  * @b es@: "Correo electrónico"
+
+ * @b et@: "E-posti aadress"
 
  * @b fi@: "Sähköposti"
 
@@ -19043,6 +20499,8 @@ static NSString * const BME_SIGN_UP_LAST_NAME_PLACEHOLDER = @"BME_SIGN_UP_LAST_N
 
  * @b sv@: "E-post"
 
+ * @b th@: "อีเมล"
+
  * @b tr@: "E-posta"
 
  * @b uk@: "Електронна пошта"
@@ -19067,6 +20525,8 @@ static NSString * const BME_SIGN_UP_EMAIL_PLACEHOLDER = @"BME_SIGN_UP_EMAIL_PLAC
 
  * @b ar@: "كلمة المرور"
 
+ * @b az@: "Şifrə"
+
  * @b ca@: "Contrasenya"
 
  * @b cs@: "Heslo"
@@ -19080,6 +20540,8 @@ static NSString * const BME_SIGN_UP_EMAIL_PLACEHOLDER = @"BME_SIGN_UP_EMAIL_PLAC
  * @b en@: "Password"
 
  * @b es@: "Contraseña"
+
+ * @b et@: "salasõna"
 
  * @b fi@: "Salasana"
 
@@ -19121,6 +20583,8 @@ static NSString * const BME_SIGN_UP_EMAIL_PLACEHOLDER = @"BME_SIGN_UP_EMAIL_PLAC
 
  * @b sv@: "Lösenord"
 
+ * @b th@: "รหัสผ่าน"
+
  * @b tr@: "Şifre"
 
  * @b uk@: "Пароль"
@@ -19145,6 +20609,8 @@ static NSString * const BME_SIGN_UP_PASSWORD_PLACEHOLDER = @"BME_SIGN_UP_PASSWOR
 
  * @b ar@: "تسجيل"
 
+ * @b az@: "Qeydiyyat"
+
  * @b ca@: "Registrar-se"
 
  * @b cs@: "Registrovat"
@@ -19158,6 +20624,8 @@ static NSString * const BME_SIGN_UP_PASSWORD_PLACEHOLDER = @"BME_SIGN_UP_PASSWOR
  * @b en@: "Register"
 
  * @b es@: "Registrarse"
+
+ * @b et@: "Registreeru"
 
  * @b fi@: "Rekisteröidy"
 
@@ -19199,6 +20667,8 @@ static NSString * const BME_SIGN_UP_PASSWORD_PLACEHOLDER = @"BME_SIGN_UP_PASSWOR
 
  * @b sv@: "Registrera"
 
+ * @b th@: "ลงทะเบียน"
+
  * @b tr@: "Kayıt ol"
 
  * @b uk@: "Зареєструватись"
@@ -19223,6 +20693,8 @@ static NSString * const BME_SIGN_UP_REGISTER = @"BME_SIGN_UP_REGISTER";
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -19236,6 +20708,8 @@ static NSString * const BME_SIGN_UP_REGISTER = @"BME_SIGN_UP_REGISTER";
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -19277,6 +20751,8 @@ static NSString * const BME_SIGN_UP_REGISTER = @"BME_SIGN_UP_REGISTER";
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -19301,6 +20777,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL = @"BM
 
  * @b ar@: "يوجد حساب يستخدم نفس البريد الإلكتروني المدخل بالفعل."
 
+ * @b az@: "Daxil edilmiş e-poçt ünvanına malik olan hesab artıq mövcuddur."
+
  * @b ca@: "Ja existeix un compte amb l'adreça electrònica introduïda."
 
  * @b cs@: "Účet s e-mailovou adresou již existuje."
@@ -19314,6 +20792,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL = @"BM
  * @b en@: "An account with the entered e-mail address already exists."
 
  * @b es@: "Ya existe una cuenta con la dirección de correo electrónico introducida."
+
+ * @b et@: "Konto selle e-posti aadressiga on juba olemas."
 
  * @b fi@: "Annettu sähköpostiosoitetili on jo olemassa."
 
@@ -19353,6 +20833,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_CANCEL = @"BM
 
  * @b sv@: "Ett konto med den angivna e-postadressen finns redan."
 
+ * @b th@: "อีเมล์ที่คุณป้อนนั้นได้ถูกลงทะเบียนแล้ว"
+
  * @b tr@: "Girilen e-posta adresine sahip bir hesap zaten var."
 
  * @b uk@: "Обліковий запис з введеною електронною адресою вже існує."
@@ -19377,6 +20859,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE = @"B
 
  * @b ar@: "البريد الإلكتروني مسجل مسبقاً"
 
+ * @b az@: "E-poçt artıq qeydiyyatdadır"
+
  * @b ca@: "Correu electrònic ja registrat"
 
  * @b cs@: "Email je již registrován"
@@ -19390,6 +20874,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE = @"B
  * @b en@: "E-mail already registered"
 
  * @b es@: "La dirección de correo ya está registrada"
+
+ * @b et@: "E-posti aadress on juba registreeritud"
 
  * @b fi@: "Sähköposti jo rekisteröity"
 
@@ -19429,6 +20915,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_MESSAGE = @"B
 
  * @b sv@: "E-post redan registrerad"
 
+ * @b th@: "มีผู้ใช้อีเมลนี้แล้ว"
+
  * @b tr@: "E-posta zaten kayıtlı"
 
  * @b uk@: "Такий поштовий адрес вже використовується"
@@ -19453,6 +20941,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE = @"BME
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -19466,6 +20956,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE = @"BME
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -19507,6 +20999,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_ALREADY_REGISTERED_TITLE = @"BME
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -19531,6 +21025,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME_SIGN_UP
 
  * @b ar@: "البريد الإلكتروني المدخل غير صحيح."
 
+ * @b az@: "Daxil edilmiş e-poçt ünvanı etibarsızdır."
+
  * @b ca@: "L'adreça d'e-mail introduït no és vàlid."
 
  * @b cs@: "Zadaná e-mailová adresa není platná."
@@ -19544,6 +21040,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME_SIGN_UP
  * @b en@: "The entered e-mail address is not valid."
 
  * @b es@: "La dirección de correo electrónico introducida no es válida."
+
+ * @b et@: "Sisestatud e-posti aadress ei ole õige."
 
  * @b fi@: "Annettu sähköpostiosoite ei kelpaa."
 
@@ -19583,6 +21081,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_CANCEL = @"BME_SIGN_UP
 
  * @b sv@: "Den angivna e-postadressen är ogiltig."
 
+ * @b th@: "อีเมล์ที่คุณป้อนไม่ถูกต้อง"
+
  * @b tr@: "Girilen e-posta adresi geçerli değil."
 
  * @b uk@: "Введена поштова адреса є неприпустимою."
@@ -19607,6 +21107,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BME_SIGN_U
 
  * @b ar@: "البريد الإلكتروني غير صحيح"
 
+ * @b az@: "E-poçt etibarsızdır"
+
  * @b ca@: "Correu electrònic no vàlid"
 
  * @b cs@: "E-mail je neplatný"
@@ -19620,6 +21122,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BME_SIGN_U
  * @b en@: "E-mail is invalid"
 
  * @b es@: "Correo electrónico inválido"
+
+ * @b et@: "Vigane e-posti aadress"
 
  * @b fi@: "Sähköposti ei kelpaa"
 
@@ -19659,6 +21163,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_MESSAGE = @"BME_SIGN_U
 
  * @b sv@: "Ogiltig e-post"
 
+ * @b th@: "อีเมล์ไม่ถูกต้อง"
+
  * @b tr@: "E-posta geçersiz"
 
  * @b uk@: "Електронна пошта неприпустима"
@@ -19683,6 +21189,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE = @"BME_SIGN_UP_
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -19696,6 +21204,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE = @"BME_SIGN_UP_
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -19737,6 +21247,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMAIL_NOT_VALID_TITLE = @"BME_SIGN_UP_
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -19761,6 +21273,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL = @"BME_SIGN_UP_AL
 
  * @b ar@: "يرجى ملء كافة المعلومات قبل المواصلة."
 
+ * @b az@: "Zəhmət olmasa davam etməmişdən əvvəl bütün məlumatları doldurun."
+
  * @b ca@: "Si us plau ompli tota la informació abans de continuar."
 
  * @b cs@: "Vyplňte prosím všechny informace před pokračováním."
@@ -19774,6 +21288,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL = @"BME_SIGN_UP_AL
  * @b en@: "Please fill out all information before proceeding."
 
  * @b es@: "Por favor rellene toda la información antes de proceder."
+
+ * @b et@: "Palun sisesta kogu informatsioon enne jätkamist."
 
  * @b fi@: "Täytä kaikki tiedot ennen jatkamista."
 
@@ -19815,6 +21331,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_CANCEL = @"BME_SIGN_UP_AL
 
  * @b sv@: "Fyll i all information innan du fortsätter."
 
+ * @b th@: "กรุณากรอกข้อมูลทั้งหมดก่อนที่จะเริ่มขั้นตอนต่อไป"
+
  * @b tr@: "Lütfen devam etmeden önce tüm bilgileri doldurun."
 
  * @b uk@: "Будь ласка, заповніть всю інформацію, перш ніж продовжити."
@@ -19839,6 +21357,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE = @"BME_SIGN_UP_A
 
  * @b ar@: "خانات فارغة"
 
+ * @b az@: "Boş sahələr"
+
  * @b ca@: "Camps buits"
 
  * @b cs@: "Prázdná pole"
@@ -19852,6 +21372,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE = @"BME_SIGN_UP_A
  * @b en@: "Empty fields"
 
  * @b es@: "Campos vacíos"
+
+ * @b et@: "Tühjad väljad"
 
  * @b fi@: "Tyhjiä kenttiä"
 
@@ -19893,6 +21415,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_MESSAGE = @"BME_SIGN_UP_A
 
  * @b sv@: "Tomma fält"
 
+ * @b th@: "ช่องว่าง"
+
  * @b tr@: "Boş alanlar"
 
  * @b uk@: "Пусті поля"
@@ -19917,6 +21441,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE = @"BME_SIGN_UP_ALE
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -19930,6 +21456,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE = @"BME_SIGN_UP_ALE
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -19971,6 +21499,8 @@ static NSString * const BME_SIGN_UP_ALERT_EMPTY_FIELDS_TITLE = @"BME_SIGN_UP_ALE
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -19995,6 +21525,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL = @"BME_SIGN
 
  * @b ar@: "كلمة المرور المدخلة قصيرة جدا."
 
+ * @b az@: "Daxil edilmiş şifrə çox qısadır."
+
  * @b ca@: "La contrasenya introduïda és massa curta."
 
  * @b cs@: "Zadané heslo je příliš krátké."
@@ -20008,6 +21540,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL = @"BME_SIGN
  * @b en@: "The entered password is too short."
 
  * @b es@: "La contraseña introducida es demasiado corta."
+
+ * @b et@: "Sisestatud salasõna on liiga lühike."
 
  * @b fi@: "Annettu salasana on liian lyhyt."
 
@@ -20049,6 +21583,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_CANCEL = @"BME_SIGN
 
  * @b sv@: "Det angivna lösenordet är för kort."
 
+ * @b th@: "รหัสผ่านสั้นเกินไป"
+
  * @b tr@: "Girilen şifre çok kısa."
 
  * @b uk@: "Введений пароль є закоротким."
@@ -20073,6 +21609,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE = @"BME_SIG
 
  * @b ar@: "كلمة المرور قصيرة جدا"
 
+ * @b az@: "Şifrə çox qısadır"
+
  * @b ca@: "La contrasenya és massa curta"
 
  * @b cs@: "Heslo je příliš krátké"
@@ -20086,6 +21624,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE = @"BME_SIG
  * @b en@: "Password is too short"
 
  * @b es@: "La contraseña es demasiado corta"
+
+ * @b et@: "Liiga lühike salasõna"
 
  * @b fi@: "Salasana on liian lyhyt"
 
@@ -20127,6 +21667,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_MESSAGE = @"BME_SIG
 
  * @b sv@: "Kort lösenord"
 
+ * @b th@: "รหัสผ่านสั้นเกินไป"
+
  * @b tr@: "Şifre çok kısa"
 
  * @b uk@: "Пароль є закоротким"
@@ -20151,6 +21693,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE = @"BME_SIGN_
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -20164,6 +21708,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE = @"BME_SIGN_
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -20205,6 +21751,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORD_TOO_SHORT_TITLE = @"BME_SIGN_
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -20229,6 +21777,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL = @"BME_
 
  * @b ar@: "كلمتا المرور المدخلتين غير متطابقتين."
 
+ * @b az@: "Daxil edilmiş şifrələr uyğunlaşmır."
+
  * @b ca@: "Les contrasenyes introduides no coincideixen."
 
  * @b cs@: "Zadaná hesla se neshodují."
@@ -20242,6 +21792,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL = @"BME_
  * @b en@: "The entered passwords does not match."
 
  * @b es@: "Las contraseñas introducidas no coinciden."
+
+ * @b et@: "Sisestatud salasõnad ei kattu."
 
  * @b fi@: "Annettu salasana ei vastaa."
 
@@ -20283,6 +21835,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_CANCEL = @"BME_
 
  * @b sv@: "De angivna lösenorden är olika."
 
+ * @b th@: "กรอกรหัสผ่านไม่ตรงกัน"
+
  * @b tr@: "Girilen şifreler eşleşmiyor."
 
  * @b uk@: "Введені паролі не співпадають."
@@ -20307,6 +21861,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE = @"BME
 
  * @b ar@: "كلمتا المرور غير متطابقتين"
 
+ * @b az@: "Şifrələr uyğunlaşmır"
+
  * @b ca@: "Contrasenyes no coincidents"
 
  * @b cs@: "Heslá se neshodují"
@@ -20320,6 +21876,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE = @"BME
  * @b en@: "Passwords not matching"
 
  * @b es@: "Las contraseñas no coinciden"
+
+ * @b et@: "Salasõnad ei kattu"
 
  * @b fi@: "Salasanat eivät vastaa"
 
@@ -20361,6 +21919,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_MESSAGE = @"BME
 
  * @b sv@: "Olika lösenord"
 
+ * @b th@: "รหัสผ่านไม่ตรงกัน"
+
  * @b tr@: "Şifreler eşleşmiyor"
 
  * @b uk@: "Паролі не збігаються"
@@ -20385,6 +21945,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE = @"BME_S
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -20398,6 +21960,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE = @"BME_S
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -20439,6 +22003,8 @@ static NSString * const BME_SIGN_UP_ALERT_PASSWORDS_NOT_MATCHING_TITLE = @"BME_S
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -20463,6 +22029,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL = @"BME_SIGN_UP_A
 
  * @b ar@: "لا يمكن إنشاء حسابك. يرجى التأكد أن لديك اتصال فعّال بالإنترنت والمحاولة مجددا."
 
+ * @b az@: "Hesabınız yaradılmadı. Zəhmət olmasa aktiv internet bağlantınızın olduğunu təsdiqləyib yenidən cəhd edin."
+
  * @b ca@: "No s'ha pogut crear el vostre compte. Si us plau verificar que teniu una connexió activa a internet i proveu una altra vegada."
 
  * @b cs@: "Váš účet nelze vytvořit. Ověřte, že máte aktivní připojení k internetu a opakujte akci."
@@ -20476,6 +22044,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL = @"BME_SIGN_UP_A
  * @b en@: "Your account could not be created. Please verify that you have an active internet connection and try again."
 
  * @b es@: "Su cuenta no puedo ser creada. Por favor verifique que usted cuenta con una conexión activa a internet y vuélvalo a intentar."
+
+ * @b et@: "Sinu kontot ei saanud luua. Palun kontrolli internetiühenduse olemasolu ja proovi uuesti."
 
  * @b fi@: "Tilisi ei voitu luoda. Varmista, että sinulla on aktiivinen internet-yhteys ja yritä uudelleen."
 
@@ -20517,6 +22087,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_CANCEL = @"BME_SIGN_UP_A
 
  * @b sv@: "Ditt konto kunde inte skapas. Kontrollera din internetanslutning och försök igen."
 
+ * @b th@: "ไม่สามารถสร้างบัญชีของคุณได้ โปรดตรวจสอบว่าคุณได้เชื่อมต่อกับอินเตอร์เน็ตอยู่ แล้วลองใหม่อีกครั้ง"
+
  * @b tr@: "Hesabınız oluşturulamadı. Lütfen etkin bir internet bağlantınız olduğunu doğrulayın ve tekrar deneyin."
 
  * @b uk@: "Не вдалося створити обліковий запис. Будь ласка перевірте, чи активне підключення до Інтернету і повторіть спробу."
@@ -20541,6 +22113,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE = @"BME_SIGN_UP_
 
  * @b ar@: "لا يمكن إنشاء الحساب"
 
+ * @b az@: "Hesab yaradıla bilmədi"
+
  * @b ca@: "No s'ha pogut crear el compte"
 
  * @b cs@: "Nelze vytvořit účet"
@@ -20554,6 +22128,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE = @"BME_SIGN_UP_
  * @b en@: "Could not create account"
 
  * @b es@: "No se pudo crear la cuenta"
+
+ * @b et@: "Kontot ei olnud võimalik luua"
 
  * @b fi@: "Tilin luominen ei onnistunut"
 
@@ -20595,6 +22171,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_MESSAGE = @"BME_SIGN_UP_
 
  * @b sv@: "Kunde inte skapa konto"
 
+ * @b th@: "ไม่สามารถสร้างบัญชีผู้ใช้ได้"
+
  * @b tr@: "Hesap oluşturulamadı"
 
  * @b uk@: "Не вдалося створити обліковий запис"
@@ -20619,6 +22197,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE = @"BME_SIGN_UP_AL
 
  * @b ar@: "يتم تسجيل الدخول..."
 
+ * @b az@: "Giriş edilir..."
+
  * @b ca@: "Iniciant sessió..."
 
  * @b cs@: "Přihlašování…"
@@ -20632,6 +22212,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE = @"BME_SIGN_UP_AL
  * @b en@: "Logging in..."
 
  * @b es@: "Iniciando sesión..."
+
+ * @b et@: "Sisselogimine..."
 
  * @b fi@: "Kirjaudutaan sisään..."
 
@@ -20673,6 +22255,8 @@ static NSString * const BME_SIGN_UP_ALERT_UNKNOWN_ERROR_TITLE = @"BME_SIGN_UP_AL
 
  * @b sv@: "Loggar in..."
 
+ * @b th@: "กำลังเข้าสู่ระบบ ..."
+
  * @b tr@: "Oturum açılıyor..."
 
  * @b uk@: "Здійснюється вхід..."
@@ -20697,6 +22281,8 @@ static NSString * const BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE = @"BME_SIGN_UP_OVE
 
  * @b ar@: "يتم التسجيل..."
 
+ * @b az@: "Qeydiyyatdan keçir..."
+
  * @b ca@: "Registrant..."
 
  * @b cs@: "Registrace..."
@@ -20710,6 +22296,8 @@ static NSString * const BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE = @"BME_SIGN_UP_OVE
  * @b en@: "Registering..."
 
  * @b es@: "Registrando..."
+
+ * @b et@: "Registreerimine..."
 
  * @b fi@: "Rekisteröidään..."
 
@@ -20751,6 +22339,8 @@ static NSString * const BME_SIGN_UP_OVERLAY_LOGGING_IN_TITLE = @"BME_SIGN_UP_OVE
 
  * @b sv@: "Registrerar...\n"
 
+ * @b th@: "กำลังลงทะเบียน..."
+
  * @b tr@: "Kaydediliyor..."
 
  * @b uk@: "Реєстрація..."
@@ -20775,6 +22365,8 @@ static NSString * const BME_SIGN_UP_OVERLAY_REGISTERING_TITLE = @"BME_SIGN_UP_OV
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -20788,6 +22380,8 @@ static NSString * const BME_SIGN_UP_OVERLAY_REGISTERING_TITLE = @"BME_SIGN_UP_OV
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -20829,6 +22423,8 @@ static NSString * const BME_SIGN_UP_OVERLAY_REGISTERING_TITLE = @"BME_SIGN_UP_OV
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -20853,6 +22449,8 @@ static NSString * const BME_SIGN_UP_METHOD_BACK = @"BME_SIGN_UP_METHOD_BACK";
 
  * @b ar@: "كن جزءا من الشبكة"
 
+ * @b az@: "Bu şəbəkənin bir hissəsi ol"
+
  * @b ca@: "Sigues part de la xarxa"
 
  * @b cs@: "Stante se součástí sítě"
@@ -20866,6 +22464,8 @@ static NSString * const BME_SIGN_UP_METHOD_BACK = @"BME_SIGN_UP_METHOD_BACK";
  * @b en@: "Become a part of the network"
 
  * @b es@: "Únase a la red"
+
+ * @b et@: "Saa osaks võrgustikust"
 
  * @b fi@: "Liity verkostoon"
 
@@ -20907,6 +22507,8 @@ static NSString * const BME_SIGN_UP_METHOD_BACK = @"BME_SIGN_UP_METHOD_BACK";
 
  * @b sv@: "Bli en del av nätverket"
 
+ * @b th@: "มาร่วมเป็นส่วนหนึ่งของเครือข่าย"
+
  * @b tr@: "Bu ağın bir parçası ol"
 
  * @b uk@: "Станьте частиною мережі"
@@ -20931,6 +22533,8 @@ static NSString * const BME_SIGN_UP_METHOD_HEADLINE = @"BME_SIGN_UP_METHOD_HEADL
 
  * @b ar@: "سجّل باستخدام فيسبوك"
 
+ * @b az@: "Facebook ilə üzv ol"
+
  * @b ca@: "Inscriure's mitjançant Facebook"
 
  * @b cs@: "Přihlásit se přes Facebook"
@@ -20944,6 +22548,8 @@ static NSString * const BME_SIGN_UP_METHOD_HEADLINE = @"BME_SIGN_UP_METHOD_HEADL
  * @b en@: "Sign up via Facebook"
 
  * @b es@: "Regístrese vía Facebook"
+
+ * @b et@: "Registreeru Facebooki kaudu"
 
  * @b fi@: "Kirjaudu Facebookin kautta"
 
@@ -20985,6 +22591,8 @@ static NSString * const BME_SIGN_UP_METHOD_HEADLINE = @"BME_SIGN_UP_METHOD_HEADL
 
  * @b sv@: "Registrera via Facebook"
 
+ * @b th@: "สมัครผ่าน Facebook"
+
  * @b tr@: "Facebook ile üye ol"
 
  * @b uk@: "Зареєструйтеся через Facebook"
@@ -21009,6 +22617,8 @@ static NSString * const BME_SIGN_UP_METHOD_FACEBOOK = @"BME_SIGN_UP_METHOD_FACEB
 
  * @b ar@: "تسجيل باستخدام بريد إلكتروني"
 
+ * @b az@: "E-poçt ilə üzv ol"
+
  * @b ca@: "Inscrigui's mitjançant correu electrònic"
 
  * @b cs@: "Přihlásit se pomocí e-mailu"
@@ -21022,6 +22632,8 @@ static NSString * const BME_SIGN_UP_METHOD_FACEBOOK = @"BME_SIGN_UP_METHOD_FACEB
  * @b en@: "Sign up with e-mail"
 
  * @b es@: "Registrarse con correo electrónico"
+
+ * @b et@: "Registreeru e-postiga"
 
  * @b fi@: "Kirjaudu sähköpostin kautta"
 
@@ -21061,6 +22673,8 @@ static NSString * const BME_SIGN_UP_METHOD_FACEBOOK = @"BME_SIGN_UP_METHOD_FACEB
 
  * @b sv@: "Registrera med e-post"
 
+ * @b th@: "สมัครโดยใช้อีเมล์"
+
  * @b tr@: "E-posta ile üye ol"
 
  * @b uk@: "Зареєструйтеся через електронну пошту"
@@ -21085,6 +22699,8 @@ static NSString * const BME_SIGN_UP_METHOD_EMAIL = @"BME_SIGN_UP_METHOD_EMAIL";
 
  * @b ar@: "بالاستمرار فأنت توافق على"
 
+ * @b az@: "Davam edərək bunları qəbul edirsən:"
+
  * @b ca@: "Per continuar accepteu els"
 
  * @b cs@: "Pokračovánim přijmete"
@@ -21098,6 +22714,8 @@ static NSString * const BME_SIGN_UP_METHOD_EMAIL = @"BME_SIGN_UP_METHOD_EMAIL";
  * @b en@: "By continuing you accept the"
 
  * @b es@: "Al continuar, usted acepta los"
+
+ * @b et@: "Jätkates aktsepteerid sa"
 
  * @b fi@: "Jatkamalla hyväksyt"
 
@@ -21139,6 +22757,8 @@ static NSString * const BME_SIGN_UP_METHOD_EMAIL = @"BME_SIGN_UP_METHOD_EMAIL";
 
  * @b sv@: "Genom att fortsätta accepterar du"
 
+ * @b th@: "การดำเนินการต่อหมายถึงคุณยอมรับ"
+
  * @b tr@: "Devam ederek şunları kabul etmiş sayılırsın:"
 
  * @b uk@: "Продовжуючи ви приймаєте"
@@ -21163,6 +22783,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP = @"BME_SIGN
 
  * @b ar@: "الشروط والاتفاقيات"
 
+ * @b az@: "Şərtlər və Müqavilələr"
+
  * @b ca@: "Termes i acords"
 
  * @b cs@: "Podmínky"
@@ -21176,6 +22798,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP = @"BME_SIGN
  * @b en@: "Terms and Agreements"
 
  * @b es@: "Términos y Acuerdos de Uso"
+
+ * @b et@: "Tingimuste ja nõusolekutega"
 
  * @b fi@: "Ehdot ja sopimukset"
 
@@ -21217,6 +22841,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_TOP = @"BME_SIGN
 
  * @b sv@: "Villkor och avtal"
 
+ * @b th@: "เงื่อนไขและข้อตกลง"
+
  * @b tr@: "Kullanım koşulları"
 
  * @b uk@: "Умови та домовленності"
@@ -21241,6 +22867,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM = @"BME_S
 
  * @b ar@: "وكذلك"
 
+ * @b az@: "və"
+
  * @b ca@: "així com la"
 
  * @b cs@: "stejně jako"
@@ -21254,6 +22882,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM = @"BME_S
  * @b en@: "as well as the"
 
  * @b es@: "así como la"
+
+ * @b et@: "ja samuti ka"
 
  * @b fi@: "sekä"
 
@@ -21295,6 +22925,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_AND_AGREEMENTS_BOTTOM = @"BME_S
 
  * @b sv@: "samt vår"
 
+ * @b th@: "รวมทั้ง"
+
  * @b tr@: "ve"
 
  * @b uk@: "а також"
@@ -21319,6 +22951,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP = @"BME_SIGN_UP_ME
 
  * @b ar@: "سياسة الخصوصية"
 
+ * @b az@: "Gizlilik Siyasəti"
+
  * @b ca@: "Política de privacitat"
 
  * @b cs@: "Zásady ochrany osobních údajů"
@@ -21332,6 +22966,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP = @"BME_SIGN_UP_ME
  * @b en@: "Privacy Policy"
 
  * @b es@: "Política de Privacidad"
+
+ * @b et@: "Privaatsuspoliitikaga"
 
  * @b fi@: "Yksityisyydensuoja"
 
@@ -21373,6 +23009,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_POLICY_TOP = @"BME_SIGN_UP_ME
 
  * @b sv@: "Integritetspolicy"
 
+ * @b th@: "นโยบายความเป็นส่วนตัว"
+
  * @b tr@: "Gizlilik politikası"
 
  * @b uk@: "Політика конфіденційності"
@@ -21397,6 +23035,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM = @"BME_SIGN_UP
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -21410,6 +23050,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM = @"BME_SIGN_UP
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -21451,6 +23093,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_POLICY_BOTTOM = @"BME_SIGN_UP
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -21475,6 +23119,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
 
  * @b ar@: "يوجد حساب مسجّل بالفعل يستخدم نفس البريد الإلكتروني المستخدم في حساب فيسبوك."
 
+ * @b az@: "Facebook istifadəçisinin e-poçt ünvanına sahib hesabı artıq qeydiyyatdan keçib."
+
  * @b ca@: "Un compte amb l'adreça electrònica de l'usuari de Facebook ja ha estat registrat."
 
  * @b cs@: "Účet s e-mailovou adresu uživatele Facebooku je již zaregistrován."
@@ -21488,6 +23134,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
  * @b en@: "An account with the e-mail address of the Facebook user has already been registered."
 
  * @b es@: "Ya se ha registrado una cuenta con el correo electrónico de este usuario de Facebook."
+
+ * @b et@: "Konto Facebooki kasutaja e-posti aadressiga on juba registreeritud."
 
  * @b fi@: "Facebook tilin sähköpostiosoite on jo rekisteröity."
 
@@ -21527,6 +23175,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
 
  * @b sv@: "Ett konto med Facebook-användarens e-postadress finns redan registrerad."
 
+ * @b th@: "ลงทะเบียนบัญชีโดยใช้ที่อยู่อีเมล์ของผู้ใช้ Facebook แล้ว"
+
  * @b tr@: "Facebook kullanıcısının e-posta adresine sahip bir hesap daha önceden kaydedilmiş."
 
  * @b uk@: "Обліковий запис з адресою електронної пошти користувача Facebook вже зареєстрований."
@@ -21551,6 +23201,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
 
  * @b ar@: "البريد الإلكتروني مسجل مسبقاً"
 
+ * @b az@: "E-poçt artıq qeydiyyatdadır"
+
  * @b ca@: "Correu electrònic ja registrat"
 
  * @b cs@: "Email je již registrován"
@@ -21564,6 +23216,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
  * @b en@: "E-mail already registered"
 
  * @b es@: "Este correo electrónico ya ha sido registrado"
+
+ * @b et@: "E-posti aadress on juba registreeritud"
 
  * @b fi@: "Sähköposti jo rekisteröity"
 
@@ -21603,6 +23257,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
 
  * @b sv@: "E-post redan registrerad"
 
+ * @b th@: "มีผู้ใช้อีเมลนี้แล้ว"
+
  * @b tr@: "E-posta zaten kayıtlı"
 
  * @b uk@: "Такий поштовий адрес вже використовується"
@@ -21627,6 +23283,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -21640,6 +23298,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -21681,6 +23341,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_EMAIL_ALREADY_REGISTER
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -21705,6 +23367,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
 
  * @b ar@: "يرجى التأكد أن لديك اتصال فعّال بالإنترنت والمحاولة مجددا."
 
+ * @b az@: "Zəhmət olmasa aktiv internet bağlantınızın olduğunu təsdiqləyib yenidən cəhd edin."
+
  * @b ca@: "Si us plau verifica que tens una connexió activa a internet i prova-ho una altra vegada."
 
  * @b cs@: "Ověřte, že máte aktivní připojení k internetu a opakujte akci."
@@ -21718,6 +23382,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
  * @b en@: "Please verify that you have an active internet connection and try again."
 
  * @b es@: "Por favor verifique que tiene una conexión activa a internet e inténtelo de nuevo."
+
+ * @b et@: "Veendu, et internetiühendus on olemas ja proovi uuesti."
 
  * @b fi@: "Varmista, että sinulla on toimiva internet-yhteys ja yritä uudelleen."
 
@@ -21759,6 +23425,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
 
  * @b sv@: "Vänligen kontrollera din internetanslutning och försök igen."
 
+ * @b th@: "โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ตและลองอีกครั้ง."
+
  * @b tr@: "Lütfen etkin bir internet bağlantınız olduğunu doğrulayın ve tekrar deneyin."
 
  * @b uk@: "Будь ласка перевірте, чи є підключення до Інтернету і повторіть спробу."
@@ -21783,6 +23451,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
 
  * @b ar@: "حدث خطأ ما"
 
+ * @b az@: "Xəta baş verdi"
+
  * @b ca@: "S'ha produït un error"
 
  * @b cs@: "Došlo k chybě"
@@ -21796,6 +23466,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
  * @b en@: "An error occurred"
 
  * @b es@: "Se ha producido un error"
+
+ * @b et@: "Juhtus viga"
 
  * @b fi@: "On tapahtunut virhe"
 
@@ -21837,6 +23509,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
 
  * @b sv@: "Ett fel uppstod"
 
+ * @b th@: "เกิดข้อผิดพลาด"
+
  * @b tr@: "Bir hata oluştu"
 
  * @b uk@: "Виникла помилка"
@@ -21861,6 +23535,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -21874,6 +23550,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -21915,6 +23593,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_SIGN_UP_UNKNOWN_ERROR_
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -21939,6 +23619,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL = @"BME_SI
 
  * @b ar@: "لا يمكن المصادقة مع فيسبوك."
 
+ * @b az@: "Facebook ilə təsdiqləmə baş tutmadı."
+
  * @b ca@: "No s'ha pogut autenticar amb Facebook."
 
  * @b cs@: "Nemožno oveřit Facebook."
@@ -21952,6 +23634,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL = @"BME_SI
  * @b en@: "Could not authenticate with Facebook."
 
  * @b es@: "No se pudo autenticar con Facebook."
+
+ * @b et@: "Ei olnud võimalik autentida Facebookiga."
 
  * @b fi@: "Ei voinut todentaa Facebookin kautta."
 
@@ -21993,6 +23677,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_CANCEL = @"BME_SI
 
  * @b sv@: "Kunde inte autentisera med Facebook."
 
+ * @b th@: "ไม่สามารถเชื่อมต่อการรับร้องกับ Facebook"
+
  * @b tr@: "Facebook ile kimlik doğrulaması yapılamadı."
 
  * @b uk@: "Не вдалося зареэструватися через Facebook."
@@ -22017,6 +23703,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE = @"BME_S
 
  * @b ar@: "فشل أثناء المصادقة"
 
+ * @b az@: "Təsdiqləmə uğursuz oldu"
+
  * @b ca@: "L'autenticació ha fallat"
 
  * @b cs@: "Ověření se nezdařilo"
@@ -22030,6 +23718,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE = @"BME_S
  * @b en@: "Authentication failed"
 
  * @b es@: "Error en la autenticación"
+
+ * @b et@: "Autentimine nurjus"
 
  * @b fi@: "Tunnistautuminen epäonnistui"
 
@@ -22071,6 +23761,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_MESSAGE = @"BME_S
 
  * @b sv@: "Autentisering misslyckades"
 
+ * @b th@: "การตรวจสอบผิดพลาด"
+
  * @b tr@: "Kimlik doğrulama başarısız"
 
  * @b uk@: "Помилка аутентифікації"
@@ -22095,6 +23787,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE = @"BME_SIG
 
  * @b ar@: "يتم تسجيل الدخول..."
 
+ * @b az@: "Giriş edilir..."
+
  * @b ca@: "Iniciant sessió..."
 
  * @b cs@: "Přihlašování…"
@@ -22108,6 +23802,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE = @"BME_SIG
  * @b en@: "Logging in..."
 
  * @b es@: "Entrando..."
+
+ * @b et@: "Sisselogimine..."
 
  * @b fi@: "Kirjaudutaan sisään..."
 
@@ -22149,6 +23845,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_NOT_LOGGED_IN_TITLE = @"BME_SIG
 
  * @b sv@: "Loggar in..."
 
+ * @b th@: "กำลังเข้าสู่ระบบ ..."
+
  * @b tr@: "Oturum açılıyor..."
 
  * @b uk@: "Здійснюється вхід..."
@@ -22173,6 +23871,8 @@ static NSString * const BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE = @"BME_SIGN
 
  * @b ar@: "يتم التسجيل..."
 
+ * @b az@: "Qeydiyyatdan keçir..."
+
  * @b ca@: "Registrant..."
 
  * @b cs@: "Registrace..."
@@ -22186,6 +23886,8 @@ static NSString * const BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE = @"BME_SIGN
  * @b en@: "Registering..."
 
  * @b es@: "Registrando..."
+
+ * @b et@: "Registreerimine..."
 
  * @b fi@: "Rekisteröidään..."
 
@@ -22227,6 +23929,8 @@ static NSString * const BME_SIGN_UP_METHOD_OVERLAY_LOGGING_IN_TITLE = @"BME_SIGN
 
  * @b sv@: "Registrerar...\n"
 
+ * @b th@: "กำลังลงทะเบียน..."
+
  * @b tr@: "Kaydediliyor..."
 
  * @b uk@: "Реєстрація..."
@@ -22251,6 +23955,8 @@ static NSString * const BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE = @"BME_SIG
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -22264,6 +23970,8 @@ static NSString * const BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE = @"BME_SIG
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -22305,6 +24013,8 @@ static NSString * const BME_SIGN_UP_METHOD_OVERLAY_REGISTERING_TITLE = @"BME_SIG
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -22329,6 +24039,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANC
 
  * @b ar@: "لا توجد حسابات فيسبوك على هاتفك. يرجى إضافة حسابك في إعدادات النظام."
 
+ * @b az@: "Cihazda heç bir Facebook hesabı tapılmadı. Zəhmət olmasa sistem tənzimləmələrindən hesabınızı əlavə edin."
+
  * @b ca@: "No s'han trobat comptes de Facebook en el dispositiu. Si us plau afegeixi el vostre compte a la configuració del sistema."
 
  * @b cs@: "Na zařízení nebyly nalezeny žádné účty Facebook. Prosím, přidejte svůj účet v nastavení systému."
@@ -22342,6 +24054,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANC
  * @b en@: "No Facebook accounts were found on the device. Please add your account in the system settings."
 
  * @b es@: "No se encontró niguna cuenta de Facebook en su dispositivo. Por favor añada su cuenta en ajustes del sistema."
+
+ * @b et@: "Seadmes ei tuvastatud Facebooki kontosid. Palun lisa oma konto süsteemiseadetes."
 
  * @b fi@: "Facebook tilejä ei löytynyt koneesta. Lisää tilisi järjestelmäasetuksiin."
 
@@ -22383,6 +24097,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANC
 
  * @b sv@: "Inga Facebook-konton hittades på enheten. Lägg till ditt konto under systeminställningar."
 
+ * @b th@: "ไม่พบบัญชี Facebook ในอุปกรณ์นี้. กรุณาเพิ่มบัญชีของคุณในการตั้งค่าระบบ"
+
  * @b tr@: "Cihazda hiçbir Facebook hesabı bulunamadı. Lütfen sistem ayarlarından hesabınızı ekleyin."
 
  * @b uk@: "Облікового записа Facebook не знайдено на пристрої. Будь ласка, додайте ваш обліковий запис в системних налаштуваннях."
@@ -22407,6 +24123,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESS
 
  * @b ar@: "لا يوجد حساب"
 
+ * @b az@: "Heç bir hesab tapılmadı"
+
  * @b ca@: "Cap compte trobat"
 
  * @b cs@: "Žádný účet nenalezen"
@@ -22420,6 +24138,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESS
  * @b en@: "No account found"
 
  * @b es@: "Cuenta no encontrada"
+
+ * @b et@: "Ei leidnud kontot"
 
  * @b fi@: "Tiliä ei löydy"
 
@@ -22461,6 +24181,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESS
 
  * @b sv@: "Inget konto hittades"
 
+ * @b th@: "ไม่พบบัญชี"
+
  * @b tr@: "Hiçbir hesap bulunamadı"
 
  * @b uk@: "Не знайдено облікового запису"
@@ -22485,6 +24207,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITL
 
  * @b ar@: "سياسة الخصوصية"
 
+ * @b az@: "Gizlilik Siyasəti"
+
  * @b ca@: "Política de privacitat"
 
  * @b cs@: "Zásady ochrany osobních údajů"
@@ -22498,6 +24222,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITL
  * @b en@: "Privacy Policy"
 
  * @b es@: "Política de Privacidad"
+
+ * @b et@: "Privaatsuspoliitikaga"
 
  * @b fi@: "Yksityisyydensuoja"
 
@@ -22539,6 +24265,8 @@ static NSString * const BME_SIGN_UP_METHOD_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITL
 
  * @b sv@: "Integritetspolicy"
 
+ * @b th@: "นโยบายความเป็นส่วนตัว"
+
  * @b tr@: "Gizlilik politikası"
 
  * @b uk@: "Політика конфіденційності"
@@ -22563,6 +24291,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT = @"BME_SI
 
  * @b ar@: " "
 
+ * @b az@: " "
+
  * @b ca@: " "
 
  * @b cs@: " "
@@ -22576,6 +24306,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT = @"BME_SI
  * @b en@: " "
 
  * @b es@: " "
+
+ * @b et@: " "
 
  * @b fi@: " "
 
@@ -22617,6 +24349,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_HINT = @"BME_SI
 
  * @b sv@: " "
 
+ * @b th@: " "
+
  * @b tr@: " "
 
  * @b uk@: " "
@@ -22641,6 +24375,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL = @"BME_S
 
  * @b ar@: "الشروط والاتفاقيات"
 
+ * @b az@: "Şərtlər və müqavilələr"
+
  * @b ca@: "Termes i acords"
 
  * @b cs@: "Podmínky"
@@ -22654,6 +24390,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL = @"BME_S
  * @b en@: "Terms and agreements"
 
  * @b es@: "Términos y Acuerdos de Uso"
+
+ * @b et@: "Tingimused ja nõusolekud"
 
  * @b fi@: "Ehdot ja sopimukset"
 
@@ -22695,6 +24433,8 @@ static NSString * const BME_SIGN_UP_METHOD_PRIVACY_ACCESSIBILITY_LABEL = @"BME_S
 
  * @b sv@: "Villkor och avtal"
 
+ * @b th@: "เงื่อนไขและข้อตกลง"
+
  * @b tr@: "Kullanım koşulları"
 
  * @b uk@: "Умови та домовленності"
@@ -22719,6 +24459,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_HINT = @"BME_SIGN
 
  * @b ar@: " "
 
+ * @b az@: " "
+
  * @b ca@: " "
 
  * @b cs@: " "
@@ -22732,6 +24474,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_HINT = @"BME_SIGN
  * @b en@: " "
 
  * @b es@: " "
+
+ * @b et@: " "
 
  * @b fi@: " "
 
@@ -22773,6 +24517,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_HINT = @"BME_SIGN
 
  * @b sv@: " "
 
+ * @b th@: " "
+
  * @b tr@: " "
 
  * @b uk@: " "
@@ -22797,6 +24543,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_LABEL = @"BME_SIG
 
  * @b ar@: "يوم"
 
+ * @b az@: "gün"
+
  * @b ca@: "dia"
 
  * @b cs@: "Den"
@@ -22810,6 +24558,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_LABEL = @"BME_SIG
  * @b en@: "day"
 
  * @b es@: "día"
+
+ * @b et@: "päev"
 
  * @b fi@: "päivä"
 
@@ -22851,6 +24601,8 @@ static NSString * const BME_SIGN_UP_METHOD_TERMS_ACCESSIBILITY_LABEL = @"BME_SIG
 
  * @b sv@: "dag"
 
+ * @b th@: "วัน"
+
  * @b tr@: "gün"
 
  * @b uk@: "день"
@@ -22875,6 +24627,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_DAY = @"BME_SNOOZE_RELATIVE_DAT
 
  * @b ar@: "%.0f أيام"
 
+ * @b az@: "%.0f gün"
+
  * @b ca@: "%.0f dies"
 
  * @b cs@: "%.0f dní"
@@ -22888,6 +24642,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_DAY = @"BME_SNOOZE_RELATIVE_DAT
  * @b en@: "%.0f days"
 
  * @b es@: "%.0f días"
+
+ * @b et@: "%.0f päeva"
 
  * @b fi@: "%.0f päivää"
 
@@ -22929,6 +24685,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_DAY = @"BME_SNOOZE_RELATIVE_DAT
 
  * @b sv@: "%.0f dagar"
 
+ * @b th@: "%.0f วัน"
+
  * @b tr@: "%.0f gün"
 
  * @b uk@: "%.0f днів"
@@ -22953,6 +24711,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_DAYS = @"BME_SNOOZE_RELATIVE_DA
 
  * @b ar@: "ساعة"
 
+ * @b az@: "saat"
+
  * @b ca@: "hora"
 
  * @b cs@: "hodina"
@@ -22966,6 +24726,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_DAYS = @"BME_SNOOZE_RELATIVE_DA
  * @b en@: "hour"
 
  * @b es@: "hora"
+
+ * @b et@: "tund"
 
  * @b fi@: "tunti"
 
@@ -23007,6 +24769,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_DAYS = @"BME_SNOOZE_RELATIVE_DA
 
  * @b sv@: "timme"
 
+ * @b th@: "ชั่วโมง"
+
  * @b tr@: "saat"
 
  * @b uk@: "година"
@@ -23031,6 +24795,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_HOUR = @"BME_SNOOZE_RELATIVE_DA
 
  * @b ar@: "%.0f ساعات"
 
+ * @b az@: "%.0f saat"
+
  * @b ca@: "%.0f hores"
 
  * @b cs@: "%.0f hodin"
@@ -23044,6 +24810,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_HOUR = @"BME_SNOOZE_RELATIVE_DA
  * @b en@: "%.0f hours"
 
  * @b es@: "%.0f horas"
+
+ * @b et@: "%.0f tundi"
 
  * @b fi@: "%.0f tuntia"
 
@@ -23085,6 +24853,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_HOUR = @"BME_SNOOZE_RELATIVE_DA
 
  * @b sv@: "%.0f timmar"
 
+ * @b th@: "%.0f ชั่วโมง"
+
  * @b tr@: "%.0f saat"
 
  * @b uk@: "%.0f годин"
@@ -23109,6 +24879,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_HOURS = @"BME_SNOOZE_RELATIVE_D
 
  * @b ar@: "دقيقة"
 
+ * @b az@: "dəqiqə"
+
  * @b ca@: "minut"
 
  * @b cs@: "minuta"
@@ -23122,6 +24894,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_HOURS = @"BME_SNOOZE_RELATIVE_D
  * @b en@: "minute"
 
  * @b es@: "minuto"
+
+ * @b et@: "minut"
 
  * @b fi@: "minuutti"
 
@@ -23163,6 +24937,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_HOURS = @"BME_SNOOZE_RELATIVE_D
 
  * @b sv@: "minut"
 
+ * @b th@: "นาที"
+
  * @b tr@: "dakika"
 
  * @b uk@: "хвилин"
@@ -23187,6 +24963,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MINUTE = @"BME_SNOOZE_RELATIVE_
 
  * @b ar@: "%.0f دقائق"
 
+ * @b az@: "%.0f dəqiqə"
+
  * @b ca@: "%.0f minuts"
 
  * @b cs@: "%.0f minut"
@@ -23200,6 +24978,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MINUTE = @"BME_SNOOZE_RELATIVE_
  * @b en@: "%.0f minutes"
 
  * @b es@: "%.0f minutos"
+
+ * @b et@: "%.0f minutit"
 
  * @b fi@: "%.0f minuuttia"
 
@@ -23241,6 +25021,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MINUTE = @"BME_SNOOZE_RELATIVE_
 
  * @b sv@: "%.0f minuter"
 
+ * @b th@: "%.0f นาที"
+
  * @b tr@: "%.0f dakika"
 
  * @b uk@: "%.0f хвилин"
@@ -23265,6 +25047,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MINUTES = @"BME_SNOOZE_RELATIVE
 
  * @b ar@: "شهر"
 
+ * @b az@: "ay"
+
  * @b ca@: "mes"
 
  * @b cs@: "měsíc"
@@ -23278,6 +25062,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MINUTES = @"BME_SNOOZE_RELATIVE
  * @b en@: "month"
 
  * @b es@: "mes"
+
+ * @b et@: "kuu"
 
  * @b fi@: "kuukausi"
 
@@ -23319,6 +25105,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MINUTES = @"BME_SNOOZE_RELATIVE
 
  * @b sv@: "månad"
 
+ * @b th@: "เดือน"
+
  * @b tr@: "ay"
 
  * @b uk@: "місяць"
@@ -23343,6 +25131,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MONTH = @"BME_SNOOZE_RELATIVE_D
 
  * @b ar@: "%.0f أشهر"
 
+ * @b az@: "%.0f ay"
+
  * @b ca@: "%.0f mesos"
 
  * @b cs@: "%.0f měsíců"
@@ -23356,6 +25146,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MONTH = @"BME_SNOOZE_RELATIVE_D
  * @b en@: "%.0f months"
 
  * @b es@: "%.0f meses"
+
+ * @b et@: "%.0f kuud"
 
  * @b fi@: "%.0f kuukauden"
 
@@ -23397,6 +25189,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MONTH = @"BME_SNOOZE_RELATIVE_D
 
  * @b sv@: "%.0f månader"
 
+ * @b th@: "%.0f เดือน"
+
  * @b tr@: "%.0f ay"
 
  * @b uk@: "%.0f місяців"
@@ -23421,6 +25215,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MONTHS = @"BME_SNOOZE_RELATIVE_
 
  * @b ar@: "ثانية"
 
+ * @b az@: "saniyə"
+
  * @b ca@: "segon"
 
  * @b cs@: "sekunda"
@@ -23434,6 +25230,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MONTHS = @"BME_SNOOZE_RELATIVE_
  * @b en@: "second"
 
  * @b es@: "segundo"
+
+ * @b et@: "sekund"
 
  * @b fi@: "sekunti"
 
@@ -23475,6 +25273,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_MONTHS = @"BME_SNOOZE_RELATIVE_
 
  * @b sv@: "sekund"
 
+ * @b th@: "วินาที"
+
  * @b tr@: "saniye"
 
  * @b uk@: "секунд"
@@ -23499,6 +25299,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_SECOND = @"BME_SNOOZE_RELATIVE_
 
  * @b ar@: "%.0f ثوان"
 
+ * @b az@: "%.0f saniyə"
+
  * @b ca@: "%.0f segons"
 
  * @b cs@: "%.0f sekund"
@@ -23512,6 +25314,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_SECOND = @"BME_SNOOZE_RELATIVE_
  * @b en@: "%.0f seconds"
 
  * @b es@: "%.0f segundos"
+
+ * @b et@: "%.0f sekundit"
 
  * @b fi@: "%.0f sekuntia"
 
@@ -23553,6 +25357,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_SECOND = @"BME_SNOOZE_RELATIVE_
 
  * @b sv@: "%.0f sekunder"
 
+ * @b th@: "%.0f วินาที"
+
  * @b tr@: "%.0f saniye"
 
  * @b uk@: "%.0f секунд"
@@ -23577,6 +25383,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_SECONDS = @"BME_SNOOZE_RELATIVE
 
  * @b ar@: "أسبوع"
 
+ * @b az@: "həftə"
+
  * @b ca@: "setmana"
 
  * @b cs@: "týden"
@@ -23590,6 +25398,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_SECONDS = @"BME_SNOOZE_RELATIVE
  * @b en@: "week"
 
  * @b es@: "semana"
+
+ * @b et@: "nädal"
 
  * @b fi@: "viikko"
 
@@ -23631,6 +25441,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_SECONDS = @"BME_SNOOZE_RELATIVE
 
  * @b sv@: "vecka"
 
+ * @b th@: "สัปดาห์"
+
  * @b tr@: "hafta"
 
  * @b uk@: "тиждень"
@@ -23655,6 +25467,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_WEEK = @"BME_SNOOZE_RELATIVE_DA
 
  * @b ar@: "%.0f أسابيع"
 
+ * @b az@: "%.0f həftə"
+
  * @b ca@: "%.0f setmanes"
 
  * @b cs@: "%.0f týdnů"
@@ -23668,6 +25482,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_WEEK = @"BME_SNOOZE_RELATIVE_DA
  * @b en@: "%.0f weeks"
 
  * @b es@: "%.0f semanas"
+
+ * @b et@: "%.0f nädalat"
 
  * @b fi@: "%.0f viikko"
 
@@ -23709,6 +25525,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_WEEK = @"BME_SNOOZE_RELATIVE_DA
 
  * @b sv@: "%.0f veckor"
 
+ * @b th@: "%.0f สัปดาห์ที่ผ่านมา"
+
  * @b tr@: "%.0f hafta"
 
  * @b uk@: "%.0f тижнів"
@@ -23733,6 +25551,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_WEEKS = @"BME_SNOOZE_RELATIVE_D
 
  * @b ar@: "سنة"
 
+ * @b az@: "il"
+
  * @b ca@: "any"
 
  * @b cs@: "Rok"
@@ -23746,6 +25566,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_WEEKS = @"BME_SNOOZE_RELATIVE_D
  * @b en@: "year"
 
  * @b es@: "año"
+
+ * @b et@: "aasta"
 
  * @b fi@: "vuosi"
 
@@ -23787,6 +25609,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_WEEKS = @"BME_SNOOZE_RELATIVE_D
 
  * @b sv@: "år"
 
+ * @b th@: "ปี"
+
  * @b tr@: "yıl"
 
  * @b uk@: "рік"
@@ -23811,6 +25635,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEAR = @"BME_SNOOZE_RELATIVE_DA
 
  * @b ar@: "%.0f سنوات"
 
+ * @b az@: "%.0f il"
+
  * @b ca@: "%.0f anys"
 
  * @b cs@: "%.0f let"
@@ -23824,6 +25650,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEAR = @"BME_SNOOZE_RELATIVE_DA
  * @b en@: "%.0f years"
 
  * @b es@: "%.0f años"
+
+ * @b et@: "%.0f aastat"
 
  * @b fi@: "%.0f vuotta"
 
@@ -23865,6 +25693,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEAR = @"BME_SNOOZE_RELATIVE_DA
 
  * @b sv@: "%.0f år"
 
+ * @b th@: "%.0f ปี"
+
  * @b tr@: "%.0f yıl"
 
  * @b uk@: "%.0f років"
@@ -23889,6 +25719,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEARS = @"BME_SNOOZE_RELATIVE_D
 
  * @b ar@: "رجوع"
 
+ * @b az@: "Geri"
+
  * @b ca@: "Tornar"
 
  * @b cs@: "Zpět"
@@ -23902,6 +25734,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEARS = @"BME_SNOOZE_RELATIVE_D
  * @b en@: "Back"
 
  * @b es@: "Atrás"
+
+ * @b et@: "Tagasi"
 
  * @b fi@: "Takaisin"
 
@@ -23943,6 +25777,8 @@ static NSString * const BME_SNOOZE_RELATIVE_DATE_YEARS = @"BME_SNOOZE_RELATIVE_D
 
  * @b sv@: "Tillbaka"
 
+ * @b th@: "ย้อนกลับ"
+
  * @b tr@: "Geri"
 
  * @b uk@: "Назад"
@@ -23967,6 +25803,8 @@ static NSString * const BME_TERMS_BACK = @"BME_TERMS_BACK";
 
  * @b ar@: "موافق"
 
+ * @b az@: "Oldu"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok"
@@ -23980,6 +25818,8 @@ static NSString * const BME_TERMS_BACK = @"BME_TERMS_BACK";
  * @b en@: "OK"
 
  * @b es@: "OK"
+
+ * @b et@: "OK"
 
  * @b fi@: "OK"
 
@@ -24021,6 +25861,8 @@ static NSString * const BME_TERMS_BACK = @"BME_TERMS_BACK";
 
  * @b sv@: "Okej"
 
+ * @b th@: "ตกลง"
+
  * @b tr@: "Tamam"
 
  * @b uk@: "OK"
@@ -24045,6 +25887,8 @@ static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
 
  * @b ar@: "اتصال تجريبي"
 
+ * @b az@: "Test Zəngi"
+
  * @b ca@: "Test Call"
 
  * @b cs@: "Test Call"
@@ -24058,6 +25902,8 @@ static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
  * @b en@: "Test Call"
 
  * @b es@: "Llamada de prueba"
+
+ * @b et@: "Test Call"
 
  * @b fi@: "Testipuhelu"
 
@@ -24099,6 +25945,8 @@ static NSString * const BME_VIDEO_CANCEL_TITLE = @"BME_VIDEO_CANCEL_TITLE";
 
  * @b sv@: "Försökssamtal"
 
+ * @b th@: "ทดสอบการใช้งาน"
+
  * @b tr@: "Test araması"
 
  * @b uk@: "Test Call"
@@ -24123,6 +25971,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTR
 
  * @b ar@: "إلغاء"
 
+ * @b az@: "İmtina"
+
  * @b ca@: "Cancel·la"
 
  * @b cs@: "Zrušit"
@@ -24136,6 +25986,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTR
  * @b en@: "Cancel"
 
  * @b es@: "Cancelar"
+
+ * @b et@: "Loobu"
 
  * @b fi@: "Peruuta"
 
@@ -24177,6 +26029,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_TITLE = @"POST_CALL_VIEW_CONTR
 
  * @b sv@: "Avbryt"
 
+ * @b th@: "ยกเลิก"
+
  * @b tr@: "İptal"
 
  * @b uk@: "Скасувати"
@@ -24201,6 +26055,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
 
  * @b ar@: "اضغط زر العودة للصفحة الرئيسية للخروج من البرنامج."
 
+ * @b az@: "Tətbiqetməni tərk etmək üçün əsas ekran düyməsinə basın."
+
  * @b ca@: "Press the home button to leave the app."
 
  * @b cs@: "Press the home button to leave the app."
@@ -24214,6 +26070,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
  * @b en@: "Press the home button to leave the app."
 
  * @b es@: "Pulsa el bóton de inicio para salir de la aplicación."
+
+ * @b et@: "Press the home button to leave the app."
 
  * @b fi@: "Paina koti-näppäintä poistuaksesi sovelluksesta."
 
@@ -24255,6 +26113,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_CANCEL = @"POST_CALL_VIEW_CONT
 
  * @b sv@: "Tryck på hemknappen för att lämna appen."
 
+ * @b th@: "กดปุ่มโฮมเพื่อออกจากแอพ"
+
  * @b tr@: "Uygulamadan çıkmak için anasayfa tuşuna basın."
 
  * @b uk@: "Press the home button to leave the app."
@@ -24279,6 +26139,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
 
  * @b ar@: "سنقوم بتنبيهك بوقت قصير."
 
+ * @b az@: "Tezliklə bildiriş alacaqsınız."
+
  * @b ca@: "You'll receive a notification shortly."
 
  * @b cs@: "You'll receive a notification shortly."
@@ -24292,6 +26154,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
  * @b en@: "You'll receive a notification shortly."
 
  * @b es@: "Recibirás una notificación dentro de poco."
+
+ * @b et@: "You'll receive a notification shortly."
 
  * @b fi@: "Saat ilmoituksen piakkoin."
 
@@ -24333,6 +26197,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_1 = @"POST_CALL_VIEW_CONT
 
  * @b sv@: "Inom kort får du ett meddelande."
 
+ * @b th@: "คุณจะได้รับการแจ้งเตือนในไม่ช้า"
+
  * @b tr@: "Birazdan bir bildirim alacaksınız."
 
  * @b uk@: "You'll receive a notification shortly."
@@ -24357,6 +26223,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
 
  * @b ar@: "اضغط على التنبيه."
 
+ * @b az@: "Bildirişə toxunun."
+
  * @b ca@: "Tap the notification."
 
  * @b cs@: "Tap the notification."
@@ -24370,6 +26238,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
  * @b en@: "Tap the notification."
 
  * @b es@: "Pulsa la notificación."
+
+ * @b et@: "Tap the notification."
 
  * @b fi@: "Napauta ilmoitusta."
 
@@ -24411,6 +26281,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_2 = @"POST_CALL_VIEW_CONT
 
  * @b sv@: "Tryck på meddelandet."
 
+ * @b th@: "กดที่การแจ้งเตือน"
+
  * @b tr@: "Bildiriye dokunun."
 
  * @b uk@: "Tap the notification."
@@ -24435,6 +26307,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONT
 
  * @b ar@: "شخص ما"
 
+ * @b az@: "Kimsə"
+
  * @b ca@: "Algú"
 
  * @b cs@: "Někdo"
@@ -24448,6 +26322,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONT
  * @b en@: "Someone"
 
  * @b es@: "Anónimo"
+
+ * @b et@: "Keegi"
 
  * @b fi@: "Joku"
 
@@ -24489,6 +26365,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_STEP_3 = @"POST_CALL_VIEW_CONT
 
  * @b sv@: "Någon"
 
+ * @b th@: "คนคนหนึ่ง"
+
  * @b tr@: "Birisi"
 
  * @b uk@: "Хтось"
@@ -24513,6 +26391,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
 
  * @b ar@: "لتلقي المكالمات قم بتفعيل تنبيهات البرنامج من إعدادات النظام الخاصة بجهازك."
 
+ * @b az@: "Zəngləri qəbul etmək üçün cihazınızın sistem tənzimləmələrindən Be My Eyes tətbiqetməsi üçün bildirişləri fəallaşdırmalısınız."
+
  * @b ca@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
  * @b cs@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
@@ -24526,6 +26406,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
  * @b en@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
  * @b es@: "Para recibir llamadas debes activar las notificaciones para Be My Eyes en los ajustes del sistema de tu dispositivo."
+
+ * @b et@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
 
  * @b fi@: "Ottaaksesi vastaan puheluita sinun täytyy ottaa käyttöön ilmoitukset sovellukselle Be My Eyes laitteesi asetuksista."
 
@@ -24567,6 +26449,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_BLIND_NAME = @"POST_CALL_VIEW_
 
  * @b sv@: "För att ta emot samtal måste du aktivera meddelanden för Be My Eyes appen i systeminställningarna på din enhet."
 
+ * @b th@: "เพื่อที่จะรับสายคุณต้องเปิดใช้งานการแจ้งเตือนสำหรับแอพ Be My Eyes ในการตั้งค่าระบบบนอุปกรณ์ของคุณ"
+
  * @b tr@: "Çağrı almak için cihazınızda sistem ayarlarından Be My Eyes uygulama bildirimlerini etkinleştirmeniz gerekir."
 
  * @b uk@: "To receive calls you must enable notifications for the Be My Eyes app in the system settings on your device."
@@ -24591,6 +26475,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_
 
  * @b ar@: "مرحباً %@"
 
+ * @b az@: "Xoş gəldiniz %@"
+
  * @b ca@: "Benvingut %@"
 
  * @b cs@: "Welcome %@"
@@ -24604,6 +26490,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_
  * @b en@: "Welcome %@"
 
  * @b es@: "Bienvenido %@"
+
+ * @b et@: "Welcome %@"
 
  * @b fi@: "Tervetuloa %@"
 
@@ -24645,6 +26533,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS = @"POST_
 
  * @b sv@: "Välkommen %@"
 
+ * @b th@: "ยินต้อนรับ %@"
+
  * @b tr@: "Hoşgeldiniz %@"
 
  * @b uk@: "Welcome %@"
@@ -24669,6 +26559,8 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
 
  * @b ar@: "شكراً لانضمامك لفريق متطوعين كن عيناي!\nانت الان جزءاً من شبكة متزايدة من العيون المساعِدة حول العالم.\n\nالمساعدة سهلة. سيكون هاتفك مفتوحاً لتلقي المكالمات ما دمت مسجلا للدخول في البرنامج. هناك العديد من الراغبين بالمساعدة لذا لا تثبط عزيمتك عند عدم تلقيك اتصالاً في الحال."
 
+ * @b az@: "Könüllü olaraq Be My Eyes'a qoşulduğunuz üçün təşəkkürlər! Artıq bütün dünyada görmə əngəlli insanların köməkçi gözləri olan böyüyən şəbəkənin bir hissəsiniz.\n\nKömək etmək asandır. Telefonunuz giriş etdiyiniz müddətdə zənglər üçün açıqdır. Bizim çoxlu köməkçilərimiz var, ona görə də zəng gəlmədiyi zaman kefinizi pozmayın."
+
  * @b ca@: "Gràcies per unir te a Be My Eyes com a voluntari! Ara formes part d'una xarxa en creixement que ajuda a persones cegues de tot el món.\n\nAjudar es fàcil. El teu telèfon estarà obert per rebre trucades mentre estiguis connectat. Tenim un munt de voluntaris així que no et desanimis si no reps cap trucada de seguida."
 
  * @b cs@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
@@ -24682,6 +26574,8 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
  * @b en@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
  * @b es@: "¡Gracias por unirte a Be My Eyes como voluntario! Ahora eres parte de una creciente red de ojos ayudando a personas ciegas de todo el mundo.\n\nAyudar es fácil. Tu teléfono está disponible para llamadas mientras estés logueado. Tenemos muchos ayudantes así que no te desanimes si no recibes una llamada de inmediato."
+
+ * @b et@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
  * @b fi@: "Kiitos kun liityit Be My Eyes vapaaehtoisiin! Olet nyt osa kasvavaa silmien verkostoa, joka auttaa sokeita ihmisiä ympäri maailmaa.\n\nAuttaminen on helppoa. Puhelimesi on auki puheluille aina kun olet kirjautuneena sisään. Meillä on paljon auttajia, joten älä lannistu vaikket saisi puhelua heti."
 
@@ -24723,6 +26617,8 @@ static NSString * const BME_HELPER_WELCOME_TITLE = @"BME_HELPER_WELCOME_TITLE";
 
  * @b sv@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
 
+ * @b th@: "ขอบคุณสำหรับการร่วมเป็นอาสาสมัคร Be My Eyes ! ตอนนี้คุณเป็นส่วนหนึ่งของการเติบโตของเครือข่ายการช่วยเหลือผู้พิการทางสายตาทั่วโลก\nการช่วยเหลือนั้นง่าย โทรศัพท์ของคุณพร้อมสำหรับการเรียกตราบใดที่คุณยังคงล็อกอินอยู่ เรามีผู้ช่วยเหลือมากมายดังนั้นอย่าพึ่งท้อถ้าคุณไม่ได้รับการเรียกในทันที"
+
  * @b tr@: "Be My Eyes'a gönüllü olarak katıldığınız için teşekkürler! Şimdi gözleri görmeyen insanlara yardım eden dünya çapında büyüyen bir ağın parçası oldunuz.  Yardım etmek gayet kolay. Giriş yaptıktan sonra çıkmadığınız sürece telefonunuz gelen aramalara açık olacaktır. Hemen bir arama alamazsanız ümitsizliğe kapılmayın, muhtemelen başka bir yardımsever ihtiyaç sahibine yardımcı olmaktadır."
 
  * @b uk@: "Thanks for joining Be My Eyes as a volunteer! You’re now part of a growing network of eyes helping blind people across the world.\n\nHelping is easy. Your phone is open for calls as long as you’re logged in. We have a lot of helpers so don’t get discouraged if you don’t recieve a call right away."
@@ -24747,6 +26643,8 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
 
  * @b ar@: "اطلب مكالمة تجريبية"
 
+ * @b az@: "Test zəngi edin"
+
  * @b ca@: "Fer una trucada de prova"
 
  * @b cs@: "Make a test call"
@@ -24760,6 +26658,8 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
  * @b en@: "Make a test call"
 
  * @b es@: "Hacer llamada de prueba"
+
+ * @b et@: "Make a test call"
 
  * @b fi@: "Soita testipuhelu"
 
@@ -24801,6 +26701,8 @@ static NSString * const BME_HELPER_WELCOME_DESCRIPTION = @"BME_HELPER_WELCOME_DE
 
  * @b sv@: "Gör ett test-samtal"
 
+ * @b th@: "ทดสอบการโทรออก"
+
  * @b tr@: "Bit test araması yap"
 
  * @b uk@: "Make a test call"
@@ -24825,6 +26727,8 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
 
  * @b ar@: "حسناً، فهمت"
 
+ * @b az@: "Oldu, anladım"
+
  * @b ca@: "D'acord"
 
  * @b cs@: "Ok, got it"
@@ -24838,6 +26742,8 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
  * @b en@: "Ok, got it"
 
  * @b es@: "De acuerdo"
+
+ * @b et@: "Ok, got it"
 
  * @b fi@: "Ok, sain sen"
 
@@ -24879,6 +26785,8 @@ static NSString * const BME_HELPER_DEMO_CALL_TITLE = @"BME_HELPER_DEMO_CALL_TITL
 
  * @b sv@: "Ok, jag förstår"
 
+ * @b th@: "ตกลง, เข้าใจแล้ว"
+
  * @b tr@: "Tamam, anladım"
 
  * @b uk@: "Ok, got it"
@@ -24903,6 +26811,8 @@ static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
 
  * @b ar@: "Be My Eyes"
 
+ * @b az@: "Be My Eyes"
+
  * @b ca@: "Be My Eyes"
 
  * @b cs@: "Be My Eyes"
@@ -24916,6 +26826,8 @@ static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
  * @b en@: "Be My Eyes"
 
  * @b es@: "Be My Eyes"
+
+ * @b et@: "Be MY Eyes"
 
  * @b fi@: "Be My Eyes"
 
@@ -24957,6 +26869,8 @@ static NSString * const BME_HELPER_DONE_TITLE = @"BME_HELPER_DONE_TITLE";
 
  * @b sv@: "Be My Eyes"
 
+ * @b th@: "ช่วยดูให้ทีนะ"
+
  * @b tr@: "Be My Eyes"
 
  * @b uk@: "Be My Eyes"
@@ -24981,6 +26895,8 @@ static NSString * const logoLabel_text = @"logoLabel.text";
 
  * @b ar@: "صُنِع بـ ❤︎ من كوبنهاغن"
 
+ * @b az@: "Kopenhagendən ❤︎ ilə hazırlandı"
+
  * @b ca@: "Elaborat amb ❤︎ desde Copenhaguen"
 
  * @b cs@: "Vyrobeno s ❤︎ z Kodaně"
@@ -24994,6 +26910,8 @@ static NSString * const logoLabel_text = @"logoLabel.text";
  * @b en@: "Crafted with ❤︎ from Copenhagen"
 
  * @b es@: "Desarrollado con ❤︎ desde Copenhague"
+
+ * @b et@: "Valmistatud koos ❤︎  Kopenhaagenist"
 
  * @b fi@: "Tehty ❤︎ Kööpenhaminassa"
 
@@ -25035,6 +26953,8 @@ static NSString * const logoLabel_text = @"logoLabel.text";
 
  * @b sv@: "Gjord med ❤︎ i Köpenhamn"
 
+ * @b th@: "สร้างขึ้นด้วย ❤︎ จากโคเปนเฮเกน"
+
  * @b tr@: "Kopenhag'dan ❤︎ ile hazırlandı"
 
  * @b uk@: "Створено з ❤︎ з Копенгагена"
@@ -25059,6 +26979,8 @@ static NSString * const taglineLabel_text = @"taglineLabel.text";
 
  * @b ar@: "%@ يحتاج إلى مساعدتك! مرّر أو انقر للإجابة."
 
+ * @b az@: "%@ köməyə ehtiyacı var! Cavablamaq üçün sürüşdürün ya da toxunun."
+
  * @b ca@: "%@ necessita la seva ajuda! Llisca o toca per contestar."
 
  * @b cs@: "%@ potřebuje vaši pomoc! Přesunte nebo kliknete aby jste odpověděl."
@@ -25072,6 +26994,8 @@ static NSString * const taglineLabel_text = @"taglineLabel.text";
  * @b en@: "%@ needs your help! Swipe or tap to answer."
 
  * @b es@: "¡%@ necesita tu ayuda! Desliza o toca para responder."
+
+ * @b et@: "%@ vajab sinu abi! Libista või puuduta et vastata."
 
  * @b fi@: "%@ tarvitsee apuasi! Pyyhkäise tai napauta vastataksesi."
 
@@ -25113,6 +27037,8 @@ static NSString * const taglineLabel_text = @"taglineLabel.text";
 
  * @b sv@: "%@ behöver din hjälp! Svep eller tryck för att svara."
 
+ * @b th@: "%@ ต้องการความช่วยเหลือ! เลื่อนหรือแตะเพื่อตอบรับ"
+
  * @b tr@: "%@ yardımınıza ihtiyaç duyuyor! Cevaplamak için kaydırın ya da dokunun."
 
  * @b uk@: "%@ потрібна допомога! Проведіть пальцем вліво або торкніться, щоб відповісти."
@@ -25137,6 +27063,8 @@ static NSString * const PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE = @"PUSH_NOTIFI
 
  * @b ar@: "%@ ألغى الطلب."
 
+ * @b az@: "%@ sorğudan imtina etdi."
+
  * @b ca@: "%@ ha cancel·lat la petició."
 
  * @b cs@: "%@ zrušil žádost."
@@ -25150,6 +27078,8 @@ static NSString * const PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE = @"PUSH_NOTIFI
  * @b en@: "%@ cancelled the request."
 
  * @b es@: "%@ ha cancelado la petición."
+
+ * @b et@: "%@ loobus taotlusest."
 
  * @b fi@: "%@ peruuttanut pyynnön."
 
@@ -25191,6 +27121,8 @@ static NSString * const PUSH_NOTIFICATION_ANSWER_REQUEST_MESSAGE = @"PUSH_NOTIFI
 
  * @b sv@: "%@ avbröt förfrågan."
 
+ * @b th@: "%@ ยกเลิกการร้องขอ"
+
  * @b tr@: "%@ isteği iptal etti."
 
  * @b uk@: "%@ скасував ваш запит."
@@ -25215,6 +27147,8 @@ static NSString * const PUSH_NOTIFICATION_CANCELLED_REQUEST_MESSAGE = @"PUSH_NOT
 
  * @b ar@: "تمت الإجابة على طلب %@."
 
+ * @b az@: "%@ istifadəçisindən gələn sorğu cavablandırıldı."
+
  * @b ca@: "La petició de %@ ha sigut contestada."
 
  * @b cs@: "Žádost %@ byla zodpovězena."
@@ -25228,6 +27162,8 @@ static NSString * const PUSH_NOTIFICATION_CANCELLED_REQUEST_MESSAGE = @"PUSH_NOT
  * @b en@: "The request from %@ was answered."
 
  * @b es@: "La petición de %@ ha sido contestada."
+
+ * @b et@: "Taotlusele kasutajalt %@ vastati."
 
  * @b fi@: "%@ pyyntöön vastattu."
 
@@ -25269,6 +27205,8 @@ static NSString * const PUSH_NOTIFICATION_CANCELLED_REQUEST_MESSAGE = @"PUSH_NOT
 
  * @b sv@: "Förfrågan från %@ besvarades."
 
+ * @b th@: "คำขอร้องจาก %@ ได้รับการตอบรับ"
+
  * @b tr@: "%@ kullanıcısından gelen istek cevaplandı."
 
  * @b uk@: "Запит від %@ був опрацьований."
@@ -25293,6 +27231,8 @@ static NSString * const PUSH_NOTIFICATION_REQUEST_WAS_ANSWERED_MESSAGE = @"PUSH_
 
  * @b ar@: "الإجابة"
 
+ * @b az@: "Cavabla"
+
  * @b ca@: "Respondre"
 
  * @b cs@: "Odpovědet"
@@ -25306,6 +27246,8 @@ static NSString * const PUSH_NOTIFICATION_REQUEST_WAS_ANSWERED_MESSAGE = @"PUSH_
  * @b en@: "Answer"
 
  * @b es@: "Responder"
+
+ * @b et@: "Vasta"
 
  * @b fi@: "Vastaus"
 
@@ -25347,6 +27289,8 @@ static NSString * const PUSH_NOTIFICATION_REQUEST_WAS_ANSWERED_MESSAGE = @"PUSH_
 
  * @b sv@: "Svara"
 
+ * @b th@: "ตอบรับ"
+
  * @b tr@: "Cevapla"
 
  * @b uk@: "Відповідь"
@@ -25371,6 +27315,8 @@ static NSString * const PUSH_NOTIFICATION_ANSWER_REQUEST_ACTION = @"PUSH_NOTIFIC
 
  * @b ar@: "شكرا لك على المساعدة!"
 
+ * @b az@: "Köməyiniz üçün təşəkkür edirik!"
+
  * @b ca@: "Gràcies per la seva ajuda!"
 
  * @b cs@: "Díky za pomoc!"
@@ -25384,6 +27330,8 @@ static NSString * const PUSH_NOTIFICATION_ANSWER_REQUEST_ACTION = @"PUSH_NOTIFIC
  * @b en@: "Thanks for helping out!"
 
  * @b es@: "¡Muchas gracias por tu ayuda!"
+
+ * @b et@: "Tänud aitamast!"
 
  * @b fi@: "Kiitos avusta!"
 
@@ -25425,6 +27373,8 @@ static NSString * const PUSH_NOTIFICATION_ANSWER_REQUEST_ACTION = @"PUSH_NOTIFIC
 
  * @b sv@: "Tack för hjälpen!"
 
+ * @b th@: "ขอบคุณที่ช่วยเหลือ !"
+
  * @b tr@: "Yardımınız için teşekkürler!"
 
  * @b uk@: "Дякую за допомогу!"
@@ -25449,6 +27399,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER = 
 
  * @b ar@: "نأمل أنك استلمت المساعدة التي طلبتها!"
 
+ * @b az@: "Ümid edirik ki, istədiyiniz köməyi aldınız!"
+
  * @b ca@: "Esperem que hagis rebut l'ajuda que necessitaves!"
 
  * @b cs@: "Doufáme, že jste obdrželi pomoc, kterou jste požadovali!"
@@ -25462,6 +27414,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER = 
  * @b en@: "We hope you received the help you requested!"
 
  * @b es@: "¡Esperamos que hayas recibido la ayuda que necesitabas!"
+
+ * @b et@: "Me loodame et sa said soovitud abi!"
 
  * @b fi@: "Toivomme, että sait tarvitsemaasi apua!"
 
@@ -25503,6 +27457,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_HELPER = 
 
  * @b sv@: "Vi hoppas att du fått den hjälp du begärt!"
 
+ * @b th@: "เราหวังว่า สิ่งที่คุณร้องขอจะได้รับการช่วยเหลือ !"
+
  * @b tr@: "Umarız arzu ettiğiniz yardımı almışsınızdır!"
 
  * @b uk@: "Ми сподіваємося, що ви отримали допомогу!"
@@ -25527,6 +27483,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND = @
 
  * @b ar@: "لا مشكلة"
 
+ * @b az@: "Problem deyil"
+
  * @b ca@: "Cap problema"
 
  * @b cs@: "Není zač."
@@ -25540,6 +27498,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND = @
  * @b en@: "No problem"
 
  * @b es@: "Sin problema"
+
+ * @b et@: "Pole probleemi"
 
  * @b fi@: "Eipä kestä"
 
@@ -25581,6 +27541,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_MOTIVATIONAL_MESSAGE_BLIND = @
 
  * @b sv@: "Inga problem"
 
+ * @b th@: "ไม่มีปัญหา"
+
  * @b tr@: "Sorun değil"
 
  * @b uk@: "Без проблем"
@@ -25605,6 +27567,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER = @"POST
 
  * @b ar@: "تم"
 
+ * @b az@: "Hazırdır"
+
  * @b ca@: "Fet"
 
  * @b cs@: "Vykonané"
@@ -25618,6 +27582,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER = @"POST
  * @b en@: "Done"
 
  * @b es@: "Hecho"
+
+ * @b et@: "Valmis"
 
  * @b fi@: "Valmis"
 
@@ -25659,6 +27625,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_HELPER = @"POST
 
  * @b sv@: "Färdigt"
 
+ * @b th@: "สำเร็จ"
+
  * @b tr@: "Tamamlandı"
 
  * @b uk@: "Завершено"
@@ -25683,6 +27651,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
 
  * @b ar@: "جرب معنا"
 
+ * @b az@: "Təcrübəni paylaş"
+
  * @b ca@: "Share your experience"
 
  * @b cs@: "Share your experience"
@@ -25696,6 +27666,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
  * @b en@: "Share your experience"
 
  * @b es@: "Comparte tu experiencia"
+
+ * @b et@: "Share your experience"
 
  * @b fi@: "Jaa kokemuksesi"
 
@@ -25736,6 +27708,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_DISMISS_BUTTON_BLIND = @"POST_
  * @b sr@: "Share your experience"
 
  * @b sv@: "Dela din upplevelse"
+
+ * @b th@: "แบ่งปันประสบการณ์ของคุณ"
 
  * @b tr@: "Deneyiminizi paylaşın"
 
@@ -25761,6 +27735,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
 
  * @b ar@: "جرب معنا"
 
+ * @b az@: "Təcrübəni paylaş"
+
  * @b ca@: "Share your experience"
 
  * @b cs@: "Share your experience"
@@ -25774,6 +27750,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
  * @b en@: "Share your experience"
 
  * @b es@: "Comparte tu experiencia"
+
+ * @b et@: "Share your experience"
 
  * @b fi@: "Jaa kokemuksesi"
 
@@ -25815,6 +27793,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_HELPER = @"POST_C
 
  * @b sv@: "Dela din upplevelse"
 
+ * @b th@: "แบ่งปันประสบการณ์ของคุณ"
+
  * @b tr@: "Deneyiminizi paylaşın"
 
  * @b uk@: "Share your experience"
@@ -25837,6 +27817,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
 
  * @b af@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
+ * @b az@: "İndicə Be My Eyes tətbiqetməsi ilə görmə əngəlli şəxsə kömək etdim #BeMyEyes"
+
  * @b ca@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
  * @b cs@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
@@ -25850,6 +27832,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
  * @b en@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
  * @b es@: "Acabo de ayudar a ver a una persona ciega con Be My Eyes app #BeMyEyes"
+
+ * @b et@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
  * @b fi@: "Autoin juuri sokeaa ihmistä näkemään Be My Eyes -appissa #BeMyEyes"
 
@@ -25891,6 +27875,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_BUTTON_BLIND = @"POST_CA
 
  * @b sv@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
 
+ * @b th@: "ฉันเพิ่งช่วยผู้พิการทางสายตา ดูด้วยแอพBe My Eyes #BeMyEyes"
+
  * @b tr@: "Az önce görme engelli birine Be My Eyes uygulaması ile yardımcı oldum #BeMyEyes"
 
  * @b uk@: "I just helped a blind person see with the Be My Eyes app #BeMyEyes"
@@ -25915,6 +27901,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
 
  * @b ar@: "شخصٌ ساعدني ان أرى بتطبيق كون عيوني #BeMyEyes"
 
+ * @b az@: "İndicə kimsə mənə Be My Eyes tətbiqetməsi ilə kömək etdi #BeMyEyes"
+
  * @b ca@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
  * @b cs@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
@@ -25928,6 +27916,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
  * @b en@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
  * @b es@: "Alguien me acaba de ayudar a ver con Be My Eyes app #BeMyEyes"
+
+ * @b et@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
  * @b fi@: "Joku auttoi minua juuri näkemään Be My Eyes -appin avulla #BeMyEyes"
 
@@ -25969,6 +27959,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_HELPER 
 
  * @b sv@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
 
+ * @b th@: "บางคนพึ่งช่วยฉัน ดูด้วยแอพ Be My Eyes #BeMyEyes"
+
  * @b tr@: "Az önce bir yardımsever Be My eyes uygulaması ile görmeme yardımcı oldu #BeMyEyes"
 
  * @b uk@: "Someone just helped me see with the Be My Eyes app #BeMyEyes"
@@ -25993,6 +27985,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
 
  * @b ar@: "لقد ساعدت شخص اعمى و جعلته يرى بتطبيق bemyeyes #BeMyEyes@"
 
+ * @b az@: "İndicə @bemyeyes tətbiqetməsi ilə görmə əngəlli şəxsə kömək etdim #BeMyEyes"
+
  * @b ca@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
  * @b cs@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
@@ -26006,6 +28000,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
  * @b en@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
  * @b es@: "Acabo de ayudar a ver a una persona ciega con @bemyeyes app #BeMyEyes"
+
+ * @b et@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
  * @b fi@: "Autin juuri sokeaa ihmistä näkemään @bemyeyes -appin avulla #BeMyEyes"
 
@@ -26047,6 +28043,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_FACEBOOK_BLIND =
 
  * @b sv@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
 
+ * @b th@: "ฉันเพิ่งช่วยผู้พิการทางสายตา ดูด้วยแอพBe My Eyes #BeMyEyes"
+
  * @b tr@: "Az önce görme engelli birine @bemyeyes uygulaması ile yardımcı oldum #BeMyEyes"
 
  * @b uk@: "I just helped a blind person see with the @bemyeyes app #BeMyEyes"
@@ -26071,6 +28069,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
 
  * @b ar@: "لقد قام للتو أحدٌ بمساعدتي عن طريق برنامج @bemyeyes #BeMyEyes"
 
+ * @b az@: "İndicə kimsə mənə @bemyeyes tətbiqetməsi ilə kömək etdi #BeMyEyes"
+
  * @b ca@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
  * @b cs@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
@@ -26084,6 +28084,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
  * @b en@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
  * @b es@: "Alguien me acaba de ayudar a ver con @bemyeyes app #BeMyEyes"
+
+ * @b et@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
  * @b fi@: "Joku auttoi minua juuri näkemään @bemyeyes -appin avulla #BeMyEyes"
 
@@ -26125,6 +28127,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_HELPER =
 
  * @b sv@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
 
+ * @b th@: "บางคนเพิ่งช่วยฉัน ดูด้วยแอพ Be My Eyes #BeMyEyes"
+
  * @b tr@: "Az önce bir yardımsever @bemyeyes uygulaması ile görmeme yardımcı oldu #BeMyEyes"
 
  * @b uk@: "Someone just helped me see with the @bemyeyes app #BeMyEyes"
@@ -26149,6 +28153,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
 
  * @b ar@: "لقد قمت قبل قليل بمساعدة شخصاً أعمى على ان يرى عن طريق برنامج Be My Eyes"
 
+ * @b az@: "İndicə Be My Eyes tətbiqetməsi ilə görmə əngəlli şəxsə kömək etdim"
+
  * @b ca@: "I just helped a blind person see with the Be My Eyes app"
 
  * @b cs@: "I just helped a blind person see with the Be My Eyes app"
@@ -26162,6 +28168,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
  * @b en@: "I just helped a blind person see with the Be My Eyes app"
 
  * @b es@: "Acabo de ayudar a ver a una persona ciega con Be My Eyes app"
+
+ * @b et@: "I just helped a blind person see with the Be My Eyes app"
 
  * @b fi@: "Autoin juuri sokeaa ihmistä näkemään Be My Eyes -appin avulla"
 
@@ -26203,6 +28211,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_TWITTER_BLIND = 
 
  * @b sv@: "I just helped a blind person see with the Be My Eyes app"
 
+ * @b th@: "ฉันเพิ่งจะช่วยคนมีปัญหาทางสายตาผ่าน Be My Eyes"
+
  * @b tr@: "Az önce görme engelli birine Be My Eyes uygulaması ile yardımcı oldum"
 
  * @b uk@: "I just helped a blind person see with the Be My Eyes app"
@@ -26227,6 +28237,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER =
 
  * @b ar@: "لقد قام للتو شخصٌ بمساعدتي لأرى عن طريق برنامج Be My Eyes"
 
+ * @b az@: "Someone just helped me see with the @bemyeyes app"
+
  * @b ca@: "Someone just helped me see with the Be My Eyes app"
 
  * @b cs@: "Someone just helped me see with the Be My Eyes app"
@@ -26240,6 +28252,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER =
  * @b en@: "Someone just helped me see with the Be My Eyes app"
 
  * @b es@: "Alguien me acaba de ayudar a ver con Be My Eyes app"
+
+ * @b et@: "Someone just helped me see with the Be My Eyes app"
 
  * @b fi@: "Joku auttoi minua juuri näkemään Be My Eyes -appin avulla"
 
@@ -26281,6 +28295,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_HELPER =
 
  * @b sv@: "Someone just helped me see with the Be My Eyes app"
 
+ * @b th@: "เพิ่งจะมีคนช่วยฉันมองผ่าน Be My Eyes"
+
  * @b tr@: "Az önce bir yardımsever Be My eyes uygulaması ile görmeme yardımcı oldu"
 
  * @b uk@: "Someone just helped me see with the Be My Eyes app"
@@ -26305,6 +28321,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND = 
 
  * @b ar@: "إبلاغ"
 
+ * @b az@: "Hesabat"
+
  * @b ca@: "Denunciar"
 
  * @b cs@: "Nahlásit"
@@ -26318,6 +28336,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND = 
  * @b en@: "Report"
 
  * @b es@: "Informe"
+
+ * @b et@: "Teata"
 
  * @b fi@: "Raportoi"
 
@@ -26358,6 +28378,8 @@ static NSString * const POST_CALL_VIEW_CONTROLLER_SHARE_MESSAGE_DEFAULT_BLIND = 
  * @b sr@: "Report"
 
  * @b sv@: "Rapportera"
+
+ * @b th@: "รายงาน"
 
  * @b tr@: "Bildir"
 

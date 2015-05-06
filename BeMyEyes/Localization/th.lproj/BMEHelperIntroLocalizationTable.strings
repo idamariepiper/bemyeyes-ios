@@ -1,0 +1,15 @@
+/* Title of back button */
+"BME_HELPER_INTRO_BACK" = "ย้อนกลับ";
+
+/* Title of continue button */
+"BME_HELPER_INTRO_CONTINUE" = "ไปต่อ";
+
+/* Headline */
+"BME_HELPER_INTRO_HEADLINE" = "ช่วยเหลือคนอื่นได้ง่าย ๆ";
+
+/* Short description */
+"BME_HELPER_INTRO_SHORT_DESCRIPTION" = "ช่วยได้ทุกที่ที่มีเวลา ไม่ว่าคุณจะอยู่ที่ไหน";
+
+/* Long description */
+"BME_HELPER_INTRO_LONG_DESCRIPTION" = "โทรศัพท์คุณต้องเปิดและล็อคอิน Be My Eyes ไว้ เพื่อรอตอบรับการร้องขอความช่วยเหลือ";
+

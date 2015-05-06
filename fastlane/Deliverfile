@@ -42,7 +42,7 @@ baseKeywords = [ "accessible", "blind", "impaired", "help", "vision", "voiceover
 keywords(basey(baseLanguage, baseKeywords, supportedLanguages))
 
 # CHANGELOG
-baseChangelog = "Minor bug fixes."
+baseChangelog = "Added languages Thai, Afrikaans, Azerbaijani, Catalan, Estonian, Lithuanian."
 changelog(basey(baseLanguage, baseChangelog, supportedLanguages))
 
 # DESCRIPTION

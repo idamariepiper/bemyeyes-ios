@@ -1,0 +1,102 @@
+/* Headline of snooze */
+"BME_HELPER_MAIN_SNOOZE_HEADLINE" = "Təxirə sal";
+
+/* Format for snooze status text. %@ is replaced with the snooze amount. */
+"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "%@ qədər təxirə salırsınız";
+
+/* Point description */
+"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Kömək Edilən İnsanlar";
+
+/* Point total description */
+"BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Ümumi xal";
+
+/* Level new helper */
+"BME_HELPER_MAIN_LEVEL_NEW_HELPER" = "Yeni köməkçi";
+
+/* Level promising helper */
+"BME_HELPER_MAIN_LEVEL_PROMISING_HELPER" = "Ümid Verən Köməkçi";
+
+/* Level trusted helper */
+"BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER" = "Etibarlı köməkçi";
+
+/* Level expert helper */
+"BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Təcrübəli köməkçi";
+
+/* Level master helper */
+"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "Usta köməkçi";
+
+/* Level points to next level description */
+"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "Növbəti səviyyəyə qədər %d xal qaldı";
+
+/* Points signup description */
+"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Qeydiyyat uğurlu oldu";
+
+/* Points answer push message description */
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Kömək etməyə çalışdıqları";
+
+/* Points answer push message techinal error description */
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "Kömək etməyə çalışdıqları";
+
+/* Points finish helping request description */
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Bir görmə əngəlli şəxsə kömək edildi";
+
+/* Points finish 10 helping requests in a week description */
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Bir həftədə 10 şəxsə kömək edildi";
+
+/* Points finish 5 high fives in a week description */
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "Bu həftə ərzində 5 əl";
+
+/* Points share on twitter description */
+"BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTION" = "Twitter'də paylaşıldı";
+
+/* Points share on facebook description */
+"BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTION" = "Facebook'da paylaşıldı";
+
+/* Points watch video description */
+"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Baxılmış video";
+
+/* Points make test call description */
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Test zəngi edildi";
+
+/* Task share on twitter description */
+"BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Twitter'də paylaş";
+
+/* Task share on facebook description */
+"BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION" = "Facebook'da paylaş";
+
+/* Task watch video description */
+"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Videoya bax";
+
+/* Task make test call description */
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Test zəngi edin";
+
+/* Community network description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyes Şəbəkəsi";
+
+/* Community network sighted description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Gördü";
+
+/* Community network blind description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Görmə Əngəlli";
+
+/* Community network helped description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "Kömək edildi";
+
+/* Message shown when the point could not be loaded */
+"BME_HELPER_MAIN_LOADING_POINT_FAILED" = "Xal yüklənə bilmədi";
+
+/* Title of button for retrying loading point when failed */
+"BME_HELPER_MAIN_RETRY_LOADING_POINT" = "Yenidən cəhd edin";
+
+/* Snooze status text when not snoozing */
+"BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "İndi aktivsiniz";
+
+/* Option title in actions sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Yenisini çəkin";
+
+/* Option title in action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Mövcud olanı seç";
+
+/* Title of the action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Profil fotoşəkli əlavə et";
+

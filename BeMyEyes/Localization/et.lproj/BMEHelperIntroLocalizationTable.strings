@@ -1,0 +1,15 @@
+/* Title of back button */
+"BME_HELPER_INTRO_BACK" = "Tagasi";
+
+/* Title of continue button */
+"BME_HELPER_INTRO_CONTINUE" = "Jätka";
+
+/* Headline */
+"BME_HELPER_INTRO_HEADLINE" = "Aitamine on lihtne!";
+
+/* Short description */
+"BME_HELPER_INTRO_SHORT_DESCRIPTION" = "Aita kus iganes ja millal iganes sa soovid.";
+
+/* Long description */
+"BME_HELPER_INTRO_LONG_DESCRIPTION" = "Su telefon on avatud kõnedele inimestelt kes vajavad abi, kui oled sisse logitud.";
+

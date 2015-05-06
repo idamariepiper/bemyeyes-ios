@@ -1,0 +1,105 @@
+/* Title of back button */
+"BME_LOGIN_BACK" = "Geri";
+
+/* Placeholder in e-mail field */
+"BME_LOGIN_EMAIL_PLACEHOLDER" = "E-poçt";
+
+/* Placeholder in password field */
+"BME_LOGIN_PASSWORD_PLACEHOLDER" = "Şifrə";
+
+/* Title of log in button */
+"BME_LOGIN_PERFORM_LOG_IN" = "Giriş";
+
+/* Title of log in with Facebook button */
+"BME_LOGIN_FACEBOOK" = "Facebook ilə giriş et";
+
+/* Title of forgot password button */
+"BME_LOGIN_FORGOT_PASSWORD" = "Şifrəmi unutdum";
+
+/* Title of cancel button in alert view shown when a network error occurred during Facebook log in. */
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_CANCEL" = "Oldu";
+
+/* Message in alert view shown when a network error occurred during Facebook log in. */
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_MESSAGE" = "Zəhmət olmasa aktiv internet bağlantınızın olduğunu təsdiqləyib yenidən cəhd edin.";
+
+/* Title in alert view shown when a network error occurred during Facebook log in. */
+"BME_LOGIN_ALERT_FACEBOOK_UNKNOWN_ERROR_TITLE" = "Xəta baş verdi";
+
+/* Title of cancel button in alert view shown when log in to Facebook failed */
+"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_CANCEL" = "Oldu";
+
+/* Message in alert view shown when logging into Facebook but it failed because authentication failed */
+"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_MESSAGE" = "Giriş edilmədi. Zəhmət olmasa yenidən cəhd edin.";
+
+/* Title in alert view shown when log in to Facebook failed */
+"BME_LOGIN_ALERT_FACEBOOK_NOT_LOGGED_IN_TITLE" = "Giriş baş tutmadı";
+
+/* Title of cancel button in alert view shown when Facebook user not found during log in. */
+"BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_CANCEL" = "Oldu";
+
+/* Message in alert view shown when Facebook user not found during log in. */
+"BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_MESSAGE" = "Giriş etməmişdən əvvəl Facebook hesabınız ilə qeydiyyatdan keçməlisiniz.";
+
+/* Title in alert view shown when Facebook user not found during log in. */
+"BME_LOGIN_ALERT_FACEBOOK_USER_NOT_REGISTERED_TITLE" = "Hesab qeydiyyatda deyil";
+
+/* Title of ok button in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_OK" = "Oldu";
+
+/* Message in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_MESSAGE" = "Sistem tənzimləmələrindən Facebook hesabınıza girişi fəallaşdırın.";
+
+/* Title in alert view shown when Facebook access not granted. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCESS_DENIED_TITLE" = "Giriş icazəsizdir";
+
+/* Message in alert view shown when the e-mail or password is empty */
+"BME_LOGIN_ALERT_EMPTY_FIELD_MESSAGE" = "Zəhmət olmasa e-poçtunuzu və şifrənizi daxil edin.";
+
+/* Title of cancel button in alert view show when the e-mail or password is empty */
+"BME_LOGIN_ALERT_EMPTY_FIELDS_CANCEL" = "Oldu";
+
+/* Title in alert view shown when the e-mail or password is empty */
+"BME_LOGIN_ALERT_EMPTY_FIELDS_TITLE" = "Boş sahələr";
+
+/* Title of cancel button in alert view shown when credentials are incorrect. */
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_CANCEL" = "Oldu";
+
+/* Message in alert view shown when credentials are incorrect. */
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_MESSAGE" = "Daxil edilmiş e-poçt və şifrə uyğunlaşmır.";
+
+/* Title in alert view shown when credentials are incorrect. */
+"BME_LOGIN_ALERT_INCORRECT_CREDENTIALS_TITLE" = "Yalnış qeydiyyat məlumatları";
+
+/* Title of cancel button in alert view shown when a network error occurred during e-mail log in. */
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_CANCEL" = "Oldu";
+
+/* Message in alert view shown when a network error occurred. */
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_MESSAGE" = "Zəhmət olmasa aktiv internet bağlantınızın olduğunu təsdiqləyib yenidən cəhd edin.";
+
+/* Title in alert view shown when a network error occurred during e-mail log in. */
+"BME_LOGIN_ALERT_EMAIL_LOGIN_UNKNOWN_ERROR_TITLE" = "Xəta baş verdi";
+
+/* Title in overlay displayed when logging in */
+"BME_LOGIN_OVERLAY_LOGGING_IN_TITLE" = "Giriş edilir...";
+
+/* Title of cancel button in alert view shown when no Facebook account was found. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_CANCEL" = "Oldu";
+
+/* Message in alert view shown when no Facebook account was found. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_MESSAGE" = "Cihazda heç bir Facebook hesabı tapılmadı. Zəhmət olmasa sistem tənzimləmələrindən hesabınızı əlavə edin.";
+
+/* Title in alert view shown when no Facebook account was found. */
+"BME_LOGIN_ALERT_FACEBOOK_ACCOUNT_NOT_FOUND_TITLE" = "Heç bir hesab tapılmadı";
+
+/* Title of cancel button in alert shown when the user is not registered for remote notifications */
+"BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_CANCEL" = "Oldu";
+
+/* Message in alert shown when the user is not registered for remote notifications */
+"BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_MESSAGE" = "Uzaqdan bildirişlər üçün qeydiyyat baş tutmadı. Bu, Be My Eyes tətbiqetməsi üçün lazımdır. Zəhmət olmasa sistem tənzimləmələrinizdə uzaqdan bildirişlərin fəallaşdırıldığından əmin olub yenidən cəhd edin.";
+
+/* Title in alert shown when the user is not registered for remote notifications */
+"BME_LOGIN_ALERT_NOT_REGISTERED_FOR_REMOTE_NOTIFICATIONS_TITLE" = "Giriş uğursuz oldu";
+
+/* Title in overlay displayed while loading pending request */
+"BME_LOGIN_OVERLAY_LOADING_PENDING_REQUEST_TITLE" = "Sorğu yüklənir...";
+

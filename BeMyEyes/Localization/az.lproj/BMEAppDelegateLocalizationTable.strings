@@ -1,0 +1,74 @@
+/* BMEAppDelegate.strings
+  BeMyEyes
+  Created by Simon Støvring on 15/03/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* MEssage in alert view shown if push notifications are not enabled */
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "Anlıq bildirişlər Be My Eyes tətbiqetməsinin ən vacib hissəsidir və buna görə də qeydiyyatdan keçmək üçün anlıq bildirişləri fəallaşdırmalısınız.";
+
+/* Title in alert view shown if push notifications are not enabled */
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "Anlıq bildirişlər fəallaşdırılmayıb";
+
+/* Default name used in alert view shown when a call is received while the app was active. The name is only used if no name is provided in localizable arguments. */
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "Kimsə";
+
+/* Title in alert view shown when a call is received while the app was active */
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE" = "Köməyiniz lazımdır!";
+
+/* Title of cancel button in alert view shown when a call is received while the app was active */
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "İmtina";
+
+/* Message in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "Anlıq bildirişlərin istifadəsi üçün sistem tənzimləmələrindən tətbiqetməyə icazə verməlisiniz.";
+
+/* Title in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "Anlıq bildirişlər fəallaşdırılmayıb";
+
+/* Message in alert view shown when the microphone is disabled */
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "Mikrofonun istifadəsi üçün sistem tənzimləmələrindən tətbiqetməyə icazə verməlisiniz.";
+
+/* Title in alert view shown when the microphone is disabled */
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "Mikrofon fəallaşdırılmayıb";
+
+/* Message in alert view shown when the camera is disabled */
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "Kameranın istifadəsi üçün sistem tənzimləmələrindən tətbiqetməyə icazə verməlisiniz.";
+
+/* Title in alert view shown when the camera is disabled */
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "Kamera fəallaşdırılmayıb";
+
+/* Title of dismiss button in alert view shown when access is disabled */
+"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL" = "Oldu";
+
+/* Title of dismiss button in alert view shown when the access is disabled, but app supports going to settings */
+"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL_CAN_GO_TO_SETTINGS" = "İmtina";
+
+/* Title of ok button in alert view shown when the access is disabled, and app supports going to settings */
+"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_GO_TO_SETTINGS" = "Tənzimləmələrə get";
+
+/* Title of cancel button in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL" = "Oldu";
+
+/* Message in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "Gözlənən sorğu cavablandı ya da görmə əngəlli şəxs tərəfindən imtina edildi ancaq köməyiniz üçün təşəkkür edirik!";
+
+/* Title in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "Sorğu artıq cavablandı ya da imtina edildi";
+
+/* Title of cancel button in alert view shown when the app icon shows a badge but the pending rcould not be loaded */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL" = "Oldu";
+
+/* Message in alert view shown when the app icon shows a badge but the pending request could not be loaded */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "Gözlənən sorğu yüklənə bilmədi. Narahat olmayın, başqası sorğuya cavab verəcək.";
+
+/* Title in alert view shown when the app icon shows a badge but the pending request could not be loaded */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE" = "Sorğu yüklənmədi";
+
+/* Title in overlay displayed while loading pending request */
+"BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE" = "Yüklənir...";
+
+/* Title in alert shown when the device could not register for remote notifications */
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "Qeydiyyatdan keçmədi";
+
+/* Message in alert shown when the device could not register for remote notifications */
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "Cihaz anlıq bildirişləri almaq üçün qeydiyyatdan keçməyib. Bu, tətbiqetmənin yalnış imzalandığı mənasını verə bilər.";
+

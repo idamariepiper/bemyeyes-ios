@@ -1,0 +1,39 @@
+/* 
+  BMEAccessLocalization.strings
+  BeMyEyes
+  Created by Tobias DM on 17/10/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Introductory message for access for notifications, microphone and camera */
+"BME_ACCESS_INTRO_MESSAGE" = "กรุณาเปิดการทำงานดังต่อไปนี้เพื่อเข้าร่วมเครือข่าย Be My Eyes อย่างเต็มรูปแบบ";
+
+/* Title for notifications */
+"BME_ACCESS_NOTIFICATIONS_TITLE" = "การแจ้งเตือน";
+
+/* Explanation for why the helper needs to enable notifications */
+"BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "เมื่อผู้พิการทางสายตาต้องการความช่วยเหลือ เราจะแจ้งเตือนคุณเมื่อมีสายเข้า";
+
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "ตอบรับ";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "ไม่ใช่ตอนนี้";
+
+/* Title for microphone */
+"BME_ACCESS_MICROPHONE_TITLE" = "ไมโครโฟน";
+
+/* Explanation for why the helper needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "เพื่อสามารถคุยและแนะนำผู้พิการทางสายตา";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "เพื่อสามารถอธิบายปัญหาของคุณต่อผู้ให้การช่วยเหลือ";
+
+/* Title for camera */
+"BME_ACCESS_CAMERA_TITLE" = "กล้อง";
+
+/* Explanation for why the helper needs to enable camera access */
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "เราจะไม่ส่งวิดีโอของคุณให้กับผู้รับความช่วยเหลือ แต่มันมีความจำเป็นในการสร้างการเชื่อมต่อ";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "เพื่อแสดงให้ผู้ช่วยเหลือเห็นในสิ่งที่คุณต้องการความช่วยเหลือ";
+

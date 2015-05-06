@@ -1,0 +1,20 @@
+/* 
+  DemoCallViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 22/01/15.
+  Copyright (c) 2015 Be My Eyes. All rights reserved.
+*/
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "Test Zəngi";
+
+"POST_CALL_VIEW_CONTROLLER_CANCEL" = "İmtina";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "Tətbiqetməni tərk etmək üçün əsas ekran düyməsinə basın.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "Tezliklə bildiriş alacaqsınız.";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "Bildirişə toxunun.";
+
+"POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "Kimsə";
+
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "Zəngləri qəbul etmək üçün cihazınızın sistem tənzimləmələrindən Be My Eyes tətbiqetməsi üçün bildirişləri fəallaşdırmalısınız.";
+

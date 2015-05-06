@@ -1,0 +1,51 @@
+/* 
+  BMEMainViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 07/07/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Title of cancel button in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CANCEL" = "ไม่";
+
+/* Title of confirm button in alert view shown when asking the blind if he knows more BME_MAIN_langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_CONFIRM" = "ตกลง ได้เลย";
+
+/* Message in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_MESSAGE" = "ถ้าคุณรู้ภาษาอื่นกรุณาเลือกให้เหมาะสมกับคุณ และการจับคู่กับผู้ช่วยเหลือที่รู้ภาษานั้นจะสามารถช่วยเหลือได้เร็วขึ้น";
+
+/* Title in alert view shown when asking the blind if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_BLIND_TITLE" = "คุณรู้ภาษาอื่นอีกไหม";
+
+/* Title of cancel button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CANCEL" = "ไม่";
+
+/* Title of confirm button in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_CONFIRM" = "ตกลง ได้เลย";
+
+/* Message in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_MESSAGE" = "ถ้าคุณรู้ภาษาอื่นๆ คุณสามารถเลือกได้ และคุณจะจับคู่กับผู้พิการทางสายตาที่ต้องการความช่วยเหลือในภาษานั้น";
+
+/* Title in alert view shown when asking the helper if he knows more langauges */
+"BME_MAIN_ALERT_MORE_LANGAUGES_HELPER_TITLE" = "คุณรู้ภาษาอื่นอีกไหม";
+
+/* Settings button accessibility label */
+"BME_MAIN_SETTINGS_BUTTON_ACCESSIBILITY_LABEL" = "ตั้งค่า";
+
+/* Title of notifications error title in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_TITLE" = "การแจ้งเตือน";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_NOTIFICATIONS_ERROR_MESSAGE" = "มีบางสิ่งผิดพลาด และคุณอาจไม่ได้รับการแจ้งเตือนใดๆ";
+
+/* Title of cancel button in alert view */
+"BME_MAIN_ALERT_CANCEL" = "โอเค";
+
+/* Title of alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_TITLE" = "ล็อคอินผิดพลาด";
+
+/* Message in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_MESSAGE" = "เนื่องจากมีข้อผิดพลาดทางเทคนิค คุณจึงถูกออกจากระบบ";
+
+/* Ok button in alert view when user is forced to logout */
+"BME_MAIN_ALERT_FORCED_LOGOUT_CONFIRM" = "ล็อคอิน";
+

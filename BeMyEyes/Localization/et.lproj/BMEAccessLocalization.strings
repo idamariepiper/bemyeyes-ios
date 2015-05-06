@@ -1,0 +1,39 @@
+/* 
+  BMEAccessLocalization.strings
+  BeMyEyes
+  Created by Tobias DM on 17/10/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* Introductory message for access for notifications, microphone and camera */
+"BME_ACCESS_INTRO_MESSAGE" = "Palun luba järgmised valikud, et täielikult ühineda Be My Eyes võrgustikuga";
+
+/* Title for notifications */
+"BME_ACCESS_NOTIFICATIONS_TITLE" = "Teavitused";
+
+/* Explanation for why the helper needs to enable notifications */
+"BME_ACCESS_NOTIFICATIONS_EXPLANATION_HELPER" = "Kui nägemispuudega inimene vajab abi,anname me sulle saabuvast kõnest märku.";
+
+/* Title for notification action to answer request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_ANSWER" = "Vasta";
+
+/* Title for notification action when _not_ answering request for help */
+"BME_ACCESS_NOTIFICATION_ACTION_DISMISS" = "Mitte praegu";
+
+/* Title for microphone */
+"BME_ACCESS_MICROPHONE_TITLE" = "Mikrofon";
+
+/* Explanation for why the helper needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_HELPER" = "Võimaldamaks sul nägemispuudega inimesega rääkida ja teda juhendada";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_MICROPHONE_EXPLANATION_BLIND" = "Et saaksid oma probleemi abistajale selgitada.";
+
+/* Title for camera */
+"BME_ACCESS_CAMERA_TITLE" = "Kaamera";
+
+/* Explanation for why the helper needs to enable camera access */
+"BME_ACCESS_CAMERA_EXPLANATION_HELPER" = "Me ei saada sinu videopilti inimesele, keda abistad, kuid see on vajalik ühenduse loomiseks.";
+
+/* Explanation for why the blind person needs to enable microphone access */
+"BME_ACCESS_CAMERA_EXPLANATION_BLIND" = "Et saaksid abistajale näidata, millega abi vajad.";
+

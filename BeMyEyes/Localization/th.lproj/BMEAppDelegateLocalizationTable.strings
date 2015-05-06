@@ -1,0 +1,74 @@
+/* BMEAppDelegate.strings
+  BeMyEyes
+  Created by Simon Støvring on 15/03/14.
+  Copyright (c) 2014 Be My Eyes. All rights reserved.
+*/
+/* MEssage in alert view shown if push notifications are not enabled */
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_MESSAGE" = "การแสดงการแจ้งเตือนเป็นส่วนสำคัญของ Be My Eyes คุณจำเป็นต้องเปิดการแจ้งเตือนดังกล่าวเพื่อลงทะเบียน";
+
+/* Title in alert view shown if push notifications are not enabled */
+"BME_APP_DELEGATE_ALERT_PUSH_NOT_ENABLED_TITLE" = "การแจ้งเตือนยังไม่ถูกเปิดใช้งาน";
+
+/* Default name used in alert view shown when a call is received while the app was active. The name is only used if no name is provided in localizable arguments. */
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_DEFAULT_NAME" = "คนคนหนึ่ง";
+
+/* Title in alert view shown when a call is received while the app was active */
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_TITLE" = "ต้องการความช่วยเหลือจากคุณ!!";
+
+/* Title of cancel button in alert view shown when a call is received while the app was active */
+"BME_APP_DELEGATE_ALERT_PUSH_REQUEST_CANCEL" = "ยกเลิก";
+
+/* Message in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_MESSAGE" = "คุณต้องอนุญาติให้แอพพลิเคชันนี้ใช้การแจ้งเตือนแบบพุชในการตั้งค่า";
+
+/* Title in alert view shown when push notifications are disabled */
+"BME_APP_DELEGATE_ALERT_PUSH_DISABLED_TITLE" = "การแจ้งเตือนยังไม่ถูกเปิดใช้งาน";
+
+/* Message in alert view shown when the microphone is disabled */
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_MESSAGE" = "คุณต้องอนุญาติให้แอพพลิเคชันใช้งานไมโครโฟนในการตั้งค่า";
+
+/* Title in alert view shown when the microphone is disabled */
+"BME_APP_DELEGATE_ALERT_MICROPHONE_DISABLED_TITLE" = "ไมโครโฟนยังไม่ถูกเปิดใช้งาน";
+
+/* Message in alert view shown when the camera is disabled */
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_MESSAGE" = "คุณต้องอนุญาติให้แอพพลิเคชันเข้าถึงการใช้งานกล้องของคุณในการตั้งค่าระบบ";
+
+/* Title in alert view shown when the camera is disabled */
+"BME_APP_DELEGATE_ALERT_CAMERA_DISABLED_TITLE" = "กล้องยังไม่ถูกเปิดใช้งาน";
+
+/* Title of dismiss button in alert view shown when access is disabled */
+"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL" = "ตกลง";
+
+/* Title of dismiss button in alert view shown when the access is disabled, but app supports going to settings */
+"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_CANCEL_CAN_GO_TO_SETTINGS" = "ยกเลิก";
+
+/* Title of ok button in alert view shown when the access is disabled, and app supports going to settings */
+"BME_APP_DELEGATE_ALERT_ACCESS_DISABLED_GO_TO_SETTINGS" = "เปิดการตั้งค่า";
+
+/* Title of cancel button in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_MESSAGE" = "คำร้องขอได้ถูกตอบรับไปแล้ว หรือถูกยกเลิกโดนผู้พิการทางสายตาไปแล้ว ขอบคุณสำหรับการช่วยเหลือ!";
+
+/* Title in alert view shown when the app icon shows a badge but the pending request has been answered or cancelled */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_HANDLED_TITLE" = "คำร้องขอได้ถูกตอบรับไปแล้ว หรือถูกยกเลิก";
+
+/* Title of cancel button in alert view shown when the app icon shows a badge but the pending rcould not be loaded */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_CANCEL" = "ตกลง";
+
+/* Message in alert view shown when the app icon shows a badge but the pending request could not be loaded */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_MESSAGE" = "ไม่สามารถโหลดคำร้องขอที่ค้างอยู่ได้ แต่ไม่ต้องเป็นห่วง คนอื่น ๆ จะตอบรับความช่วยเหลือ";
+
+/* Title in alert view shown when the app icon shows a badge but the pending request could not be loaded */
+"BME_APP_DELEGATE_ALERT_PENDING_REQUEST_NOT_LOADED_TITLE" = "คำร้องขอไม่ถูกโหลด";
+
+/* Title in overlay displayed while loading pending request */
+"BME_APP_DELEGATE_OVERLAY_LOADING_PENDING_REQUEST_TITLE" = "กำลังโหลดข้อมูล...";
+
+/* Title in alert shown when the device could not register for remote notifications */
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_TITLE" = "ไม่สามารถลงทะเบียนได้";
+
+/* Message in alert shown when the device could not register for remote notifications */
+"BME_APP_DELEGATE_ALERT_FAILED_REGISTERING_REMOTE_NOTIFICATIONS_MESSAGE" = "อุปกรณ์ไม่สามารถลงทะเบียนเพื่อรับการแจ้งเตือนได้ นี่อาจหมายถึงโปรแกรมของคุณไม่ได้ลงทะเบียนอย่างถูกต้อง";
+

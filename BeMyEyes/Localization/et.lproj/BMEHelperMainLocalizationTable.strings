@@ -1,0 +1,102 @@
+/* Headline of snooze */
+"BME_HELPER_MAIN_SNOOZE_HEADLINE" = "Tukasta";
+
+/* Format for snooze status text. %@ is replaced with the snooze amount. */
+"BME_HELPER_MAIN_SNOOZE_STATUS_TEXT" = "Tukastad järgmised %@";
+
+/* Point description */
+"BME_HELPER_MAIN_HELPED_POINT_DESCRIPTION" = "Inimesi aidatud";
+
+/* Point total description */
+"BME_HELPER_MAIN_TOTAL_POINT_DESCRIPTION" = "Punkte kokku";
+
+/* Level new helper */
+"BME_HELPER_MAIN_LEVEL_NEW_HELPER" = "Uus abistaja";
+
+/* Level promising helper */
+"BME_HELPER_MAIN_LEVEL_PROMISING_HELPER" = "Paljutõotav abistaja";
+
+/* Level trusted helper */
+"BME_HELPER_MAIN_LEVEL_TRUSTED_HELPER" = "Usaldusväärne abistaja";
+
+/* Level expert helper */
+"BME_HELPER_MAIN_LEVEL_EXPERT_HELPER" = "Ekspertabistaja";
+
+/* Level master helper */
+"BME_HELPER_MAIN_LEVEL_MASTER_HELPER" = "suurmeister-abistaja";
+
+/* Level points to next level description */
+"BME_HELPER_MAIN_LEVEL_POINTS_NEXT_DESCRIPTION" = "%d punkti järgmise tasemeni";
+
+/* Points signup description */
+"BME_HELPER_MAIN_POINTS_ENTRY_SIGNUP_DESCRIPTION" = "Edukas liitumine";
+
+/* Points answer push message description */
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_DESCRIPTION" = "Abistamiskatse";
+
+/* Points answer push message techinal error description */
+"BME_HELPER_MAIN_POINTS_ENTRY_ANSWER_PUSH_MESSAGE_TECHNICAL_ERROR_DESCRIPTION" = "Abistamiskatse";
+
+/* Points finish helping request description */
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_HELPING_REQUEST_DESCRIPTION" = "Aitas nägemispuudega inimest";
+
+/* Points finish 10 helping requests in a week description */
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_10_HELPING_REQUESTS_IN_A_WEEK_DESCRIPTION" = "Nädalaga 10 aitamist";
+
+/* Points finish 5 high fives in a week description */
+"BME_HELPER_MAIN_POINTS_ENTRY_FINISH_5_HIGH_FIVES_IN_A_WEEK_DESCRIPTION" = "5 tänamist nädalaga";
+
+/* Points share on twitter description */
+"BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_TWITTER_DESCRIPTION" = "Jagatud Twitteris";
+
+/* Points share on facebook description */
+"BME_HELPER_MAIN_POINTS_ENTRY_SHARE_ON_FACEBOOK_DESCRIPTION" = "Jagatud Facebookis";
+
+/* Points watch video description */
+"BME_HELPER_MAIN_POINTS_ENTRY_WATCH_VIDEO_DESCRIPTION" = "Vaadatud videot";
+
+/* Points make test call description */
+"BME_HELPER_MAIN_POINTS_ENTRY_MAKE_TEST_CALL_DESCRIPTION" = "Made test call";
+
+/* Task share on twitter description */
+"BME_HELPER_MAIN_TASK_SHARE_ON_TWITTER_DESCRIPTION" = "Jaga Twitteris";
+
+/* Task share on facebook description */
+"BME_HELPER_MAIN_TASK_SHARE_ON_FACEBOOK_DESCRIPTION" = "Jaga Facebookis";
+
+/* Task watch video description */
+"BME_HELPER_MAIN_TASK_WATCH_VIDEO_DESCRIPTION" = "Vaata videot";
+
+/* Task make test call description */
+"BME_HELPER_MAIN_TASK_MAKE_TEST_CALL_DESCRIPTION" = "Make test call";
+
+/* Community network description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_DESCRIPTION" = "Be My Eyes võrgustik";
+
+/* Community network sighted description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_SIGHTED" = "Nägijaid";
+
+/* Community network blind description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_BLIND" = "Pime";
+
+/* Community network helped description */
+"BME_HELPER_MAIN_COMMUNITY_NETWORK_HELPED" = "Aidatud";
+
+/* Message shown when the point could not be loaded */
+"BME_HELPER_MAIN_LOADING_POINT_FAILED" = "Ei suutnud punkte laadida";
+
+/* Title of button for retrying loading point when failed */
+"BME_HELPER_MAIN_RETRY_LOADING_POINT" = "Proovi Uuesti";
+
+/* Snooze status text when not snoozing */
+"BME_HELPER_MAIN_SNOOZE_STATUS_NOT_SNOOZING_TEXT" = "Oled hetkel aktiivne";
+
+/* Option title in actions sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_TAKE_NEW" = "Take new";
+
+/* Option title in action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_CHOOSE_EXISTING" = "Choose existing";
+
+/* Title of the action sheet displayed when the profile image view is tapped */
+"BME_HELPER_MAIN_PROFILE_PHOTO_ACTION_SHEET_TITLE" = "Add profile photo";
+

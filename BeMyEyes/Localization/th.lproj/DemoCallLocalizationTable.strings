@@ -1,0 +1,20 @@
+/* 
+  DemoCallViewController.strings
+  BeMyEyes
+  Created by Simon Støvring on 22/01/15.
+  Copyright (c) 2015 Be My Eyes. All rights reserved.
+*/
+"POST_CALL_VIEW_CONTROLLER_TITLE" = "ทดสอบการใช้งาน";
+
+"POST_CALL_VIEW_CONTROLLER_CANCEL" = "ยกเลิก";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_1" = "กดปุ่มโฮมเพื่อออกจากแอพ";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_2" = "คุณจะได้รับการแจ้งเตือนในไม่ช้า";
+
+"POST_CALL_VIEW_CONTROLLER_STEP_3" = "กดที่การแจ้งเตือน";
+
+"POST_CALL_VIEW_CONTROLLER_BLIND_NAME" = "คนคนหนึ่ง";
+
+"POST_CALL_VIEW_CONTROLLER_ENABLE_NOTIFICATIONS" = "เพื่อที่จะรับสายคุณต้องเปิดใช้งานการแจ้งเตือนสำหรับแอพ Be My Eyes ในการตั้งค่าระบบบนอุปกรณ์ของคุณ";
+
