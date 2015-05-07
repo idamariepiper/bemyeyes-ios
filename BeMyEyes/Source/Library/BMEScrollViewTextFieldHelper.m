@@ -38,6 +38,9 @@
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     
+    if (self.scrollView.delegate == self) {
+        self.scrollView.delegate = nil;
+    }
     self.activeView = nil;
 }
 
