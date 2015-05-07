@@ -1,12 +1,13 @@
 module Fastlane
   module Actions
     module SharedValues
-      CROWDIN_PROJECT_KEY_CUSTOM_VALUE = :CROWDIN_PROJECT_KEY_CUSTOM_VALUE
+      GET_GLOBAL_VALUE_CUSTOM_VALUE = :GET_GLOBAL_VALUE_CUSTOM_VALUE
     end
 
-    class CrowdinProjectKeyAction < Action
+    class GetGlobalValueAction < Action
       def self.run(params)
-        Actions.lane_context[SharedValues::CROWDIN_PROJECT_KEY_CUSTOM_VALUE] = projectKey()
+        key = params[:key]
+        Actions.lane_context[SharedValues::GET_GLOBAL_VALUE_CUSTOM_VALUE] = self.projectKey(key)
       end
 
 
@@ -16,24 +17,23 @@ module Fastlane
       #####################################################
 
       def self.description
-        "Finds the CrowdIn project key in BMEGlobale.h"
+        "A short description with <= 80 characters of what this action does"
       end
 
       def self.available_options
         # Define all options your action supports. 
         # The environment variable (last parameters) is optional, remove it if you don't need it
         # You can add as many parameters as you want
-        # [
-        #   ['path', 'Describe what this parameter is useful for', 'ENVIRONMENT_VARIABLE_NAME'],
-        #   ['second', 'Describe what this parameter is useful for']
-        # ]
+        [
+          ['key', 'The key for which to find a value'],
+        ]
       end
 
       def self.output
         # Define the shared values you are going to provide
         # Example
         [
-          ['CROWDIN_PROJECT_KEY_CUSTOM_VALUE', 'A description of what this value contains']
+          ['GET_GLOBAL_VALUE_CUSTOM_VALUE', 'A description of what this value contains']
         ]
       end
 
@@ -42,13 +42,13 @@ module Fastlane
         'duemunk'
       end
       
-      def self.projectKey
+      def self.projectKey(aKey)
         projectKey = ''
         filename = "./BeMyEyes/Source/BMEGlobal.h"
         File.open(filename, "r:UTF-8") do |f|
           contents = f.read
           contents.scan(/\#define\s([^\s]*)\s@\"([^\"]*)\"/) do |key, value|
-            if key == "BMECrowdInProjectKey"
+            if key == aKey
               projectKey = value
             end
           end

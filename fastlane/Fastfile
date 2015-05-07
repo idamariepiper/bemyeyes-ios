@@ -7,17 +7,16 @@
 
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
-fastlane_version "0.5.0"
+fastlane_version "1.0.0"
 
 before_all do
-  # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+  slack_url = get_global_value(key: "BMESlackUrl")
+  ENV["SLACK_URL"] = slack_url
   ENV["BME_APP_TITLE"] = "Be My Eyes – Helping blind see"
 
   # sh "./customShellScript.sh"
 
   # cocoapods
-
-  # increment_build_number
 
   # xctool
 end
@@ -52,8 +51,8 @@ lane :increment_version_major do
   commit_version_bump
 end
 
-lane :translations do
-  projectKey = crowdin_project_key
+lane :translate do
+  projectKey = get_global_value(key: "BMECrowdInProjectKey")
   Helper.log.info "Update English files on CrowdIn"
   sh "./../Scripts/upload_translations.py #{projectKey} -u"
   Helper.log.info "Add new English files on CrowdIn"
@@ -78,11 +77,7 @@ lane :beta_dev do
   )
   slack(
     message: "New Development (Alpha) version pushed to TestFlight.",
-    channel: "#appstore",
-    payload: {            # Optional, lets you specify any number of your own Slack attachments.
-      'Build Date' => Time.new.to_s,
-    },
-    default_payloads: [:git_branch, :git_author] # Optional, lets you specify a whitelist of default payloads to include. Pass an empty array to suppress all the default payloads. Don't add this key, or pass nil, if you want all the default payloads. The available default payloads are: `lane`, `test_result`, `git_branch`, `git_author`, `last_git_commit`.
+    default_payloads: [:git_branch, :git_author]
   )
 end
 
@@ -95,6 +90,10 @@ lane :beta_staging do
   deliver(
      beta: true
   )
+  slack(
+    message: "New Staging (Beta) version pushed to TestFlight.",
+    default_payloads: [:git_branch, :git_author]
+  )
 end
 
 lane :beta_production do
@@ -104,6 +103,10 @@ lane :beta_production do
   })
   deliver(
     beta: true
+  )
+  slack(
+    message: "New Production version pushed to TestFlight.",
+    default_payloads: [:git_branch, :git_author]
   )
 end
 
@@ -115,6 +118,10 @@ lane :production do
   deliver(
     skip_deploy: true
   )
+  slack(
+    message: "New Production version pushed to App Store.",
+    default_payloads: [:git_branch, :git_author]
+  )
 end
 
 lane :inhouse do
@@ -124,12 +131,6 @@ end
 # You can define as many lanes as you want
 
 after_all do |lane|
-  # This block is called, only if the executed lane was successful
-  # slack({
-  #   message: "Successfully deployed new App Update for [App](http://link.com).",
-  #   success: true,
-  #   channel: 'development'
-  # })
   notify "Fastlane finished '#{lane}'" 
 end
 
