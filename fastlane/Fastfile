@@ -13,16 +13,6 @@ before_all do
   slack_url = get_global_value(key: "BMESlackUrl")
   ENV["SLACK_URL"] = slack_url
   ENV["BME_APP_TITLE"] = "Be My Eyes – Helping blind see"
-
-  # sh "./customShellScript.sh"
-
-  # cocoapods
-
-  # xctool
-end
-
-lane :test do
-  # snapshot
 end
 
 lane :increment_build do 
@@ -67,14 +57,13 @@ lane :translate do
 end
 
 lane :beta_dev do
-  ipa({
+  ipa(
     scheme: "BeMyEyes Development",
     configuration: "ReleaseDev",
-  })
-  ENV["BME_APP_TITLE"] = "Be My Eyes – Alpha"
-  deliver(
-    beta: true
   )
+  ENV["BME_APP_TITLE"] = "Be My Eyes – Alpha"
+  deliver(beta: true)
+  
   slack(
     message: "New Development (Alpha) version pushed to TestFlight.",
     default_payloads: [:git_branch, :git_author]
@@ -82,10 +71,10 @@ lane :beta_dev do
 end
 
 lane :beta_staging do
-  ipa({
+  ipa(
     scheme: "BeMyEyes Staging",
     configuration: "ReleaseStaging",
-  })
+  )
   ENV["BME_APP_TITLE"] = "Be My Eyes – Beta"
   deliver(
      beta: true
@@ -97,10 +86,10 @@ lane :beta_staging do
 end
 
 lane :beta_production do
-  ipa({
+  ipa(
     scheme: "BeMyEyes",
     configuration: "Release",
-  })
+  )
   deliver(
     beta: true
   )
@@ -111,10 +100,10 @@ lane :beta_production do
 end
 
 lane :production do
-  ipa({
+  ipa(
     scheme: "BeMyEyes",
     configuration: "Release",
-  })
+  )
   deliver(
     skip_deploy: true
   )
@@ -124,14 +113,9 @@ lane :production do
   )
 end
 
-lane :inhouse do
-  # insert your code here
-end
-
-# You can define as many lanes as you want
 
 after_all do |lane|
-  notify "Fastlane finished '#{lane}'" 
+  notify "Fastlane finished '#{lane}'" # Mac OS X Notification
 end
 
 
