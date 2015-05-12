@@ -66,33 +66,5 @@ description(descriptionHash)
 supportedLanguages.each { |key, value|
   FileUtils.cp_r "./screenshots/" + baseLanguage + "/.", "./screenshots/" + key
 }
-# This folder has to include one folder for each language
-# More information about automatic screenshot upload: 
-# https://github.com/KrauseFx/deliver#upload-screenshots-to-itunes-connect
+
 screenshots_path "./screenshots/"
-
-###################### IPA File ######################
-# This part is only relevant, if you want to submit a new binary
-# If you don't use fastlane (https://github.com/KrauseFx/fastlane)
-# you can set the path to your ipa file using:
-# ipa "./app.ipa"
-
-# to provide an ipa file for TestFlight distribution, use beta_ipa 
-# beta_ipa "./../BeMyEyes.ipa"
-
-# The version of your app - remove this if you provide an ipa file
-# version "1.4.1"
-
-###################### More Options ######################
-# If you want to have even more control, check out the documentation
-# https://github.com/KrauseFx/deliver/blob/master/Deliverfile.md
-
-
-###################### Automatically generated ######################
-# Feel free to remove the following lines if you use fastlane
-
-# app_identifier "org.bemyeyes.BeMyEyes" # The bundle identifier of your app
-# apple_id "905177575" # This is NOT your Apple login ID, but the App ID of your app
-# email "apple_company@bemyeyes.org" # the login email addressbaseLanguage = "en-US"
-
-
