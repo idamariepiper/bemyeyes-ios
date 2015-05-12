@@ -67,3 +67,4 @@ supportedLanguages.each { |key, value|
   FileUtils.cp_r "./screenshots/" + baseLanguage + "/.", "./screenshots/" + key
 }
 
+screenshots_path "./screenshots/"
