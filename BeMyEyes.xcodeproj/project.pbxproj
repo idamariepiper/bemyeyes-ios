@@ -97,7 +97,6 @@
 		7236DFFE18B8A87B00F622AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7236DFFD18B8A87B00F622AA /* Foundation.framework */; };
 		7236E00018B8A87B00F622AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7236DFFF18B8A87B00F622AA /* CoreGraphics.framework */; };
 		7236E00218B8A87B00F622AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7236E00118B8A87B00F622AA /* UIKit.framework */; };
-		7236E00818B8A87B00F622AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7236E00618B8A87B00F622AA /* InfoPlist.strings */; };
 		7236E00A18B8A87B00F622AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7236E00918B8A87B00F622AA /* main.m */; };
 		7236E01118B8A87B00F622AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7236E00F18B8A87B00F622AA /* Main.storyboard */; };
 		7236E01618B8A87B00F622AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7236E01518B8A87B00F622AA /* Images.xcassets */; };
@@ -1312,8 +1311,7 @@
 		7236DFFD18B8A87B00F622AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7236DFFF18B8A87B00F622AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7236E00118B8A87B00F622AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7236E00518B8A87B00F622AA /* BeMyEyes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeMyEyes-Info.plist"; sourceTree = "<group>"; };
-		7236E00718B8A87B00F622AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7236E00518B8A87B00F622AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7236E00918B8A87B00F622AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7236E00B18B8A87B00F622AA /* BeMyEyes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeMyEyes-Prefix.pch"; sourceTree = "<group>"; };
 		7236E01018B8A87B00F622AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -1663,8 +1661,7 @@
 			isa = PBXGroup;
 			children = (
 				7262301918BA3B49006F388C /* Localizable */,
-				7236E00518B8A87B00F622AA /* BeMyEyes-Info.plist */,
-				7236E00618B8A87B00F622AA /* InfoPlist.strings */,
+				7236E00518B8A87B00F622AA /* Info.plist */,
 				7236E00918B8A87B00F622AA /* main.m */,
 				7236E00B18B8A87B00F622AA /* BeMyEyes-Prefix.pch */,
 				4E7A85C41A0C49DB0006BDC8 /* Config.debug.xcconfig */,
@@ -2114,7 +2111,6 @@
 				72E65F9E18BA7A35002FB2E0 /* BMESignUpLocalizationTable.strings in Resources */,
 				4ED265B21A94AB0200A3779D /* demo.mp4 in Resources */,
 				7236E01618B8A87B00F622AA /* Images.xcassets in Resources */,
-				7236E00818B8A87B00F622AA /* InfoPlist.strings in Resources */,
 				72856DEF19AF71CB0027AFF5 /* BMESecretSettingsLocalizationTable.strings in Resources */,
 				4EE157E81A6B396800178F9F /* cut_2.wav in Resources */,
 				4EE157EC1A6B396800178F9F /* cut_10.wav in Resources */,
@@ -2698,15 +2694,6 @@
 				4E5BEA311AFA61D400AAB2B9 /* lt */,
 			);
 			name = HelperWelcomeLocalizationTable.strings;
-			path = Localization;
-			sourceTree = "<group>";
-		};
-		7236E00618B8A87B00F622AA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7236E00718B8A87B00F622AA /* en */,
-			);
-			name = InfoPlist.strings;
 			path = Localization;
 			sourceTree = "<group>";
 		};
@@ -3666,6 +3653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
@@ -3693,7 +3681,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
-				INFOPLIST_FILE = "BeMyEyes/BeMyEyes-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BeMyEyes/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3731,6 +3719,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
@@ -3759,7 +3748,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
-				INFOPLIST_FILE = "BeMyEyes/BeMyEyes-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BeMyEyes/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3797,6 +3786,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
@@ -3825,7 +3815,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
-				INFOPLIST_FILE = "BeMyEyes/BeMyEyes-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BeMyEyes/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3861,6 +3851,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
@@ -3888,7 +3879,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
-				INFOPLIST_FILE = "BeMyEyes/BeMyEyes-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BeMyEyes/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4143,6 +4134,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
@@ -4174,6 +4166,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				SDKROOT = iphoneos;
@@ -4201,7 +4194,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
-				INFOPLIST_FILE = "BeMyEyes/BeMyEyes-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BeMyEyes/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4234,7 +4227,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeMyEyes/BeMyEyes-Prefix.pch";
-				INFOPLIST_FILE = "BeMyEyes/BeMyEyes-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BeMyEyes/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
