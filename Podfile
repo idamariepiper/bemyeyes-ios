@@ -18,7 +18,7 @@ def import_pods
     pod 'MiawKit', '~> 1.2'
     pod 'FormatterKit', '~> 1.7.1'
     pod 'KeepLayout', :git => 'https://github.com/iMartinKiss/KeepLayout.git'
-    pod 'CrashlyticsFramework',
+    pod 'CrashlyticsFramework'
     pod 'SDWebImage', '~>3.6'
     pod 'Reveal-iOS-SDK', :configurations => ['Debug']
 end
