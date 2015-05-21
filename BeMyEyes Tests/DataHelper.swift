@@ -54,9 +54,9 @@ extension BMECommunityStats {
     
     class func idealStats() -> BMECommunityStats {
         var stats = BMECommunityStats()
-        stats.sighted = 151845
-        stats.blind = 14965
-        stats.helped = 48452
+        stats.sighted = 218711
+        stats.blind = 19053
+        stats.helped = 75888
         return stats
     }
 }
