@@ -34,6 +34,7 @@ The translations are crowd sourced at [crowdin](http://crowdin.com/project/bemye
 - Croation is `hr`
 - Greek is `el`
 - Urdu is `ur-PK`
+- ['af','ar','az','ca','cs','da','de','el','es-ES','et','fi','fr','he','hi','hr','hu','lt','ja','ko','it','nl','no', 'nb','pl','pt-BR','pt-PT','ro','ru','sk','sr','sv-SE','th','tr','uk','ur-PK','vi','zh-TW','zh-CN']
 
 ### Language scripts
 The `Scripts` folder contains useful scripts that automate the process of maintaining language translations. All of them require CrowdIn API key to work properly.
